@@ -1,0 +1,17 @@
+id: bay-of-pigs-invasion-1961--led_to--cuban-missile-crisis-1962
+from: bay-of-pigs-invasion-1961
+to: cuban-missile-crisis-1962
+type: led_to
+confidence: documented
+note: Fear of another invasion is one reason Castro accepts Soviet missiles.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Cuban Missile Crisis''. Not yet checked that it makes
+    this claim.'

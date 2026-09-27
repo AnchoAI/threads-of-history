@@ -1,0 +1,29 @@
+id: gulf-war-1990
+title: Gulf War; US troops in Saudi Arabia
+summary: Iraq invades Kuwait. The US bases troops in Saudi Arabia, which bin Laden later names as a main
+  grievance.
+occurred:
+  start: 1990-08
+  precision: month
+threads:
+- mideast
+- energy
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- iraq
+- united-states
+- saudi-arabia
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Gulf_War
+  title: Gulf War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

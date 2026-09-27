@@ -1,0 +1,26 @@
+id: muslim-brotherhood-founded-1928
+title: Muslim Brotherhood founded
+summary: Hassan al-Banna founds the movement in Egypt. It becomes the root of much of modern political
+  Islam, from mainstream parties to later militant offshoots.
+occurred:
+  start: 1928-03
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- hassan-al-banna
+- muslim-brotherhood
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Muslim_Brotherhood
+  title: Muslim Brotherhood
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

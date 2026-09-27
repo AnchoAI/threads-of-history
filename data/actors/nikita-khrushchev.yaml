@@ -1,0 +1,23 @@
+id: nikita-khrushchev
+title: Nikita Khrushchev
+actor_type: person
+summary: Leader of the Soviet Union from the mid-1950s until 1964.
+occurred:
+  start: '1894'
+  precision: year
+  end: '1971'
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Nikita_Khrushchev
+  title: Nikita Khrushchev
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

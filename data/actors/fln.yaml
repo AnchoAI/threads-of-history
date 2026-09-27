@@ -1,0 +1,23 @@
+id: fln
+title: National Liberation Front (FLN)
+actor_type: organization
+summary: Algerian nationalist movement that led the war of independence against France.
+occurred:
+  start: '1954'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/National_Liberation_Front_(Algeria)
+  title: National Liberation Front (Algeria)
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

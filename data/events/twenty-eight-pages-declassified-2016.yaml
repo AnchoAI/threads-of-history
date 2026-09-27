@@ -1,0 +1,29 @@
+id: twenty-eight-pages-declassified-2016
+title: '''28 pages'' declassified'
+summary: A long-secret section of the 2002 congressional 9/11 inquiry on possible Saudi government links
+  to the hijackers is released. What it shows is disputed.
+occurred:
+  start: 2016-07
+  precision: month
+threads:
+- intel
+- mideast
+regions:
+- americas
+- middle-east-north-africa
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Joint_Inquiry_into_Intelligence_Community_Activities_before_and_after_the_Terrorist_Attacks_of_September_11,_2001
+  title: Joint Inquiry into Intelligence Community Activities before and after the Terrorist Attacks of
+    September 11, 2001
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The prototype had no source. The Joint Inquiry article was added as a likely one; check the URL and
+    content.
+  - The pages were written in 2002; the date here is their release.

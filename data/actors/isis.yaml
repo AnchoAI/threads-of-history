@@ -1,0 +1,20 @@
+id: isis
+title: Islamic State (ISIS)
+actor_type: organization
+summary: Jihadist group that declared a caliphate in Iraq and Syria in 2014.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Islamic_State
+  title: Islamic State
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Its founding date depends on which predecessor group is counted. Left blank on purpose.

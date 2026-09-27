@@ -1,0 +1,24 @@
+id: brexit-referendum-2016
+title: Brexit vote
+summary: Britain votes to leave the EU. Immigration is one of the campaign's main issues.
+occurred:
+  start: 2016-06
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+actors:
+- united-kingdom
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Brexit
+  title: Brexit
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,26 @@
+id: moscow-washington-hotline-1963
+title: Moscow–Washington hotline
+summary: A direct link is set up so the leaders can talk in a crisis instead of signalling through intermediaries.
+occurred:
+  start: 1963-06
+  precision: month
+threads:
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- soviet-union
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline
+  title: Moscow–Washington hotline
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

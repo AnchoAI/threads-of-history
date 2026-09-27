@@ -1,0 +1,29 @@
+id: church-committee-1975
+title: Church Committee
+summary: A Senate inquiry exposes CIA plots to assassinate Castro and other abuses. It also finds the
+  agencies' support for the Kennedy investigation was deficient.
+occurred:
+  start: 1975-06
+  precision: month
+threads:
+- intel
+- cuba
+regions:
+- americas
+actors:
+- church-committee
+- cia
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Church_Committee
+  title: Church Committee
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The committee sat in 1975 and 1976 and published reports on different dates. Match the date to the
+    report cited.

@@ -1,0 +1,25 @@
+id: 9-11-commission-report-2004
+title: 9/11 Commission Report
+summary: Details the plot and the intelligence failures. Finds no operational relationship between Iraq
+  and al-Qaeda.
+occurred:
+  start: 2004-07
+  precision: month
+threads:
+- intel
+regions:
+- americas
+actors:
+- 9-11-commission
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/9/11_Commission_Report
+  title: 11 Commission Report
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

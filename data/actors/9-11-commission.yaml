@@ -1,0 +1,23 @@
+id: 9-11-commission
+title: 9/11 Commission
+actor_type: organization
+summary: Independent US commission that investigated the September 11 attacks.
+occurred:
+  start: '2002'
+  precision: year
+  end: '2004'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/9/11_Commission
+  title: 11 Commission
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

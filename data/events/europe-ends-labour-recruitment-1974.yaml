@@ -1,0 +1,29 @@
+id: europe-ends-labour-recruitment-1974
+title: Europe stops recruiting foreign workers
+summary: After the oil shock, West Germany (1973) and France (1974) end labour recruitment. Family reunification
+  continues, so settled communities keep growing.
+occurred:
+  start: 1974-07
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+actors:
+- west-germany
+- france
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Gastarbeiter
+  title: Gastarbeiter
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - West Germany stopped recruiting in November 1973 and France in July 1974. The date is France's; consider
+    two items.
+  - The prototype had no source. The Gastarbeiter article was added as a likely one for the German side.

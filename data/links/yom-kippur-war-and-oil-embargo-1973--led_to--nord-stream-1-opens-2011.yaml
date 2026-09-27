@@ -1,0 +1,29 @@
+id: yom-kippur-war-and-oil-embargo-1973--led_to--nord-stream-1-opens-2011
+from: yom-kippur-war-and-oil-embargo-1973
+to: nord-stream-1-opens-2011
+type: led_to
+confidence: contested
+note: The embargo pushes Europe to diversify away from Middle East oil, including toward Soviet gas. How
+  much it drove later pipelines is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream
+  title: Nord Stream
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The oil embargo pushed Europe toward Soviet gas, leading in the long run to Nord Stream.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: The later pipelines had other, more direct causes.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Nord Stream''. Not yet checked that it makes this
+    claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

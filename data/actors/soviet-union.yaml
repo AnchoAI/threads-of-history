@@ -1,0 +1,23 @@
+id: soviet-union
+title: Soviet Union
+actor_type: state
+summary: Communist state that dissolved in 1991.
+occurred:
+  start: '1922'
+  precision: year
+  end: '1991'
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet_Union
+  title: Soviet Union
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

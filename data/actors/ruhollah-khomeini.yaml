@@ -1,0 +1,24 @@
+id: ruhollah-khomeini
+title: Ruhollah Khomeini
+actor_type: person
+summary: Iranian cleric who led the 1979 revolution and became Iran's Supreme Leader.
+occurred:
+  start: '1902'
+  precision: year
+  end: '1989'
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Ruhollah_Khomeini
+  title: Ruhollah Khomeini
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - His birth year is given differently in different sources.

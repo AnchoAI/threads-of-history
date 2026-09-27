@@ -1,0 +1,17 @@
+id: iranian-revolution-1979--led_to--rushdie-fatwa-1989
+from: iranian-revolution-1979
+to: rushdie-fatwa-1989
+type: led_to
+confidence: documented
+note: Khomeini issues the fatwa.
+sources:
+- url: https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy
+  title: The Satanic Verses controversy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''The Satanic Verses controversy''. Not yet checked
+    that it makes this claim.'

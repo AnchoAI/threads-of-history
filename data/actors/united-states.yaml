@@ -1,0 +1,19 @@
+id: united-states
+title: United States
+actor_type: state
+summary: Federal republic in North America.
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/United_States
+  title: United States
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

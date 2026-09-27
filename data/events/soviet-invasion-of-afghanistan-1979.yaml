@@ -1,0 +1,32 @@
+id: soviet-invasion-of-afghanistan-1979
+title: Soviet invasion of Afghanistan
+summary: The CIA, Saudi Arabia and Pakistan fund the Afghan resistance for a decade. Thousands of foreign
+  Arab volunteers join the fight.
+occurred:
+  start: 1979-12
+  precision: month
+threads:
+- mideast
+- usru
+- intel
+regions:
+- south-central-asia
+- russia-eastern-europe
+actors:
+- soviet-union
+- cia
+- pakistan
+- saudi-arabia
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War
+  title: Soviet–Afghan War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The number of foreign volunteers needs a source.

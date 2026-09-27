@@ -1,0 +1,23 @@
+id: iraq-inquiry
+title: Iraq Inquiry (Chilcot inquiry)
+actor_type: organization
+summary: UK public inquiry into the country's role in the Iraq war.
+occurred:
+  start: '2009'
+  precision: year
+  end: '2016'
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_Inquiry
+  title: Iraq Inquiry
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

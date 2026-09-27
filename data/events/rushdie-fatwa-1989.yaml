@@ -1,0 +1,28 @@
+id: rushdie-fatwa-1989
+title: Rushdie fatwa
+summary: Khomeini calls for the killing of Salman Rushdie over The Satanic Verses. Book burnings in Britain
+  mark Europe's first big clash over Islam and free speech.
+occurred:
+  start: 1989-02
+  precision: month
+threads:
+- mideast
+- migration
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- ruhollah-khomeini
+- salman-rushdie
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy
+  title: The Satanic Verses controversy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

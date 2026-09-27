@@ -1,0 +1,26 @@
+id: us-leaves-inf-treaty-2019
+title: US leaves INF Treaty
+summary: The US withdraws, citing Russian violations. The treaty ends.
+occurred:
+  start: 2019-08
+  precision: month
+threads:
+- nuclear
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty
+  title: Intermediate-Range Nuclear Forces Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

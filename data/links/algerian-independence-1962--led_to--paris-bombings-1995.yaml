@@ -1,0 +1,17 @@
+id: algerian-independence-1962--led_to--paris-bombings-1995
+from: algerian-independence-1962
+to: paris-bombings-1995
+type: led_to
+confidence: documented
+note: The GIA attacks France for backing Algeria's government, a relationship rooted in the colonial era.
+sources:
+- url: https://en.wikipedia.org/wiki/1995_France_bombings
+  title: 1995 France bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''1995 France bombings''. Not yet checked that it makes
+    this claim.'

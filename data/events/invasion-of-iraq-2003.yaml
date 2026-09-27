@@ -1,0 +1,30 @@
+id: invasion-of-iraq-2003
+title: Iraq invasion
+summary: US-led invasion justified by claims of weapons of mass destruction that were never found. The
+  occupation is followed by years of insurgency.
+occurred:
+  start: 2003-03
+  precision: month
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+- western-europe
+actors:
+- united-states
+- united-kingdom
+- iraq
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_War
+  title: Iraq War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,23 @@
+id: french-riots-2005
+title: French banlieue riots
+summary: Three weeks of rioting in poor suburbs, many home to families of North and West African origin,
+  after two teenagers die fleeing police.
+occurred:
+  start: 2005-10
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/2005_French_riots
+  title: 2005 French riots
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

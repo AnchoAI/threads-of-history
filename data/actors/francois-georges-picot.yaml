@@ -1,0 +1,23 @@
+id: francois-georges-picot
+title: François Georges-Picot
+actor_type: person
+summary: French diplomat who negotiated the 1916 agreement with Britain.
+occurred:
+  start: '1870'
+  precision: year
+  end: '1951'
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Georges-Picot
+  title: François Georges-Picot
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

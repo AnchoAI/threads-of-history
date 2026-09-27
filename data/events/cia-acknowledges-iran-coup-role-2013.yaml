@@ -1,0 +1,26 @@
+id: cia-acknowledges-iran-coup-role-2013
+title: CIA acknowledges 1953 coup role
+summary: Declassified documents publicly confirm the CIA's role in the Iran coup for the first time.
+occurred:
+  start: 2013-08
+  precision: month
+threads:
+- intel
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- cia
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat
+  title: 1953 Iranian coup d'état
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The US role was acknowledged in other ways before 2013. Check what was new in 2013.

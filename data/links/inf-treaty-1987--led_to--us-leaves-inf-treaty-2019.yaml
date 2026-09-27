@@ -1,0 +1,17 @@
+id: inf-treaty-1987--led_to--us-leaves-inf-treaty-2019
+from: inf-treaty-1987
+to: us-leaves-inf-treaty-2019
+type: led_to
+confidence: documented
+note: The treaty that ends in 2019.
+sources:
+- url: https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty
+  title: Intermediate-Range Nuclear Forces Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Intermediate-Range Nuclear Forces Treaty''. Not yet
+    checked that it makes this claim.'

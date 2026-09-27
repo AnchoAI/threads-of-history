@@ -1,0 +1,16 @@
+id: six-day-war-1967--led_to--october-7-attack-and-gaza-war-2023
+from: six-day-war-1967
+to: october-7-attack-and-gaza-war-2023
+type: led_to
+confidence: documented
+note: Occupation of Gaza and the West Bank remains at the heart of the conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Gaza_war
+  title: Gaza war
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Gaza war''. Not yet checked that it makes this claim.'

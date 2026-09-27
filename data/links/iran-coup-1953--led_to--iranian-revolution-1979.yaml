@@ -1,0 +1,17 @@
+id: iran-coup-1953--led_to--iranian-revolution-1979
+from: iran-coup-1953
+to: iranian-revolution-1979
+type: led_to
+confidence: documented
+note: Resentment of the foreign-backed Shah fuels the revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Iranian Revolution''. Not yet checked that it makes
+    this claim.'

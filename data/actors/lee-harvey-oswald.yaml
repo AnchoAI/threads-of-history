@@ -1,0 +1,23 @@
+id: lee-harvey-oswald
+title: Lee Harvey Oswald
+actor_type: person
+summary: Former US Marine arrested for the assassination of President Kennedy and killed two days later.
+occurred:
+  start: '1939'
+  precision: year
+  end: '1963'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Lee_Harvey_Oswald
+  title: Lee Harvey Oswald
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

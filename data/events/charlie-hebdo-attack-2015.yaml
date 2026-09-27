@@ -1,0 +1,27 @@
+id: charlie-hebdo-attack-2015
+title: Charlie Hebdo attack
+summary: Two French-born brothers of Algerian descent kill 12 at the magazine. Al-Qaeda in Yemen claims
+  it. An ISIS-inspired gunman kills five more in Paris.
+occurred:
+  start: 2015-01
+  precision: month
+threads:
+- migration
+- mideast
+regions:
+- western-europe
+actors:
+- charlie-hebdo
+- aqap
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
+  title: Charlie Hebdo shooting
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

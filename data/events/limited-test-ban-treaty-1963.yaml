@@ -1,0 +1,29 @@
+id: limited-test-ban-treaty-1963
+title: Limited Test Ban Treaty
+summary: The US, USSR and UK ban nuclear tests in the atmosphere, space and underwater.
+occurred:
+  start: 1963-08
+  precision: month
+threads:
+- nuclear
+- usru
+regions:
+- americas
+- russia-eastern-europe
+- western-europe
+actors:
+- united-states
+- soviet-union
+- united-kingdom
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  title: Partial Nuclear Test Ban Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

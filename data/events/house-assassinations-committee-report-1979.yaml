@@ -1,0 +1,26 @@
+id: house-assassinations-committee-report-1979
+title: House Assassinations Committee
+summary: Concludes Kennedy was 'probably' killed as a result of a conspiracy, based mostly on acoustic
+  evidence that later reviews rejected.
+occurred:
+  start: 1979-03
+  precision: month
+threads:
+- intel
+regions:
+- americas
+actors:
+- hsca
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+  title: United States House Select Committee on Assassinations
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Findings were announced in December 1978 and the final report came out in 1979. Pick one and say which.

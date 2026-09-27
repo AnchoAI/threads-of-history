@@ -1,0 +1,17 @@
+id: invasion-of-iraq-2003--led_to--madrid-train-bombings-2004
+from: invasion-of-iraq-2003
+to: madrid-train-bombings-2004
+type: led_to
+confidence: documented
+note: The bombers cite Spain's role in Iraq.
+sources:
+- url: https://en.wikipedia.org/wiki/2004_Madrid_train_bombings
+  title: 2004 Madrid train bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2004 Madrid train bombings''. Not yet checked that
+    it makes this claim.'

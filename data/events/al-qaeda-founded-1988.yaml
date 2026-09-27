@@ -1,0 +1,26 @@
+id: al-qaeda-founded-1988
+title: Al-Qaeda founded
+summary: Bin Laden and veterans of the Afghan war found al-Qaeda as Soviet forces withdraw.
+occurred:
+  start: 1988-08
+  precision: month
+threads:
+- mideast
+regions:
+- south-central-asia
+- middle-east-north-africa
+actors:
+- al-qaeda
+- osama-bin-laden
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Al-Qaeda
+  title: Al-Qaeda
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

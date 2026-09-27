@@ -1,0 +1,23 @@
+id: mi6
+title: Secret Intelligence Service (MI6)
+actor_type: organization
+summary: The United Kingdom's foreign intelligence service.
+occurred:
+  start: '1909'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Secret_Intelligence_Service
+  title: Secret Intelligence Service
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,28 @@
+id: windrush-arrives-1948
+title: Windrush arrives
+summary: The Empire Windrush brings Caribbean workers to Britain. The 1948 Nationality Act gives colonial
+  subjects the right to settle in the UK.
+occurred:
+  start: 1948-06
+  precision: month
+threads:
+- migration
+- empire
+regions:
+- western-europe
+- americas
+actors:
+- united-kingdom
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Windrush_generation
+  title: Windrush generation
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The ship arrived in June 1948; the British Nationality Act was passed later that year. Check the wording.

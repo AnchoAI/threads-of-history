@@ -1,0 +1,43 @@
+id: cuban-missile-crisis-1962
+title: Cuban Missile Crisis
+summary: Soviet missiles are found in Cuba, 90 miles from Florida. Thirteen days later they are withdrawn;
+  the US quietly agrees to pull its Jupiter missiles from Turkey.
+occurred:
+  start: 1962-10
+  precision: month
+known:
+  by:
+  - party: US government
+    actor: united-states
+    when:
+      start: 1962-10
+      precision: month
+      note: U-2 photographs showed the missile sites some days before the public announcement.
+threads:
+- cuba
+- nuclear
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- john-f-kennedy
+- nikita-khrushchev
+- fidel-castro
+- united-states
+- soviet-union
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - 'Refine to day precision: missiles photographed, US announcement, and withdrawal agreement.'
+  - The Jupiter missile part of the deal was secret at the time and became public much later. Model it
+    as its own item with a known date.

@@ -1,0 +1,23 @@
+id: aqap
+title: Al-Qaeda in the Arabian Peninsula
+actor_type: organization
+summary: Al-Qaeda's branch based in Yemen.
+occurred:
+  start: '2009'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Al-Qaeda_in_the_Arabian_Peninsula
+  title: Al-Qaeda in the Arabian Peninsula
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,25 @@
+id: chilcot-report-2016
+title: Chilcot inquiry
+summary: UK inquiry finds the case for the Iraq war rested on flawed intelligence presented with unjustified
+  certainty.
+occurred:
+  start: 2016-07
+  precision: month
+threads:
+- intel
+regions:
+- western-europe
+actors:
+- iraq-inquiry
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_Inquiry
+  title: Iraq Inquiry
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,18 @@
+id: al-qaeda-founded-1988--led_to--charlie-hebdo-attack-2015
+from: al-qaeda-founded-1988
+to: charlie-hebdo-attack-2015
+type: led_to
+confidence: documented
+note: Al-Qaeda in the Arabian Peninsula claims the attack.
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
+  title: Charlie Hebdo shooting
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Charlie Hebdo shooting''. Not yet checked that it
+    makes this claim.'
+  - The effect is carried out by AQAP, an al-Qaeda branch founded in 2009. Consider linking AQAP instead.

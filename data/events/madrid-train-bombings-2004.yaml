@@ -1,0 +1,23 @@
+id: madrid-train-bombings-2004
+title: Madrid train bombings
+summary: Jihadist bombs on commuter trains kill 193. Spain's role in Iraq is cited as a motive.
+occurred:
+  start: 2004-03
+  precision: month
+threads:
+- mideast
+- migration
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/2004_Madrid_train_bombings
+  title: 2004 Madrid train bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,24 @@
+id: london-7-7-bombings-2005
+title: London 7/7 bombings
+summary: Four men raised in Britain kill 52 on London transport. Two left videos citing British foreign
+  policy.
+occurred:
+  start: 2005-07
+  precision: month
+threads:
+- mideast
+- migration
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/7_July_2005_London_bombings
+  title: 7 July 2005 London bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

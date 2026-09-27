@@ -1,0 +1,17 @@
+id: syrian-civil-war-2011--led_to--isis-declares-caliphate-2014
+from: syrian-civil-war-2011
+to: isis-declares-caliphate-2014
+type: led_to
+confidence: documented
+note: The war gives ISIS territory.
+sources:
+- url: https://en.wikipedia.org/wiki/Islamic_State
+  title: Islamic State
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Islamic State''. Not yet checked that it makes this
+    claim.'

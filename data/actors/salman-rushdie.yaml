@@ -1,0 +1,24 @@
+id: salman-rushdie
+title: Salman Rushdie
+actor_type: person
+summary: British-Indian novelist, author of The Satanic Verses.
+occurred:
+  start: '1947'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- western-europe
+- south-central-asia
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Salman_Rushdie
+  title: Salman Rushdie
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

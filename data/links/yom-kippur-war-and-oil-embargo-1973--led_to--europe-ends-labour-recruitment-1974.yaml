@@ -1,0 +1,17 @@
+id: yom-kippur-war-and-oil-embargo-1973--led_to--europe-ends-labour-recruitment-1974
+from: yom-kippur-war-and-oil-embargo-1973
+to: europe-ends-labour-recruitment-1974
+type: led_to
+confidence: documented
+note: The oil-shock recession ends labour recruitment.
+sources:
+- url: https://en.wikipedia.org/wiki/Gastarbeiter
+  title: Gastarbeiter
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Gastarbeiter''. Not yet checked that it makes this
+    claim.'

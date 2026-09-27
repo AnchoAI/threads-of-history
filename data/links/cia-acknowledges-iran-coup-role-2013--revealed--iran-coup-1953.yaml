@@ -1,0 +1,17 @@
+id: cia-acknowledges-iran-coup-role-2013--revealed--iran-coup-1953
+from: cia-acknowledges-iran-coup-role-2013
+to: iran-coup-1953
+type: revealed
+confidence: documented
+note: Official acknowledgement, 60 years later.
+sources:
+- url: https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat
+  title: 1953 Iranian coup d'état
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article "1953 Iranian coup d''état". Not yet checked that it
+    makes this claim.'

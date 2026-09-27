@@ -1,0 +1,28 @@
+id: hersh-nord-stream-report-2023--revealed--nord-stream-explosions-2022
+from: hersh-nord-stream-report-2023
+to: nord-stream-explosions-2022
+type: revealed
+confidence: contested
+note: Single-source claim of US responsibility; denied.
+sources:
+- url: https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage
+  title: 2022 Nord Stream pipeline sabotage
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: A US Navy operation destroyed the pipelines.
+  held_by:
+  - Seymour Hersh
+  sources: []
+- claim: The report is false.
+  held_by:
+  - White House
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2022 Nord Stream pipeline sabotage''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

@@ -1,0 +1,23 @@
+id: gamal-abdel-nasser
+title: Gamal Abdel Nasser
+actor_type: person
+summary: President of Egypt who nationalized the Suez Canal in 1956.
+occurred:
+  start: '1918'
+  precision: year
+  end: '1970'
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser
+  title: Gamal Abdel Nasser
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

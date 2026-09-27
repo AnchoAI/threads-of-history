@@ -1,0 +1,23 @@
+id: cia
+title: Central Intelligence Agency
+actor_type: organization
+summary: The United States' foreign intelligence agency.
+occurred:
+  start: '1947'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Central_Intelligence_Agency
+  title: Central Intelligence Agency
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

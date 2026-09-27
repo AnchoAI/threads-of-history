@@ -1,0 +1,17 @@
+id: wwii-ends-in-europe-1945--led_to--partition-of-india-1947
+from: wwii-ends-in-europe-1945
+to: partition-of-india-1947
+type: led_to
+confidence: documented
+note: A bankrupt Britain can no longer hold India.
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_India
+  title: Partition of India
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Partition of India''. Not yet checked that it makes
+    this claim.'

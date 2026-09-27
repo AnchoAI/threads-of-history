@@ -1,0 +1,28 @@
+id: balfour-declaration-1917
+title: Balfour Declaration
+summary: Britain backs 'a national home for the Jewish people' in Palestine, then rules Palestine under
+  a mandate until 1948.
+occurred:
+  start: 1917-11
+  precision: month
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- united-kingdom
+- arthur-balfour
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Balfour_Declaration
+  title: Balfour Declaration
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

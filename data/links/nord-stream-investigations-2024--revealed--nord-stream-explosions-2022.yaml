@@ -1,0 +1,28 @@
+id: nord-stream-investigations-2024--revealed--nord-stream-explosions-2022
+from: nord-stream-investigations-2024
+to: nord-stream-explosions-2022
+type: revealed
+confidence: contested
+note: Investigations point in different directions.
+sources:
+- url: https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage
+  title: 2022 Nord Stream pipeline sabotage
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Ukrainian nationals were involved in the sabotage.
+  held_by:
+  - German federal prosecutors (as reported) (needs sourcing)
+  sources: []
+- claim: Ukraine was not involved.
+  held_by:
+  - Government of Ukraine
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2022 Nord Stream pipeline sabotage''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

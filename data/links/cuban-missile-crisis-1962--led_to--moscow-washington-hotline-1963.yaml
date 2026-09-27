@@ -1,0 +1,17 @@
+id: cuban-missile-crisis-1962--led_to--moscow-washington-hotline-1963
+from: cuban-missile-crisis-1962
+to: moscow-washington-hotline-1963
+type: led_to
+confidence: documented
+note: Slow crisis communication leads directly to the hotline.
+sources:
+- url: https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline
+  title: Moscow–Washington hotline
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Moscow–Washington hotline''. Not yet checked that
+    it makes this claim.'

@@ -1,0 +1,17 @@
+id: warren-commission-report-1964--revealed--kennedy-assassinated-1963
+from: warren-commission-report-1964
+to: kennedy-assassinated-1963
+type: revealed
+confidence: documented
+note: Official account of what happened in Dallas.
+sources:
+- url: https://en.wikipedia.org/wiki/Warren_Commission
+  title: Warren Commission
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Warren Commission''. Not yet checked that it makes
+    this claim.'

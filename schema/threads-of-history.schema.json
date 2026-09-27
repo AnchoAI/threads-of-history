@@ -1,0 +1,605 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/anchoai/threads-of-history/schema/threads-of-history.schema.json",
+  "title": "Threads of History data format",
+  "description": "One file per item under data/<kind>/. The validator picks the definition from the folder: data/events -> #/$defs/event, data/links -> #/$defs/link, and so on. Rules that span several files (ids exist, dates are in order, review status requirements) live in tools/validate.py.",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Lowercase words joined by single hyphens, e.g. cuban-missile-crisis-1962."
+    },
+    "link_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*--(led_to|revealed|echo|signal_of|part_of)--[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "<from>--<type>--<to>. The validator checks it matches the from, type and to fields."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^-?[0-9]{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12][0-9]|3[01])(T([01][0-9]|2[0-3]):[0-5][0-9](Z|[+-][0-9]{2}:[0-5][0-9])?)?)?)?$",
+      "description": "ISO 8601, only as fine as you know it: 1962, 1962-10, 1962-10-22 or 1962-10-22T19:00-04:00. Negative years are BCE. In YAML, quote bare years (\"1962\") or they are read as numbers."
+    },
+    "precision": {
+      "enum": [
+        "century",
+        "decade",
+        "year",
+        "month",
+        "day",
+        "hour"
+      ]
+    },
+    "time_span": {
+      "type": "object",
+      "description": "A date or date range with a precision flag.",
+      "required": [
+        "start",
+        "precision"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "$ref": "#/$defs/date"
+        },
+        "end": {
+          "$ref": "#/$defs/date",
+          "description": "Omit for a single moment. Omit and set ongoing: true for something still going on."
+        },
+        "ongoing": {
+          "type": "boolean"
+        },
+        "precision": {
+          "$ref": "#/$defs/precision"
+        },
+        "approximate": {
+          "type": "boolean",
+          "description": "True when the date itself is uncertain or disputed."
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "known": {
+      "type": "object",
+      "description": "When the item became known. Omit entirely when it was public as it happened; the build then copies occurred into known.public.",
+      "additionalProperties": false,
+      "properties": {
+        "public": {
+          "$ref": "#/$defs/time_span"
+        },
+        "by": {
+          "type": "array",
+          "description": "When specific parties learned of it, e.g. US intelligence before the public.",
+          "items": {
+            "type": "object",
+            "required": [
+              "party",
+              "when"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "party": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "$ref": "#/$defs/slug",
+                "description": "Optional id of an actor item for this party."
+              },
+              "when": {
+                "$ref": "#/$defs/time_span"
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/source"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "url",
+        "title",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "archive_url": {
+          "type": "string",
+          "pattern": "^https?://",
+          "description": "Wayback Machine or archive.today snapshot, saved when the source was added."
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "date": {
+          "$ref": "#/$defs/date",
+          "description": "Publication date of the source."
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600,
+          "description": "A short excerpt from the source that itself makes the claim. Never the full text."
+        },
+        "type": {
+          "enum": [
+            "primary",
+            "news",
+            "scholarly",
+            "osint",
+            "reference"
+          ]
+        },
+        "accessed": {
+          "$ref": "#/$defs/date"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "description": "How far the item has been checked. unverified: not checked, sources are placeholders. sourced: every source has a quote that makes the claim, not yet checked by a person. reviewed: a person checked the sources, quotes and archive links.",
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "unverified",
+            "sourced",
+            "reviewed"
+          ]
+        },
+        "reviewed_by": {
+          "type": "string"
+        },
+        "reviewed_on": {
+          "$ref": "#/$defs/date"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Open questions and things that could not be verified."
+        }
+      }
+    },
+    "slug_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slug"
+      },
+      "uniqueItems": true
+    },
+    "item_base": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "summary",
+        "threads",
+        "regions",
+        "importance",
+        "sources",
+        "review"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 700
+        },
+        "occurred": {
+          "$ref": "#/$defs/time_span"
+        },
+        "known": {
+          "$ref": "#/$defs/known"
+        },
+        "threads": {
+          "$ref": "#/$defs/slug_list"
+        },
+        "regions": {
+          "$ref": "#/$defs/slug_list"
+        },
+        "actors": {
+          "$ref": "#/$defs/slug_list"
+        },
+        "importance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        }
+      }
+    },
+    "event": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "properties": {
+        "threads": {
+          "minItems": 1
+        },
+        "regions": {
+          "minItems": 1
+        }
+      },
+      "unevaluatedProperties": false,
+      "required": [
+        "occurred"
+      ]
+    },
+    "signal": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "required": [
+        "occurred",
+        "source_credibility",
+        "outcome"
+      ],
+      "properties": {
+        "threads": {
+          "minItems": 1
+        },
+        "regions": {
+          "minItems": 1
+        },
+        "source_credibility": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unknown"
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "confirmed",
+            "false",
+            "unresolved"
+          ]
+        },
+        "resolves_to": {
+          "$ref": "#/$defs/slug",
+          "description": "Id of the event this signal turned out to predict."
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "decision": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "required": [
+        "occurred",
+        "decided_by",
+        "alternatives"
+      ],
+      "properties": {
+        "threads": {
+          "minItems": 1
+        },
+        "regions": {
+          "minItems": 1
+        },
+        "decided_by": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/slug_list"
+            }
+          ],
+          "minItems": 1
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "option"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "option": {
+                "type": "string",
+                "minLength": 1
+              },
+              "note": {
+                "type": "string"
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/source"
+                }
+              }
+            }
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "actor": {
+      "description": "A person or organization. occurred is its lifespan; omit it when there is no meaningful one.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "required": [
+        "actor_type"
+      ],
+      "properties": {
+        "actor_type": {
+          "enum": [
+            "person",
+            "organization",
+            "state",
+            "group"
+          ]
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "series": {
+      "description": "Numbers over time, drawn as a band along the timeline.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "required": [
+        "occurred",
+        "unit",
+        "points"
+      ],
+      "properties": {
+        "threads": {
+          "minItems": 1
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "at",
+              "value"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "at": {
+                "$ref": "#/$defs/date"
+              },
+              "value": {
+                "type": "number"
+              },
+              "note": {
+                "type": "string"
+              },
+              "source": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Index into this item's sources[], when the points come from different sources."
+              }
+            }
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "position": {
+      "type": "object",
+      "required": [
+        "claim",
+        "held_by",
+        "sources"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "held_by": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "required": [
+        "id",
+        "from",
+        "to",
+        "type",
+        "confidence",
+        "note",
+        "sources",
+        "review"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/link_id"
+        },
+        "from": {
+          "$ref": "#/$defs/slug"
+        },
+        "to": {
+          "$ref": "#/$defs/slug"
+        },
+        "type": {
+          "enum": [
+            "led_to",
+            "revealed",
+            "echo",
+            "signal_of",
+            "part_of"
+          ],
+          "description": "led_to: cause. revealed: a later disclosure about an earlier item (points back in time). echo: a parallel with no causal link. signal_of: a signal pointing to an event. part_of: a sub-event inside a larger event."
+        },
+        "confidence": {
+          "enum": [
+            "documented",
+            "contested"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "positions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/position"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        }
+      },
+      "if": {
+        "properties": {
+          "confidence": {
+            "const": "contested"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "positions"
+        ],
+        "properties": {
+          "positions": {
+            "minItems": 2
+          }
+        }
+      }
+    },
+    "path": {
+      "description": "A guided path: an ordered walk through items.",
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "steps"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/slug"
+          }
+        }
+      }
+    },
+    "vocabulary": {
+      "description": "data/threads.yaml and data/regions.yaml: a list, in display order.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/slug"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

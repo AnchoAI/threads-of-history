@@ -1,0 +1,24 @@
+id: murder-of-samuel-paty-2020
+title: Samuel Paty killed
+summary: A teacher who showed Charlie Hebdo cartoons in a free-speech lesson is murdered by an 18-year-old
+  Chechen refugee.
+occurred:
+  start: 2020-10
+  precision: month
+threads:
+- migration
+- mideast
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Murder_of_Samuel_Paty
+  title: Murder of Samuel Paty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

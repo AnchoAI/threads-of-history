@@ -1,0 +1,17 @@
+id: sykes-picot-agreement-1916--echo--isis-declares-caliphate-2014
+from: sykes-picot-agreement-1916
+to: isis-declares-caliphate-2014
+type: echo
+confidence: documented
+note: ISIS frames its caliphate as undoing the colonial borders.
+sources:
+- url: https://en.wikipedia.org/wiki/Islamic_State
+  title: Islamic State
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Islamic State''. Not yet checked that it makes this
+    claim.'

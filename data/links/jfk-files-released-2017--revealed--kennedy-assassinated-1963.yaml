@@ -1,0 +1,17 @@
+id: jfk-files-released-2017--revealed--kennedy-assassinated-1963
+from: jfk-files-released-2017
+to: kennedy-assassinated-1963
+type: revealed
+confidence: documented
+note: New documents on Oswald's travels and CIA activity.
+sources:
+- url: https://en.wikipedia.org/wiki/President_John_F._Kennedy_Assassination_Records_Collection_Act_of_1992
+  title: President John F. Kennedy Assassination Records Collection Act of 1992
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''President John F. Kennedy Assassination Records Collection
+    Act of 1992''. Not yet checked that it makes this claim.'

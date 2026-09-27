@@ -1,0 +1,17 @@
+id: isis-declares-caliphate-2014--led_to--paris-attacks-2015
+from: isis-declares-caliphate-2014
+to: paris-attacks-2015
+type: led_to
+confidence: documented
+note: ISIS plans and claims the attacks.
+sources:
+- url: https://en.wikipedia.org/wiki/November_2015_Paris_attacks
+  title: November 2015 Paris attacks
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''November 2015 Paris attacks''. Not yet checked that
+    it makes this claim.'

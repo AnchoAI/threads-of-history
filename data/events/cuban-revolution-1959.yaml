@@ -1,0 +1,24 @@
+id: cuban-revolution-1959
+title: Cuban Revolution
+summary: Castro's forces take power. Cuba moves toward the Soviet Union within two years.
+occurred:
+  start: 1959-01
+  precision: month
+threads:
+- cuba
+regions:
+- americas
+actors:
+- fidel-castro
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Revolution
+  title: Cuban Revolution
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

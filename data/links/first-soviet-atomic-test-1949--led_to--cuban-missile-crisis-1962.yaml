@@ -1,0 +1,17 @@
+id: first-soviet-atomic-test-1949--led_to--cuban-missile-crisis-1962
+from: first-soviet-atomic-test-1949
+to: cuban-missile-crisis-1962
+type: led_to
+confidence: documented
+note: A Soviet arsenal that could not yet reach the US drives the move to put missiles in Cuba.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Cuban Missile Crisis''. Not yet checked that it makes
+    this claim.'

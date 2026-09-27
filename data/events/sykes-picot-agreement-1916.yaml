@@ -1,0 +1,36 @@
+id: sykes-picot-agreement-1916
+title: Sykes–Picot Agreement
+summary: Britain and France secretly agree to split the Ottoman Arab lands into zones of control. Many
+  of today's Middle East borders trace back to the settlement that followed.
+occurred:
+  start: 1916-05
+  precision: month
+known:
+  public:
+    start: 1917-11
+    precision: month
+    note: The secret agreement was published by the Bolshevik government after the October Revolution.
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- united-kingdom
+- france
+- mark-sykes
+- francois-georges-picot
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement
+  title: Sykes–Picot Agreement
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Check the publication date (known.public) against a source.

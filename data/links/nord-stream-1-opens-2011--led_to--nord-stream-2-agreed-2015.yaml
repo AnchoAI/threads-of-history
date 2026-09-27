@@ -1,0 +1,17 @@
+id: nord-stream-1-opens-2011--led_to--nord-stream-2-agreed-2015
+from: nord-stream-1-opens-2011
+to: nord-stream-2-agreed-2015
+type: led_to
+confidence: documented
+note: Expansion of the same route.
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream_2
+  title: Nord Stream 2
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Nord Stream 2''. Not yet checked that it makes this
+    claim.'

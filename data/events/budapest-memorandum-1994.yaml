@@ -1,0 +1,28 @@
+id: budapest-memorandum-1994
+title: Budapest Memorandum
+summary: Ukraine gives up its nuclear weapons. The US, UK and Russia give assurances to respect its borders.
+occurred:
+  start: 1994-12
+  precision: month
+threads:
+- nuclear
+- ukraine
+regions:
+- russia-eastern-europe
+actors:
+- ukraine
+- united-states
+- united-kingdom
+- russia
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Budapest_Memorandum
+  title: Budapest Memorandum
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

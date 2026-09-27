@@ -1,0 +1,17 @@
+id: russia-annexes-crimea-2014--led_to--russian-invasion-of-ukraine-2022
+from: russia-annexes-crimea-2014
+to: russian-invasion-of-ukraine-2022
+type: led_to
+confidence: documented
+note: The 2014 war escalates into full-scale invasion.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
+  title: Russian invasion of Ukraine
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Russian invasion of Ukraine''. Not yet checked that
+    it makes this claim.'

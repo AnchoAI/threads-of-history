@@ -1,0 +1,24 @@
+id: nato
+title: NATO
+actor_type: organization
+summary: Military alliance of North American and European states founded in 1949.
+occurred:
+  start: '1949'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- western-europe
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/NATO
+  title: NATO
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

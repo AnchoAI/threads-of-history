@@ -1,0 +1,17 @@
+id: algerian-war-begins-1954--led_to--algerian-independence-1962
+from: algerian-war-begins-1954
+to: algerian-independence-1962
+type: led_to
+confidence: documented
+note: Eight years of war end in independence.
+sources:
+- url: https://en.wikipedia.org/wiki/Algerian_War
+  title: Algerian War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Algerian War''. Not yet checked that it makes this
+    claim.'

@@ -1,0 +1,27 @@
+id: dissolution-of-the-soviet-union-1991
+title: Soviet Union dissolves
+summary: Ukraine becomes independent, holding the world's third-largest nuclear arsenal on its territory.
+occurred:
+  start: 1991-12
+  precision: month
+threads:
+- usru
+- ukraine
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- ukraine
+- mikhail-gorbachev
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

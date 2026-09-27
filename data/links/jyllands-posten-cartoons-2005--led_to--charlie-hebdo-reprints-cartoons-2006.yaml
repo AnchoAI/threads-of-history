@@ -1,0 +1,17 @@
+id: jyllands-posten-cartoons-2005--led_to--charlie-hebdo-reprints-cartoons-2006
+from: jyllands-posten-cartoons-2005
+to: charlie-hebdo-reprints-cartoons-2006
+type: led_to
+confidence: documented
+note: Charlie Hebdo republishes in solidarity.
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo
+  title: Charlie Hebdo
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Charlie Hebdo''. Not yet checked that it makes this
+    claim.'

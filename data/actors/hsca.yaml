@@ -1,0 +1,23 @@
+id: hsca
+title: House Select Committee on Assassinations
+actor_type: organization
+summary: US House committee that reinvestigated the Kennedy and King assassinations.
+occurred:
+  start: '1976'
+  precision: year
+  end: '1979'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+  title: United States House Select Committee on Assassinations
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

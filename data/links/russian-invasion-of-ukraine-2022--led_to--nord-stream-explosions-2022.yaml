@@ -1,0 +1,32 @@
+id: russian-invasion-of-ukraine-2022--led_to--nord-stream-explosions-2022
+from: russian-invasion-of-ukraine-2022
+to: nord-stream-explosions-2022
+type: led_to
+confidence: contested
+note: The blasts come amid the war; who carried them out is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage
+  title: 2022 Nord Stream pipeline sabotage
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Russia sabotaged its own pipelines as part of its pressure on Europe.
+  held_by:
+  - Some Western officials in 2022 (needs sourcing)
+  sources: []
+- claim: The United States or United Kingdom carried out the sabotage.
+  held_by:
+  - Russian government
+  sources: []
+- claim: People from Ukraine carried out the sabotage.
+  held_by:
+  - German federal prosecutors (as reported) (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2022 Nord Stream pipeline sabotage''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

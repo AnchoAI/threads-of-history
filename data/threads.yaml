@@ -1,0 +1,27 @@
+- id: empire
+  name: Empire & decolonization
+  color: '#B09A7E'
+- id: migration
+  name: Migration & European politics
+  color: '#6FD08C'
+- id: mideast
+  name: Middle East & jihadism
+  color: '#E0A36A'
+- id: intel
+  name: Intelligence & disclosure
+  color: '#9C8CE0'
+- id: usru
+  name: US – USSR / Russia
+  color: '#D9574A'
+- id: nuclear
+  name: Nuclear weapons
+  color: '#F08A3E'
+- id: cuba
+  name: Cuba
+  color: '#3FB6A8'
+- id: ukraine
+  name: Ukraine & NATO
+  color: '#E6CF4A'
+- id: energy
+  name: European energy
+  color: '#5E9BE0'

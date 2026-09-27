@@ -1,0 +1,31 @@
+id: twenty-eight-pages-declassified-2016--revealed--september-11-attacks-2001
+from: twenty-eight-pages-declassified-2016
+to: september-11-attacks-2001
+type: revealed
+confidence: contested
+note: Possible Saudi official links; disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Joint_Inquiry_into_Intelligence_Community_Activities_before_and_after_the_Terrorist_Attacks_of_September_11,_2001
+  title: Joint Inquiry into Intelligence Community Activities before and after the Terrorist Attacks of
+    September 11, 2001
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The pages point to possible support for the hijackers from Saudi officials.
+  held_by:
+  - Bob Graham (needs sourcing)
+  sources: []
+- claim: There is no evidence that the Saudi government as an institution funded al-Qaeda.
+  held_by:
+  - 9/11 Commission
+  - Government of Saudi Arabia
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Joint Inquiry into Intelligence Community Activities
+    before and after the Terrorist Attacks of September 11, 2001''. Not yet checked that it makes this
+    claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

@@ -1,0 +1,24 @@
+id: jfk-files-released-2025
+title: JFK files released in full
+summary: Following an executive order, the remaining files are released largely unredacted.
+occurred:
+  start: 2025-03
+  precision: month
+threads:
+- intel
+regions:
+- americas
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/President_John_F._Kennedy_Assassination_Records_Collection_Act_of_1992
+  title: President John F. Kennedy Assassination Records Collection Act of 1992
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The prototype had no source. The Records Act article was added as a likely one.
+  - Check how complete the 2025 release was.

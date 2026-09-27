@@ -1,0 +1,20 @@
+id: turkey
+title: Turkey
+actor_type: state
+summary: Country spanning south-eastern Europe and western Asia.
+threads: []
+regions:
+- middle-east-north-africa
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Turkey
+  title: Turkey
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,17 @@
+id: partition-of-india-1947--echo--israel-founded-1948
+from: partition-of-india-1947
+to: israel-founded-1948
+type: echo
+confidence: documented
+note: Britain leaves two territories by partition within a year, both followed by war and mass displacement.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  title: 1948 Arab–Israeli War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''1948 Arab–Israeli War''. Not yet checked that it makes
+    this claim.'

@@ -1,0 +1,17 @@
+id: israel-founded-1948--led_to--six-day-war-1967
+from: israel-founded-1948
+to: six-day-war-1967
+type: led_to
+confidence: documented
+note: The unresolved 1948 war leads to the next.
+sources:
+- url: https://en.wikipedia.org/wiki/Six-Day_War
+  title: Six-Day War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Six-Day War''. Not yet checked that it makes this
+    claim.'

@@ -1,0 +1,17 @@
+id: syrian-civil-war-2011--led_to--russian-intervention-in-syria-2015
+from: syrian-civil-war-2011
+to: russian-intervention-in-syria-2015
+type: led_to
+confidence: documented
+note: Russia steps in to save its ally.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
+  title: Russian intervention in the Syrian civil war
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Russian intervention in the Syrian civil war''. Not
+    yet checked that it makes this claim.'

@@ -1,0 +1,23 @@
+id: ronald-reagan
+title: Ronald Reagan
+actor_type: person
+summary: President of the United States from 1981 to 1989.
+occurred:
+  start: '1911'
+  precision: year
+  end: '2004'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Ronald_Reagan
+  title: Ronald Reagan
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

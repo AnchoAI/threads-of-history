@@ -1,0 +1,17 @@
+id: jfk-records-act-1992--led_to--jfk-files-released-2017
+from: jfk-records-act-1992
+to: jfk-files-released-2017
+type: led_to
+confidence: documented
+note: The 25-year release deadline.
+sources:
+- url: https://en.wikipedia.org/wiki/President_John_F._Kennedy_Assassination_Records_Collection_Act_of_1992
+  title: President John F. Kennedy Assassination Records Collection Act of 1992
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''President John F. Kennedy Assassination Records Collection
+    Act of 1992''. Not yet checked that it makes this claim.'

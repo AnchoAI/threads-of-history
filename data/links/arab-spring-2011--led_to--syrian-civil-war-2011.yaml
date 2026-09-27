@@ -1,0 +1,17 @@
+id: arab-spring-2011--led_to--syrian-civil-war-2011
+from: arab-spring-2011
+to: syrian-civil-war-2011
+type: led_to
+confidence: documented
+note: Protests spread to Syria.
+sources:
+- url: https://en.wikipedia.org/wiki/Syrian_civil_war
+  title: Syrian civil war
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Syrian civil war''. Not yet checked that it makes
+    this claim.'

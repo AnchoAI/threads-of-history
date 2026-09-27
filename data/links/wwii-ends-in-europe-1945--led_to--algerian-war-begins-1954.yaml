@@ -1,0 +1,17 @@
+id: wwii-ends-in-europe-1945--led_to--algerian-war-begins-1954
+from: wwii-ends-in-europe-1945
+to: algerian-war-begins-1954
+type: led_to
+confidence: documented
+note: Weakened colonial powers face independence movements across Asia and Africa.
+sources:
+- url: https://en.wikipedia.org/wiki/Algerian_War
+  title: Algerian War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Algerian War''. Not yet checked that it makes this
+    claim.'

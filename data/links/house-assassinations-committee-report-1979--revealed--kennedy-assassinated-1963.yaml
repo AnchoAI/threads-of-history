@@ -1,0 +1,28 @@
+id: house-assassinations-committee-report-1979--revealed--kennedy-assassinated-1963
+from: house-assassinations-committee-report-1979
+to: kennedy-assassinated-1963
+type: revealed
+confidence: contested
+note: Probable-conspiracy finding, resting on acoustic evidence later rejected.
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+  title: United States House Select Committee on Assassinations
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Kennedy was probably assassinated as a result of a conspiracy.
+  held_by:
+  - House Select Committee on Assassinations (1979)
+  sources: []
+- claim: The acoustic evidence behind that finding does not show a second gunman.
+  held_by:
+  - National Academy of Sciences Committee on Ballistic Acoustics (1982)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''United States House Select Committee on Assassinations''.
+    Not yet checked that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

@@ -1,0 +1,17 @@
+id: invasion-of-iraq-2003--led_to--isis-declares-caliphate-2014
+from: invasion-of-iraq-2003
+to: isis-declares-caliphate-2014
+type: led_to
+confidence: documented
+note: ISIS grows out of al-Qaeda in Iraq, formed after the invasion.
+sources:
+- url: https://en.wikipedia.org/wiki/Islamic_State
+  title: Islamic State
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Islamic State''. Not yet checked that it makes this
+    claim.'

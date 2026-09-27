@@ -1,0 +1,23 @@
+id: european-parliament-election-2024
+title: 'European elections: the right surges'
+summary: National Rally tops the vote in France and AfD comes second in Germany. Migration is a leading
+  issue.
+occurred:
+  start: 2024-06
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/2024_European_Parliament_election
+  title: 2024 European Parliament election
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

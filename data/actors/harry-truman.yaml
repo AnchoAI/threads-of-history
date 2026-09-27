@@ -1,0 +1,23 @@
+id: harry-truman
+title: Harry S. Truman
+actor_type: person
+summary: President of the United States from 1945 to 1953.
+occurred:
+  start: '1884'
+  precision: year
+  end: '1972'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Harry_S._Truman
+  title: Harry S. Truman
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

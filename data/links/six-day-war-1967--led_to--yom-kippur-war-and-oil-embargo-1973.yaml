@@ -1,0 +1,17 @@
+id: six-day-war-1967--led_to--yom-kippur-war-and-oil-embargo-1973
+from: six-day-war-1967
+to: yom-kippur-war-and-oil-embargo-1973
+type: led_to
+confidence: documented
+note: Egypt and Syria attack to recover land lost in 1967.
+sources:
+- url: https://en.wikipedia.org/wiki/1973_oil_crisis
+  title: 1973 oil crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''1973 oil crisis''. Not yet checked that it makes this
+    claim.'

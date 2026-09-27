@@ -1,0 +1,26 @@
+id: six-day-war-1967
+title: Six-Day War
+summary: Israel takes the West Bank, Gaza, Sinai and the Golan Heights. The occupation becomes the core
+  of the conflict.
+occurred:
+  start: 1967-06
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- egypt
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Six-Day_War
+  title: Six-Day War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

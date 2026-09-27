@@ -1,0 +1,25 @@
+id: arab-spring-2011
+title: Arab Spring
+summary: Uprisings topple leaders in Tunisia, Egypt, Libya and Yemen, and turn into civil wars in Syria
+  and Libya.
+occurred:
+  start: 2011-01
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Arab_Spring
+  title: Arab Spring
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Protests began in Tunisia in December 2010; January 2011 is when Ben Ali fell. Decide which date to
+    use.

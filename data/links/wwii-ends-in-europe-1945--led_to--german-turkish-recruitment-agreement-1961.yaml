@@ -1,0 +1,19 @@
+id: wwii-ends-in-europe-1945--led_to--german-turkish-recruitment-agreement-1961
+from: wwii-ends-in-europe-1945
+to: german-turkish-recruitment-agreement-1961
+type: led_to
+confidence: documented
+note: The postwar boom needs labour; the 1961 Berlin Wall cuts off East German workers weeks before the
+  deal.
+sources:
+- url: https://en.wikipedia.org/wiki/Gastarbeiter
+  title: Gastarbeiter
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Gastarbeiter''. Not yet checked that it makes this
+    claim.'
+  - The note also mentions the Berlin Wall (August 1961), which is not an item yet.

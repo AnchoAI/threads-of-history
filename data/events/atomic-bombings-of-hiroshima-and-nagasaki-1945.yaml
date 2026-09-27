@@ -1,0 +1,27 @@
+id: atomic-bombings-of-hiroshima-and-nagasaki-1945
+title: Hiroshima & Nagasaki
+summary: The US drops atomic bombs on two Japanese cities. The nuclear age begins, and with it the US–Soviet
+  race for the bomb.
+occurred:
+  start: 1945-08
+  precision: month
+threads:
+- nuclear
+regions:
+- east-asia
+- americas
+actors:
+- united-states
+- harry-truman
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
+  title: Atomic bombings of Hiroshima and Nagasaki
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,28 @@
+id: german-turkish-recruitment-agreement-1961
+title: West German–Turkish guest-worker deal
+summary: West Germany recruits workers from Turkey, as it had from Italy, Spain and Greece. They were
+  expected to go home; many stayed and brought families.
+occurred:
+  start: 1961-10
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+actors:
+- west-germany
+- turkey
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Gastarbeiter
+  title: Gastarbeiter
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The prototype had no source. The Gastarbeiter article was added as a likely one; check it covers the
+    1961 agreement.

@@ -1,0 +1,27 @@
+id: nato-founded-1949
+title: NATO founded
+summary: 'Twelve countries sign the North Atlantic Treaty: an attack on one is an attack on all.'
+occurred:
+  start: 1949-04
+  precision: month
+threads:
+- ukraine
+- usru
+regions:
+- western-europe
+- americas
+actors:
+- nato
+- united-states
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/North_Atlantic_Treaty
+  title: North Atlantic Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

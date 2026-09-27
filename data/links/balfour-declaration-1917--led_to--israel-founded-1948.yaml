@@ -1,0 +1,17 @@
+id: balfour-declaration-1917--led_to--israel-founded-1948
+from: balfour-declaration-1917
+to: israel-founded-1948
+type: led_to
+confidence: documented
+note: British mandate policy leads to 1948.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  title: 1948 Arab–Israeli War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''1948 Arab–Israeli War''. Not yet checked that it makes
+    this claim.'

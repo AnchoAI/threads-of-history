@@ -1,0 +1,26 @@
+id: kennedy-assassinated-1963
+title: Kennedy assassinated
+summary: President Kennedy is shot in Dallas. Lee Harvey Oswald, who had lived in the USSR and backed
+  Castro publicly, is arrested and killed two days later.
+occurred:
+  start: 1963-11
+  precision: month
+threads:
+- intel
+regions:
+- americas
+actors:
+- john-f-kennedy
+- lee-harvey-oswald
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
+  title: Assassination of John F. Kennedy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

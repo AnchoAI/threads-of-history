@@ -1,0 +1,23 @@
+id: angela-merkel
+title: Angela Merkel
+actor_type: person
+summary: Chancellor of Germany from 2005 to 2021.
+occurred:
+  start: '1954'
+  precision: year
+  ongoing: true
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Angela_Merkel
+  title: Angela Merkel
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,27 @@
+id: hersh-nord-stream-report-2023
+title: 'Hersh: US behind the blasts'
+summary: Journalist Seymour Hersh alleges a US operation, citing one anonymous source. The White House
+  calls it false.
+occurred:
+  start: 2023-02
+  precision: month
+threads:
+- energy
+- intel
+regions:
+- americas
+- western-europe
+actors:
+- seymour-hersh
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage
+  title: 2022 Nord Stream pipeline sabotage
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

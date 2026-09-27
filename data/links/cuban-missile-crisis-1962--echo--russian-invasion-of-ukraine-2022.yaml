@@ -1,0 +1,31 @@
+id: cuban-missile-crisis-1962--echo--russian-invasion-of-ukraine-2022
+from: cuban-missile-crisis-1962
+to: russian-invasion-of-ukraine-2022
+type: echo
+confidence: contested
+note: Two crises over a rival's weapons or alliances near a great power's border. How far the parallel
+  holds is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
+  title: Russian invasion of Ukraine
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The 1962 crisis is a useful parallel for Russia's objections to Western military ties with Ukraine.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: The parallel does not hold, because Ukraine was a sovereign state choosing its alliances rather
+    than a base for a rival's missiles.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Russian invasion of Ukraine''. Not yet checked that
+    it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.
+  - The prototype marked this echo as contested but gave no one on either side.

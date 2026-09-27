@@ -1,0 +1,17 @@
+id: church-committee-1975--revealed--kennedy-assassinated-1963
+from: church-committee-1975
+to: kennedy-assassinated-1963
+type: revealed
+confidence: documented
+note: Finds the agencies withheld the Castro plots from the Warren Commission.
+sources:
+- url: https://en.wikipedia.org/wiki/Church_Committee
+  title: Church Committee
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Church Committee''. Not yet checked that it makes
+    this claim.'

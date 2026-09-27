@@ -1,0 +1,29 @@
+id: partition-of-india-1947
+title: Partition of India
+summary: British India splits into India and Pakistan. Around 15 million people are displaced and hundreds
+  of thousands killed.
+occurred:
+  start: 1947-08
+  precision: month
+threads:
+- empire
+- migration
+regions:
+- south-central-asia
+actors:
+- united-kingdom
+- india
+- pakistan
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_India
+  title: Partition of India
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Displacement and death tolls vary widely between sources. Give a range with sources.

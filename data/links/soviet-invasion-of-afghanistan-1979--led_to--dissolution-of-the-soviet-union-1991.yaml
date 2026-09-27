@@ -1,0 +1,28 @@
+id: soviet-invasion-of-afghanistan-1979--led_to--dissolution-of-the-soviet-union-1991
+from: soviet-invasion-of-afghanistan-1979
+to: dissolution-of-the-soviet-union-1991
+type: led_to
+confidence: contested
+note: Often cited as a factor in the Soviet collapse; its weight is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The Afghan war was a significant factor in the Soviet collapse.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: Economic and internal political factors were far more important.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Dissolution of the Soviet Union''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

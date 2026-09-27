@@ -1,0 +1,17 @@
+id: budapest-memorandum-1994--echo--russia-annexes-crimea-2014
+from: budapest-memorandum-1994
+to: russia-annexes-crimea-2014
+type: echo
+confidence: documented
+note: The annexation breaks the border assurances Ukraine received for giving up its weapons.
+sources:
+- url: https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
+  title: Annexation of Crimea by the Russian Federation
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Annexation of Crimea by the Russian Federation''.
+    Not yet checked that it makes this claim.'

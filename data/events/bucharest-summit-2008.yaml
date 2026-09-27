@@ -1,0 +1,28 @@
+id: bucharest-summit-2008
+title: Bucharest summit
+summary: NATO declares Ukraine and Georgia 'will become members', without giving them a path to join.
+  Russia goes to war with Georgia four months later.
+occurred:
+  start: 2008-04
+  precision: month
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+- western-europe
+actors:
+- nato
+- ukraine
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/2008_Bucharest_summit
+  title: 2008 Bucharest summit
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

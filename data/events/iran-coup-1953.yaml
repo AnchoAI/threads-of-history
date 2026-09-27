@@ -1,0 +1,29 @@
+id: iran-coup-1953
+title: Iran coup
+summary: A CIA- and MI6-backed coup removes Iran's elected prime minister Mosaddegh after he nationalizes
+  the oil industry. The Shah's rule is strengthened.
+occurred:
+  start: 1953-08
+  precision: month
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- cia
+- mi6
+- mohammad-mosaddegh
+- mohammad-reza-pahlavi
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat
+  title: 1953 Iranian coup d'état
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

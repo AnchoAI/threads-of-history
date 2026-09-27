@@ -1,0 +1,29 @@
+id: algerian-independence-1962--led_to--french-riots-2005
+from: algerian-independence-1962
+to: french-riots-2005
+type: led_to
+confidence: contested
+note: Many banlieue families trace back to North African migration. How much colonial legacy, versus poverty,
+  policing and segregation, explains the riots is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/2005_French_riots
+  title: 2005 French riots
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Colonial history and North African migration shaped the conditions behind the riots.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: Poverty, policing and segregation explain the riots better than colonial history.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2005 French riots''. Not yet checked that it makes
+    this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

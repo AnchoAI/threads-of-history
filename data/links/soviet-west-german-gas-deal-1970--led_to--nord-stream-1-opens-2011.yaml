@@ -1,0 +1,17 @@
+id: soviet-west-german-gas-deal-1970--led_to--nord-stream-1-opens-2011
+from: soviet-west-german-gas-deal-1970
+to: nord-stream-1-opens-2011
+type: led_to
+confidence: documented
+note: Decades of gas trade build the case for a direct pipeline.
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream
+  title: Nord Stream
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Nord Stream''. Not yet checked that it makes this
+    claim.'

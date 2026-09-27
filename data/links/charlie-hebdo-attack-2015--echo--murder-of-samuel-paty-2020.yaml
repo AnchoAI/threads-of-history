@@ -1,0 +1,17 @@
+id: charlie-hebdo-attack-2015--echo--murder-of-samuel-paty-2020
+from: charlie-hebdo-attack-2015
+to: murder-of-samuel-paty-2020
+type: echo
+confidence: documented
+note: Another killing over the same cartoons.
+sources:
+- url: https://en.wikipedia.org/wiki/Murder_of_Samuel_Paty
+  title: Murder of Samuel Paty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Murder of Samuel Paty''. Not yet checked that it makes
+    this claim.'

@@ -1,0 +1,16 @@
+id: september-11-attacks-2001--led_to--invasion-of-iraq-2003
+from: september-11-attacks-2001
+to: invasion-of-iraq-2003
+type: led_to
+confidence: documented
+note: Used to build support for war, though no Iraqi role in 9/11 was found.
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_War
+  title: Iraq War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Iraq War''. Not yet checked that it makes this claim.'

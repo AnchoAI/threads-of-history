@@ -1,0 +1,16 @@
+id: soviet-invasion-of-afghanistan-1979--led_to--al-qaeda-founded-1988
+from: soviet-invasion-of-afghanistan-1979
+to: al-qaeda-founded-1988
+type: led_to
+confidence: documented
+note: The volunteer networks become al-Qaeda.
+sources:
+- url: https://en.wikipedia.org/wiki/Al-Qaeda
+  title: Al-Qaeda
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Al-Qaeda''. Not yet checked that it makes this claim.'

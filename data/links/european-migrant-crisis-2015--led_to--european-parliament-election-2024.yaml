@@ -1,0 +1,28 @@
+id: european-migrant-crisis-2015--led_to--european-parliament-election-2024
+from: european-migrant-crisis-2015
+to: european-parliament-election-2024
+type: led_to
+confidence: contested
+note: Migration drives support for right-wing parties, alongside economic and other factors.
+sources:
+- url: https://en.wikipedia.org/wiki/2024_European_Parliament_election
+  title: 2024 European Parliament election
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The migration crisis drives support for right-wing parties.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: Economic and other factors matter as much or more.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2024 European Parliament election''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

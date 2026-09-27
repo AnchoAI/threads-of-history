@@ -1,0 +1,27 @@
+id: us-led-war-in-afghanistan-2001
+title: US-led war in Afghanistan
+summary: The US and allies topple the Taliban. The war lasts 20 years and ends with the Taliban back in
+  power.
+occurred:
+  start: 2001-10
+  precision: month
+threads:
+- mideast
+regions:
+- south-central-asia
+- americas
+actors:
+- united-states
+- taliban
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)
+  title: War in Afghanistan (2001–2021)
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

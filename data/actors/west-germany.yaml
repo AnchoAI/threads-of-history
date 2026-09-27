@@ -1,0 +1,23 @@
+id: west-germany
+title: West Germany
+actor_type: state
+summary: The Federal Republic of Germany before reunification.
+occurred:
+  start: '1949'
+  precision: year
+  end: '1990'
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/West_Germany
+  title: West Germany
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

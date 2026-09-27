@@ -1,0 +1,17 @@
+id: syrian-civil-war-2011--led_to--european-migrant-crisis-2015
+from: syrian-civil-war-2011
+to: european-migrant-crisis-2015
+type: led_to
+confidence: documented
+note: Syrians are the largest group arriving in Europe.
+sources:
+- url: https://en.wikipedia.org/wiki/2015_European_migrant_crisis
+  title: 2015 European migrant crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2015 European migrant crisis''. Not yet checked that
+    it makes this claim.'

@@ -1,0 +1,34 @@
+id: suez-crisis-1956
+title: Suez Crisis
+summary: Britain, France and Israel invade Egypt after Nasser nationalizes the canal. US and Soviet pressure
+  force a withdrawal, ending Britain and France's role as independent great powers.
+occurred:
+  start: 1956-10
+  precision: month
+threads:
+- empire
+- mideast
+- usru
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- united-kingdom
+- france
+- israel
+- egypt
+- gamal-abdel-nasser
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - '''Ending Britain and France''s role as independent great powers'' is interpretation and needs a source
+    that says so.'

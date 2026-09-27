@@ -1,0 +1,29 @@
+id: algerian-independence-1962
+title: Algerian independence
+summary: About 800,000 European settlers and tens of thousands of Algerians who fought for France move
+  to France. Algerian labour migration continues.
+occurred:
+  start: 1962-07
+  precision: month
+threads:
+- empire
+- migration
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- france
+- fln
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Algerian_War
+  title: Algerian War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The settler and harki figures need sources.

@@ -1,0 +1,28 @@
+id: algerian-war-begins-1954
+title: Algerian War begins
+summary: Algeria's war of independence against France begins. It lasts eight years and kills hundreds
+  of thousands.
+occurred:
+  start: 1954-11
+  precision: month
+threads:
+- empire
+- migration
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- fln
+- france
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Algerian_War
+  title: Algerian War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

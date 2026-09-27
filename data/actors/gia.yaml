@@ -1,0 +1,20 @@
+id: gia
+title: Armed Islamic Group (GIA)
+actor_type: organization
+summary: Algerian jihadist group active during the Algerian civil war of the 1990s.
+threads: []
+regions:
+- middle-east-north-africa
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria
+  title: Armed Islamic Group of Algeria
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

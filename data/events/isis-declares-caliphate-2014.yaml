@@ -1,0 +1,25 @@
+id: isis-declares-caliphate-2014
+title: ISIS declares a caliphate
+summary: Grown out of al-Qaeda in Iraq, ISIS seizes Mosul and much of Syria, and films itself bulldozing
+  a border post it calls the end of Sykes–Picot.
+occurred:
+  start: 2014-06
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- isis
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Islamic_State
+  title: Islamic State
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

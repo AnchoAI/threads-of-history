@@ -1,0 +1,17 @@
+id: nato-founded-1949--led_to--first-nato-eastward-enlargement-1999
+from: nato-founded-1949
+to: first-nato-eastward-enlargement-1999
+type: led_to
+confidence: documented
+note: The alliance expands east after the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  title: Enlargement of NATO
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Enlargement of NATO''. Not yet checked that it makes
+    this claim.'

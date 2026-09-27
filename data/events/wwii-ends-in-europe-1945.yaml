@@ -1,0 +1,26 @@
+id: wwii-ends-in-europe-1945
+title: WWII ends in Europe
+summary: Europe is devastated and in debt. Britain and France can no longer afford their empires, and
+  rebuilding creates a labour shortage.
+occurred:
+  start: 1945-05
+  precision: month
+threads:
+- empire
+- migration
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Aftermath_of_World_War_II
+  title: Aftermath of World War II
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - The claims about debt and labour shortages are interpretation and need their own sources.

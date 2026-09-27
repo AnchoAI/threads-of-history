@@ -1,0 +1,19 @@
+id: charlie-hebdo
+title: Charlie Hebdo
+actor_type: organization
+summary: French satirical weekly magazine.
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo
+  title: Charlie Hebdo
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

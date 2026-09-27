@@ -1,0 +1,23 @@
+id: arthur-balfour
+title: Arthur Balfour
+actor_type: person
+summary: British foreign secretary who signed the 1917 declaration named after him.
+occurred:
+  start: '1848'
+  precision: year
+  end: '1930'
+threads: []
+regions:
+- western-europe
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Arthur_Balfour
+  title: Arthur Balfour
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

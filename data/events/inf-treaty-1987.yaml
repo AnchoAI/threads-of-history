@@ -1,0 +1,29 @@
+id: inf-treaty-1987
+title: INF Treaty
+summary: Reagan and Gorbachev eliminate a whole class of intermediate-range missiles.
+occurred:
+  start: 1987-12
+  precision: month
+threads:
+- nuclear
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- ronald-reagan
+- mikhail-gorbachev
+- united-states
+- soviet-union
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty
+  title: Intermediate-Range Nuclear Forces Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

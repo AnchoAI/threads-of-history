@@ -1,0 +1,17 @@
+id: israel-founded-1948--led_to--suez-crisis-1956
+from: israel-founded-1948
+to: suez-crisis-1956
+type: led_to
+confidence: documented
+note: Israel joins the invasion of Egypt.
+sources:
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Suez Crisis''. Not yet checked that it makes this
+    claim.'

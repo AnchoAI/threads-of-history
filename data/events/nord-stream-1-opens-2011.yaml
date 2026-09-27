@@ -1,0 +1,25 @@
+id: nord-stream-1-opens-2011
+title: Nord Stream 1 opens
+summary: A gas pipeline under the Baltic links Russia directly to Germany, bypassing Ukraine and Poland.
+occurred:
+  start: 2011-11
+  precision: month
+threads:
+- energy
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- gazprom
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream
+  title: Nord Stream
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,27 @@
+id: paris-bombings-1995
+title: Paris Métro bombings
+summary: 'Algeria''s civil war spreads to France: the Armed Islamic Group (GIA) bombs Paris, attacking
+  France for backing Algeria''s government.'
+occurred:
+  start: 1995-07
+  precision: month
+threads:
+- mideast
+- migration
+regions:
+- western-europe
+- middle-east-north-africa
+actors:
+- gia
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/1995_France_bombings
+  title: 1995 France bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

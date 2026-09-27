@@ -1,0 +1,17 @@
+id: chilcot-report-2016--revealed--invasion-of-iraq-2003
+from: chilcot-report-2016
+to: invasion-of-iraq-2003
+type: revealed
+confidence: documented
+note: The WMD case was flawed.
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_Inquiry
+  title: Iraq Inquiry
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Iraq Inquiry''. Not yet checked that it makes this
+    claim.'

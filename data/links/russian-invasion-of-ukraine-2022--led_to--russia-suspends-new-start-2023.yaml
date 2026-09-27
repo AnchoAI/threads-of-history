@@ -1,0 +1,16 @@
+id: russian-invasion-of-ukraine-2022--led_to--russia-suspends-new-start-2023
+from: russian-invasion-of-ukraine-2022
+to: russia-suspends-new-start-2023
+type: led_to
+confidence: documented
+note: Russia links the suspension to Western support for Ukraine.
+sources:
+- url: https://en.wikipedia.org/wiki/New_START
+  title: New START
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''New START''. Not yet checked that it makes this claim.'

@@ -1,0 +1,17 @@
+id: invasion-of-iraq-2003--led_to--london-7-7-bombings-2005
+from: invasion-of-iraq-2003
+to: london-7-7-bombings-2005
+type: led_to
+confidence: documented
+note: Two bombers' videos cite the Iraq war.
+sources:
+- url: https://en.wikipedia.org/wiki/7_July_2005_London_bombings
+  title: 7 July 2005 London bombings
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''7 July 2005 London bombings''. Not yet checked that
+    it makes this claim.'

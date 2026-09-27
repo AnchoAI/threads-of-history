@@ -1,0 +1,26 @@
+id: nord-stream-2-agreed-2015
+title: Nord Stream 2 agreed
+summary: Gazprom and European firms agree to double the pipeline's capacity, a year after Crimea. The
+  US and several EU states oppose it.
+occurred:
+  start: 2015-09
+  precision: month
+threads:
+- energy
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- gazprom
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream_2
+  title: Nord Stream 2
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

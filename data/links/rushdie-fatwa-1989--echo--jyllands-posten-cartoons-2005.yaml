@@ -1,0 +1,17 @@
+id: rushdie-fatwa-1989--echo--jyllands-posten-cartoons-2005
+from: rushdie-fatwa-1989
+to: jyllands-posten-cartoons-2005
+type: echo
+confidence: documented
+note: The same clash over depicting and criticizing Islam in Europe.
+sources:
+- url: https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy
+  title: Jyllands-Posten Muhammad cartoons controversy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Jyllands-Posten Muhammad cartoons controversy''. Not
+    yet checked that it makes this claim.'

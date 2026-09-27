@@ -1,0 +1,26 @@
+id: nord-stream-explosions-2022
+title: Nord Stream explosions
+summary: Underwater blasts rupture three of the four pipeline strings. Who did it is still contested.
+occurred:
+  start: 2022-09
+  precision: month
+threads:
+- energy
+- ukraine
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage
+  title: 2022 Nord Stream pipeline sabotage
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Check 'three of the four pipeline strings'.

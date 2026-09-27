@@ -1,0 +1,30 @@
+id: bucharest-summit-2008--led_to--russia-annexes-crimea-2014
+from: bucharest-summit-2008
+to: russia-annexes-crimea-2014
+type: led_to
+confidence: contested
+note: Russia cites NATO expansion as a cause. Many historians and governments reject that framing.
+sources:
+- url: https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
+  title: Annexation of Crimea by the Russian Federation
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: NATO's expansion and its 2008 promise to Ukraine provoked Russia.
+  held_by:
+  - Russian government
+  - John Mearsheimer
+  sources: []
+- claim: Russia's actions were driven by its own aims in Ukraine, not by NATO.
+  held_by:
+  - Michael McFaul
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Annexation of Crimea by the Russian Federation''.
+    Not yet checked that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

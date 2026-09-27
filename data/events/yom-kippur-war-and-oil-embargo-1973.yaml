@@ -1,0 +1,31 @@
+id: yom-kippur-war-and-oil-embargo-1973
+title: Yom Kippur War & oil embargo
+summary: Arab producers cut oil to the US and others backing Israel. Prices quadruple and Western economies
+  fall into recession.
+occurred:
+  start: 1973-10
+  precision: month
+threads:
+- mideast
+- energy
+regions:
+- middle-east-north-africa
+- western-europe
+- americas
+actors:
+- israel
+- egypt
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/1973_oil_crisis
+  title: 1973 oil crisis
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Combines the war and the embargo. Consider splitting.
+  - '''Prices quadruple'' needs a source.'

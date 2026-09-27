@@ -1,0 +1,17 @@
+id: first-nato-eastward-enlargement-1999--led_to--bucharest-summit-2008
+from: first-nato-eastward-enlargement-1999
+to: bucharest-summit-2008
+type: led_to
+confidence: documented
+note: Expansion moves to the question of Ukraine and Georgia.
+sources:
+- url: https://en.wikipedia.org/wiki/2008_Bucharest_summit
+  title: 2008 Bucharest summit
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''2008 Bucharest summit''. Not yet checked that it makes
+    this claim.'

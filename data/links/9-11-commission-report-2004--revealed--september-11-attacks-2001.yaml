@@ -1,0 +1,17 @@
+id: 9-11-commission-report-2004--revealed--september-11-attacks-2001
+from: 9-11-commission-report-2004
+to: september-11-attacks-2001
+type: revealed
+confidence: documented
+note: Official account of the plot and the failures to stop it.
+sources:
+- url: https://en.wikipedia.org/wiki/9/11_Commission_Report
+  title: 11 Commission Report
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''11 Commission Report''. Not yet checked that it makes
+    this claim.'

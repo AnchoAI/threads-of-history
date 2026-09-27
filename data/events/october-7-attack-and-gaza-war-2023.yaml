@@ -1,0 +1,28 @@
+id: october-7-attack-and-gaza-war-2023
+title: October 7 attack & Gaza war
+summary: Hamas kills about 1,200 people in Israel and takes about 250 hostages. Israel's war in Gaza follows,
+  killing tens of thousands.
+occurred:
+  start: 2023-10
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- hamas
+- israel
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/Gaza_war
+  title: Gaza war
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Combines the attack and the war that followed. Consider splitting.
+  - Casualty figures change over time; cite dated sources.

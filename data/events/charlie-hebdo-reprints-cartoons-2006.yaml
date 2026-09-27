@@ -1,0 +1,25 @@
+id: charlie-hebdo-reprints-cartoons-2006
+title: Charlie Hebdo reprints the cartoons
+summary: The satirical weekly republishes the Danish cartoons. Its offices are firebombed in 2011 after
+  another Muhammad cover.
+occurred:
+  start: 2006-02
+  precision: month
+threads:
+- migration
+regions:
+- western-europe
+actors:
+- charlie-hebdo
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo
+  title: Charlie Hebdo
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

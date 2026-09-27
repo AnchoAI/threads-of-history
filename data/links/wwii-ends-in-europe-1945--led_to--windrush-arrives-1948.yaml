@@ -1,0 +1,17 @@
+id: wwii-ends-in-europe-1945--led_to--windrush-arrives-1948
+from: wwii-ends-in-europe-1945
+to: windrush-arrives-1948
+type: led_to
+confidence: documented
+note: Rebuilding needs workers; the empire supplies them.
+sources:
+- url: https://en.wikipedia.org/wiki/Windrush_generation
+  title: Windrush generation
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Windrush generation''. Not yet checked that it makes
+    this claim.'

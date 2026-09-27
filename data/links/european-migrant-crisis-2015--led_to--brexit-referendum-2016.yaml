@@ -1,0 +1,27 @@
+id: european-migrant-crisis-2015--led_to--brexit-referendum-2016
+from: european-migrant-crisis-2015
+to: brexit-referendum-2016
+type: led_to
+confidence: contested
+note: The crisis featured in the campaign, though most UK migration debate was about EU citizens.
+sources:
+- url: https://en.wikipedia.org/wiki/Brexit
+  title: Brexit
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: The 2015 crisis helped the Leave campaign.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: The UK's migration debate was mostly about EU citizens, not the 2015 crisis.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Brexit''. Not yet checked that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

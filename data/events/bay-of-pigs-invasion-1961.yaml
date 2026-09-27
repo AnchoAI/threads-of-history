@@ -1,0 +1,27 @@
+id: bay-of-pigs-invasion-1961
+title: Bay of Pigs
+summary: A CIA-backed invasion by Cuban exiles fails within days. Castro turns to Moscow for protection.
+occurred:
+  start: 1961-04
+  precision: month
+threads:
+- cuba
+- intel
+regions:
+- americas
+actors:
+- cia
+- fidel-castro
+- john-f-kennedy
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion
+  title: Bay of Pigs Invasion
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

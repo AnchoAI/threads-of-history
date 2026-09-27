@@ -1,0 +1,28 @@
+id: russian-intervention-in-syria-2015
+title: Russia intervenes in Syria
+summary: Russian air power saves Assad's government and puts Russia back at the center of Middle East
+  politics.
+occurred:
+  start: 2015-09
+  precision: month
+threads:
+- usru
+- mideast
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- russia
+- bashar-al-assad
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
+  title: Russian intervention in the Syrian civil war
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

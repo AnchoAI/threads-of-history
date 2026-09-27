@@ -1,0 +1,23 @@
+id: jfk-records-act-1992
+title: JFK Records Act
+summary: Congress orders all assassination records gathered and released, with a 25-year deadline for
+  most withheld files.
+occurred:
+  start: 1992-10
+  precision: month
+threads:
+- intel
+regions:
+- americas
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/President_John_F._Kennedy_Assassination_Records_Collection_Act_of_1992
+  title: President John F. Kennedy Assassination Records Collection Act of 1992
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

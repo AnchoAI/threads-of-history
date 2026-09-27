@@ -1,0 +1,17 @@
+id: church-committee-1975--led_to--house-assassinations-committee-report-1979
+from: church-committee-1975
+to: house-assassinations-committee-report-1979
+type: led_to
+confidence: documented
+note: Its findings lead to a new House inquiry.
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+  title: United States House Select Committee on Assassinations
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''United States House Select Committee on Assassinations''.
+    Not yet checked that it makes this claim.'

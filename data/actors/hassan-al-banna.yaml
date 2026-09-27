@@ -1,0 +1,23 @@
+id: hassan-al-banna
+title: Hassan al-Banna
+actor_type: person
+summary: Egyptian schoolteacher who founded the Muslim Brotherhood.
+occurred:
+  start: '1906'
+  precision: year
+  end: '1949'
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Hassan_al-Banna
+  title: Hassan al-Banna
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

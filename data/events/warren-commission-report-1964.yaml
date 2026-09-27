@@ -1,0 +1,25 @@
+id: warren-commission-report-1964
+title: Warren Commission report
+summary: Concludes Oswald acted alone. Later inquiries found agencies had withheld relevant information
+  from it.
+occurred:
+  start: 1964-09
+  precision: month
+threads:
+- intel
+regions:
+- americas
+actors:
+- warren-commission
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Warren_Commission
+  title: Warren Commission
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

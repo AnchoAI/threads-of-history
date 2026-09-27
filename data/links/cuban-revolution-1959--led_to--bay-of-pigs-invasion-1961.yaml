@@ -1,0 +1,17 @@
+id: cuban-revolution-1959--led_to--bay-of-pigs-invasion-1961
+from: cuban-revolution-1959
+to: bay-of-pigs-invasion-1961
+type: led_to
+confidence: documented
+note: The US moves to topple the new government.
+sources:
+- url: https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion
+  title: Bay of Pigs Invasion
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Bay of Pigs Invasion''. Not yet checked that it makes
+    this claim.'

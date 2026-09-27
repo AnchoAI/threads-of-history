@@ -1,0 +1,16 @@
+id: atomic-bombings-of-hiroshima-and-nagasaki-1945--led_to--first-soviet-atomic-test-1949
+from: atomic-bombings-of-hiroshima-and-nagasaki-1945
+to: first-soviet-atomic-test-1949
+type: led_to
+confidence: documented
+note: The Soviet crash program speeds up after Hiroshima.
+sources:
+- url: https://en.wikipedia.org/wiki/RDS-1
+  title: RDS-1
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''RDS-1''. Not yet checked that it makes this claim.'

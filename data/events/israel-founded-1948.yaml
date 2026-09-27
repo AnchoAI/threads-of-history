@@ -1,0 +1,28 @@
+id: israel-founded-1948
+title: Israel founded; first Arab–Israeli war
+summary: Israel declares independence as the British mandate ends. War follows, and about 700,000 Palestinians
+  flee or are expelled.
+occurred:
+  start: 1948-05
+  precision: month
+threads:
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- israel
+importance: 5
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  title: 1948 Arab–Israeli War
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Combines two events (the declaration of independence and the 1948 war). Consider splitting.
+  - The figure of about 700,000 refugees needs a source.

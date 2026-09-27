@@ -1,0 +1,17 @@
+id: church-committee-1975--revealed--bay-of-pigs-invasion-1961
+from: church-committee-1975
+to: bay-of-pigs-invasion-1961
+type: revealed
+confidence: documented
+note: Exposes CIA plots against Castro, including use of the Mafia.
+sources:
+- url: https://en.wikipedia.org/wiki/Church_Committee
+  title: Church Committee
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Church Committee''. Not yet checked that it makes
+    this claim.'

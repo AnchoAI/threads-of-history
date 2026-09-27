@@ -1,0 +1,23 @@
+id: john-f-kennedy
+title: John F. Kennedy
+actor_type: person
+summary: President of the United States from 1961 until his assassination in 1963.
+occurred:
+  start: '1917'
+  precision: year
+  end: '1963'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/John_F._Kennedy
+  title: John F. Kennedy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

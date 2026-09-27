@@ -1,0 +1,30 @@
+id: bay-of-pigs-invasion-1961--echo--kennedy-assassinated-1963
+from: bay-of-pigs-invasion-1961
+to: kennedy-assassinated-1963
+type: echo
+confidence: contested
+note: Cuba policy is a recurring theme in theories about the assassination; no inquiry has established
+  a link.
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
+  title: Assassination of John F. Kennedy
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Anger over Cuba policy, among exiles, the CIA or Castro's government, may be connected to the
+    assassination.
+  held_by:
+  - Various assassination researchers (needs sourcing)
+  sources: []
+- claim: Oswald acted alone.
+  held_by:
+  - Warren Commission
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Assassination of John F. Kennedy''. Not yet checked
+    that it makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

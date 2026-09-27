@@ -1,0 +1,29 @@
+id: algerian-independence-1962--led_to--charlie-hebdo-attack-2015
+from: algerian-independence-1962
+to: charlie-hebdo-attack-2015
+type: led_to
+confidence: contested
+note: The attackers were French-born sons of Algerian immigrants. How much migration and colonial history
+  explain the attack, versus jihadist ideology and networks, is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
+  title: Charlie Hebdo shooting
+  publisher: Wikipedia
+  type: reference
+positions:
+- claim: Migration and colonial history help explain the attack.
+  held_by:
+  - (needs sourcing)
+  sources: []
+- claim: Jihadist ideology and networks explain the attack; the attackers' family origins are incidental.
+  held_by:
+  - (needs sourcing)
+  sources: []
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Charlie Hebdo shooting''. Not yet checked that it
+    makes this claim.'
+  - Positions were drafted during the port. Each needs a source that states it; attributions marked '(needs
+    sourcing)' are placeholders.

@@ -1,0 +1,17 @@
+id: cuban-missile-crisis-1962--led_to--limited-test-ban-treaty-1963
+from: cuban-missile-crisis-1962
+to: limited-test-ban-treaty-1963
+type: led_to
+confidence: documented
+note: Both sides look for limits after coming close to war.
+sources:
+- url: https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  title: Partial Nuclear Test Ban Treaty
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Partial Nuclear Test Ban Treaty''. Not yet checked
+    that it makes this claim.'

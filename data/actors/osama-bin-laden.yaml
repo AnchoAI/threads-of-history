@@ -1,0 +1,24 @@
+id: osama-bin-laden
+title: Osama bin Laden
+actor_type: person
+summary: Founder and leader of al-Qaeda.
+occurred:
+  start: '1957'
+  precision: year
+  end: '2011'
+threads: []
+regions:
+- middle-east-north-africa
+- south-central-asia
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Osama_bin_Laden
+  title: Osama bin Laden
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

@@ -1,0 +1,23 @@
+id: church-committee
+title: Church Committee
+actor_type: organization
+summary: US Senate committee that investigated abuses by intelligence agencies.
+occurred:
+  start: '1975'
+  precision: year
+  end: '1976'
+threads: []
+regions:
+- americas
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Church_Committee
+  title: Church Committee
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Added while porting the prototype. Lifespan and summary are from Claude's own knowledge and have not
+    been checked.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

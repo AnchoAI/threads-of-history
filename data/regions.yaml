@@ -1,0 +1,12 @@
+- id: americas
+  name: Americas
+- id: western-europe
+  name: Western Europe
+- id: russia-eastern-europe
+  name: Russia & Eastern Europe
+- id: middle-east-north-africa
+  name: Middle East & N. Africa
+- id: south-central-asia
+  name: South & Central Asia
+- id: east-asia
+  name: East Asia

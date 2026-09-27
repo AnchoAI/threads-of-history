@@ -1,0 +1,25 @@
+id: jyllands-posten-cartoons-2005
+title: Danish Muhammad cartoons
+summary: Jyllands-Posten publishes cartoons of Muhammad. Months later protests spread across the Muslim
+  world and embassies are attacked.
+occurred:
+  start: 2005-09
+  precision: month
+threads:
+- migration
+- mideast
+regions:
+- western-europe
+- middle-east-north-africa
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy
+  title: Jyllands-Posten Muhammad cartoons controversy
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.

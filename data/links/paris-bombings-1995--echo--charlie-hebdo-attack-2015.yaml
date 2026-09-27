@@ -1,0 +1,17 @@
+id: paris-bombings-1995--echo--charlie-hebdo-attack-2015
+from: paris-bombings-1995
+to: charlie-hebdo-attack-2015
+type: echo
+confidence: documented
+note: France has been a target of jihadist groups for two decades.
+sources:
+- url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
+  title: Charlie Hebdo shooting
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
+  - 'Candidate source only: the Wikipedia article ''Charlie Hebdo shooting''. Not yet checked that it
+    makes this claim.'

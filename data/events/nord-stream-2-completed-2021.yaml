@@ -1,0 +1,25 @@
+id: nord-stream-2-completed-2021
+title: Nord Stream 2 completed
+summary: The pipeline is finished but never certified to operate.
+occurred:
+  start: 2021-09
+  precision: month
+threads:
+- energy
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- gazprom
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Nord_Stream_2
+  title: Nord Stream 2
+  publisher: Wikipedia
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
+    not been checked against any source.
+  - The only source is a Wikipedia reference article, with no quote or archive link yet.
