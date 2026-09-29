@@ -128,7 +128,7 @@ test.describe("with 40 threads (fake stress data)", () => {
 
   test("domains collapse to one lane each and open on click", async ({ page }) => {
     const errors = await open(page, STRESS);
-    await expect(page.locator("#count")).toHaveText("400 events · 500 links");
+    await expect(page.locator("#count")).toHaveText("407 events · 506 links");
     await expect(page.locator(".lane")).toHaveCount(6);
     await expect(page.locator("#laneHint")).toBeVisible();
 
@@ -150,12 +150,99 @@ test.describe("with 40 threads (fake stress data)", () => {
     await page.evaluate(() => {
       // Point the camera down the spine so every lane label is on screen.
       const { timeline } = window.__viewer;
-      timeline.camera.position.set(timeline.x(timeline.y0) - 120, 0, 0);
+      timeline.camera.position.set(timeline.x(timeline.window.t0) - 120, 0, 0);
       timeline.controls.target.set(0, 0, 0);
     });
     const label = page.locator('.lane[data-lane="domain:science"]');
     await expect(label).toBeVisible();
     await label.click();
     await expect(page.locator(".lane")).toHaveCount(5 + 5);
+  });
+});
+
+// ---------------------------------------------------------------- zooming and 2D
+
+const windowSpan = (page) => page.evaluate(() => window.__viewer.timeline.window.span);
+const shown = (page) => page.evaluate(() => [...window.__viewer.timeline.nodes.values()].filter((n) => n.show).length);
+
+test("the keyboard zooms and moves the time window", async ({ page }) => {
+  await open(page);
+  const full = await windowSpan(page);
+  const range = page.locator("#timebar .range");
+  const before = await range.textContent();
+  await page.locator("body").press("+");
+  await page.locator("body").press("+");
+  expect(await windowSpan(page)).toBeCloseTo(full * 0.49, 1);
+  await expect(range).not.toHaveText(before);
+  await page.locator("body").press("ArrowLeft");
+  await page.locator("body").press("0");
+  expect(await windowSpan(page)).toBeCloseTo(full, 5);
+});
+
+test("dragging across the time strip picks a period; double-click shows everything", async ({ page }) => {
+  await open(page);
+  const box = await page.locator("#timebar canvas").boundingBox();
+  const y = box.y + box.height / 2;
+  await page.mouse.move(box.x + box.width * 0.4, y);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.5, y, { steps: 5 });
+  await page.mouse.up();
+  const span = await windowSpan(page);
+  const full = await page.evaluate(() => { const [a, b] = window.__viewer.timeline.window.limits; return b - a; });
+  expect(span).toBeGreaterThan(full * 0.08);
+  expect(span).toBeLessThan(full * 0.12);
+  await page.locator("#timebar canvas").dblclick();
+  expect(await windowSpan(page)).toBeCloseTo(full, 5);
+});
+
+test("selecting an item outside the window brings it into view", async ({ page }) => {
+  await open(page);
+  await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(2010, 2020); t.settle(); });
+  await page.fill("#q", "Cuban Revolution");
+  await page.locator("#results button", { hasText: "Cuban Revolution" }).click();
+  const w = await page.evaluate(() => { const { t0, t1 } = window.__viewer.timeline.window; return [t0, t1]; });
+  expect(w[0]).toBeLessThanOrEqual(1959.1);
+  expect(w[1]).toBeGreaterThanOrEqual(1959.1);
+  expect(await page.evaluate(() => window.__viewer.timeline.nodes.get("cuban-revolution-1959").show)).toBe(true);
+});
+
+test("the 2D view stacks lanes as rows and still picks nodes", async ({ page }) => {
+  await open(page);
+  await page.click('.seg button[data-view="2d"]');
+  await expect(page.locator('.seg button[data-view="2d"]')).toHaveAttribute("aria-pressed", "true");
+  const info = await page.evaluate(() => {
+    const t = window.__viewer.timeline;
+    const ys = [...new Set(Object.values(t.laneLines).map((l) => l.geometry.attributes.position.getY(0)))];
+    const zs = Object.values(t.laneLines).map((l) => l.geometry.attributes.position.getZ(0));
+    return { ortho: t.camera.isOrthographicCamera, rows: ys.length, lanes: t.layout.lanes.length, flat: zs.every((z) => z === 0) };
+  });
+  expect(info).toEqual({ ortho: true, rows: info.lanes, lanes: info.lanes, flat: true });
+  const point = await page.evaluate(() => {
+    const { timeline } = window.__viewer;
+    const v = timeline.nodes.get("russian-invasion-of-ukraine-2022").pos.clone().project(timeline.camera);
+    return { x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
+  });
+  await page.mouse.click(point.x, point.y);
+  await expect(page.locator("#detail h2")).toHaveText("Russia invades Ukraine");
+});
+
+test.describe("zooming with many items (fake stress data)", () => {
+  const STRESS = "?graph=tests/fixtures/stress-graph.json";
+
+  test("zoomed out, only the most important items and labels are drawn", async ({ page }) => {
+    await open(page, STRESS);
+    expect(await shown(page)).toBeLessThanOrEqual(120);
+    const labels = await page.evaluate(() => [...window.__viewer.timeline.nodes.values()].filter((n) => n.label).length);
+    expect(labels).toBeLessThanOrEqual(31);
+  });
+
+  test("zooming in on a parent event opens its parts", async ({ page }) => {
+    await open(page, STRESS);
+    const partsShown = () => page.evaluate(() =>
+      [...window.__viewer.timeline.nodes.values()].filter((n) => n.item.id.startsWith("test-crisis-day-") && n.show).length);
+    expect(await partsShown()).toBe(0);
+    await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(1962.7, 1963.0); t.settle(); });
+    expect(await partsShown()).toBe(6);
+    await expect(page.locator("#timebar .range")).toHaveText(/1962/);
   });
 });

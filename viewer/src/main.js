@@ -1,6 +1,7 @@
 import { LINK_TYPES, esc, loadGraph, yearLabel } from "./data.js";
 import { renderDetail } from "./panel.js";
 import { Timeline } from "./scene.js";
+import { TimeBar } from "./timebar.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -26,9 +27,14 @@ async function start() {
   let mode = "threads";
   let expanded = new Set();
 
+  let bar = null;
+  const legend = $("legend");
   const timeline = new Timeline($("stage"), $("labels"), data, {
     onPick: (id) => select(id),
     onLaneClick: (domain) => toggleDomain(domain),
+    onWindow: () => bar?.draw(),
+    onBuild: () => updateLaneHint(),
+    leftInset: () => (legend.hidden || innerWidth <= 760 ? 8 : legend.getBoundingClientRect().right + 8),
   });
 
   // Open one domain into its threads (closing any other), or close it again.
@@ -39,7 +45,10 @@ async function start() {
 
   function rebuild() {
     timeline.build(mode, expanded);
-    timeline.highlight(selected);
+  }
+
+  // Lanes can collapse after a rebuild or after zooming changes which threads are in view.
+  function updateLaneHint() {
     const collapsed = mode === "threads" && timeline.layout.collapsed;
     $("laneHint").hidden = !collapsed;
     document.querySelectorAll("#threadList .dom").forEach((h) => {
@@ -108,6 +117,19 @@ async function start() {
     };
   }
 
+  // ---- 3D or 2D
+  const viewButtons = document.querySelectorAll(".seg button[data-view]");
+  for (const b of viewButtons) {
+    b.onclick = () => {
+      viewButtons.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      timeline.setView(b.dataset.view);
+      $("hint").textContent = b.dataset.view === "2d"
+        ? "drag to pan · scroll to zoom the camera · zoom time with the strip below or + and − · click a node"
+        : "drag to orbit · scroll to zoom the camera · zoom time with the strip below or + and − · click a node";
+      if (selected) timeline.focus(selected);
+    };
+  }
+
   // ---- selection and detail panel
   const detail = $("detail");
   function select(id, { fly = true } = {}) {
@@ -168,21 +190,37 @@ async function start() {
   }
   function showTour() {
     const item = data.byId.get(tour[tourI]);
+    timeline.setPinned([item.id]);
     $("tTxt").textContent = `${tourI + 1} / ${tour.length} · ${yearLabel(item)} ${item.title}`;
     select(item.id);
   }
-  function endTour() { tour = null; tourEl.hidden = true; }
+  function endTour() { tour = null; tourEl.hidden = true; timeline.setPinned([]); }
   $("tNext").onclick = () => { tourI = Math.min(tour.length - 1, tourI + 1); showTour(); };
   $("tPrev").onclick = () => { tourI = Math.max(0, tourI - 1); showTour(); };
   $("tEnd").onclick = () => { endTour(); select(null); };
   addEventListener("keydown", (ev) => {
-    if (!tour || ev.target === q) return;
-    if (ev.key === "ArrowRight") $("tNext").click();
-    if (ev.key === "ArrowLeft") $("tPrev").click();
+    if (ev.target === q || ev.defaultPrevented) return;
+    if (tour) {
+      if (ev.key === "ArrowRight") $("tNext").click();
+      if (ev.key === "ArrowLeft") $("tPrev").click();
+      return;
+    }
+    // Without a guided path running, the keyboard moves and zooms the time window.
+    const w = timeline.window;
+    if (ev.key === "ArrowLeft") w.pan(-w.span * 0.2);
+    else if (ev.key === "ArrowRight") w.pan(w.span * 0.2);
+    else if (ev.key === "+" || ev.key === "=") w.zoom(0.7);
+    else if (ev.key === "-" || ev.key === "_") w.zoom(1 / 0.7);
+    else if (ev.key === "0") w.reset();
+    else return;
+    timeline.setWindow(w.t0, w.t1);
+    timeline.settle();
   });
 
   // ---- go
   rebuild();
+  bar = new TimeBar($("timebar"), data, timeline);
+  bar.draw();
   timeline.start();
   const fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash) select(fromHash);

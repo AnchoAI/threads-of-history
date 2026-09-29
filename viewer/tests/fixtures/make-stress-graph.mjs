@@ -48,6 +48,34 @@ for (let i = 0; i < 400; i++) {
     review: { status: "unverified", notes: ["Fake test data."] },
   });
 }
+// One parent event with day-level parts, for testing that zooming opens events into sub-events.
+const dayRange = (m, d) => {
+  const doy = Math.round((Date.UTC(1962, m - 1, d) - Date.UTC(1962, 0, 1)) / 86400000);
+  return [1962 + doy / 365, 1962 + (doy + 1) / 365];
+};
+const crisisThreads = [byDomain.politics[0].id];
+items.push({
+  kind: "event", id: "test-crisis", title: "Test crisis (fake)",
+  summary: "Generated parent event with day-level parts. Not a real event.",
+  occurred: { start: "1962-10", end: "1962-11", precision: "month", range: [1962 + 9 / 12, 1962 + 11 / 12] },
+  known: { public: { start: "1962-10", precision: "month", range: [1962 + 9 / 12, 1962 + 10 / 12] } },
+  threads: crisisThreads, regions: ["americas"], domains: ["politics"], importance: 5, sources: [],
+  review: { status: "unverified", notes: ["Fake test data."] },
+});
+const parts = [];
+for (let d = 0; d < 6; d++) {
+  const day = 14 + d * 2;
+  const start = `1962-10-${day}`;
+  parts.push({
+    kind: "event", id: `test-crisis-day-${d + 1}`, title: `Test crisis, day ${day} (fake)`,
+    summary: "Generated sub-event. Not a real event.",
+    occurred: { start, precision: "day", range: dayRange(10, day) },
+    known: { public: { start, precision: "day", range: dayRange(10, day) } },
+    threads: crisisThreads, regions: ["americas"], domains: ["politics"], importance: 2, sources: [],
+    review: { status: "unverified", notes: ["Fake test data."] },
+  });
+}
+items.push(...parts);
 items.sort((a, b) => a.occurred.range[0] - b.occurred.range[0]);
 
 const links = [];
@@ -63,6 +91,11 @@ while (links.length < 500) {
   seen.add(id);
   links.push({ id, from: a.id, to: b.id, type, confidence: rand() < 0.1 ? "contested" : "documented",
                note: "Fake test link.", sources: [], review: { status: "unverified" } });
+}
+
+for (const p of parts) {
+  links.push({ id: `${p.id}--part_of--test-crisis`, from: p.id, to: "test-crisis", type: "part_of",
+               confidence: "documented", note: "Fake test link.", sources: [], review: { status: "unverified" } });
 }
 
 const graph = {
