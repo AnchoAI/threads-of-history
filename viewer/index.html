@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Threads of History</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="labels"></div>
+
+  <aside class="panel" id="legend">
+    <h1>Threads of History</h1>
+    <p class="sub" id="count">Loading…</p>
+    <p class="draft" id="draft" hidden></p>
+    <input id="q" type="search" placeholder="Search events…" autocomplete="off" aria-label="Search events">
+    <div id="results"></div>
+    <div class="h">Lanes</div>
+    <div class="seg" role="group" aria-label="Arrange lanes by">
+      <button data-mode="threads" aria-pressed="true">Thread</button>
+      <button data-mode="regions" aria-pressed="false">Region</button>
+      <button data-mode="domains" aria-pressed="false">Domain</button>
+    </div>
+    <div class="h">Threads (click to hide)</div>
+    <p class="note" id="laneHint" hidden>Too many threads to show at once, so each domain is one lane. Click a domain, here or on its lane, to open its threads.</p>
+    <div id="threadList"></div>
+    <div class="h">Link types</div>
+    <div id="linkLegend"></div>
+    <p class="note hide-sm">Time runs left to right. Each lane is a thread, region or domain. Items on several lanes sit closer to the spine. Moving dots show a link's direction.</p>
+    <div class="h">Guided paths</div>
+    <div class="btns tours" id="tours"></div>
+    <div class="btns"><button class="ghost" id="resetBtn">Reset view</button></div>
+  </aside>
+
+  <aside class="panel" id="detail" hidden></aside>
+  <div class="panel" id="tour" hidden>
+    <button class="ghost" id="tPrev" aria-label="Previous">←</button>
+    <span class="txt" id="tTxt"></span>
+    <button class="ghost" id="tNext" aria-label="Next">→</button>
+    <button class="ghost" id="tEnd">End</button>
+  </div>
+  <div id="hint">drag to orbit · scroll to zoom · right-drag to pan · click a node</div>
+  <div id="error" class="panel" hidden></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

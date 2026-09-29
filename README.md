@@ -45,6 +45,7 @@ tools/
   build.py            compiles data/ into dist/graph.json
   importers/          one script per external dataset
 tests/                tests for the tools
+viewer/               the 3D viewer (Vite + three.js); see viewer/README.md
 docs/tasks/           written handoffs for larger pieces of work
 prototype/index.html  the original single-file three.js prototype (reference only)
 CLAUDE.md             design decisions and roadmap (AGENTS.md points here)
@@ -65,6 +66,8 @@ python -m pytest -q                 # test the tools
 ```
 
 `validate.py` exits with an error code if any rule is broken. With `--strict`, warnings fail too.
+
+To look at the data in 3D, see [`viewer/README.md`](viewer/README.md). In short: `cd viewer && npm install && npm run data && npm run dev`.
 
 ### Archiving sources
 
