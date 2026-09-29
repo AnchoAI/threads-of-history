@@ -93,7 +93,9 @@ store is incomplete; certificate verification is always enabled.
 
 Successful results and pending save jobs are persisted in the ignored
 `.cache/archives.json` (override with `--cache`). Rerunning skips filled sources,
-reuses saved results and resumes pending jobs. Failed sources are left untouched
+reuses saved results and resumes pending jobs, including on a later day:
+undated sources are cached by URL alone. Caches from earlier runs, which keyed
+undated sources by the day of the run, are adopted automatically. Failed sources are left untouched
 and reported on stdout; any failure makes the command exit nonzero. Save Page Now
 may refuse unauthenticated requests; the script reports that failure rather than
 claiming a capture exists. Archiving does not verify a historical claim or supply

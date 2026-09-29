@@ -164,11 +164,27 @@ class Wayback:
                 time.sleep(delay)
         raise RuntimeError("unreachable")
 
-    def archive(self, url, date):
+    def cached(self, url, date, dated):
+        """Return (key, entry). Undated sources are keyed by URL alone, so a rerun
+        on a later day (when "today" has moved) still finds results and pending jobs.
+        Older caches keyed undated sources by the day of the run; those entries are
+        adopted under the new key."""
+        key = json.dumps([url, date if dated else None])
+        if key in self.state or dated:
+            return key, self.state.get(key, {})
+        for old_key, entry in list(self.state.items()):
+            old_url, old_date = json.loads(old_key)
+            if old_url == url and old_date is not None and (entry.get("archive_url") or entry.get("job_id")):
+                del self.state[old_key]
+                self.state[key] = entry
+                self.remember()
+                return key, entry
+        return key, {}
+
+    def archive(self, url, date, dated=True):
         if urllib.parse.urlsplit(url).scheme not in {"http", "https"}:
             raise ValueError("source URL must use HTTP or HTTPS")
-        key = json.dumps([url, date])
-        entry = self.state.get(key, {})
+        key, entry = self.cached(url, date, dated)
         if entry.get("archive_url"):
             return snapshot_url(entry["archive_url"])
         if not entry.get("job_id"):
@@ -222,11 +238,12 @@ def process(path, client=None, dry_run=False):
     for node, fields in pending:
         url = fields["url"].value
         try:
-            date = target_date(fields["date"].value if "date" in fields else None)
+            source_date = fields["date"].value if "date" in fields else None
+            date = target_date(source_date)
             if dry_run:
                 print(f"WOULD ARCHIVE {path}: {url} (nearest {date})", flush=True)
                 continue
-            archive = client.archive(url, date)
+            archive = client.archive(url, date, dated=source_date is not None)
             edits.append(edit(text, node, fields, archive))
             print(f"ARCHIVED {path}: {url} -> {archive}", flush=True)
         except (ValueError, OSError) as error:

@@ -258,3 +258,42 @@ def test_path_scope_and_dry_run(tmp_path, monkeypatch):
     assert not (tmp_path / ".cache").exists()
     with pytest.raises(SystemExit):
         archive.main(["--dry-run", "--path", str(tmp_path)])
+
+
+def test_undated_source_resumes_on_a_later_day(tmp_path):
+    client = archive.Wayback(tmp_path / "cache.json")
+    client.request = Mock(side_effect=[({"archived_snapshots": {}}, {}, ""),
+                                      ({"job_id": "job-1"}, {}, ""),
+                                      TimeoutError("interrupted")])
+    with pytest.raises(TimeoutError):
+        client.archive(URL, "20240101", dated=False)
+    client = archive.Wayback(tmp_path / "cache.json")
+    client.request = Mock(return_value=({"status": "success", "timestamp": "20240102030405",
+                                        "original_url": URL}, {}, ""))
+    assert client.archive(URL, "20240105", dated=False) == SNAP  # "today" has moved on
+    assert client.request.call_args.args[0].endswith("status/job-1")
+
+
+def test_legacy_day_keyed_cache_is_adopted_for_undated_sources(tmp_path):
+    cache = tmp_path / "cache.json"
+    cache.write_text(json.dumps({json.dumps([URL, "20260926"]): {"archive_url": SNAP}}))
+    client = archive.Wayback(cache, offline=True)
+    assert client.archive(URL, "20261001", dated=False) == SNAP
+    assert json.loads(cache.read_text()) == {json.dumps([URL, None]): {"archive_url": SNAP}}
+
+
+def test_dated_sources_keep_their_own_date_key(tmp_path):
+    cache = tmp_path / "cache.json"
+    cache.write_text(json.dumps({json.dumps([URL, "20240101"]): {"archive_url": SNAP}}))
+    client = archive.Wayback(cache, offline=True)
+    with pytest.raises(ValueError, match="offline mode"):
+        client.archive(URL, "20230101")
+
+
+def test_process_marks_undated_sources(tmp_path):
+    path = tmp_path / "item.yaml"
+    path.write_text("sources:\n- url: https://example.org/a\n  title: A\n- url: https://example.org/b\n  date: 2024-01-01\n  title: B\n")
+    client = Mock()
+    client.archive.return_value = SNAP
+    archive.process(path, client)
+    assert [c.kwargs["dated"] for c in client.archive.call_args_list] == [False, True]
