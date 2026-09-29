@@ -18,7 +18,8 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Milestone 2 (port the prototype's data): done, but everything is `unverified`. The port ran in a sandbox with no access to Wikipedia or archive.org, so no quotes or archive links were added. Items and links carry notes on what to check. Actors were added, and `known` dates were added where they differ from `occurred` (Sykes–Picot, RDS-1, the Cuban Missile Crisis).
 - Schema extended for the decisions below: domains, Wikidata ids with a duplicate check, scenarios, a dataset registry, and table-backed series.
 - Handoff for populating 1900 to the present: `docs/tasks/populate-1900-present.md`, given to Codex.
-- Next for Claude: milestone 3, the viewer, in `viewer/`.
+- Milestone 3 (the viewer loading `graph.json`): done in `viewer/`. It matches the prototype's features and adds lanes by domain, review status and open questions in the side panel, shapes by kind (event, signal, decision), and links to items in the URL. Playwright tests run in CI.
+- Next for the viewer: the items in section 6, point 6 (zooming, importance-based visibility, the "knowable on" slider).
 
 ## Decisions since the handoff
 
