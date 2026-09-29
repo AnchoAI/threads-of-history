@@ -19,7 +19,8 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Schema extended for the decisions below: domains, Wikidata ids with a duplicate check, scenarios, a dataset registry, and table-backed series.
 - Handoff for populating 1900 to the present: `docs/tasks/populate-1900-present.md`, given to Codex.
 - Milestone 3 (the viewer loading `graph.json`): done in `viewer/`. It matches the prototype's features and adds lanes by domain, review status and open questions in the side panel, shapes by kind (event, signal, decision), and links to items in the URL. Playwright tests run in CI.
-- Next for the viewer: the items in section 6, point 6 (zooming, importance-based visibility, the "knowable on" slider).
+- Viewer lanes scale: in thread mode each domain gets a slice of the circle, threads are ordered so related ones sit together, and above 12 threads each domain collapses to one lane that opens on click. A fake 40-thread fixture (`viewer/tests/fixtures/`) tests this. Lane zooming by time period is still to do and belongs with time zooming.
+- Next for the viewer: the items in section 6, point 6 (zooming, importance-based visibility, the "knowable on" slider). A flat 2D lane view is a candidate second lens once there are 30 or more threads.
 
 ## Decisions since the handoff
 

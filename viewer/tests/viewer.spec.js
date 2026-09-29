@@ -28,7 +28,7 @@ test("loads the graph, draws a canvas and shows the draft banner", async ({ page
   await expect(page.locator("#count")).toHaveText(`${nodes} events · ${links} links`);
   await expect(page.locator("#stage canvas")).toBeVisible();
   await expect(page.locator("#draft")).toContainText("unverified");
-  const lanes = await page.evaluate(() => window.__viewer.data.lanes.threads.length);
+  const lanes = await page.evaluate(() => window.__viewer.timeline.layout.lanes.length);
   await expect(page.locator(".lane")).toHaveCount(lanes);
   await expect(page.locator("#tours button")).toHaveCount(3);
   expect(errors).toEqual([]);
@@ -119,4 +119,43 @@ test("a missing graph.json shows how to build it", async ({ page }) => {
   await page.route("**/graph.json", (route) => route.fulfill({ status: 404, body: "" }));
   await page.goto("/");
   await expect(page.locator("#error")).toContainText("npm run data");
+});
+
+// ---------------------------------------------------------------- many threads (fake fixture)
+
+test.describe("with 40 threads (fake stress data)", () => {
+  const STRESS = "?graph=tests/fixtures/stress-graph.json";
+
+  test("domains collapse to one lane each and open on click", async ({ page }) => {
+    const errors = await open(page, STRESS);
+    await expect(page.locator("#count")).toHaveText("400 events · 500 links");
+    await expect(page.locator(".lane")).toHaveCount(6);
+    await expect(page.locator("#laneHint")).toBeVisible();
+
+    // Open a domain from the legend: its threads get lanes, the rest stay collapsed.
+    await page.locator('#threadList .dom[data-domain="economy"]').click();
+    await expect(page.locator(".lane")).toHaveCount(8 + 5);
+    await expect(page.locator('#threadList .dom[data-domain="economy"]')).toHaveAttribute("aria-expanded", "true");
+
+    // Opening another domain closes the first.
+    await page.locator('#threadList .dom[data-domain="sports"]').click();
+    await expect(page.locator(".lane")).toHaveCount(3 + 5);
+    await page.locator('#threadList .dom[data-domain="sports"]').click();
+    await expect(page.locator(".lane")).toHaveCount(6);
+    expect(errors).toEqual([]);
+  });
+
+  test("clicking a domain's lane label opens it", async ({ page }) => {
+    await open(page, STRESS);
+    await page.evaluate(() => {
+      // Point the camera down the spine so every lane label is on screen.
+      const { timeline } = window.__viewer;
+      timeline.camera.position.set(timeline.x(timeline.y0) - 120, 0, 0);
+      timeline.controls.target.set(0, 0, 0);
+    });
+    const label = page.locator('.lane[data-lane="domain:science"]');
+    await expect(label).toBeVisible();
+    await label.click();
+    await expect(page.locator(".lane")).toHaveCount(5 + 5);
+  });
 });

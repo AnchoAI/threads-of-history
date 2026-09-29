@@ -30,25 +30,13 @@ export function indexGraph(graph) {
     linksOf.get(l.from).push(l);
     linksOf.get(l.to).push(l);
   }
-  const lanes = {
-    threads: graph.threads,
-    regions: graph.regions,
-    domains: graph.domains.filter((d) => nodes.some((n) => n.domains.includes(d.id))),
-  };
   const threadColor = Object.fromEntries(graph.threads.map((t) => [t.id, t.color || "#8A93A0"]));
   const reviewCounts = {};
   for (const it of [...graph.items, ...graph.links]) {
     const s = it.review?.status ?? "unverified";
     reviewCounts[s] = (reviewCounts[s] ?? 0) + 1;
   }
-  return { graph, byId, nodes, links, linksOf, lanes, threadColor, paths: graph.paths, reviewCounts };
-}
-
-// Which lanes an item sits on for a given arrangement.
-export function lanesOf(item, mode) {
-  if (mode === "regions") return item.regions;
-  if (mode === "domains") return item.domains;
-  return item.threads;
+  return { graph, byId, nodes, links, linksOf, threadColor, paths: graph.paths, reviewCounts };
 }
 
 // ---------------------------------------------------------------- display helpers

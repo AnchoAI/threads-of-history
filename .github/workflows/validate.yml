@@ -49,6 +49,9 @@ jobs:
       - name: Build viewer
         working-directory: viewer
         run: npm run build
+      - name: Layout unit tests
+        working-directory: viewer
+        run: npm run test:unit
       - name: Install Chromium
         working-directory: viewer
         run: npx playwright install --with-deps chromium

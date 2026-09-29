@@ -2,19 +2,23 @@
 // Ported from prototype/index.html; the data now comes from graph.json.
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { LINK_TYPES, lanesOf, esc, yearLabel } from "./data.js";
+import { LINK_TYPES, esc, yearLabel } from "./data.js";
+import { computeLanes } from "./layout.js";
 
 const XS = 4;       // world units per year (fixed for now; a stretchable axis comes later)
-const R = 26;       // lane radius
+const R = 26;       // lane radius for up to 10 lanes; grows gently beyond that
 const BG = 0x0B0F14;
 const NEUTRAL_LANE = "#6B7686";
 
 export class Timeline {
-  constructor(stage, labelsEl, data, { onPick } = {}) {
+  constructor(stage, labelsEl, data, { onPick, onLaneClick } = {}) {
     this.data = data;
     this.labelsEl = labelsEl;
     this.onPick = onPick ?? (() => {});
+    this.onLaneClick = onLaneClick ?? (() => {});
     this.mode = "threads";
+    this.expanded = new Set();  // domains opened into their threads (when lanes are collapsed)
+    this.layout = null;
     this.hidden = new Set();
     this.selected = null;
     this.fly = null;
@@ -87,17 +91,14 @@ export class Timeline {
     }
   }
 
-  laneSet() {
-    return this.data.lanes[this.mode];
-  }
-
-  laneColor(id) {
-    return this.mode === "threads" ? this.data.threadColor[id] : NEUTRAL_LANE;
+  laneColor(lane) {
+    return lane?.color ?? NEUTRAL_LANE;
   }
 
   // (Re)build lanes, nodes and links for the current lane arrangement.
-  build(mode = this.mode) {
+  build(mode = this.mode, expanded = this.expanded) {
     this.mode = mode;
+    this.expanded = expanded;
     if (this.world) {
       this.world.traverse((o) => { o.geometry?.dispose(); o.material?.dispose(); });
       this.scene.remove(this.world);
@@ -112,33 +113,43 @@ export class Timeline {
     this.scene.add(this.world);
 
     const xa = this.x(this.y0), xb = this.x(this.y1);
-    const lanes = this.laneSet();
+    this.layout = computeLanes(this.data, this.mode, this.expanded);
+    const { lanes } = this.layout;
+    const radius = R * Math.max(1, Math.sqrt(lanes.length / 10));
     const dir = {};
-    lanes.forEach((lane, i) => {
-      const a = (i / lanes.length) * Math.PI * 2 + Math.PI / 2;
-      dir[lane.id] = new THREE.Vector3(0, Math.sin(a), Math.cos(a));
-      const p = dir[lane.id].clone().multiplyScalar(R);
-      const color = this.laneColor(lane.id);
+    const laneById = {};
+    for (const lane of lanes) {
+      laneById[lane.id] = lane;
+      dir[lane.id] = new THREE.Vector3(0, Math.sin(lane.angle), Math.cos(lane.angle));
+      const p = dir[lane.id].clone().multiplyScalar(radius);
+      const color = this.laneColor(lane);
       const line = new THREE.Line(
         new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(xa, p.y, p.z), new THREE.Vector3(xb, p.y, p.z)]),
-        new THREE.LineBasicMaterial({ color, transparent: true, opacity: this.mode === "threads" ? 0.28 : 0.4 }));
+        new THREE.LineBasicMaterial({ color, transparent: true, opacity: lane.kind === "thread" ? 0.28 : 0.4 }));
       this.world.add(line);
       this.laneLines[lane.id] = line;
       const el = document.createElement("div");
       el.className = "lane";
       el.style.color = color;
       el.textContent = lane.name;
+      el.dataset.lane = lane.id;
+      // Domains open into their threads, and an open domain's threads close it again.
+      if (this.layout.collapsed && lane.domain) {
+        el.classList.add("clickable");
+        el.title = lane.kind === "domain" ? "Show this domain's threads" : "Collapse this domain";
+        el.addEventListener("click", () => this.onLaneClick(lane.domain));
+      }
       this.labelsEl.appendChild(el);
-      this.laneLabels.push({ el, p: new THREE.Vector3(xa, p.y, p.z), id: lane.id });
-    });
+      this.laneLabels.push({ el, p: new THREE.Vector3(xa, p.y, p.z), lane });
+    }
 
     for (const item of this.data.nodes) {
       const x = this.x(item.occurred.range[0]);
-      const ls = lanesOf(item, this.mode).filter((k) => dir[k]);
+      const ls = this.layout.lanesOf(item).filter((k) => dir[k]);
       const v = new THREE.Vector3();
       ls.forEach((k) => v.add(dir[k]));
       if (ls.length) v.divideScalar(ls.length);
-      const pos = new THREE.Vector3(x, v.y * R, v.z * R);
+      const pos = new THREE.Vector3(x, v.y * radius, v.z * radius);
       const color = new THREE.Color(this.data.threadColor[item.threads[0]] ?? NEUTRAL_LANE);
       const degree = this.data.linksOf.get(item.id).length;
       const size = (1.2 + 0.25 * degree ** 0.8) * (0.8 + 0.08 * (item.importance ?? 3));
@@ -148,10 +159,10 @@ export class Timeline {
       mesh.userData.id = item.id;
       this.world.add(mesh);
       const tethers = ls.map((k) => {
-        const lp = dir[k].clone().multiplyScalar(R);
+        const lp = dir[k].clone().multiplyScalar(radius);
         lp.x = x;
         const t = new THREE.Line(new THREE.BufferGeometry().setFromPoints([pos, lp]),
-          new THREE.LineBasicMaterial({ color: this.laneColor(k), transparent: true, opacity: 0.4 }));
+          new THREE.LineBasicMaterial({ color: this.laneColor(laneById[k]), transparent: true, opacity: 0.4 }));
         this.world.add(t);
         return t;
       });
@@ -200,11 +211,18 @@ export class Timeline {
     return item.threads.some((t) => !this.hidden.has(t));
   }
 
+  // A thread lane is hidden with its thread; a collapsed domain lane when all its threads are.
+  laneHidden(lane) {
+    if (lane.kind === "thread") return this.hidden.has(lane.id);
+    if (lane.threads) return lane.threads.every((t) => this.hidden.has(t));
+    return false;
+  }
+
   applyVisibility() {
-    if (this.mode === "threads") {
-      for (const [id, line] of Object.entries(this.laneLines)) line.visible = !this.hidden.has(id);
+    for (const l of this.laneLabels) {
+      l.hide = this.laneHidden(l.lane);
+      this.laneLines[l.lane.id].visible = !l.hide;
     }
-    this.laneLabels.forEach((l) => { l.hide = this.mode === "threads" && this.hidden.has(l.id); });
     for (const n of this.nodes.values()) {
       const v = this.isVisible(n.item);
       n.mesh.visible = v;
@@ -316,6 +334,11 @@ export class Timeline {
       for (const l of this.laneLabels) {
         if (l.hide) { l.el.style.display = "none"; continue; }
         this.#project(l.p, l.el, 0.9);
+        // Put the text on the lane's outer side, so labels spread outwards instead of
+        // running back across the circle.
+        const lane = this.tmp.copy(l.p).project(this.camera).x;
+        const spine = this.tmp.set(l.p.x, 0, 0).project(this.camera).x;
+        l.el.classList.toggle("right", lane > spine);
       }
       for (const y of this.staticLabels) this.#project(y.p, y.el);
       this.renderer.render(this.scene, this.camera);

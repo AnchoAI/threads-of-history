@@ -34,6 +34,16 @@ h1 { font: 600 22px/1.1 var(--serif); margin: 0 0 2px; }
 .draft { font-size: 11.5px; line-height: 1.4; color: var(--unverified); border: 1px solid currentColor;
          border-radius: 4px; padding: 6px 8px; margin: 0 0 10px; }
 .h { font: 500 10px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 12px 0 6px; }
+.lane.right { transform: translate(0, -50%); padding: 0 0 0 8px; }
+.lane.clickable { pointer-events: auto; cursor: pointer; }
+.lane.clickable:hover { text-decoration: underline; }
+.dom { font: 500 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+       margin: 8px 0 2px; user-select: none; }
+.dom.clickable { cursor: pointer; color: var(--ink); }
+.dom.clickable::before { content: "▸ "; }
+.dom.clickable[aria-expanded="true"]::before { content: "▾ "; }
+.dom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#laneHint { margin: 0 0 6px; }
 .row { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 3px 0; cursor: pointer; user-select: none; }
 .row.off { opacity: .35; }
 .row.static { cursor: default; }

@@ -7,7 +7,9 @@ const $ = (id) => document.getElementById(id);
 async function start() {
   let data;
   try {
-    data = await loadGraph("graph.json");
+    // ?graph=<file> loads another graph, e.g. the stress-test fixture during development.
+    const alt = new URLSearchParams(location.search).get("graph");
+    data = await loadGraph(alt && /^[\w./-]+\.json$/.test(alt) && !alt.includes("..") ? alt : "graph.json");
   } catch (err) {
     const box = $("error");
     box.innerHTML = `<b>No data to show.</b><br>${esc(err.message)}<br><br>
@@ -21,10 +23,30 @@ async function start() {
   let selected = null;
   let tour = null, tourI = 0;
   const hidden = new Set();
+  let mode = "threads";
+  let expanded = new Set();
 
   const timeline = new Timeline($("stage"), $("labels"), data, {
     onPick: (id) => select(id),
+    onLaneClick: (domain) => toggleDomain(domain),
   });
+
+  // Open one domain into its threads (closing any other), or close it again.
+  function toggleDomain(domain) {
+    expanded = expanded.has(domain) ? new Set() : new Set([domain]);
+    rebuild();
+  }
+
+  function rebuild() {
+    timeline.build(mode, expanded);
+    timeline.highlight(selected);
+    const collapsed = mode === "threads" && timeline.layout.collapsed;
+    $("laneHint").hidden = !collapsed;
+    document.querySelectorAll("#threadList .dom").forEach((h) => {
+      h.classList.toggle("clickable", collapsed);
+      h.setAttribute("aria-expanded", String(!collapsed || expanded.has(h.dataset.domain)));
+    });
+  }
 
   // ---- header counts and draft banner
   $("count").textContent = `${data.nodes.length} events · ${data.links.length} links`;
@@ -36,24 +58,36 @@ async function start() {
     $("draft").hidden = false;
   }
 
-  // ---- thread toggles
-  for (const t of data.graph.threads) {
-    if (!data.nodes.some((n) => n.threads.includes(t.id))) continue;
-    const row = document.createElement("div");
-    row.className = "row";
-    row.tabIndex = 0;
-    row.dataset.thread = t.id;
-    row.innerHTML = `<span class="sw" style="background:${data.threadColor[t.id]}"></span>${esc(t.name)}`;
-    const toggle = () => {
-      hidden.has(t.id) ? hidden.delete(t.id) : hidden.add(t.id);
-      row.classList.toggle("off", hidden.has(t.id));
-      timeline.setHidden(hidden);
-    };
-    row.onclick = toggle;
-    row.onkeydown = (ev) => {
-      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); }
-    };
-    $("threadList").appendChild(row);
+  // ---- thread toggles, grouped by domain
+  for (const d of data.graph.domains) {
+    const threads = data.graph.threads.filter((t) => t.domain === d.id && data.nodes.some((n) => n.threads.includes(t.id)));
+    if (!threads.length) continue;
+    const head = document.createElement("div");
+    head.className = "dom";
+    head.dataset.domain = d.id;
+    head.tabIndex = 0;
+    head.textContent = d.name;
+    const open = () => { if (head.classList.contains("clickable")) toggleDomain(d.id); };
+    head.onclick = open;
+    head.onkeydown = (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); open(); } };
+    $("threadList").appendChild(head);
+    for (const t of threads) {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.tabIndex = 0;
+      row.dataset.thread = t.id;
+      row.innerHTML = `<span class="sw" style="background:${data.threadColor[t.id]}"></span>${esc(t.name)}`;
+      const toggle = () => {
+        hidden.has(t.id) ? hidden.delete(t.id) : hidden.add(t.id);
+        row.classList.toggle("off", hidden.has(t.id));
+        timeline.setHidden(hidden);
+      };
+      row.onclick = toggle;
+      row.onkeydown = (ev) => {
+        if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); }
+      };
+      $("threadList").appendChild(row);
+    }
   }
 
   // ---- link legend (only types that appear in the data), plus contested
@@ -68,8 +102,8 @@ async function start() {
   for (const b of modeButtons) {
     b.onclick = () => {
       modeButtons.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-      timeline.build(b.dataset.mode);
-      timeline.highlight(selected);
+      mode = b.dataset.mode;
+      rebuild();
       if (selected) timeline.focus(selected);
     };
   }
@@ -148,7 +182,7 @@ async function start() {
   });
 
   // ---- go
-  timeline.build("threads");
+  rebuild();
   timeline.start();
   const fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash) select(fromHash);
