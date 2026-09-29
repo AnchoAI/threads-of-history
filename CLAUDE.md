@@ -10,11 +10,29 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Every item and link has `review.status`: `unverified`, then `sourced` (quotes attached, no person has checked them yet), then `reviewed` (a person checked it). Never raise anything to `reviewed` yourself; that needs a person. AI-proposed content goes in as `unverified` or `sourced`.
 - Put open questions about an item in its `review.notes`, not in the summary.
 - Contested positions whose attribution is a guess say `(needs sourcing)` in `held_by`. The validator refuses that once an item is `sourced`.
+- Rules for coding agents are in `AGENTS.md`. Larger handoffs are in `docs/tasks/`.
 
 ### Progress
 
 - Milestone 1 (repo, schema, validator, build, CI, README): done.
 - Milestone 2 (port the prototype's data): done, but everything is `unverified`. The port ran in a sandbox with no access to Wikipedia or archive.org, so no quotes or archive links were added. Items and links carry notes on what to check. Actors were added, and `known` dates were added where they differ from `occurred` (Sykes–Picot, RDS-1, the Cuban Missile Crisis).
+- Schema extended for the decisions below: domains, Wikidata ids with a duplicate check, scenarios, a dataset registry, and table-backed series.
+- Handoff for populating 1900 to the present: `docs/tasks/populate-1900-present.md`, given to Codex.
+- Next for Claude: milestone 3, the viewer, in `viewer/`.
+
+## Decisions since the handoff
+
+These came out of planning conversations with Michael and extend sections 3–7 below.
+
+- **Scope for now: 1900 to the present.** Earlier background items are fine but not a priority.
+- **Forecasting is a goal.** The project should eventually support scored, testable forecasts, not just explanation. What makes this possible is the two kinds of time: a model can be tested on only what was knowable at a date. Plan, in order: the viewer and the deep dives; country-year data with the date each figure was published; a backtesting setup that matches one published model (for example the Political Instability Task Force's); a forecasting test for AI models and a public leaderboard; then partners and funding.
+- **The unit for numbers is country-year,** with country-month added later for conflict work. Tables use ISO 3166-1 alpha-3 codes (ISO 3166-3 former codes for states that no longer exist).
+- **External data is registered, not typed in.** Every source dataset has a file in `data/datasets/` with its version, citation and licence, and an importer in `tools/importers/`. Tables from datasets that restrict redistribution are refused. First datasets: Wikidata, Maddison Project, V-Dem, UCDP/PRIO, Powell & Thyne. ACLED and GDELT are deliberately left out for now: ACLED for licence reasons, GDELT for noise.
+- **Wikidata is the skeleton, curated in batches.** Wikidata events go into a candidate pool in `staging/`, and batches promote them into `data/` with sources and links. Items carry their `wikidata` id, and the validator refuses duplicate ids.
+- **Domains sit above threads:** politics, economy, society, science, culture, sports. The data has no fixed axes; the viewer chooses which labels (time, domain, thread, region, actor) to map to space. New domains such as sports need no format change.
+- **Branching futures are `scenario` items:** a probability, a `given` list of other scenarios (forming a tree), a resolution date and an outcome. They are never facts and cannot be linked to facts; when one happens it points to the event. In the viewer, the past is one spine that fans out at "today" into branches whose thickness shows their probability.
+- **Not decided yet:** the licence (CC0, CC BY or CC BY-SA), and whether the project is a nonprofit or a business (grants and donations, or paid API access and a paid AI forecasting test). Ads are ruled out. Before accepting outside contributions, decide the licence and whether contributors must sign an agreement.
+- **Community:** if a community is built, centre it on scored forecasts and contributions, not a general social feed. Moderation of contested topics stays with people, not an autonomous agent.
 
 ---
 
@@ -40,7 +58,7 @@ Owner: Michael, a Python developer who knows git and Playwright. He is new to th
 
 ## 3. Data model
 
-The prototype had only events and links. The model going forward has five kinds of item plus links:
+The prototype had only events and links. The model going forward has five kinds of item plus links (a sixth, `scenario`, was added later; see "Decisions since the handoff"):
 
 | Kind | What it is | Examples |
 |---|---|---|
