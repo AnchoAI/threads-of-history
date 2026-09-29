@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Georges-Picot
+- archive_url: "https://web.archive.org/web/20251229174827/https://en.wikipedia.org/wiki/Fran%C3%A7ois_Georges-Picot"
+  url: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Georges-Picot
   title: François Georges-Picot
   publisher: Wikipedia
   type: reference

@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Charlie Hebdo republishes in solidarity.
 sources:
-- url: https://en.wikipedia.org/wiki/Charlie_Hebdo
+- archive_url: "https://web.archive.org/web/20260919033640/https://en.wikipedia.org/wiki/Charlie_Hebdo"
+  url: https://en.wikipedia.org/wiki/Charlie_Hebdo
   title: Charlie Hebdo
   publisher: Wikipedia
   type: reference

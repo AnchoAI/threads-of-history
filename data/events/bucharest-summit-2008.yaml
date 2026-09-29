@@ -16,7 +16,8 @@ actors:
 - ukraine
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/2008_Bucharest_summit
+- archive_url: "https://web.archive.org/web/20260821042910/https://en.wikipedia.org/wiki/2008_Bucharest_summit"
+  url: https://en.wikipedia.org/wiki/2008_Bucharest_summit
   title: 2008 Bucharest summit
   publisher: Wikipedia
   type: reference

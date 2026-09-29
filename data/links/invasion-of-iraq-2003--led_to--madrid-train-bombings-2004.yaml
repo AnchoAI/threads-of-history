@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The bombers cite Spain's role in Iraq.
 sources:
-- url: https://en.wikipedia.org/wiki/2004_Madrid_train_bombings
+- archive_url: "https://web.archive.org/web/20260928153430/https://en.wikipedia.org/wiki/2004_Madrid_train_bombings"
+  url: https://en.wikipedia.org/wiki/2004_Madrid_train_bombings
   title: 2004 Madrid train bombings
   publisher: Wikipedia
   type: reference

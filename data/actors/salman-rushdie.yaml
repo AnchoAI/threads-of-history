@@ -12,7 +12,8 @@ regions:
 - south-central-asia
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Salman_Rushdie
+- archive_url: "https://web.archive.org/web/20260927183838/https://en.wikipedia.org/wiki/Salman_Rushdie"
+  url: https://en.wikipedia.org/wiki/Salman_Rushdie
   title: Salman Rushdie
   publisher: Wikipedia
   type: reference

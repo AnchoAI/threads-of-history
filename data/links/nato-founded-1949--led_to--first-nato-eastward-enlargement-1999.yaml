@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The alliance expands east after the Cold War.
 sources:
-- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+- archive_url: "https://web.archive.org/web/20260928152830/https://en.wikipedia.org/wiki/Enlargement_of_NATO"
+  url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
   title: Enlargement of NATO
   publisher: Wikipedia
   type: reference

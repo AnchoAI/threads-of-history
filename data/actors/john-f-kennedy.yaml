@@ -11,7 +11,8 @@ regions:
 - americas
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/John_F._Kennedy
+- archive_url: "https://web.archive.org/web/20260928214519/https://en.wikipedia.org/wiki/John_F._Kennedy"
+  url: https://en.wikipedia.org/wiki/John_F._Kennedy
   title: John F. Kennedy
   publisher: Wikipedia
   type: reference

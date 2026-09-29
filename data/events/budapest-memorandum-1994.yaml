@@ -16,7 +16,8 @@ actors:
 - russia
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Budapest_Memorandum
+- archive_url: "https://web.archive.org/web/20260919124118/https://en.wikipedia.org/wiki/Budapest_Memorandum"
+  url: https://en.wikipedia.org/wiki/Budapest_Memorandum
   title: Budapest Memorandum
   publisher: Wikipedia
   type: reference

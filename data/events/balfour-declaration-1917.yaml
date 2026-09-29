@@ -16,7 +16,8 @@ actors:
 - arthur-balfour
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Balfour_Declaration
+- archive_url: "https://web.archive.org/web/20260928161947/https://en.wikipedia.org/wiki/Balfour_Declaration"
+  url: https://en.wikipedia.org/wiki/Balfour_Declaration
   title: Balfour Declaration
   publisher: Wikipedia
   type: reference

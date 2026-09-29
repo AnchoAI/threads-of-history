@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Mikhail_Gorbachev
+- archive_url: "https://web.archive.org/web/20260928053309/https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+  url: https://en.wikipedia.org/wiki/Mikhail_Gorbachev
   title: Mikhail Gorbachev
   publisher: Wikipedia
   type: reference

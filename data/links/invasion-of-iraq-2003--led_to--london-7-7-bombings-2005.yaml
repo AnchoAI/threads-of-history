@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Two bombers' videos cite the Iraq war.
 sources:
-- url: https://en.wikipedia.org/wiki/7_July_2005_London_bombings
+- archive_url: "https://web.archive.org/web/20260926034614/https://en.wikipedia.org/wiki/7_July_2005_London_bombings"
+  url: https://en.wikipedia.org/wiki/7_July_2005_London_bombings
   title: 7 July 2005 London bombings
   publisher: Wikipedia
   type: reference

@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/National_Liberation_Front_(Algeria)
+- archive_url: "https://web.archive.org/web/20260922183722/https://en.wikipedia.org/wiki/National_Liberation_Front_(Algeria)"
+  url: https://en.wikipedia.org/wiki/National_Liberation_Front_(Algeria)
   title: National Liberation Front (Algeria)
   publisher: Wikipedia
   type: reference

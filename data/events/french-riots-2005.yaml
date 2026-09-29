@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/2005_French_riots
+- archive_url: "https://web.archive.org/web/20260914091406/https://en.wikipedia.org/wiki/2005_French_riots"
+  url: https://en.wikipedia.org/wiki/2005_French_riots
   title: 2005 French riots
   publisher: Wikipedia
   type: reference

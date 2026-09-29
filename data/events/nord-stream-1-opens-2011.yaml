@@ -13,7 +13,8 @@ actors:
 - gazprom
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Nord_Stream
+- archive_url: "https://web.archive.org/web/20260926163817/https://en.wikipedia.org/wiki/Nord_Stream"
+  url: https://en.wikipedia.org/wiki/Nord_Stream
   title: Nord Stream
   publisher: Wikipedia
   type: reference

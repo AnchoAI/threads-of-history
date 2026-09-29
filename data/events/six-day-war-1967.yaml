@@ -14,7 +14,8 @@ actors:
 - egypt
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/Six-Day_War
+- archive_url: "https://web.archive.org/web/20260928205717/https://en.wikipedia.org/wiki/Six-Day_War"
+  url: https://en.wikipedia.org/wiki/Six-Day_War
   title: Six-Day War
   publisher: Wikipedia
   type: reference

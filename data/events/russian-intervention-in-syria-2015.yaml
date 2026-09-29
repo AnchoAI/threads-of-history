@@ -16,7 +16,8 @@ actors:
 - bashar-al-assad
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
+- archive_url: "https://web.archive.org/web/20260924122403/https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war"
+  url: https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
   title: Russian intervention in the Syrian civil war
   publisher: Wikipedia
   type: reference

@@ -15,7 +15,8 @@ actors:
 - united-states
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/North_Atlantic_Treaty
+- archive_url: "https://web.archive.org/web/20260927134912/https://en.wikipedia.org/wiki/North_Atlantic_Treaty"
+  url: https://en.wikipedia.org/wiki/North_Atlantic_Treaty
   title: North Atlantic Treaty
   publisher: Wikipedia
   type: reference

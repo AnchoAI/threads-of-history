@@ -11,7 +11,8 @@ regions:
 - americas
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Seymour_Hersh
+- archive_url: "https://web.archive.org/web/20260914144305/https://en.wikipedia.org/wiki/Seymour_Hersh"
+  url: https://en.wikipedia.org/wiki/Seymour_Hersh
   title: Seymour Hersh
   publisher: Wikipedia
   type: reference

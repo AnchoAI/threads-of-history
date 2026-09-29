@@ -5,7 +5,8 @@ type: revealed
 confidence: documented
 note: Finds the agencies withheld the Castro plots from the Warren Commission.
 sources:
-- url: https://en.wikipedia.org/wiki/Church_Committee
+- archive_url: "https://web.archive.org/web/20260921152754/https://en.wikipedia.org/wiki/Church_Committee"
+  url: https://en.wikipedia.org/wiki/Church_Committee
   title: Church Committee
   publisher: Wikipedia
   type: reference

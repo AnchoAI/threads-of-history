@@ -7,7 +7,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/United_Kingdom
+- archive_url: "https://web.archive.org/web/20260928235045/https://en.wikipedia.org/wiki/United_Kingdom"
+  url: https://en.wikipedia.org/wiki/United_Kingdom
   title: United Kingdom
   publisher: Wikipedia
   type: reference

@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi
+- archive_url: "https://web.archive.org/web/20260927231626/https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi"
+  url: https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi
   title: Mohammad Reza Pahlavi
   publisher: Wikipedia
   type: reference

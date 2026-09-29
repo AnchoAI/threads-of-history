@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Al-Qaeda_in_the_Arabian_Peninsula
+- archive_url: "https://web.archive.org/web/20260925073013/https://en.wikipedia.org/wiki/Al-Qaeda_in_the_Arabian_Peninsula"
+  url: https://en.wikipedia.org/wiki/Al-Qaeda_in_the_Arabian_Peninsula
   title: Al-Qaeda in the Arabian Peninsula
   publisher: Wikipedia
   type: reference

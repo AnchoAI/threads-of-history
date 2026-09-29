@@ -6,7 +6,8 @@ confidence: contested
 note: Cuba policy is a recurring theme in theories about the assassination; no inquiry has established
   a link.
 sources:
-- url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
+- archive_url: "https://web.archive.org/web/20260928032750/https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
   title: Assassination of John F. Kennedy
   publisher: Wikipedia
   type: reference

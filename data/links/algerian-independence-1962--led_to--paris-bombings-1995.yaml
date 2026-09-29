@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The GIA attacks France for backing Algeria's government, a relationship rooted in the colonial era.
 sources:
-- url: https://en.wikipedia.org/wiki/1995_France_bombings
+- archive_url: "https://web.archive.org/web/20260927141425/https://en.wikipedia.org/wiki/1995_France_bombings"
+  url: https://en.wikipedia.org/wiki/1995_France_bombings
   title: 1995 France bombings
   publisher: Wikipedia
   type: reference

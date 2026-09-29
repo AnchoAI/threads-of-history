@@ -16,7 +16,8 @@ actors:
 - pakistan
 importance: 5
 sources:
-- url: https://en.wikipedia.org/wiki/Partition_of_India
+- archive_url: "https://web.archive.org/web/20260917134336/https://en.wikipedia.org/wiki/Partition_of_India"
+  url: https://en.wikipedia.org/wiki/Partition_of_India
   title: Partition of India
   publisher: Wikipedia
   type: reference

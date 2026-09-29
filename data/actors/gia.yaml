@@ -8,7 +8,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria
+- archive_url: "https://web.archive.org/web/20260919143115/https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria"
+  url: https://en.wikipedia.org/wiki/Armed_Islamic_Group_of_Algeria
   title: Armed Islamic Group of Algeria
   publisher: Wikipedia
   type: reference

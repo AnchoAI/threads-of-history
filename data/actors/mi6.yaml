@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Secret_Intelligence_Service
+- archive_url: "https://web.archive.org/web/20260819161251/https://en.wikipedia.org/wiki/Secret_Intelligence_Service"
+  url: https://en.wikipedia.org/wiki/Secret_Intelligence_Service
   title: Secret Intelligence Service
   publisher: Wikipedia
   type: reference
