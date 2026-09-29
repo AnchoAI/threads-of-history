@@ -1,27 +1,36 @@
 - id: empire
   name: Empire & decolonization
+  domain: politics
   color: '#B09A7E'
 - id: migration
   name: Migration & European politics
+  domain: society
   color: '#6FD08C'
 - id: mideast
   name: Middle East & jihadism
+  domain: politics
   color: '#E0A36A'
 - id: intel
   name: Intelligence & disclosure
+  domain: politics
   color: '#9C8CE0'
 - id: usru
   name: US – USSR / Russia
+  domain: politics
   color: '#D9574A'
 - id: nuclear
   name: Nuclear weapons
+  domain: politics
   color: '#F08A3E'
 - id: cuba
   name: Cuba
+  domain: politics
   color: '#3FB6A8'
 - id: ukraine
   name: Ukraine & NATO
+  domain: politics
   color: '#E6CF4A'
 - id: energy
   name: European energy
+  domain: economy
   color: '#5E9BE0'

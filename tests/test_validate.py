@@ -66,20 +66,59 @@ BASE = {
         link("buildup-2021", "led_to", "invasion-2022"),
         link("satellite-imagery-2021", "signal_of", "invasion-2022"),
     ],
+    "scenarios": [{
+        "id": "ceasefire-2027", "title": "Ceasefire agreed", "summary": "A possible ceasefire.",
+        "window": {"start": "2027", "precision": "year"}, "probability": 0.3,
+        "forecast_by": "Example forecaster", "forecast_on": "2026-09-01", "resolves_by": "2027-12-31",
+        "resolution": {"outcome": "open"},
+        "threads": ["ukraine"], "regions": ["europe"], "importance": 3, "sources": [],
+        "review": {"status": "unverified"},
+    }, {
+        "id": "elections-2028", "title": "Elections held", "summary": "Depends on the ceasefire.",
+        "window": {"start": "2028", "precision": "year"}, "probability": 0.6, "given": ["ceasefire-2027"],
+        "forecast_by": "Example forecaster", "forecast_on": "2026-09-01", "resolves_by": "2028-12-31",
+        "resolution": {"outcome": "open"},
+        "threads": ["ukraine"], "regions": ["europe"], "importance": 2, "sources": [],
+        "review": {"status": "unverified"},
+    }],
+    "datasets": [{
+        "id": "example-data", "title": "Example data", "publisher": "Example", "url": "https://example.org/data",
+        "version": "1", "license": {"name": "CC BY 4.0", "redistribution": "allowed"}, "citation": "Example (2024).",
+        "unit_of_analysis": "country-year", "coverage": {"start": "1900", "end": "2020", "precision": "year"},
+        "review": {"status": "unverified"},
+    }],
     "paths": [{"id": "tour", "title": "Tour", "steps": ["buildup-2021", "invasion-2022"]}],
+}
+TABLE = "entity,at,value\nDEU,1928,7.0\nDEU,1932,30.1\nFRA,1932,4.5\n"
+TABLE_SERIES = {
+    "id": "gdp-example", "title": "GDP per person", "summary": "Numbers.",
+    "occurred": {"start": "1928", "end": "1932", "precision": "year"},
+    "threads": ["ukraine"], "regions": ["europe"], "importance": 3, "sources": [SRC],
+    "review": {"status": "unverified"}, "unit": "USD", "dataset": "example-data",
+    "indicator": "gdppc", "table": "tables/gdp-example.csv",
 }
 
 
 def write(tmp_path: Path, data: dict) -> Path:
     d = tmp_path / "data"
     d.mkdir()
-    (d / "threads.yaml").write_text(yaml.safe_dump([{"id": "ukraine", "name": "Ukraine"}]))
+    (d / "domains.yaml").write_text(yaml.safe_dump([{"id": "politics", "name": "Politics"}]))
+    (d / "threads.yaml").write_text(yaml.safe_dump([{"id": "ukraine", "name": "Ukraine", "domain": "politics"}]))
     (d / "regions.yaml").write_text(yaml.safe_dump([{"id": "europe", "name": "Europe"}]))
     for folder, records in data.items():
         (d / folder).mkdir()
         for r in records:
-            (d / folder / f"{r['id']}.yaml").write_text(yaml.safe_dump(r, sort_keys=False))
+            if folder == "tables":
+                (d / folder / r["name"]).write_text(r["text"])
+            else:
+                (d / folder / f"{r['id']}.yaml").write_text(yaml.safe_dump(r, sort_keys=False))
     return d
+
+
+def with_table(data, text=TABLE, series=None):
+    data["tables"] = [{"name": "gdp-example.csv", "text": text}]
+    data["series"].append(series or copy.deepcopy(TABLE_SERIES))
+    return data
 
 
 def run(tmp_path, data):
@@ -112,8 +151,8 @@ def test_all_kinds_valid(tmp_path):
 
 def test_build_is_deterministic_and_fills_defaults(tmp_path):
     d = write(tmp_path, BASE)
-    g1, errs = build.compile_graph(d)
-    g2, _ = build.compile_graph(d)
+    g1, errs, _ = build.compile_graph(d)
+    g2, _, _ = build.compile_graph(d)
     assert errs == [] and json.dumps(g1) == json.dumps(g2)
     items = {i["id"]: i for i in g1["items"]}
     inv = items["invasion-2022"]
@@ -126,7 +165,7 @@ def test_build_is_deterministic_and_fills_defaults(tmp_path):
 
 def test_build_refuses_invalid_data(tmp_path):
     data = with_changes(lambda d: d["links"].append(link("invasion-2022", "led_to", "nowhere")))
-    graph, errs = build.compile_graph(write(tmp_path, data))
+    graph, errs, _ = build.compile_graph(write(tmp_path, data))
     assert graph is None and errs
 
 
@@ -170,6 +209,32 @@ def test_full_dates_stay_strings(tmp_path):
      "'positions' is a required property"),
     (lambda d: d["links"].extend([link("buildup-2021", "part_of", "invasion-2022"),
                                   link("invasion-2022", "part_of", "buildup-2021")]), "form a loop"),
+    # Wikidata ids
+    (lambda d: [e.update(wikidata="Q1") for e in d["events"]], "already used by"),
+    (lambda d: d["events"][0].update(wikidata="1234"), "wikidata"),
+    # scenarios
+    (lambda d: d["scenarios"][0].update(probability=1.5), "probability"),
+    (lambda d: d["scenarios"][1].update(given=["invasion-2022"]), "is not a scenario"),
+    (lambda d: d["scenarios"][0].update(given=["elections-2028"]), "in a loop"),
+    (lambda d: d["scenarios"][0].update(resolves_by="2020-01-01"), "resolves_by is before"),
+    (lambda d: d["scenarios"][0].update(resolution={"outcome": "happened"}), "needs resolution.resolved_on"),
+    (lambda d: d["links"].append(link("invasion-2022", "led_to", "ceasefire-2027")), "scenarios cannot be linked"),
+    # series and datasets
+    (lambda d: d["series"][0].update(entity="nobody"), "is not an actor"),
+    (lambda d: d["series"][0].pop("points"), "is not valid under any of the given schemas"),
+    (lambda d: with_table(d, series={**TABLE_SERIES, "dataset": "missing"}), "is not registered"),
+    (lambda d: with_table(d, series={k: v for k, v in TABLE_SERIES.items() if k != "dataset"}), "must name its dataset"),
+    (lambda d: with_table(d, series={**TABLE_SERIES, "table": "tables/other.csv"}), "not found in data/tables/"),
+    (lambda d: with_table(d, text="country,year,value\nDEU,1928,1\n"), "columns must be"),
+    (lambda d: with_table(d, text="entity,at,value\nGermany,1928,x\n"), "is not an ISO3 code"),
+    (lambda d: with_table(d, text="entity,at,value\nDEU,1928,x\n"), "is not a number"),
+    (lambda d: with_table(d, text="entity,at,value\nDEU,1928,1\nDEU,1928,2\n"), "repeats DEU 1928"),
+    (lambda d: with_table(d) and d["datasets"][0]["license"].update(redistribution="restricted"),
+     "does not allow redistribution"),
+    (lambda d: d["datasets"][0].update(review={"status": "sourced"}) or
+     d["datasets"][0]["license"].update(redistribution="unknown"), "needs the licence checked"),
+    (lambda d: d["actors"].append({**d["actors"][0], "id": "other"}) or
+     [a.update(iso3="DEU") for a in d["actors"]], "iso3 DEU is already used"),
 ])
 def test_rule(tmp_path, change, message):
     assert_error(run(tmp_path, with_changes(change)), message)
@@ -226,3 +291,56 @@ def test_contested_positions_need_sources_once_sourced(tmp_path):
     report = run(tmp_path, with_changes(lambda d: d["links"].append(contested)))
     assert_error(report, "needs a source for each position")
     assert_error(report, "held_by still says")
+
+
+# ------------------------------------------------------------------ domains, wikidata, tables
+
+
+def test_thread_needs_domain(tmp_path):
+    d = write(tmp_path, BASE)
+    (d / "threads.yaml").write_text(yaml.safe_dump([{"id": "ukraine", "name": "Ukraine"}]))
+    _, report, _ = validate.validate(d)
+    assert_error(report, "needs a domain")
+
+
+def test_missing_wikidata_and_likely_duplicates_warn(tmp_path):
+    data = with_changes(lambda d: d["events"].append({**event("buildup-2021-copy", "2021-05"), "title": "buildup-2021"}))
+    report = run(tmp_path, data)
+    assert report.errors == []
+    assert any("no wikidata id" in w for w in report.warnings)
+    assert any("same title and year" in w for w in report.warnings)
+
+
+def test_wikidata_none_is_allowed(tmp_path):
+    report = run(tmp_path, with_changes(lambda d: d["events"][0].update(wikidata="none")))
+    assert report.errors == []
+
+
+def test_table_series_builds_to_json(tmp_path):
+    d = write(tmp_path, with_table(copy.deepcopy(BASE)))
+    graph, errs, tables = build.compile_graph(d)
+    assert errs == []
+    item = next(i for i in graph["items"] if i["id"] == "gdp-example")
+    assert item["table_json"] == "series/gdp-example.json"
+    assert item["domains"] == ["politics"]
+    assert tables["gdp-example"] == {"DEU": [["1928", 7.0], ["1932", 30.1]], "FRA": [["1932", 4.5]]}
+    scen = next(i for i in graph["items"] if i["id"] == "ceasefire-2027")
+    assert scen["window"]["range"] == [2027.0, 2028.0]
+
+
+def test_unused_table_warns(tmp_path):
+    data = copy.deepcopy(BASE)
+    data["tables"] = [{"name": "orphan.csv", "text": TABLE}]
+    report = run(tmp_path, data)
+    assert report.errors == []
+    assert any("no series item uses this table" in w for w in report.warnings)
+
+
+def test_importer_helper_writes_clean_sorted_table(tmp_path, monkeypatch):
+    from importers import common
+    monkeypatch.setattr(common, "DATA", tmp_path)
+    path = common.write_table("demo", [("FRA", "1932", 4.5), ("DEU", "1932", 30.1),
+                                       ("DEU", "1928", 7.0), ("DEU", "1930", float("nan"))])
+    assert path.read_text() == "entity,at,value\nDEU,1928,7\nDEU,1932,30.1\nFRA,1932,4.5\n"
+    with pytest.raises(ValueError):
+        common.write_table("bad", [("Germany", "1928", 1.0)])

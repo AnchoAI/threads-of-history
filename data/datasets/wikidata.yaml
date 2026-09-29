@@ -1,0 +1,26 @@
+id: wikidata
+title: Wikidata
+publisher: Wikimedia Foundation
+url: https://www.wikidata.org/
+download_url: https://query.wikidata.org/sparql
+version: live; each import records its query date
+license:
+  name: CC0 1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  redistribution: allowed
+citation: Wikidata contributors. Wikidata. Wikimedia Foundation.
+unit_of_analysis: event
+coverage:
+  start: '1900'
+  precision: year
+  ongoing: true
+  note: This project imports from 1900 onwards.
+importer: tools/importers/wikidata_events.py
+notes:
+- Used for event skeletons (dates, places, participants) and ids. Imports go to the candidate pool in staging/,
+  not straight into data/.
+review:
+  status: unverified
+  notes:
+  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
+    the review status.

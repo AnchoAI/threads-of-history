@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/anchoai/threads-of-history/schema/threads-of-history.schema.json",
   "title": "Threads of History data format",
-  "description": "One file per item under data/<kind>/. The validator picks the definition from the folder: data/events -> #/$defs/event, data/links -> #/$defs/link, and so on. Rules that span several files (ids exist, dates are in order, review status requirements) live in tools/validate.py.",
+  "description": "One file per record under data/<folder>/. The validator picks the definition from the folder: data/events -> #/$defs/event, data/links -> #/$defs/link, data/datasets -> #/$defs/dataset, and so on. Rules that span several files (ids exist, dates are in order, review status requirements, table contents) live in tools/validate.py.",
   "$defs": {
     "slug": {
       "type": "string",
@@ -236,7 +236,8 @@
         },
         "wikidata": {
           "type": "string",
-          "pattern": "^Q[0-9]+$"
+          "pattern": "^(Q[0-9]+|none)$",
+          "description": "The Wikidata item id, e.g. Q128160. Use \"none\" once you have checked that Wikidata has no matching item. Two items may not share an id."
         },
         "sources": {
           "type": "array",
@@ -380,12 +381,16 @@
             "state",
             "group"
           ]
+        },
+        "iso3": {
+          "$ref": "#/$defs/iso3",
+          "description": "For states: the code used for this country in data/tables/. Leave out for historical states without one."
         }
       },
       "unevaluatedProperties": false
     },
     "series": {
-      "description": "Numbers over time, drawn as a band along the timeline.",
+      "description": "Numbers over time, drawn as a band along the timeline. Either inline points for one entity (hand-entered, e.g. one party's vote share), or a table: a CSV under data/tables/ with one row per entity and date, usually produced by an importer from a registered dataset.",
       "allOf": [
         {
           "$ref": "#/$defs/item_base"
@@ -393,8 +398,7 @@
       ],
       "required": [
         "occurred",
-        "unit",
-        "points"
+        "unit"
       ],
       "properties": {
         "threads": {
@@ -428,12 +432,46 @@
                 "type": "integer",
                 "minimum": 0,
                 "description": "Index into this item's sources[], when the points come from different sources."
+              },
+              "published": {
+                "$ref": "#/$defs/date",
+                "description": "When this figure was first published, if different from later revised figures."
               }
             }
           }
+        },
+        "indicator": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The dataset's own code for this measure, e.g. v2x_polyarchy or NY.GDP.PCAP.CD."
+        },
+        "dataset": {
+          "$ref": "#/$defs/slug",
+          "description": "Id of the dataset in data/datasets/ the numbers come from."
+        },
+        "entity": {
+          "$ref": "#/$defs/slug",
+          "description": "For inline points: the actor the numbers describe."
+        },
+        "table": {
+          "type": "string",
+          "pattern": "^tables/[a-z0-9]+(-[a-z0-9]+)*\\.csv$",
+          "description": "Path relative to data/, e.g. tables/maddison-gdp-per-capita.csv. Columns: entity (ISO3), at (date), value, and optionally published (when the figure was first published)."
         }
       },
-      "unevaluatedProperties": false
+      "unevaluatedProperties": false,
+      "oneOf": [
+        {
+          "required": [
+            "points"
+          ]
+        },
+        {
+          "required": [
+            "table"
+          ]
+        }
+      ]
     },
     "position": {
       "type": "object",
@@ -573,7 +611,7 @@
       }
     },
     "vocabulary": {
-      "description": "data/threads.yaml and data/regions.yaml: a list, in display order.",
+      "description": "data/domains.yaml, data/threads.yaml and data/regions.yaml: a list, in display order. Every thread names its domain.",
       "type": "array",
       "minItems": 1,
       "items": {
@@ -597,7 +635,205 @@
           },
           "description": {
             "type": "string"
+          },
+          "domain": {
+            "$ref": "#/$defs/slug",
+            "description": "Threads only: the id of the domain in data/domains.yaml."
           }
+        }
+      }
+    },
+    "iso3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "ISO 3166-1 alpha-3 country code, e.g. DEU. Tables use these to name countries."
+    },
+    "scenario": {
+      "description": "A possible future event with a probability. Scenarios live in data/scenarios/, never count as facts, and cannot be the end of any link. Chain them with `given` to build a tree of possible futures.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/item_base"
+        }
+      ],
+      "required": [
+        "window",
+        "probability",
+        "forecast_by",
+        "forecast_on",
+        "resolves_by",
+        "resolution"
+      ],
+      "properties": {
+        "threads": {
+          "minItems": 1
+        },
+        "regions": {
+          "minItems": 1
+        },
+        "window": {
+          "$ref": "#/$defs/time_span",
+          "description": "When the scenario would happen."
+        },
+        "probability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Chance it happens, assuming every scenario in `given` happens."
+        },
+        "given": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/slug_list"
+            }
+          ],
+          "description": "Ids of scenarios this one depends on."
+        },
+        "forecast_by": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Who made the forecast: a person, organization or model."
+        },
+        "forecast_on": {
+          "$ref": "#/$defs/date",
+          "description": "When the forecast was made."
+        },
+        "resolves_by": {
+          "$ref": "#/$defs/date",
+          "description": "The date by which it will be clear whether it happened."
+        },
+        "resolution": {
+          "type": "object",
+          "required": [
+            "outcome"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "outcome": {
+              "enum": [
+                "open",
+                "happened",
+                "did_not_happen",
+                "ambiguous"
+              ]
+            },
+            "resolved_on": {
+              "$ref": "#/$defs/date"
+            },
+            "event": {
+              "$ref": "#/$defs/slug",
+              "description": "When it happened: the event that records it."
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    "dataset": {
+      "description": "An external dataset registered in data/datasets/. Every series with a table must name its dataset, and the dataset must say whether its licence allows redistribution.",
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "version",
+        "license",
+        "citation",
+        "unit_of_analysis",
+        "coverage",
+        "review"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "download_url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The release imported, e.g. \"v14\" or \"2023\". Pin it so imports are reproducible."
+        },
+        "license": {
+          "type": "object",
+          "required": [
+            "name",
+            "redistribution"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "description": "e.g. CC BY 4.0, CC BY-SA 4.0, public domain."
+            },
+            "url": {
+              "type": "string",
+              "pattern": "^https?://"
+            },
+            "redistribution": {
+              "enum": [
+                "allowed",
+                "restricted",
+                "unknown"
+              ],
+              "description": "Whether this project may republish the data. Tables from 'restricted' datasets are refused."
+            },
+            "attribution": {
+              "type": "string",
+              "description": "The credit line the licence asks for."
+            }
+          }
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit_of_analysis": {
+          "enum": [
+            "country-year",
+            "country-month",
+            "country-day",
+            "event",
+            "leader",
+            "dyad-year",
+            "grid-month",
+            "other"
+          ]
+        },
+        "coverage": {
+          "$ref": "#/$defs/time_span"
+        },
+        "importer": {
+          "type": "string",
+          "pattern": "^tools/importers/[a-z0-9_]+\\.py$"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/review"
         }
       }
     }

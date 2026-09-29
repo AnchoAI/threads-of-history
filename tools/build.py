@@ -9,11 +9,15 @@ is deterministic (sorted, no timestamps), so rebuilding unchanged data gives
 an identical file.
 
 Added for the viewer's convenience:
-- every item gets `kind`;
+- every item gets `kind`, and `domains` derived from its threads;
 - `known.public` defaults to `occurred` when not given;
 - every time span gets `range: [start, end]` in decimal years, where end is
   the end of the last period the span covers (1962-10 -> 1962.75..1962.833),
   or null when the span is ongoing.
+
+Series backed by a CSV table are written to dist/series/<id>.json as
+{"<ISO3>": [[at, value], ...], ...}; the item in graph.json gets
+`table_json: "series/<id>.json"` so viewers can load it on demand.
 """
 from __future__ import annotations
 
@@ -24,7 +28,7 @@ import json
 import sys
 from pathlib import Path
 
-from validate import ITEM_KINDS, ROOT, date_parts, validate
+from validate import ITEM_KINDS, ROOT, date_parts, read_table, validate
 
 FORMAT_VERSION = 1
 
@@ -75,15 +79,38 @@ def with_range(span: dict) -> dict:
     return span
 
 
-def compile_graph(data_dir: Path = ROOT / "data") -> tuple[dict | None, list[str]]:
+def table_json(path: Path) -> dict:
+    """entity,at,value[,published] CSV -> {entity: [[at, value, published?], ...]} sorted by date."""
+    _, rows = read_table(path)
+    out: dict[str, list] = {}
+    for row in rows:
+        point = [row["at"], float(row["value"])]
+        if row.get("published"):
+            point.append(row["published"])
+        out.setdefault(row["entity"], []).append(point)
+    for points in out.values():
+        points.sort(key=lambda p: date_parts(p[0]))
+    return dict(sorted(out.items()))
+
+
+def compile_graph(data_dir: Path = ROOT / "data") -> tuple[dict | None, list[str], dict[str, dict]]:
+    """Returns (graph, errors, series tables by item id)."""
     ds, report, counts = validate(data_dir)
     if report.errors:
-        return None, report.errors
+        return None, report.errors, {}
 
+    thread_domain = {t["id"]: t["domain"] for t in ds.vocabs["threads"]}
+    tables: dict[str, dict] = {}
     items = []
     for r in ds.of_kind(*ITEM_KINDS):
         d = copy.deepcopy(r.data)
         out = {"kind": r.kind, **d}
+        out["domains"] = sorted({thread_domain[t] for t in d.get("threads", [])})
+        if "window" in d:
+            out["window"] = with_range(d["window"])
+        if "table" in d:
+            tables[d["id"]] = table_json(ds.tables[d["table"]])
+            out["table_json"] = f"series/{d['id']}.json"
         if "occurred" in d:
             out["occurred"] = with_range(d["occurred"])
             known = d.get("known") or {}
@@ -93,23 +120,26 @@ def compile_graph(data_dir: Path = ROOT / "data") -> tuple[dict | None, list[str
         items.append(out)
 
     def sort_key(item: dict):
-        occ = item.get("occurred")
+        occ = item.get("occurred") or item.get("window")
         return (occ is None, occ["range"][0] if occ else 0, item["id"])
 
     items.sort(key=sort_key)
     links = sorted((copy.deepcopy(r.data) for r in ds.of_kind("link")), key=lambda d: d["id"])
     paths = sorted((copy.deepcopy(r.data) for r in ds.of_kind("path")), key=lambda d: d["id"])
+    datasets = sorted((copy.deepcopy(r.data) for r in ds.of_kind("dataset")), key=lambda d: d["id"])
 
     graph = {
         "format_version": FORMAT_VERSION,
+        "domains": ds.vocabs["domains"],
         "threads": ds.vocabs["threads"],
         "regions": ds.vocabs["regions"],
         "items": items,
         "links": links,
         "paths": paths,
+        "datasets": datasets,
         "stats": {k: dict(sorted(v.items())) for k, v in sorted(counts.items())},
     }
-    return graph, []
+    return graph, [], tables
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -118,7 +148,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out", type=Path, default=ROOT / "dist" / "graph.json")
     args = ap.parse_args(argv)
 
-    graph, errors = compile_graph(args.data)
+    graph, errors, tables = compile_graph(args.data)
     if graph is None:
         for e in errors:
             print(f"ERROR   {e}")
@@ -127,8 +157,15 @@ def main(argv: list[str] | None = None) -> int:
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    series_dir = args.out.parent / "series"
+    if series_dir.exists():
+        for old in series_dir.glob("*.json"):
+            old.unlink()
+    for item_id, table in tables.items():
+        series_dir.mkdir(exist_ok=True)
+        (series_dir / f"{item_id}.json").write_text(json.dumps(table, separators=(",", ":")) + "\n", encoding="utf-8")
     n_items = len(graph["items"])
-    print(f"Wrote {args.out} ({n_items} items, {len(graph['links'])} links, {len(graph['paths'])} paths)")
+    print(f"Wrote {args.out} ({n_items} items, {len(graph['links'])} links, {len(graph['paths'])} paths, {len(tables)} series tables)")
     return 0
 
 

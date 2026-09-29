@@ -1,0 +1,25 @@
+id: maddison-project
+title: Maddison Project Database
+publisher: Groningen Growth and Development Centre, University of Groningen
+url: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
+version: '2023'
+license:
+  name: CC BY 4.0 (to confirm)
+  redistribution: unknown
+citation: 'Bolt, Jutta and Jan Luiten van Zanden (2024). Maddison style estimates of the evolution of the world
+  economy: A new 2023 update. Journal of Economic Surveys.'
+unit_of_analysis: country-year
+coverage:
+  start: '1820'
+  end: '2022'
+  precision: year
+  approximate: true
+  note: Estimates for some countries go back much further.
+importer: tools/importers/maddison.py
+notes:
+- 'First use: GDP per person and population, 1900 onwards.'
+review:
+  status: unverified
+  notes:
+  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
+    the review status.

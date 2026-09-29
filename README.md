@@ -24,23 +24,30 @@ These rules decide what goes into the data. Pull requests that break them will n
 
 ```
 data/
-  threads.yaml        storylines, in display order
+  domains.yaml        top-level areas: politics, economy, society, science, culture, sports
+  threads.yaml        storylines, in display order; each belongs to a domain
   regions.yaml        regions, in display order
   events/             one file per item, named <id>.yaml
   signals/
   decisions/
   actors/
   series/
+  scenarios/          possible futures with probabilities (never facts)
   links/              one file per link, named <from>--<type>--<to>.yaml
   paths/              guided paths: ordered lists of item ids
+  datasets/           external datasets we import from, with their licences
+  tables/             CSV tables produced by importers, used by series
+staging/              candidate pools (e.g. Wikidata events) waiting to be curated; not part of the data
 schema/
   threads-of-history.schema.json   the format of every file
 tools/
   validate.py         checks the data (runs in CI)
   build.py            compiles data/ into dist/graph.json
+  importers/          one script per external dataset
 tests/                tests for the tools
+docs/tasks/           written handoffs for larger pieces of work
 prototype/index.html  the original single-file three.js prototype (reference only)
-CLAUDE.md             design decisions and roadmap
+CLAUDE.md             design decisions and roadmap (AGENTS.md points here)
 ```
 
 Keeping one file per item keeps pull requests small and easy to review.
@@ -65,7 +72,7 @@ The full format is in [`schema/threads-of-history.schema.json`](schema/threads-o
 
 ### Items
 
-There are five kinds of item. Each lives in its own folder.
+There are six kinds of item. Each lives in its own folder.
 
 | Kind | Folder | What it is |
 |---|---|---|
@@ -73,7 +80,8 @@ There are five kinds of item. Each lives in its own folder.
 | signal | `data/signals/` | A claim or observation about something uncertain or upcoming. Adds `source_credibility`, `outcome` (`confirmed`, `false` or `unresolved`) and optionally `resolves_to` |
 | decision | `data/decisions/` | A choice by specific people. Adds `decided_by` (actor ids) and `alternatives` |
 | actor | `data/actors/` | A person, organization or state. Adds `actor_type`. `occurred` is its lifespan and is optional |
-| series | `data/series/` | Numbers over time. Adds `unit` and `points` |
+| series | `data/series/` | Numbers over time. Adds `unit` and either inline `points` (for one `entity`) or a `table` from a registered `dataset` |
+| scenario | `data/scenarios/` | A possible future with a `probability`. See [Scenarios](#scenarios) |
 
 All items share these fields:
 
@@ -96,6 +104,7 @@ threads: [cuba, nuclear, usru]       # ids from data/threads.yaml
 regions: [americas]                  # ids from data/regions.yaml
 actors: [john-f-kennedy, nikita-khrushchev]
 importance: 5                        # 1-5; decides what shows at each zoom level
+wikidata: Q128160                    # the Wikidata id, or "none" if Wikidata has no match
 sources:
   - url: https://...
     archive_url: https://web.archive.org/...
@@ -108,6 +117,10 @@ review:
   status: unverified                 # unverified | sourced | reviewed
   notes: [Anything that still needs checking.]
 ```
+
+`wikidata` is how the project avoids duplicates: two items may not share an id, and the checker warns about events and actors that don't have one yet. It also warns when two events share a title and year.
+
+Every thread belongs to a **domain** (`data/domains.yaml`), so items get their domains from their threads. Sports and pop culture are domains like any other: add a domain, add threads under it, and the viewer can group or filter by them.
 
 In YAML, **put a bare year in quotes** (`start: "1962"`). Otherwise it is read as a number and the validator will say so.
 
@@ -135,6 +148,35 @@ review: {status: unverified}
 | `echo` | a parallel with no causal link | none |
 | `signal_of` | a signal pointing to an event | `from` must be a signal |
 | `part_of` | a sub-event inside a larger event (how zooming in works) | no loops |
+
+### Scenarios
+
+A scenario is a possible future, recorded as a forecast:
+
+```yaml
+id: ceasefire-2027
+title: Ceasefire agreed
+summary: ...
+window: {start: "2027", precision: year}   # when it would happen
+probability: 0.3                           # assuming everything in `given` happens
+given: [talks-resume-2026]                 # other scenarios it depends on (a tree of futures)
+forecast_by: Example forecaster
+forecast_on: 2026-09-01
+resolves_by: 2027-12-31
+resolution: {outcome: open}                # open | happened | did_not_happen | ambiguous
+```
+
+Scenarios are never facts. No link may point to or from one. When a scenario happens, its `resolution.event` names the event that records it. Forecasts can then be scored against outcomes.
+
+### Datasets and tables
+
+Numbers from outside sources (GDP, democracy scores, conflict counts) are imported, not typed in:
+
+1. The source is registered in `data/datasets/<id>.yaml` with its URL, pinned version, citation and licence. `license.redistribution` is `allowed`, `restricted` or `unknown`. Tables from a `restricted` dataset are refused, and `unknown` gives a warning until someone checks.
+2. An importer in `tools/importers/` downloads that version and writes a long CSV to `data/tables/`, with columns `entity,at,value` and optionally `published`. `entity` is an ISO 3166 alpha-3 country code; state actors carry the same code in `iso3`. `published` records when a figure first came out, since figures like GDP get revised.
+3. A series item points to the table and the dataset.
+
+The build writes each table to `dist/series/<id>.json` so viewers load it only when needed.
 
 ### Review status
 
@@ -166,7 +208,7 @@ Nothing produced by a script or an AI goes above `sourced` without a person chec
 }
 ```
 
-The build adds `kind` to every item and fills `known.public` from `occurred` when it is missing. It also adds `range` to every time span: the start and end in decimal years, so a viewer can place items without parsing dates. `end` is `null` for ongoing spans. The output is deterministic: rebuilding unchanged data gives an identical file. `dist/` is not committed; CI uploads the built file as an artifact.
+The build adds `kind` and `domains` to every item and fills `known.public` from `occurred` when it is missing. It also adds `range` to every time span: the start and end in decimal years, so a viewer can place items without parsing dates. `end` is `null` for ongoing spans. The output is deterministic: rebuilding unchanged data gives an identical file. `dist/` is not committed; CI uploads the built file as an artifact.
 
 ## Contributing
 

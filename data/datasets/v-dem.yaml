@@ -1,0 +1,25 @@
+id: v-dem
+title: Varieties of Democracy (V-Dem) Country-Year dataset
+publisher: V-Dem Institute, University of Gothenburg
+url: https://v-dem.net/data/the-v-dem-dataset/
+version: v15 (to confirm it is the latest)
+license:
+  name: CC BY-SA 4.0 (to confirm)
+  redistribution: unknown
+citation: Coppedge, Michael et al. V-Dem Country-Year Dataset. Varieties of Democracy (V-Dem) Project.
+unit_of_analysis: country-year
+coverage:
+  start: '1789'
+  end: '2024'
+  precision: year
+  approximate: true
+importer: tools/importers/vdem.py
+notes:
+- 'First use: a handful of indices (electoral democracy, liberal democracy, civil liberties), not the thousands
+  of raw variables.'
+- If the licence is share-alike, record what that means for this project's own licence choice.
+review:
+  status: unverified
+  notes:
+  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
+    the review status.

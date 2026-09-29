@@ -1,0 +1,24 @@
+id: powell-thyne-coups
+title: Global Instances of Coups (Powell & Thyne)
+publisher: Jonathan M. Powell and Clayton L. Thyne
+url: https://www.jonathanmpowell.com/coup-detection.html
+version: to confirm (the dataset is updated continuously)
+license:
+  name: to confirm; no licence known
+  redistribution: unknown
+citation: 'Powell, Jonathan M. and Clayton L. Thyne (2011). Global Instances of Coups from 1950 to 2010: A New Dataset.
+  Journal of Peace Research 48(2): 249–259.'
+unit_of_analysis: event
+coverage:
+  start: '1950'
+  precision: year
+  ongoing: true
+importer: tools/importers/powell_thyne_coups.py
+notes:
+- One row per coup attempt, successful or not. Becomes both a country-year table (attempts, successes) and candidate
+  events.
+review:
+  status: unverified
+  notes:
+  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
+    the review status.

@@ -1,0 +1,19 @@
+# Top-level areas. Every thread belongs to one. The viewer can group or filter by domain.
+- id: politics
+  name: Politics & conflict
+  description: States, wars, revolutions, diplomacy, intelligence, empire.
+- id: economy
+  name: Economy & resources
+  description: Trade, energy, finance, crises, development.
+- id: society
+  name: Society & migration
+  description: Population, migration, religion, social movements.
+- id: science
+  name: Science & technology
+  description: Discoveries, inventions, public health.
+- id: culture
+  name: Culture & media
+  description: Arts, media, entertainment, pop culture.
+- id: sports
+  name: Sports
+  description: Competitions, athletes, sporting institutions.

@@ -1,0 +1,25 @@
+id: ucdp-prio-armed-conflict
+title: UCDP/PRIO Armed Conflict Dataset
+publisher: Uppsala Conflict Data Program (UCDP) and Peace Research Institute Oslo (PRIO)
+url: https://ucdp.uu.se/downloads/
+version: 25.1 (to confirm)
+license:
+  name: CC BY 4.0 (to confirm)
+  redistribution: unknown
+citation: 'Gleditsch, Nils Petter, Peter Wallensteen, Mikael Eriksson, Margareta Sollenberg and Håvard Strand (2002).
+  Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5).'
+unit_of_analysis: country-year
+coverage:
+  start: '1946'
+  end: '2024'
+  precision: year
+  approximate: true
+importer: tools/importers/ucdp_armed_conflict.py
+notes:
+- The raw data is one row per conflict-year. The importer turns it into country-year tables such as 'active armed
+  conflict (0/1)'.
+review:
+  status: unverified
+  notes:
+  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
+    the review status.
