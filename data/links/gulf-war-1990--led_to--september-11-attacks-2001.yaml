@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Bin Laden cites US troops in Saudi Arabia as a main grievance.
 sources:
-- url: https://en.wikipedia.org/wiki/September_11_attacks
+- archive_url: "https://web.archive.org/web/20260928053252/https://en.wikipedia.org/wiki/September_11_attacks"
+  url: https://en.wikipedia.org/wiki/September_11_attacks
   title: September 11 attacks
   publisher: Wikipedia
   type: reference

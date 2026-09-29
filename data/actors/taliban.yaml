@@ -11,7 +11,8 @@ regions:
 - south-central-asia
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Taliban
+- archive_url: "https://web.archive.org/web/20260927163056/https://en.wikipedia.org/wiki/Taliban"
+  url: https://en.wikipedia.org/wiki/Taliban
   title: Taliban
   publisher: Wikipedia
   type: reference

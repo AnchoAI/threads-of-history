@@ -6,7 +6,8 @@ confidence: contested
 note: Many banlieue families trace back to North African migration. How much colonial legacy, versus poverty,
   policing and segregation, explains the riots is debated.
 sources:
-- url: https://en.wikipedia.org/wiki/2005_French_riots
+- archive_url: "https://web.archive.org/web/20260914091406/https://en.wikipedia.org/wiki/2005_French_riots"
+  url: https://en.wikipedia.org/wiki/2005_French_riots
   title: 2005 French riots
   publisher: Wikipedia
   type: reference

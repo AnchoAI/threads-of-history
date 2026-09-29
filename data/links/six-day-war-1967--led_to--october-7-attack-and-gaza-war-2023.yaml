@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Occupation of Gaza and the West Bank remains at the heart of the conflict.
 sources:
-- url: https://en.wikipedia.org/wiki/Gaza_war
+- archive_url: "https://web.archive.org/web/20260928084859/https://en.wikipedia.org/wiki/Gaza_war"
+  url: https://en.wikipedia.org/wiki/Gaza_war
   title: Gaza war
   publisher: Wikipedia
   type: reference

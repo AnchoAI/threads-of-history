@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Russia links the suspension to Western support for Ukraine.
 sources:
-- url: https://en.wikipedia.org/wiki/New_START
+- archive_url: "https://web.archive.org/web/20260919235551/https://en.wikipedia.org/wiki/New_START"
+  url: https://en.wikipedia.org/wiki/New_START
   title: New START
   publisher: Wikipedia
   type: reference

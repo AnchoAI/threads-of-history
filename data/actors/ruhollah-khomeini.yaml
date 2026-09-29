@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Ruhollah_Khomeini
+- archive_url: "https://web.archive.org/web/20260928042429/https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
+  url: https://en.wikipedia.org/wiki/Ruhollah_Khomeini
   title: Ruhollah Khomeini
   publisher: Wikipedia
   type: reference

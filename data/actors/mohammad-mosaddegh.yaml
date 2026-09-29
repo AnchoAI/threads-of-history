@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Mohammad_Mosaddegh
+- archive_url: "https://web.archive.org/web/20260921121530/https://en.wikipedia.org/wiki/Mohammad_Mosaddegh"
+  url: https://en.wikipedia.org/wiki/Mohammad_Mosaddegh
   title: Mohammad Mosaddegh
   publisher: Wikipedia
   type: reference

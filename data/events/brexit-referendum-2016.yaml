@@ -12,7 +12,8 @@ actors:
 - united-kingdom
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/Brexit
+- archive_url: "https://web.archive.org/web/20260927183627/https://en.wikipedia.org/wiki/Brexit"
+  url: https://en.wikipedia.org/wiki/Brexit
   title: Brexit
   publisher: Wikipedia
   type: reference

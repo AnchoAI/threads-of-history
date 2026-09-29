@@ -14,7 +14,8 @@ actors:
 - nato
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+- archive_url: "https://web.archive.org/web/20260928152830/https://en.wikipedia.org/wiki/Enlargement_of_NATO"
+  url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
   title: Enlargement of NATO
   publisher: Wikipedia
   type: reference

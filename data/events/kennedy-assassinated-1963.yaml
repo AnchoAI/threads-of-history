@@ -14,7 +14,8 @@ actors:
 - lee-harvey-oswald
 importance: 5
 sources:
-- url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
+- archive_url: "https://web.archive.org/web/20260928032750/https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  url: https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy
   title: Assassination of John F. Kennedy
   publisher: Wikipedia
   type: reference

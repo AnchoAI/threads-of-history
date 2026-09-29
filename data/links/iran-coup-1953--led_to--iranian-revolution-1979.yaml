@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Resentment of the foreign-backed Shah fuels the revolution.
 sources:
-- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+- archive_url: "https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution"
+  url: https://en.wikipedia.org/wiki/Iranian_Revolution
   title: Iranian Revolution
   publisher: Wikipedia
   type: reference

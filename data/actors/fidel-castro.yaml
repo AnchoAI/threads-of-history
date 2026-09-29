@@ -11,7 +11,8 @@ regions:
 - americas
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Fidel_Castro
+- archive_url: "https://web.archive.org/web/20260927062235/https://en.wikipedia.org/wiki/Fidel_Castro"
+  url: https://en.wikipedia.org/wiki/Fidel_Castro
   title: Fidel Castro
   publisher: Wikipedia
   type: reference

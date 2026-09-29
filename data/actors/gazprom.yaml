@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Gazprom
+- archive_url: "https://web.archive.org/web/20260927063323/https://en.wikipedia.org/wiki/Gazprom"
+  url: https://en.wikipedia.org/wiki/Gazprom
   title: Gazprom
   publisher: Wikipedia
   type: reference

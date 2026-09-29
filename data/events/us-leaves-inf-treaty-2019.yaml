@@ -14,7 +14,8 @@ actors:
 - united-states
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty
+- archive_url: "https://web.archive.org/web/20260917082711/https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty"
+  url: https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty
   title: Intermediate-Range Nuclear Forces Treaty
   publisher: Wikipedia
   type: reference

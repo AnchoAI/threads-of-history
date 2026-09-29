@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Russia
+- archive_url: "https://web.archive.org/web/20260929063140/https://en.wikipedia.org/wiki/Russia"
+  url: https://en.wikipedia.org/wiki/Russia
   title: Russia
   publisher: Wikipedia
   type: reference

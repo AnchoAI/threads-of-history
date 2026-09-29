@@ -16,7 +16,8 @@ actors:
 - salman-rushdie
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy
+- archive_url: "https://web.archive.org/web/20260927034026/https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy"
+  url: https://en.wikipedia.org/wiki/The_Satanic_Verses_controversy
   title: The Satanic Verses controversy
   publisher: Wikipedia
   type: reference

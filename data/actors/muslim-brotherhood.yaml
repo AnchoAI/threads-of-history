@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Muslim_Brotherhood
+- archive_url: "https://web.archive.org/web/20260927033430/https://en.wikipedia.org/wiki/Muslim_Brotherhood"
+  url: https://en.wikipedia.org/wiki/Muslim_Brotherhood
   title: Muslim Brotherhood
   publisher: Wikipedia
   type: reference

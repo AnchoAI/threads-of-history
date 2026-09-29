@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Syrians are the largest group arriving in Europe.
 sources:
-- url: https://en.wikipedia.org/wiki/2015_European_migrant_crisis
+- archive_url: "https://web.archive.org/web/20260921193752/https://en.wikipedia.org/wiki/2015_European_migrant_crisis"
+  url: https://en.wikipedia.org/wiki/2015_European_migrant_crisis
   title: 2015 European migrant crisis
   publisher: Wikipedia
   type: reference

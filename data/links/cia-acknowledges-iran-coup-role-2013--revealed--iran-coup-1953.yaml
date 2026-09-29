@@ -5,7 +5,8 @@ type: revealed
 confidence: documented
 note: Official acknowledgement, 60 years later.
 sources:
-- url: https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat
+- archive_url: "https://web.archive.org/web/20260926175022/https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat"
+  url: https://en.wikipedia.org/wiki/1953_Iranian_coup_d%27%C3%A9tat
   title: 1953 Iranian coup d'état
   publisher: Wikipedia
   type: reference

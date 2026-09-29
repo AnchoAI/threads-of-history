@@ -5,7 +5,8 @@ type: echo
 confidence: documented
 note: The annexation breaks the border assurances Ukraine received for giving up its weapons.
 sources:
-- url: https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
+- archive_url: "https://web.archive.org/web/20260926113200/https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation"
+  url: https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
   title: Annexation of Crimea by the Russian Federation
   publisher: Wikipedia
   type: reference

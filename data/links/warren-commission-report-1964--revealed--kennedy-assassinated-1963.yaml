@@ -5,7 +5,8 @@ type: revealed
 confidence: documented
 note: Official account of what happened in Dallas.
 sources:
-- url: https://en.wikipedia.org/wiki/Warren_Commission
+- archive_url: "https://web.archive.org/web/20260924204536/https://en.wikipedia.org/wiki/Warren_Commission"
+  url: https://en.wikipedia.org/wiki/Warren_Commission
   title: Warren Commission
   publisher: Wikipedia
   type: reference

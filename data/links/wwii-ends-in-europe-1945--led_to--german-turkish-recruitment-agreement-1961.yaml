@@ -6,7 +6,8 @@ confidence: documented
 note: The postwar boom needs labour; the 1961 Berlin Wall cuts off East German workers weeks before the
   deal.
 sources:
-- url: https://en.wikipedia.org/wiki/Gastarbeiter
+- archive_url: "https://web.archive.org/web/20260904100532/https://en.wikipedia.org/wiki/Gastarbeiter"
+  url: https://en.wikipedia.org/wiki/Gastarbeiter
   title: Gastarbeiter
   publisher: Wikipedia
   type: reference

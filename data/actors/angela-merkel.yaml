@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Angela_Merkel
+- archive_url: "https://web.archive.org/web/20260926014748/https://en.wikipedia.org/wiki/Angela_Merkel"
+  url: https://en.wikipedia.org/wiki/Angela_Merkel
   title: Angela Merkel
   publisher: Wikipedia
   type: reference

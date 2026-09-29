@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Ukraine
+- archive_url: "https://web.archive.org/web/20260927164626/https://en.wikipedia.org/wiki/Ukraine"
+  url: https://en.wikipedia.org/wiki/Ukraine
   title: Ukraine
   publisher: Wikipedia
   type: reference

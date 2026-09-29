@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The unresolved 1948 war leads to the next.
 sources:
-- url: https://en.wikipedia.org/wiki/Six-Day_War
+- archive_url: "https://web.archive.org/web/20260928205717/https://en.wikipedia.org/wiki/Six-Day_War"
+  url: https://en.wikipedia.org/wiki/Six-Day_War
   title: Six-Day War
   publisher: Wikipedia
   type: reference

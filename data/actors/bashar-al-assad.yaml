@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Bashar_al-Assad
+- archive_url: "https://web.archive.org/web/20260921235114/https://en.wikipedia.org/wiki/Bashar_al-Assad"
+  url: https://en.wikipedia.org/wiki/Bashar_al-Assad
   title: Bashar al-Assad
   publisher: Wikipedia
   type: reference

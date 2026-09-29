@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The war gives ISIS territory.
 sources:
-- url: https://en.wikipedia.org/wiki/Islamic_State
+- archive_url: "https://web.archive.org/web/20260927173550/https://en.wikipedia.org/wiki/Islamic_State"
+  url: https://en.wikipedia.org/wiki/Islamic_State
   title: Islamic State
   publisher: Wikipedia
   type: reference

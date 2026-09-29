@@ -7,7 +7,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Iraq
+- archive_url: "https://web.archive.org/web/20260927044617/https://en.wikipedia.org/wiki/Iraq"
+  url: https://en.wikipedia.org/wiki/Iraq
   title: Iraq
   publisher: Wikipedia
   type: reference

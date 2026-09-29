@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/2024_European_Parliament_election
+- archive_url: "https://web.archive.org/web/20260925065951/https://en.wikipedia.org/wiki/2024_European_Parliament_election"
+  url: https://en.wikipedia.org/wiki/2024_European_Parliament_election
   title: 2024 European Parliament election
   publisher: Wikipedia
   type: reference

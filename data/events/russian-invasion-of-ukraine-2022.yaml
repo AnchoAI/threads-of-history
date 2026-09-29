@@ -15,7 +15,8 @@ actors:
 - vladimir-putin
 importance: 5
 sources:
-- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
+- archive_url: "https://web.archive.org/web/20260929025720/https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+  url: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
   title: Russian invasion of Ukraine
   publisher: Wikipedia
   type: reference
