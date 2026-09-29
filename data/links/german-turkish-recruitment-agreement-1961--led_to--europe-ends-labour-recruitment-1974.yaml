@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Temporary workers settle permanently.
 sources:
-- url: https://en.wikipedia.org/wiki/Gastarbeiter
+- archive_url: "https://web.archive.org/web/20260904100532/https://en.wikipedia.org/wiki/Gastarbeiter"
+  url: https://en.wikipedia.org/wiki/Gastarbeiter
   title: Gastarbeiter
   publisher: Wikipedia
   type: reference

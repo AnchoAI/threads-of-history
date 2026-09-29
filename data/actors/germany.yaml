@@ -7,7 +7,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Germany
+- archive_url: "https://web.archive.org/web/20260928120311/https://en.wikipedia.org/wiki/Germany"
+  url: https://en.wikipedia.org/wiki/Germany
   title: Germany
   publisher: Wikipedia
   type: reference

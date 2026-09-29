@@ -7,7 +7,8 @@ regions:
 - middle-east-north-africa
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+- archive_url: "https://web.archive.org/web/20260927222815/https://en.wikipedia.org/wiki/Saudi_Arabia"
+  url: https://en.wikipedia.org/wiki/Saudi_Arabia
   title: Saudi Arabia
   publisher: Wikipedia
   type: reference

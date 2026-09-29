@@ -5,7 +5,8 @@ type: led_to
 confidence: contested
 note: The crisis featured in the campaign, though most UK migration debate was about EU citizens.
 sources:
-- url: https://en.wikipedia.org/wiki/Brexit
+- archive_url: "https://web.archive.org/web/20260927183627/https://en.wikipedia.org/wiki/Brexit"
+  url: https://en.wikipedia.org/wiki/Brexit
   title: Brexit
   publisher: Wikipedia
   type: reference

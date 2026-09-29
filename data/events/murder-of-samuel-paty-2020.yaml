@@ -12,7 +12,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Murder_of_Samuel_Paty
+- archive_url: "https://web.archive.org/web/20260831163120/https://en.wikipedia.org/wiki/Murder_of_Samuel_Paty"
+  url: https://en.wikipedia.org/wiki/Murder_of_Samuel_Paty
   title: Murder of Samuel Paty
   publisher: Wikipedia
   type: reference

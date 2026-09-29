@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: The Soviet crash program speeds up after Hiroshima.
 sources:
-- url: https://en.wikipedia.org/wiki/RDS-1
+- archive_url: "https://web.archive.org/web/20260904230457/https://en.wikipedia.org/wiki/RDS-1"
+  url: https://en.wikipedia.org/wiki/RDS-1
   title: RDS-1
   publisher: Wikipedia
   type: reference

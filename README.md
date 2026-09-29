@@ -69,6 +69,45 @@ python -m pytest -q                 # test the tools
 
 To look at the data in 3D, see [`viewer/README.md`](viewer/README.md). In short: `cd viewer && npm install && npm run data && npm run dev`.
 
+### Archiving sources
+
+```sh
+python tools/archive.py --dry-run
+python tools/archive.py --path data/events
+python tools/archive.py
+```
+
+The archiver finds missing or empty `archive_url` fields in nested `sources`,
+including positions, alternatives and `known.by`. It asks the Wayback Availability
+API for the nearest successful snapshot to the source's `date` (UTC today if
+absent). Partial dates use the first day of that year or month. Timestamps are
+converted to UTC, assuming UTC when no offset is supplied. It accepts the
+nearest available snapshot without an age cutoff; its timestamp remains visible
+in the URL. If none is available, it submits a Save Page Now request and waits
+for confirmation. A queued job is not an archive URL.
+
+Only `archive_url` is inserted or replaced; existing formatting, comments and
+review status are preserved. `--dry-run` makes no network requests or writes.
+Repeat `--path` to select files or directories under `data/`. Requests are spaced
+at least five seconds apart by default, with bounded retries and exponential
+backoff for transient failures. `--interval`, `--retries` and `--timeout` control
+these limits. `--ca-bundle` accepts a trusted CA bundle when the system certificate
+store is incomplete; certificate verification is always enabled.
+
+Successful results and pending save jobs are persisted in the ignored
+`.cache/archives.json` (override with `--cache`). Rerunning skips filled sources,
+reuses saved results and resumes pending jobs, including on a later day:
+undated sources are cached by URL alone. Caches from earlier runs, which keyed
+undated sources by the day of the run, are adopted automatically. Failed sources are left untouched
+and reported on stdout; any failure makes the command exit nonzero. Save Page Now
+may refuse unauthenticated requests; the script reports that failure rather than
+claiming a capture exists. Archiving does not verify a historical claim or supply
+its supporting quote; that is a separate curation task.
+
+After exhausting retries on HTTP 429, the run stops making network requests and
+continues applying confirmed cached results. Rerun later to retry the remaining
+sources. `--offline` applies only cached results without making network requests.
+
 ## The data format
 
 The full format is in [`schema/threads-of-history.schema.json`](schema/threads-of-history.schema.json). The rest of this section is a summary.

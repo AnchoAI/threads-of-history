@@ -24,7 +24,8 @@ actors:
 - soviet-union
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/RDS-1
+- archive_url: "https://web.archive.org/web/20260904230457/https://en.wikipedia.org/wiki/RDS-1"
+  url: https://en.wikipedia.org/wiki/RDS-1
   title: RDS-1
   publisher: Wikipedia
   type: reference

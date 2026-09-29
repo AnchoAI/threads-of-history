@@ -15,7 +15,8 @@ actors:
 - aqap
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
+- archive_url: "https://web.archive.org/web/20260922031428/https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting"
+  url: https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting
   title: Charlie Hebdo shooting
   publisher: Wikipedia
   type: reference

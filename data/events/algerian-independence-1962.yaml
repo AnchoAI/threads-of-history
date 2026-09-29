@@ -16,7 +16,8 @@ actors:
 - fln
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Algerian_War
+- archive_url: "https://web.archive.org/web/20260922183722/https://en.wikipedia.org/wiki/Algerian_War"
+  url: https://en.wikipedia.org/wiki/Algerian_War
   title: Algerian War
   publisher: Wikipedia
   type: reference

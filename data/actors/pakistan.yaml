@@ -11,7 +11,8 @@ regions:
 - south-central-asia
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Pakistan
+- archive_url: "https://web.archive.org/web/20260927164459/https://en.wikipedia.org/wiki/Pakistan"
+  url: https://en.wikipedia.org/wiki/Pakistan
   title: Pakistan
   publisher: Wikipedia
   type: reference

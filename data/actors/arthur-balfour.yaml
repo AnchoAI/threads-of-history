@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Arthur_Balfour
+- archive_url: "https://web.archive.org/web/20260923141401/https://en.wikipedia.org/wiki/Arthur_Balfour"
+  url: https://en.wikipedia.org/wiki/Arthur_Balfour
   title: Arthur Balfour
   publisher: Wikipedia
   type: reference

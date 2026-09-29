@@ -14,7 +14,8 @@ actors:
 - soviet-union
 importance: 2
 sources:
-- url: https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline
+- archive_url: "https://web.archive.org/web/20260927000611/https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline"
+  url: https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline
   title: Moscow–Washington hotline
   publisher: Wikipedia
   type: reference

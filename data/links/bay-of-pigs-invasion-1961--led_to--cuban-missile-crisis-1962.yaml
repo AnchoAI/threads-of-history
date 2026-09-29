@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Fear of another invasion is one reason Castro accepts Soviet missiles.
 sources:
-- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+- archive_url: "https://web.archive.org/web/20260925152247/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+  url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
   title: Cuban Missile Crisis
   publisher: Wikipedia
   type: reference

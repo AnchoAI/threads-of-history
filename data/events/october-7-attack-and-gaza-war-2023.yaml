@@ -14,7 +14,8 @@ actors:
 - israel
 importance: 5
 sources:
-- url: https://en.wikipedia.org/wiki/Gaza_war
+- archive_url: "https://web.archive.org/web/20260928084859/https://en.wikipedia.org/wiki/Gaza_war"
+  url: https://en.wikipedia.org/wiki/Gaza_war
   title: Gaza war
   publisher: Wikipedia
   type: reference

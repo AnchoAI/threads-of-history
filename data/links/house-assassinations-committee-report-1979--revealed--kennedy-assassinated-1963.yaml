@@ -5,7 +5,8 @@ type: revealed
 confidence: contested
 note: Probable-conspiracy finding, resting on acoustic evidence later rejected.
 sources:
-- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+- archive_url: "https://web.archive.org/web/20260908031519/https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations"
+  url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
   title: United States House Select Committee on Assassinations
   publisher: Wikipedia
   type: reference

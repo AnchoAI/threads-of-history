@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Mark_Sykes
+- archive_url: "https://web.archive.org/web/20260925171035/https://en.wikipedia.org/wiki/Mark_Sykes"
+  url: https://en.wikipedia.org/wiki/Mark_Sykes
   title: Mark Sykes
   publisher: Wikipedia
   type: reference

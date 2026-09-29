@@ -11,7 +11,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Iraq_Inquiry
+- archive_url: "https://web.archive.org/web/20260910003318/https://en.wikipedia.org/wiki/Iraq_Inquiry"
+  url: https://en.wikipedia.org/wiki/Iraq_Inquiry
   title: Iraq Inquiry
   publisher: Wikipedia
   type: reference

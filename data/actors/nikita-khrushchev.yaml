@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Nikita_Khrushchev
+- archive_url: "https://web.archive.org/web/20260925054013/https://en.wikipedia.org/wiki/Nikita_Khrushchev"
+  url: https://en.wikipedia.org/wiki/Nikita_Khrushchev
   title: Nikita Khrushchev
   publisher: Wikipedia
   type: reference

@@ -11,7 +11,8 @@ regions:
 - middle-east-north-africa
 importance: 4
 sources:
-- url: https://en.wikipedia.org/wiki/Arab_Spring
+- archive_url: "https://web.archive.org/web/20260929103629/https://en.wikipedia.org/wiki/Arab_Spring"
+  url: https://en.wikipedia.org/wiki/Arab_Spring
   title: Arab Spring
   publisher: Wikipedia
   type: reference

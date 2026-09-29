@@ -11,7 +11,8 @@ regions:
 - russia-eastern-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Vladimir_Putin
+- archive_url: "https://web.archive.org/web/20260928152931/https://en.wikipedia.org/wiki/Vladimir_Putin"
+  url: https://en.wikipedia.org/wiki/Vladimir_Putin
   title: Vladimir Putin
   publisher: Wikipedia
   type: reference

@@ -14,7 +14,8 @@ actors:
 - israel
 importance: 5
 sources:
-- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+- archive_url: "https://web.archive.org/web/20260928010352/https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War"
+  url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
   title: 1948 Arab–Israeli War
   publisher: Wikipedia
   type: reference

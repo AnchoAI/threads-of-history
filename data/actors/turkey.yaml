@@ -8,7 +8,8 @@ regions:
 - western-europe
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/Turkey
+- archive_url: "https://web.archive.org/web/20260928190239/https://en.wikipedia.org/wiki/Turkey"
+  url: https://en.wikipedia.org/wiki/Turkey
   title: Turkey
   publisher: Wikipedia
   type: reference

@@ -5,7 +5,8 @@ type: led_to
 confidence: documented
 note: Its findings lead to a new House inquiry.
 sources:
-- url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
+- archive_url: "https://web.archive.org/web/20260908031519/https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations"
+  url: https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Assassinations
   title: United States House Select Committee on Assassinations
   publisher: Wikipedia
   type: reference
