@@ -79,7 +79,11 @@ async function start() {
   function select(id, { fly = true } = {}) {
     selected = id && data.byId.has(id) && timeline.nodes.has(id) ? id : null;
     timeline.highlight(selected);
-    history.replaceState(null, "", selected ? `#${selected}` : location.pathname + location.search);
+    try {
+      history.replaceState(null, "", selected ? `#${selected}` : location.pathname + location.search);
+    } catch {
+      // Some embedded frames refuse URL changes; the viewer works without them.
+    }
     if (!selected) { detail.hidden = true; return; }
     detail.innerHTML = renderDetail(data.byId.get(selected), data);
     detail.hidden = false;
