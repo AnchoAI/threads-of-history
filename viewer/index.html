@@ -19,6 +19,11 @@
     <p class="draft" id="draft" hidden></p>
     <input id="q" type="search" placeholder="Search events…" autocomplete="off" aria-label="Search events">
     <div id="results"></div>
+    <div class="h">View</div>
+    <div class="seg" role="group" aria-label="View">
+      <button data-view="3d" aria-pressed="true">3D</button>
+      <button data-view="2d" aria-pressed="false">2D</button>
+    </div>
     <div class="h">Lanes</div>
     <div class="seg" role="group" aria-label="Arrange lanes by">
       <button data-mode="threads" aria-pressed="true">Thread</button>
@@ -43,7 +48,11 @@
     <button class="ghost" id="tNext" aria-label="Next">→</button>
     <button class="ghost" id="tEnd">End</button>
   </div>
-  <div id="hint">drag to orbit · scroll to zoom · right-drag to pan · click a node</div>
+  <div class="panel" id="timebar">
+    <div class="range" aria-live="polite"></div>
+    <canvas tabindex="0" aria-label="Time window. Drag to pick a period, scroll to zoom, double-click to show everything. Arrow keys move, plus and minus zoom."></canvas>
+  </div>
+  <div id="hint">drag to orbit · scroll to zoom the camera · zoom time with the strip below or + and − · click a node</div>
   <div id="error" class="panel" hidden></div>
 
   <script type="module" src="/src/main.js"></script>
