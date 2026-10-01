@@ -21,7 +21,8 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Milestone 3 (the viewer loading `graph.json`): done in `viewer/`. It matches the prototype's features and adds lanes by domain, review status and open questions in the side panel, shapes by kind (event, signal, decision), and links to items in the URL. Playwright tests run in CI.
 - Viewer lanes scale: in thread mode each domain gets a slice of the circle, threads are ordered so related ones sit together, and above 12 threads each domain collapses to one lane that opens on click. A fake 40-thread fixture (`viewer/tests/fixtures/`) tests this. Lane zooming by time period is still to do and belongs with time zooming.
 - Viewer zooming: time zooms by changing the window (from the whole timeline down to six hours) with a histogram strip along the bottom; the 120 most important items in the window are drawn and about 30 labelled; `part_of` sub-events appear once their parent fills a quarter of the window; lanes for threads with nothing in view drop away. A 3D/2D toggle adds a flat subway-map view. The rules live in `viewer/src/timescale.js` and `viewer/src/visibility.js`, with Node unit tests.
-- Next for the viewer: the "knowable on" slider, series as bands, era zones, and "why did this happen?".
+- "Knowable on" slider: done. Shows only items known by a date, to the public or to a named party from `known.by`; links, the side panel and search follow the same rule, so nothing leaks from hindsight. Rules in `viewer/src/visibility.js` (`knownSince`, `isKnown`). It needs data with real `known` dates to shine; deep dive A is the natural test.
+- Next for the viewer: series as bands, era zones, and "why did this happen?".
 
 ## Decisions since the handoff
 

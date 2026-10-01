@@ -37,6 +37,7 @@ export class Timeline {
     this.hidden = new Set();
     this.selected = null;
     this.pinned = [];
+    this.knowable = null;       // { t, party } when the "knowable on" slider is on
     this.layout = null;
     this.laneKey = "";
     this.world = null;
@@ -263,6 +264,7 @@ export class Timeline {
     const win = this.window;
     const { visible, labelled } = chooseVisible(this.data, win, {
       hiddenThreads: this.hidden, selected: this.selected, pinned: this.pinned, parentOf: this.parentOf,
+      knowable: this.knowable,
     });
     this.visibleIds = visible;
     for (const n of this.nodes.values()) {
@@ -313,6 +315,7 @@ export class Timeline {
     return new THREE.QuadraticBezierCurve3(A.clone(), mid.add(out.multiplyScalar(bend)), B.clone());
   }
 
+  // Ticks, plus the "knowable on" marker when the slider is on.
   #buildTicks() {
     for (const t of this.tickObjs) {
       t.mesh.geometry.dispose();
@@ -342,6 +345,31 @@ export class Timeline {
       const h = this.view === "2d" ? -((this.layout?.lanes.length ?? 1) * ROW / 2 + ROW) : 0;
       this.tickObjs.push({ mesh, el, p: new THREE.Vector3(x, h, 0) });
     }
+    const k = this.knowable;
+    if (k && k.t >= this.window.t0 && k.t <= this.window.t1) {
+      const x = this.x(k.t);
+      const accent = 0x8FD3FF;
+      let mesh, p;
+      if (this.view === "2d") {
+        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        mesh = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, -h, -0.5), new THREE.Vector3(x, h, -0.5)]),
+          new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: 0.9 }));
+        p = new THREE.Vector3(x, h, 0);
+      } else {
+        const radius = R * Math.max(1, Math.sqrt((this.layout?.lanes.length ?? 1) / 10)) * 1.25;
+        mesh = new THREE.Mesh(new THREE.CircleGeometry(radius, 48),
+          new THREE.MeshBasicMaterial({ color: accent, transparent: true, opacity: 0.08, side: THREE.DoubleSide, depthWrite: false }));
+        mesh.rotation.y = Math.PI / 2;
+        mesh.position.x = x;
+        p = new THREE.Vector3(x, radius, 0);
+      }
+      this.scene.add(mesh);
+      const el = document.createElement("div");
+      el.className = "yr knowable-mark";
+      el.textContent = `Knowable on ${k.label}${k.party ? ` · ${k.party}` : ""}`;
+      this.labelsEl.appendChild(el);
+      this.tickObjs.push({ mesh, el, p });
+    }
   }
 
   // ---------------------------------------------------------------- state changes
@@ -369,6 +397,12 @@ export class Timeline {
 
   setPinned(ids) {
     this.pinned = ids;
+  }
+
+  // knowable: null to show everything, or { t: decimal year, party: string | null, label }
+  setKnowable(knowable) {
+    this.knowable = knowable;
+    this.relayout();
   }
 
   // Dim everything not connected to the selected item.

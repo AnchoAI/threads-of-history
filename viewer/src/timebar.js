@@ -70,6 +70,18 @@ export class TimeBar {
     g.lineWidth = 1.5;
     g.strokeRect(x0 + 0.75, 0.75, x1 - x0 - 1.5, h - 1.5);
 
+    // The "knowable on" date, when the slider is on.
+    const k = this.timeline.knowable;
+    if (k) {
+      const xk = this.#tx(k.t);
+      g.strokeStyle = css.getPropertyValue("--known").trim() || "#8FD3FF";
+      g.lineWidth = 2;
+      g.beginPath();
+      g.moveTo(xk, 0);
+      g.lineTo(xk, h);
+      g.stroke();
+    }
+
     // Decade marks.
     g.fillStyle = ink;
     g.globalAlpha = 0.5;
