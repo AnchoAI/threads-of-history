@@ -1,9 +1,9 @@
 id: russian-invasion-of-ukraine-2022
 title: Russia invades Ukraine
-summary: Full-scale invasion. Germany halts Nord Stream 2 certification days before.
+summary: Russia launched its full-scale invasion of Ukraine.
 occurred:
-  start: 2022-02
-  precision: month
+  start: '2022-02-24'
+  precision: day
 threads:
 - ukraine
 - usru
@@ -14,16 +14,19 @@ actors:
 - ukraine
 - vladimir-putin
 importance: 5
+wikidata: Q110999040
 sources:
-- archive_url: "https://web.archive.org/web/20260929025720/https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
-  url: https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine
-  title: Russian invasion of Ukraine
-  publisher: Wikipedia
-  type: reference
+- archive_url: "https://web.archive.org/web/20230929103903/https://www.osce.org/chairpersonship/512890"
+  url: https://www.osce.org/chairpersonship/512890
+  title: Joint statement by OSCE Chairman-in-Office Rau and Secretary General Schmid on Russia’s launch
+    of a military operation in Ukraine
+  publisher: OSCE
+  quote: Russia’s military action against Ukraine.
+  type: primary
+  date: '2022-02-24'
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
-    not been checked against any source.
-  - The only source is a Wikipedia reference article, with no quote or archive link yet.
-  - Refine to day precision (24 February 2022) during deep dive A.
+  - Refines the existing item without changing its ID. Task 2a should skip this item.
+  - The opening day is verified; an exact start hour was not established. The prototype’s unsourced Nord
+    Stream 2 side claim has been removed.

@@ -1,0 +1,28 @@
+id: russia-belarus-drills-begin-2022
+title: Russia and Belarus begin joint exercises
+summary: Russian and Belarusian military exercises began in southern Belarus near Ukraine.
+occurred:
+  start: '2022-02-10'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- belarus
+- ukraine
+importance: 4
+wikidata: Q110961972
+sources:
+- archive_url: "https://web.archive.org/web/20220210165414/https://www.rferl.org/a/russia-belarus-war-games-ukraine/31697571.html"
+  url: https://www.rferl.org/a/russia-belarus-war-games-ukraine/31697571.html
+  title: Russia, Belarus Begin War Games Amid Outcry From Ukraine, West
+  publisher: Radio Free Europe/Radio Liberty
+  quote: began on February 10, are taking place in southern Belarus
+  type: news
+  date: '2022-02-10'
+review:
+  status: sourced
+  notes: []

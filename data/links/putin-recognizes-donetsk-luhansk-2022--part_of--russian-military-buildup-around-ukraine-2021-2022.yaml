@@ -1,0 +1,18 @@
+id: putin-recognizes-donetsk-luhansk-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: putin-recognizes-donetsk-luhansk-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The recognition decision was announced amid the escalating security situation.
+sources:
+- archive_url: "https://web.archive.org/web/20220222000119/https://www.osce.org/chairmanship/512695"
+  url: https://www.osce.org/chairmanship/512695
+  title: Press Statement of Special Representative Kinnunen on Russian President Putin’s announcement
+    to recognize certain areas of Donetsk and Luhansk Regions of Ukraine
+  publisher: OSCE
+  quote: his decision to recognize certain areas of Donetsk and Luhansk regions.
+  type: primary
+  date: '2022-02-21'
+review:
+  status: sourced
+  notes: []

@@ -1,0 +1,34 @@
+id: sullivan-any-time-warning-2022
+title: Sullivan warns an invasion could begin at any time
+summary: Jake Sullivan warned that an invasion could begin at any time if Putin ordered it.
+occurred:
+  start: '2022-02-11'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- jake-sullivan
+- united-states
+- russia
+- ukraine
+importance: 4
+source_credibility: high
+outcome: confirmed
+resolves_to: russian-invasion-of-ukraine-2022
+sources:
+- archive_url: "https://web.archive.org/web/20220814211233/https://www.presidency.ucsb.edu/documents/press-briefing-press-secretary-jen-psaki-and-national-security-advisor-jake-sullivan-6"
+  url: https://www.presidency.ucsb.edu/documents/press-briefing-press-secretary-jen-psaki-and-national-security-advisor-jake-sullivan-6
+  title: Press Briefing by Press Secretary Jen Psaki and National Security Advisor Jake Sullivan
+  publisher: White House via The American Presidency Project
+  quote: an invasion could begin at any time should Vladimir Putin decide to order it.
+  type: primary
+  date: '2022-02-11'
+review:
+  status: sourced
+  notes:
+  - Sullivan explicitly said the United States was not asserting that Putin had made a final decision.
+    This conditional warning is not a failed prediction for a particular day.
+  - Confirmed records the later invasion, not proof of US knowledge of a final Russian order on 11 February.

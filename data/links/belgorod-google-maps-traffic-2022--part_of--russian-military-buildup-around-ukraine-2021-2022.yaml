@@ -1,0 +1,17 @@
+id: belgorod-google-maps-traffic-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: belgorod-google-maps-traffic-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The reported traffic observation was part of monitoring the invasion’s approach.
+sources:
+- archive_url: "https://web.archive.org/web/20221127015454/https://www.freethink.com/hard-tech/osint-ukraine"
+  url: https://www.freethink.com/hard-tech/osint-ukraine
+  title: Open source intelligence exposes war as never before
+  publisher: Freethink
+  quote: watching a traffic jam on Google Maps
+  type: news
+  date: '2022-02-24'
+review:
+  status: sourced
+  notes: []

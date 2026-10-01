@@ -1,0 +1,17 @@
+id: russian-security-drafts-delivered-2021--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: russian-security-drafts-delivered-2021
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The security drafts were part of the diplomatic crisis surrounding the buildup.
+sources:
+- archive_url: "https://web.archive.org/web/20230629123358/https://www.brookings.edu/articles/russias-draft-agreements-with-nato-and-the-united-states-intended-for-rejection/"
+  url: https://www.brookings.edu/articles/russias-draft-agreements-with-nato-and-the-united-states-intended-for-rejection/
+  title: 'Russia’s draft agreements with NATO and the United States: Intended for rejection?'
+  publisher: Brookings Institution
+  quote: With large forces near Ukraine
+  type: reference
+  date: '2021-12-21'
+review:
+  status: sourced
+  notes: []

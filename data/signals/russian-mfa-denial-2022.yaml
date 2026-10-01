@@ -1,0 +1,41 @@
+id: russian-mfa-denial-2022
+title: Russian Foreign Ministry denies plans to attack
+summary: Maria Zakharova said that Russia was not attacking anyone and did not intend to.
+occurred:
+  start: '2022-02-16'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+importance: 4
+source_credibility: low
+outcome: 'false'
+sources:
+- url: https://www.globalsecurity.org/wmd/library/news/russia/2022/russia-220216-russia-mfab01.htm
+  title: Briefing by Foreign Ministry Spokeswoman Maria Zakharova, Moscow, February 16, 2022
+  publisher: Russian Ministry of Foreign Affairs via GlobalSecurity.org
+  quote: Russia is not attacking anyone and does not intend to.
+  type: primary
+  date: '2022-02-16'
+- archive_url: https://web.archive.org/web/20230929103903/https://www.osce.org/chairpersonship/512890
+  url: https://www.osce.org/chairpersonship/512890
+  title: Joint statement by OSCE Chairman-in-Office Rau and Secretary General Schmid on Russia’s launch
+    of a military operation in Ukraine
+  publisher: OSCE
+  quote: Russia’s military action against Ukraine.
+  type: primary
+  date: '2022-02-24'
+review:
+  status: unverified
+  notes:
+  - The claim is attributed to the Russian Foreign Ministry. The subsequent full-scale attack contradicts
+    its forward-looking assurance; outcome does not establish when private intentions formed.
+  - source_credibility is low for the predictive assurance, while the cited transcript is evidence that
+    the statement was made.
+  - The live source and exact quote were checked, but Wayback returned HTTP 401 when a new capture was
+    requested. Archive verification remains incomplete; no archive URL was invented.

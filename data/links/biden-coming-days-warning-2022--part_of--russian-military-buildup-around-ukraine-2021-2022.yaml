@@ -1,0 +1,17 @@
+id: biden-coming-days-warning-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: biden-coming-days-warning-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: Biden’s warning concerned the impending Russian attack on Ukraine.
+sources:
+- archive_url: "https://web.archive.org/web/20221001051428/https://www.presidency.ucsb.edu/documents/remarks-russia-and-ukraine-and-exchange-with-reporters"
+  url: https://www.presidency.ucsb.edu/documents/remarks-russia-and-ukraine-and-exchange-with-reporters
+  title: Remarks on Russia and Ukraine and an Exchange With Reporters
+  publisher: White House via The American Presidency Project
+  quote: attack Ukraine in the coming week—in the coming days.
+  type: primary
+  date: '2022-02-18'
+review:
+  status: sourced
+  notes: []

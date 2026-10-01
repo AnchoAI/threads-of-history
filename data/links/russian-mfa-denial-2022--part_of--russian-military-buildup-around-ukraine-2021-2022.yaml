@@ -1,0 +1,18 @@
+id: russian-mfa-denial-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: russian-mfa-denial-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The ministry’s denial addressed the prospect of an attack during the crisis.
+sources:
+- url: https://www.globalsecurity.org/wmd/library/news/russia/2022/russia-220216-russia-mfab01.htm
+  title: Briefing by Foreign Ministry Spokeswoman Maria Zakharova, Moscow, February 16, 2022
+  publisher: Russian Ministry of Foreign Affairs via GlobalSecurity.org
+  quote: Russia is not attacking anyone and does not intend to.
+  type: primary
+  date: '2022-02-16'
+review:
+  status: unverified
+  notes:
+  - The live source and exact quote were checked, but Wayback returned HTTP 401 when a new capture was
+    requested. Archive verification remains incomplete; no archive URL was invented.

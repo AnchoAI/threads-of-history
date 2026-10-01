@@ -1,0 +1,29 @@
+id: putin-publishes-unity-essay-2021
+title: Putin publishes his essay on Russians and Ukrainians
+summary: Vladimir Putin published “On the historical unity of Russians and Ukrainians”.
+occurred:
+  start: '2021-07-12'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- vladimir-putin
+- russia
+- ukraine
+importance: 3
+wikidata: Q107715931
+sources:
+- archive_url: "https://web.archive.org/web/20210716100131/https://www.osw.waw.pl/en/publikacje/analyses/2021-07-13/putins-article-historical-unity-russians-and-ukrainians"
+  url: https://www.osw.waw.pl/en/publikacje/analyses/2021-07-13/putins-article-historical-unity-russians-and-ukrainians
+  title: 'Putin’s article: ‘On the historical unity of Russians and Ukrainians’'
+  publisher: Centre for Eastern Studies (OSW)
+  quote: 12 July 2021 saw the publication of an article by President Vladimir Putin
+  type: reference
+  date: '2021-07-13'
+review:
+  status: sourced
+  notes:
+  - OSW’s 13 July article explicitly dates publication to 12 July. No causal claim is inferred from publication.

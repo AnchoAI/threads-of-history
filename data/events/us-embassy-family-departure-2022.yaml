@@ -1,0 +1,37 @@
+id: us-embassy-family-departure-2022
+title: US orders embassy family members to leave Kyiv
+summary: The State Department ordered eligible family members to leave the US embassy in Kyiv.
+occurred:
+  start: '2022-01-23'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- united-states
+- ukraine
+importance: 3
+wikidata: none
+sources:
+- archive_url: "https://web.archive.org/web/20240927035646/https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visas-news-archive/status-of-consular-services-in-kyiv.html"
+  url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visas-news-archive/status-of-consular-services-in-kyiv.html
+  title: Status of Consular Services in Kyiv
+  publisher: US Department of State
+  quote: ordered the departure of eligible family members on January 23, 2022.
+  type: primary
+  date: '2022-02-22'
+- archive_url: "https://web.archive.org/web/20220522055251/https://www.axios.com/2022/01/23/state-evacuating-diplomats-families-ukraine"
+  url: https://www.axios.com/2022/01/23/state-evacuating-diplomats-families-ukraine
+  title: State Department orders evacuation of U.S. diplomats’ families from Ukraine
+  publisher: Axios
+  quote: a travel advisory published Sunday evening.
+  type: news
+  date: '2022-01-24'
+review:
+  status: sourced
+  notes:
+  - The State Department’s 22 February service notice gives the order date. Axios’s updated 24 January
+    report says the advisory was published on Sunday evening, 23 January.
+  - No separate Wikidata entity for this drawdown was found in the checked embassy-evacuation search.

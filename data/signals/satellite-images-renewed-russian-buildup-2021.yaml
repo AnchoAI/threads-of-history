@@ -1,0 +1,38 @@
+id: satellite-images-renewed-russian-buildup-2021
+title: Satellite images indicate renewed Russian military deployments
+summary: Polish Radio reported commercial satellite imagery indicating renewed Russian deployments, including
+  imagery from near Yelnya.
+occurred:
+  start: '2021-11-01'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+importance: 4
+source_credibility: medium
+outcome: confirmed
+resolves_to: russian-invasion-of-ukraine-2022
+sources:
+- archive_url: "https://web.archive.org/web/20211102163737/https://www.polskieradio.pl/395/7785/Artykul/2838949,Satellite-images-show-Russian-military-buildup-near-Ukraine-Moscow-denies-report"
+  url: https://www.polskieradio.pl/395/7785/artykul/2838949%2Csatellite-images-show-russian-military-buildup-near-ukraine-moscow-denies-report
+  title: 'Satellite images show Russian military buildup near Ukraine, Moscow denies: report'
+  publisher: Polish Radio
+  quote: New satellite photos show that Russia is once again massing troops
+  type: news
+  date: '2021-11-02'
+review:
+  status: sourced
+  notes:
+  - The article embeds a 1 November image report. Public knowledge is conservatively dated to the opened
+    2 November article; the original tweet was not independently retrieved.
+  - Confirmed refers to the subsequent invasion, not to an exact troop count or an inference that an attack
+    order had already been given.
+known:
+  public:
+    start: '2021-11-02'
+    precision: day

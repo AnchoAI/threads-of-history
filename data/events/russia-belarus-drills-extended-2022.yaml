@@ -1,0 +1,30 @@
+id: russia-belarus-drills-extended-2022
+title: Belarus announces an extension of joint drills
+summary: Belarus announced that Russian military drills would continue beyond their planned end.
+occurred:
+  start: '2022-02-20'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- belarus
+- russia
+importance: 3
+wikidata: none
+sources:
+- archive_url: "https://web.archive.org/web/20220808191741/https://www.axios.com/2022/02/20/russia-belarus-military-drills"
+  url: https://www.axios.com/2022/02/20/russia-belarus-military-drills
+  title: Russia extends military drills in Belarus, fueling Ukraine invasion fears
+  publisher: Axios
+  quote: Russia will extend its military drills in Belarus past Sunday
+  type: news
+  date: '2022-02-20'
+review:
+  status: sourced
+  notes:
+  - The opened contemporaneous report gives 20 February; no later end date is assumed.
+  - The general exercise Wikidata entity is assigned to the start item; no separate entity for this announcement
+    has been verified.

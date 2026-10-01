@@ -1,0 +1,18 @@
+id: russian-invasion-of-ukraine-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: russian-invasion-of-ukraine-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The full-scale attack marks this episode’s endpoint.
+sources:
+- archive_url: "https://web.archive.org/web/20230929103903/https://www.osce.org/chairpersonship/512890"
+  url: https://www.osce.org/chairpersonship/512890
+  title: Joint statement by OSCE Chairman-in-Office Rau and Secretary General Schmid on Russia’s launch
+    of a military operation in Ukraine
+  publisher: OSCE
+  quote: Russia’s military action against Ukraine.
+  type: primary
+  date: '2022-02-24'
+review:
+  status: sourced
+  notes: []

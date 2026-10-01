@@ -1,0 +1,31 @@
+id: nato-written-security-proposals-2022
+title: NATO conveys written proposals to Russia
+summary: NATO announced that it had conveyed written proposals to Russia, in parallel with the United
+  States.
+occurred:
+  start: '2022-01-26'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- nato
+- russia
+- united-states
+importance: 3
+wikidata: none
+sources:
+- archive_url: "https://web.archive.org/web/20260306055819/https://www.nato.int/en/news-and-events/articles/news/2022/01/26/nato-conveys-written-proposals-to-russia"
+  url: https://www.nato.int/en/news-and-events/articles/news/2022/01/26/nato-conveys-written-proposals-to-russia
+  title: NATO conveys written proposals to Russia
+  publisher: NATO
+  quote: NATO has conveyed its written proposals to Russia
+  type: primary
+  date: '2022-01-26'
+review:
+  status: sourced
+  notes:
+  - The date is the public confirmation; a separate earlier delivery time was not verified.
+  - No separate Wikidata match for the specific announcement has been verified.

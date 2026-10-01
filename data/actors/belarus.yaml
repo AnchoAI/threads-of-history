@@ -1,0 +1,24 @@
+id: belarus
+title: Belarus
+summary: Country in Eastern Europe.
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors: []
+importance: 2
+wikidata: Q184
+actor_type: state
+sources:
+- archive_url: "https://web.archive.org/web/20260929210539/https://www.wikidata.org/wiki/Special:EntityData/Q184.json"
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q184.json
+  title: Belarus
+  publisher: Wikidata
+  quote: country in Eastern Europe
+  type: reference
+review:
+  status: sourced
+  notes:
+  - Wikidata identity checked via entity JSON. Episode-specific role is documented in the drills source
+    used by the associated timeline item.

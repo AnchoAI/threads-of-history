@@ -1,0 +1,33 @@
+id: nato-concern-spring-russian-buildup-2021
+title: NATO allies express concern over Russia’s spring buildup
+summary: NATO allies publicly expressed concern about Russian military deployments around Ukraine.
+occurred:
+  start: '2021-04-13'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+- nato
+importance: 4
+source_credibility: high
+outcome: unresolved
+sources:
+- archive_url: "https://web.archive.org/web/20260305231056/https://www.nato.int/en/news-and-events/articles/news/2021/04/13/nato-ukraine-commission-addresses-security-situation-in-and-around-ukraine"
+  url: https://www.nato.int/en/news-and-events/articles/news/2021/04/13/nato-ukraine-commission-addresses-security-situation-in-and-around-ukraine
+  title: NATO-Ukraine Commission addresses security situation in and around Ukraine
+  publisher: NATO
+  quote: Russia’s military build-up in and around Ukraine
+  type: primary
+  date: '2021-04-13'
+review:
+  status: sourced
+  notes:
+  - This is a contemporaneous concern, not a dated prediction of a full-scale invasion. The later pullback
+    announcement does not establish that every deployed unit withdrew; outcome remains unresolved.
+  - source_credibility describes the official record of the concern, not a probability assigned to an
+    invasion.

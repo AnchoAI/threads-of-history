@@ -1,0 +1,61 @@
+id: russian-security-drafts-delivered-2021
+title: Russia delivers draft security agreements to the United States
+summary: Russia delivered draft security agreements with the United States and NATO to the US side before
+  publishing their text.
+occurred:
+  start: '2021-12-15'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- united-states
+- nato
+importance: 4
+wikidata: Q120024154
+sources:
+- archive_url: "https://web.archive.org/web/20220309011316/https://www.globalsecurity.org/wmd/library/news/russia/2021/russia-211217-russia-mfa01.htm"
+  url: https://www.globalsecurity.org/wmd/library/news/russia/2021/russia-211217-russia-mfa01.htm
+  title: Press release on Russian draft documents on legal security guarantees from the United States
+    and NATO
+  publisher: Russian Ministry of Foreign Affairs via GlobalSecurity.org
+  quote: the US party received a draft treaty
+  type: primary
+  date: '2021-12-17'
+- archive_url: "https://web.archive.org/web/20211218004734/https://mid.ru/ru/foreign_policy/rso/nato/1790818/?lang=en"
+  url: https://mid.ru/ru/foreign_policy/rso/nato/1790818/?lang=en
+  title: Treaty between The United States of America and the Russian Federation on security guarantees
+  publisher: Russian Ministry of Foreign Affairs
+  quote: The United States of America shall undertake to prevent further eastward expansion
+  type: primary
+  date: '2021-12-17'
+review:
+  status: sourced
+  notes:
+  - known.public dates disclosure of the draft documents, not the first public news that a diplomatic
+    meeting occurred.
+  - The MFA release states that the US side received the drafts on 15 December; the draft treaty page
+    is dated 17 December.
+  - No causal or contested interpretation is encoded in A1.
+known:
+  public:
+    start: '2021-12-17'
+    precision: day
+  by:
+  - party: US government
+    actor: united-states
+    when:
+      start: '2021-12-15'
+      precision: day
+    sources:
+    - archive_url: "https://web.archive.org/web/20220309011316/https://www.globalsecurity.org/wmd/library/news/russia/2021/russia-211217-russia-mfa01.htm"
+      url: https://www.globalsecurity.org/wmd/library/news/russia/2021/russia-211217-russia-mfa01.htm
+      title: Press release on Russian draft documents on legal security guarantees from the United States
+        and NATO
+      publisher: Russian Ministry of Foreign Affairs via GlobalSecurity.org
+      quote: the US party received a draft treaty
+      type: primary
+      date: '2021-12-17'

@@ -1,0 +1,17 @@
+id: shoigu-announces-pullback-2021--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: shoigu-announces-pullback-2021
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The announced return of forces concerned the spring border deployment.
+sources:
+- archive_url: "https://web.archive.org/web/20210423014919/https://www.themoscowtimes.com/2021/04/22/russia-to-withdraw-troops-from-ukraine-border-crimea-a73705"
+  url: https://www.themoscowtimes.com/2021/04/22/russia-to-withdraw-troops-from-ukraine-border-crimea-a73705
+  title: Russia to Withdraw Troops From Ukraine Border, Crimea
+  publisher: The Moscow Times
+  quote: returning to their home bases from the Russian-Ukrainian border and Crimea
+  type: news
+  date: '2021-04-22'
+review:
+  status: sourced
+  notes: []

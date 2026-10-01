@@ -1,0 +1,31 @@
+id: us-embassy-staff-departure-2022
+title: US announces further embassy staff departures
+summary: The US embassy announced an order for non-emergency staff to leave Ukraine amid tensions with
+  Russia.
+occurred:
+  start: '2022-02-12'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- united-states
+- ukraine
+importance: 3
+wikidata: none
+sources:
+- archive_url: "https://web.archive.org/web/20220212113929/https://www.investing.com/news/world-news/us-state-department-orders-nonemergency-embassy-staff-to-leave-ukraine-2762768"
+  url: https://www.investing.com/news/world-news/us-state-department-orders-nonemergency-embassy-staff-to-leave-ukraine-2762768
+  title: U.S. State Department orders non-emergency embassy staff to leave Ukraine
+  publisher: Reuters via Investing.com
+  quote: ordered non-emergency U.S. embassy staff to leave Ukraine amid rising tensions with Russia
+  type: news
+  date: '2022-02-12'
+review:
+  status: sourced
+  notes:
+  - The item dates the public announcement; a report suggesting an earlier internal order could not be
+    opened and is not used.
+  - No separate Wikidata entity for this drawdown was found in the checked embassy-evacuation search.

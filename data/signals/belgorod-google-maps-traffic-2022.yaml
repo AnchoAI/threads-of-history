@@ -1,0 +1,53 @@
+id: belgorod-google-maps-traffic-2022
+title: Researchers observe a pre-dawn Google Maps traffic jam near Belgorod
+summary: Researchers observed Google Maps congestion from the Belgorod area toward the Ukrainian border
+  on the invasion night.
+occurred:
+  start: 2022-02-24T03:15+03:00
+  precision: hour
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+importance: 4
+source_credibility: medium
+outcome: confirmed
+resolves_to: russian-invasion-of-ukraine-2022
+sources:
+- archive_url: "https://web.archive.org/web/20221127015454/https://www.freethink.com/hard-tech/osint-ukraine"
+  url: https://www.freethink.com/hard-tech/osint-ukraine
+  title: Open source intelligence exposes war as never before
+  publisher: Freethink
+  quote: watching a traffic jam on Google Maps
+  type: news
+  date: '2022-02-24'
+- archive_url: "https://web.archive.org/web/20221127015454/https://www.freethink.com/hard-tech/osint-ukraine"
+  url: https://www.freethink.com/hard-tech/osint-ukraine
+  title: Open source intelligence exposes war as never before
+  publisher: Freethink
+  quote: But it is 3:15 in the morning there.
+  type: news
+  date: '2022-02-24'
+- archive_url: "https://web.archive.org/web/20221207061313/https://www.timeanddate.com/time/zone/russia/belgorod"
+  url: https://www.timeanddate.com/time/zone/russia/belgorod
+  title: Time Zone & Clock Changes in Belgorod, Russia
+  publisher: Time and Date
+  quote: No changes, UTC +3 hours all of the period
+  type: reference
+review:
+  status: sourced
+  notes:
+  - Freethink reports 03:15 local time; Time and Date gives UTC+03 throughout 2020–2029. The timestamp
+    is the reported observation, not a verified tweet timestamp.
+  - Public knowledge is recorded to the opened article’s day, not to the observation’s minute. The original
+    tweets were not independently retrieved.
+  - Confirmed refers to the invasion that followed; Google traffic data alone cannot identify individual
+    vehicles or prove that phones belonged to soldiers.
+known:
+  public:
+    start: '2022-02-24'
+    precision: day

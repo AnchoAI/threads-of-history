@@ -1,0 +1,35 @@
+id: us-intelligence-offensive-report-2021
+title: AP reports a US assessment of a possible Russian offensive
+summary: AP reported a US intelligence assessment that Russia was planning a possible offensive against
+  Ukraine in early 2022.
+occurred:
+  start: '2021-12-03'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- united-states
+- russia
+- ukraine
+importance: 4
+source_credibility: medium
+outcome: confirmed
+resolves_to: russian-invasion-of-ukraine-2022
+sources:
+- url: https://abc17news.com/news/ap-national-news/2021/12/03/u-s-intelligence-finds-russia-planning-ukraine-offensive/
+  title: U.S. intelligence finds Russia planning Ukraine offensive
+  publisher: Associated Press via ABC17 News
+  quote: a possible military offensive against Ukraine that could begin as soon as early 2022
+  type: news
+  date: '2021-12-03'
+review:
+  status: unverified
+  notes:
+  - Attributed to an anonymous administration official. The possibility of an offensive was borne out;
+    this does not validate every operational detail of the assessment.
+  - No dated earlier intelligence access was verified, so known.by is omitted.
+  - The live source and exact quote were checked, but Wayback returned HTTP 401 when a new capture was
+    requested. Archive verification remains incomplete; no archive URL was invented.

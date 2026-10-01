@@ -1,0 +1,53 @@
+id: russian-military-buildup-around-ukraine-2021-2022
+title: Russian military buildup around Ukraine, 2021–2022
+summary: Russian deployments near Ukraine in spring 2021 and the renewed buildup preceded the full-scale
+  invasion. This parent groups the buildup and the associated diplomatic crisis through the invasion’s
+  opening day.
+occurred:
+  start: 2021-03
+  end: '2022-02-24'
+  precision: month
+  note: Start verified to month; endpoint verified to 24 February 2022.
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+importance: 5
+wikidata: Q110254389
+sources:
+- archive_url: "https://web.archive.org/web/20260927020402/https://en.wikipedia.org/wiki/Prelude_to_the_Russian_invasion_of_Ukraine"
+  url: https://en.wikipedia.org/wiki/Prelude_to_the_Russian_invasion_of_Ukraine
+  title: Prelude to the 2022 Russian invasion of Ukraine
+  publisher: Wikipedia
+  quote: In March and April 2021
+  type: reference
+- archive_url: "https://web.archive.org/web/20260305231056/https://www.nato.int/en/news-and-events/articles/news/2021/04/13/nato-ukraine-commission-addresses-security-situation-in-and-around-ukraine"
+  url: https://www.nato.int/en/news-and-events/articles/news/2021/04/13/nato-ukraine-commission-addresses-security-situation-in-and-around-ukraine
+  title: NATO-Ukraine Commission addresses security situation in and around Ukraine
+  publisher: NATO
+  quote: Russia’s military build-up in and around Ukraine
+  type: primary
+  date: '2021-04-13'
+- archive_url: "https://web.archive.org/web/20230929103903/https://www.osce.org/chairpersonship/512890"
+  url: https://www.osce.org/chairpersonship/512890
+  title: Joint statement by OSCE Chairman-in-Office Rau and Secretary General Schmid on Russia’s launch
+    of a military operation in Ukraine
+  publisher: OSCE
+  quote: Russia’s military action against Ukraine.
+  type: primary
+  date: '2022-02-24'
+review:
+  status: sourced
+  notes:
+  - The start is verified only to March, not to a particular day. The end is the invasion’s opening day,
+    not the end of the war.
+  - The first contemporary public source opened for this batch is NATO’s 13 April statement; known.public
+    is a conservative documented-by date, not a claim that earlier reporting did not exist.
+known:
+  public:
+    start: '2021-04-13'
+    precision: day

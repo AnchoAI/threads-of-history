@@ -1,0 +1,25 @@
+id: jake-sullivan
+title: Jake Sullivan
+summary: American attorney and politician.
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors: []
+importance: 2
+wikidata: Q16730147
+actor_type: person
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q16730147.json
+  title: Jake Sullivan
+  publisher: Wikidata
+  quote: American attorney and politician (born 1976)
+  type: reference
+review:
+  status: unverified
+  notes:
+  - Wikidata identity checked via entity JSON. Episode-specific role is documented in the sullivan source
+    used by the associated timeline item.
+  - The live source and exact quote were checked, but Wayback returned HTTP 401 when a new capture was
+    requested. Archive verification remains incomplete; no archive URL was invented.

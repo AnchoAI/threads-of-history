@@ -1,0 +1,17 @@
+id: russia-belarus-drills-extended-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: russia-belarus-drills-extended-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The extension continued joint drills during the buildup around Ukraine.
+sources:
+- archive_url: "https://web.archive.org/web/20220808191741/https://www.axios.com/2022/02/20/russia-belarus-military-drills"
+  url: https://www.axios.com/2022/02/20/russia-belarus-military-drills
+  title: Russia extends military drills in Belarus, fueling Ukraine invasion fears
+  publisher: Axios
+  quote: Russia will extend its military drills in Belarus past Sunday
+  type: news
+  date: '2022-02-20'
+review:
+  status: sourced
+  notes: []

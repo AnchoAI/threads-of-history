@@ -1,0 +1,17 @@
+id: us-embassy-relocation-lviv-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: us-embassy-relocation-lviv-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The embassy relocation was announced during the accelerating buildup.
+sources:
+- archive_url: "https://web.archive.org/web/20220518192834/https://www.axios.com/2022/02/14/relocate-embassy-ukraine-blinken-russia-kyiv-lviv"
+  url: https://www.axios.com/2022/02/14/relocate-embassy-ukraine-blinken-russia-kyiv-lviv
+  title: U.S. relocating Kyiv embassy operations to western Ukraine
+  publisher: Axios
+  quote: temporarily relocating its embassy operations from Kyiv to Lviv
+  type: news
+  date: '2022-02-14'
+review:
+  status: sourced
+  notes: []

@@ -1,0 +1,25 @@
+id: sergei-shoigu
+title: Sergei Shoigu
+summary: Former Russian defence minister.
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors: []
+importance: 2
+wikidata: Q32024
+actor_type: person
+sources:
+- archive_url: "https://web.archive.org/web/20260326051535/https://www.wikidata.org/wiki/Special:EntityData/Q32024.json"
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q32024.json
+  title: Sergei Shoigu
+  publisher: Wikidata
+  quote: Secretary of the Security Council of the Russian Federation since 2024 and former Russian defense
+    minister
+  type: reference
+review:
+  status: sourced
+  notes:
+  - Wikidata identity checked via entity JSON. Episode-specific role is documented in the pullback source
+    used by the associated timeline item.

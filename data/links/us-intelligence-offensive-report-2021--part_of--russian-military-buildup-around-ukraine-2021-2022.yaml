@@ -1,0 +1,18 @@
+id: us-intelligence-offensive-report-2021--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: us-intelligence-offensive-report-2021
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The reported assessment concerned a possible offensive from the buildup.
+sources:
+- url: https://abc17news.com/news/ap-national-news/2021/12/03/u-s-intelligence-finds-russia-planning-ukraine-offensive/
+  title: U.S. intelligence finds Russia planning Ukraine offensive
+  publisher: Associated Press via ABC17 News
+  quote: a possible military offensive against Ukraine
+  type: news
+  date: '2021-12-03'
+review:
+  status: unverified
+  notes:
+  - The live source and exact quote were checked, but Wayback returned HTTP 401 when a new capture was
+    requested. Archive verification remains incomplete; no archive URL was invented.

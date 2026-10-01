@@ -1,0 +1,29 @@
+id: us-embassy-relocation-lviv-2022
+title: US announces relocation of embassy operations to Lviv
+summary: The United States announced that it was moving embassy operations from Kyiv to Lviv.
+occurred:
+  start: '2022-02-14'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- united-states
+- ukraine
+importance: 3
+wikidata: none
+sources:
+- archive_url: "https://web.archive.org/web/20220518192834/https://www.axios.com/2022/02/14/relocate-embassy-ukraine-blinken-russia-kyiv-lviv"
+  url: https://www.axios.com/2022/02/14/relocate-embassy-ukraine-blinken-russia-kyiv-lviv
+  title: U.S. relocating Kyiv embassy operations to western Ukraine
+  publisher: Axios
+  quote: temporarily relocating its embassy operations from Kyiv to Lviv
+  type: news
+  date: '2022-02-14'
+review:
+  status: sourced
+  notes:
+  - Records the announced relocation rather than an independently timed completion of the move.
+  - No separate Wikidata match for this announcement has been verified.

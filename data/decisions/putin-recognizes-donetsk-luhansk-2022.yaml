@@ -1,0 +1,33 @@
+id: putin-recognizes-donetsk-luhansk-2022
+title: Putin recognizes Donetsk and Luhansk separatist regions
+summary: Vladimir Putin announced recognition of the self-proclaimed Donetsk and Luhansk republics.
+occurred:
+  start: '2022-02-21'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- vladimir-putin
+- russia
+- ukraine
+importance: 4
+decided_by:
+- vladimir-putin
+alternatives: []
+sources:
+- archive_url: "https://web.archive.org/web/20220222000119/https://www.osce.org/chairmanship/512695"
+  url: https://www.osce.org/chairmanship/512695
+  title: Press Statement of Special Representative Kinnunen on Russian President Putin’s announcement
+    to recognize certain areas of Donetsk and Luhansk Regions of Ukraine
+  publisher: OSCE
+  quote: his decision to recognize certain areas of Donetsk and Luhansk regions.
+  type: primary
+  date: '2022-02-21'
+review:
+  status: sourced
+  notes:
+  - The contemporaneous OSCE statement identifies Putin’s decision. No alternatives are supplied because
+    none were verified.

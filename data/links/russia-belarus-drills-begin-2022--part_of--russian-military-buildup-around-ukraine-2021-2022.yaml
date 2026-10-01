@@ -1,0 +1,17 @@
+id: russia-belarus-drills-begin-2022--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: russia-belarus-drills-begin-2022
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The exercises near Ukraine formed part of the military crisis.
+sources:
+- archive_url: "https://web.archive.org/web/20220210165414/https://www.rferl.org/a/russia-belarus-war-games-ukraine/31697571.html"
+  url: https://www.rferl.org/a/russia-belarus-war-games-ukraine/31697571.html
+  title: Russia, Belarus Begin War Games Amid Outcry From Ukraine, West
+  publisher: Radio Free Europe/Radio Liberty
+  quote: began on February 10, are taking place in southern Belarus
+  type: news
+  date: '2022-02-10'
+review:
+  status: sourced
+  notes: []

@@ -1,0 +1,17 @@
+id: satellite-images-renewed-russian-buildup-2021--part_of--russian-military-buildup-around-ukraine-2021-2022
+from: satellite-images-renewed-russian-buildup-2021
+to: russian-military-buildup-around-ukraine-2021-2022
+type: part_of
+confidence: documented
+note: The imagery report concerned the renewed Russian buildup around Ukraine.
+sources:
+- archive_url: "https://web.archive.org/web/20211102163737/https://www.polskieradio.pl/395/7785/Artykul/2838949,Satellite-images-show-Russian-military-buildup-near-Ukraine-Moscow-denies-report"
+  url: https://www.polskieradio.pl/395/7785/artykul/2838949%2Csatellite-images-show-russian-military-buildup-near-ukraine-moscow-denies-report
+  title: 'Satellite images show Russian military buildup near Ukraine, Moscow denies: report'
+  publisher: Polish Radio
+  quote: New satellite photos show that Russia is once again massing troops
+  type: news
+  date: '2021-11-02'
+review:
+  status: sourced
+  notes: []

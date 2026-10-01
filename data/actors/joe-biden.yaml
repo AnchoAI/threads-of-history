@@ -1,0 +1,24 @@
+id: joe-biden
+title: Joe Biden
+summary: US president during the buildup and invasion.
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors: []
+importance: 2
+wikidata: Q6279
+actor_type: person
+sources:
+- archive_url: "https://web.archive.org/web/20260920114752/https://www.wikidata.org/wiki/Special:EntityData/Q6279.json"
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q6279.json
+  title: Joe Biden
+  publisher: Wikidata
+  quote: 46th President of the United States (2021–2025)
+  type: reference
+review:
+  status: sourced
+  notes:
+  - Wikidata identity checked via entity JSON. Episode-specific role is documented in the biden source
+    used by the associated timeline item.

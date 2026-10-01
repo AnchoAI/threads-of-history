@@ -1,0 +1,33 @@
+id: biden-coming-days-warning-2022
+title: Biden warns of an attack in the coming days
+summary: Joe Biden said that Russian forces intended to attack Ukraine in the coming days.
+occurred:
+  start: '2022-02-18'
+  precision: day
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- joe-biden
+- united-states
+- russia
+- ukraine
+importance: 4
+source_credibility: high
+outcome: confirmed
+resolves_to: russian-invasion-of-ukraine-2022
+sources:
+- archive_url: "https://web.archive.org/web/20221001051428/https://www.presidency.ucsb.edu/documents/remarks-russia-and-ukraine-and-exchange-with-reporters"
+  url: https://www.presidency.ucsb.edu/documents/remarks-russia-and-ukraine-and-exchange-with-reporters
+  title: Remarks on Russia and Ukraine and an Exchange With Reporters
+  publisher: White House via The American Presidency Project
+  quote: attack Ukraine in the coming week—in the coming days.
+  type: primary
+  date: '2022-02-18'
+review:
+  status: sourced
+  notes:
+  - Records Biden’s public assessment, not direct evidence of Putin’s private decision-making. The later
+    invasion falls within the warned-of period.
