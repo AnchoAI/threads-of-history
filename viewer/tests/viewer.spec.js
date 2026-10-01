@@ -63,15 +63,10 @@ test("a link in the URL opens that item", async ({ page }) => {
 
 test("clicking a node on the canvas selects it", async ({ page }) => {
   await open(page);
-  // Wait for the camera to settle, then click where the node is drawn.
-  const point = await page.evaluate(async () => {
-    const { timeline } = window.__viewer;
-    const node = timeline.nodes.get("russian-invasion-of-ukraine-2022");
-    const v = node.pos.clone().project(timeline.camera);
-    return { x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
-  });
-  await page.mouse.click(point.x, point.y);
-  await expect(page.locator("#detail h2")).toHaveText("Russia invades Ukraine");
+  const node = await isolatedNode(page);
+  expect(node).not.toBeNull();
+  await page.mouse.click(node.x, node.y);
+  await expect(page.locator("#detail h2")).toHaveText(node.title);
 });
 
 test("lanes can be arranged by thread, region or domain", async ({ page }) => {
@@ -162,6 +157,24 @@ test.describe("with 40 threads (fake stress data)", () => {
 
 // ---------------------------------------------------------------- zooming and 2D
 
+// The drawn node furthest (on screen) from any other drawn node, so a click on it cannot land
+// on a neighbour. Picking a fixed event would break whenever new data puts something next to it.
+const isolatedNode = (page) => page.evaluate(() => {
+  const { timeline } = window.__viewer;
+  timeline.scene.updateMatrixWorld();
+  timeline.camera.updateMatrixWorld();
+  const pts = [...timeline.nodes.values()].filter((n) => n.show).map((n) => {
+    const v = n.pos.clone().project(timeline.camera);
+    return { id: n.item.id, title: n.item.title, x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
+  }).filter((p) => p.x > 300 && p.x < innerWidth - 400 && p.y > 40 && p.y < innerHeight - 140);
+  let best = null, bestD = -1;
+  for (const p of pts) {
+    const d = Math.min(...pts.filter((q) => q !== p).map((q) => Math.hypot(p.x - q.x, p.y - q.y)));
+    if (d > bestD) { best = p; bestD = d; }
+  }
+  return best;
+});
+
 const windowSpan = (page) => page.evaluate(() => window.__viewer.timeline.window.span);
 const shown = (page) => page.evaluate(() => [...window.__viewer.timeline.nodes.values()].filter((n) => n.show).length);
 
@@ -217,13 +230,10 @@ test("the 2D view stacks lanes as rows and still picks nodes", async ({ page }) 
     return { ortho: t.camera.isOrthographicCamera, rows: ys.length, lanes: t.layout.lanes.length, flat: zs.every((z) => z === 0) };
   });
   expect(info).toEqual({ ortho: true, rows: info.lanes, lanes: info.lanes, flat: true });
-  const point = await page.evaluate(() => {
-    const { timeline } = window.__viewer;
-    const v = timeline.nodes.get("russian-invasion-of-ukraine-2022").pos.clone().project(timeline.camera);
-    return { x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
-  });
-  await page.mouse.click(point.x, point.y);
-  await expect(page.locator("#detail h2")).toHaveText("Russia invades Ukraine");
+  const node = await isolatedNode(page);
+  expect(node).not.toBeNull();
+  await page.mouse.click(node.x, node.y);
+  await expect(page.locator("#detail h2")).toHaveText(node.title);
 });
 
 test.describe("zooming with many items (fake stress data)", () => {

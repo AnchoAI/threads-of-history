@@ -4,7 +4,8 @@
 // Rules:
 // - An item is a candidate if its time span overlaps the window and one of its threads is shown.
 // - A sub-event (the `from` of a part_of link) only appears once its parent fills at least a
-//   quarter of the window, so zooming in opens events into their parts.
+//   quarter of the window, so zooming in opens events into their parts. A sub-event at least
+//   as important as its parent is never folded away (e.g. an invasion that ends a buildup).
 // - Of the candidates, the most important are drawn (importance first, then number of links),
 //   up to maxNodes. The selected item, its connections and pinned items (e.g. the current step
 //   of a guided path) are always drawn if they are in the window.
@@ -72,6 +73,7 @@ export function chooseVisible(data, win, {
     const p = parentOf.get(item.id);
     if (!p || forced.has(item.id) || p === selected) return true;
     const parent = data.byId.get(p);
+    if ((item.importance ?? 3) >= (parent.importance ?? 3)) return true;
     const [a, b] = span(parent);
     return (Math.min(b, win.t1) - Math.max(a, win.t0)) >= PART_SHARE * win.span || (b - a) >= PART_SHARE * win.span;
   };
