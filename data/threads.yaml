@@ -34,3 +34,27 @@
   name: European energy
   domain: economy
   color: '#5E9BE0'
+- id: ww1
+  name: First World War & its origins
+  domain: politics
+  color: '#A3A86B'
+- id: russia
+  name: Russian Revolution & Soviet state
+  domain: politics
+  color: '#C0465A'
+- id: interwar
+  name: Interwar crises & fascism
+  domain: politics
+  color: '#8E7CC3'
+- id: ww2
+  name: Second World War
+  domain: politics
+  color: '#7A8C99'
+- id: china
+  name: China & Japan in East Asia
+  domain: politics
+  color: '#E07A7A'
+- id: econ-crises
+  name: Economic crises & the world economy
+  domain: economy
+  color: '#4FB0C6'

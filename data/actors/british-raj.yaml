@@ -1,0 +1,21 @@
+id: british-raj
+title: British Raj
+actor_type: state
+summary: British colonial rule on the Indian subcontinent (1858–1947).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q129286
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q129286.json
+  title: British Raj
+  publisher: Wikidata
+  quote: British colonial rule on the Indian subcontinent (1858–1947)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

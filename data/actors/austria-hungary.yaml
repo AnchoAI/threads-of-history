@@ -1,0 +1,22 @@
+id: austria-hungary
+title: Austria–Hungary
+actor_type: state
+summary: 1867–1918 empire in Central Europe.
+threads: []
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 3
+wikidata: Q28513
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q28513.json
+  title: Austria–Hungary
+  publisher: Wikidata
+  quote: 1867–1918 empire in Central Europe
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

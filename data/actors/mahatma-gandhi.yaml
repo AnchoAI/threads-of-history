@@ -1,0 +1,21 @@
+id: mahatma-gandhi
+title: Mahatma Gandhi
+actor_type: person
+summary: Indian independence activist (1869–1948).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q1001
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1001.json
+  title: Mahatma Gandhi
+  publisher: Wikidata
+  quote: Indian independence activist (1869–1948)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

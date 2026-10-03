@@ -1,0 +1,22 @@
+id: mexico
+title: Mexico
+actor_type: state
+summary: Country in North America.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q96
+iso3: MEX
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q96.json
+  title: Mexico
+  publisher: Wikidata
+  quote: country in North America
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,21 @@
+id: kuomintang
+title: Kuomintang
+actor_type: organization
+summary: Republic of China political party.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q31113
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q31113.json
+  title: Kuomintang
+  publisher: Wikidata
+  quote: Republic of China political party
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

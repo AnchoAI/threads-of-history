@@ -10,3 +10,7 @@
   name: South & Central Asia
 - id: east-asia
   name: East Asia
+- id: sub-saharan-africa
+  name: Sub-Saharan Africa
+- id: south-east-asia
+  name: South-East Asia

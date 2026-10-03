@@ -11,7 +11,8 @@ regions:
 - americas
 importance: 3
 sources:
-- url: https://en.wikipedia.org/wiki/9/11_Commission
+- archive_url: "https://web.archive.org/web/20260926204359/https://en.wikipedia.org/wiki/9/11_Commission"
+  url: https://en.wikipedia.org/wiki/9/11_Commission
   title: 11 Commission
   publisher: Wikipedia
   type: reference

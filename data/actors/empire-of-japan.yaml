@@ -1,0 +1,21 @@
+id: empire-of-japan
+title: Empire of Japan
+actor_type: state
+summary: Empire in the Asia-Pacific region from 1868 to 1947.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q188712
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q188712.json
+  title: Empire of Japan
+  publisher: Wikidata
+  quote: empire in the Asia-Pacific region from 1868 to 1947
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

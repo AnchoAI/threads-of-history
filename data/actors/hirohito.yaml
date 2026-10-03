@@ -1,0 +1,21 @@
+id: hirohito
+title: Hirohito
+actor_type: person
+summary: Emperor of Japan from 1926 to 1989.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q34479
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34479.json
+  title: Hirohito
+  publisher: Wikidata
+  quote: emperor of Japan from 1926 to 1989
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
