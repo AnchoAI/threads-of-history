@@ -1,0 +1,59 @@
+id: second-united-front-1937
+title: Second United Front formed
+summary: The Kuomintang and the Chinese Communist Party ally to resist Japan. The CCP's declaration of
+  cooperation is published on 22 September 1937 and the Red Army is reorganised under the National Revolutionary
+  Army. Substantive cooperation effectively ends after the New Fourth Army Incident of January 1941.
+occurred:
+  start: 1937-09
+  end: 1941-01
+  precision: month
+threads:
+- china
+- ww2
+regions:
+- east-asia
+actors:
+- kuomintang
+- chinese-communist-party
+- chiang-kai-shek
+- mao-zedong
+importance: 3
+wikidata: Q1143850
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: The CCP's formal declaration for KMT-CCP cooperation was drafted by Zhou Enlai on 4 July 1937
+    and sent to the Nationalist government on 15 July, though it was not published until 22 September,
+    solidifying the basis for a Second United Front.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_United_Front
+  title: Second United Front
+  publisher: Wikipedia
+  quote: As a result of the truce between KMT and CCP, the Red Army was reorganized into the New Fourth
+    Army and the Eighth Route Army, which were placed under the command of the National Revolutionary
+    Army.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_United_Front
+  title: Second United Front
+  publisher: Wikipedia
+  quote: Once in Southern Anhui, CCP forces were ambushed and defeated by Nationalist troops in January
+    1941.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_United_Front
+  title: Second United Front
+  publisher: Wikipedia
+  quote: effectively ended any substantive co-operation between the Nationalists and the CCP
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Precision is month because the end is only known to the month; the declaration was published on 22
+    September 1937.
+  - Start date is the publication of the CCP declaration; the alliance had no single founding date. Wikidata
+    describes it as lasting 1937–1945; the end month here follows the source's statement that substantive
+    cooperation ended after January 1941.

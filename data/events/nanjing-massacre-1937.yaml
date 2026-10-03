@@ -1,0 +1,67 @@
+id: nanjing-massacre-1937
+title: Nanjing Massacre
+summary: After capturing Nanjing, Japanese troops kill civilians and prisoners of war and commit mass
+  rape. Death-toll estimates range from 40,000 to over 340,000 depending on scope; the Tokyo Tribunal
+  estimated more than 200,000, newer estimates 100,000–200,000, and China officially cites 300,000. Japanese
+  nationalists have denied or minimised it.
+occurred:
+  start: 1937-12
+  end: 1938-01
+  precision: month
+threads:
+- china
+- ww2
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- republic-of-china-1912-1949
+importance: 4
+wikidata: Q192055
+sources:
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: Traditional historiography dates the massacre as unfolding over a period of six weeks beginning
+    on December 13, 1937, following the city's capture, and as being spatially confined to within Nanjing
+    and its immediate vicinity.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: Many scholars support the validity of the International Military Tribunal for the Far East (IMTFE),
+    which estimated that more than 200,000 people were killed, while newer estimates adhere to a death
+    toll between 100,000 and 200,000.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: Other estimates of the death toll vary from a low of 40,000 (confined just to the city itself)
+    to a high of over 340,000 (encompassing the entire Shanghai-Nanjing region)
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: Currently, the figure of 300,000 victims has been widely commemorated as the death toll of the
+    Nanjing Massacre across China, a number that has been officially endorsed by the Chinese government.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: The massacre remains a contentious topic in Sino-Japanese relations, as Japanese nationalists
+    and historical revisionists, including top government officials, have either denied or minimized the
+    massacre.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Precision is month because the end is only given as six weeks after 13 December 1937 (the start day).
+  - End date follows traditional historiography (six weeks from 13 December); the same source says atrocities
+    in the Nanjing area ran from 4 December 1937 to 28 March 1938 on a wider definition.
+  - Wikipedia is the only source; a scholarly source (e.g. a university or museum history) would strengthen
+    the death-toll attributions.

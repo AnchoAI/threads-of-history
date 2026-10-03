@@ -1,0 +1,22 @@
+id: yuan-shikai
+title: Yuan Shikai
+actor_type: person
+summary: Chinese military and government official (1859–1916).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q210329
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q210329.json
+  title: Yuan Shikai
+  publisher: Wikidata
+  quote: Chinese military and government official (1859–1916)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

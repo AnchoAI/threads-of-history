@@ -1,0 +1,44 @@
+id: shanghai-massacre-1927
+title: Shanghai massacre
+summary: 'Forces supporting Chiang Kai-shek violently suppress Communist Party organisations and leftists
+  in Shanghai. Estimates vary: some sources give about 300 executed and over 5,000 missing, others 5,000
+  to 10,000 killed in the following weeks.'
+occurred:
+  start: '1927-04-12'
+  end: '1927-04-15'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- chiang-kai-shek
+- kuomintang
+- chinese-communist-party
+importance: 3
+wikidata: Q1195058
+sources:
+- url: https://en.wikipedia.org/wiki/Shanghai_massacre
+  title: Shanghai massacre
+  publisher: Wikipedia
+  quote: The Shanghai massacre of 12 April 1927, the April 12 Purge or the April 12 Incident as it is
+    commonly known in China, was the violent suppression of Chinese Communist Party (CCP) organizations
+    and leftist elements in Shanghai by forces supporting General Chiang Kai-shek
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Shanghai_massacre
+  title: Shanghai massacre
+  publisher: Wikipedia
+  quote: 12 – 15 April 1927
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Shanghai_massacre
+  title: Shanghai massacre
+  publisher: Wikipedia
+  quote: Some sources stated that over 1,000 Communists and KMT leftists were arrested, with some 300
+    were executed and more than 5,000 went missing; while others stated up to 5,000 to 10,000 Communists
+    and leftists were killed within the following weeks.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

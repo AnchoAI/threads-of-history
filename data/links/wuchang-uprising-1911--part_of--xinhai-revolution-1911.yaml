@@ -1,0 +1,22 @@
+id: wuchang-uprising-1911--part_of--xinhai-revolution-1911
+from: wuchang-uprising-1911
+to: xinhai-revolution-1911
+type: part_of
+confidence: documented
+note: The uprising began the 1911 Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Wuchang_Uprising
+  title: Wuchang Uprising
+  publisher: Wikipedia
+  quote: Part of the 1911 Revolution
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: The flashpoint came on 10 October 1911 with the Wuchang Uprising, an armed rebellion by members
+    of the New Army.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

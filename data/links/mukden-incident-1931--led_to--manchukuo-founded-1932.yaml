@@ -1,0 +1,18 @@
+id: mukden-incident-1931--led_to--manchukuo-founded-1932
+from: mukden-incident-1931
+to: manchukuo-founded-1932
+type: led_to
+confidence: documented
+note: The incident was the pretext for the invasion that produced Manchukuo.
+sources:
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261001231436/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: The Imperial Japanese Army accused Chinese dissidents of the act and responded with a full invasion
+    that led to the occupation of Manchuria, in which Japan established its puppet state of Manchukuo
+    five months later.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

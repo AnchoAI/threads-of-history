@@ -1,0 +1,32 @@
+id: wuchang-uprising-1911
+title: Wuchang Uprising
+summary: New Army troops in Wuchang, Hubei, rebel against the Qing dynasty, beginning the 1911 Revolution.
+occurred:
+  start: '1911-10-10'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- qing-dynasty
+importance: 3
+wikidata: Q339291
+sources:
+- url: https://en.wikipedia.org/wiki/Wuchang_Uprising
+  title: Wuchang Uprising
+  publisher: Wikipedia
+  quote: The Wuchang Uprising was an armed rebellion against the ruling Qing dynasty that took place in
+    Wuchang (now Wuchang District of Wuhan) in the Chinese province of Hubei on 10 October 1911, beginning
+    the 1911 Revolution
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: The flashpoint came on 10 October 1911 with the Wuchang Uprising, an armed rebellion by members
+    of the New Army.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

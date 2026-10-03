@@ -1,0 +1,22 @@
+id: puyi
+title: Puyi
+actor_type: person
+summary: Last Emperor of Qing dynasty and Manchukuo (1906–1967).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q185152
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q185152.json
+  title: Puyi
+  publisher: Wikidata
+  quote: Last Emperor of Qing dynasty and Manchukuo (1906–1967)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

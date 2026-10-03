@@ -1,0 +1,42 @@
+id: anglo-japanese-alliance-1902
+title: Anglo-Japanese Alliance
+summary: Britain and Japan sign an alliance in London. It is renewed in 1905 and 1911 and ends with the
+  Four-Power Treaty of 1921, terminating on its ratification in 1923.
+occurred:
+  start: '1902-01-30'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+- western-europe
+actors:
+- united-kingdom
+- empire-of-japan
+importance: 3
+wikidata: Q541195
+sources:
+- url: https://en.wikipedia.org/wiki/Anglo-Japanese_Alliance
+  title: Anglo-Japanese Alliance
+  publisher: Wikipedia
+  quote: The treaty creating the alliance was signed at Lansdowne House in London on 30 January 1902 by
+    British foreign secretary Henry Petty-Fitzmaurice, 5th Marquess of Lansdowne and Japanese diplomat
+    Hayashi Tadasu.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anglo-Japanese_Alliance
+  title: Anglo-Japanese Alliance
+  publisher: Wikipedia
+  quote: the alliance was renewed in 1905 and 1911
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anglo-Japanese_Alliance
+  title: Anglo-Japanese Alliance
+  publisher: Wikipedia
+  quote: the alliance was ended with the signing of the Four-Power Treaty in 1921 and terminated upon
+    its ratification in 1923.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
