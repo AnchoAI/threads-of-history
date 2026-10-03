@@ -1,0 +1,22 @@
+id: february-revolution-1917--led_to--october-revolution-1917
+from: february-revolution-1917
+to: october-revolution-1917
+type: led_to
+confidence: documented
+note: The failures of the Provisional Government formed in February led to the Bolshevik seizure of power.
+sources:
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: The failures of the Provisional Government led to the October Revolution by the communist Bolsheviks
+    later that year.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: The October Revolution followed and capitalised on the February Revolution earlier that year
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

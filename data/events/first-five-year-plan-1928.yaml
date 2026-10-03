@@ -1,0 +1,56 @@
+id: first-five-year-plan-1928
+title: First five-year plan
+summary: Stalin's first five-year plan pushed rapid industrialisation and the collectivisation of agriculture,
+  replacing the New Economic Policy. Peasant resistance and procurement contributed to famine; Stalin
+  declared it fulfilled early in 1933.
+occurred:
+  start: 1928-10
+  end: 1932-12
+  precision: month
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- joseph-stalin
+- soviet-union
+importance: 4
+wikidata: Q1661958
+sources:
+- url: https://en.wikipedia.org/wiki/First_five-year_plan_(Soviet_Union)
+  title: First five-year plan (Soviet Union)
+  publisher: Wikipedia
+  quote: the rapid industrialization of the Soviet Union from October 1928 to December 1932
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_five-year_plan_(Soviet_Union)
+  title: First five-year plan (Soviet Union)
+  publisher: Wikipedia
+  quote: The policies were centered around rapid industrialization and the collectivization of agriculture.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_five-year_plan_(Soviet_Union)
+  title: First five-year plan (Soviet Union)
+  publisher: Wikipedia
+  quote: Stalin desired to remove and replace the mixed-economy policies of the New Economic Policy.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_five-year_plan_(Soviet_Union)
+  title: First five-year plan (Soviet Union)
+  publisher: Wikipedia
+  quote: The resistance to Stalin's collectivization policies contributed to the famine in Ukraine, Russia,
+    Kazakhstan as well as areas of the Northern Caucasus.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_five-year_plan_(Soviet_Union)
+  title: First five-year plan (Soviet Union)
+  publisher: Wikipedia
+  quote: Stalin declared the plan a success at the beginning of 1933
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The summary says procurement contributed to famine; the source says procurement rose 44% in 1932 while
+    grain production fell, and that resistance to collectivisation contributed to famine. Reword if a
+    reviewer finds this too strong.

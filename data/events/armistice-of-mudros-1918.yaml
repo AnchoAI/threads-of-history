@@ -1,0 +1,42 @@
+id: armistice-of-mudros-1918
+title: Armistice of Mudros
+summary: Signed aboard HMS Agamemnon at Mudros, the armistice ended the fighting between the Ottoman Empire
+  and the Allies. The occupation of Istanbul and the partition of the empire followed.
+occurred:
+  start: '1918-10-30'
+  precision: day
+threads:
+- ww1
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- united-kingdom
+importance: 3
+wikidata: Q328499
+sources:
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: ended hostilities in the Middle Eastern theatre between Ottoman Empire and the Allies of World
+    War I
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: It was signed on 30 October 1918 by the Ottoman Minister of Marine Affairs Rauf Bey and British
+    Admiral Somerset Arthur Gough-Calthorpe
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: The armistice was followed by the occupation of Istanbul and the subsequent partitioning of the
+    Ottoman Empire.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

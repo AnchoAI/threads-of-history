@@ -1,0 +1,22 @@
+id: turkish-war-of-independence-1919-1922--led_to--proclamation-of-the-republic-of-turkey-1923
+from: turkish-war-of-independence-1919-1922
+to: proclamation-of-the-republic-of-turkey-1923
+type: led_to
+confidence: documented
+note: The war established the Republic of Turkey.
+sources:
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending
+    the Ottoman sultanate and the Ottoman caliphate, and established the Republic of Turkey.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: Establishment of the Republic of Turkey
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
