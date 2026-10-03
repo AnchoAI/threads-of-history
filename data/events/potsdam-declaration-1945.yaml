@@ -1,0 +1,51 @@
+id: potsdam-declaration-1945
+title: Potsdam Declaration
+summary: On 26 July 1945 the United States, Britain and China call on Japan to surrender unconditionally,
+  warning that 'the alternative for Japan is prompt and utter destruction'. The Soviet Union does not
+  sign, as it is not yet at war with Japan.
+occurred:
+  start: '1945-07-26'
+  precision: day
+threads:
+- ww2
+regions:
+- east-asia
+actors:
+- united-states
+- united-kingdom
+- republic-of-china-1912-1949
+- empire-of-japan
+importance: 3
+wikidata: Q163244
+sources:
+- url: https://avalon.law.yale.edu/20th_century/decade17.asp
+  archive_url: https://web.archive.org/web/20260926003840/https://avalon.law.yale.edu/20th_century/decade17.asp
+  title: The Berlin (Potsdam) Conference, July 17-August 2, 1945
+  publisher: Avalon Project, Yale Law School
+  quote: (b)Proclamation Defining Terms for Japanese Surrender, July 26, 1945
+  type: primary
+  accessed: '2026-10-03'
+- url: https://avalon.law.yale.edu/20th_century/decade17.asp
+  archive_url: https://web.archive.org/web/20260926003840/https://avalon.law.yale.edu/20th_century/decade17.asp
+  title: The Berlin (Potsdam) Conference, July 17-August 2, 1945
+  publisher: Avalon Project, Yale Law School
+  quote: We call upon the government of Japan to proclaim now the unconditional surrender of all Japanese
+    armed forces
+  type: primary
+  accessed: '2026-10-03'
+- url: https://avalon.law.yale.edu/20th_century/decade17.asp
+  archive_url: https://web.archive.org/web/20260926003840/https://avalon.law.yale.edu/20th_century/decade17.asp
+  title: The Berlin (Potsdam) Conference, July 17-August 2, 1945
+  publisher: Avalon Project, Yale Law School
+  quote: The alternative for Japan is prompt and utter destruction.
+  type: primary
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: the Soviet Union did not sign the declaration because it had yet to declare war on Japan
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

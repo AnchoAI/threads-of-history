@@ -1,0 +1,48 @@
+id: tehran-conference-1943
+title: Tehran Conference
+summary: Roosevelt, Churchill and Stalin meet in Tehran from 28 November to 1 December 1943. The British
+  and Americans commit to invading northern France by May 1944, and Stalin agrees in principle to declare
+  war on Japan after Germany's defeat.
+occurred:
+  start: '1943-11-28'
+  end: '1943-12-01'
+  precision: day
+threads:
+- ww2
+regions:
+- middle-east-north-africa
+actors:
+- franklin-d-roosevelt
+- winston-churchill
+- joseph-stalin
+- united-states
+- united-kingdom
+- soviet-union
+importance: 3
+wikidata: Q150974
+sources:
+- url: https://history.state.gov/milestones/1937-1945/tehran-conf
+  title: The Tehran Conference, 1943
+  publisher: US Department of State, Office of the Historian
+  quote: The Tehran Conference was a meeting between U.S. President Franklin Delano Roosevelt, British
+    Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin in Tehran, Iran, between November
+    28 and December 1, 1943.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/tehran-conf
+  title: The Tehran Conference, 1943
+  publisher: US Department of State, Office of the Historian
+  quote: Roosevelt, Churchill, and Stalin engaged in discussions concerning the terms under which the
+    British and Americans finally committed to launching Operation Overlord, an invasion of northern France,
+    to be executed by May of 1944.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/tehran-conf
+  title: The Tehran Conference, 1943
+  publisher: US Department of State, Office of the Historian
+  quote: Stalin also agreed in principle that the Soviet Union would declare war against Japan following
+    an Allied victory over Germany.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

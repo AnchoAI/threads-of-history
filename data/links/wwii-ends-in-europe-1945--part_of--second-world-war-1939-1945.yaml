@@ -1,0 +1,18 @@
+id: wwii-ends-in-europe-1945--part_of--second-world-war-1939-1945
+from: wwii-ends-in-europe-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Germany's unconditional surrender ended the war in Europe.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: Total and unconditional surrender in Europe was signed on 7 and 8 May, to be effective by the
+    end of 8 May.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The existing target item wwii-ends-in-europe-1945 is unverified and dated to month precision (1945-05).

@@ -1,0 +1,54 @@
+id: battle-of-stalingrad-1942-1943
+title: Battle of Stalingrad
+summary: German forces fight for Stalingrad from 17 July 1942; a Soviet counteroffensive from 19 November
+  encircles the German 6th Army, which surrenders on 2 February 1943. The Soviet victory is generally
+  regarded as the turning point of the European theatre.
+occurred:
+  start: '1942-07-17'
+  end: '1943-02-02'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nazi-germany
+- soviet-union
+importance: 4
+wikidata: Q38789
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Stalingrad
+  archive_url: https://web.archive.org/web/20260928215259/https://en.wikipedia.org/wiki/Battle_of_stalingrad
+  title: Battle of Stalingrad
+  publisher: Wikipedia
+  quote: The German military first clashed with the Red Army's Stalingrad Front on the distant approaches
+    to the city on 17 July.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Stalingrad
+  archive_url: https://web.archive.org/web/20260928215259/https://en.wikipedia.org/wiki/Battle_of_stalingrad
+  title: Battle of Stalingrad
+  publisher: Wikipedia
+  quote: On 19 November, the Red Army launched Operation Uranus, a two-pronged counterattack targeting
+    the Romanian armies protecting the 6th Army's flanks.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Stalingrad
+  archive_url: https://web.archive.org/web/20260928215259/https://en.wikipedia.org/wiki/Battle_of_stalingrad
+  title: Battle of Stalingrad
+  publisher: Wikipedia
+  quote: On 2 February 1943, the 6th Army, having exhausted its ammunition and food, finally capitulated,
+    making it the first of Hitler's field armies to surrender.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Stalingrad
+  archive_url: https://web.archive.org/web/20260928215259/https://en.wikipedia.org/wiki/Battle_of_stalingrad
+  title: Battle of Stalingrad
+  publisher: Wikipedia
+  quote: The Soviet victory at Stalingrad is generally regarded as the pivotal turning point of the European
+    theatre of the war.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

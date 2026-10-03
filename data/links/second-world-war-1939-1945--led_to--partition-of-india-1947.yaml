@@ -1,0 +1,18 @@
+id: second-world-war-1939-1945--led_to--partition-of-india-1947
+from: second-world-war-1939-1945
+to: partition-of-india-1947
+type: led_to
+confidence: documented
+note: Its exchequer exhausted by the war, Britain's Labour government decided in late 1946 to end British
+  rule in India.
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_India
+  title: Partition of India
+  publisher: Wikipedia
+  quote: Late in 1946, the Labour government in Britain, its exchequer exhausted by the recently concluded
+    World War II, decided to end British rule of India, with power being transferred no later than June
+    1948.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

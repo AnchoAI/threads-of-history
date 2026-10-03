@@ -1,0 +1,16 @@
+id: sorge-warns-of-german-attack-1941--signal_of--operation-barbarossa-1941
+from: sorge-warns-of-german-attack-1941
+to: operation-barbarossa-1941
+type: signal_of
+confidence: documented
+note: Sorge reported the coming German attack weeks in advance; Moscow ignored the warnings.
+sources:
+- url: https://en.wikipedia.org/wiki/Richard_Sorge
+  title: Richard Sorge
+  publisher: Wikipedia
+  quote: In 1941, his embassy contacts made him learn of Operation Barbarossa, the imminent Axis invasion
+    of the Soviet Union and the approximate date.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

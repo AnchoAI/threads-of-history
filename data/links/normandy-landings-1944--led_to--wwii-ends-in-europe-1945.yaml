@@ -1,0 +1,18 @@
+id: normandy-landings-1944--led_to--wwii-ends-in-europe-1945
+from: normandy-landings-1944
+to: wwii-ends-in-europe-1945
+type: led_to
+confidence: documented
+note: The landings began the liberation of Western Europe and laid the foundations for Allied victory
+  on the Western Front.
+sources:
+- url: https://en.wikipedia.org/wiki/Normandy_landings
+  archive_url: https://web.archive.org/web/20261001084328/https://en.wikipedia.org/wiki/Normandy_landings
+  title: Normandy landings
+  publisher: Wikipedia
+  quote: The operation began the liberation of France and the rest of Western Europe, and laid the foundations
+    for the Allied victory on the Western Front.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
