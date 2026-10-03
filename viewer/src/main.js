@@ -2,6 +2,8 @@ import { LINK_TYPES, esc, loadGraph, yearLabel } from "./data.js";
 import { renderDetail } from "./panel.js";
 import { Timeline } from "./scene.js";
 import { TimeBar } from "./timebar.js";
+import { fromYear, toYear } from "./timescale.js";
+import { isKnown, knownParties } from "./visibility.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -130,10 +132,63 @@ async function start() {
     };
   }
 
+  // ---- "knowable on": show only what was known by a date, to the public or to one party
+  const knowOn = $("knowOn"), knowRange = $("knowRange"), knowDate = $("knowDate"), knowParty = $("knowParty");
+  const [lo, hi] = timeline.window.limits;
+  Object.assign(knowRange, { min: lo, max: hi, step: 1 / 365.25 });
+  const iso = (t) => fromYear(t).toISOString().slice(0, 10);
+  Object.assign(knowDate, { min: iso(lo), max: iso(hi) });
+  for (const party of knownParties(data)) {
+    const o = document.createElement("option");
+    o.value = party;
+    o.textContent = `to ${party}`;
+    knowParty.appendChild(o);
+  }
+  const DAY_MS = 86400000;
+  // A date means "by the end of that day".
+  const endOfDay = (dateStr) => toYear(new Date(Date.parse(`${dateStr}T00:00:00Z`) + DAY_MS - 1));
+
+  function knowable() {
+    if (!knowOn.checked) return null;
+    const d = fromYear(Number(knowRange.value));
+    const label = `${d.getUTCDate()} ${d.toLocaleString("en-GB", { month: "short", timeZone: "UTC" })} ${d.getUTCFullYear()}`;
+    return { t: endOfDay(iso(Number(knowRange.value))), party: knowParty.value || null, label };
+  }
+
+  function applyKnowable() {
+    const k = knowable();
+    $("knowControls").hidden = !k;
+    knowDate.value = iso(Number(knowRange.value));
+    timeline.setKnowable(k);
+    if (k) {
+      const n = data.nodes.filter((item) => isKnown(item, k)).length;
+      $("knowCount").textContent = `${n} of ${data.nodes.length} events known ${k.party ? `to ${k.party}` : "publicly"} by ${k.label}.`;
+    }
+    // Drop a selection that was not yet known; otherwise refresh its panel without hindsight.
+    if (selected && !isKnown(data.byId.get(selected), k)) select(null);
+    else if (selected) select(selected, { fly: false });
+  }
+
+  knowOn.addEventListener("change", () => {
+    if (knowOn.checked) {
+      // Start from the selected item's date ("what was knowable then?"), else the window's end.
+      const start = selected ? data.byId.get(selected).occurred.range[0] : Math.min(timeline.window.t1, hi);
+      knowRange.value = String(start);
+    }
+    applyKnowable();
+  });
+  knowRange.addEventListener("input", applyKnowable);
+  knowDate.addEventListener("change", () => {
+    if (!knowDate.value) return;
+    knowRange.value = String(Math.min(Math.max(toYear(new Date(`${knowDate.value}T00:00:00Z`)), lo), hi));
+    applyKnowable();
+  });
+  knowParty.addEventListener("change", applyKnowable);
+
   // ---- selection and detail panel
   const detail = $("detail");
   function select(id, { fly = true } = {}) {
-    selected = id && data.byId.has(id) && timeline.nodes.has(id) ? id : null;
+    selected = id && data.byId.has(id) && timeline.nodes.has(id) && isKnown(data.byId.get(id), knowable()) ? id : null;
     timeline.highlight(selected);
     try {
       history.replaceState(null, "", selected ? `#${selected}` : location.pathname + location.search);
@@ -141,7 +196,7 @@ async function start() {
       // Some embedded frames refuse URL changes; the viewer works without them.
     }
     if (!selected) { detail.hidden = true; return; }
-    detail.innerHTML = renderDetail(data.byId.get(selected), data);
+    detail.innerHTML = renderDetail(data.byId.get(selected), data, { knowable: knowable() });
     detail.hidden = false;
     detail.scrollTop = 0;
     detail.querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => select(b.dataset.go); });
@@ -157,8 +212,9 @@ async function start() {
     const s = q.value.trim().toLowerCase();
     results.innerHTML = "";
     if (!s) return;
+    const k = knowable();
     data.nodes
-      .filter((n) => `${n.title} ${n.summary} ${n.occurred.start}`.toLowerCase().includes(s))
+      .filter((n) => isKnown(n, k) && `${n.title} ${n.summary} ${n.occurred.start}`.toLowerCase().includes(s))
       .slice(0, 8)
       .forEach((n) => {
         const b = document.createElement("button");
@@ -180,6 +236,8 @@ async function start() {
     $("tours").appendChild(b);
   }
   function startTour(steps) {
+    // Guided paths tell the whole story, so they switch "knowable on" off.
+    if (knowOn.checked) { knowOn.checked = false; applyKnowable(); }
     hidden.clear();
     document.querySelectorAll("#threadList .row").forEach((r) => r.classList.remove("off"));
     timeline.setHidden(hidden);

@@ -1,0 +1,21 @@
+id: viet-minh
+title: Viet Minh
+actor_type: organization
+summary: Vietnamese independence movement active from 1941 to 1951.
+threads: []
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q190949
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q190949.json
+  title: Viet Minh
+  publisher: Wikidata
+  quote: Vietnamese independence movement active from 1941 to 1951
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

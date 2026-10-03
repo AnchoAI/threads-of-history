@@ -1,0 +1,35 @@
+id: south-african-native-national-congress-founded-1912
+title: South African Native National Congress founded
+summary: The South African Native National Congress is founded in Bloemfontein to advocate for the rights
+  of black South Africans. It was renamed the African National Congress in 1923.
+occurred:
+  start: '1912-01-08'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- african-national-congress
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/African_National_Congress
+  title: African National Congress
+  publisher: Wikipedia
+  quote: the ANC was founded as the South African Native National Congress in Bloemfontein on 8 January
+    1912, and was renamed the African National Congress in 1923
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/African_National_Congress
+  title: African National Congress
+  publisher: Wikipedia
+  quote: the organisation was formed to advocate for the rights of black South Africans
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'wikidata is none: Q83162 (the party) is on the actor african-national-congress, not on this founding
+    event.'

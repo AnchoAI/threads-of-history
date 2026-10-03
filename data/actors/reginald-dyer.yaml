@@ -1,0 +1,21 @@
+id: reginald-dyer
+title: Reginald Dyer
+actor_type: person
+summary: British Indian Army general (1864–1927).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q560470
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q560470.json
+  title: Reginald Dyer
+  publisher: Wikidata
+  quote: British Indian Army general (1864-1927)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

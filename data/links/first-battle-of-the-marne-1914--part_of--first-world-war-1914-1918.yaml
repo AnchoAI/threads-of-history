@@ -1,0 +1,17 @@
+id: first-battle-of-the-marne-1914--part_of--first-world-war-1914-1918
+from: first-battle-of-the-marne-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: First Battle of the Marne was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Battle_of_the_Marne
+  title: First Battle of the Marne
+  publisher: Wikipedia
+  quote: First Battle of the Marne Part of the Western Front of World War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

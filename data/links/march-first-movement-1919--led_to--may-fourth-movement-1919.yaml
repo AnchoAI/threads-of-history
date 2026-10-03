@@ -1,0 +1,23 @@
+id: march-first-movement-1919--led_to--may-fourth-movement-1919
+from: march-first-movement-1919
+to: may-fourth-movement-1919
+type: led_to
+confidence: documented
+note: The Korean movement inspired the Chinese May Fourth Movement.
+sources:
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: Furthermore, the movement went on to inspire other movements abroad, including the Chinese May
+    Fourth Movement and Indian satyagraha protests.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: The March 1st Movement in Korea in 1919, the Russian Revolution of 1917, continued defeats by
+    foreign powers and the presence of spheres of influence further inflamed Chinese nationalism
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

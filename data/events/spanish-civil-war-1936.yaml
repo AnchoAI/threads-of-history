@@ -1,0 +1,54 @@
+id: spanish-civil-war-1936
+title: Spanish Civil War
+summary: War between Republicans loyal to the Second Spanish Republic and Nationalist rebels, begun by
+  an army coup on 17 July 1936. Fascist Italy and Nazi Germany aided Francisco Franco's Nationalists and
+  the Soviet Union aided the Republic; the Nationalists won in 1939.
+occurred:
+  start: '1936-07-17'
+  end: '1939-04-01'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- spain
+- francisco-franco
+- nazi-germany
+- kingdom-of-italy
+- soviet-union
+importance: 4
+wikidata: Q10859
+sources:
+- url: https://en.wikipedia.org/wiki/Spanish_Civil_War
+  archive_url: https://web.archive.org/web/20260928164849/https://en.wikipedia.org/wiki/Spanish_Civil_War
+  title: Spanish Civil War
+  publisher: Wikipedia
+  quote: 17 July 1936 – 1 April 1939
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/League_of_Nations
+  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
+  title: League of Nations
+  publisher: Wikipedia
+  quote: On 17 July 1936, the Spanish Army launched a coup d'état, leading to a prolonged armed conflict
+    between Spanish Republicans (the elected leftist national government) and the Nationalists
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/League_of_Nations
+  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
+  title: League of Nations
+  publisher: Wikipedia
+  quote: Adolf Hitler and Mussolini aided General Francisco Franco's Nationalists, while the Soviet Union
+    helped the Spanish Republic.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/League_of_Nations
+  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
+  title: League of Nations
+  publisher: Wikipedia
+  quote: The result was a Nationalist victory in 1939
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

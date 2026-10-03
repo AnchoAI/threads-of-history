@@ -1,0 +1,93 @@
+id: armenian-genocide-1915
+title: Armenian genocide
+summary: During the First World War, Ottoman authorities led by the ruling Committee of Union and Progress
+  deported and killed Armenians, mainly through death marches to the Syrian desert. The US Holocaust Memorial
+  Museum gives at least 664,000 and possibly 1.2 million deaths. Turkey's government rejects the term
+  genocide; 36 countries recognise it, in line with the academic consensus.
+occurred:
+  start: '1915'
+  end: '1917'
+  precision: year
+  note: Wikipedia gives 1915–1917; the US Holocaust Memorial Museum gives spring 1915 to fall 1916. The
+    mass arrests in Constantinople were on 24 April 1915.
+threads:
+- ww1
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- committee-of-union-and-progress
+- talaat-pasha
+- ottoman-empire
+importance: 5
+wikidata: Q80034
+sources:
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: Spearheaded by the ruling Committee of Union and Progress (CUP), it was implemented primarily
+    through the mass murder of around one million Armenians during death marches to the Syrian desert
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: Date 1915–1917
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: On 24 April 1915, Ottoman authorities arrested and deported hundreds of Armenian intellectuals
+    and leaders from Constantinople.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: As of 2026, 36 countries have recognized the genocide, concurring with the academic consensus.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: The Turkish government maintains that the deportation of Armenians was a legitimate action that
+    cannot be described as genocide.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview
+  archive_url: https://web.archive.org/web/20261001160018/https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview
+  title: 'The Armenian Genocide (1915-16): Overview'
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: At least 664,000 and possibly as many as 1.2 million Armenians were killed.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview
+  archive_url: https://web.archive.org/web/20261001160018/https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview
+  title: 'The Armenian Genocide (1915-16): Overview'
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Armenian genocide took place between the spring of 1915 and the fall of 1916.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.mfa.gov.tr/the-events-of-1915-and-the-turkish-armenian-controversy-over-history_-an-overview.en.mfa
+  title: 'The Events of 1915 and the Turkish-Armenian Controversy over History: An Overview'
+  publisher: Republic of Türkiye Ministry of Foreign Affairs
+  quote: Türkiye objects to the one-sided presentation of this tragedy as a genocide by one group against
+    another.
+  type: primary
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Talaat Pasha is listed as an actor on the strength of "At the orders of Talaat Pasha, an estimated
+    800,000 to 1.2 million Armenians were sent on death marches to the Syrian desert in 1915 and 1916."
+    (Wikipedia).
+  - The recognition count (36 countries) is "as of 2026" per Wikipedia and will change; prefer a dated
+    official list.
+  - 'Sensitive topic: a person should review the wording of the summary.'

@@ -1,0 +1,18 @@
+id: arab-revolt-1916--part_of--first-world-war-1914-1918
+from: arab-revolt-1916
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The revolt was part of the war's Middle Eastern theatre.
+sources:
+- url: https://en.wikipedia.org/wiki/Arab_Revolt
+  title: Arab Revolt
+  publisher: Wikipedia
+  quote: Part of the Middle Eastern theatre of World War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

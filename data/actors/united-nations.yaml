@@ -1,0 +1,21 @@
+id: united-nations
+title: United Nations
+actor_type: organization
+summary: Global international and intergovernmental organization.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q1065
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1065.json
+  title: United Nations
+  publisher: Wikidata
+  quote: global international and intergovernmental organization
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

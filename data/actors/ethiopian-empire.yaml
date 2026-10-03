@@ -1,0 +1,21 @@
+id: ethiopian-empire
+title: Ethiopian Empire
+actor_type: state
+summary: 1270–1974 state in the Horn of Africa.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q207521
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q207521.json
+  title: Ethiopian Empire
+  publisher: Wikidata
+  quote: 1270–1974 state in the Horn of Africa
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

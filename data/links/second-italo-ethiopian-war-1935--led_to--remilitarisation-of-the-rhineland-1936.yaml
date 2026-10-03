@@ -1,0 +1,23 @@
+id: second-italo-ethiopian-war-1935--led_to--remilitarisation-of-the-rhineland-1936
+from: second-italo-ethiopian-war-1935
+to: remilitarisation-of-the-rhineland-1936
+type: led_to
+confidence: documented
+note: The Abyssinia crisis split Britain and France and weakened the Stresa Front, and Hitler timed the
+  move while the League debated oil sanctions.
+sources:
+- url: https://en.wikipedia.org/wiki/Remilitarization_of_the_Rhineland
+  title: Remilitarization of the Rhineland
+  publisher: Wikipedia
+  quote: Hitler finally made the decision on March 1, partly influenced by the focus on the Abyssinia
+    Crisis due to the League's discussions on oil sanctions against Italy.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Remilitarization_of_the_Rhineland
+  title: Remilitarization of the Rhineland
+  publisher: Wikipedia
+  quote: the disruption caused by the Second Italo-Abyssinian War, which weakened the Stresa Front
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

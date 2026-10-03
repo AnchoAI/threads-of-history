@@ -1,0 +1,52 @@
+id: gallipoli-campaign-1915
+title: Gallipoli campaign
+summary: From 19 February 1915 to 9 January 1916 Britain, France and Russia tried to force the Ottoman Empire out
+  of the war by taking the Turkish straits. The campaign failed, with about 250,000 casualties on each side.
+occurred:
+  start: '1915-02-19'
+  end: '1916-01-09'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- united-kingdom
+- france
+- mustafa-kemal-ataturk
+importance: 3
+wikidata: Q164983
+sources:
+- url: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  title: Gallipoli campaign
+  publisher: Wikipedia
+  quote: was a military campaign in the First World War on the Gallipoli Peninsula (now Gelibolu) from 19 February
+    1915 to 9 January 1916.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  title: Gallipoli campaign
+  publisher: Wikipedia
+  quote: The Allied powers (Britain, France and the Russian Empire) unsuccessfully attempted to make the Ottoman
+    Empire, one of the Central Powers, capitulate by taking control of the Turkish straits.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  title: Gallipoli campaign
+  publisher: Wikipedia
+  quote: In January 1916, after eight months' fighting, with approximately 250,000 casualties on each side, the
+    land campaign was abandoned
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  title: Gallipoli campaign
+  publisher: Wikipedia
+  quote: Mustafa Kemal Atatürk, who rose to prominence as a commander at Gallipoli
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

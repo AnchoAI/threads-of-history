@@ -1,0 +1,15 @@
+id: treaty-of-versailles-1919--part_of--paris-peace-conference-1919
+from: treaty-of-versailles-1919
+to: paris-peace-conference-1919
+type: part_of
+confidence: documented
+note: The treaty with Germany was the main result of the conference.
+sources:
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: The main result of the conference was the Treaty of Versailles with Germany
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

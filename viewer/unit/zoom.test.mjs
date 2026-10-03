@@ -93,3 +93,18 @@ test("items outside the window and on hidden threads are not drawn", () => {
   }
   assert.ok(!visible.has("bay-of-pigs-invasion-1961") || real.byId.get("bay-of-pigs-invasion-1961").threads.some((t) => t !== "cuba"));
 });
+
+test("a sub-event at least as important as its parent is never folded away", () => {
+  const parent = stress.byId.get("test-crisis");
+  const part = stress.byId.get("test-crisis-day-1");
+  const w = new TimeWindow(1900, 2030);
+  const saved = part.importance;
+  try {
+    part.importance = parent.importance;
+    assert.ok(chooseVisible(stress, w).visible.has(part.id));
+    part.importance = parent.importance - 1;
+    assert.ok(!chooseVisible(stress, w).visible.has(part.id));
+  } finally {
+    part.importance = saved;
+  }
+});

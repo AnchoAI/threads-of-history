@@ -63,15 +63,10 @@ test("a link in the URL opens that item", async ({ page }) => {
 
 test("clicking a node on the canvas selects it", async ({ page }) => {
   await open(page);
-  // Wait for the camera to settle, then click where the node is drawn.
-  const point = await page.evaluate(async () => {
-    const { timeline } = window.__viewer;
-    const node = timeline.nodes.get("russian-invasion-of-ukraine-2022");
-    const v = node.pos.clone().project(timeline.camera);
-    return { x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
-  });
-  await page.mouse.click(point.x, point.y);
-  await expect(page.locator("#detail h2")).toHaveText("Russia invades Ukraine");
+  const node = await isolatedNode(page);
+  expect(node).not.toBeNull();
+  await page.mouse.click(node.x, node.y);
+  await expect(page.locator("#detail h2")).toHaveText(node.title);
 });
 
 test("lanes can be arranged by thread, region or domain", async ({ page }) => {
@@ -162,6 +157,24 @@ test.describe("with 40 threads (fake stress data)", () => {
 
 // ---------------------------------------------------------------- zooming and 2D
 
+// The drawn node furthest (on screen) from any other drawn node, so a click on it cannot land
+// on a neighbour. Picking a fixed event would break whenever new data puts something next to it.
+const isolatedNode = (page) => page.evaluate(() => {
+  const { timeline } = window.__viewer;
+  timeline.scene.updateMatrixWorld();
+  timeline.camera.updateMatrixWorld();
+  const pts = [...timeline.nodes.values()].filter((n) => n.show).map((n) => {
+    const v = n.pos.clone().project(timeline.camera);
+    return { id: n.item.id, title: n.item.title, x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
+  }).filter((p) => p.x > 300 && p.x < innerWidth - 400 && p.y > 40 && p.y < innerHeight - 140);
+  let best = null, bestD = -1;
+  for (const p of pts) {
+    const d = Math.min(...pts.filter((q) => q !== p).map((q) => Math.hypot(p.x - q.x, p.y - q.y)));
+    if (d > bestD) { best = p; bestD = d; }
+  }
+  return best;
+});
+
 const windowSpan = (page) => page.evaluate(() => window.__viewer.timeline.window.span);
 const shown = (page) => page.evaluate(() => [...window.__viewer.timeline.nodes.values()].filter((n) => n.show).length);
 
@@ -217,13 +230,10 @@ test("the 2D view stacks lanes as rows and still picks nodes", async ({ page }) 
     return { ortho: t.camera.isOrthographicCamera, rows: ys.length, lanes: t.layout.lanes.length, flat: zs.every((z) => z === 0) };
   });
   expect(info).toEqual({ ortho: true, rows: info.lanes, lanes: info.lanes, flat: true });
-  const point = await page.evaluate(() => {
-    const { timeline } = window.__viewer;
-    const v = timeline.nodes.get("russian-invasion-of-ukraine-2022").pos.clone().project(timeline.camera);
-    return { x: (v.x * 0.5 + 0.5) * innerWidth, y: (-v.y * 0.5 + 0.5) * innerHeight };
-  });
-  await page.mouse.click(point.x, point.y);
-  await expect(page.locator("#detail h2")).toHaveText("Russia invades Ukraine");
+  const node = await isolatedNode(page);
+  expect(node).not.toBeNull();
+  await page.mouse.click(node.x, node.y);
+  await expect(page.locator("#detail h2")).toHaveText(node.title);
 });
 
 test.describe("zooming with many items (fake stress data)", () => {
@@ -245,4 +255,54 @@ test.describe("zooming with many items (fake stress data)", () => {
     expect(await partsShown()).toBe(6);
     await expect(page.locator("#timebar .range")).toHaveText(/1962/);
   });
+});
+
+// ---------------------------------------------------------------- knowable on
+
+const nodeShown = (page, id) => page.evaluate((i) => window.__viewer.timeline.nodes.get(i).show, id);
+
+test("knowable on: starts at the selected item's date and hides hindsight", async ({ page }) => {
+  await open(page, "#cuban-missile-crisis-1962");
+  await expect(page.locator("#detail h2")).toHaveText("Cuban Missile Crisis");
+  await page.check("#knowOn");
+  await expect(page.locator("#knowControls")).toBeVisible();
+  await expect(page.locator("#knowDate")).toHaveValue(/^1962-10-/);
+  await expect(page.locator("#knowCount")).toContainText("known publicly by");
+  await expect(page.locator(".knowable-mark")).toContainText("Knowable on");
+
+  // The 2022 invasion it is compared with was not knowable in 1962, in the scene or the panel.
+  expect(await nodeShown(page, "russian-invasion-of-ukraine-2022")).toBe(false);
+  await expect(page.locator("#detail .lk", { hasText: "Russia invades Ukraine" })).toHaveCount(0);
+  await expect(page.locator("#detail .withheld")).toContainText("not yet knowable");
+
+  // Switching it off brings everything back.
+  await page.uncheck("#knowOn");
+  await expect(page.locator("#knowControls")).toBeHidden();
+  await expect(page.locator("#detail .lk", { hasText: "Russia invades Ukraine" })).toHaveCount(1);
+});
+
+test("knowable on: a secret agreement appears only once it was published", async ({ page }) => {
+  await open(page);
+  await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(1910, 1925); t.settle(); });
+  await page.check("#knowOn");
+  await page.fill("#knowDate", "1917-01-01");
+  await page.locator("#knowDate").dispatchEvent("change");
+  expect(await nodeShown(page, "sykes-picot-agreement-1916")).toBe(false);
+  await page.fill("#knowDate", "1918-01-01");
+  await page.locator("#knowDate").dispatchEvent("change");
+  expect(await nodeShown(page, "sykes-picot-agreement-1916")).toBe(true);
+});
+
+test("knowable on: search and guided paths respect it", async ({ page }) => {
+  await open(page);
+  await page.check("#knowOn");
+  await page.fill("#knowDate", "1950-01-01");
+  await page.locator("#knowDate").dispatchEvent("change");
+  await page.fill("#q", "Ukraine");
+  await expect(page.locator("#results button", { hasText: "Russia invades Ukraine" })).toHaveCount(0);
+  await page.fill("#q", "");
+  await expect(page.locator("#knowParty option", { hasText: "to US government" })).toHaveCount(1);
+  // Guided paths tell the whole story, so starting one switches the filter off.
+  await page.locator("#tours button").first().click();
+  await expect(page.locator("#knowOn")).not.toBeChecked();
 });

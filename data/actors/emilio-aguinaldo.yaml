@@ -1,0 +1,21 @@
+id: emilio-aguinaldo
+title: Emilio Aguinaldo
+actor_type: person
+summary: President of the Philippines from 1899 to 1902.
+threads: []
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q188939
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q188939.json
+  title: Emilio Aguinaldo
+  publisher: Wikidata
+  quote: President of the Philippines from 1899 to 1902
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

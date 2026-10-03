@@ -1,0 +1,21 @@
+id: african-national-congress
+title: African National Congress
+actor_type: organization
+summary: Political party in South Africa, founded in 1912 as the South African Native National Congress.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q83162
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q83162.json
+  title: African National Congress
+  publisher: Wikidata
+  quote: left-wing nationalist political party in South Africa
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

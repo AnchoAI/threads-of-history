@@ -1,0 +1,67 @@
+id: bengal-cyclone-1942--led_to--bengal-famine-1943
+from: bengal-cyclone-1942
+to: bengal-famine-1943
+type: led_to
+confidence: contested
+note: The cyclone and crop disease cut the 1942 winter rice harvest; how far that shortfall, rather than
+  wartime prices and policy, caused the famine is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: Whether the famine resulted from crop shortfall or failure of land distribution has been much
+    debated.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: A sharp fall in the rice supply, above all from brown spot disease after the October 1942 cyclone,
+    was the decisive cause.
+  held_by:
+  - S. Y. Padmanabhan
+  - Mark Tauger
+  - Peter Bowbrick
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: FAD-oriented scholars such as Peter Bowbrick hold that a sharp drop in the food supply was
+      the pivotal determining factor.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: S.Y. Padmanabhan and later Mark Tauger, in particular, argue that the impact of brown-spot
+      disease was vastly underestimated, both during the famine and in later analyses.
+    type: reference
+    accessed: '2026-10-03'
+- claim: 'The famine was mainly an "entitlements" famine: Bengal had enough food, but wartime inflation,
+    speculative buying and hoarding priced the poor out of it.'
+  held_by:
+  - Amartya Sen
+  - most historians, according to the Wikipedia summary of the historiography
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: Academic consensus generally follows the FEE account, as formulated by Nobel Prize-winning
+      economist Amartya Sen, in describing the Bengal famine of 1943 as an "entitlements famine".
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: The ... [rice paddy] supply for 1943 was only about 5% lower than the average of the preceding
+      five years.
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Positions are quoted from the Wikipedia article's historiography section. Add the underlying
+    works (Sen 1981; Tauger 2003, 2009; Bowbrick 1986) as scholarly sources.

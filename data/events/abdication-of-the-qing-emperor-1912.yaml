@@ -1,0 +1,47 @@
+id: abdication-of-the-qing-emperor-1912
+title: Abdication of the last Qing emperor
+summary: Empress Dowager Longyu issues an edict on behalf of the six-year-old Xuantong Emperor (Puyi)
+  transferring power to the Republic of China, ending imperial rule. Yuan Shikai, who negotiated it, is
+  to become president.
+occurred:
+  start: '1912-02-12'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- puyi
+- yuan-shikai
+- republic-of-china-1912-1949
+importance: 4
+wikidata: Q1657621
+sources:
+- url: https://en.wikipedia.org/wiki/Imperial_Edict_of_the_Abdication_of_the_Qing_Emperor
+  title: Imperial Edict of the Abdication of the Qing Emperor
+  publisher: Wikipedia
+  quote: was an official decree issued by the Empress Dowager Longyu on behalf of the six-year-old Xuantong
+    Emperor, the last emperor of the Qing dynasty of China, on 12 February 1912, as a response to the
+    Xinhai Revolution.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Imperial_Edict_of_the_Abdication_of_the_Qing_Emperor
+  title: Imperial Edict of the Abdication of the Qing Emperor
+  publisher: Wikipedia
+  quote: The Empress Dowager Longyu, on behalf of the Xuantong Emperor, issued the imperial edict which
+    transferred power to the nascent Republic of China
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: Sun resigned in favor of Yuan, who would become president of the new national government if he
+    could secure the abdication of the Qing emperor.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Puyi is linked as the Xuantong Emperor by the Wikidata description of the actor ("Last Emperor of
+    Qing dynasty"); the abdication pages quoted here name him only by reign title.

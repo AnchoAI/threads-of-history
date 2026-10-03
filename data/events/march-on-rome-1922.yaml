@@ -1,0 +1,53 @@
+id: march-on-rome-1922
+title: March on Rome
+summary: Fascist Blackshirts converged on Rome in late October 1922. King Victor Emmanuel III refused
+  to sign a state-of-siege order and on 30 October appointed Benito Mussolini prime minister, a transfer
+  of power within the constitutional framework rather than the seizure of power Fascism later celebrated.
+occurred:
+  start: '1922-10-28'
+  end: '1922-10-31'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- benito-mussolini
+- kingdom-of-italy
+importance: 4
+wikidata: Q468823
+sources:
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: On 28 October, the fascist demonstrators and Blackshirt paramilitaries approached the capital
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: King Victor Emmanuel III refused to sign the military order.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: On 30 October 1922, the King appointed Mussolini as Prime Minister, thereby transferring political
+    power to the fascists without armed conflict.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: On 31 October the fascist Blackshirts paraded in Rome, while Mussolini formed his coalition government.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: The March on Rome was not the seizure of power which Fascism later celebrated but rather the
+    precipitating force behind a transfer of power within the framework of the constitution.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

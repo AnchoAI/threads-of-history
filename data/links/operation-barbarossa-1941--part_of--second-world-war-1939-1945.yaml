@@ -1,0 +1,16 @@
+id: operation-barbarossa-1941--part_of--second-world-war-1939-1945
+from: operation-barbarossa-1941
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  archive_url: https://web.archive.org/web/20260930223956/https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: Part of the Eastern Front of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

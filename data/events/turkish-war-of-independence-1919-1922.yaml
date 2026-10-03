@@ -1,0 +1,53 @@
+id: turkish-war-of-independence-1919-1922
+title: Turkish War of Independence
+summary: The Turkish National Movement, governed from Ankara by the Grand National Assembly under Mustafa
+  Kemal, fought Greece and other Allied powers after the Greek landing at Smyrna. Its victory ended the
+  Ottoman sultanate and caliphate and led to the Republic of Turkey.
+occurred:
+  start: '1919-05-15'
+  end: '1922-10-11'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- mustafa-kemal-ataturk
+- grand-national-assembly-of-turkey
+- ottoman-empire
+importance: 4
+wikidata: Q234738
+sources:
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: Date 15 May 1919 – 11 October 1922
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: the Allies agreed to launch a Greek force to occupy Smyrna (İzmir), inflaming sectarian tensions
+    and beginning the Turkish War of Independence
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  archive_url: https://web.archive.org/web/20260929020116/https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  title: Treaty of Sèvres
+  publisher: Wikipedia
+  quote: Grand National Assembly, led by Mustafa Kemal Pasha
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending
+    the Ottoman sultanate and the Ottoman caliphate, and established the Republic of Turkey.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The infobox ends the war at the Armistice of Mudanya (11 October 1922); other accounts run it to the
+    Treaty of Lausanne (24 July 1923).

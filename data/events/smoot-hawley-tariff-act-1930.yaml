@@ -1,0 +1,60 @@
+id: smoot-hawley-tariff-act-1930
+title: Smoot–Hawley Tariff Act
+summary: US tariff law signed by President Herbert Hoover on 17 June 1930, raising tariffs on over 20,000
+  imported goods as an early response to the Depression; Canada and other countries retaliated. Most historians
+  and economists blame it for worsening the Depression, while monetarists such as Milton Friedman saw
+  it as only a minor cause.
+occurred:
+  start: '1930-06-17'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- herbert-hoover
+- united-states
+importance: 3
+wikidata: Q1585491
+sources:
+- url: https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act
+  title: Smoot–Hawley Tariff Act
+  publisher: Wikipedia
+  quote: a protectionist trade measure signed into law in the United States by President Herbert Hoover
+    on June 17, 1930
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act
+  title: Smoot–Hawley Tariff Act
+  publisher: Wikipedia
+  quote: the act raised tariffs on over 20,000 imported goods
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act
+  title: Smoot–Hawley Tariff Act
+  publisher: Wikipedia
+  quote: After the bill became law, in retaliation, Canada and other countries raised their own tariffs
+    on U.S. goods.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: Most historians and economists blame the act for worsening the depression by seriously reducing
+    international trade and causing retaliatory tariffs in other countries.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act
+  title: Smoot–Hawley Tariff Act
+  publisher: Wikipedia
+  quote: Monetarists, such as Milton Friedman, who emphasized the central role of the money supply in
+    causing the depression, considered the Smoot–Hawley Act to be only a minor cause of the Great Depression
+    in the United States.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The tariff's effect on the Depression cannot be a led_to link because the Depression started first.
+    The debate over its weight is recorded in the summary.

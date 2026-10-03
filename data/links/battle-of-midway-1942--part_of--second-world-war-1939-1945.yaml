@@ -1,0 +1,16 @@
+id: battle-of-midway-1942--part_of--second-world-war-1939-1945
+from: battle-of-midway-1942
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: Part of the Pacific War and World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

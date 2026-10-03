@@ -1,0 +1,25 @@
+id: xian-incident-1936--led_to--second-united-front-1937
+from: xian-incident-1936
+to: second-united-front-1937
+type: led_to
+confidence: documented
+note: The kidnapping forced Chiang to hasten a united front with the Communists against Japan.
+sources:
+- url: https://en.wikipedia.org/wiki/Xi%27an_Incident
+  archive_url: https://web.archive.org/web/20260922021959/https://en.wikipedia.org/wiki/Xi%27an_Incident
+  title: Xi'an Incident
+  publisher: Wikipedia
+  quote: demanding the Nationalist government end the Chinese Civil War and ally with the Chinese Communist
+    Party (CCP) against Japanese expansionism, resulting in the Second United Front.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: A December 1936 kidnapping by two Nationalist Generals, the Xi'an Incident, forced Chiang Kai-shek
+    to hasten negotiations for a United Front with the Chinese Communists to oppose Japan, a process finalized
+    at the outbreak of war.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

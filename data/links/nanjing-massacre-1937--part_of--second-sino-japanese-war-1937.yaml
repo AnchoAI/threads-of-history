@@ -1,0 +1,16 @@
+id: nanjing-massacre-1937--part_of--second-sino-japanese-war-1937
+from: nanjing-massacre-1937
+to: second-sino-japanese-war-1937
+type: part_of
+confidence: documented
+note: Japanese forces committed the massacre after capturing the Chinese capital during the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: Following the protracted Battle of Shanghai, the Japanese captured the capital of Nanjing in
+    1937 and perpetrated the Nanjing Massacre.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

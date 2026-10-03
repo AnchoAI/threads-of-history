@@ -1,0 +1,50 @@
+id: kellogg-briand-pact-1928
+title: Kellogg–Briand Pact
+summary: International agreement signed in Paris on 27 August 1928 by Germany, France, the United States
+  and others, in which the parties renounced war as an instrument of national policy. It had no enforcement
+  mechanism and did not prevent the Second World War, but was later a basis for the trials of German wartime
+  leaders.
+occurred:
+  start: '1928-08-27'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+- americas
+actors:
+- france
+- united-states
+- weimar-republic
+importance: 3
+wikidata: Q205073
+sources:
+- url: https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact
+  title: Kellogg–Briand Pact
+  publisher: Wikipedia
+  quote: The pact was signed by Germany, France, and the United States on 27 August 1928, and by most
+    other states soon after.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://avalon.law.yale.edu/20th_century/kbpact.asp
+  title: Kellogg-Briand Pact 1928
+  publisher: Avalon Project, Yale Law School
+  quote: condemn recourse to war for the solution of international controversies, and renounce it, as
+    an instrument of national policy in their relations with one another
+  type: primary
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact
+  title: Kellogg–Briand Pact
+  publisher: Wikipedia
+  quote: The pact had no mechanism for enforcement
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact
+  title: Kellogg–Briand Pact
+  publisher: Wikipedia
+  quote: It was unable to prevent the Second World War but was the basis for trials and execution of German
+    wartime leaders in 1946.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

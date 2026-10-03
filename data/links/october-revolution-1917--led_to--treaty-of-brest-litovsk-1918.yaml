@@ -1,0 +1,21 @@
+id: october-revolution-1917--led_to--treaty-of-brest-litovsk-1918
+from: october-revolution-1917
+to: treaty-of-brest-litovsk-1918
+type: led_to
+confidence: documented
+note: Ending the war was a top priority of the new Soviet government; the treaty took Russia out of it.
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk
+  title: Treaty of Brest-Litovsk
+  publisher: Wikipedia
+  quote: A top priority of the newly established Soviet government was to end the war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk
+  title: Treaty of Brest-Litovsk
+  publisher: Wikipedia
+  quote: by which Russia withdrew from World War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,32 @@
+id: lend-lease-act-1941--led_to--bretton-woods-conference-1944
+from: lend-lease-act-1941
+to: bretton-woods-conference-1944
+type: led_to
+confidence: documented
+note: Article VII of the Lend-Lease agreements committed the US and UK to a liberal postwar economic order,
+  which Bretton Woods set up.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/lend-lease
+  archive_url: https://web.archive.org/web/20261001065712/https://history.state.gov/milestones/1937-1945/lend-lease
+  title: Lend-Lease and Military Aid to the Allies in the Early Years of World War II
+  publisher: US Department of State, Office of the Historian
+  quote: the joint action called for under Article VII of the Lend-Lease agreements signed by the United
+    States and the recipient nations laid the foundation for the creation of a new international economic
+    order in the postwar world.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The two countries elaborated upon these principles in Article VII of their February 1942 agreement
+    on lend-lease aid.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: unverified
+  notes:
+  - Neither quote names Bretton Woods as the result of Lend-Lease directly. The Office of the Historian
+    says Article VII laid the foundation for the postwar economic order, and its Bretton Woods page places
+    Article VII in the run-up to the conference. A person should decide whether this is enough to count
+    as stated.

@@ -1,0 +1,38 @@
+id: tokyo-tribunal-judgment-1948--revealed--mukden-incident-1931
+from: tokyo-tribunal-judgment-1948
+to: mukden-incident-1931
+type: revealed
+confidence: documented
+note: The tribunal found the incident had been planned and carried out by Japanese officers; the Lytton
+  Report had not said who did it.
+sources:
+- url: https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-5.html
+  title: 'Judgment of the International Military Tribunal for the Far East, Chapter V: Japanese Aggression
+    Against China'
+  publisher: HyperWar Foundation (transcription of the IMTFE judgment)
+  quote: The evidence is abundant and convincing that the Mukden Incident" was carefully planned beforehand
+    by officers of the Army General Staff, officers of the Kwantung Army, members of the Cherry Society,
+  type: primary
+  accessed: '2026-10-03'
+  date: 1948-11
+- url: https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-5.html
+  title: 'Judgment of the International Military Tribunal for the Far East, Chapter V: Japanese Aggression
+    Against China'
+  publisher: HyperWar Foundation (transcription of the IMTFE judgment)
+  quote: The Tribunal rejects the Japanese contention and holds that the so-called "Incident" of 18 September
+    1931 was planned and executed by the Japanese.
+  type: primary
+  accessed: '2026-10-03'
+  date: 1948-11
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: 'However, the report did not directly address one of its chief goals: the cause of the Mukden
+    Incident.'
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'Earlier public suspicion existed (history.state.gov: "others speculated"); the tribunal is the first
+    official finding found in the sources. Judge Pal''s dissent rejected the tribunal''s legitimacy generally.'

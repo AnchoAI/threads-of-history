@@ -1,0 +1,58 @@
+id: treaty-of-versailles-1919--led_to--hyperinflation-in-the-weimar-republic-1921
+from: treaty-of-versailles-1919
+to: hyperinflation-in-the-weimar-republic-1921
+type: led_to
+confidence: contested
+note: How far the treaty's reparations caused the hyperinflation is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: Historians and economists are divided on the causes of this hyperinflation, particularly the
+    extent to which it was caused by reparations payments.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: Reparations under the treaty were excessive and contributed significantly to the hyperinflation.
+  held_by:
+  - John Maynard Keynes (reparations excessive and counterproductive)
+  - others cited in Wikipedia's Treaty of Versailles article
+  sources:
+  - url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+    title: Treaty of Versailles
+    publisher: Wikipedia
+    quote: He also said the reparations were excessive and counterproductive with others stating that
+      the reparations contributed significantly to the ensuing hyperinflation.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+    title: Hyperinflation in the Weimar Republic
+    publisher: Wikipedia
+    quote: This national debt was substantially increased by 50 billion marks of reparations payable in
+      cash and in-kind
+    type: reference
+    accessed: '2026-10-03'
+- claim: The hyperinflation was partly a deliberate German policy to reduce or avoid reparations, not
+    simply their result.
+  held_by:
+  - Jürgen Tampke
+  - British and French experts at the time
+  sources:
+  - url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+    title: Treaty of Versailles
+    publisher: Wikipedia
+    quote: German hyper-inflation in the 1920s was partly a deliberate policy to minimise the cost of
+      reparations
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+    title: Hyperinflation in the Weimar Republic
+    publisher: Wikipedia
+    quote: British and French experts stated that this was in an effort to ruin the German currency and,
+      as well as escaping the need for budgetary reform, avoid paying reparations altogether
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Name the 'others' in the first position from the scholarly literature.

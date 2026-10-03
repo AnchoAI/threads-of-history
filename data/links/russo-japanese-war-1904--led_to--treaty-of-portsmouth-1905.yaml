@@ -1,0 +1,23 @@
+id: russo-japanese-war-1904--led_to--treaty-of-portsmouth-1905
+from: russo-japanese-war-1904
+to: treaty-of-portsmouth-1905
+type: led_to
+confidence: documented
+note: War losses and costs led both sides to seek peace, concluded at Portsmouth.
+sources:
+- url: https://history.state.gov/milestones/1899-1913/portsmouth-treaty
+  title: The Treaty of Portsmouth and the Russo-Japanese War, 1904–1905
+  publisher: Office of the Historian, US Department of State
+  quote: By 1905, the combination of these losses and the economic cost of financing the war led both
+    countries to seek an end to the war.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: The war was concluded with the Treaty of Portsmouth (5 September [O.S. 23 August] 1905), mediated
+    by US president Theodore Roosevelt.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

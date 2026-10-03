@@ -1,0 +1,22 @@
+id: russian-invasion-of-manchuria-1900--part_of--boxer-rebellion-1899
+from: russian-invasion-of-manchuria-1900
+to: boxer-rebellion-1899
+type: part_of
+confidence: documented
+note: Russia's occupation of Manchuria was part of its intervention against the Boxers.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: Part of the Boxer Rebellion
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: The Russian Empire's full invasion of Manchuria occurred concurrent with its participation against
+    the Boxer Rebellion.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

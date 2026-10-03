@@ -1,0 +1,25 @@
+id: second-sino-japanese-war-1937--led_to--attack-on-pearl-harbor-1941
+from: second-sino-japanese-war-1937
+to: attack-on-pearl-harbor-1941
+type: led_to
+confidence: documented
+note: US embargoes meant to stop Japan's war in China prompted Japan's decision to attack Pearl Harbor.
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: In July 1941, the United States froze Japanese financial assets and obtained Dutch and British
+    agreements to also cut those countries' oil exports to Japan.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: This in turn prompted the Japanese decision to attack Pearl Harbor in December 1941.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

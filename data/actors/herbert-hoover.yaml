@@ -1,0 +1,21 @@
+id: herbert-hoover
+title: Herbert Hoover
+actor_type: person
+summary: President of the United States from 1929 to 1933 (1874–1964).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q35236
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q35236.json
+  title: Herbert Hoover
+  publisher: Wikidata
+  quote: president of the United States from 1929 to 1933 (1874–1964)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

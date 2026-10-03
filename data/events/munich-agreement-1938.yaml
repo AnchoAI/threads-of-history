@@ -1,0 +1,64 @@
+id: munich-agreement-1938
+title: Munich Agreement
+summary: Germany, Britain, France and Italy agreed at Munich, in the early hours of 30 September 1938,
+  that Czechoslovakia would cede the Sudetenland to Germany; neither Czechoslovakia nor the Soviet Union
+  took part. Hitler occupied the rest of the Czech lands in March 1939, and the agreement is now regarded
+  as a failed act of appeasement.
+occurred:
+  start: '1938-09-30'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- adolf-hitler
+- neville-chamberlain
+- edouard-daladier
+- benito-mussolini
+- czechoslovakia
+- nazi-germany
+- united-kingdom
+- france
+- kingdom-of-italy
+importance: 4
+wikidata: Q154255
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: at about 1:30 a.m. on 30 September 1938, Adolf Hitler, Neville Chamberlain, Benito Mussolini
+    and Édouard Daladier signed the Munich Agreement
+  type: reference
+  accessed: '2026-10-03'
+- url: https://avalon.law.yale.edu/imt/munich1.asp
+  title: Agreement concluded at Munich, September 29, 1938
+  publisher: Avalon Project, Yale Law School
+  quote: the cession to Germany of the Sudeten German territory
+  type: primary
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: not including Czechoslovakia, although their representatives were present in the town, nor the
+    Soviet Union
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: Hitler reneged on his promise to respect the integrity of Czechoslovakia by occupying the remainder
+    of the country
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: Today, the Munich Agreement is regarded as a failed act of appeasement
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The agreement text is dated 29 September 1938 (Avalon); it was signed at about 1:30 a.m. on 30 September.

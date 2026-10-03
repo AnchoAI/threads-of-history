@@ -1,0 +1,16 @@
+id: battle-of-britain-1940--part_of--second-world-war-1939-1945
+from: battle-of-britain-1940
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Britain
+  archive_url: https://web.archive.org/web/20261001163121/https://en.wikipedia.org/wiki/Battle_of_Britain
+  title: Battle of Britain
+  publisher: Wikipedia
+  quote: Part of the Western Front of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

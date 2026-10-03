@@ -1,0 +1,71 @@
+id: sorge-warns-of-german-attack-1941
+title: Sorge warns Moscow of a German attack
+summary: Richard Sorge, a Soviet intelligence officer in Tokyo, reports from German embassy sources on
+  30 May 1941 that Germany will attack in the latter part of June, and on 20 June that war is inevitable.
+  Stalin and other Soviet leaders ignore his and other warnings. Whether Sorge gave the exact date is
+  disputed.
+occurred:
+  start: '1941-05-30'
+  end: '1941-06-20'
+  precision: day
+threads:
+- ww2
+- intel
+- russia
+regions:
+- east-asia
+- russia-eastern-europe
+actors:
+- richard-sorge
+- joseph-stalin
+- soviet-union
+importance: 3
+source_credibility: high
+outcome: confirmed
+resolves_to: operation-barbarossa-1941
+sources:
+- url: https://en.wikipedia.org/wiki/Richard_Sorge
+  title: Richard Sorge
+  publisher: Wikipedia
+  quote: On 30 May 1941, Sorge reported to Moscow, "Berlin informed Ott that German attack will commence
+    in the latter part of June.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Richard_Sorge
+  title: Richard Sorge
+  publisher: Wikipedia
+  quote: 'On 20 June, Sorge reported: "Ott told me that war between Germany and the USSR is inevitable....'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Richard_Sorge
+  title: Richard Sorge
+  publisher: Wikipedia
+  quote: Moscow received the reports, but Stalin and other top Soviet leaders ultimately ignored Sorge's
+    warnings, as well as those of other sources, including early false alarms.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Richard_Sorge
+  title: Richard Sorge
+  publisher: Wikipedia
+  quote: It has been rumoured that Sorge provided the exact date of "Barbarossa", but the historian Gordon
+    Prange in 1984 concluded that the closest Sorge came was 20 June and that Sorge himself never claimed
+    to have discovered the correct date (22 June) in advance.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  archive_url: https://web.archive.org/web/20260930223956/https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: Soviet spy Richard Sorge also gave Stalin the exact German launch date, but Sorge and other informers
+    had previously given different invasion dates that passed peacefully before the actual invasion.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'source_credibility ''high'' is an editorial judgement: Sorge''s information came from the German
+    ambassador''s circle and proved correct, but the Barbarossa article notes that earlier dates from
+    him and others passed without an attack, which may be why Moscow discounted him.'
+  - 'The two Wikipedia articles disagree on whether Sorge gave the exact date; the summary says it is
+    disputed. The ''early false alarms'' could become their own signal items with outcome: false once
+    dated sources are found.'

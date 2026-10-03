@@ -1,0 +1,20 @@
+id: armenian-genocide-1915--part_of--first-world-war-1914-1918
+from: armenian-genocide-1915
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The genocide was carried out in the Ottoman Empire during the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Armenian_genocide
+  archive_url: https://web.archive.org/web/20260930175309/https://en.wikipedia.org/wiki/Armenian_genocide
+  title: Armenian genocide
+  publisher: Wikipedia
+  quote: The Armenian genocide was the systematic destruction of the Armenian people and identity in the
+    Ottoman Empire during World War I.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

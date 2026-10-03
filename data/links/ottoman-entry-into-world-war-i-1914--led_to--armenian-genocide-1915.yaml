@@ -1,0 +1,16 @@
+id: ottoman-entry-into-world-war-i-1914--led_to--armenian-genocide-1915
+from: ottoman-entry-into-world-war-i-1914
+to: armenian-genocide-1915
+type: led_to
+confidence: documented
+note: The decision to enter the war ultimately led to the Armenian genocide, among other consequences.
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: The decision would ultimately lead to the deaths of hundreds of thousands of Ottoman citizens,
+    the Armenian genocide, the dissolution of the empire, and the abolition of the Ottoman Caliphate.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

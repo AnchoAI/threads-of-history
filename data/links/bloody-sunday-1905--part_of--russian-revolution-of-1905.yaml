@@ -1,0 +1,16 @@
+id: bloody-sunday-1905--part_of--russian-revolution-of-1905
+from: bloody-sunday-1905
+to: russian-revolution-of-1905
+type: part_of
+confidence: documented
+note: Bloody Sunday is taken as the start of the active phase of the 1905 revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Bloody_Sunday_(1905)
+  title: Bloody Sunday (1905)
+  publisher: Wikipedia
+  quote: The massacre on Bloody Sunday is considered to be the start of the active phase of the Revolution
+    of 1905.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

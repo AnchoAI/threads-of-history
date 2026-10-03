@@ -1,0 +1,24 @@
+id: beiyang-government
+title: Beiyang Government
+actor_type: state
+summary: Internationally recognized government of the Republic of China which was in place in Beijing
+  from 1912 to 1928.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q814959
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q814959.json
+  title: Beiyang Government
+  publisher: Wikidata
+  quote: internationally recognized government of the Republic of China which was in place in Beijing
+    from 1912 to 1928
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

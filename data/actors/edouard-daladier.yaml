@@ -1,0 +1,21 @@
+id: edouard-daladier
+title: Édouard Daladier
+actor_type: person
+summary: French politician (1884-1970).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q213526
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q213526.json
+  title: Édouard Daladier
+  publisher: Wikidata
+  quote: French politician (1884-1970)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

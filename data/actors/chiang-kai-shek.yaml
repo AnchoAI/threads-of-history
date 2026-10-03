@@ -1,0 +1,21 @@
+id: chiang-kai-shek
+title: Chiang Kai-shek
+actor_type: person
+summary: Chinese politician, military leader, and President of the ROC (1887–1975).
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q16574
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q16574.json
+  title: Chiang Kai-shek
+  publisher: Wikidata
+  quote: Chinese politician, military leader, and President of the ROC (1887–1975)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

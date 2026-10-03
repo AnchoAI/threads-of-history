@@ -1,0 +1,26 @@
+id: balkan-wars-1912--led_to--first-world-war-1914-1918
+from: balkan-wars-1912
+to: first-world-war-1914-1918
+type: led_to
+confidence: documented
+note: Hall describes the Balkan Wars as the beginning of the First World War.
+sources:
+- url: https://encyclopedia.1914-1918-online.net/article/balkan-wars-1912-1913/?version=1.0
+  title: Balkan Wars 1912-1913 (Richard C. Hall)
+  publisher: 1914-1918-online. International Encyclopedia of the First World War
+  date: '2014-10-08'
+  quote: The Balkan Wars were two sharp conflicts that heralded the onset of World War I.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.1914-1918-online.net/article/balkan-wars-1912-1913/?version=1.0
+  title: Balkan Wars 1912-1913 (Richard C. Hall)
+  publisher: 1914-1918-online. International Encyclopedia of the First World War
+  date: '2014-10-08'
+  quote: The First World War was not the Third Balkan War; rather the Balkan Wars were the beginning of the First
+    World War.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

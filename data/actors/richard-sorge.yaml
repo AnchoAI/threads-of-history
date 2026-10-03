@@ -1,0 +1,21 @@
+id: richard-sorge
+title: Richard Sorge
+actor_type: person
+summary: Soviet spy in Germany and Japan (1895–1944).
+threads: []
+regions:
+- east-asia
+importance: 2
+wikidata: Q44580
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q44580.json
+  title: Richard Sorge
+  publisher: Wikidata
+  quote: Soviet spy in Germany and Japan (1895－1944)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

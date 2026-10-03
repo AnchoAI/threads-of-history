@@ -1,0 +1,52 @@
+id: partition-of-bengal-1905
+title: Partition of Bengal
+summary: Viceroy Lord Curzon splits the Bengal Presidency, separating the largely Muslim east from the
+  largely Hindu west. The partition triggered nationalist protest across India and was reversed in 1911.
+occurred:
+  start: '1905-10-16'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- british-raj
+importance: 3
+wikidata: Q2047143
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  archive_url: https://web.archive.org/web/20260909151755/https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  title: Partition of Bengal (1905)
+  publisher: Wikipedia
+  quote: Announced on 16 October 1905 by Lord Curzon, then Viceroy of India, the reorganization separated
+    the largely Muslim eastern areas from the largely Hindu western areas
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  archive_url: https://web.archive.org/web/20260909151755/https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  title: Partition of Bengal (1905)
+  publisher: Wikipedia
+  quote: on 16 October 1905, the day of partition, schools and shops were blockaded
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  archive_url: https://web.archive.org/web/20260909151755/https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  title: Partition of Bengal (1905)
+  publisher: Wikipedia
+  quote: The partition triggered radical nationalism and nationalists all over India supported the Bengali
+    cause
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  archive_url: https://web.archive.org/web/20260909151755/https://en.wikipedia.org/wiki/Partition_of_Bengal_(1905)
+  title: Partition of Bengal (1905)
+  publisher: Wikipedia
+  quote: King George V announced at Delhi Durbar on 12 December 1911 that eastern Bengal would be assimilated
+    into the Bengal Presidency.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

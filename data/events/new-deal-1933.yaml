@@ -1,0 +1,56 @@
+id: new-deal-1933
+title: New Deal
+summary: A series of economic, social and political reforms in response to the Great Depression in the
+  United States under President Franklin D. Roosevelt, from his first hundred days in 1933 until 1938,
+  when a conservative coalition in Congress blocked further legislation. It aimed at relief for the unemployed
+  and poor, economic recovery and financial reform.
+occurred:
+  start: '1933'
+  end: '1938'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- franklin-d-roosevelt
+- united-states
+importance: 4
+wikidata: Q186356
+sources:
+- url: https://en.wikipedia.org/wiki/New_Deal
+  archive_url: https://web.archive.org/web/20261001192300/https://en.wikipedia.org/wiki/New_Deal
+  title: New Deal
+  publisher: Wikipedia
+  quote: The New Deal refers to a series of economic, social, and political reforms in response to the
+    Great Depression in the United States under the first and second administrations of President Franklin
+    D. Roosevelt.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Deal
+  archive_url: https://web.archive.org/web/20261001192300/https://en.wikipedia.org/wiki/New_Deal
+  title: New Deal
+  publisher: Wikipedia
+  quote: During Roosevelt's first hundred days in office in 1933
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Deal
+  archive_url: https://web.archive.org/web/20261001192300/https://en.wikipedia.org/wiki/New_Deal
+  title: New Deal
+  publisher: Wikipedia
+  quote: relief for the unemployed and for the poor, recovery of the economy back to normal levels, and
+    reforms of the financial system to prevent a repeat depression
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Deal
+  archive_url: https://web.archive.org/web/20261001192300/https://en.wikipedia.org/wiki/New_Deal
+  title: New Deal
+  publisher: Wikipedia
+  quote: In 1938, the Republican Party gained seats in Congress and joined with conservative Democrats
+    to block further New Deal legislation
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Wikipedia's infobox gives 1933–1941; the end date here is 1938, when further legislation was blocked.

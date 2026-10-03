@@ -1,0 +1,23 @@
+id: twenty-one-demands-1915--led_to--may-fourth-movement-1919
+from: twenty-one-demands-1915
+to: may-fourth-movement-1919
+type: led_to
+confidence: documented
+note: The demands created ill-will towards Japan that contributed to the 1919 protests.
+sources:
+- url: https://en.wikipedia.org/wiki/Twenty-One_Demands
+  title: Twenty-One Demands
+  publisher: Wikipedia
+  quote: In China, the overall political impact of Japan's actions was highly negative, creating a considerable
+    amount of public ill-will towards Japan, contributing to the May Fourth Movement, and a significant
+    upsurge in nationalism.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: '"do away with the Twenty-One Demands"'
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

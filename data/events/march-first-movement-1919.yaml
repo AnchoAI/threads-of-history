@@ -1,0 +1,57 @@
+id: march-first-movement-1919
+title: March First Movement
+summary: Protests against Japanese rule begin in Seoul with readings of a Korean Declaration of Independence
+  and spread across Korea. Japanese officials reported 553 killed by 11 April; a 1920 Korean estimate
+  claimed 7,509 deaths.
+occurred:
+  start: 1919-03
+  end: 1919-04
+  precision: month
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+importance: 3
+wikidata: Q482525
+sources:
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: The March First Movement was a series of protests against Japanese colonial rule that was held
+    throughout Korea and internationally by the Korean diaspora beginning on March 1, 1919.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: The protests began in Seoul, with public readings of the Korean Declaration of Independence
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: March 1 – April 1919, related protests until 1921
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: From March 1 to April 11, Japanese officials reported 553 people killed, and more than 12,000
+    arrested.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/March_First_Movement
+  title: March First Movement
+  publisher: Wikipedia
+  quote: One Korean estimate in 1920 claimed 7,509 deaths and 46,948 arrests.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Precision is month because the end date is only given as April 1919; the start was 1 March 1919.
+  - Death toll is disputed; the infobox gives a range of 798 to 7,509. Only attributed figures are given
+    in the summary.

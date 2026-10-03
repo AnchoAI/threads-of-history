@@ -1,0 +1,51 @@
+id: february-revolution-1917
+title: February Revolution
+summary: Bread riots, strikes and a garrison mutiny in Petrograd brought down the monarchy during the
+  First World War. A Provisional Government was formed and shared power with the Petrograd Soviet.
+occurred:
+  start: '1917-03-08'
+  end: '1917-03-16'
+  precision: day
+  note: 'The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date
+    is recorded here. Old Style: 23 February – 3 March 1917.'
+threads:
+- russia
+- ww1
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- russian-empire
+- russian-provisional-government
+importance: 5
+wikidata: Q101534
+sources:
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: 8–16 March 1917 [O.S. 23 Feb – 3 Mar.]
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: Disaffected soldiers from the city's garrison (which by then was composed by draftees with low
+    morale, the more disciplined troops being at the front) joined bread rioters, primarily women in bread
+    lines, and industrial strikers on the streets.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: On the same day, the Russian Provisional Government, made up of left-leaning Duma members, was
+    formed.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: forced to share dual power with the Petrograd Soviet
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

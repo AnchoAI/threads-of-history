@@ -1,0 +1,49 @@
+id: treaty-of-lausanne-1923
+title: Treaty of Lausanne
+summary: After eight months of negotiation, Turkey and the Allies signed a peace that replaced the unratified
+  Treaty of Sèvres, set the borders of the Turkish state and provided for a Greek–Turkish population exchange.
+occurred:
+  start: '1923-07-24'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- turkey
+- grand-national-assembly-of-turkey
+- united-kingdom
+- france
+- kingdom-of-italy
+importance: 4
+wikidata: Q193258
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Lausanne
+  title: Treaty of Lausanne
+  publisher: Wikipedia
+  quote: On 20 November 1922, the peace conference was opened; the treaty was signed on 24 July 1923 after
+    eight months of arduous negotiation
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Lausanne
+  title: Treaty of Lausanne
+  publisher: Wikipedia
+  quote: It emerged as a second attempt at peace after the failed and unratified Treaty of Sèvres
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: the borders of the Turkish nation-state were set by the Treaty of Lausanne in 1923
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Lausanne
+  title: Treaty of Lausanne
+  publisher: Wikipedia
+  quote: Convention concerning the Exchange of Greek and Turkish Populations
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

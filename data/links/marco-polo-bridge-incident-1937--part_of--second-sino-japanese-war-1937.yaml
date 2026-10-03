@@ -1,0 +1,22 @@
+id: marco-polo-bridge-incident-1937--part_of--second-sino-japanese-war-1937
+from: marco-polo-bridge-incident-1937
+to: second-sino-japanese-war-1937
+type: part_of
+confidence: documented
+note: The clash was the initial battle of the full-scale war.
+sources:
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: Initial battle of the Second Sino-Japanese War
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: The Marco Polo Bridge incident is generally regarded as the start of the Second Sino-Japanese
+    War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

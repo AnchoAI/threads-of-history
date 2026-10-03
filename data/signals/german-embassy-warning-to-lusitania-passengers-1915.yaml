@@ -1,0 +1,44 @@
+id: german-embassy-warning-to-lusitania-passengers-1915
+title: German embassy warns transatlantic travellers
+summary: A notice from the German embassy warning that ships in the war zone around the British Isles could be destroyed
+  appeared in American newspapers on 30 April 1915, the day before the Lusitania sailed from New York.
+occurred:
+  start: '1915-04-30'
+  precision: day
+threads:
+- ww1
+regions:
+- americas
+actors:
+- german-empire
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: sinking-of-the-lusitania-1915
+sources:
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: but due to technical difficulties did not appear until 30 April, the day before Lusitania sailed, appearing
+    in some cases adjacent to an advertisement for the return voyage.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: He decided to issue a general warning to the American press.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: 'On 4 February 1915, he declared the seas around the British Isles a war zone: from 18 February, Allied
+    ships in the area could be sunk without warning.'
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - The notice was a general warning, not a threat against the Lusitania specifically; the article says its placement
+    next to the Lusitania advertisement was a coincidence.

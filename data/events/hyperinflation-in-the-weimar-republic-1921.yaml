@@ -1,0 +1,51 @@
+id: hyperinflation-in-the-weimar-republic-1921
+title: Hyperinflation in the Weimar Republic
+summary: The German paper mark collapsed between 1921 and 1923, mainly in 1923; by November 1923 one US
+  dollar was worth about 4.2 trillion marks. Historians and economists disagree on how far reparations
+  caused it.
+occurred:
+  start: 1921-08
+  end: 1923-11
+  precision: month
+threads:
+- econ-crises
+- interwar
+regions:
+- western-europe
+actors:
+- weimar-republic
+importance: 4
+wikidata: Q695052
+sources:
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: Hyperinflation affected the German Papiermark, the currency of the Weimar Republic, between 1921
+    and 1923, primarily in 1923.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: From August 1921, the president of the Reichsbank, Rudolf Havenstein, began a strategy of buying
+    foreign currency with marks at any price
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: By November 1923, one US dollar was worth 4.2105 trillion German marks.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: Historians and economists are divided on the causes of this hyperinflation, particularly the
+    extent to which it was caused by reparations payments.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Start date is the Reichsbank policy of August 1921 named in the source; the source also says the currency
+    stabilised in early 1922 before hyperinflation 'took off' in mid-1922.

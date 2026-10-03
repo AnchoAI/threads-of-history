@@ -1,0 +1,19 @@
+id: molotov-ribbentrop-pact-1939--led_to--invasion-of-poland-1939
+from: molotov-ribbentrop-pact-1939
+to: invasion-of-poland-1939
+type: led_to
+confidence: documented
+note: The pact let Germany attack Poland without fear of Soviet intervention.
+sources:
+- url: https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939
+  title: Invasion of Poland, Fall 1939
+  publisher: United States Holocaust Memorial Museum
+  quote: The German-Soviet Pact, which secretly provided for Poland to be partitioned between the two
+    powers, enabled Germany to attack Poland without the fear of Soviet intervention.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.
