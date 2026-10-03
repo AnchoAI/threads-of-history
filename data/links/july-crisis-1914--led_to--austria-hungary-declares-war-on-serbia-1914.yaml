@@ -1,0 +1,18 @@
+id: july-crisis-1914--led_to--austria-hungary-declares-war-on-serbia-1914
+from: july-crisis-1914
+to: austria-hungary-declares-war-on-serbia-1914
+type: led_to
+confidence: documented
+note: The July Crisis led to Austria-Hungary's declaration of war on Serbia.
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand
+  title: Assassination of Archduke Franz Ferdinand
+  publisher: Wikipedia
+  quote: The assassination precipitated the July Crisis, which led to Austria-Hungary declaring war on Serbia and
+    the start of World War I.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

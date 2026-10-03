@@ -1,0 +1,25 @@
+id: germany-declares-war-on-russia-1914--led_to--germany-declares-war-on-france-1914
+from: germany-declares-war-on-russia-1914
+to: germany-declares-war-on-france-1914
+type: led_to
+confidence: documented
+note: After Germany declared war on Russia, Russia's ally France prepared to mobilise, and Germany responded by
+  declaring war on France.
+sources:
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: After Germany declared war on Russia, France with its alliance with Russia prepared a general mobilization
+    in expectation of war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: On 3 August 1914, Germany responded to this action by declaring war on France.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.
