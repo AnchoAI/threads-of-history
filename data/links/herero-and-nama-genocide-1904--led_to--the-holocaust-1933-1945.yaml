@@ -1,0 +1,43 @@
+id: herero-and-nama-genocide-1904--led_to--the-holocaust-1933-1945
+from: herero-and-nama-genocide-1904
+to: the-holocaust-1933-1945
+type: led_to
+confidence: contested
+note: Whether Germany's colonial genocide in South West Africa was a precursor to the Holocaust is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide_and_the_Holocaust
+  title: Herero and Nama genocide and the Holocaust
+  publisher: Wikipedia
+  quote: According to Benjamin Madley, the German experience in South West Africa was a crucial precursor
+    to Nazi colonialism and genocide.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: The South West Africa genocide was a crucial precursor to Nazi genocide.
+  held_by:
+  - Benjamin Madley
+  sources:
+  - url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide_and_the_Holocaust
+    title: Herero and Nama genocide and the Holocaust
+    publisher: Wikipedia
+    quote: According to Benjamin Madley, the German experience in South West Africa was a crucial precursor
+      to Nazi colonialism and genocide.
+    type: reference
+    accessed: '2026-10-03'
+- claim: The claimed link lacks empirical evidence.
+  held_by:
+  - Robert Gerwarth
+  - Stephan Malinowski
+  sources:
+  - url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide_and_the_Holocaust
+    title: Herero and Nama genocide and the Holocaust
+    publisher: Wikipedia
+    quote: Robert Gerwarth and Stephan Malinowski have questioned the supposed link with the Holocaust,
+      finding it to be lacking in empirical evidence
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

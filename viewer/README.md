@@ -19,7 +19,7 @@ Rerun `npm run data` after editing anything in `data/`, then reload the page.
 
 - Time runs along a central spine. Lanes around it are threads, regions or domains (the toggle top left). Items on several lanes sit between them.
 - In thread mode, each domain gets its own slice of the circle, and threads that share many items and links sit next to each other. An item that sits near the spine crosses domains.
-- When there are more than 12 threads, each domain collapses into one lane. Click a domain, in the legend or on its lane label, to open its threads; opening one closes the others. This keeps the circle readable however many threads the data grows to.
+- When there are more than 16 threads, each domain collapses into one lane. Click a domain, in the legend or on its lane label, to open its threads; opening one closes the others. This keeps the circle readable however many threads the data grows to.
 - Lane labels sit on the outer side of their lane, so they spread outwards instead of overlapping.
 - **Zooming time.** The strip along the bottom shows how many items fall in each period. Drag across it to pick a period, drag the highlighted window to move it, scroll over it to zoom, and double-click to show everything. With the strip focused, or with no guided path running, ← → move the window, + and − zoom, and 0 shows everything. The window goes from the whole timeline down to six hours, and the tick marks adapt from 20-year steps to hours.
 - **Importance decides what is drawn.** In any window, the 120 most important items are drawn (importance first, then number of links) and about 30 get labels; labels that would overlap are hidden. The selected item, its connections and the current step of a guided path are always drawn.

@@ -10,7 +10,7 @@
 // - Within a group, lanes are ordered so that lanes sharing many items and links sit next
 //   to each other. Averaging an item's lanes then puts it somewhere meaningful.
 
-export const MAX_LANES = 12;
+export const MAX_LANES = 16;
 const GROUP_GAP = 0.6;  // empty slots between domain slices
 
 // How strongly two lanes are related: items on both, plus links between them.

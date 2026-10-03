@@ -3,22 +3,18 @@ from: treaty-of-versailles-1919
 to: league-of-nations-founded-1920
 type: led_to
 confidence: documented
-note: The League was established by Part I of the treaty, its Covenant, which took effect with the treaty.
+note: The treaty, building on Wilson's Fourteen Points, established the League of Nations.
 sources:
-- url: https://en.wikipedia.org/wiki/League_of_Nations
-  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
-  title: League of Nations
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
   publisher: Wikipedia
-  quote: the League was established by Part I of the Treaty of Versailles, signed on 28 June 1919.
-  type: reference
-  accessed: '2026-10-03'
-- url: https://en.wikipedia.org/wiki/League_of_Nations
-  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
-  title: League of Nations
-  publisher: Wikipedia
-  quote: The Covenant of the League of Nations was signed on 28 June 1919 as Part I of the Treaty of Versailles,
-    and it became effective with the rest of the Treaty on 10 January 1920.
+  quote: The 1919 Treaty of Versailles dealt with Germany and, building on Wilson's 14th point, established
+    the League of Nations on 28 June 1919.
   type: reference
   accessed: '2026-10-03'
 review:
   status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

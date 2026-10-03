@@ -11,21 +11,8 @@ known:
     start: '1926'
     precision: year
     note: The Bolsheviks at first announced only Nicholas's death; the killing of the whole family was
-      acknowledged in 1926.
-  by:
-  - party: Public (death of Nicholas II only)
-    when:
-      start: 1918-07
-      precision: month
-      approximate: true
-      note: The source says the death was announced "initially" but gives no date.
-    sources:
-    - url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
-      title: Murder of the Romanov family
-      publisher: Wikipedia
-      quote: The Bolsheviks initially announced only Nicholas's death.
-      type: reference
-      accessed: '2026-10-03'
+      acknowledged in 1926. The first announcement (of Nicholas's death only) is undated in the source;
+      July 1918 is approximate.
 threads:
 - russia
 regions:
@@ -56,6 +43,12 @@ sources:
   publisher: Wikipedia
   quote: A 2011 investigation concluded that, despite the opening of state archives in the post-Soviet
     years, no written document has been found which proves Lenin or Sverdlov ordered the executions.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: The Bolsheviks initially announced only Nicholas's death.
   type: reference
   accessed: '2026-10-03'
 review:

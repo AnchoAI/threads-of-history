@@ -1,0 +1,19 @@
+id: russo-japanese-war-1904--led_to--russian-revolution-of-1905
+from: russo-japanese-war-1904
+to: russian-revolution-of-1905
+type: led_to
+confidence: documented
+note: Defeat in the war added to the unrest that became the 1905 revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: Russia's incurrence of substantial casualties and losses for a cause which resulted in a humiliating
+    defeat contributed to internal unrest culminating in the 1905 Russian Revolution
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

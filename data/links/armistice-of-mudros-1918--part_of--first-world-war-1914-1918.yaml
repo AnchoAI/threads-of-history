@@ -1,0 +1,19 @@
+id: armistice-of-mudros-1918--part_of--first-world-war-1914-1918
+from: armistice-of-mudros-1918
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The armistice ended fighting between the Ottoman Empire and the Allies.
+sources:
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: ended hostilities in the Middle Eastern theatre between Ottoman Empire and the Allies of World
+    War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

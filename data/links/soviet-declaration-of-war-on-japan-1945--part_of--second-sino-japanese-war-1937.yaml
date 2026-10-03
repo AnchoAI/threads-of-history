@@ -1,0 +1,18 @@
+id: soviet-declaration-of-war-on-japan-1945--part_of--second-sino-japanese-war-1937
+from: soviet-declaration-of-war-on-japan-1945
+to: second-sino-japanese-war-1937
+type: part_of
+confidence: documented
+note: The Soviet campaign against Japan in Manchuria is counted as part of the Sino-Japanese war.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War
+  title: Soviet–Japanese War
+  publisher: Wikipedia
+  quote: Part of the Second Sino-Japanese War and the Pacific Theater of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.
