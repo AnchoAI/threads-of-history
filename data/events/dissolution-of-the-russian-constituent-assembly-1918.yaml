@@ -1,0 +1,37 @@
+id: dissolution-of-the-russian-constituent-assembly-1918
+title: Dissolution of the Constituent Assembly
+summary: The elected Constituent Assembly, in which the Socialist Revolutionaries outpolled the Bolsheviks,
+  met for 13 hours in Petrograd and was then dissolved by the Bolshevik-led Central Executive Committee.
+occurred:
+  start: '1918-01-18'
+  end: '1918-01-19'
+  precision: day
+  note: 'The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date
+    is recorded here. Old Style: 5–6 January 1918.'
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Constituent_Assembly
+  title: Russian Constituent Assembly
+  publisher: Wikipedia
+  quote: It met for 13 hours, from 4 p.m. to 5 a.m., 18–19 January [O.S. 5–6 January] 1918, whereupon
+    it was dissolved by the Bolshevik-led All-Russian Central Executive Committee
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Civil_War
+  title: Russian Civil War
+  publisher: Wikipedia
+  quote: they lost to the Socialist Revolutionary Party in the 1917 Russian Constituent Assembly election,
+    and the Constituent Assembly was dissolved by the Bolsheviks in retaliation
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id set: Q1468062 is the Assembly itself, not its dissolution. Check whether Wikidata
+    has an item for the dissolution.'

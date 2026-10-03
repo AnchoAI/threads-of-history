@@ -1,0 +1,15 @@
+id: kronstadt-rebellion-1921--part_of--russian-civil-war-1917-1922
+from: kronstadt-rebellion-1921
+to: russian-civil-war-1917-1922
+type: part_of
+confidence: documented
+note: The Kronstadt uprising is counted as part of the civil war.
+sources:
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: Kronstadt rebellion Part of the Russian Civil War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

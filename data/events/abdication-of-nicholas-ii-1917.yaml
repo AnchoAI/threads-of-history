@@ -1,0 +1,42 @@
+id: abdication-of-nicholas-ii-1917
+title: Abdication of Nicholas II
+summary: Stranded at Pskov during the February Revolution, Nicholas II renounced the throne for himself
+  and his son in favour of his brother Michael, who declined it the next day, ending Romanov rule.
+occurred:
+  start: '1917-03-15'
+  precision: day
+  note: 'The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date
+    is recorded here. Old Style: 2 March 1917.'
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- russian-empire
+importance: 3
+wikidata: Q4340040
+sources:
+- url: https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II
+  title: Abdication of Nicholas II
+  publisher: Wikipedia
+  quote: Emperor Nicholas II abdicated the throne of the Russian Empire on the 2nd of March (O.S.) / 15th
+    of March (N.S.) 1917, in the Russian city of Pskov
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II
+  title: Abdication of Nicholas II
+  publisher: Wikipedia
+  quote: The Emperor renounced the throne on behalf of himself and his son, Tsarevich Alexei Nikolaevich,
+    in favor of his brother Grand Duke Michael Alexandrovich. The next day the Grand Duke refused to accept
+    the imperial authority
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: was forced to abdicate, ending Romanov dynastic rule
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

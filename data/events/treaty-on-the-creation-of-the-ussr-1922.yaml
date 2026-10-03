@@ -1,0 +1,40 @@
+id: treaty-on-the-creation-of-the-ussr-1922
+title: Treaty on the Creation of the USSR
+summary: Delegations of the Russian, Transcaucasian, Ukrainian and Byelorussian Soviet republics approved
+  the declaration and treaty forming the Union of Soviet Socialist Republics.
+occurred:
+  start: '1922-12-30'
+  precision: day
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- bolsheviks
+importance: 4
+wikidata: Q1443926
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics
+  archive_url: https://web.archive.org/web/20260920030309/https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics
+  title: Treaty on the Creation of the Union of Soviet Socialist Republics
+  publisher: Wikipedia
+  quote: The Treaty, along with the Declaration of the Creation of the USSR was approved on 30 December
+    1922 by a conference of delegations from the Russian SFSR, the Transcaucasian SFSR, the Ukrainian
+    SSR and the Byelorussian SSR.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics
+  archive_url: https://web.archive.org/web/20260920030309/https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics
+  title: Treaty on the Creation of the Union of Soviet Socialist Republics
+  publisher: Wikipedia
+  quote: agree to form a single Union of Soviet Socialist Republics
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The infobox gives a signing date of 29 December; the text gives approval and signing on 30 December
+    1922. Check against a primary source.
+  - The 1991 Belovezha meeting agreed to annul this treaty ("met to agree on the annulment of the 1922
+    treaty"); no link type fits, so no link to dissolution-of-the-soviet-union-1991 was added.

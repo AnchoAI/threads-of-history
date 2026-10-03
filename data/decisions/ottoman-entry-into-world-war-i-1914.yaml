@@ -1,0 +1,79 @@
+id: ottoman-entry-into-world-war-i-1914
+title: Ottoman entry into the First World War
+summary: Ottoman warships, still crewed by German sailors, raided Russian Black Sea ports; Russia, Britain
+  and France declared war in response. The Ottoman government had declared neutrality and was negotiating
+  with both sides.
+occurred:
+  start: '1914-10-29'
+  end: '1914-11-05'
+  precision: day
+threads:
+- ww1
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- ottoman-empire
+- enver-pasha
+- committee-of-union-and-progress
+- german-empire
+- russian-empire
+importance: 4
+wikidata: Q1328496
+decided_by:
+- ottoman-empire
+alternatives:
+- option: Stay neutral
+  sources:
+  - url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+    title: Ottoman entry into World War I
+    publisher: Wikipedia
+    quote: The Ottoman government had declared neutrality in the war and negotiations with both sides
+      were underway.
+    type: reference
+    accessed: '2026-10-03'
+- option: Ally with Britain and the Entente
+  sources:
+  - url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+    title: Ottoman entry into World War I
+    publisher: Wikipedia
+    quote: In early 1914, in the aftermath of the Balkan Wars, the CUP became convinced that only an alliance
+      with Britain and the Entente could guarantee the survival of what remained of the empire.
+    type: reference
+    accessed: '2026-10-03'
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: The Ottoman Empire's entry into World War I began on 29 October 1914 when two recently purchased
+    ships of its navy, which were still crewed by German sailors and commanded by their German admiral,
+    carried out the Black Sea Raid, a surprise attack against Russian ports.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: Russia replied by declaring war on 1 November 1914.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: Russia's allies, Britain and France, declared war on the Ottoman Empire on 5 November 1914.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: A pro-German faction, which was influenced by the former Ottoman military attaché in Berlin Enver
+    Pasha, opposed the pro-British majority in the Ottoman cabinet
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - decided_by is the Ottoman state; the source says "The reasons for the Ottoman action were not immediately
+    clear" and names Enver Pasha's pro-German faction. Who exactly ordered the Black Sea Raid needs a
+    better source.

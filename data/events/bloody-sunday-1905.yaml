@@ -1,0 +1,36 @@
+id: bloody-sunday-1905
+title: Bloody Sunday
+summary: Soldiers of the Imperial Guard fired on workers marching under Father Georgy Gapon to petition
+  Tsar Nicholas II in St Petersburg. Official figures gave 96 dead; other estimates are far higher.
+occurred:
+  start: '1905-01-22'
+  precision: day
+  note: The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date is
+    recorded here.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- russian-empire
+importance: 3
+wikidata: Q185642
+sources:
+- url: https://en.wikipedia.org/wiki/Bloody_Sunday_(1905)
+  title: Bloody Sunday (1905)
+  publisher: Wikipedia
+  quote: was the series of events on Sunday, 22 January [O.S. 9 January] 1905 in St Petersburg, Russia,
+    when demonstrators, led by Father Georgy Gapon, were fired upon by soldiers of the Imperial Guard
+    as they marched towards the Winter Palace
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bloody_Sunday_(1905)
+  title: Bloody Sunday (1905)
+  publisher: Wikipedia
+  quote: The tsar's officials recorded 96 dead and 333 injured; anti-government sources claimed more than
+    4,000 dead
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

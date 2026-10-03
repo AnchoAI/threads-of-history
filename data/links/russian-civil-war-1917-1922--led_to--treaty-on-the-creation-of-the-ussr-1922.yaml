@@ -1,0 +1,23 @@
+id: russian-civil-war-1917-1922--led_to--treaty-on-the-creation-of-the-ussr-1922
+from: russian-civil-war-1917-1922
+to: treaty-on-the-creation-of-the-ussr-1922
+type: led_to
+confidence: documented
+note: The civil war resulted in the formation of the RSFSR and then the Soviet Union.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Civil_War
+  title: Russian Civil War
+  publisher: Wikipedia
+  quote: It resulted in the formation of the Russian Socialist Federative Soviet Republic and later the
+    Soviet Union in most of its territory.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: the country descended into civil war, which lasted until late 1922 and led to the creation of
+    the Soviet Union
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

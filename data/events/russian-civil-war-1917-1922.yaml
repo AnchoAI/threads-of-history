@@ -1,0 +1,44 @@
+id: russian-civil-war-1917-1922
+title: Russian Civil War
+summary: A multi-party war in the former Russian Empire after the October Revolution, with foreign interventions.
+  It ended in Bolshevik victory and the formation of the Soviet Union, with an estimated 7 to 12 million
+  casualties, mostly civilians.
+occurred:
+  start: '1917-11-07'
+  end: '1922-10-25'
+  precision: day
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- leon-trotsky
+- vladimir-lenin
+importance: 5
+wikidata: Q79911
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Civil_War
+  title: Russian Civil War
+  publisher: Wikipedia
+  quote: 7 November 1917 – 25 October 1922
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Civil_War
+  title: Russian Civil War
+  publisher: Wikipedia
+  quote: It resulted in the formation of the Russian Socialist Federative Soviet Republic and later the
+    Soviet Union in most of its territory.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Civil_War
+  title: Russian Civil War
+  publisher: Wikipedia
+  quote: There were an estimated 7 to 12 million casualties during the war, mostly civilians.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: unverified
+  notes:
+  - Leon Trotsky and Lenin are listed as actors from general context; the quotes here do not name their
+    roles. Add a source for Trotsky as head of the Red Army.
