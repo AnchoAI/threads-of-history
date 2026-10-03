@@ -1,0 +1,49 @@
+id: herero-and-nama-genocide-1904
+title: Herero and Nama genocide
+summary: German colonial forces in German South West Africa (now Namibia) kill tens of thousands of Herero
+  and Nama people after uprisings against German rule. Germany acknowledged it as a genocide in 2015.
+occurred:
+  start: '1904'
+  end: '1908'
+  precision: year
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- german-empire
+- lothar-von-trotha
+importance: 3
+wikidata: Q312492
+sources:
+- url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide
+  title: Herero and Nama genocide
+  publisher: Wikipedia
+  quote: was the extermination of the Herero and the Nama people in German South West Africa (now Namibia)
+    perpetrated by the German Empire between 1904 and 1908. Around 40,000 to 80,000 Hereros (80 percent
+    of their pre-war population) and 10,000 Nama
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide
+  title: Herero and Nama genocide
+  publisher: Wikipedia
+  quote: Herero chief Samuel Maharero launched a surprise uprising on 12 January 1904
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide
+  title: Herero and Nama genocide
+  publisher: Wikipedia
+  quote: German commander Lothar von Trotha ordered the execution of all Herero men
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Herero_and_Nama_genocide
+  title: Herero and Nama genocide
+  publisher: Wikipedia
+  quote: In 2015, Germany acknowledged that a genocide had been committed.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

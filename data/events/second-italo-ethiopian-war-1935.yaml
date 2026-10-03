@@ -1,0 +1,55 @@
+id: second-italo-ethiopian-war-1935
+title: Second Italo-Ethiopian War
+summary: Italy invades Ethiopia without a declaration of war and defeats it by May 1936, using mustard
+  gas in violation of the Geneva Protocol. The League of Nations' failure to prevent the invasion discredited
+  it.
+occurred:
+  start: '1935-10-03'
+  end: '1936-05-05'
+  precision: day
+threads:
+- empire
+- interwar
+regions:
+- sub-saharan-africa
+actors:
+- kingdom-of-italy
+- benito-mussolini
+- ethiopian-empire
+- league-of-nations
+importance: 4
+wikidata: Q94916
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War
+  title: Second Italo-Ethiopian War
+  publisher: Wikipedia
+  quote: On 3 October 1935, two hundred thousand soldiers of the Regio Esercito (Royal Army) commanded
+    by Marshal Emilio De Bono attacked from Italian Eritrea without prior declaration of war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War
+  title: Second Italo-Ethiopian War
+  publisher: Wikipedia
+  quote: 3 October 1935 – 5 May 1936
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War
+  title: Second Italo-Ethiopian War
+  publisher: Wikipedia
+  quote: Mussolini authorized the use of mustard gas, with the Regia Aeronautica (Royal Air Force) dropping
+    330 tons over the next four months, violating the 1925 Geneva Protocol.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War
+  title: Second Italo-Ethiopian War
+  publisher: Wikipedia
+  quote: Simultaneously, the inability of the League of Nations to prevent the invasion discredited it
+    internationally on the eve of the Second World War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - The interwar batch may add this event under the same id. If both exist, keep one file and merge the
+    sources and links.

@@ -1,0 +1,55 @@
+id: salt-march-1930
+title: Salt March
+summary: Gandhi and 78 followers march 385 km from Sabarmati Ashram to Dandi to break the British salt
+  monopoly, in a campaign of tax resistance and nonviolent protest. Civil disobedience continued until
+  early 1931.
+occurred:
+  start: '1930-03-12'
+  end: '1930-04-06'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- mahatma-gandhi
+- indian-national-congress
+- british-raj
+importance: 4
+wikidata: Q239344
+sources:
+- url: https://en.wikipedia.org/wiki/Salt_March
+  archive_url: https://web.archive.org/web/20261001192935/https://en.wikipedia.org/wiki/Salt_March
+  title: Salt March
+  publisher: Wikipedia
+  quote: The 24-day march (padayatra) lasted from 12 March 1930 to 6 April 1930 as a direct action campaign
+    of tax resistance and nonviolent protest against the British salt monopoly.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Salt_March
+  archive_url: https://web.archive.org/web/20261001192935/https://en.wikipedia.org/wiki/Salt_March
+  title: Salt March
+  publisher: Wikipedia
+  quote: On 12 March 1930, Gandhi and 78 satyagrahis
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Salt_March
+  archive_url: https://web.archive.org/web/20261001192935/https://en.wikipedia.org/wiki/Salt_March
+  title: Salt March
+  publisher: Wikipedia
+  quote: set out on foot for the coastal village of Dandi in Navsari district of Gujarat, 385 km from
+    their starting point at Sabarmati Ashram.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Salt_March
+  archive_url: https://web.archive.org/web/20261001192935/https://en.wikipedia.org/wiki/Salt_March
+  title: Salt March
+  publisher: Wikipedia
+  quote: Civil disobedience continued until early 1931
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

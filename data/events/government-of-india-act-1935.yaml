@@ -1,0 +1,52 @@
+id: government-of-india-act-1935
+title: Government of India Act 1935
+summary: The UK Parliament passes the act that serves as British India's constitution in its final years,
+  introducing provincial autonomy. Its planned all-India federation never came into operation.
+occurred:
+  start: '1935-08-02'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- united-kingdom
+- british-raj
+importance: 3
+wikidata: Q3241445
+sources:
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  archive_url: https://web.archive.org/web/20261001222518/https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  title: Government of India Act 1935
+  publisher: Wikipedia
+  quote: was an act of the Parliament of the United Kingdom, serving as the constitution and governing
+    document of British India in its final years
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  archive_url: https://web.archive.org/web/20261001222518/https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  title: Government of India Act 1935
+  publisher: Wikipedia
+  quote: Royal assent 2 August 1935
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  archive_url: https://web.archive.org/web/20261001222518/https://en.wikipedia.org/wiki/Government_of_India_Act_1935
+  title: Government of India Act 1935
+  publisher: Wikipedia
+  quote: The parts of the act intended to establish the Federation of India never came into operation,
+    due to opposition from the rulers of the princely states.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Partition_of_India
+  archive_url: https://web.archive.org/web/20260917134336/https://en.wikipedia.org/wiki/Partition_of_India
+  title: Partition of India
+  publisher: Wikipedia
+  quote: the Government of India Act 1935 introduced provincial autonomy
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

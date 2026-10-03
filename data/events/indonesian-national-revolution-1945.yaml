@@ -1,0 +1,45 @@
+id: indonesian-national-revolution-1945
+title: Indonesian National Revolution
+summary: Sukarno and Mohammad Hatta proclaim Indonesia's independence, beginning an armed and diplomatic
+  struggle against the Netherlands that ended with the transfer of sovereignty in December 1949.
+occurred:
+  start: '1945-08-17'
+  end: '1949-12-27'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+actors:
+- sukarno
+importance: 4
+wikidata: Q1332160
+sources:
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  archive_url: https://web.archive.org/web/20260910151444/https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  title: Indonesian National Revolution
+  publisher: Wikipedia
+  quote: Sukarno and Mohammad Hatta proclaimed Indonesia's independence on 17 August 1945.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  archive_url: https://web.archive.org/web/20260910151444/https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  title: Indonesian National Revolution
+  publisher: Wikipedia
+  quote: 17 August 1945 – 27 December 1949
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  archive_url: https://web.archive.org/web/20260910151444/https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  title: Indonesian National Revolution
+  publisher: Wikipedia
+  quote: was an armed conflict and diplomatic struggle between the Republic of Indonesia and the Dutch
+    Empire
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Umbrella event running past 1945; the proclamation of 17 August 1945 could be split out as its own
+    sub-event.

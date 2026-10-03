@@ -1,0 +1,45 @@
+id: japanese-occupation-of-the-dutch-east-indies-1942
+title: Japanese occupation of the Dutch East Indies
+summary: Japan invades the Dutch East Indies, the Dutch surrender on 8 March 1942, and Japan occupies
+  the colony until after the end of the war. A later UN report put deaths from famine and forced labour
+  at 4 million.
+occurred:
+  start: 1942-03
+  end: 1945-09
+  precision: month
+threads:
+- empire
+- ww2
+regions:
+- south-east-asia
+actors:
+- empire-of-japan
+importance: 3
+wikidata: Q702310
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies
+  title: Japanese occupation of the Dutch East Indies
+  publisher: Wikipedia
+  quote: The Empire of Japan occupied the Dutch East Indies (now Indonesia) during World War II from March
+    1942 until after the end of the war in September 1945.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies
+  title: Japanese occupation of the Dutch East Indies
+  publisher: Wikipedia
+  quote: The Japanese invasion of the Dutch East Indies began on 10 January 1942, and the Imperial Japanese
+    Army overran the entire colony in less than three months. The Dutch surrendered on 8 March.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies
+  title: Japanese occupation of the Dutch East Indies
+  publisher: Wikipedia
+  quote: A later United Nations report stated that 4,000,000 people died in Indonesia as a result of famine
+    and forced labour during the Japanese occupation
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.
