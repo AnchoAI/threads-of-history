@@ -1,0 +1,24 @@
+id: treaty-of-versailles-1919--led_to--locarno-treaties-1925
+from: treaty-of-versailles-1919
+to: locarno-treaties-1925
+type: led_to
+confidence: documented
+note: Problems arising from the treaty, including the Allies' delayed withdrawal from the Rhineland, prompted
+  the Locarno negotiations.
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+  title: Treaty of Versailles
+  publisher: Wikipedia
+  quote: The problems that arose from the treaty would lead to the Locarno Treaties, which improved relations
+    between Germany and the other European powers.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: The push for the Locarno Treaties came as an indirect result of the Allies' refusal to withdraw
+    their troops from the Cologne region
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,48 @@
+id: fisher-permanently-high-plateau-1929
+title: Irving Fisher's "permanently high plateau"
+summary: Irving Fisher, then one of the best-known economists in the United States, said that stock prices
+  had reached "what looks like a permanently high plateau"; the remark appeared in the New York Times
+  on 16 October 1929, about a week before the crash.
+occurred:
+  start: '1929-10-16'
+  precision: day
+  note: Date the remark appeared in the New York Times.
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- irving-fisher
+- united-states
+importance: 2
+source_credibility: high
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: After prices peaked, economist Irving Fisher proclaimed, "stock prices have reached 'what looks
+    like a permanently high plateau.'"
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: Irving Fisher's quote appeared in the New York Times on October 16, 1929, p. 8.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: At the time, Fisher was one of the nation's most well-known and widely quoted economists.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - A reassurance that proved wrong rather than a warning; outcome 'false' means the predicted calm did
+    not happen.

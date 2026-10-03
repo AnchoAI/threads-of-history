@@ -1,0 +1,43 @@
+id: wall-street-crash-1929
+title: Wall Street crash
+summary: US stock prices collapsed on the New York Stock Exchange in late October 1929, most sharply on
+  Black Thursday (24 October) and on Black Monday and Black Tuesday (28–29 October). Prices kept falling
+  until July 1932, by when the market had lost some 90% of its pre-crash value.
+occurred:
+  start: '1929-10-24'
+  end: '1929-10-29'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q201684
+sources:
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: It is most associated with October 24, 1929, known as "Black Thursday"
+  type: reference
+  accessed: '2026-10-03'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: On Black Monday, October 28, 1929, the Dow declined nearly 13 percent. On the following day,
+    Black Tuesday, the market dropped nearly 12 percent.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: Further action failed to halt the fall, which continued until July 8, 1932; by then, the stock
+    market had lost some 90% of its pre-crash value.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
