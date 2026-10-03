@@ -1,0 +1,24 @@
+id: great-depression-1929--led_to--smoot-hawley-tariff-act-1930
+from: great-depression-1929
+to: smoot-hawley-tariff-act-1930
+type: led_to
+confidence: documented
+note: Congress passed the tariff as an early response to the crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: In an initial response to the crisis, the U.S. Congress passed the Smoot–Hawley Tariff Act on
+    17 June 1930.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act
+  title: Smoot–Hawley Tariff Act
+  publisher: Wikipedia
+  quote: in an effort to shield American industries from foreign competition during the onset of the Great
+    Depression
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

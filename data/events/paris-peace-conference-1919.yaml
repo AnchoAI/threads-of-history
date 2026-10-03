@@ -1,0 +1,65 @@
+id: paris-peace-conference-1919
+title: Paris Peace Conference
+summary: The victorious Allied powers met in Paris from January 1919 to January 1920 to set the terms
+  of peace after the First World War. Its main decisions were the creation of the League of Nations and
+  five peace treaties with the defeated states, including reparations imposed on Germany and new national
+  borders.
+occurred:
+  start: '1919-01-18'
+  end: '1920-01-21'
+  precision: day
+threads:
+- interwar
+- ww1
+regions:
+- western-europe
+actors:
+- woodrow-wilson
+- georges-clemenceau
+- david-lloyd-george
+- france
+- united-kingdom
+- united-states
+- kingdom-of-italy
+- empire-of-japan
+importance: 4
+wikidata: Q199820
+sources:
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: The conference began on 18 January 1919.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: The conference came to an end on 21 January 1920, with the inaugural General Assembly of the
+    League of Nations.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: Its major decisions were the creation of the League of Nations and the five peace treaties with
+    the defeated states.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: the imposition of reparations upon Germany; and the drawing of new national boundaries
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: The "Big Four" leaders were French prime minister Georges Clemenceau, British prime minister
+    David Lloyd George, US president Woodrow Wilson
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Neiberg (quoted in the source) argues the formal peace process lasted until the Treaty of Lausanne
+    in July 1923; the end date here is the conference's close on 21 January 1920.
