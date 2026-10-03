@@ -1,0 +1,15 @@
+id: soviet-invasion-of-poland-1939--part_of--invasion-of-poland-1939
+from: soviet-invasion-of-poland-1939
+to: invasion-of-poland-1939
+type: part_of
+confidence: documented
+note: The Soviet invasion from the east was part of the joint invasion of Poland.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: Part of the invasion of Poland in World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

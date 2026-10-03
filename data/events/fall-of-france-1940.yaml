@@ -1,0 +1,50 @@
+id: fall-of-france-1940
+title: Fall of France
+summary: Germany invades the Low Countries and France on 10 May 1940. British and French troops are evacuated
+  from Dunkirk, France signs an armistice on 22 June, and the Vichy regime replaces the Third Republic.
+occurred:
+  start: '1940-05-10'
+  end: '1940-06-25'
+  precision: day
+threads:
+- ww2
+regions:
+- western-europe
+actors:
+- nazi-germany
+- france
+- united-kingdom
+importance: 4
+wikidata: Q151340
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_France
+  title: Battle of France
+  publisher: Wikipedia
+  quote: 'The Battle of France (French: Bataille de France; 10 May – 25 June 1940), also known as the
+    Fall of France, was the German invasion of the Low Countries (Belgium, Luxembourg and the Netherlands)
+    and France during the Second World War.'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_France
+  title: Battle of France
+  publisher: Wikipedia
+  quote: On 22 June 1940, the Second Armistice at Compiègne was signed by France and Germany.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_France
+  title: Battle of France
+  publisher: Wikipedia
+  quote: The fascist and collaborationist Vichy government, led by Marshal Philippe Pétain replaced the
+    Third Republic
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_France
+  title: Battle of France
+  publisher: Wikipedia
+  quote: British, Belgian and French forces were pushed back to the sea by the Germans where the British
+    and French navies evacuated the encircled elements of the British Expeditionary Force (BEF) and the
+    French and Belgian armies from Dunkirk in Operation Dynamo.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

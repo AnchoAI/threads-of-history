@@ -1,0 +1,25 @@
+id: wannsee-conference-1942--part_of--the-holocaust-1933-1945
+from: wannsee-conference-1942
+to: the-holocaust-1933-1945
+type: part_of
+confidence: documented
+note: The conference coordinated the deportation of Europe's Jews to be murdered in the Holocaust.
+sources:
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: In the course of the meeting, Heydrich outlined how European Jews would be rounded up and sent
+    to extermination camps in the General Government (the occupied part of Poland), where they would be
+    murdered in the Holocaust.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution
+  title: Wannsee Conference and the "Final Solution"
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Wannsee Conference was a high-level meeting of German officials to discuss and implement
+    the so-called “Final Solution to the Jewish Question” (mass killing).
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,20 @@
+id: winter-war-1939-1940--led_to--operation-barbarossa-1941
+from: winter-war-1939-1940
+to: operation-barbarossa-1941
+type: led_to
+confidence: documented
+note: The Red Army's poor performance in Finland encouraged Hitler to believe an attack on the Soviet
+  Union would succeed.
+sources:
+- url: https://en.wikipedia.org/wiki/Winter_War
+  title: Winter War
+  publisher: Wikipedia
+  quote: The poor performance of the Red Army encouraged German Chancellor Adolf Hitler to believe that
+    an attack on the Soviet Union would be successful and confirmed negative Western opinions of the Soviet
+    military.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - A contributing cause, not the main one; the source supports only that it encouraged Hitler's belief.

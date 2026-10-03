@@ -1,0 +1,15 @@
+id: winter-war-1939-1940--part_of--second-world-war-1939-1945
+from: winter-war-1939-1940
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Winter_War
+  title: Winter War
+  publisher: Wikipedia
+  quote: Part of the European theatre of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

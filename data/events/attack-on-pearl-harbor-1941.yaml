@@ -1,0 +1,40 @@
+id: attack-on-pearl-harbor-1941
+title: Attack on Pearl Harbor
+summary: Japan launches a surprise air attack on the US Pacific Fleet at Pearl Harbor, Hawaii, on 7 December
+  1941, killing 2,403 Americans. The United States and the United Kingdom declare war on Japan the next
+  day.
+occurred:
+  start: '1941-12-07'
+  precision: day
+threads:
+- ww2
+regions:
+- americas
+- east-asia
+actors:
+- empire-of-japan
+- united-states
+importance: 4
+wikidata: Q52418
+sources:
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: The Empire of Japan launched a surprise military attack on the US Pacific Fleet at its naval
+    base at Pearl Harbor in Oahu, Hawaii, on December 7, 1941.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: 2,403 total military and civilians killed
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: On December 8, both the United Kingdom and the US declared war on Japan.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

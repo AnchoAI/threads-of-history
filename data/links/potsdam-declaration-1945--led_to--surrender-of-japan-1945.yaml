@@ -1,0 +1,18 @@
+id: potsdam-declaration-1945--led_to--surrender-of-japan-1945
+from: potsdam-declaration-1945
+to: surrender-of-japan-1945
+type: led_to
+confidence: documented
+note: Japan's surrender took the form of accepting the terms of the Potsdam Declaration.
+sources:
+- url: https://en.wikipedia.org/wiki/Hirohito_surrender_broadcast
+  archive_url: https://web.archive.org/web/20260930215953/https://en.wikipedia.org/wiki/Hirohito_surrender_broadcast
+  title: Hirohito surrender broadcast
+  publisher: Wikipedia
+  quote: The speech made no direct reference to a surrender of Japan, instead stating that the government
+    had been instructed to accept the "joint declaration" (the Potsdam Declaration) of the United States,
+    the United Kingdom, China, and the Soviet Union.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,48 @@
+id: battle-of-midway-1942
+title: Battle of Midway
+summary: A naval battle in the Pacific on 4–7 June 1942 in which US forces, forewarned by code breakers,
+  sink all four Japanese fleet carriers present. It is widely considered, with Guadalcanal, a turning
+  point in the Pacific War.
+occurred:
+  start: '1942-06-04'
+  end: '1942-06-07'
+  precision: day
+threads:
+- ww2
+- intel
+regions:
+- east-asia
+- americas
+actors:
+- united-states
+- empire-of-japan
+importance: 3
+wikidata: Q173034
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took
+    place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle
+    of the Coral Sea.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: All four Japanese fleet carriers present at the battle—Akagi, Kaga, Sōryū, and Hiryū were sunk,
+    as was the heavy cruiser Mikuma.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: The Battle of Midway, along with the Guadalcanal campaign, is widely considered a turning point
+    in the Pacific War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

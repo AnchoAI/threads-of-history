@@ -1,0 +1,37 @@
+id: us-declaration-of-war-on-japan-1941
+title: US declares war on Japan
+summary: On 8 December 1941, the day after Pearl Harbor, President Roosevelt gives his 'Day of Infamy'
+  speech to Congress, which declares war on Japan; the United States enters the Second World War. Germany
+  and Italy declare war on the US on 11 December.
+occurred:
+  start: '1941-12-08'
+  precision: day
+threads:
+- ww2
+regions:
+- americas
+actors:
+- united-states
+- franklin-d-roosevelt
+- empire-of-japan
+importance: 4
+wikidata: Q7892409
+sources:
+- url: https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan
+  title: Joint Address to Congress Leading to a Declaration of War Against Japan (1941)
+  publisher: US National Archives
+  quote: On December 8, 1941, the day after the Japanese attacked Pearl Harbor, President Franklin Roosevelt
+    delivered this "Day of Infamy Speech." Immediately afterward, Congress declared war, and the United
+    States entered World War II.
+  type: primary
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: On December 11, though they had no formal obligation to do so under the Tripartite Pact with
+    Japan, Germany and Italy each declared war on the United States, which responded by declaring war
+    on Germany and Italy.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,16 @@
+id: surrender-of-japan-1945--part_of--second-world-war-1939-1945
+from: surrender-of-japan-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Japan's surrender ended the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15
+    August and formally signed on 2 September 1945, ending the war.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
