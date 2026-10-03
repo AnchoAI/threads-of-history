@@ -1,0 +1,21 @@
+id: arthur-zimmermann
+title: Arthur Zimmermann
+actor_type: person
+summary: German diplomat (1864–1940).
+threads:
+- ww1
+regions:
+- western-europe
+importance: 3
+wikidata: Q57910
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q57910.json
+  title: Arthur Zimmermann
+  publisher: Wikidata
+  quote: German diplomat (1864–1940)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

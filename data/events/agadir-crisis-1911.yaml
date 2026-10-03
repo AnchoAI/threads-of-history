@@ -1,0 +1,54 @@
+id: agadir-crisis-1911
+title: Agadir Crisis
+summary: 'France sent troops into the interior of Morocco and Germany sent the gunboat SMS Panther to Agadir, arriving
+  on 1 July 1911. Negotiations ended the crisis on 4 November 1911: France took Morocco as a protectorate and Germany
+  received territory in the French Congo.'
+occurred:
+  start: '1911-07-01'
+  end: '1911-11-04'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- western-europe
+- middle-east-north-africa
+- sub-saharan-africa
+actors:
+- german-empire
+- france
+- united-kingdom
+importance: 3
+wikidata: Q164771
+sources:
+- url: https://en.wikipedia.org/wiki/Agadir_Crisis
+  title: Agadir Crisis
+  publisher: Wikipedia
+  quote: was a brief crisis sparked by the deployment of a substantial force of French troops in the interior of
+    Morocco in July 1911 and the deployment of the German gunboat SMS Panther to Agadir
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Agadir_Crisis
+  title: Agadir Crisis
+  publisher: Wikipedia
+  quote: On 1 July, the German gunboat SMS Panther arrived at the port of Agadir
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Agadir_Crisis
+  title: Agadir Crisis
+  publisher: Wikipedia
+  quote: 'Negotiations between Berlin and Paris resolved the crisis on 4 November 1911: France took over Morocco
+    as a protectorate'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Agadir_Crisis
+  title: Agadir Crisis
+  publisher: Wikipedia
+  quote: Germany accepted France's position in Morocco in return for territory in the French Equatorial African
+    colony of Middle Congo
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

@@ -1,0 +1,21 @@
+id: theobald-von-bethmann-hollweg
+title: Theobald von Bethmann Hollweg
+actor_type: person
+summary: German politician (1856–1921).
+threads:
+- ww1
+regions:
+- western-europe
+importance: 3
+wikidata: Q77113
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q77113.json
+  title: Theobald von Bethmann Hollweg
+  publisher: Wikidata
+  quote: German politician (1856–1921)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

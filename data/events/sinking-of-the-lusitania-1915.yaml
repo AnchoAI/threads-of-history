@@ -1,0 +1,41 @@
+id: sinking-of-the-lusitania-1915
+title: Sinking of the Lusitania
+summary: On 7 May 1915 the German submarine U-20 torpedoed the British liner RMS Lusitania off Ireland. 1,197 of
+  the 1,960 people aboard died, about 128 of them American citizens.
+occurred:
+  start: '1915-05-07'
+  precision: day
+threads:
+- ww1
+regions:
+- western-europe
+- americas
+actors:
+- german-empire
+- united-kingdom
+- united-states
+importance: 3
+wikidata: Q5551560
+sources:
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: Date 7 May 1915
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: Cause Torpedoed by German U-boat U-20 Outcome 1,197 of the 1,960 people aboard (61%) killed
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: about 128 of the dead were American citizens.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

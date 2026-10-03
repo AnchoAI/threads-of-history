@@ -1,0 +1,24 @@
+id: sinking-of-the-lusitania-1915--led_to--us-entry-into-world-war-i-1917
+from: sinking-of-the-lusitania-1915
+to: us-entry-into-world-war-i-1917
+type: led_to
+confidence: documented
+note: The sinking turned American opinion against Germany and contributed to US entry into the war two years later.
+sources:
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: It also contributed to the American entry into the war almost two years later, on 6 April 1917
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/American_entry_into_World_War_I
+  title: American entry into World War I
+  publisher: Wikipedia
+  quote: Americans increasingly came to see Imperial Germany as the aggressor in Europe.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself. The State Department history notes that Wilson avoided war
+    in 1915 after the sinking, so this is a contributing cause, not a direct one.

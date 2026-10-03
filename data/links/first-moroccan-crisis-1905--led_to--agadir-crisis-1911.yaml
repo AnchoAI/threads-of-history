@@ -1,0 +1,19 @@
+id: first-moroccan-crisis-1905--led_to--agadir-crisis-1911
+from: first-moroccan-crisis-1905
+to: agadir-crisis-1911
+type: led_to
+confidence: documented
+note: Wilhelm II, humiliated in the first crisis, was determined not to back down again in the second.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  archive_url: https://web.archive.org/web/20260903073806/https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  title: First Moroccan Crisis
+  publisher: Wikipedia
+  quote: Kaiser Wilhelm II was angry at being humiliated and was determined not to back down again, which led to
+    the German involvement in the Second Moroccan Crisis.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

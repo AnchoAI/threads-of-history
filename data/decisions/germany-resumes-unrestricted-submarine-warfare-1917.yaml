@@ -1,0 +1,72 @@
+id: germany-resumes-unrestricted-submarine-warfare-1917
+title: Germany decides to resume unrestricted submarine warfare
+summary: In January 1917 Germany's leaders decided to resume unrestricted submarine attacks on Allied and neutral
+  shipping from 1 February, expecting to defeat Britain before US troops could arrive. Chancellor Bethmann Hollweg
+  warned it would bring the United States into the war.
+occurred:
+  start: '1917-01'
+  precision: month
+threads:
+- ww1
+regions:
+- western-europe
+- americas
+actors:
+- wilhelm-ii
+- theobald-von-bethmann-hollweg
+- german-empire
+importance: 4
+decided_by:
+- wilhelm-ii
+- german-empire
+alternatives:
+- option: Keep the Sussex pledge and continue restricted submarine warfare
+  note: The course Bethmann Hollweg argued for; he warned that resuming unrestricted attacks would draw the United
+    States in.
+  sources:
+  - url: https://history.state.gov/milestones/1914-1920/wwi
+    title: U.S. Entry into World War I, 1917
+    publisher: Office of the Historian, U.S. Department of State
+    quote: German Chancellor Theobald von Bethmann-Hollweg protested this decision, believing that resuming submarine
+      warfare would draw the United States into the war on behalf of the Allies. This, he argued, would lead to
+      the defeat of Germany.
+    type: scholarly
+    accessed: '2026-10-03'
+sources:
+- url: https://history.state.gov/milestones/1914-1920/wwi
+  title: U.S. Entry into World War I, 1917
+  publisher: Office of the Historian, U.S. Department of State
+  quote: During a wartime conference that month, representatives from the German Navy convinced the military leadership
+    and Kaiser Wilhelm II that a resumption of unrestricted submarine warfare could help defeat Great Britain within
+    five months.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/wwi
+  title: U.S. Entry into World War I, 1917
+  publisher: Office of the Historian, U.S. Department of State
+  quote: the German Government decided to resume unrestricted submarine attacks on all Allied and neutral shipping
+    within prescribed war zones, reckoning that German submarines would end the war long before the first U.S. troopships
+    landed in Europe.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/wwi
+  title: U.S. Entry into World War I, 1917
+  publisher: Office of the Historian, U.S. Department of State
+  quote: German Chancellor Theobald von Bethmann-Hollweg protested this decision, believing that resuming submarine
+    warfare would draw the United States into the war on behalf of the Allies.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+  title: Zimmermann telegram
+  publisher: Wikipedia
+  quote: On February 1, Germany announced resumption of "unrestricted" submarine warfare
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - 'Dated to the month: the State Department history says ''a wartime conference that month'' (January 1917). Wikipedia''s
+    Unrestricted submarine warfare article refers to a 9 January 1917 Crown Council meeting only in an image caption,
+    so the day was not used.'
+  - The decision was communicated to the US on 31 January and took effect on 1 February 1917.
