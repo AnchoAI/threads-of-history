@@ -9,7 +9,8 @@ regions:
 importance: 3
 wikidata: Q28513
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q28513.json
+- archive_url: https://web.archive.org/web/20260811015719/https://www.wikidata.org/wiki/Special:EntityData/Q28513.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q28513.json
   title: Austria–Hungary
   publisher: Wikidata
   quote: 1867–1918 empire in Central Europe

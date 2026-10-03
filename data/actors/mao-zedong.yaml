@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q5816
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q5816.json
+- archive_url: https://web.archive.org/web/20260920222017/https://www.wikidata.org/wiki/Special:EntityData/Q5816.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q5816.json
   title: Mao Zedong
   publisher: Wikidata
   quote: 1st chairman of the Chinese Communist Party and founder of the People's Republic of China (1893–1976)

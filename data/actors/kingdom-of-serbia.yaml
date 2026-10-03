@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q241748
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q241748.json
+- archive_url: https://web.archive.org/web/20220818122723/https://www.wikidata.org/wiki/Special:EntityData/Q241748.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q241748.json
   title: Kingdom of Serbia
   publisher: Wikidata
   quote: 1882–1918 kingdom in Southeastern Europe

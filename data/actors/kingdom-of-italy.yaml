@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q172579
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q172579.json
+- archive_url: https://web.archive.org/web/20251118123055/https://www.wikidata.org/wiki/Special:EntityData/Q172579.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q172579.json
   title: Kingdom of Italy
   publisher: Wikidata
   quote: kingdom in Southern Europe from 1861 to 1946

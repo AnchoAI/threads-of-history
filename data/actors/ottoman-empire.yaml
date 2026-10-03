@@ -9,7 +9,8 @@ regions:
 importance: 3
 wikidata: Q12560
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q12560.json
+- archive_url: https://web.archive.org/web/20260929164520/https://www.wikidata.org/wiki/Special:EntityData/Q12560.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q12560.json
   title: Ottoman Empire
   publisher: Wikidata
   quote: empire with the monarchs from the Ottoman dynasty (1299–1922)

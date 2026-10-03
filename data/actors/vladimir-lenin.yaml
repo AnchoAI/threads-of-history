@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q1394
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q1394.json
+- archive_url: https://web.archive.org/web/20260924174252/https://www.wikidata.org/wiki/Special:EntityData/Q1394.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q1394.json
   title: Vladimir Lenin
   publisher: Wikidata
   quote: founding leader of the Soviet Union (1870–1924)

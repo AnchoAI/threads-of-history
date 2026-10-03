@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q38130
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q38130.json
+- archive_url: https://web.archive.org/web/20250912072001/https://www.wikidata.org/wiki/Special:EntityData/Q38130.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q38130.json
   title: League of Nations
   publisher: Wikidata
   quote: 20th-century international organisation, predecessor to the United Nations

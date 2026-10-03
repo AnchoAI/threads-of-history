@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q1001
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q1001.json
+- archive_url: https://web.archive.org/web/20261002113807/https://www.wikidata.org/wiki/Special:EntityData/Q1001.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q1001.json
   title: Mahatma Gandhi
   publisher: Wikidata
   quote: Indian independence activist (1869–1948)

@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q34296
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q34296.json
+- archive_url: https://web.archive.org/web/20260902221551/https://www.wikidata.org/wiki/Special:EntityData/Q34296.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q34296.json
   title: Woodrow Wilson
   publisher: Wikidata
   quote: 28th President of the United States (1913–1921)

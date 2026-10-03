@@ -8,7 +8,8 @@ regions:
 importance: 3
 wikidata: Q188712
 sources:
-- url: https://www.wikidata.org/wiki/Special:EntityData/Q188712.json
+- archive_url: https://web.archive.org/web/20250818133958/https://www.wikidata.org/wiki/Special:EntityData/Q188712.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q188712.json
   title: Empire of Japan
   publisher: Wikidata
   quote: empire in the Asia-Pacific region from 1868 to 1947
