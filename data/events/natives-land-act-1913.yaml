@@ -1,0 +1,48 @@
+id: natives-land-act-1913
+title: Natives Land Act
+summary: South Africa's Parliament largely bars the sale of land between white and black people, leaving
+  black areas at about 7% of the country's land. It was the Union Parliament's first major piece of segregation
+  legislation.
+occurred:
+  start: '1913-06-19'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors: []
+importance: 3
+wikidata: Q444974
+sources:
+- url: https://www.sahistory.org.za/article/natives-land-act-1913
+  title: The Natives Land Act of 1913
+  publisher: South African History Online
+  quote: 'passing of the Natives Land Act (No: 27) on 19 June 1913'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Natives_Land_Act,_1913
+  title: Natives Land Act, 1913
+  publisher: Wikipedia
+  quote: It largely prohibited the sale of land from whites to blacks and vice-versa.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Natives_Land_Act,_1913
+  title: Natives Land Act, 1913
+  publisher: Wikipedia
+  quote: The Natives Land Act of 1913 was the first major piece of segregation legislation passed by the
+    Union Parliament.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Natives_Land_Act,_1913
+  title: Natives Land Act, 1913
+  publisher: Wikipedia
+  quote: The black areas left initially totalled around 7% of the entire land mass of the Union, which
+    was later expanded to 13%.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Wikipedia's infobox lists both 16 June and 19 June 1913 without labels in the fetched text; 19 June
+    is taken from South African History Online. Check which is assent and which commencement.

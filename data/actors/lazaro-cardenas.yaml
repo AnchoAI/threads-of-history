@@ -1,0 +1,21 @@
+id: lazaro-cardenas
+title: Lázaro Cárdenas
+actor_type: person
+summary: 51st President of Mexico (1934–1940).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q296718
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q296718.json
+  title: Lázaro Cárdenas
+  publisher: Wikidata
+  quote: 51st President of Mexico
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

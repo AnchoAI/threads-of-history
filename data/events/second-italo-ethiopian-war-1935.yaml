@@ -9,6 +9,7 @@ occurred:
   end: '1936-05-05'
   precision: day
 threads:
+- empire
 - interwar
 regions:
 - sub-saharan-africa
@@ -70,3 +71,6 @@ sources:
   accessed: '2026-10-03'
 review:
   status: sourced
+  notes:
+  - Created separately by two batches (interwar and global south) with the same id and matching sources;
+    merged into one file. No person has reviewed it yet.

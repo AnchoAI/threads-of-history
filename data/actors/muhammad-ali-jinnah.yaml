@@ -1,0 +1,21 @@
+id: muhammad-ali-jinnah
+title: Muhammad Ali Jinnah
+actor_type: person
+summary: Politician and the founder of Pakistan (1876–1948).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q160554
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q160554.json
+  title: Muhammad Ali Jinnah
+  publisher: Wikidata
+  quote: politician and the founder of Pakistan (1876–1948)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

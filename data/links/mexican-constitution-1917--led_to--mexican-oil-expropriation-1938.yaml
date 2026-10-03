@@ -1,0 +1,26 @@
+id: mexican-constitution-1917--led_to--mexican-oil-expropriation-1938
+from: mexican-constitution-1917
+to: mexican-oil-expropriation-1938
+type: led_to
+confidence: documented
+note: Article 27 of the constitution gave the government the power used in the 1938 oil expropriation.
+sources:
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: Article 27 also empowered the government to expropriate holdings of foreign companies, most prominently
+    seen in the 1938 expropriation of oil.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  archive_url: https://web.archive.org/web/20260905105532/https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  title: Mexican oil expropriation
+  publisher: Wikipedia
+  quote: In accordance with Article 27 of the Constitution of 1917, President Lázaro Cárdenas declared
+    that all mineral and oil reserves found within Mexico belong to the nation.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

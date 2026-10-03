@@ -1,0 +1,21 @@
+id: ho-chi-minh
+title: Ho Chi Minh
+actor_type: person
+summary: Vietnamese communist leader, founder of North Vietnam (1890–1969).
+threads: []
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q36014
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q36014.json
+  title: Ho Chi Minh
+  publisher: Wikidata
+  quote: Vietnamese communist leader, founder of North Vietnam (1890–1969)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

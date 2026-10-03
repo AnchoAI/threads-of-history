@@ -1,0 +1,47 @@
+id: mexican-oil-expropriation-1938
+title: Mexican oil expropriation
+summary: President Lázaro Cárdenas nationalises Mexico's petroleum reserves and foreign oil companies
+  under Article 27 of the 1917 constitution, creating the state company PEMEX. An international boycott
+  of Mexican products followed.
+occurred:
+  start: '1938-03-18'
+  precision: day
+threads:
+- energy
+- empire
+regions:
+- americas
+actors:
+- mexico
+- lazaro-cardenas
+importance: 3
+wikidata: Q2161196
+sources:
+- url: https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  archive_url: https://web.archive.org/web/20260905105532/https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  title: Mexican oil expropriation
+  publisher: Wikipedia
+  quote: was the nationalization of all petroleum reserves, facilities, and foreign oil companies in Mexico
+    on March 18, 1938. In accordance with Article 27 of the Constitution of 1917, President Lázaro Cárdenas
+    declared
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  archive_url: https://web.archive.org/web/20260905105532/https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  title: Mexican oil expropriation
+  publisher: Wikipedia
+  quote: The Mexican government established a state-owned petroleum company, Petróleos Mexicanos, or PEMEX.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  archive_url: https://web.archive.org/web/20260905105532/https://en.wikipedia.org/wiki/Mexican_oil_expropriation
+  title: Mexican oil expropriation
+  publisher: Wikipedia
+  quote: this measure caused an international boycott of Mexican products
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

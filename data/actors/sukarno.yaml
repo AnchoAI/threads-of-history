@@ -1,0 +1,21 @@
+id: sukarno
+title: Sukarno
+actor_type: person
+summary: First President of Indonesia (1901–1970).
+threads: []
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q76127
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q76127.json
+  title: Sukarno
+  publisher: Wikidata
+  quote: 1st President of Indonesia (1901—1970)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

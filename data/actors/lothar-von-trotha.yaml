@@ -1,0 +1,21 @@
+id: lothar-von-trotha
+title: Lothar von Trotha
+actor_type: person
+summary: German general (1848–1920).
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q65898
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q65898.json
+  title: Lothar von Trotha
+  publisher: Wikidata
+  quote: German general (1848-1920)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

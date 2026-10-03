@@ -1,0 +1,21 @@
+id: all-india-muslim-league
+title: All-India Muslim League
+actor_type: organization
+summary: Political party within the Indian Empire (1906–1947).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q223898
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q223898.json
+  title: All-India Muslim League
+  publisher: Wikidata
+  quote: political party within the Indian Empire
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
