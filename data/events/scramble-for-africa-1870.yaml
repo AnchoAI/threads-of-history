@@ -1,0 +1,50 @@
+id: scramble-for-africa-1870
+title: Scramble for Africa
+summary: 'European powers colonise almost all of Africa: from about 10% of the continent in the 1870s to all but
+  Ethiopia and Liberia by 1914. The borders drawn then largely outlived colonial rule.'
+occurred:
+  start: '1870'
+  end: '1914'
+  precision: decade
+threads:
+- empire
+regions:
+- sub-saharan-africa
+- middle-east-north-africa
+actors:
+- british-empire
+- france
+- german-empire
+- leopold-ii-of-belgium
+importance: 5
+wikidata: Q179848
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: 1870s–1914 European colonisation of Africa
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: As late as the 1870s, Europeans controlled approximately 10% of the African continent
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: By 1914, only Ethiopia and Liberia remained outside European control
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.aeaweb.org/research/are-colonial-era-borders-holding-africa-back
+  title: Are colonial-era borders holding Africa back?
+  publisher: American Economic Association
+  quote: Despite their arbitrariness, these boundaries outlived the colonial era.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

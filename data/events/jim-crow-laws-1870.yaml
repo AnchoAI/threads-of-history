@@ -1,0 +1,46 @@
+id: jim-crow-laws-1870
+title: Jim Crow laws
+summary: Southern US states pass laws enforcing racial segregation in public facilities and excluding most African
+  Americans from voting, from the 1870s until the mid-1960s. The Supreme Court upheld them in Plessy v. Ferguson
+  (1896).
+occurred:
+  start: '1870'
+  end: '1965'
+  precision: decade
+threads:
+- rights
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q865365
+sources:
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: In practice, Jim Crow laws mandated racial segregation in all public facilities in the South, beginning
+    in the 1870s. Jim Crow laws were upheld in 1896 in the case of Plessy v. Ferguson
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: Companion laws excluded most African Americans from the vote in the South.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: Most remaining Jim Crow laws were overturned by the Civil Rights Act of 1964 and the Voting Rights Act
+    of 1965
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

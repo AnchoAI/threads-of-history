@@ -1,0 +1,24 @@
+id: scramble-for-africa-1870--led_to--oau-border-resolution-1964
+from: scramble-for-africa-1870
+to: oau-border-resolution-1964
+type: led_to
+confidence: documented
+note: Independent African states chose to keep the borders drawn in the colonial era, fearing civil wars and instability.
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: most African colonies gained independence during the Cold War, and decided to keep their colonial borders
+    in the Organisation of African Unity conference of 1964 due to fears of civil wars and regional instability
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.aeaweb.org/research/are-colonial-era-borders-holding-africa-back
+  title: Are colonial-era borders holding Africa back?
+  publisher: American Economic Association
+  quote: Despite their arbitrariness, these boundaries outlived the colonial era.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

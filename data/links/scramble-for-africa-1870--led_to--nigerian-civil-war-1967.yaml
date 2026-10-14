@@ -1,0 +1,77 @@
+id: scramble-for-africa-1870--led_to--nigerian-civil-war-1967
+from: scramble-for-africa-1870
+to: nigerian-civil-war-1967
+type: led_to
+confidence: contested
+note: Whether borders and colonies drawn in the Scramble caused later wars such as Biafra is debated; the 1966 coups
+  were the immediate cause.
+sources:
+- &id001
+  url: https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+  archive_url: https://web.archive.org/web/20261003023531/https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+  title: '"No Victor and No Vanquished" - Fifty Years after the Biafran War'
+  publisher: Origins (Ohio State University)
+  quote: If the coup of January 15, 1966 was the immediate cause of the civil war, its historical roots are traceable
+    to British colonial rule.
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+  archive_url: https://web.archive.org/web/20261003023531/https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+  title: '"No Victor and No Vanquished" - Fifty Years after the Biafran War'
+  publisher: Origins (Ohio State University)
+  quote: Following the Berlin West African Conference of 1884/85—at which European imperial powers agreed on the
+    principles of claiming colonial holdings—the British began expanding from their coastal enclave around the port
+    of Lagos into the Nigerian interior.
+  type: scholarly
+  accessed: '2026-10-14'
+positions:
+- claim: The war's historical roots lie in British colonial rule, which forcibly amalgamated different peoples into
+    one colony; Nigerian nationalists' failures also contributed.
+  held_by:
+  - Ousman Murzik Kobo
+  sources:
+  - *id001
+  - url: https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+    archive_url: https://web.archive.org/web/20261003023531/https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary
+    title: '"No Victor and No Vanquished" - Fifty Years after the Biafran War'
+    publisher: Origins (Ohio State University)
+    quote: The causes of the Biafran crisis can therefore be located at the confluence of British colonial manipulation
+      of ethnic differences and the failure of Nigerian nationalists to implement political arrangements that would
+      foster political and economic equality.
+    type: scholarly
+    accessed: '2026-10-14'
+- claim: Ethnic groups split by the arbitrary borders of the Scramble suffer more, more severe and longer violence.
+  held_by:
+  - Stelios Michalopoulos
+  - Elias Papaioannou
+  sources:
+  - url: https://www.nber.org/papers/w17620
+    title: The Long-Run Effects of the Scramble for Africa
+    publisher: National Bureau of Economic Research
+    date: 2011-11
+    quote: we find that the incidence, severity and duration of violence are higher in the historical homelands
+      of partitioned groups
+    type: scholarly
+    accessed: '2026-10-14'
+- claim: Africa's boundaries, though called arbitrary, were a rational response by colonialists and later African
+    leaders to the continent's demographic and ethnographic structure, contrary to prevailing theories.
+  held_by:
+  - Jeffrey Herbst
+  sources:
+  - url: https://ideas.repec.org/a/cup/intorg/v43y1989i04p673-692_03.html
+    title: The creation and maintenance of national boundaries in Africa
+    publisher: International Organization (abstract on IDEAS/RePEc)
+    date: '1989'
+    quote: This article argues that, contrary to current theories, the present boundary system represents a rational
+      response by both the colonialists and the present-day African leaders to the constraints imposed by the demographic
+      and ethnographic structure of the continent.
+    type: scholarly
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - Michalopoulos and Papaioannou study partitioned ethnic homelands across Africa, not Nigeria specifically; Herbst
+    disputes the arbitrary-borders framing rather than this war specifically.
+  - A source that argues directly that colonial borders did not cause the Biafran war would strengthen the contested
+    side; none was found in this session.

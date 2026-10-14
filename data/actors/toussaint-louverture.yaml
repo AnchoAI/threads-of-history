@@ -1,0 +1,20 @@
+id: toussaint-louverture
+title: Toussaint Louverture
+actor_type: person
+summary: Haitian national hero (1743–1803).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q205783
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q205783.json
+  title: Toussaint Louverture
+  publisher: Wikidata
+  quote: Haitian national hero (1743–1803)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

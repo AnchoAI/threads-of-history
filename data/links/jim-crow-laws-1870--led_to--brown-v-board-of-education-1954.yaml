@@ -1,0 +1,30 @@
+id: jim-crow-laws-1870--led_to--brown-v-board-of-education-1954
+from: jim-crow-laws-1870
+to: brown-v-board-of-education-1954
+type: led_to
+confidence: documented
+note: The NAACP brought Brown to challenge school segregation upheld under Plessy v. Ferguson; the Court overturned
+  Plessy for public schools.
+sources:
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: The NAACP Legal Defense Committee (a group that became independent of the NAACP) – and its lawyer, Thurgood
+    Marshall – brought the landmark case Brown v. Board of Education of Topeka, 347 U.S. 483 (1954) before the U.S.
+    Supreme Court under Chief Justice Earl Warren. In its pivotal 1954 decision, the Warren Court unanimously (9–0)
+    overturned the 1896 Plessy decision.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  archive_url: https://web.archive.org/web/20261012040836/https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  title: Brown v. Board of Education
+  publisher: Wikipedia
+  quote: For much of the 60 years preceding the Brown case, race relations in the United States had been dominated
+    by racial segregation.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
