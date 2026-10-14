@@ -1,0 +1,20 @@
+id: first-moroccan-crisis-1905--part_of--scramble-for-africa-1870
+from: first-moroccan-crisis-1905
+to: scramble-for-africa-1870
+type: part_of
+confidence: documented
+note: The Kaiser used the contested territory of Morocco to test the Anglo-French entente, in a rivalry the Berlin
+  rules had not ended.
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: Although the Berlin Conference had set the rules for the Scramble for Africa, it had not weakened the rival
+    imperialists. As a result of the Entente Cordiale, the German Kaiser decided to test the solidity of such influence,
+    using the contested territory of Morocco as a battlefield.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

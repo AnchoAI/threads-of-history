@@ -1,0 +1,27 @@
+id: maji-maji-rebellion-1905--part_of--scramble-for-africa-1870
+from: maji-maji-rebellion-1905
+to: scramble-for-africa-1870
+type: part_of
+confidence: documented
+note: Covered in the Scramble for Africa as one of the revolts against German rule in 1904–08.
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: Between 1904 and 1908, Germany's colonies in German South West Africa and German East Africa were rocked
+    by separate, contemporaneous native revolts against their rule.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: the Maji-Maji rebels in German East Africa being steadily crushed by German forces slowly advancing through
+    the countryside
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - The source treats the Maji Maji Rebellion as a section of the Scramble article; it does not use the words "part
+    of".

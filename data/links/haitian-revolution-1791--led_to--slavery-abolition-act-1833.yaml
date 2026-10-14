@@ -1,0 +1,64 @@
+id: haitian-revolution-1791--led_to--slavery-abolition-act-1833
+from: haitian-revolution-1791
+to: slavery-abolition-act-1833
+type: led_to
+confidence: contested
+note: Eric Williams argued that slave revolts from Haiti to Jamaica, with economic change and evangelical antislavery,
+  brought the end of British slavery; his critics stress humanitarian and moral motives.
+sources:
+- url: https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+  archive_url: https://web.archive.org/web/20261011065627/https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+  title: Capitalism and Slavery
+  publisher: Wikipedia
+  quote: These interacted with the rise of evangelical antislavery and with the self-emancipation of slave rebels,
+    from the Haitian Revolution of 1792–1804 to the Jamaica Christmas Rebellion of 1831, to bring the end of slavery
+    in the 1830s.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Economic change, evangelical antislavery and slave rebellions from Haiti to Jamaica together brought the
+    end of slavery in the 1830s.
+  held_by:
+  - Eric Williams
+  sources:
+  - url: https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    archive_url: https://web.archive.org/web/20261011065627/https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    title: Capitalism and Slavery
+    publisher: Wikipedia
+    quote: These interacted with the rise of evangelical antislavery and with the self-emancipation of slave rebels,
+      from the Haitian Revolution of 1792–1804 to the Jamaica Christmas Rebellion of 1831, to bring the end of slavery
+      in the 1830s.
+    type: reference
+    accessed: '2026-10-14'
+- claim: Moral and humanitarian motives were key to British abolition, and the empire was propelled by benevolent
+    impulses.
+  held_by:
+  - Reginald Coupland
+  sources:
+  - url: https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    archive_url: https://web.archive.org/web/20261011065627/https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    title: Capitalism and Slavery
+    publisher: Wikipedia
+    quote: It was also a critique of the idea common in the 1930s, and in particular advocated by Reginald Coupland,
+      that the British Empire was essentially propelled by benevolent impulses.
+    type: reference
+    accessed: '2026-10-14'
+- claim: British abolition came from the moral outrage of the voting public rather than economic decline.
+  held_by:
+  - Seymour Drescher
+  sources:
+  - url: https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    archive_url: https://web.archive.org/web/20261011065627/https://en.wikipedia.org/wiki/Capitalism_and_Slavery
+    title: Capitalism and Slavery
+    publisher: Wikipedia
+    quote: Seymour Drescher in Econocide (1977) argued that the United Kingdom's abolition of the slave trade in
+      1807 resulted not from the diminishing value of slavery for the nation, but instead from the moral outrage
+      of the British public which could vote.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - The Williams source dates the Haitian Revolution 1792–1804; this item uses 1791 from the Haitian Revolution
+    article.

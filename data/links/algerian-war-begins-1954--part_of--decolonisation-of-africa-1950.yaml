@@ -1,0 +1,18 @@
+id: algerian-war-begins-1954--part_of--decolonisation-of-africa-1950
+from: algerian-war-begins-1954
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The Algerian War is one of the major events of African decolonisation.
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Major events during the decolonisation of Africa include the Mau Mau rebellion, the Algerian War, the Congo
+    Crisis
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,26 @@
+id: herero-and-nama-genocide-1904--part_of--scramble-for-africa-1870
+from: herero-and-nama-genocide-1904
+to: scramble-for-africa-1870
+type: part_of
+confidence: documented
+note: Covered in the Scramble for Africa as part of Germany's colonial wars in South West Africa.
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: Between 1904 and 1908, Germany's colonies in German South West Africa and German East Africa were rocked
+    by separate, contemporaneous native revolts against their rule.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: German efforts to clear the bush of civilians in German South West Africa resulted in a genocide of the
+    population.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - The source treats the Herero Wars as a section of the Scramble article; it does not use the words "part of".
