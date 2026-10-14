@@ -108,3 +108,28 @@ test("a sub-event at least as important as its parent is never folded away", () 
     part.importance = saved;
   }
 });
+
+test("compressed past: the ends stay put, order is kept, the recent past gets more room", () => {
+  const w = new TimeWindow(600, 2027, [600, 2027], { compressed: true });
+  assert.ok(Math.abs(w.x(600) + WORLD_LENGTH / 2) < 1e-9);
+  assert.ok(Math.abs(w.x(2027) - WORLD_LENGTH / 2) < 1e-9);
+  const xs = [600, 1054, 1517, 1789, 1914, 1945, 2001, 2026].map((t) => w.x(t));
+  assert.ok(xs.every((x, i) => i === 0 || x > xs[i - 1]));
+  const lastCentury = w.x(2027) - w.x(1927);
+  assert.ok(lastCentury / WORLD_LENGTH > 0.2, `last century gets ${lastCentury / WORLD_LENGTH}`);
+  const even = new TimeWindow(600, 2027);
+  assert.ok(lastCentury > 3 * (even.x(2027) - even.x(1927)));
+  for (const t of [650, 1200, 1900, 2020]) assert.ok(Math.abs(w.fromShare(w.share(t)) - t) < 1e-6);
+});
+
+test("compressed past: ticks are spread out on screen and reach the recent end", () => {
+  const w = new TimeWindow(600, 2027, [600, 2027], { compressed: true });
+  const ts = ticks(w);
+  const xs = ts.map((tk) => w.x(tk.t));
+  assert.ok(ts.length >= 8 && ts.length <= 16, `${ts.length} ticks`);
+  assert.ok(xs.every((x, i) => i === 0 || x - xs[i - 1] >= WORLD_LENGTH / (12 * 1.15) - 1e-9));
+  assert.ok(ts.some((tk) => tk.t > 1990));
+  // A narrow window behaves as before.
+  w.set(1914, 1919);
+  assert.ok(ticks(w).length >= 4);
+});

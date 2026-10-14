@@ -13,7 +13,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { LINK_TYPES, esc, yearLabel } from "./data.js";
 import { computeLanes } from "./layout.js";
-import { TimeWindow, WORLD_LENGTH, ticks } from "./timescale.js";
+import { TimeWindow, WORLD_LENGTH, DEEP_SPAN, ticks } from "./timescale.js";
 import { chooseVisible, inWindow, parents, span } from "./visibility.js";
 
 const R = 26;          // 3D lane radius for up to 10 lanes; grows gently beyond that
@@ -54,7 +54,7 @@ export class Timeline {
     const starts = data.nodes.map((n) => n.occurred.range[0]);
     const lo = Math.floor(Math.min(...starts) / 10) * 10 - 2;
     const hi = Math.max(Math.ceil(Math.max(...starts)), new Date().getFullYear()) + 1;
-    this.window = new TimeWindow(lo, hi);
+    this.window = new TimeWindow(lo, hi, [lo, hi], { compressed: hi - lo > DEEP_SPAN });
 
     this.renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
@@ -392,6 +392,12 @@ export class Timeline {
 
   setWindow(t0, t1) {
     this.window.set(t0, t1);
+    this.relayout();
+  }
+
+  // Compressed past (square-root time) or even time.
+  setCompressed(on) {
+    this.window.compressed = on;
     this.relayout();
   }
 

@@ -119,6 +119,21 @@ async function start() {
     };
   }
 
+  // ---- time scale: compressed past or even time (only offered for long timelines)
+  const timeButtons = document.querySelectorAll(".seg button[data-time]");
+  const syncTime = () => timeButtons.forEach((x) =>
+    x.setAttribute("aria-pressed", String((x.dataset.time === "compressed") === timeline.window.compressed)));
+  $("timeScale").hidden = !timeline.window.compressed;
+  syncTime();
+  for (const b of timeButtons) {
+    b.onclick = () => {
+      timeline.setCompressed(b.dataset.time === "compressed");
+      syncTime();
+      bar?.draw();
+      if (selected) timeline.focus(selected);
+    };
+  }
+
   // ---- 3D or 2D
   const viewButtons = document.querySelectorAll(".seg button[data-view]");
   for (const b of viewButtons) {

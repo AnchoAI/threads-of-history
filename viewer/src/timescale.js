@@ -4,14 +4,39 @@
 
 export const WORLD_LENGTH = 450;          // world units the window always spans
 export const MIN_SPAN = 6 / (24 * 365.25); // six hours, in years
+export const DEEP_SPAN = 300;              // with more years than this, the past is compressed by default
 
 const DAY = 1 / 365.25;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+// "Compressed past": with a long timeline, x follows the square root of the time before the
+// end of the limits, so the last century gets a fair share of the axis next to the first
+// millennium. Zooming and panning still work in years; only the drawing is warped, and a
+// narrow window is nearly linear.
 export class TimeWindow {
-  constructor(t0, t1, limits = [t0, t1]) {
+  constructor(t0, t1, limits = [t0, t1], { compressed = false } = {}) {
     this.limits = limits;
+    this.compressed = compressed;
     this.set(t0, t1);
+  }
+
+  warp(t) {
+    return this.compressed ? -Math.sqrt(Math.max(this.limits[1] + 1 - t, 0)) : t;
+  }
+
+  unwarp(u) {
+    return this.compressed ? this.limits[1] + 1 - u * u : u;
+  }
+
+  // Where t falls across the full limits, 0..1, on the current scale (for the time strip).
+  share(t) {
+    const [lo, hi] = this.limits;
+    return (this.warp(t) - this.warp(lo)) / (this.warp(hi) - this.warp(lo));
+  }
+
+  fromShare(f) {
+    const [lo, hi] = this.limits;
+    return this.unwarp(this.warp(lo) + f * (this.warp(hi) - this.warp(lo)));
   }
 
   get span() {
@@ -49,7 +74,8 @@ export class TimeWindow {
   }
 
   x(t) {
-    return ((t - this.t0) / this.span - 0.5) * WORLD_LENGTH;
+    const a = this.warp(this.t0), b = this.warp(this.t1);
+    return ((this.warp(t) - a) / (b - a) - 0.5) * WORLD_LENGTH;
   }
 
   contains(t0, t1 = t0) {
@@ -65,15 +91,37 @@ const STEPS = [
 ];
 
 export function ticks(win, target = 12) {
-  const approx = { year: 1, month: 1 / 12, day: DAY, hour: DAY / 24 };
+  if (win.compressed) return warpedTicks(win, target);
   // The finest step that still gives no more than `target` ticks.
   let [n, unit] = STEPS[0];
   for (const [sn, su] of [...STEPS].reverse()) {
-    if (win.span / (sn * approx[su]) <= target) { n = sn; unit = su; break; }
+    if (win.span / (sn * APPROX[su]) <= target) { n = sn; unit = su; break; }
   }
+  return stepTicks(win, n, unit);
+}
+
+const APPROX = { year: 1, month: 1 / 12, day: DAY, hour: DAY / 24 };
+
+// With a compressed past one step doesn't fit everywhere: centuries suit the far past and
+// years the recent end. Take ticks from coarse to fine steps, keeping each one only if it
+// is far enough on screen from the ticks already kept.
+function warpedTicks(win, target) {
+  const gap = WORLD_LENGTH / (target * 1.15);
+  const kept = [];
+  for (const [n, unit] of STEPS) {
+    if (win.span / (n * APPROX[unit]) > 3000) break;
+    for (const tk of stepTicks(win, n, unit, 3000)) {
+      const x = win.x(tk.t);
+      if (kept.every((k) => Math.abs(k.x - x) >= gap)) kept.push({ ...tk, x });
+    }
+  }
+  return kept.sort((a, b) => a.t - b.t).map(({ x, ...tk }) => tk);
+}
+
+function stepTicks(win, n, unit, max = 400) {
   const out = [];
   let d = floorTo(fromYear(win.t0), n, unit);
-  for (let guard = 0; guard < 400; guard++) {
+  for (let guard = 0; guard < max; guard++) {
     const t = toYear(d);
     if (t > win.t1) break;
     if (t >= win.t0) out.push({ t, label: label(d, unit), major: isMajor(d, n, unit) });
