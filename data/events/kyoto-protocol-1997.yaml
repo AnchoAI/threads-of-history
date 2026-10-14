@@ -1,0 +1,46 @@
+id: kyoto-protocol-1997
+title: Kyoto Protocol adopted
+summary: Adopted in Kyoto, the protocol extends the 1992 UN climate convention with legally binding emission limits
+  for most developed countries. It entered into force on 16 February 2005; the United States did not ratify it.
+occurred:
+  start: '1997-12-11'
+  precision: day
+threads:
+- industry
+regions:
+- east-asia
+- western-europe
+- americas
+actors:
+- united-nations
+importance: 4
+wikidata: Q47359
+sources:
+- url: https://en.wikipedia.org/wiki/Kyoto_Protocol
+  archive_url: https://web.archive.org/web/20261011074230/https://en.wikipedia.org/wiki/Kyoto_Protocol
+  title: Kyoto Protocol
+  publisher: Wikipedia
+  quote: The Kyoto Protocol was adopted in Kyoto, Japan, on 11 December 1997 and entered into force on 16 February
+    2005.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Climate_change
+  title: Climate change
+  publisher: Wikipedia
+  quote: The 1997 Kyoto Protocol extended the UNFCCC and included legally binding commitments for most developed
+    countries to limit their emissions.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Agreement
+  archive_url: https://web.archive.org/web/20261010211626/https://en.wikipedia.org/wiki/Paris_Agreement
+  title: Paris Agreement
+  publisher: Wikipedia
+  quote: The United States decided not to ratify the protocol, mainly because of its legally-binding nature.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q47359 is the treaty itself.

@@ -1,0 +1,59 @@
+id: columbian-exchange-1492
+title: Columbian exchange begins
+summary: After Columbus's 1492 voyage, plants, animals and diseases move between the Americas and Afro-Eurasia.
+  Old World diseases cut the Indigenous population of the Americas by 80–95%, while American crops such as maize
+  and potatoes raised food production and population in the Old World.
+occurred:
+  start: '1492'
+  precision: year
+  note: The exchange began with Columbus's first voyage and continued over the following centuries.
+threads:
+- industry
+- econ-crises
+regions:
+- americas
+- western-europe
+- sub-saharan-africa
+actors:
+- spanish-empire
+importance: 5
+wikidata: Q767253
+sources:
+- url: https://en.wikipedia.org/wiki/Columbian_exchange
+  archive_url: https://web.archive.org/web/20261011114811/https://en.wikipedia.org/wiki/Columbian_Exchange
+  title: Columbian exchange
+  publisher: Wikipedia
+  quote: The Columbian exchange, also known as the Columbian interchange, was the widespread transfer of plants,
+    animals, and diseases between the New World (the Americas) in the Western Hemisphere, and the Old World (Afro-Eurasia)
+    in the Eastern Hemisphere, from the late 15th century on.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Columbian_exchange
+  archive_url: https://web.archive.org/web/20261011114811/https://en.wikipedia.org/wiki/Columbian_Exchange
+  title: Columbian exchange
+  publisher: Wikipedia
+  quote: However, it was only with the first voyage of the Italian explorer Christopher Columbus and his crew to
+    the Americas in 1492 that the Columbian exchange began
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Columbian_exchange
+  archive_url: https://web.archive.org/web/20261011114811/https://en.wikipedia.org/wiki/Columbian_Exchange
+  title: Columbian exchange
+  publisher: Wikipedia
+  quote: Communicable diseases of Old World origin resulted in an 80 to 95 percent reduction in the Indigenous population
+    of the Americas from the 15th century onwards
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Columbian_exchange
+  archive_url: https://web.archive.org/web/20261011114811/https://en.wikipedia.org/wiki/Columbian_Exchange
+  title: Columbian exchange
+  publisher: Wikipedia
+  quote: The new contacts among the global population resulted in the interchange of many species of crops and livestock,
+    which supported increases in food production and population in the Old World.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

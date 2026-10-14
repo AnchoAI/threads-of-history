@@ -1,0 +1,37 @@
+id: jenners-smallpox-vaccination-1796--led_to--smallpox-eradicated-1980
+from: jenners-smallpox-vaccination-1796
+to: smallpox-eradicated-1980
+type: led_to
+confidence: documented
+note: Jenner's vaccine was the first step in the long process that eradicated smallpox; vaccination was an essential
+  part of the eradication campaign.
+sources:
+- url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1200696/
+  archive_url: https://web.archive.org/web/20261011173041/https://pmc.ncbi.nlm.nih.gov/articles/PMC1200696/
+  title: Edward Jenner and the history of smallpox and vaccination (Stefan Riedel)
+  publisher: Baylor University Medical Center Proceedings
+  date: '2005-01'
+  quote: 'The discovery and promotion of vaccination enabled the eradication of smallpox: this is Edward Jenner''s
+    ultimate vindication and memorial.'
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1200696/
+  archive_url: https://web.archive.org/web/20261011173041/https://pmc.ncbi.nlm.nih.gov/articles/PMC1200696/
+  title: Edward Jenner and the history of smallpox and vaccination (Stefan Riedel)
+  publisher: Baylor University Medical Center Proceedings
+  date: '2005-01'
+  quote: it was 1796 before he made the first step in the long process whereby smallpox, the scourge of mankind,
+    would be totally eradicated.
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Edward_Jenner
+  title: Edward Jenner
+  publisher: Wikipedia
+  quote: In 1980, the World Health Organization declared smallpox an eradicated disease. This was the result of
+    co-ordinated public health efforts, but vaccination was an essential component.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

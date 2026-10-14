@@ -1,0 +1,33 @@
+id: first-world-war-1914-1918--led_to--spanish-flu-1918
+from: first-world-war-1914-1918
+to: spanish-flu-1918
+type: led_to
+confidence: documented
+note: Wartime crowding and mass troop movements hastened the pandemic's spread; the war did not create the virus.
+sources:
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: The close quarters and massive troop movements of World War I hastened the pandemic, and probably both
+    increased transmission and augmented mutation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: Kenneth Kahn at Oxford University Computing Services writes that "Many researchers have suggested that
+    the conditions of the war significantly aided the spread of the disease.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: Helped by troop movements, it spread over the next two months to all of North America
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.
+  - The sources say the war hastened and spread the pandemic, not that it caused the outbreak. Its geographic origin
+    is disputed.

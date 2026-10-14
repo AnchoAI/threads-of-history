@@ -1,0 +1,56 @@
+id: haber-bosch-process-1909
+title: Haber–Bosch process developed
+summary: Fritz Haber demonstrates the synthesis of ammonia from the air in 1909; BASF's Carl Bosch scales it up,
+  and industrial production begins at Oppau in 1913. Synthetic nitrogen fertilizer made this way is estimated to
+  support about half the world's population today.
+occurred:
+  start: '1909'
+  end: '1913'
+  precision: year
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- fritz-haber
+- carl-bosch
+- german-empire
+importance: 5
+wikidata: Q213669
+sources:
+- url: https://en.wikipedia.org/wiki/Haber_process
+  archive_url: https://web.archive.org/web/20261005215044/https://en.wikipedia.org/wiki/Haber_process
+  title: Haber process
+  publisher: Wikipedia
+  quote: They demonstrated their process in the summer of 1909 by producing ammonia from the air, drop by drop,
+    at the rate of about 125 mL (4 US fl oz) per hour.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Haber_process
+  archive_url: https://web.archive.org/web/20261005215044/https://en.wikipedia.org/wiki/Haber_process
+  title: Haber process
+  publisher: Wikipedia
+  quote: The process was purchased by the German chemical company BASF, which assigned Carl Bosch the task of scaling
+    up Haber's tabletop machine to industrial scale.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Haber_process
+  archive_url: https://web.archive.org/web/20261005215044/https://en.wikipedia.org/wiki/Haber_process
+  title: Haber process
+  publisher: Wikipedia
+  quote: Ammonia was first manufactured using the Haber process on an industrial scale in 1913 in BASF's Oppau plant
+    in Germany
+  type: reference
+  accessed: '2026-10-14'
+- url: https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed
+  title: How many people does synthetic fertilizer feed?
+  publisher: Our World in Data
+  quote: In fact, it's estimated that nitrogen fertilizer now supports approximately half of the global population.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q213669 is the process itself.
