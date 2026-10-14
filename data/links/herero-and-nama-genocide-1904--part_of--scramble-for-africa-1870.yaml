@@ -8,19 +8,22 @@ sources:
 - url: https://en.wikipedia.org/wiki/Scramble_for_Africa
   title: Scramble for Africa
   publisher: Wikipedia
-  quote: Between 1904 and 1908, Germany's colonies in German South West Africa and German East Africa were rocked
-    by separate, contemporaneous native revolts against their rule.
+  quote: Between 1904 and 1908, Germany's colonies in German South West Africa and German East Africa
+    were rocked by separate, contemporaneous native revolts against their rule.
   type: reference
   accessed: '2026-10-14'
 - url: https://en.wikipedia.org/wiki/Scramble_for_Africa
   title: Scramble for Africa
   publisher: Wikipedia
-  quote: German efforts to clear the bush of civilians in German South West Africa resulted in a genocide of the
-    population.
+  quote: German efforts to clear the bush of civilians in German South West Africa resulted in a genocide
+    of the population.
   type: reference
   accessed: '2026-10-14'
 review:
-  status: sourced
+  status: unverified
   notes:
   - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
-  - The source treats the Herero Wars as a section of the Scramble article; it does not use the words "part of".
+  - The source treats the Herero Wars as a section of the Scramble article; it does not use the words
+    "part of".
+  - The source covers this event within its account of the Scramble for Africa but does not itself call
+    it part of the Scramble. Needs a source that states it, or should be removed.

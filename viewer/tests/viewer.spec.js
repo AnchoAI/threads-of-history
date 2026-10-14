@@ -30,7 +30,9 @@ test("loads the graph, draws a canvas and shows the draft banner", async ({ page
   await expect(page.locator("#draft")).toContainText("unverified");
   const lanes = await page.evaluate(() => window.__viewer.timeline.layout.lanes.length);
   await expect(page.locator(".lane")).toHaveCount(lanes);
-  await expect(page.locator("#tours button")).toHaveCount(3);
+  const paths = await page.evaluate(() => window.__viewer.data.paths.length);
+  expect(paths).toBeGreaterThan(0);
+  await expect(page.locator("#tours button")).toHaveCount(paths);
   expect(errors).toEqual([]);
 });
 
@@ -81,6 +83,8 @@ test("lanes can be arranged by thread, region or domain", async ({ page }) => {
 
 test("hiding a thread hides items that are only on that thread", async ({ page }) => {
   await open(page);
+  // Zoom to the 1950s so the item is among those drawn.
+  await page.evaluate(() => { window.__viewer.timeline.setWindow(1955, 1965); window.__viewer.timeline.settle(); });
   const visible = () => page.evaluate(() =>
     window.__viewer.timeline.nodes.get("cuban-revolution-1959").mesh.visible);
   expect(await visible()).toBe(true);

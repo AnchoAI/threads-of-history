@@ -151,7 +151,8 @@ async function start() {
   // ---- "knowable on": show only what was known by a date, to the public or to one party
   const knowOn = $("knowOn"), knowRange = $("knowRange"), knowDate = $("knowDate"), knowParty = $("knowParty");
   const [lo, hi] = timeline.window.limits;
-  Object.assign(knowRange, { min: lo, max: hi, step: 1 / 365.25 });
+  // step "any": a fixed day step drifts from the calendar over a long timeline.
+  Object.assign(knowRange, { min: lo, max: hi, step: "any" });
   const iso = (t) => fromYear(t).toISOString().slice(0, 10);
   Object.assign(knowDate, { min: iso(lo), max: iso(hi) });
   for (const party of knownParties(data)) {
