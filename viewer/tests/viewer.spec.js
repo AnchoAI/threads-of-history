@@ -306,3 +306,17 @@ test("knowable on: search and guided paths respect it", async ({ page }) => {
   await page.locator("#tours button").first().click();
   await expect(page.locator("#knowOn")).not.toBeChecked();
 });
+
+test("why did this happen: causes chain back across items and show on the map", async ({ page }) => {
+  await open(page, "#february-revolution-1917");
+  const detail = page.locator("#detail");
+  await expect(detail.locator(".h", { hasText: "Why did this happen?" })).toBeVisible();
+  // Russo-Japanese War → 1905 revolution → February Revolution, two steps back.
+  await expect(detail.locator(".chain .step", { hasText: "Russo-Japanese War" })).toHaveCount(1);
+  await detail.locator("[data-trace=back]").click();
+  expect(await nodeShown(page, "russo-japanese-war-1904")).toBe(true);
+  expect(await nodeShown(page, "first-world-war-1914-1918")).toBe(true);
+  // Clicking a cause selects it.
+  await detail.locator(".chain .step", { hasText: "Russo-Japanese War" }).click();
+  await expect(detail.locator("h2")).toHaveText(/Russo-Japanese War/);
+});

@@ -1,6 +1,7 @@
 // The detail panel for a selected item. Everything from the data is escaped.
 import { LINK_TYPES, esc, formatSpan, safeUrl, yearLabel } from "./data.js";
 import { isKnown } from "./visibility.js";
+import { trace } from "./chains.js";
 
 const STATUS_TEXT = {
   unverified: "Unverified",
@@ -47,6 +48,13 @@ export function renderDetail(item, data, { knowable = null } = {}) {
       <b>${esc(o.title)}</b><br>${esc(l.note)}</button>`;
   }).join("");
 
+  const why = trace(data, item.id, "back", { knowable });
+  const led = trace(data, item.id, "forward", { knowable });
+  const chain = (t, dir, title) => t.tree.length ? `
+    <div class="h">${title}</div>
+    <div class="chain">${renderTree(t.tree, dir)}</div>
+    <button class="ghost trace" data-trace="${dir}">Show ${dir === "back" ? "causes" : "effects"} on the map (${t.ids.size - 1})</button>` : "";
+
   const notes = item.review?.notes?.length
     ? `<div class="h">Open questions</div><ul>${item.review.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>`
     : "";
@@ -62,11 +70,21 @@ export function renderDetail(item, data, { knowable = null } = {}) {
     ${actors ? `<div class="h">Actors</div><div class="chips">${actors}</div>` : ""}
     <div class="h">Connections (${links.length})</div>
     ${linkHtml || (withheld ? "" : '<p class="note">None yet.</p>')}
+    ${chain(why, "back", "Why did this happen?")}
+    ${chain(led, "forward", "What did it lead to?")}
     ${withheld ? `<p class="note withheld">${withheld} more connection${withheld === 1 ? "" : "s"} not yet knowable on ${esc(knowable.label)}.</p>` : ""}
     <div class="h">Sources</div>
     ${renderSources(item.sources)}
     ${notes}
     <div class="btns"><button class="ghost" id="closeD">Close</button></div>`;
+}
+
+// Nested causes (or effects), each a button that selects it.
+function renderTree(nodes, dir) {
+  return `<ul>${nodes.map((n) => `<li>
+    <button class="step" data-go="${esc(n.item.id)}" title="${esc(n.link.note)}">
+      <span class="t">${esc(yearLabel(n.item))}${n.contested ? " · contested" : ""}</span> ${esc(n.item.title)}</button>
+    ${n.children.length ? renderTree(n.children, dir) : ""}</li>`).join("")}</ul>`;
 }
 
 function other(link, item) {

@@ -37,6 +37,7 @@ export class Timeline {
     this.hidden = new Set();
     this.selected = null;
     this.pinned = [];
+    this.trace = null;          // { ids, links, span } while a "why did this happen?" chain is shown
     this.knowable = null;       // { t, party } when the "knowable on" slider is on
     this.layout = null;
     this.laneKey = "";
@@ -263,7 +264,8 @@ export class Timeline {
   relayout() {
     const win = this.window;
     const { visible, labelled } = chooseVisible(this.data, win, {
-      hiddenThreads: this.hidden, selected: this.selected, pinned: this.pinned, parentOf: this.parentOf,
+      hiddenThreads: this.hidden, selected: this.selected, parentOf: this.parentOf,
+      pinned: this.trace ? [...this.pinned, ...this.trace.ids] : this.pinned,
       knowable: this.knowable,
     });
     this.visibleIds = visible;
@@ -405,6 +407,23 @@ export class Timeline {
     this.pinned = ids;
   }
 
+  // Show a "why did this happen?" chain: its items are always drawn and stay lit, the window
+  // widens to cover it, and everything else dims. null clears it.
+  setTrace(t) {
+    this.trace = t;
+    if (t) {
+      const [a, b] = t.span;
+      const pad = Math.max((b - a) * 0.06, 1);
+      this.window.set(a - pad, b + pad);
+      // Pull back so the whole chain is in view.
+      this.fly = { t: 0, p0: this.camera.position.clone(), t0: this.controls.target.clone(),
+                   p1: this.home.pos.clone(), t1: this.home.tgt.clone() };
+    }
+    this.relayout();
+    this.settle();
+    this.highlight();
+  }
+
   // knowable: null to show everything, or { t: decimal year, party: string | null, label }
   setKnowable(knowable) {
     this.knowable = knowable;
@@ -416,14 +435,16 @@ export class Timeline {
     const changed = id !== this.selected;
     this.selected = id;
     if (changed) { this.relayout(); return; }  // the selection is always drawn, so visibility may change
+    const tr = this.trace;
     for (const n of this.nodes.values()) {
-      const on = !id || n.item.id === id || this.data.linksOf.get(n.item.id).some((l) => l.from === id || l.to === id);
+      const on = tr ? tr.ids.has(n.item.id)
+        : !id || n.item.id === id || this.data.linksOf.get(n.item.id).some((l) => l.from === id || l.to === id);
       n.mesh.material.opacity = on ? 1 : 0.15;
       n.bar.material.opacity = on ? 0.55 : 0.08;
       n.dim = !on;
     }
     for (const L of this.linkObjs) {
-      const on = !id || L.link.from === id || L.link.to === id;
+      const on = tr ? tr.links.has(L.link.id) : !id || L.link.from === id || L.link.to === id;
       L.mat.opacity = on ? (id ? 1 : 0.6) : 0.05;
       L.dot.visible = on && L.vis;
     }
@@ -551,7 +572,7 @@ export class Timeline {
       for (const n of this.labelOrder ?? []) {
         let o = flat ? 1 : Math.max(0, Math.min(1, (260 - this.camera.position.distanceTo(n.pos)) / 110));
         if (n.dim) o *= 0.08;
-        if (n.item.id === this.selected) o = 1;
+        if (n.item.id === this.selected || this.trace?.ids.has(n.item.id)) o = 1;
         if (o < 0.05 || !this.#project(n.pos, n.el, o)) { n.el.style.display = "none"; continue; }
         n.w ??= n.el.offsetWidth;  // label text never changes, so measure once
         const x = parseFloat(n.el.style.left) + 16, y = parseFloat(n.el.style.top);

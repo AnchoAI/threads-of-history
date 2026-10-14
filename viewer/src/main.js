@@ -1,5 +1,6 @@
 import { LINK_TYPES, esc, loadGraph, yearLabel } from "./data.js";
 import { renderDetail } from "./panel.js";
+import { trace, traceSpan } from "./chains.js";
 import { Timeline } from "./scene.js";
 import { TimeBar } from "./timebar.js";
 import { fromYear, toYear } from "./timescale.js";
@@ -204,6 +205,7 @@ async function start() {
   const detail = $("detail");
   function select(id, { fly = true } = {}) {
     selected = id && data.byId.has(id) && timeline.nodes.has(id) && isKnown(data.byId.get(id), knowable()) ? id : null;
+    if (timeline.trace) timeline.trace = null;
     timeline.highlight(selected);
     try {
       history.replaceState(null, "", selected ? `#${selected}` : location.pathname + location.search);
@@ -216,6 +218,12 @@ async function start() {
     detail.scrollTop = 0;
     detail.querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => select(b.dataset.go); });
     $("closeD").onclick = () => select(null);
+    detail.querySelectorAll("[data-trace]").forEach((b) => {
+      b.onclick = () => {
+        const t = trace(data, selected, b.dataset.trace, { knowable: knowable() });
+        timeline.setTrace({ ids: t.ids, links: t.links, span: traceSpan(data, t.ids) });
+      };
+    });
     if (fly) timeline.focus(selected);
   }
 
