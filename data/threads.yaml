@@ -58,3 +58,19 @@
   name: Economic crises & the world economy
   domain: economy
   color: '#4FB0C6'
+- id: religion
+  name: Religion & schisms
+  domain: society
+  color: '#D4B26A'
+- id: revolutions
+  name: Revolutions & political ideas
+  domain: politics
+  color: '#E5735C'
+- id: rights
+  name: Slavery & civil rights
+  domain: society
+  color: '#B47FD1'
+- id: industry
+  name: Industry, science & climate
+  domain: science
+  color: '#6CC28E'

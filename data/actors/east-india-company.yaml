@@ -1,0 +1,21 @@
+id: east-india-company
+title: East India Company
+actor_type: organization
+summary: British trading company (1600–1874).
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q83164
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q83164.json
+  title: East India Company
+  publisher: Wikidata
+  quote: British trading company (1600–1874)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
