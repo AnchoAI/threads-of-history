@@ -1,0 +1,22 @@
+id: north-korea
+title: North Korea
+actor_type: state
+summary: Sovereign state in East Asia.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q423
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q423.json
+  title: North Korea
+  publisher: Wikidata
+  quote: sovereign state in East Asia
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

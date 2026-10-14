@@ -1,0 +1,50 @@
+id: century-of-humiliation-1839--led_to--patriotic-education-campaign-1991
+from: century-of-humiliation-1839
+to: patriotic-education-campaign-1991
+type: led_to
+confidence: contested
+note: The campaign taught the "century of humiliation"; whether it reflects history or serves party legitimacy
+  is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: The campaign was aimed at Chinese youth and had them study China's humiliating modern history
+    - such as China's "century of humiliation" - and the positive changes brought by the Communist Revolution.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The campaign reflects the historical reality of China's maltreatment by foreign powers.
+  held_by:
+  - Chinese commentators who have defended the campaign
+  sources:
+  - url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+    title: Patriotic education in China
+    publisher: Wikipedia
+    quote: Others, particularly Chinese commentators, have defended the campaign, arguing that it does
+      not seek to rewrite Chinese history in the manner that its critics have suggested, but that it merely
+      reflects the historical realities of Chinese maltreatment at the hands of foreign powers
+    type: reference
+    accessed: '2026-10-14'
+- claim: The campaign used the humiliation narrative to rebuild the Communist Party's legitimacy after
+    Tiananmen.
+  held_by:
+  - Suisheng Zhao
+  - critics of the campaign
+  sources:
+  - url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+    title: Patriotic education in China
+    publisher: Wikipedia
+    quote: This aim was to boost the CCP's legitimacy, which during the 1980s had declined, particularly
+      around the time of the 1989 Tiananmen Square protests and massacre.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+    title: Patriotic education in China
+    publisher: Wikipedia
+    quote: Academic Suisheng Zhao has said the campaign is part of a strategy to make the CCP the "paramount
+      patriotic force and guardian of national pride."
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced

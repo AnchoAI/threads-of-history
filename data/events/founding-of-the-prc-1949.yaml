@@ -1,0 +1,39 @@
+id: founding-of-the-prc-1949
+title: Proclamation of the People's Republic of China
+summary: On 1 October 1949 Mao Zedong proclaimed the People's Republic of China from Tiananmen Gate in
+  Beijing, after the Communists gained control of mainland China in the civil war. The Republic of China
+  government retreated to Taiwan in December.
+occurred:
+  start: '1949-10-01'
+  precision: day
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- mao-zedong
+- chinese-communist-party
+- peoples-republic-of-china
+- kuomintang
+importance: 5
+wikidata: Q10872057
+sources:
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China
+  archive_url: https://web.archive.org/web/20261012091508/https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China
+  title: Proclamation of the People's Republic of China
+  publisher: Wikipedia
+  quote: At exactly 15:00 Beijing Time on 1 October 1949, Mao announced to the nation from the top of
+    the Tiananmen Gate
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: The Communists gained control of mainland China and proclaimed the People's Republic of China
+    (PRC) in October 1949, while the Republic of China government retreated to the island of Taiwan in
+    December.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
