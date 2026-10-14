@@ -1,0 +1,25 @@
+id: al-askari-mosque-bombing-2006--part_of--iraqi-civil-war-2006
+from: al-askari-mosque-bombing-2006
+to: iraqi-civil-war-2006
+type: part_of
+confidence: documented
+note: The bombing set off the sectarian civil war.
+sources:
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: Part of the Iraqi Civil War
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  archive_url: https://web.archive.org/web/20260826205926/https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: In February 2006, the insurgency against the coalition and government escalated into a sectarian civil
+    war after the bombing of Al-Askari Shrine
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

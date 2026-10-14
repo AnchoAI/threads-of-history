@@ -1,0 +1,27 @@
+id: succession-to-muhammad-0632--part_of--sunni-shia-split-0632
+from: succession-to-muhammad-0632
+to: sunni-shia-split-0632
+type: part_of
+confidence: documented
+note: The dispute over who should succeed Muhammad is the central issue in the schism.
+sources:
+- url: https://en.wikipedia.org/wiki/Succession_to_Muhammad
+  archive_url: https://web.archive.org/web/20261010080400/https://en.wikipedia.org/wiki/Succession_to_Muhammad
+  title: Succession to Muhammad
+  publisher: Wikipedia
+  quote: The issue of succession following the death of the Islamic prophet Muhammad is the central issue in the
+    schisms that divided the early Muslim community in the first century of Islamic history into numerous schools
+    and branches.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  archive_url: https://web.archive.org/web/20261003080840/https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  title: Shia–Sunni relations
+  publisher: Wikipedia
+  quote: The origin of Shia Islam arose in response to the succession to Muhammad.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

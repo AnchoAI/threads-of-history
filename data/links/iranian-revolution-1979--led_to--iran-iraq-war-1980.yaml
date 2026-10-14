@@ -1,0 +1,27 @@
+id: iranian-revolution-1979--led_to--iran-iraq-war-1980
+from: iranian-revolution-1979
+to: iran-iraq-war-1980
+type: led_to
+confidence: documented
+note: Saddam Hussein invaded chiefly to stop Khomeini exporting the revolution to Iraq's Shia majority.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War
+  archive_url: https://web.archive.org/web/20261010041638/https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War
+  title: Iran–Iraq War
+  publisher: Wikipedia
+  quote: In starting the war, the Iraqi government—led by President Saddam Hussein—primarily wanted to prevent Ruhollah
+    Khomeini, Iran's leader following the 1979 Iranian Revolution, from exporting Iran's new state ideology to Iraq.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War
+  archive_url: https://web.archive.org/web/20261010041638/https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War
+  title: Iran–Iraq War
+  publisher: Wikipedia
+  quote: Iraq also feared that Iran, being a theocratic state mostly composed of Shia Muslims, would rally Iraq's
+    Shia majority against the Sunni Muslim-controlled Baʽathist government.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.
