@@ -1,0 +1,31 @@
+id: left-and-right-in-the-national-assembly-1789
+title: '"Left" and "right" in politics'
+summary: In France's revolutionary National Assembly, supporters of the old regime sit to the right of
+  the president's chair and supporters of the revolution to the left, giving the world the political terms
+  "left" and "right".
+occurred:
+  start: '1789'
+  precision: year
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- kingdom-of-france
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Left%E2%80%93right_political_spectrum
+  title: Left–right political spectrum
+  publisher: Wikipedia
+  quote: The terms "left" and "right" first appeared during the French Revolution of 1789 when members
+    of the National Assembly divided into supporters of the Ancien Régime to the president's right side
+    and supporters of the revolution to his left side.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - No Wikidata item for this event; the left–right spectrum (Q2921172) is a concept, not an event.
+  - The source gives only the year. Other accounts tie the split to the August–September 1789 debate on
+    the royal veto (see the Wikipedia article Left-wing politics); a reviewer could refine the date.

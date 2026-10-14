@@ -1,0 +1,41 @@
+id: magna-carta-1215
+title: Magna Carta sealed
+summary: King John of England seals a charter at Runnymede to make peace with rebel barons, promising
+  them protection from illegal imprisonment, swift justice and limits on feudal payments. Later centuries
+  recast it as a charter of universal rights, a reading most historians now call a myth.
+occurred:
+  start: '1215-06-15'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- john-king-of-england
+- kingdom-of-england
+importance: 4
+wikidata: Q12519
+sources:
+- url: https://en.wikipedia.org/wiki/Magna_Carta
+  title: Magna Carta
+  publisher: Wikipedia
+  quote: a royal charter of rights sealed by King John of England at Runnymede, near Windsor, on 15 June
+    1215
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Magna_Carta
+  title: Magna Carta
+  publisher: Wikipedia
+  quote: it promised the protection of church rights, protection for the barons from illegal imprisonment,
+    access to swift and impartial justice, and limitations on feudal payments to the Crown
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Magna_Carta
+  title: Magna Carta
+  publisher: Wikipedia
+  quote: The majority of historians now see the interpretation of the charter as a unique and early charter
+    of universal legal rights as a myth that was created centuries later.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,81 @@
+id: treaty-of-frankfurt-1871--led_to--first-world-war-1914-1918
+from: treaty-of-frankfurt-1871
+to: first-world-war-1914-1918
+type: led_to
+confidence: contested
+note: French resentment over Alsace-Lorraine is often listed among the distant causes of the First World
+  War; some historians argue it had faded by 1914.
+sources:
+- url: https://en.wikipedia.org/wiki/Alsace%E2%80%93Lorraine
+  title: Alsace–Lorraine
+  publisher: Wikipedia
+  quote: French resentment over the loss of the territory was one of the contributing factors to World
+    War I.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: Revanchism was not a major cause of war in 1914 because it faded after 1880.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The annexation left a legacy of Franco-German animosity and French revanchism that was among
+    the distant origins of the war, and pushed France towards the Russian alliance and the Triple Entente.
+  held_by:
+  - Wikipedia, 'Causes of World War I' and 'Alsace–Lorraine' (summary of the general account)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    title: Causes of World War I
+    publisher: Wikipedia
+    archive_url: https://web.archive.org/web/20261012084629/https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    quote: Some of the distant origins of World War I can be seen in the results and consequences of the
+      Franco-Prussian War in 1870 and 1871 and the concurrent unification of Germany.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    title: Causes of World War I
+    publisher: Wikipedia
+    archive_url: https://web.archive.org/web/20261012084629/https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    quote: A legacy of animosity grew between France and Germany after the German annexation of Alsace-Lorraine.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Revanchism
+    title: Revanchism
+    publisher: Wikipedia
+    archive_url: https://web.archive.org/web/20261003065320/https://en.wikipedia.org/wiki/Revanchism
+    quote: was one of the major reasons France went to great pains to woo the Russian Empire, resulting
+      in the Franco-Russian Alliance of 1894
+    type: reference
+    accessed: '2026-10-14'
+- claim: Revanchism faded after the 1880s; Franco-German relations were relatively good, and recovering
+    Alsace-Lorraine became a French war aim only after the war had begun.
+  held_by:
+  - J. F. V. Keiger
+  sources:
+  - url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+    title: Franco-Prussian War
+    publisher: Wikipedia
+    quote: Revanchism was not a major cause of war in 1914 because it faded after 1880. J.F.V. Keiger
+      says, "By the 1880s Franco-German relations were relatively good."
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+    title: Franco-Prussian War
+    publisher: Wikipedia
+    quote: Return did not become a French war aim until after World War I began.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    title: Causes of World War I
+    publisher: Wikipedia
+    archive_url: https://web.archive.org/web/20261012084629/https://en.wikipedia.org/wiki/Causes_of_World_War_I
+    quote: By the 1890s, the desire for revenge over Alsace-Lorraine was no longer a major factor for
+      the leaders of France but remained a force in public opinion.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The first position's held_by names Wikipedia articles rather than a historian; a reviewer could name
+    one (the Causes of World War I article cites G. P. Gooch, Franco-German Relations, 1871–1914).

@@ -1,0 +1,40 @@
+id: declaration-of-the-rights-of-man-1789
+title: Declaration of the Rights of Man and of the Citizen
+summary: France's National Constituent Assembly adopts a declaration that men are born and remain free
+  and equal in rights. Lafayette prepared the early drafts with help from Thomas Jefferson.
+occurred:
+  start: '1789-08-26'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- kingdom-of-france
+importance: 4
+wikidata: Q169759
+sources:
+- url: https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  title: Declaration of the Rights of Man and of the Citizen
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003071817/https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  quote: The last article of the Declaration of the Rights of Man and the Citizen was adopted on 26 August
+    1789 by the National Constituent Assembly
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  title: Declaration of the Rights of Man and of the Citizen
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003071817/https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  quote: Men are born and remain free and equal in rights.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  title: Declaration of the Rights of Man and of the Citizen
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003071817/https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  quote: The declaration was initially drafted by Marquis de Lafayette with assistance from Thomas Jefferson
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

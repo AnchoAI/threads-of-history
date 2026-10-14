@@ -1,0 +1,40 @@
+id: franco-prussian-war-1870
+title: Franco-Prussian War
+summary: War between France and the Prussian-led North German Confederation. Germany won decisively; Napoleon
+  III was captured, and in France the war ended imperial rule.
+occurred:
+  start: '1870-07-19'
+  end: '1871-01-28'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- france
+- otto-von-bismarck
+- german-empire
+importance: 4
+wikidata: Q46083
+sources:
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: Lasting from 19 July 1870 to 28 January 1871
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: resulted in the capture of the French Emperor Napoleon III and the decisive defeat of the army
+    of the Second Empire
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: In France, it brought a final end to imperial rule and began the first lasting republican government.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
