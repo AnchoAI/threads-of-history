@@ -1,0 +1,39 @@
+id: patriotic-education-campaign-1991
+title: Patriotic Education Campaign
+summary: A Chinese Communist Party campaign initiated in 1991 and carried out in full from 1994. It reframed
+  the teaching of modern Chinese history around the national humiliations of the modern era and credited
+  the party with ending them.
+occurred:
+  start: '1991'
+  precision: year
+  note: Initiated in 1991; carried out in full from 1994.
+threads:
+- china
+regions:
+- east-asia
+actors:
+- chinese-communist-party
+importance: 3
+wikidata: Q11073689
+sources:
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: It was initiated in 1991 but not carried out in full scale until 1994.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: The reforms sought to reframe the fundamental narrative of Chinese modern history in a manner
+    which highlighted the national humiliations of the modern era, rather than emphasising the class struggle
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: It credited the party with having ended China's hundred years of diplomatic humiliation.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,25 @@
+id: first-opium-war-1839--led_to--meiji-restoration-1868
+from: first-opium-war-1839
+to: meiji-restoration-1868
+type: led_to
+confidence: documented
+note: News of China's defeat sharpened Japan's sense of the Western threat in the decades before the Restoration.
+sources:
+- url: https://en.wikipedia.org/wiki/Meiji_Restoration
+  title: Meiji Restoration
+  publisher: Wikipedia
+  quote: The threat of the Western powers became far more pronounced when news of Britain's success in
+    the First Opium War against the Qing Dynasty reached Japan.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Meiji_Restoration
+  title: Meiji Restoration
+  publisher: Wikipedia
+  quote: China's defeat was taken as a severe military and cultural disaster.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The source presents this as part of the background to the Restoration, a quarter-century earlier;
+    it is a contributing factor, not a direct cause.

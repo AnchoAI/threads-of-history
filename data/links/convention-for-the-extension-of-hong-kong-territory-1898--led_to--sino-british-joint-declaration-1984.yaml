@@ -1,0 +1,24 @@
+id: convention-for-the-extension-of-hong-kong-territory-1898--led_to--sino-british-joint-declaration-1984
+from: convention-for-the-extension-of-hong-kong-territory-1898
+to: sino-british-joint-declaration-1984
+type: led_to
+confidence: documented
+note: The approaching end of the 99-year lease forced negotiations over the whole colony.
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-British_Joint_Declaration
+  title: Sino-British Joint Declaration
+  publisher: Wikipedia
+  quote: The colonial government could not legally grant new land leases in the New Territories past 1997
+    and needed to resolve the uncertainty with the Chinese government.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: As the end of the lease approached, and by the time of serious negotiations over the future status
+    of Hong Kong in the 1980s, it was thought impractical to separate the ceded territories and return
+    only the New Territories to China.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

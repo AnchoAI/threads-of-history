@@ -1,0 +1,22 @@
+id: first-opium-war-1839--part_of--century-of-humiliation-1839
+from: first-opium-war-1839
+to: century-of-humiliation-1839
+type: part_of
+confidence: documented
+note: Chinese nationalists date the start of the "century of humiliation" to this war.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: The war marked the start of what 20th century Chinese nationalists called the "century of humiliation".
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Nanking
+  title: Treaty of Nanking
+  publisher: Wikipedia
+  quote: marked the start of what later nationalists called China's "century of humiliation."
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

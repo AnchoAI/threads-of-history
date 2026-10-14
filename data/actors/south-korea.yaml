@@ -1,0 +1,22 @@
+id: south-korea
+title: South Korea
+actor_type: state
+summary: Country in East Asia.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q884
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q884.json
+  title: South Korea
+  publisher: Wikidata
+  quote: country in East Asia
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

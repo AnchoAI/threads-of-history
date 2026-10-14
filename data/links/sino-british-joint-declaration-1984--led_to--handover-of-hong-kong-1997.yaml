@@ -1,0 +1,15 @@
+id: sino-british-joint-declaration-1984--led_to--handover-of-hong-kong-1997
+from: sino-british-joint-declaration-1984
+to: handover-of-hong-kong-1997
+type: led_to
+confidence: documented
+note: The declaration set the terms of the handover.
+sources:
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: The 1984 Sino–British Joint Declaration set the terms of the 1997 handover
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

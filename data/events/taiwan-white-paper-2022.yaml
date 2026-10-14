@@ -1,0 +1,48 @@
+id: taiwan-white-paper-2022
+title: China's white paper on Taiwan and reunification
+summary: On 10 August 2022 China's Taiwan Affairs Office and State Council Information Office published
+  "The Taiwan Question and China's Reunification in the New Era". It presents Japan's 50-year rule of
+  Taiwan, after the 1895 cession, as part of China's national humiliation.
+occurred:
+  start: '2022-08-10'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+- chinese-communist-party
+importance: 3
+wikidata: none
+sources:
+- url: https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html
+  archive_url: https://web.archive.org/web/20261004123811/https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html
+  title: China releases white paper on Taiwan question, reunification in new era
+  publisher: The State Council of the PRC (Xinhua)
+  quote: The Taiwan Affairs Office of the State Council and the State Council Information Office of the
+    People's Republic of China published a white paper titled "The Taiwan Question and China's Reunification
+    in the New Era" on Aug 10.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  archive_url: https://web.archive.org/web/20260608014939/https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  title: 'Full text: The Taiwan Question and China''s Reunification in the New Era'
+  publisher: China Daily
+  quote: In April 1895, the defeated Qing government was forced to cede Taiwan and the Penghu Islands
+    to Japan.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  archive_url: https://web.archive.org/web/20260608014939/https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  title: 'Full text: The Taiwan Question and China''s Reunification in the New Era'
+  publisher: China Daily
+  quote: Japan's 50-year occupation of Taiwan epitomized this humiliation and inflicted agony on both
+    sides of the Taiwan Straits.
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - A primary document stating the PRC government position; its claims are attributed to it, not adopted.
+    No Wikidata item was found for the white paper.
