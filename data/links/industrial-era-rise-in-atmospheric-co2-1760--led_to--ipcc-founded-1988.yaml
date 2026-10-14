@@ -1,0 +1,36 @@
+id: industrial-era-rise-in-atmospheric-co2-1760--led_to--ipcc-founded-1988
+from: industrial-era-rise-in-atmospheric-co2-1760
+to: ipcc-founded-1988
+type: led_to
+confidence: documented
+note: Measurements showing CO₂ was rising raised concern, and the UN resolution endorsing the IPCC cited rising
+  greenhouse-gas concentrations as the reason for it.
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_climate_change_science
+  archive_url: https://web.archive.org/web/20261010211342/https://en.wikipedia.org/wiki/History_of_climate_change_science
+  title: History of climate change science
+  publisher: Wikipedia
+  quote: In 1960 Charles David Keeling demonstrated that the level of CO2 in the atmosphere was in fact rising.
+    Concern mounted year by year along with the rise of the "Keeling Curve" of atmospheric CO2.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  archive_url: https://web.archive.org/web/20261011224149/https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  title: Intergovernmental Panel on Climate Change
+  publisher: Wikipedia
+  quote: The General Assembly resolution noted that human activity could change the climate.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  archive_url: https://web.archive.org/web/20261011224149/https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  title: Intergovernmental Panel on Climate Change
+  publisher: Wikipedia
+  quote: It said increasing concentrations of greenhouse gases could warm the planet.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.
+  - The causal reading rests on the concern the sources describe and on the UN resolution's stated grounds; no source
+    says in one sentence that the CO₂ rise 'led to' the IPCC.

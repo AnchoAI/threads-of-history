@@ -1,0 +1,51 @@
+id: paris-agreement-2015
+title: Paris Agreement adopted
+summary: At the COP21 climate conference near Paris, the parties to the UN climate convention adopt by consensus
+  a treaty to keep global warming well below 2 °C above pre-industrial levels, and preferably 1.5 °C. Unlike Kyoto,
+  each country sets its own targets.
+occurred:
+  start: '2015-12-12'
+  precision: day
+threads:
+- industry
+regions:
+- western-europe
+- americas
+- east-asia
+actors:
+- united-nations
+importance: 5
+wikidata: Q21707860
+sources:
+- url: https://en.wikipedia.org/wiki/Paris_Agreement
+  archive_url: https://web.archive.org/web/20261010211626/https://en.wikipedia.org/wiki/Paris_Agreement
+  title: Paris Agreement
+  publisher: Wikipedia
+  quote: At the conclusion of COP21 (the 21st meeting of the Conference of the Parties), on 12 December 2015, the
+    final wording of the Paris Agreement was adopted by consensus by the 195 UNFCCC participating member states
+    and the European Union.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Agreement
+  archive_url: https://web.archive.org/web/20261010211626/https://en.wikipedia.org/wiki/Paris_Agreement
+  title: Paris Agreement
+  publisher: Wikipedia
+  quote: The Paris Agreement has a long-term temperature goal which is to keep the rise in global surface temperature
+    to well below 2 °C (3.6 °F) above pre-industrial levels. The treaty also states that preferably the limit of
+    the increase should only be 1.5 °C (2.7 °F).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Agreement
+  archive_url: https://web.archive.org/web/20261010211626/https://en.wikipedia.org/wiki/Paris_Agreement
+  title: Paris Agreement
+  publisher: Wikipedia
+  quote: Unlike its predecessor, the Kyoto Protocol, which sets commitment targets that have legal force, the Paris
+    Agreement, with its emphasis on consensus building, allows for voluntary and nationally determined targets.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q21707860 is the treaty itself.

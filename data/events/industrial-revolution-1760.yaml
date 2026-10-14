@@ -1,0 +1,56 @@
+id: industrial-revolution-1760
+title: Industrial Revolution
+summary: Beginning in Great Britain around 1760 and spreading to continental Europe and the United States by about
+  1840, economies shift to mechanised manufacturing, with coal replacing wood and charcoal as fuel and steam engines
+  replacing water power.
+occurred:
+  start: '1760'
+  end: '1840'
+  precision: decade
+  approximate: true
+threads:
+- industry
+- econ-crises
+regions:
+- western-europe
+- americas
+actors:
+- james-watt
+- british-empire
+importance: 5
+wikidata: Q2269
+sources:
+- url: https://en.wikipedia.org/wiki/Industrial_Revolution
+  title: Industrial Revolution
+  publisher: Wikipedia
+  quote: Beginning in Great Britain around 1760, the Industrial Revolution had spread to continental Europe and
+    the United States by about 1840.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Industrial_Revolution
+  title: Industrial Revolution
+  publisher: Wikipedia
+  quote: A major change in the iron industries, during the Industrial Revolution, was the replacement of wood and
+    other bio-fuels with coal.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Great_Divergence
+  archive_url: https://web.archive.org/web/20261008154046/https://en.wikipedia.org/wiki/Great_Divergence
+  title: Great Divergence
+  publisher: Wikipedia
+  quote: In metallurgy and steam engines the Industrial Revolution made extensive use of coal and coke – as cheaper,
+    more plentiful and more efficient than wood and charcoal.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Watt_steam_engine
+  title: Watt steam engine
+  publisher: Wikipedia
+  quote: This was a key moment in the industrial revolution, since power sources could now be located anywhere instead
+    of, as previously, needing a suitable water source and topography.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,63 @@
+id: columbian-exchange-1492--led_to--industrial-revolution-1760
+from: columbian-exchange-1492
+to: industrial-revolution-1760
+type: led_to
+confidence: contested
+note: Pomeranz and others argue that New World land and resources freed Europe for industrialisation; others put
+  the weight on European institutions, political fragmentation or factor prices.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Divergence
+  archive_url: https://web.archive.org/web/20261008154046/https://en.wikipedia.org/wiki/Great_Divergence
+  title: Great Divergence
+  publisher: Wikipedia
+  quote: A variety of theories posit Europe's unique relationship with the New World as a major cause of the Great
+    Divergence.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Access to the land and resources of the Americas was a necessary condition for European industrialisation.
+  held_by:
+  - Kenneth Pomeranz
+  - Kunting Chen
+  sources:
+  - url: https://en.wikipedia.org/wiki/Great_Divergence
+    archive_url: https://web.archive.org/web/20261008154046/https://en.wikipedia.org/wiki/Great_Divergence
+    title: Great Divergence
+    publisher: Wikipedia
+    quote: According to Pomeranz, the most important advantage for Europe was the vast amount of fertile, uncultivated
+      land in the Americas which could be used to grow large quantities of farm products required to sustain European
+      economic growth and allowed labor and land to be freed up in Europe for industrialization.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Great_Divergence
+    archive_url: https://web.archive.org/web/20261008154046/https://en.wikipedia.org/wiki/Great_Divergence
+    title: Great Divergence
+    publisher: Wikipedia
+    quote: Chen (2012) also suggested that the New World as a necessary factor for industrialization
+    type: reference
+    accessed: '2026-10-14'
+- claim: Industrialisation is explained mainly by conditions inside Europe, such as political fragmentation that
+    let new ideas thrive, or Britain's high wages and cheap energy.
+  held_by:
+  - Joel Mokyr
+  - Robert C. Allen
+  sources:
+  - url: https://en.wikipedia.org/wiki/Great_Divergence
+    archive_url: https://web.archive.org/web/20261008154046/https://en.wikipedia.org/wiki/Great_Divergence
+    title: Great Divergence
+    publisher: Wikipedia
+    quote: Economic historian Joel Mokyr has argued that political fragmentation (the presence of a large number
+      of European states) made it possible for heterodox ideas to thrive
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Industrial_Revolution
+    title: Industrial Revolution
+    publisher: Wikipedia
+    quote: Bob Allen has argued that high wages, cheap capital and very cheap energy in Britain made it the ideal
+      place for the industrial revolution.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'Contested: each position is attributed to the scholars named in its quoted source.'

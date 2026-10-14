@@ -1,0 +1,63 @@
+id: smallpox-eradicated-1980
+title: Smallpox declared eradicated
+summary: The World Health Organization certifies the global eradication of smallpox, after an intensified campaign
+  begun in 1967; the last naturally occurring case was in Somalia in 1977. It is the only human disease to have
+  been eradicated.
+occurred:
+  start: '1980-05'
+  precision: month
+  note: An independent Global Commission certified eradication in December 1979; WHO declared it in May 1980.
+threads:
+- industry
+regions:
+- sub-saharan-africa
+- south-central-asia
+- americas
+actors:
+- world-health-organization
+importance: 4
+wikidata: 'none'
+sources:
+- url: https://en.wikipedia.org/wiki/Smallpox
+  archive_url: https://web.archive.org/web/20261012152923/https://en.wikipedia.org/wiki/Smallpox
+  title: Smallpox
+  publisher: Wikipedia
+  quote: After successful vaccination campaigns throughout the 19th and 20th centuries, the WHO certified the global
+    eradication of smallpox in May 1980.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Smallpox
+  archive_url: https://web.archive.org/web/20261012152923/https://en.wikipedia.org/wiki/Smallpox
+  title: Smallpox
+  publisher: Wikipedia
+  quote: making smallpox the only human disease to have been eradicated.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.who.int/health-topics/smallpox
+  archive_url: https://web.archive.org/web/20261012092203/https://www.who.int/health-topics/smallpox
+  title: Smallpox
+  publisher: World Health Organization
+  quote: The World Health Organization launched an intensified plan to eradicate smallpox in 1967.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.who.int/health-topics/smallpox
+  archive_url: https://web.archive.org/web/20261012092203/https://www.who.int/health-topics/smallpox
+  title: Smallpox
+  publisher: World Health Organization
+  quote: The last known natural case was in Somalia in 1977.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.who.int/health-topics/smallpox
+  archive_url: https://web.archive.org/web/20261012092203/https://www.who.int/health-topics/smallpox
+  title: Smallpox
+  publisher: World Health Organization
+  quote: The eradication of smallpox from the world was certified by the Global Commission, an independent panel
+    of scientists drawn from 19 nations, in December 1979 at WHO Headquarters, Geneva.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q12214 is the disease; no separate item for the eradication was found, so 'none' is set.

@@ -1,0 +1,77 @@
+id: black-death-1346--led_to--decline-of-serfdom-in-western-europe-1350
+from: black-death-1346
+to: decline-of-serfdom-in-western-europe-1350
+type: led_to
+confidence: contested
+note: The Black Death's labour shortage is widely credited with ending serfdom in the West, but Brenner argued that
+  the same population collapse tightened serfdom in the East, so class relations, not demography, decided the outcome.
+sources:
+- url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  title: Consequences of the Black Death
+  publisher: Wikipedia
+  quote: Plague brought an eventual end of serfdom in Western Europe.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  title: Consequences of the Black Death
+  publisher: Wikipedia
+  quote: Serfdom did not end everywhere and lingered in parts of Western Europe and was introduced to Eastern Europe
+    only after the Black Death.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The plague's mass mortality created a labour shortage that forced lords to offer better terms, and this
+    drove the end of serfdom in Western Europe (the demographic model).
+  held_by:
+  - M. M. Postan
+  - John Hatcher
+  - Emmanuel Le Roy Ladurie
+  sources:
+  - url: https://en.wikipedia.org/wiki/Brenner_debate
+    title: Brenner debate
+    publisher: Wikipedia
+    quote: Key respondents included M. M. Postan, John Hatcher, and Emmanuel Le Roy Ladurie, who defended the demographic
+      model
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Brenner_debate
+    title: Brenner debate
+    publisher: Wikipedia
+    quote: He stressed the importance of a "homoeostatic" or self-correcting ecosystem in pre-industrial society
+      and criticized Brenner for underestimating biological factors like the plague.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+    archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+    title: Consequences of the Black Death
+    publisher: Wikipedia
+    quote: Labour was in such a short supply that landlords were forced to give better terms of tenure.
+    type: reference
+    accessed: '2026-10-14'
+- claim: Population collapse cannot explain the outcome, because the same collapse brought serfdom's decline in
+    the West and its intensification in the East; the balance of power between lords and peasants decided it.
+  held_by:
+  - Robert Brenner
+  sources:
+  - url: https://en.wikipedia.org/wiki/Brenner_debate
+    title: Brenner debate
+    publisher: Wikipedia
+    quote: He pointed out that the demographic collapse of the 14th and 15th centuries was accompanied by the decline
+      of serfdom in western Europe, but by the intensification of serfdom—the "second serfdom"—in eastern Europe,
+      particularly in Poland and east-Elbian Germany.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Brenner_debate
+    title: Brenner debate
+    publisher: Wikipedia
+    quote: In Western Europe, peasant communities were generally stronger and more organized. In France, this strength
+      allowed the peasantry not only to win their freedom from serfdom but also to secure hereditary rights to their
+      land
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'Contested: each position is attributed to the scholars named in its quoted source.'
