@@ -1,0 +1,20 @@
+id: first-saudi-state-1744--led_to--ottoman-wahhabi-war-1811
+from: first-saudi-state-1744
+to: ottoman-wahhabi-war-1811
+type: led_to
+confidence: documented
+note: The Saudi capture of Mecca challenged Ottoman legitimacy and brought an Ottoman–Egyptian response.
+sources:
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: The fall of Mecca to the Saudis challenged the legitimacy of the Ottoman Empire, which had exercised sovereignty
+    over the holy cities since 1517. In response to the expansion of Saudi power, the Ottomans initiated military
+    action against the First Saudi state.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

@@ -1,0 +1,20 @@
+id: ismail-i
+title: Ismail I
+actor_type: person
+summary: Founder and first shah of Safavid Iran.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q214559
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q214559.json
+  title: Ismail I
+  publisher: Wikidata
+  quote: founder and first shah of Safavid Iran
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

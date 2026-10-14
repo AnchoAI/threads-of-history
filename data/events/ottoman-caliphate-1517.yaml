@@ -1,0 +1,47 @@
+id: ottoman-caliphate-1517
+title: Ottoman sultans claim the universal caliphate
+summary: After Selim I conquered Mamluk Egypt in 1517 and ended the Cairo line of Abbasid caliphs, Ottoman sultans
+  claimed to be caliphs of the entire Muslim world. The Ottoman Caliphate lasted until Turkey abolished it in 1924.
+occurred:
+  start: '1517'
+  end: '1924'
+  precision: year
+threads:
+- religion
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- selim-i
+importance: 4
+wikidata: Q2034358
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  archive_url: https://web.archive.org/web/20261006204048/https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  title: Ottoman Caliphate
+  publisher: Wikipedia
+  quote: After the conquest of Mamluk Egypt by Sultan Selim I in 1517 and the abolition of the Mamluk-controlled
+    Abbasid Caliphate
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  archive_url: https://web.archive.org/web/20261006204048/https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  title: Ottoman Caliphate
+  publisher: Wikipedia
+  quote: asked other Muslim rulers to be recognized as the true caliphs of the entire Muslim world
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  archive_url: https://web.archive.org/web/20261006204048/https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  title: Ottoman Caliphate
+  publisher: Wikipedia
+  quote: The last Ottoman caliph, Abdülmecid II, retained his position under the republic until the abolition of
+    the caliphate on 3 March 1924
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

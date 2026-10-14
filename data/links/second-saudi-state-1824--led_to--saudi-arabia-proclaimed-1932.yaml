@@ -1,0 +1,27 @@
+id: second-saudi-state-1824--led_to--saudi-arabia-proclaimed-1932
+from: second-saudi-state-1824
+to: saudi-arabia-proclaimed-1932
+type: led_to
+confidence: documented
+note: Loyalty to the memory of Saudi rule in Najd helped Ibn Saud's rise after 1902.
+sources:
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: the memory of Saudi rule remained strong among segments of the tribal population in Najd. These loyalties,
+    combined with growing dissatisfaction toward Rashidi rule, contributed to the rise of Ibn Saud.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: Ibn Saud’s early campaigns relied heavily on tribal alliances, as well as religious and political networks
+    associated with the legacy of the First and Second Saudi states.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.
