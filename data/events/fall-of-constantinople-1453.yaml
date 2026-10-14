@@ -1,0 +1,29 @@
+id: fall-of-constantinople-1453
+title: Fall of Constantinople
+summary: The Ottoman Empire captured Constantinople, capital of the Byzantine Empire, on 29 May 1453 after
+  a 53-day siege.
+occurred:
+  start: '1453-04-06'
+  end: '1453-05-29'
+  precision: day
+threads:
+- religion
+- empire
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- ottoman-empire
+- byzantine-empire
+importance: 5
+wikidata: Q160077
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+  title: Fall of Constantinople
+  publisher: Wikipedia
+  quote: Constantinople, the capital city of the Byzantine Empire, was captured by the Ottoman Empire
+    on 29 May 1453 as part of the culmination of a 53-day siege which had begun on 6 April.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
