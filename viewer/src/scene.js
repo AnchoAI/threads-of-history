@@ -115,8 +115,8 @@ export class Timeline {
     this.spine.visible = view === "3d";
     this.home = view === "2d"
       ? { pos: new THREE.Vector3(0, 0, 500), tgt: new THREE.Vector3(0, 0, 0) }
-      : { pos: new THREE.Vector3(-WORLD_LENGTH * 0.15, WORLD_LENGTH * 0.25, WORLD_LENGTH * 0.72),
-          tgt: new THREE.Vector3(WORLD_LENGTH * 0.07, 0, 0) };
+      : { pos: new THREE.Vector3(-WORLD_LENGTH * 0.2, WORLD_LENGTH * 0.24, WORLD_LENGTH * 0.86),
+          tgt: new THREE.Vector3(-WORLD_LENGTH * 0.1, 0, 0) };
     this.camera.position.copy(this.home.pos);
     this.controls.target.copy(this.home.tgt);
     if (view === "2d") this.ortho.zoom = 1;
