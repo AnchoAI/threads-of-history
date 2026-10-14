@@ -1,0 +1,45 @@
+id: universal-declaration-of-human-rights-1948
+title: Universal Declaration of Human Rights
+summary: The UN General Assembly, meeting in Paris, adopts a declaration of the rights of all human beings,
+  drafted by a committee chaired by Eleanor Roosevelt. 48 members vote in favour, none against, and eight
+  abstain.
+occurred:
+  start: '1948-12-10'
+  precision: day
+threads:
+- revolutions
+- rights
+regions:
+- western-europe
+actors:
+- united-nations
+- eleanor-roosevelt
+importance: 4
+wikidata: Q7813
+sources:
+- url: https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  title: Universal Declaration of Human Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082043/https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  quote: Drafted by a United Nations (UN) committee chaired by Eleanor Roosevelt, it was accepted by the
+    General Assembly as Resolution 217 during its third session on 10 December 1948 at the Palais de Chaillot
+    in Paris, France.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  title: Universal Declaration of Human Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082043/https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  quote: Of the 58 United Nations members at the time, 48 voted in favour, none against, eight abstained
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  title: History of the Declaration
+  publisher: United Nations
+  archive_url: https://web.archive.org/web/20260820115936/https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  quote: The Universal Declaration of Human Rights, which was adopted by the UN General Assembly on 10
+    December 1948
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced

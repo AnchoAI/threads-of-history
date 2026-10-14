@@ -1,0 +1,27 @@
+id: communist-manifesto-1848--led_to--october-revolution-1917
+from: communist-manifesto-1848
+to: october-revolution-1917
+type: led_to
+confidence: documented
+note: The October Revolution founded the first socialist state explicitly along the Marxist lines first
+  set out for a wide audience in the Manifesto.
+sources:
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: Following the October Revolution of 1917 that swept the Vladimir Lenin-led Bolsheviks to power
+    in Russia, the world's first socialist state was founded explicitly along Marxist lines.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: The text represents the first and most systematic attempt by the two founders of scientific socialism
+    to codify for wide consumption the historical materialist idea
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The source ties the Revolution to Marxism in general; the Manifesto is its founding popular statement
+    rather than the only text involved.

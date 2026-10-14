@@ -1,0 +1,26 @@
+id: us-declaration-of-independence-1776--led_to--declaration-of-the-rights-of-man-1789
+from: us-declaration-of-independence-1776
+to: declaration-of-the-rights-of-man-1789
+type: led_to
+confidence: documented
+note: The French declaration drew on the ideals of the American Revolution; Lafayette drafted it with
+  Jefferson's help, echoing the US Declaration.
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  title: United States Declaration of Independence
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261007042119/https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  quote: The inspiration and content of the French Declaration of the Rights of Man and of the Citizen
+    (1789) emerged largely from the ideals of the American Revolution.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  title: Declaration of the Rights of Man and of the Citizen
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003071817/https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  quote: Assisted by Jefferson, then American diplomat to France, Lafayette prepared a draft which echoed
+    some of the provisions of the U.S. declaration.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

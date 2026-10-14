@@ -1,0 +1,25 @@
+id: glorious-revolution-1688--led_to--english-bill-of-rights-1689
+from: glorious-revolution-1688
+to: english-bill-of-rights-1689
+type: led_to
+confidence: documented
+note: The Declaration of Right drawn up in the revolutionary settlement was enacted as the Bill of Rights,
+  which treated James II's flight as an abdication.
+sources:
+- url: https://en.wikipedia.org/wiki/Glorious_Revolution
+  title: Glorious Revolution
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261005234420/https://en.wikipedia.org/wiki/Glorious_Revolution
+  quote: In December 1689, this was incorporated into the Bill of Rights.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: The Act declared James's flight from England following the Glorious Revolution to be an abdication
+    of the throne.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

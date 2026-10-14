@@ -1,0 +1,18 @@
+id: english-bill-of-rights-1689--led_to--universal-declaration-of-human-rights-1948
+from: english-bill-of-rights-1689
+to: universal-declaration-of-human-rights-1948
+type: led_to
+confidence: documented
+note: The English Bill of Rights is described as one of the models for the Universal Declaration of Human
+  Rights.
+sources:
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: The Bill was one of the models used to draft the United States Bill of Rights, the United Nations
+    Declaration of Human Rights and the European Convention on Human Rights.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
