@@ -1,0 +1,72 @@
+id: peace-of-westphalia-1648--led_to--united-nations-founded-1945
+from: peace-of-westphalia-1648
+to: united-nations-founded-1945
+type: led_to
+confidence: contested
+note: Westphalian sovereignty is said to underlie the modern state system and the UN Charter; many historians
+  say the link to 1648 is a later myth.
+sources:
+- url: https://en.wikipedia.org/wiki/Westphalian_sovereignty
+  archive_url: https://web.archive.org/web/20260924025559/https://en.wikipedia.org/wiki/Westphalian_sovereignty
+  title: Westphalian sovereignty
+  publisher: Wikipedia
+  quote: It underlies the modern international system of sovereign states and is enshrined in the United
+    Nations Charter
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The principle of exclusive state sovereignty developed after the Peace of Westphalia and is enshrined
+    in the UN Charter.
+  held_by:
+  - Some scholars of international relations (per Wikipedia)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    archive_url: https://web.archive.org/web/20260924025559/https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    title: Westphalian sovereignty
+    publisher: Wikipedia
+    quote: The principle developed in Europe after the Peace of Westphalia in 1648, based on the state
+      theory of Jean Bodin and the natural law teachings of Hugo Grotius.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    archive_url: https://web.archive.org/web/20260924025559/https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    title: Westphalian sovereignty
+    publisher: Wikipedia
+    quote: Chapter I of the United Nations Charter asserted a version of Westphalian sovereignty.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+    title: Peace of Westphalia
+    publisher: Wikipedia
+    quote: Several scholars of international relations have identified the Peace of Westphalia as the
+      origin of principles crucial to modern international relations, collectively known as Westphalian
+      sovereignty.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The 1648 treaties had little to do with sovereignty; the link is a "Westphalian myth" formed
+    in the 19th and 20th centuries.
+  held_by:
+  - Andreas Osiander
+  - Hall Gardner
+  - most modern historians (per Wikipedia)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    archive_url: https://web.archive.org/web/20260924025559/https://en.wikipedia.org/wiki/Westphalian_sovereignty
+    title: Westphalian sovereignty
+    publisher: Wikipedia
+    quote: For example, Andreas Osiander writes that "the treaties confirm neither [France's or Sweden's]
+      'sovereignty' nor anybody else's; least of all do they contain anything about sovereignty as a principle."
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+    title: Peace of Westphalia
+    publisher: Wikipedia
+    quote: However, some historians have argued against this, suggesting that such views emerged during
+      the nineteenth and twentieth centuries in relation to concerns about sovereignty during that time.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The endpoint is the founding of the UN as the place where Westphalian sovereignty was written into
+    the Charter; there is no separate item for "the modern state system".

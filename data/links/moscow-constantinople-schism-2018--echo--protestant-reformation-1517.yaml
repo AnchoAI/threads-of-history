@@ -1,0 +1,16 @@
+id: moscow-constantinople-schism-2018--echo--protestant-reformation-1517
+from: moscow-constantinople-schism-2018
+to: protestant-reformation-1517
+type: echo
+confidence: documented
+note: Christianity Today compared the 2018 break to the Reformation in scale.
+sources:
+- url: https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  archive_url: https://web.archive.org/web/20261006003147/https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  title: 2018 Moscow–Constantinople schism
+  publisher: Wikipedia
+  quote: '"the biggest Christian schism since the Protestant Reformation"'
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

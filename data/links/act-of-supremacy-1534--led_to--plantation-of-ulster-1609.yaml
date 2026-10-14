@@ -1,0 +1,57 @@
+id: act-of-supremacy-1534--led_to--plantation-of-ulster-1609
+from: act-of-supremacy-1534
+to: plantation-of-ulster-1609
+type: led_to
+confidence: contested
+note: The royal supremacy over the church, extended to Ireland in 1537, was the state Reformation that
+  the plantation's Protestant settlers were meant to carry into Ulster.
+sources:
+- url: https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  archive_url: https://web.archive.org/web/20260925050550/https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  title: Acts of Supremacy
+  publisher: Wikipedia
+  quote: In 1537, the Act of Supremacy (Ireland) 1537 (28 Hen. 8. c. 5 (I), An Act authorising the King,
+    His Heirs and Successors, to be supreme Head of the Church of Ireland) was passed by the Parliament
+    of Ireland
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: Plantation was seen as a means of anglicising Ulster and implementing the Protestant Reformation
+    there.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The plantation was in part a means of implementing the (English, state-led) Reformation in Ulster.
+  held_by:
+  - Wikipedia, "Plantation of Ulster"
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: Plantation was seen as a means of anglicising Ulster and implementing the Protestant Reformation
+      there.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The plantation followed from the defeat of the Gaelic lords in the Nine Years' War and the Flight
+    of the Earls, which made their lands forfeit.
+  held_by:
+  - Wikipedia, "Plantation of Ulster"
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: King James issued a proclamation declaring their action to be treason, paving the way for the
+      forfeiture of their lands and titles.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - No source found states directly that the 1534 Act led to the plantation; the link joins the Act (extended
+    to Ireland in 1537) to the plantation's stated religious aim. A reviewer may prefer to drop it and
+    keep only the Reformation → Plantation link.

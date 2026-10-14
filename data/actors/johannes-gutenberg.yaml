@@ -1,0 +1,21 @@
+id: johannes-gutenberg
+title: Johannes Gutenberg
+actor_type: person
+summary: German inventor and craftsman (1400-1468).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q8958
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8958.json
+  title: Johannes Gutenberg
+  publisher: Wikidata
+  quote: German inventor and craftsman (1400-1468)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
