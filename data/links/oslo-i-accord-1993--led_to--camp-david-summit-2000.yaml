@@ -1,0 +1,16 @@
+id: oslo-i-accord-1993--led_to--camp-david-summit-2000
+from: oslo-i-accord-1993
+to: camp-david-summit-2000
+type: led_to
+confidence: documented
+note: The 2000 summit was the attempt to conclude Oslo's permanent-status talks.
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_Accords
+  archive_url: https://web.archive.org/web/20261010073604/https://en.wikipedia.org/wiki/Oslo_Accords
+  title: Oslo Accords
+  publisher: Wikipedia
+  quote: At the 2000 Camp David Summit, the US tried to save the Accords by reviving the negotiations.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

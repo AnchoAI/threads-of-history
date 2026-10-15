@@ -1,0 +1,21 @@
+id: jimmy-carter
+title: Jimmy Carter
+actor_type: person
+summary: President of the United States from 1977 to 1981 (1924–2024).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q23685
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q23685.json
+  title: Jimmy Carter
+  publisher: Wikidata
+  quote: president of the United States from 1977 to 1981 (1924–2024)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

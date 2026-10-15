@@ -1,0 +1,47 @@
+id: yemeni-civil-war-2014--part_of--iran-saudi-arabia-proxy-conflict-1979
+from: yemeni-civil-war-2014
+to: iran-saudi-arabia-proxy-conflict-1979
+type: part_of
+confidence: contested
+note: The war is widely regarded as part of the Iran–Saudi proxy conflict, though Iran has not intervened directly
+  and denies a military role.
+sources:
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: Although there has been no direct intervention by the Iranian government in Yemen, the civil war is
+    widely regarded as part of the Iran–Saudi proxy conflict.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: Iran arms and supports the Houthis, making the war a proxy conflict with Saudi Arabia.
+  held_by:
+  - United States
+  - Saudi Arabia
+  - United Arab Emirates
+  sources:
+  - url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+    archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+    title: Yemeni civil war (2014–present)
+    publisher: Wikipedia
+    quote: The United States, Saudi Arabia, the UAE and various Western commentators have accused various IRGC
+      networks of assisting Houthis through arms supplies, military training, logistics, strategic co-ordination
+      and media support.
+    type: reference
+    accessed: '2026-10-15'
+- claim: The Houthis have no military affiliation with Iran; Iran's support is only 'spiritual'.
+  held_by:
+  - Houthis
+  - Government of Iran
+  sources:
+  - url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+    archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+    title: Yemeni civil war (2014–present)
+    publisher: Wikipedia
+    quote: While the Houthis and the Iranian government have denied any military affiliation, Iranian supreme
+      leader Ali Khamenei openly announced his "spiritual" support of the movement
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced

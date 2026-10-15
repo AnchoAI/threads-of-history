@@ -1,0 +1,21 @@
+id: fatah
+title: Fatah
+actor_type: organization
+summary: Palestinian nationalist political party.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q178888
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q178888.json
+  title: Fatah
+  publisher: Wikidata
+  quote: Palestinian nationalist political party
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

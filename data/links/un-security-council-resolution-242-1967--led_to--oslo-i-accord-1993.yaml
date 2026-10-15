@@ -1,0 +1,24 @@
+id: un-security-council-resolution-242-1967--led_to--oslo-i-accord-1993
+from: un-security-council-resolution-242-1967
+to: oslo-i-accord-1993
+type: led_to
+confidence: documented
+note: Oslo aimed at a permanent settlement based on Resolutions 242 and 338, and the PLO accepted 242.
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: leading to a permanent settlement based on UN Security Council Resolutions 242 and 338, an integral
+    part of the whole peace process.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Palestine_Liberation_Organization
+  title: Palestine Liberation Organization
+  publisher: Wikipedia
+  quote: Mediated talks between the Israeli government and the PLO in 1993 (the Oslo I Accord) resulted in
+    the PLO recognizing Israel's legitimacy and accepting United Nations Security Council Resolution 242
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,47 @@
+id: armistice-agreements-1949
+title: 1949 Armistice Agreements
+summary: Israel signed armistice agreements with Egypt, Lebanon, Transjordan and Syria between February and
+  July 1949. They formally ended the hostilities of the 1948 war and drew the Green Line, which separated Israel
+  from the Jordanian-held West Bank and the Egyptian-held Gaza Strip until 1967.
+occurred:
+  start: '1949-02-24'
+  end: '1949-07-20'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- egypt
+importance: 3
+wikidata: Q999143
+sources:
+- url: https://en.wikipedia.org/wiki/1949_Armistice_Agreements
+  title: 1949 Armistice Agreements
+  publisher: Wikipedia
+  quote: The 1949 Armistice Agreements were signed between Israel and Egypt, Lebanon, Transjordan, and Syria.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1949_Armistice_Agreements
+  title: 1949 Armistice Agreements
+  publisher: Wikipedia
+  quote: They formally ended the hostilities of the 1948 Palestine War and also demarcated the Green Line,
+    which separated Arab-controlled territory (i.e., the Jordanian-annexed West Bank and the Egyptian-occupied
+    Gaza Strip) from Israel until the latter's victory in the 1967 Six-Day War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1949_Armistice_Agreements
+  title: 1949 Armistice Agreements
+  publisher: Wikipedia
+  quote: On 24 February the Israel–Egypt Armistice Agreement was signed in Rhodes.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1949_Armistice_Agreements
+  title: 1949 Armistice Agreements
+  publisher: Wikipedia
+  quote: The agreement with Syria was signed on 20 July 1949.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

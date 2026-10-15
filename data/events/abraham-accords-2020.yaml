@@ -1,0 +1,64 @@
+id: abraham-accords-2020
+title: Abraham Accords
+summary: US-mediated agreements, signed in Washington on 15 September 2020, under which the UAE and Bahrain
+  normalised relations with Israel; Sudan and Morocco followed. The UAE deal came in exchange for Israel suspending
+  plans to annex parts of the West Bank; public opinion in many Arab countries remained opposed.
+occurred:
+  start: '2020-09-15'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- israel
+- united-arab-emirates
+- bahrain
+- united-states
+- donald-trump
+- benjamin-netanyahu
+importance: 3
+wikidata: Q99495661
+sources:
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: Announced in August and September 2020 and signed in Washington, D.C. on September 15, 2020, the Accords
+    were mediated by the United States under President Donald Trump.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: The Abraham Accords are a set of agreements that established diplomatic normalization between Israel
+    and several Arab states, beginning with the United Arab Emirates (UAE) and Bahrain.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: In the months following the Accords, Sudan and Morocco also agreed to normalize relations with Israel.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: In mid-2020, a normalization deal between Israel and the UAE was brokered in exchange for the suspension
+    of Israeli plans to annex parts of the West Bank, as proposed in the Trump peace plan.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: While governments expressed support, public opinion in many countries remained opposed, particularly
+    due to the Accords' lack of progress on resolving the Israeli–Palestinian conflict.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

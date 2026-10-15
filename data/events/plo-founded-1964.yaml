@@ -1,0 +1,41 @@
+id: plo-founded-1964
+title: Palestine Liberation Organization founded
+summary: At the Arab League's initiative, the Palestinian National Council met in Jerusalem and founded the
+  PLO on 2 June 1964. It initially sought an Arab state over all of former Mandatory Palestine, advocating
+  the elimination of Israel.
+occurred:
+  start: '1964-06-02'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- palestine-liberation-organization
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Palestine_Liberation_Organization
+  title: Palestine Liberation Organization
+  publisher: Wikipedia
+  quote: At its first summit meeting in Cairo in 1964, the Arab League initiated the creation of an organization
+    representing the Palestinian people.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Palestine_Liberation_Organization
+  title: Palestine Liberation Organization
+  publisher: Wikipedia
+  quote: After concluding the meeting, the PLO was founded on 2 June 1964.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Palestine_Liberation_Organization
+  title: Palestine Liberation Organization
+  publisher: Wikipedia
+  quote: Founded in 1964, it initially sought to establish an Arab state over the entire territory of the former
+    Mandatory Palestine, advocating the elimination of Israel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No Wikidata item for the founding event; the organisation's QID (Q26683) is on the actor palestine-liberation-organization.

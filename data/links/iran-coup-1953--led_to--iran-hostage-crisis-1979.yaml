@@ -1,0 +1,25 @@
+id: iran-coup-1953--led_to--iran-hostage-crisis-1979
+from: iran-coup-1953
+to: iran-hostage-crisis-1979
+type: led_to
+confidence: documented
+note: The hostage-takers said they feared a repeat of the 1953 US-backed coup and demanded an apology for it.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261011003529/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: Supporters of the takeover stated that their motivation was fear of another American-backed coup against
+    their popular revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261011003529/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: The group's other demands included that the U.S. government apologize for its interference in the
+    internal affairs of Iran, including the overthrow of Prime Minister Mosaddegh in 1953
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

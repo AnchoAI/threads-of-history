@@ -1,0 +1,17 @@
+id: camp-david-accords-1978--led_to--egypt-israel-peace-treaty-1979
+from: camp-david-accords-1978
+to: egypt-israel-peace-treaty-1979
+type: led_to
+confidence: documented
+note: The second Camp David framework led directly to the 1979 treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Camp_David_Accords
+  archive_url: https://web.archive.org/web/20261008133628/https://en.wikipedia.org/wiki/Camp_David_Accords
+  title: Camp David Accords
+  publisher: Wikipedia
+  quote: The second of these frameworks (A Framework for the Conclusion of a Peace Treaty between Egypt and
+    Israel) led directly to the 1979 Egypt–Israel peace treaty.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

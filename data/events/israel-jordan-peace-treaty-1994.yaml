@@ -1,0 +1,36 @@
+id: israel-jordan-peace-treaty-1994
+title: Israel–Jordan peace treaty
+summary: Israel and Jordan signed a peace treaty in the Arava valley on 26 October 1994, making Jordan the
+  second Arab country, after Egypt, to sign a peace accord with Israel.
+occurred:
+  start: '1994-10-26'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- yitzhak-rabin
+- hussein-of-jordan
+- israel
+- jordan
+importance: 3
+wikidata: Q620988
+sources:
+- url: https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  archive_url: https://web.archive.org/web/20260929204559/https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  title: Israel–Jordan peace treaty
+  publisher: Wikipedia
+  quote: On 26 October 1994, Jordan and Israel signed the peace treaty in a ceremony held in the Arava valley
+    of Israel, north of Eilat and near the Jordanian border.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  archive_url: https://web.archive.org/web/20260929204559/https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  title: Israel–Jordan peace treaty
+  publisher: Wikipedia
+  quote: Jordan was the second Arab country, after Egypt, to sign a peace accord with Israel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

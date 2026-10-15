@@ -1,0 +1,25 @@
+id: six-day-war-1967--led_to--un-security-council-resolution-242-1967
+from: six-day-war-1967
+to: un-security-council-resolution-242-1967
+type: led_to
+confidence: documented
+note: Resolution 242 called for withdrawal from territories occupied in the war in return for peace.
+sources:
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: United Nations Security Council Resolution 242 (S/RES/242) was adopted unanimously by the UN Security
+    Council on 22 November 1967, in the aftermath of the Six-Day War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967
+  archive_url: https://web.archive.org/web/20261001163723/https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967
+  title: The 1967 Arab-Israeli War
+  publisher: US Department of State, Office of the Historian
+  quote: 242, adopted on November 22, called for Israel’s withdrawal from “territories occupied in the recent
+    conflict”
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

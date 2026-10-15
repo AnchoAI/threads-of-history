@@ -1,0 +1,57 @@
+id: abraham-accords-2020--led_to--october-7-attack-and-gaza-war-2023
+from: abraham-accords-2020
+to: october-7-attack-and-gaza-war-2023
+type: led_to
+confidence: contested
+note: Some Palestinian leaders cited normalisation with Arab states as a motive for the attack; Hamas's own
+  statements stress the occupation and blockade.
+sources:
+- url: https://en.wikipedia.org/wiki/Abraham_Accords
+  archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+  title: Abraham Accords
+  publisher: Wikipedia
+  quote: A Fatah Central Committee member said the Abraham Accords, were "one of the reasons" for the October
+    7, 2023, attack by Hamas on Israel.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: Normalisation between Israel and Arab states (the Abraham Accords and the Saudi talks that followed)
+    was a motive for the attack.
+  held_by:
+  - A Fatah Central Committee member
+  - Ismail Haniyeh (Hamas leader)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Abraham_Accords
+    archive_url: https://web.archive.org/web/20261012011943/https://en.wikipedia.org/wiki/Abraham_Accords
+    title: Abraham Accords
+    publisher: Wikipedia
+    quote: A Fatah Central Committee member said the Abraham Accords, were "one of the reasons" for the October
+      7, 2023, attack by Hamas on Israel.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Gaza_war
+    archive_url: https://web.archive.org/web/20261013085913/https://en.wikipedia.org/wiki/Gaza_war
+    title: Gaza war
+    publisher: Wikipedia
+    quote: Hamas leaders such as Ismail Haniyeh cited disrupting this "normalization train" as a motive for
+      the October 7 attacks.
+    type: reference
+    accessed: '2026-10-15'
+- claim: The attack was a response to the occupation, the blockade, settlements and prisoners, not to the Accords.
+  held_by:
+  - Hamas (official statement)
+  sources:
+  - url: https://en.wikipedia.org/wiki/October_7_attacks
+    archive_url: https://web.archive.org/web/20261013085829/https://en.wikipedia.org/wiki/October_7_attacks
+    title: October 7 attacks
+    publisher: Wikipedia
+    quote: Hamas said its attack was in response to the continued Israeli occupation, the blockade of the Gaza
+      Strip, the expansion of illegal Israeli settlements, rising Israeli settler violence, recent escalations
+      and Israel's holding of Palestinian prisoners
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Haniyeh's 'normalization train' remark refers to the 2023 Israeli–Saudi talks, which followed the Accords
+    but are not the Accords themselves.

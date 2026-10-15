@@ -1,0 +1,58 @@
+id: hamas-takeover-of-gaza-2007
+title: Hamas takes over Gaza (Battle of Gaza)
+summary: After Hamas won the January 2006 Palestinian legislative election and a unity government with Fatah
+  collapsed, the two fought a brief civil war in Gaza from 7 to 15 June 2007. Hamas took control of the Gaza
+  Strip, which it has governed since.
+occurred:
+  start: '2007-06-07'
+  end: '2007-06-15'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- hamas
+- fatah
+importance: 3
+wikidata: Q373655
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  archive_url: https://web.archive.org/web/20260927085853/https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  title: Battle of Gaza (2007)
+  publisher: Wikipedia
+  quote: The Battle of Gaza, also known as the Gaza civil war, was a brief civil war between Fatah and Hamas
+    that took place in the Gaza Strip from 7 to 15 June 2007.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  archive_url: https://web.archive.org/web/20260927085853/https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  title: Battle of Gaza (2007)
+  publisher: Wikipedia
+  quote: It was a prominent event in the Fatah–Hamas conflict, centered on the struggle for power after the
+    fall of the National Unity Government between Hamas and Fatah, which was dissolved shortly afterwards.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  archive_url: https://web.archive.org/web/20260927085853/https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  title: Battle of Gaza (2007)
+  publisher: Wikipedia
+  quote: Hamas fighters took control of the Gaza Strip, while Fatah officials were either taken as prisoners,
+    executed, or expelled.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: In the Palestinian legislative election of January 2006, Hamas gained a large majority of seats in
+    the Palestinian Parliament, defeating the ruling Fatah party.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: It has governed the Israeli-occupied Gaza Strip since 2007.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,54 @@
+id: hezbollah-founded-1982
+title: Hezbollah founded
+summary: Lebanese Shia clerics founded Hezbollah in 1982 in close cooperation with Iran, primarily to fight
+  the Israeli invasion of Lebanon. Its formation was shaped by the Iranian Revolution and Khomeini's model
+  of Islamic government, and it was formally announced in 1985.
+occurred:
+  start: '1982'
+  precision: year
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- hezbollah
+- iran
+- ruhollah-khomeini
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: Hezbollah was founded in 1982 by Lebanese Shiite clerics in close cooperation with Iran.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: In 1982, Hezbollah was conceived by Lebanese clerics and funded by Iran primarily to fight the Israeli
+    invasion of Lebanon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: The movement's formation was shaped by the Iranian Revolution of 1979 and Ayatollah Ruhollah Khomeini's
+    model of Islamic governance.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: 16 February 1985; 41 years ago (16 February 1985) (officially)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No Wikidata item for the founding event; the organisation's QID (Q41053) is on the actor hezbollah.
