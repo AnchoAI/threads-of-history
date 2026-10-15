@@ -1,0 +1,19 @@
+id: negotiations-to-end-apartheid-1990--led_to--south-african-general-election-1994
+from: negotiations-to-end-apartheid-1990
+to: south-african-general-election-1994
+type: led_to
+confidence: documented
+note: The negotiations culminated in South Africa's first non-racial elections.
+sources:
+- url: https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  archive_url: https://web.archive.org/web/20260920213835/https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  title: Negotiations to end apartheid in South Africa
+  publisher: Wikipedia
+  quote: The negotiations culminated in the passage of a new interim Constitution in 1993, a precursor
+    to the Constitution of 1996; and in South Africa's first non-racial elections in 1994
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,26 @@
+id: apartheid-1948--led_to--sharpeville-massacre-1960
+from: apartheid-1948
+to: sharpeville-massacre-1960
+type: led_to
+confidence: documented
+note: The Sharpeville crowd had gathered to protest against apartheid's pass laws.
+sources:
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: to protest against the apartheid system and its pass laws.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: Under the country's National Party government, African residents in urban districts were subject
+    to "influx control" measures.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,49 @@
+id: rwandan-genocide-1994
+title: Rwandan genocide
+summary: Over about 100 days, Hutu militias systematically kill members of the Tutsi minority, as well
+  as some moderate Hutu and Twa. Most scholarly estimates put Tutsi deaths at 500,000 to 662,000; Rwanda's
+  constitution says over a million people were killed. The Rwandan Patriotic Front ended it by defeating
+  the government forces.
+occurred:
+  start: '1994-04-07'
+  end: '1994-07-19'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- rwandan-patriotic-front
+importance: 5
+wikidata: Q131297
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: occurred from 7 April to 19 July 1994 during the Rwandan Civil War. Over a span of around 100
+    days, members of the Tutsi ethnic group, as well as some moderate Hutu and Twa, were systematically
+    killed by Hutu militias.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: While the Rwandan Constitution states that over 1 million people were killed, most scholarly
+    estimates suggest between 500,000 and 662,000 Tutsi died.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: The RPF resumed military operations in response to the genocide, eventually defeating the government
+    forces and ending the genocide
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,27 @@
+id: blood-telegram-1971--signal_of--bangladesh-liberation-war-1971
+from: blood-telegram-1971
+to: bangladesh-liberation-war-1971
+type: signal_of
+confidence: documented
+note: US diplomats in Dhaka reported the atrocities as they happened; Washington did not act.
+sources:
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: He is famous for sending the strongly worded "Blood Telegram" protesting against the atrocities
+    committed in the Bangladesh Liberation War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: When the Bangladesh genocide began, his consulate regularly reported events as they occurred
+    to the White House, but received no response
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,24 @@
+id: cuban-revolution-1959--led_to--nicaraguan-revolution-1961
+from: cuban-revolution-1959
+to: nicaraguan-revolution-1961
+type: led_to
+confidence: documented
+note: The Sandinistas set out to imitate the Cuban Revolution and its guerrilla tactics.
+sources:
+- url: https://en.wikipedia.org/wiki/Sandinista_National_Liberation_Front
+  title: Sandinista National Liberation Front
+  publisher: Wikipedia
+  quote: Some of these basic shared ideas was to imitate the success of the Cuban Revolution
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: The FSLN focused on guerrilla tactics, inspired by Fidel Castro and Ché Guevara.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

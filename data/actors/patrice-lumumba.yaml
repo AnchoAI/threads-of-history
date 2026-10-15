@@ -1,0 +1,21 @@
+id: patrice-lumumba
+title: Patrice Lumumba
+actor_type: person
+summary: Congolese politician and independence leader (1925–1961).
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q161672
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q161672.json
+  title: Patrice Lumumba
+  publisher: Wikidata
+  quote: Congolese politician and independence leader (1925–1961)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

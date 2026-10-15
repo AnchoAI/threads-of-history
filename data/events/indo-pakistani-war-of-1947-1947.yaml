@@ -1,0 +1,69 @@
+id: indo-pakistani-war-of-1947-1947
+title: First Kashmir war
+summary: Tribal militias from Pakistan cross into Jammu and Kashmir; its Maharaja accedes to India in
+  return for military help, and Indian and later Pakistani troops fight until a UN-mediated ceasefire.
+  The ceasefire line later became the Line of Control.
+occurred:
+  start: '1947-10-22'
+  end: '1949-01-01'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- india
+- pakistan
+importance: 3
+wikidata: Q652285
+sources:
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: On 22 October 1947, Pakistan's Frontier tribal militias crossed the border of the state.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: Maharaja Hari Singh made a plea to India for assistance, and help was offered, but it was subject
+    to his signing of an Instrument of Accession to India.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: Following the accession of the state to India on 26 October 1947, Indian troops were airlifted
+    to Srinagar
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: However, later in 1948, they relented and Pakistan's armies entered the war shortly afterwards.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: At 23.59 hrs on 1 January 1949, a United Nations-mediated ceasefire came into effect, bring the
+    war to an end.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: a plebiscite was never held and the cease-fire line essentially became permanent.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

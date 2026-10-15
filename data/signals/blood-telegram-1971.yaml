@@ -1,0 +1,65 @@
+id: blood-telegram-1971
+title: The Blood Telegram
+summary: Twenty members of the US consulate in Dhaka, led by Consul General Archer Blood, send a dissent
+  cable protesting that their government has failed to denounce atrocities in East Pakistan. Nixon and
+  Kissinger recalled Blood; officials later called the telegram alarmist.
+occurred:
+  start: '1971-04-06'
+  precision: day
+threads:
+- intel
+- rights
+regions:
+- south-central-asia
+- americas
+actors:
+- archer-blood
+- henry-kissinger
+- united-states
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: bangladesh-liberation-war-1971
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: The Blood Telegram (April 6, 1971), sent via the State Department's Dissent Channel, was seen
+    as the most strongly worded expression of dissent in the history of the U.S. Foreign Service. It was
+    signed by 20 members of the diplomatic staff.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: Our government has failed to denounce atrocities.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: President Richard M. Nixon and Secretary of State Henry Kissinger recalled him from that position
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blood_telegram
+  archive_url: https://web.archive.org/web/20260429152310/https://en.wikipedia.org/wiki/Blood_Telegram
+  title: Archer Blood
+  publisher: Wikipedia
+  quote: Government officials in 1972 admitted that they didn't believe the magnitude of the killings,
+    labeling the telegram alarmist.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: Q462054 is Archer Blood himself (on the actor archer-blood).'
+  - The source quoted is the Wikipedia article on Archer Blood, to which 'Blood telegram' redirects. The
+    source calls Kissinger 'Secretary of State', though he was National Security Advisor in 1971; the
+    summary avoids the title.
+  - 'Outcome ''confirmed'': the atrocities it reported are documented on bangladesh-liberation-war-1971.'

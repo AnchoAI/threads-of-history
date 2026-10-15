@@ -1,0 +1,80 @@
+id: guatemalan-coup-1954
+title: Guatemalan coup d'état
+summary: Guatemala's elected president Jacobo Árbenz, whose land reform had hit the United Fruit Company,
+  resigns after an invasion by a CIA-armed and trained force under Carlos Castillo Armas, ending the Guatemalan
+  Revolution. The coup was precipitated by the CIA's Operation PBSuccess, authorised by Eisenhower.
+occurred:
+  start: '1954-06-18'
+  end: '1954-06-27'
+  precision: day
+threads:
+- intel
+- usru
+regions:
+- americas
+actors:
+- jacobo-arbenz
+- cia
+- united-states
+importance: 4
+wikidata: Q976887
+sources:
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: 18–27 June 1954
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: The democratically elected Guatemalan president Jacobo Árbenz was deposed in a coup d'état in
+    1954, marking the end of the Guatemalan Revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: The coup was precipitated by a CIA covert operation code-named PBSuccess.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: Eisenhower authorized the CIA to carry out Operation PBSuccess in August 1953. The CIA armed,
+    funded, and trained a force of 480 men led by Carlos Castillo Armas.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: before resigning on 27 June
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: Árbenz, who instituted land reforms which granted property to landless peasants
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: Several historians have maintained that the lobbying of the UFC, and the expropriation of its
+    lands, were the chief motivation for the U.S.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Historians debate whether United Fruit's interests or Cold War strategy was the main US motive (same
+    article); the summary states only that the land reform hit the company.

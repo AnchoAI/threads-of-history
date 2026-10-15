@@ -1,0 +1,87 @@
+id: assassination-of-patrice-lumumba-1961
+title: Assassination of Patrice Lumumba
+summary: Patrice Lumumba, the Congo's first prime minister, deposed and detained by Mobutu's forces, is
+  handed to Katanga and shot by a Katangan firing squad led by Belgian contract officers. Katanga announced
+  his death on 13 February, claiming he had escaped and been killed by villagers. Belgium and the United
+  States had earlier sought his removal; Eisenhower authorised a CIA plan to poison him that was dropped.
+occurred:
+  start: '1961-01-17'
+  precision: day
+known:
+  public:
+    start: '1961-02-13'
+    precision: day
+    note: Katanga's interior minister announced the deaths, claiming the men had escaped and been killed
+      by villagers.
+threads:
+- empire
+- intel
+- usru
+regions:
+- sub-saharan-africa
+actors:
+- patrice-lumumba
+- mobutu-sese-seko
+- cia
+importance: 4
+wikidata: Q2529018
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: Patrice Lumumba, inaugural Prime Minister of the Republic of the Congo
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: Prior to his assassination, Western powers sought to remove Lumumba from power.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: in August 1960, President Dwight D. Eisenhower authorized an ultimately scrapped Central Intelligence
+    Agency plan to poison him.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: was assassinated on January 17, 1961 in Katanga, near Elizabethville, amidst the Congo Crisis
+    that began in July 1960.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: Following the September 1960 coup led by Mobutu Sese Seko, Lumumba and his political retinue
+    were detained by Mobutu's forces in December 1960.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: Lumumba was executed, alongside Maurice Mpolo and Joseph Okito, by a Katangan firing squad led
+    by Belgian contract officers.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: On February 13, Godefroid Munongo announced to reporters that Lumumba, Mpolo, and Okito had been
+    killed in Katanga. In his version, Munongo described the three men as having escaped Katangan custody.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

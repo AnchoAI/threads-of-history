@@ -1,0 +1,21 @@
+id: rwandan-patriotic-front
+title: Rwandan Patriotic Front
+actor_type: organization
+summary: Political party in Rwanda.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q690240
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q690240.json
+  title: Rwandan Patriotic Front
+  publisher: Wikidata
+  quote: political party in Rwanda
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
