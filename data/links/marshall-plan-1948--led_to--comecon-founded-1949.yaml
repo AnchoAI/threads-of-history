@@ -1,0 +1,25 @@
+id: marshall-plan-1948--led_to--comecon-founded-1949
+from: marshall-plan-1948
+to: comecon-founded-1949
+type: led_to
+confidence: documented
+note: Comecon was the Eastern Bloc's response to the Marshall Plan.
+sources:
+- url: https://en.wikipedia.org/wiki/Comecon
+  archive_url: https://web.archive.org/web/20261012034253/https://en.wikipedia.org/wiki/Comecon
+  title: Comecon
+  publisher: Wikipedia
+  quote: Comecon was the Eastern Bloc's response to the formation in Western Europe of the Marshall Plan
+    and the OEEC
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: The Soviet Union's "alternative" to the Marshall plan which was purported to involve Soviet subsidies
+    and trade with Western Europe, became known as the Molotov Plan, and later, the Comecon.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

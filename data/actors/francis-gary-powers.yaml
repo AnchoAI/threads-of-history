@@ -1,0 +1,21 @@
+id: francis-gary-powers
+title: Francis Gary Powers
+actor_type: person
+summary: American pilot shot down flying a U-2 spy plane over the Soviet Union (1929-1977).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q309840
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q309840.json
+  title: Francis Gary Powers
+  publisher: Wikidata
+  quote: American pilot shot down flying a U-2 spy plane over the Soviet Union (1929-1977)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

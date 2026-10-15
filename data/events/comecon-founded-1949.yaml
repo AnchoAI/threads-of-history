@@ -1,0 +1,55 @@
+id: comecon-founded-1949
+title: Comecon founded
+summary: In January 1949 the Soviet Union, Bulgaria, Czechoslovakia, Hungary, Poland and Romania founded
+  the Council for Mutual Economic Assistance (Comecon), an economic organisation of the Eastern Bloc under
+  Soviet leadership that lasted until 1991. It was the Eastern Bloc's response to the Marshall Plan.
+occurred:
+  start: '1949-01'
+  precision: month
+threads:
+- usru
+- econ-crises
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- joseph-stalin
+importance: 3
+wikidata: Q191582
+sources:
+- url: https://en.wikipedia.org/wiki/Comecon
+  archive_url: https://web.archive.org/web/20261012034253/https://en.wikipedia.org/wiki/Comecon
+  title: Comecon
+  publisher: Wikipedia
+  quote: The Comecon was founded in 1949 by the Soviet Union, Bulgaria, Czechoslovakia, Hungary, Poland,
+    and Romania.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Comecon
+  archive_url: https://web.archive.org/web/20261012034253/https://en.wikipedia.org/wiki/Comecon
+  title: Comecon
+  publisher: Wikipedia
+  quote: was an economic organization from 1949 to 1991 under the leadership of the Soviet Union that
+    comprised the countries of the Eastern Bloc
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Comecon
+  archive_url: https://web.archive.org/web/20261012034253/https://en.wikipedia.org/wiki/Comecon
+  title: Comecon
+  publisher: Wikipedia
+  quote: 8 January 1949, at which the six founding member countries were represented
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Comecon
+  archive_url: https://web.archive.org/web/20261012034253/https://en.wikipedia.org/wiki/Comecon
+  title: Comecon
+  publisher: Wikipedia
+  quote: Comecon was the Eastern Bloc's response to the formation in Western Europe of the Marshall Plan
+    and the OEEC
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The article mentions both a founding meeting on 5–8 January 1949 and 25 January 1949; month precision
+    is used.

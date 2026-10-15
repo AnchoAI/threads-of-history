@@ -1,0 +1,23 @@
+id: truman-orders-hydrogen-bomb-program-1950--led_to--ivy-mike-1952
+from: truman-orders-hydrogen-bomb-program-1950
+to: ivy-mike-1952
+type: led_to
+confidence: documented
+note: Ivy Mike was the first full test of the weapon the programme was set up to build.
+sources:
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  archive_url: https://web.archive.org/web/20261009183723/https://en.wikipedia.org/wiki/Ivy_Mike
+  title: Ivy Mike
+  publisher: Wikipedia
+  quote: US President Harry S. Truman ordered a full-scale hydrogen bomb program in January 1950
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  archive_url: https://web.archive.org/web/20261009183723/https://en.wikipedia.org/wiki/Ivy_Mike
+  title: Ivy Mike
+  publisher: Wikipedia
+  quote: Ivy Mike was the codename given to the first full-yield test of a multi-stage thermonuclear device
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

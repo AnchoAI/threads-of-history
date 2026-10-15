@@ -1,0 +1,21 @@
+id: wladyslaw-gomulka
+title: Władysław Gomułka
+actor_type: person
+summary: Polish politician (1905-1982).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q159603
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q159603.json
+  title: Władysław Gomułka
+  publisher: Wikidata
+  quote: Polish politician (1905-1982)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

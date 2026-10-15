@@ -1,0 +1,21 @@
+id: dwight-d-eisenhower
+title: Dwight D. Eisenhower
+actor_type: person
+summary: president of the United States from 1953 to 1961 (1890–1969).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q9916
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9916.json
+  title: Dwight D. Eisenhower
+  publisher: Wikidata
+  quote: president of the United States from 1953 to 1961 (1890–1969)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,61 @@
+id: berlin-crisis-1961
+title: Berlin Crisis of 1961
+summary: From June to November 1961 Khrushchev renewed his demands on Berlin, pressing the newly inaugurated
+  President Kennedy at the Vienna summit. When talks failed, East Germany closed the border and built
+  a wall around West Berlin in August, and in October American and Soviet tanks faced each other at Checkpoint
+  Charlie until both sides agreed to withdraw them.
+occurred:
+  start: '1961-06-04'
+  end: '1961-11-09'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+- americas
+actors:
+- nikita-khrushchev
+- john-f-kennedy
+- walter-ulbricht
+- soviet-union
+- united-states
+- east-germany
+importance: 4
+wikidata: Q708321
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: 4 June – 9 November 1961
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: Khrushchev renewed his demands at the 1961 Vienna summit, this time challenging the newly inaugurated
+    U.S. president John F. Kennedy
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: When talks broke down and no agreement was reached, in August 1961 East German leader Walter
+    Ulbricht, with Khrushchev's backing, ordered the closing of the border and the construction of a wall
+    surrounding West Berlin.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: A brief stand-off between American and Soviet tanks occurred at Checkpoint Charlie in October
+    after a dispute about free movement of Allied personnel; the confrontation ended peacefully after
+    Khrushchev and Kennedy agreed to withdraw the tanks and reduce tensions.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

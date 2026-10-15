@@ -1,0 +1,55 @@
+id: berlin-wall-built-1961
+title: Berlin Wall built
+summary: On 13 August 1961 East Germany began building the Berlin Wall around West Berlin, mainly to stop
+  its citizens fleeing to the West; about 3.5 million East Germans, some 20% of the population, had left
+  before it went up. Estimates of those killed at the Wall until 1989 range from 136 to more than 200.
+occurred:
+  start: '1961-08-13'
+  precision: day
+threads:
+- usru
+- migration
+regions:
+- western-europe
+actors:
+- east-germany
+- walter-ulbricht
+importance: 4
+wikidata: Q5086
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: Construction of the Berlin Wall was commenced by the government of the GDR on 13 August 1961.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: The primary intention for the Wall's construction was to prevent East German citizens from fleeing
+    to the West.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: Before the Wall's erection, 3.5 million East Germans (20% of the population) circumvented Eastern
+    Bloc emigration restrictions and defected from the GDR
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: with an estimated death toll of those killed by East German authorities ranging from 136 to more
+    than 200 in and around Berlin
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - wikidata Q5086 is the Wall itself (1961–1989). The fall of the Wall in 1989 should use its own item
+    (Q178131 or similar), not this id.

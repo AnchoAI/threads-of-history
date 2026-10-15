@@ -1,0 +1,61 @@
+id: currency-reform-1948
+title: Western German currency reform
+summary: On 20–21 June 1948 the Western Allies replaced the Reichsmark with the Deutsche Mark in the three
+  western occupation zones of Germany, a step that let those zones receive Marshall Plan aid. The Soviets
+  treated it as a unilateral decision, introduced their own currency and cut land links to West Berlin.
+occurred:
+  start: '1948-06-20'
+  end: '1948-06-21'
+  precision: day
+threads:
+- usru
+- econ-crises
+regions:
+- western-europe
+actors:
+- united-states
+- united-kingdom
+- france
+- soviet-union
+importance: 3
+wikidata: Q2595990
+sources:
+- url: https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  archive_url: https://web.archive.org/web/20260320161112/https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  title: Currency Reform of 1948
+  publisher: Wikipedia
+  quote: went into effect on June 20, 1948, in the Trizone, the three western occupation zones of Germany
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  archive_url: https://web.archive.org/web/20260320161112/https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  title: Currency Reform of 1948
+  publisher: Wikipedia
+  quote: From June 21, 1948, the Deutsche Mark ("DM", also "D-Mark") was the sole legal tender there.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  archive_url: https://web.archive.org/web/20260320161112/https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  title: Currency Reform of 1948
+  publisher: Wikipedia
+  quote: It enabled the Western occupation zones to receive Marshall Plan aid
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: They interpreted the new currency as an unjustified, unilateral decision, and responded by cutting
+    all land links between West Berlin and West Germany.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/berlin-airlift
+  archive_url: https://web.archive.org/web/20261002035656/https://history.state.gov/milestones/1945-1952/berlin-airlift
+  title: The Berlin Airlift, 1948–1949
+  publisher: Office of the Historian, US Department of State
+  quote: Besides issuing their own currency, the Ostmark, the Soviets blocked all major road, rail, and
+    canal links to West Berlin
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

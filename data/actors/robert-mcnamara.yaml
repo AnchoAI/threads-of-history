@@ -1,0 +1,21 @@
+id: robert-mcnamara
+title: Robert McNamara
+actor_type: person
+summary: American businessman and Secretary of Defense (1916-2009).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q191999
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q191999.json
+  title: Robert McNamara
+  publisher: Wikidata
+  quote: American businessman and Secretary of Defense (1916-2009)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

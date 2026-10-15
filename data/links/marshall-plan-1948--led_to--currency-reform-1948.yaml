@@ -1,0 +1,24 @@
+id: marshall-plan-1948--led_to--currency-reform-1948
+from: marshall-plan-1948
+to: currency-reform-1948
+type: led_to
+confidence: documented
+note: One purpose of the currency reform was to let Marshall Plan aid flow to the western zones.
+sources:
+- url: https://history.state.gov/milestones/1945-1952/berlin-airlift
+  archive_url: https://web.archive.org/web/20261002035656/https://history.state.gov/milestones/1945-1952/berlin-airlift
+  title: The Berlin Airlift, 1948–1949
+  publisher: Office of the Historian, US Department of State
+  quote: The purpose of the currency reform was to wrest economic control of the city from the Soviets,
+    enable the introduction of Marshall Plan aid, and curb the city’s black market.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  archive_url: https://web.archive.org/web/20260320161112/https://en.wikipedia.org/wiki/Currency_Reform_of_1948
+  title: Currency Reform of 1948
+  publisher: Wikipedia
+  quote: It enabled the Western occupation zones to receive Marshall Plan aid
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

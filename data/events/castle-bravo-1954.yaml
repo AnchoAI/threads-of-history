@@ -1,0 +1,61 @@
+id: castle-bravo-1954
+title: Castle Bravo test and fallout
+summary: On 1 March 1954 the US Castle Bravo test at Bikini Atoll yielded 15 megatons, 2.5 times the predicted
+  6, and its fallout fell on the inhabited Rongelap and Utirik atolls and on the crew of the Japanese
+  fishing boat Lucky Dragon No. 5. The blast incited a strong international reaction against atmospheric
+  thermonuclear testing.
+occurred:
+  start: '1954-03-01'
+  precision: day
+threads:
+- nuclear
+regions:
+- americas
+- east-asia
+actors:
+- united-states
+importance: 3
+wikidata: Q304419
+sources:
+- url: https://en.wikipedia.org/wiki/Castle_Bravo
+  archive_url: https://web.archive.org/web/20261003051200/https://en.wikipedia.org/wiki/Castle_Bravo
+  title: Castle Bravo
+  publisher: Wikipedia
+  quote: Detonated on 1 March 1954, the device remains the most powerful nuclear device ever detonated
+    by the United States
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Castle_Bravo
+  archive_url: https://web.archive.org/web/20261003051200/https://en.wikipedia.org/wiki/Castle_Bravo
+  title: Castle Bravo
+  publisher: Wikipedia
+  quote: Castle Bravo's yield was 15 megatons of TNT [Mt] (63 PJ), 2.5 times the predicted 6 Mt (25 PJ)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Castle_Bravo
+  archive_url: https://web.archive.org/web/20261003051200/https://en.wikipedia.org/wiki/Castle_Bravo
+  title: Castle Bravo
+  publisher: Wikipedia
+  quote: fell on residents of Rongelap and Utirik atolls
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Castle_Bravo
+  archive_url: https://web.archive.org/web/20261003051200/https://en.wikipedia.org/wiki/Castle_Bravo
+  title: Castle Bravo
+  publisher: Wikipedia
+  quote: Twenty-three crew members of the Japanese fishing vessel Daigo Fukuryū Maru ("Lucky Dragon No.
+    5") were also contaminated by the heavy fallout
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Castle_Bravo
+  archive_url: https://web.archive.org/web/20261003051200/https://en.wikipedia.org/wiki/Castle_Bravo
+  title: Castle Bravo
+  publisher: Wikipedia
+  quote: The blast incited a strong international reaction over atmospheric thermonuclear testing.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Region: the test was in the Marshall Islands; the project has no Pacific region. east-asia is for
+    the Japanese fishermen affected.'

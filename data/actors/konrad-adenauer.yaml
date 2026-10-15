@@ -1,0 +1,21 @@
+id: konrad-adenauer
+title: Konrad Adenauer
+actor_type: person
+summary: German politician, Chancellor of West Germany (1949–1963), Zentrum and CDU.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q2492
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2492.json
+  title: Konrad Adenauer
+  publisher: Wikidata
+  quote: German politician, Chancellor of West Germany (1949–1963), Zentrum and CDU
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

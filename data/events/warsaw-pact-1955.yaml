@@ -1,0 +1,58 @@
+id: warsaw-pact-1955
+title: Warsaw Pact founded
+summary: On 14 May 1955 the Soviet Union and seven Eastern Bloc states signed the Warsaw Pact, a collective
+  defence treaty, in Warsaw. Dominated by the Soviet Union, it was set up as a counterweight to NATO after
+  West Germany was rearmed inside NATO, and lasted until 1991.
+occurred:
+  start: '1955-05-14'
+  precision: day
+threads:
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- east-germany
+importance: 4
+wikidata: Q41644
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: The Presidential Palace in Warsaw, Poland, where the Warsaw Pact was established and signed on
+    14 May 1955.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven
+    other Eastern Bloc socialist republics in Central and Eastern Europe in May 1955
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: Dominated by the Soviet Union, the Warsaw Pact was established as a balance of power or counterweight
+    to the North Atlantic Treaty Organization (NATO) and the Western Bloc.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: The Warsaw Pact was put in place as a consequence of the rearming of West Germany inside NATO.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: On 25 February 1991, at a meeting in Hungary, the pact ceased to exist
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

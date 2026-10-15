@@ -1,0 +1,17 @@
+id: bomber-gap-1955--echo--missile-gap-1957
+from: bomber-gap-1955
+to: missile-gap-1957
+type: echo
+confidence: documented
+note: Both were inflated estimates of Soviet strength later shown to be false.
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Like the bomber gap of only a few years earlier, it was soon demonstrated that the gap was entirely
+    fictional.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
