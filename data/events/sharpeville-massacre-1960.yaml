@@ -1,0 +1,55 @@
+id: sharpeville-massacre-1960
+title: Sharpeville massacre
+summary: South African police fire on a crowd protesting against apartheid's pass laws at Sharpeville.
+  Police records gave 69 dead; later research found at least 91. The ANC and PAC were banned and turned
+  to armed struggle soon after.
+occurred:
+  start: '1960-03-21'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- african-national-congress
+importance: 3
+wikidata: Q518753
+sources:
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: The Sharpeville massacre occurred on 21 March 1960, when police opened fire on a crowd of people
+    who had assembled outside the police station in the township of Sharpeville
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: to protest against the apartheid system and its pass laws.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: The apartheid-era police records indicate that 69 people were killed, including 10 children,
+    and 180 injured, including 19 children. This figure has subsequently been shown to have been greatly
+    under-estimated. New research has shown that at least 91 people were killed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sharpeville_massacre
+  archive_url: https://web.archive.org/web/20261009105405/https://en.wikipedia.org/wiki/Sharpeville_massacre
+  title: Sharpeville massacre
+  publisher: Wikipedia
+  quote: The Sharpeville massacre contributed to the banning of the PAC and ANC as illegal organisations.
+    The massacre was one of the catalysts for a shift from nonviolent resistance and civil disobedience
+    to guerrilla warfare
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

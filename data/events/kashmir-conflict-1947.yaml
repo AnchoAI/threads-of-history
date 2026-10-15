@@ -1,0 +1,36 @@
+id: kashmir-conflict-1947
+title: Kashmir conflict
+summary: A territorial dispute over the former princely state of Jammu and Kashmir, claimed by both India
+  and Pakistan since partition and, in part, by China. It has led to three wars between India and Pakistan.
+occurred:
+  start: '1947'
+  precision: year
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- india
+- pakistan
+importance: 4
+wikidata: Q1413732
+sources:
+- url: https://en.wikipedia.org/wiki/Kashmir_conflict
+  title: Kashmir conflict
+  publisher: Wikipedia
+  quote: The conflict started after the partition of India in 1947 as both India and Pakistan claimed
+    the entirety of the former princely state of Jammu and Kashmir. It is a dispute over the region that
+    escalated into three wars between India and Pakistan
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kashmir_conflict
+  title: Kashmir conflict
+  publisher: Wikipedia
+  quote: and also between China and India in the northeastern portion of the region.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

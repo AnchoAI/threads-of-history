@@ -1,0 +1,38 @@
+id: zimbabwe-independence-1980
+title: Zimbabwe becomes independent
+summary: After elections won by ZANU, Southern Rhodesia becomes internationally recognised as independent
+  Zimbabwe, with Robert Mugabe as its first prime minister.
+occurred:
+  start: '1980-04-18'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- robert-mugabe
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: On 18 April 1980, according to the terms of the constitution, agreed-upon during the Lancaster
+    House negotiations, Southern Rhodesia became independent as Zimbabwe, with Robert Mugabe as the first
+    prime minister.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: ZANU won the election and Mugabe became the first Prime Minister of Zimbabwe on 18 April 1980,
+    when the country achieved internationally recognised independence.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: Q954 is the state of Zimbabwe; no item for the independence event was found.'

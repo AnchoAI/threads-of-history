@@ -1,0 +1,18 @@
+id: lancaster-house-agreement-1979--led_to--zimbabwe-independence-1980
+from: lancaster-house-agreement-1979
+to: zimbabwe-independence-1980
+type: led_to
+confidence: documented
+note: Zimbabwe became independent under the constitution agreed at Lancaster House.
+sources:
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: On 18 April 1980, according to the terms of the constitution, agreed-upon during the Lancaster
+    House negotiations, Southern Rhodesia became independent as Zimbabwe
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

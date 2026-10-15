@@ -1,0 +1,51 @@
+id: rhodesian-bush-war-1964
+title: Rhodesian Bush War
+summary: A civil war between Rhodesia's white minority-led government and the guerrilla armies of Robert
+  Mugabe's ZANU and Joshua Nkomo's ZAPU, ended by the Lancaster House Agreement.
+occurred:
+  start: '1964-07-04'
+  end: '1979-12-12'
+  precision: day
+threads:
+- empire
+- rights
+- usru
+regions:
+- sub-saharan-africa
+actors:
+- ian-smith
+- robert-mugabe
+importance: 3
+wikidata: Q2444955
+sources:
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: 4 July 1964 – 12 December 1979
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: 'The conflict pitted three forces against one another: the Rhodesian white minority-led government
+    of Ian Smith'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: the military wing of Robert Mugabe's Zimbabwe African National Union (ZANU); and the Zimbabwe
+    People's Revolutionary Army of Joshua Nkomo's Zimbabwe African People's Union (ZAPU).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: The agreement effectively concluded the Rhodesian Bush War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

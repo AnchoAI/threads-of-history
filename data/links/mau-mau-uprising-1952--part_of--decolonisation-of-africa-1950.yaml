@@ -1,0 +1,26 @@
+id: mau-mau-uprising-1952--part_of--decolonisation-of-africa-1950
+from: mau-mau-uprising-1952
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The Mau Mau rebellion is one of the major events of African decolonisation.
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  archive_url: https://web.archive.org/web/20261003144220/https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Major events during the decolonisation of Africa include the Mau Mau rebellion, the Algerian
+    War, the Congo Crisis
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: Part of the decolonisation of Africa
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

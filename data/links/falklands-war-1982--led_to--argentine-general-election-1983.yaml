@@ -1,0 +1,26 @@
+id: falklands-war-1982--led_to--argentine-general-election-1983
+from: falklands-war-1982
+to: argentine-general-election-1983
+type: led_to
+confidence: documented
+note: Defeat in the Falklands discredited the junta and hastened Argentina's return to democracy.
+sources:
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: the unfavourable outcome prompted large protests against the ruling military government, hastening
+    its downfall and the democratisation of the country.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1983_Argentine_general_election
+  archive_url: https://web.archive.org/web/20260922030910/https://en.wikipedia.org/wiki/1983_Argentine_general_election
+  title: 1983 Argentine general election
+  publisher: Wikipedia
+  quote: This boost turned into a massive decrease after the Argentine surrender in the Falklands War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

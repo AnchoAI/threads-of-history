@@ -1,0 +1,18 @@
+id: partition-of-india-1947--led_to--kashmir-conflict-1947
+from: partition-of-india-1947
+to: kashmir-conflict-1947
+type: led_to
+confidence: documented
+note: The Kashmir dispute began at partition, when India and Pakistan both claimed the princely state.
+sources:
+- url: https://en.wikipedia.org/wiki/Kashmir_conflict
+  title: Kashmir conflict
+  publisher: Wikipedia
+  quote: The conflict started after the partition of India in 1947 as both India and Pakistan claimed
+    the entirety of the former princely state of Jammu and Kashmir.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

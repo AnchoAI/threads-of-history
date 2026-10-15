@@ -1,0 +1,22 @@
+id: henry-kissinger
+title: Henry Kissinger
+actor_type: person
+summary: American diplomat and geopolitical advisor, US Secretary of State from 1973 to 1977 (1923–2023).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q66107
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q66107.json
+  title: Henry Kissinger
+  publisher: Wikidata
+  quote: American diplomat and geopolitical advisor, served as U.S. Secretary of State from 1973 to 1977
+    (1923–2023)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

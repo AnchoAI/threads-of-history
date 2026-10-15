@@ -1,0 +1,52 @@
+id: bandung-conference-1955
+title: Bandung Conference
+summary: Twenty-nine Asian and African states, most newly independent, meet in Bandung, Indonesia, to
+  promote Afro-Asian cooperation and oppose colonialism. Sukarno and Nehru were key organisers; the conference
+  was a step towards the Non-Aligned Movement.
+occurred:
+  start: '1955-04-18'
+  end: '1955-04-24'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+- south-central-asia
+- sub-saharan-africa
+actors:
+- sukarno
+- jawaharlal-nehru
+importance: 4
+wikidata: Q208191
+sources:
+- url: https://en.wikipedia.org/wiki/Bandung_Conference
+  title: Bandung Conference
+  publisher: Wikipedia
+  quote: was a meeting of Asian and African states, most of which were newly independent, which took place
+    on 18–24 April 1955 in Bandung, West Java, Indonesia. The twenty-nine countries that participated
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bandung_Conference
+  title: Bandung Conference
+  publisher: Wikipedia
+  quote: The conference's stated aims were to promote Afro-Asian economic and cultural cooperation and
+    to oppose colonialism or neocolonialism by any nation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bandung_Conference
+  title: Bandung Conference
+  publisher: Wikipedia
+  quote: Indonesian President Sukarno and Indian Prime Minister Jawaharlal Nehru were key organizers
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bandung_Conference
+  title: Bandung Conference
+  publisher: Wikipedia
+  quote: The conference was a step towards the eventual creation of the Non-Aligned Movement (NAM)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

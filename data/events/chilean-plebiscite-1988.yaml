@@ -1,0 +1,40 @@
+id: chilean-plebiscite-1988
+title: Chile votes 'No' to Pinochet
+summary: Chileans vote on whether Augusto Pinochet should stay president for eight more years; 'No' wins
+  with 55.99% of valid votes, ending his chance of extending his rule and starting a transition to democracy.
+occurred:
+  start: '1988-10-05'
+  precision: day
+threads:
+- rights
+- revolutions
+regions:
+- americas
+actors:
+- augusto-pinochet
+importance: 3
+wikidata: Q3454843
+sources:
+- url: https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite
+  archive_url: https://web.archive.org/web/20260913185348/https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite
+  title: 1988 Chilean national plebiscite
+  publisher: Wikipedia
+  quote: A national plebiscite was held in Chile on 5 October 1988 to decide whether Augusto Pinochet,
+    the head of a military dictatorship that had ruled the country since the 1973 coup d'état, would remain
+    president for a further eight-year term.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite
+  archive_url: https://web.archive.org/web/20260913185348/https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite
+  title: 1988 Chilean national plebiscite
+  publisher: Wikipedia
+  quote: The "No" option won with 55.99 percent of valid votes against 44.01 percent for "Sí," ending
+    the possibility of Pinochet extending his rule and triggering a one-year transition mandated by the
+    constitution.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
