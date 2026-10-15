@@ -7,14 +7,20 @@
 //   quarter of the window, so zooming in opens events into their parts. A sub-event at least
 //   as important as its parent is never folded away (e.g. an invasion that ends a buildup).
 // - Of the candidates, the most important are drawn (importance first, then number of links),
-//   up to maxNodes. The selected item, its connections and pinned items (e.g. the current step
+//   up to maxNodes. So that one busy stretch (the 1940s, say) can't take every slot when zoomed
+//   out, the window is split into equal slices on screen and each slice first gets its best few
+//   items (half the budget, shared out); the rest of the budget goes by rank across the window. The selected item, its connections and pinned items (e.g. the current step
 //   of a guided path) are always drawn if they are in the window.
 // - Only the top maxLabels get labels, plus the selected item and its connections.
 // - With a "knowable on" date, only items that were known by then are candidates at all:
 //   known to the public, or to a chosen party (e.g. "US government") if that came first.
 //   This applies even to the selection and its connections, so nothing leaks from hindsight.
 
+import { WORLD_LENGTH } from "./timescale.js";
+
 export const MAX_NODES = 120;
+export const SLICES = 12;
+const FAIR_SHARE = 0.5;   // share of the budget reserved for the per-slice pass
 export const MAX_LABELS = 30;
 const PART_SHARE = 0.25;
 
@@ -82,15 +88,30 @@ export function chooseVisible(data, win, {
     inWindow(n, win) && n.threads.some((t) => !hiddenThreads.has(t)) && partOpen(n) && isKnown(n, knowable));
   const ranked = candidates.sort((a, b) => score(b, data) - score(a, data) || a.id.localeCompare(b.id));
 
+  // Fair pass: each slice of the window takes its best items first.
+  const slice = (n) => {
+    const t = Math.min(Math.max(span(n)[0], win.t0), win.t1);
+    const f = win.x ? win.x(t) / WORLD_LENGTH + 0.5 : (t - win.t0) / (win.t1 - win.t0);
+    return Math.min(SLICES - 1, Math.max(0, Math.floor(f * SLICES)));
+  };
+  const perSlice = Math.max(1, Math.floor((maxNodes * FAIR_SHARE) / SLICES));
+  const taken = new Array(SLICES).fill(0);
+  const first = [], rest = [];
+  for (const n of ranked) {
+    const s = slice(n);
+    if (taken[s] < perSlice) { taken[s]++; first.push(n); } else rest.push(n);
+  }
+  const order = [...first, ...rest];
+
   const visible = new Set();
   for (const n of ranked) if (forced.has(n.id)) visible.add(n.id);
-  for (const n of ranked) {
+  for (const n of order) {
     if (visible.size >= Math.max(maxNodes, forced.size)) break;
     visible.add(n.id);
   }
 
   const labelled = new Set([...forced].filter((id) => visible.has(id)));
-  for (const n of ranked) {
+  for (const n of order) {
     if (labelled.size >= maxLabels + forced.size) break;
     if (visible.has(n.id)) labelled.add(n.id);
   }

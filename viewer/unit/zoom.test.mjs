@@ -145,3 +145,19 @@ test("eras: long importance-5 events in view, no near-duplicates, capped", async
   // Zoomed into a single month, a war is not an "era" band unless it spans the window share.
   assert.ok(chooseEras(real, new TimeWindow(1916.5, 1916.6)).every((e) => e.b - e.a >= 1));
 });
+
+test("fair share: a crowded stretch can't take every slot from quieter ones", async () => {
+  const { SLICES } = await import("../src/visibility.js");
+  const item = (id, y, importance) => ({ id, kind: "event", title: id, summary: "", threads: ["t"], regions: ["r"], importance,
+    occurred: { start: String(y), precision: "year", range: [y, y + 0.5] } });
+  // 300 important items crammed into the 1940s, and one minor item in each other decade.
+  const items = [];
+  for (let i = 0; i < 300; i++) items.push(item(`busy-${i}`, 1940 + (i % 10), 5));
+  for (let d = 1900; d < 2020; d += 10) if (d !== 1940) items.push(item(`quiet-${d}`, d + 5, 2));
+  const g = indexGraph({ items, links: [], threads: [{ id: "t", name: "T", domain: "politics" }], regions: [{ id: "r", name: "R" }], domains: [], paths: [] });
+  const { visible, labelled } = chooseVisible(g, new TimeWindow(1900, 2020));
+  assert.equal(visible.size, MAX_NODES);
+  for (let d = 1900; d < 2020; d += 10) if (d !== 1940) assert.ok(visible.has(`quiet-${d}`), `quiet-${d} is drawn`);
+  assert.ok([...labelled].some((id) => id.startsWith("quiet-")));
+  assert.ok(SLICES >= 8);
+});
