@@ -1,0 +1,21 @@
+id: james-baker
+title: James Baker
+actor_type: person
+summary: American lawyer and statesman; US Secretary of State 1989–1992 (born 1930).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q223151
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q223151.json
+  title: James Baker
+  publisher: Wikidata
+  quote: American lawyer and statesman (born 1930)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

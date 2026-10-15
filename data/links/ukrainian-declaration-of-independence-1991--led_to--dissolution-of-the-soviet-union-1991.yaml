@@ -1,0 +1,25 @@
+id: ukrainian-declaration-of-independence-1991--led_to--dissolution-of-the-soviet-union-1991
+from: ukrainian-declaration-of-independence-1991
+to: dissolution-of-the-soviet-union-1991
+type: led_to
+confidence: documented
+note: Ukraine's independence ended any realistic chance of keeping the Union together.
+sources:
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: Ukrainian independence led to the dissolution of the Soviet Union by 26 December 1991.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: The secession of Ukraine, long second only to Russia in economic and political power, ended any
+    realistic chance of Gorbachev keeping the Soviet Union together even on a limited scale.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

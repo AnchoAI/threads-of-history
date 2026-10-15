@@ -1,0 +1,21 @@
+id: helmut-kohl
+title: Helmut Kohl
+actor_type: person
+summary: Chancellor of West Germany and reunified Germany (1982–1998).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q2518
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2518.json
+  title: Helmut Kohl
+  publisher: Wikidata
+  quote: Chancellor of West Germany and reunified Germany (1982–1998)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

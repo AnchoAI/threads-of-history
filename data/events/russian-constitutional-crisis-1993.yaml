@@ -1,0 +1,64 @@
+id: russian-constitutional-crisis-1993
+title: Russian constitutional crisis of 1993
+summary: A standoff between President Boris Yeltsin and parliament ends when Yeltsin dissolves parliament
+  and, on 4 October 1993, the army shells the parliament building and storms it; 147 people were killed
+  according to official figures. Yeltsin then expanded the powers of the executive and pushed through
+  the 1993 constitution.
+occurred:
+  start: '1993-09-21'
+  end: '1993-10-04'
+  precision: day
+threads:
+- russia
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- boris-yeltsin
+- russia
+importance: 3
+wikidata: Q862099
+sources:
+- url: https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  archive_url: https://web.archive.org/web/20260929080232/https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  title: 1993 Russian constitutional crisis
+  publisher: Wikipedia
+  quote: 21 September – 4 October 1993
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  archive_url: https://web.archive.org/web/20260929080232/https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  title: 1993 Russian constitutional crisis
+  publisher: Wikipedia
+  quote: Yeltsin performed a self-coup, dissolving parliament and instituting a presidential rule by decree
+    system.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  archive_url: https://web.archive.org/web/20260929080232/https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  title: 1993 Russian constitutional crisis
+  publisher: Wikipedia
+  quote: On 4 October, the army, which had remained neutral, shelled the White House using tanks and stormed
+    the building with special forces on Yeltsin's orders
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  archive_url: https://web.archive.org/web/20260929080232/https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  title: 1993 Russian constitutional crisis
+  publisher: Wikipedia
+  quote: 147 people were killed and 437 wounded according to the official Russian government statistics
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  archive_url: https://web.archive.org/web/20260929080232/https://en.wikipedia.org/wiki/1993_Russian_constitutional_crisis
+  title: 1993 Russian constitutional crisis
+  publisher: Wikipedia
+  quote: Yeltsin consolidated his position, further expanded the powers of the executive, and pushed through
+    the adoption of the 1993 constitution of the Russian Federation.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,21 @@
+id: prague-spring-1968--led_to--perestroika-and-glasnost-1985
+from: prague-spring-1968
+to: perestroika-and-glasnost-1985
+type: led_to
+confidence: documented
+note: Gorbachev acknowledged in 1987 that his reforms owed a great deal to Dubček's 'socialism with a
+  human face'.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: In 1987, the Soviet leader Mikhail Gorbachev acknowledged that his liberalizing policies of glasnost
+    and perestroika owed a great deal to Dubček's "socialism with a human face".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - This is an acknowledged influence on ideas rather than a direct cause; a reviewer may prefer a weaker
+    link type.

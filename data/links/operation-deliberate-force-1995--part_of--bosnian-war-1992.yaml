@@ -1,0 +1,19 @@
+id: operation-deliberate-force-1995--part_of--bosnian-war-1992
+from: operation-deliberate-force-1995
+to: bosnian-war-1992
+type: part_of
+confidence: documented
+note: NATO's air campaign was conducted during the Bosnian War.
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Deliberate_Force
+  archive_url: https://web.archive.org/web/20260922194201/https://en.wikipedia.org/wiki/Operation_Deliberate_Force
+  title: Operation Deliberate Force
+  publisher: Wikipedia
+  quote: had threatened and attacked UN-designated "safe areas" in Bosnia and Herzegovina during the Bosnian
+    War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

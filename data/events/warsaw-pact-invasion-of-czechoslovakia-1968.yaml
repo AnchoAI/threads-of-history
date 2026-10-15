@@ -1,0 +1,58 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968
+title: Warsaw Pact invasion of Czechoslovakia
+summary: On the night of 20–21 August 1968, armies of the Soviet Union, Bulgaria, Poland and Hungary invade
+  Czechoslovakia to end the Prague Spring; the Soviet claim of a right to use force in its satellite states
+  became known as the Brezhnev Doctrine. In April 1969 Gustáv Husák replaced Dubček and reversed almost
+  all of the reforms, a period called normalization.
+occurred:
+  start: '1968-08-20'
+  end: '1968-08-21'
+  precision: day
+threads:
+- usru
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- warsaw-pact
+- leonid-brezhnev
+- alexander-dubcek
+- czechoslovakia
+importance: 4
+wikidata: Q1773668
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: On the night of 20–21 August, Eastern Bloc armies from four Warsaw Pact countries—the Soviet
+    Union, Bulgaria, Poland and Hungary—invaded the ČSSR.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: The Soviet policy of compelling the socialist governments of its satellite states to subordinate
+    their national interests to those of the Eastern Bloc (through military force if needed) became known
+    as the Brezhnev Doctrine.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: In April 1969, Dubček was replaced as first secretary by Gustáv Husák, and a period of "normalization"
+    began.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Gustáv Husák, who replaced Dubček as First Secretary and also became President, reversed almost
+    all of the reforms.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,27 @@
+id: second-chechen-war-1999--led_to--putin-succeeds-yeltsin-1999
+from: second-chechen-war-1999
+to: putin-succeeds-yeltsin-1999
+type: led_to
+confidence: documented
+note: State television coverage of Putin's leadership of the Chechen war helped consolidate his popularity.
+sources:
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Uncritical state television coverage of Putin's leadership of the conflict in Chechnya helped
+    him to consolidate his popularity as Prime Minister
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: By the December election, Putin's popularity had risen to 79% with 42% saying they would vote
+    for him for president.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,67 @@
+id: putin-succeeds-yeltsin-1999
+title: Putin succeeds Yeltsin as president
+summary: Vladimir Putin, named prime minister in August 1999 and at first little known, gains popularity
+  from television coverage of his leadership of the war in Chechnya. He becomes acting president when
+  Boris Yeltsin resigns on 31 December 1999 and wins the presidential election in the first round on 26
+  March 2000.
+occurred:
+  start: '1999-12-31'
+  end: '2000-03-26'
+  precision: day
+threads:
+- russia
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- vladimir-putin
+- boris-yeltsin
+- russia
+importance: 4
+wikidata: Q1348890
+sources:
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Then in August 1999, Vladimir Putin was named prime minister, making him the fifth in less than
+    two years.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Putin was not expected to last long in the role and was initially unknown and unpopular
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Uncritical state television coverage of Putin's leadership of the conflict in Chechnya helped
+    him to consolidate his popularity as Prime Minister
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Incumbent prime minister and acting president Vladimir Putin, who had succeeded Boris Yeltsin
+    after his resignation on 31 December 1999, sought a four-year term in his own right and won in the
+    first round.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  archive_url: https://web.archive.org/web/20260917192904/https://en.wikipedia.org/wiki/2000_Russian_presidential_election
+  title: 2000 Russian presidential election
+  publisher: Wikipedia
+  quote: Presidential elections were held in Russia on 26 March 2000.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - wikidata is the 2000 presidential election (Q1348890), the closing event of this item.

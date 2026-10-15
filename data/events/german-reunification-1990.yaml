@@ -1,0 +1,58 @@
+id: german-reunification-1990
+title: German reunification
+summary: After the fall of the Berlin Wall, East Germany's parliament votes on 23 August 1990 to accede
+  to the Federal Republic, and on 3 October 1990 the German Democratic Republic ceases to exist. The Two
+  Plus Four Treaty, signed on 12 September 1990, restored full sovereignty to Germany, and the united
+  country remained in NATO.
+occurred:
+  start: '1989-11-09'
+  end: '1990-10-03'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+actors:
+- helmut-kohl
+- west-germany
+- germany
+- mikhail-gorbachev
+importance: 5
+wikidata: Q56039
+sources:
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: which began on 9 November 1989 and culminated on 3 October 1990 with the dissolution of the German
+    Democratic Republic
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: The Volkskammer, the Parliament of East Germany, passed a resolution on 23 August 1990 declaring
+    the accession (Beitritt) of the German Democratic Republic to the Federal Republic of Germany
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: Two Plus Four Agreement signed 12 September 1990 restores full sovereignty to Germany, effective
+    15 March 1991
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: East German territories reunify within the European Economic Community and NATO
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

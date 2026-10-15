@@ -1,0 +1,58 @@
+id: srebrenica-massacre-1995
+title: Srebrenica massacre
+summary: In July 1995 Bosnian Serb forces under Ratko Mladić kill more than 8,000 Bosniak men and boys
+  in and around Srebrenica, an enclave the UN had declared a 'safe area'. The ICTY (2004) and the International
+  Court of Justice (2007) ruled that it was genocide.
+occurred:
+  start: '1995-07-11'
+  end: '1995-07-22'
+  precision: day
+threads:
+- rights
+- migration
+regions:
+- russia-eastern-europe
+actors:
+- ratko-mladic
+- united-nations
+importance: 4
+wikidata: Q170334
+sources:
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: was the July 1995 genocidal killing of more than 8,000 Bosniak men and boys in and around the
+    town of Srebrenica during the Bosnian War
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: 11 July 1995 (1995-07-11) – 22 July 1995
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: It was mainly perpetrated by units of the Bosnian Serb Army of Republika Srpska under Ratko Mladić
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: Before the massacre, the United Nations (UN) had declared the besieged enclave of Srebrenica
+    a "safe area" under its protection.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: The Appeals Chamber of the ICTY (in 2004) and the International Court of Justice (in 2007) have
+    ruled the Srebrenica massacre constituted genocide.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

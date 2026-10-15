@@ -1,0 +1,44 @@
+id: dayton-agreement-1995
+title: Dayton Agreement
+summary: Negotiated at Wright-Patterson Air Force Base in Dayton, Ohio, with Serbian president Slobodan
+  Milošević among the main participants, the agreement ending the Bosnian War is initialled on 21 November
+  1995 and signed in Paris on 14 December 1995.
+occurred:
+  start: '1995-11-21'
+  end: '1995-12-14'
+  precision: day
+threads:
+- migration
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- slobodan-milosevic
+- united-states
+importance: 3
+wikidata: Q190315
+sources:
+- url: https://en.wikipedia.org/wiki/Dayton_Agreement
+  title: Dayton Agreement
+  publisher: Wikipedia
+  quote: is the peace agreement ending the three-and-a-half-year-long Bosnian War
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dayton_Agreement
+  title: Dayton Agreement
+  publisher: Wikipedia
+  quote: It was signed on 21 November 1995 in Dayton, Ohio, United States, at Wright-Patterson Air Force
+    Base. It was re-signed ceremonially in Paris, France, on 14 December 1995.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dayton_Agreement
+  title: Dayton Agreement
+  publisher: Wikipedia
+  quote: The main participants from the region were the president of the Republic of Serbia Slobodan Milošević
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

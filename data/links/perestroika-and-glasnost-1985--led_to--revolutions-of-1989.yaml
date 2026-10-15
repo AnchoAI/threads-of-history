@@ -1,0 +1,43 @@
+id: perestroika-and-glasnost-1985--led_to--revolutions-of-1989
+from: perestroika-and-glasnost-1985
+to: revolutions-of-1989
+type: led_to
+confidence: documented
+note: Gorbachev urged Eastern European leaders to copy his reforms, emboldening reformists in Hungary
+  and Poland.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: the ascension of reform-minded Soviet leader Mikhail Gorbachev in 1985 signaled the trend toward
+    greater liberalization
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: Gorbachev urged his Central and Southeast European counterparts to imitate perestroika and glasnost
+    in their own countries.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: reformists in Hungary and Poland were emboldened by the force of liberalization spreading from
+    the east
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: It also led indirectly to the revolutions of 1989
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

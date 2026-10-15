@@ -1,0 +1,17 @@
+id: dayton-agreement-1995--part_of--bosnian-war-1992
+from: dayton-agreement-1995
+to: bosnian-war-1992
+type: part_of
+confidence: documented
+note: The Bosnian War ended when the Dayton Accords were initialled.
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: It ended on 21 November 1995 when the Dayton Accords were initialed.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

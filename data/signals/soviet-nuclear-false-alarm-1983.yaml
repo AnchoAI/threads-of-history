@@ -1,0 +1,63 @@
+id: soviet-nuclear-false-alarm-1983
+title: Soviet early-warning system reports US missile launches
+summary: On 26 September 1983 the Soviet Oko early-warning system reports the launch of one US intercontinental
+  ballistic missile, followed by four more. The duty officer, Stanislav Petrov, waits for corroborating
+  evidence, which never comes, instead of passing the warning up the chain of command; the alarms were
+  later traced to sunlight on high-altitude clouds. The incident was first made public in 1998.
+occurred:
+  start: '1983-09-26'
+  precision: day
+known:
+  public:
+    start: '1998'
+    precision: year
+    note: General Yuri Votintsev, who first heard Petrov's report, was the first to reveal it to the public,
+      in 1998.
+threads:
+- nuclear
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- stanislav-petrov
+- soviet-union
+importance: 3
+source_credibility: low
+outcome: 'false'
+wikidata: Q4581203
+sources:
+- url: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  title: 1983 Soviet nuclear false alarm incident
+  publisher: Wikipedia
+  quote: On 26 September 1983, during the Cold War, the Soviet nuclear early warning system Oko reported
+    the launch of one intercontinental ballistic missile with four more missiles behind it, from the United
+    States.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  title: 1983 Soviet nuclear false alarm incident
+  publisher: Wikipedia
+  quote: He decided to wait for corroborating evidence—of which none arrived—rather than immediately relaying
+    the warning up the chain of command.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  title: 1983 Soviet nuclear false alarm incident
+  publisher: Wikipedia
+  quote: It was subsequently determined that the false alarms were caused by a rare alignment of sunlight
+    on high-altitude clouds and the satellites' Molniya orbits
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  title: 1983 Soviet nuclear false alarm incident
+  publisher: Wikipedia
+  quote: (and the first to reveal it to the public in 1998)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'source_credibility ''low'' is an editorial judgement: the signal came from a new satellite system
+    that malfunctioned.'
