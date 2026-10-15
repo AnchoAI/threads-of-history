@@ -1,0 +1,26 @@
+id: great-inflation-1965--led_to--nixon-shock-1971
+from: great-inflation-1965
+to: nixon-shock-1971
+type: led_to
+confidence: documented
+note: Rising inflation and a looming run on US gold prompted Nixon's New Economic Policy.
+sources:
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: With inflation on the rise and a gold run looming, President Richard Nixon's team enacted a plan
+    that ended dollar convertibility to gold and implemented wage and price controls
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: As inflation drifted higher during the latter half of the 1960s, US dollars were increasingly
+    converted to gold, and in the summer of 1971, President Nixon halted the exchange of dollars for gold
+    by foreign central banks.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

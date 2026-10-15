@@ -1,0 +1,22 @@
+id: federal-reserve
+title: Federal Reserve System
+actor_type: organization
+summary: Central banking system of the United States.
+threads:
+- econ-crises
+regions:
+- americas
+importance: 3
+wikidata: Q53536
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q53536.json
+  title: Federal Reserve System
+  publisher: Wikidata
+  quote: central banking system of the United States
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

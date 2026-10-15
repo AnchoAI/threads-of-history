@@ -1,0 +1,64 @@
+id: maastricht-treaty-1992
+title: Maastricht Treaty founds the European Union
+summary: Signed on 7 February 1992 by the twelve members of the European Communities and in force from
+  1 November 1993, the Maastricht Treaty founded the European Union and set a staged path to monetary
+  union, with criteria for adopting a single currency and a European Central Bank. Since the eurozone
+  crisis it is cited above all for these 'Maastricht criteria'.
+occurred:
+  start: '1992-02-07'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- european-union
+- germany
+- france
+importance: 4
+wikidata: Q11146
+sources:
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: The twelve members of the European Communities signing the Treaty on 7 February 1992 were Belgium,
+    Denmark, France, Germany, Greece, Ireland, Italy, Luxembourg, Portugal, Spain, the Netherlands and
+    the United Kingdom.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: Ratification of the treaty was completed by the twelve members of the EC by mid-1993 and came
+    into legal force on 1 November 1993.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: The Treaty on European Union, commonly known as the Maastricht Treaty, is the foundation treaty
+    of the European Union (EU).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: Amendments incorporate (as detailed in attached protocols) a staged progression toward monetary
+    union including the price-stability-first criteria for adoption of the single currency and for the
+    operations of the prospective European Central Bank (ECB).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: In the wake of the Eurozone debt crisis unfolding from 2009, the most enduring reference to the
+    Maastricht Treaty has been to the rules of compliance
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

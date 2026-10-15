@@ -1,0 +1,54 @@
+id: black-monday-1987
+title: Black Monday stock market crash
+summary: On 19 October 1987 stock markets around the world crashed and the Dow Jones Industrial Average
+  fell 22.6 percent, the largest one-day decline in its history. The Federal Reserve's promise to supply
+  liquidity set a precedent for using liquidity to stem financial crises, and no recession or banking
+  crisis followed.
+occurred:
+  start: '1987-10-19'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+- east-asia
+actors:
+- federal-reserve
+- alan-greenspan
+importance: 3
+wikidata: Q868261
+sources:
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: The first contemporary global financial crisis unfolded on October 19, 1987, a day known as "Black
+    Monday," when the Dow Jones Industrial Average dropped 22.6 percent.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: a loss that remains the largest one-day stock market decline in history
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: In addition, the Federal Reserve's response set a precedent for the central bank's use of "liquidity"
+    to stem financial crises.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: Unlike many prior financial crises, the sharp losses stemming from Black Monday were not followed
+    by an economic recession or a banking crisis.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

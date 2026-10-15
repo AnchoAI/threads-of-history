@@ -1,0 +1,44 @@
+id: treaty-of-rome-1957
+title: Treaty of Rome founds the European Economic Community
+summary: Signed on 25 March 1957 by the six ECSC members, the Treaty of Rome created the European Economic
+  Community, aiming at a customs union and a common market for goods, labour, services and capital. It
+  came into force on 1 January 1958.
+occurred:
+  start: '1957-03-25'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- france
+- west-germany
+importance: 4
+wikidata: Q167457
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Rome
+  archive_url: https://web.archive.org/web/20261011155845/https://en.wikipedia.org/wiki/Treaty_of_Rome
+  title: Treaty of Rome
+  publisher: Wikipedia
+  quote: The treaty was signed on 25 March 1957 by Belgium, France, Italy, Luxembourg, the Netherlands
+    and West Germany, and it came into force on 1 January 1958.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Rome
+  archive_url: https://web.archive.org/web/20261011155845/https://en.wikipedia.org/wiki/Treaty_of_Rome
+  title: Treaty of Rome
+  publisher: Wikipedia
+  quote: brought about the creation of the European Economic Community (EEC)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Rome
+  archive_url: https://web.archive.org/web/20261011155845/https://en.wikipedia.org/wiki/Treaty_of_Rome
+  title: Treaty of Rome
+  publisher: Wikipedia
+  quote: The treaty proposed the progressive reduction of customs duties and the establishment of a customs
+    union. It proposed to create a common market for goods, labour, services, and capital across member
+    states.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

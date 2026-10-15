@@ -1,0 +1,26 @@
+id: maastricht-treaty-1992--led_to--euro-introduced-1999
+from: maastricht-treaty-1992
+to: euro-introduced-1999
+type: led_to
+confidence: documented
+note: The treaty committed member states to adopt a single currency once they met its convergence criteria.
+sources:
+- url: https://en.wikipedia.org/wiki/Euro
+  archive_url: https://web.archive.org/web/20261011131115/https://en.wikipedia.org/wiki/Euro
+  title: Euro
+  publisher: Wikipedia
+  quote: Through their ratification of the 1992 Maastricht Treaty (or subsequent treaties of accession),
+    most EU member states committed to adopt the euro upon meeting certain monetary and budgetary convergence
+    criteria
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: a staged progression toward monetary union including the price-stability-first criteria for adoption
+    of the single currency
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

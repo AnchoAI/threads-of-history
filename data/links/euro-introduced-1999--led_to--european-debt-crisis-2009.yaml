@@ -1,0 +1,94 @@
+id: euro-introduced-1999--led_to--european-debt-crisis-2009
+from: euro-introduced-1999
+to: european-debt-crisis-2009
+type: led_to
+confidence: contested
+note: How far the single currency caused the eurozone crisis, as against national fiscal policy or private
+  capital flows and banks, is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: The crisis was worsened by the inability of states to resort to devaluation (reductions in the
+    value of the national currency) due to having the euro as a shared currency.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Greek_government-debt_crisis
+  title: Greek government-debt crisis
+  publisher: Wikipedia
+  quote: lack of monetary policy flexibility as a member of the eurozone
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: 'The euro''s design caused or deepened the crisis: members gave up their own monetary policy
+    without a central fiscal authority, and a single low interest rate drew lending from the North to
+    the South.'
+  held_by:
+  - Martin Feldstein
+  - post-Keynesian and Modern Monetary Theory economists
+  sources:
+  - url: https://en.wikipedia.org/wiki/Euro_area_crisis
+    archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+    title: Euro area crisis
+    publisher: Wikipedia
+    quote: Some economists, mostly from outside Europe and associated with Modern Monetary Theory and
+      other post-Keynesian schools, condemned the design of the euro currency system from the beginning
+      because it ceded national monetary and economic sovereignty but lacked a central fiscal authority.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Euro_area_crisis
+    archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+    title: Euro area crisis
+    publisher: Wikipedia
+    quote: US economist Martin Feldstein went so far to call the euro "an experiment that failed".
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Euro_area_crisis
+    archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+    title: Euro area crisis
+    publisher: Wikipedia
+    quote: The European Central Bank (ECB) adopted an interest rate that incentivized investors in Northern
+      eurozone members to lend to the South, whereas the South was incentivized to borrow because interest
+      rates were very low.
+    type: reference
+    accessed: '2026-10-15'
+- claim: 'In Greece the main causes were national: weak growth, government debt and deficits, poor budget
+    compliance and unreliable statistics.'
+  held_by:
+  - Greek Ministry of Finance (Stability and Growth Program, January 2010)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Greek_government-debt_crisis
+    title: Greek government-debt crisis
+    publisher: Wikipedia
+    quote: In January 2010, the Greek Ministry of Finance published Stability and Growth Program 2010,
+      which listed the main causes of the crisis including poor GDP growth, government debt and deficits,
+      budget compliance and data credibility.
+    type: reference
+    accessed: '2026-10-15'
+- claim: At root it was a balance-of-payments and banking crisis, driven by current-account deficits and
+    private borrowing rather than public debt.
+  held_by:
+  - Paul Krugman
+  - Joseph Stiglitz
+  sources:
+  - url: https://en.wikipedia.org/wiki/Euro_area_crisis
+    archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+    title: Euro area crisis
+    publisher: Wikipedia
+    quote: the euro area crisis is really a balance of payments crisis, not a debt crisis
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Euro_area_crisis
+    archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+    title: Euro area crisis
+    publisher: Wikipedia
+    quote: This prompted some economists such as Joseph Stiglitz and Paul Krugman to note that Europe
+      is not suffering from a sovereign debt crisis but rather from a banking crisis.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The second position is the Greek government's own 2010 account and covers Greece only; a reviewer
+    may want a named economist who argues the fiscal-profligacy view for the eurozone as a whole.

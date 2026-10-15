@@ -1,0 +1,68 @@
+id: asian-financial-crisis-1997
+title: Asian financial crisis
+summary: Beginning in Thailand on 2 July 1997, when the government was forced to float the baht, a financial
+  crisis spread across East and South-East Asia, hitting South Korea, Indonesia and Thailand hardest;
+  the IMF led a $40 billion programme to stabilise their currencies. Its causes are disputed; the IMF
+  pointed to macroeconomic imbalances and weak financial and corporate systems.
+occurred:
+  start: '1997'
+  end: '1998'
+  precision: year
+  note: The crisis began in Thailand on 2 July 1997.
+threads:
+- econ-crises
+regions:
+- east-asia
+- south-east-asia
+actors:
+- imf
+- south-korea
+importance: 4
+wikidata: Q80880
+sources:
+- url: https://en.wikipedia.org/wiki/1997_Asian_financial_crisis
+  title: 1997 Asian financial crisis
+  publisher: Wikipedia
+  quote: Originating in Thailand on 2 July
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1997_Asian_financial_crisis
+  title: 1997 Asian financial crisis
+  publisher: Wikipedia
+  quote: it followed the financial collapse of the Thai baht after the Thai government was forced to float
+    the baht due to lack of foreign currency to support its currency peg to the U.S. dollar.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1997_Asian_financial_crisis
+  title: 1997 Asian financial crisis
+  publisher: Wikipedia
+  quote: South Korea, Indonesia and Thailand were the countries most affected by the crisis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1997_Asian_financial_crisis
+  title: 1997 Asian financial crisis
+  publisher: Wikipedia
+  quote: the International Monetary Fund (IMF) stepped in to initiate a $40 billion program to stabilize
+    the currencies of South Korea, Thailand, and Indonesia
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1997_Asian_financial_crisis
+  title: 1997 Asian financial crisis
+  publisher: Wikipedia
+  quote: The causes of the debacle are many and disputed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.imf.org/external/np/exr/ib/2000/062300.htm
+  archive_url: https://web.archive.org/web/20260905212940/https://www.imf.org/external/np/exr/ib/2000/062300.htm
+  title: Recovery from the Asian Crisis and the Role of the IMF
+  publisher: International Monetary Fund (IMF staff)
+  date: 2000-06
+  quote: the difficulties stemmed primarily from a combination of macroeconomic imbalances (even though
+    government budgets were broadly in balance and inflation rates were modest), external developments,
+    and weakness in financial and corporate systems
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - There are no actor files for Thailand or Indonesia, so only South Korea and the IMF are listed.

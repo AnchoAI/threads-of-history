@@ -1,0 +1,67 @@
+id: plaza-accord-1985
+title: Plaza Accord
+summary: On 22 September 1985 France, West Germany, Japan, the United Kingdom and the United States agreed
+  at New York's Plaza Hotel to drive down the US dollar, which had risen about 50 percent against their
+  currencies since 1980, by intervening in currency markets. The dollar fell sharply until the 1987 Louvre
+  Accord; some commentators believe the accord contributed to Japan's asset price bubble.
+occurred:
+  start: '1985-09-22'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+- east-asia
+actors:
+- united-states
+- france
+- west-germany
+- united-kingdom
+importance: 3
+wikidata: Q684265
+sources:
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: The Plaza Accord was a joint agreement signed on September 22, 1985, at the Plaza Hotel in New
+    York City, between France, West Germany, Japan, the United Kingdom, and the United States
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: to depreciate the U.S. dollar in relation to the French franc, the German Deutsche Mark, the
+    Japanese yen and the British pound sterling by intervening in currency markets
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: From 1980 to 1985, the dollar had appreciated by about 50% against the Japanese yen, Deutsche
+    Mark, French franc, and British pound
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: The U.S. dollar depreciated significantly from the time of the agreement until it was replaced
+    by the Louvre Accord in 1987.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: Some commentators believe the Plaza Accord contributed to the Japanese asset price bubble of
+    the late 1980s.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - There is no actor file for postwar Japan, so Japan is not listed in actors.

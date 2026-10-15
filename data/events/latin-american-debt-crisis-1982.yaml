@@ -1,0 +1,71 @@
+id: latin-american-debt-crisis-1982
+title: Latin American debt crisis
+summary: In August 1982 Mexico told the Federal Reserve, the US Treasury and the IMF that it could no
+  longer service its $80 billion foreign debt; other countries followed, and sixteen Latin American countries
+  rescheduled their debts. The 'lost decade' that followed brought high unemployment and falling incomes,
+  until the Brady plan from 1989 cut debt principal.
+occurred:
+  start: '1982'
+  end: '1989'
+  precision: year
+  note: The crisis broke in August 1982, when Mexico said it could not service its debt.
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- mexico
+- imf
+- federal-reserve
+importance: 4
+wikidata: Q1806854
+sources:
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: The spark for the crisis occurred in August 1982, when Mexican Finance Minister Jesús Silva Herzog
+    informed the Federal Reserve chairman, the US Treasury secretary, and the International Monetary Fund
+    (IMF) managing director that Mexico would no longer be able to service its debt, which at that point
+    totaled $80 billion.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: Other countries quickly followed suit. Ultimately, sixteen Latin American countries rescheduled
+    their debts
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: The result was high unemployment, steep declines in per capita income, and stagnant or negative
+    growth—hence the term the "lost decade"
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: Secretary of the Treasury Nicholas Brady thus proposed a plan that established permanent reductions
+    in loan principal and existing debt-servicing obligations.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: By 1989, it was also clear to the US government that the debtor nations could not repay their
+    loans
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The Wikidata item Q1806854 matched on title and description, but its English label read 'Abraha de
+    la Cruz' when checked (2026-10-15), which looks like vandalism; a reviewer should check it.
+  - The end date (1989) marks the Brady plan; the source says debt forgiveness ran from 1989 to 1994 and
+    the scars lasted longer.
