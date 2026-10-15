@@ -1,0 +1,45 @@
+id: nato-assurance-documents-published-2017
+title: Declassified records of 1990 NATO assurances published
+summary: On 12 December 2017 the National Security Archive publishes declassified US, Soviet, German,
+  British and French documents showing that Baker's assurance was part of a series of assurances about
+  Soviet security given by Western leaders to Gorbachev and other Soviet officials in 1990 and into 1991.
+occurred:
+  start: '2017-12-12'
+  precision: day
+threads:
+- usru
+- intel
+regions:
+- americas
+actors: []
+importance: 2
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: Washington D.C., December 12, 2017
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: was part of a cascade of assurances about Soviet security given by Western leaders to Gorbachev
+    and other Soviet officials throughout the process of German unification in 1990 and on into 1991
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: according to declassified U.S., Soviet, German, British and French documents posted today by
+    the National Security Archive
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

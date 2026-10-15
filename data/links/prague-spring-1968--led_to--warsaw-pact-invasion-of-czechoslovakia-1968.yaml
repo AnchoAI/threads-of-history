@@ -1,0 +1,18 @@
+id: prague-spring-1968--led_to--warsaw-pact-invasion-of-czechoslovakia-1968
+from: prague-spring-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: The Warsaw Pact invaded to suppress the Prague Spring reforms.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: continued until 21 August 1968, when the Soviet Union and four other Warsaw Pact members (Bulgaria,
+    East Germany, Hungary and Poland) invaded the country to suppress the reforms
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

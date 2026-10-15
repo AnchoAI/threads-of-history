@@ -1,0 +1,54 @@
+id: detente-1969
+title: Détente
+summary: A period of eased tension between the United States and the Soviet Union that began in 1969 under
+  President Richard Nixon and produced arms-control treaties such as the ABM Treaty and pacts such as
+  the Helsinki Accords. It is considered to have ended after the Soviet intervention in Afghanistan in
+  1979.
+occurred:
+  start: '1969'
+  end: '1979'
+  precision: year
+threads:
+- usru
+- nuclear
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- richard-nixon
+- leonid-brezhnev
+- united-states
+- soviet-union
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: Détente began in 1969 as a core element of the foreign policy of U.S. president Richard Nixon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: The period of détente in the Cold War saw the ratification of major disarmament treaties such
+    as the Anti-Ballistic Missile Treaty and the creation of more symbolic pacts such as the Helsinki
+    Accords.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: Détente is considered to have ended after the Soviet intervention in Afghanistan in 1979
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'No wikidata id: the Wikidata item for ''détente'' (Q155705) is the general diplomatic concept, not
+    this Cold War period.'

@@ -1,0 +1,47 @@
+id: prague-spring-1968
+title: Prague Spring
+summary: A period of political liberalisation in Czechoslovakia under the reformist party leader Alexander
+  Dubček, including looser restrictions on the media, speech and travel. It ended when the Soviet Union
+  and four other Warsaw Pact states invaded to suppress the reforms.
+occurred:
+  start: '1968-01-05'
+  end: '1968-08-21'
+  precision: day
+threads:
+- usru
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- alexander-dubcek
+- leonid-brezhnev
+- czechoslovakia
+- soviet-union
+importance: 4
+wikidata: Q162401
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: It began on 5 January 1968, when reformist Alexander Dubček was elected First Secretary of the
+    Communist Party of Czechoslovakia (KSČ)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: continued until 21 August 1968, when the Soviet Union and four other Warsaw Pact members (Bulgaria,
+    East Germany, Hungary and Poland) invaded the country to suppress the reforms
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: The freedoms granted included a loosening of restrictions on the media, speech and travel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

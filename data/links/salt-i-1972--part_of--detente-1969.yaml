@@ -1,0 +1,27 @@
+id: salt-i-1972--part_of--detente-1969
+from: salt-i-1972
+to: detente-1969
+type: part_of
+confidence: documented
+note: The ABM Treaty and SALT I were among the main agreements of détente.
+sources:
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: The period of détente in the Cold War saw the ratification of major disarmament treaties such
+    as the Anti-Ballistic Missile Treaty
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: That was a show of détente militarily since an expansion of nuclear ballistic arms had started
+    to occur.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

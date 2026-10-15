@@ -1,0 +1,27 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968--led_to--charter-77-1977
+from: warsaw-pact-invasion-of-czechoslovakia-1968
+to: charter-77-1977
+type: led_to
+confidence: documented
+note: Many of those purged in the 'normalization' after the invasion became the dissidents of Charter
+  77.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Husák reversed Dubček's reforms, purged the party of its liberal members, and dismissed from
+    public office professional and intellectual elites who openly expressed disagreement with the political
+    transformation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Many of those purged would later become the dissidents of Czechoslovak underground culture, active
+    in Charter 77 and related movements which eventually met success in the Velvet Revolution.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

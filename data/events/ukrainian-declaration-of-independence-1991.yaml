@@ -1,0 +1,51 @@
+id: ukrainian-declaration-of-independence-1991
+title: Ukraine declares independence
+summary: Ukraine's parliament adopts the Act of Declaration of Independence on 24 August 1991, in the
+  aftermath of the failed Moscow coup. In a referendum on 1 December more than 90% vote in favour, which
+  ended any realistic chance of keeping the Soviet Union together.
+occurred:
+  start: '1991-08-24'
+  end: '1991-12-01'
+  precision: day
+threads:
+- ukraine
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- ukraine
+importance: 4
+wikidata: Q277182
+sources:
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: The Act of Declaration of Independence of Ukraine was adopted by the Supreme Soviet of the Ukrainian
+    SSR (Verkhovna Rada) on 24 August 1991.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: The Act was adopted in the aftermath of the coup attempt in the Soviet Union on 19 August
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: In the independence referendum on 1 December 1991, the people of Ukraine expressed deep and widespread
+    support for the Act of Declaration of Independence, with more than 90% voting in favor
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: The referendum's passage ended any realistic chance of the Soviet Union remaining together even
+    on a limited scale
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

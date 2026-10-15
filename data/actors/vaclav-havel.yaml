@@ -1,0 +1,23 @@
+id: vaclav-havel
+title: Václav Havel
+actor_type: person
+summary: Czech playwright and dissident, last president of Czechoslovakia and first president of the Czech
+  Republic (1936–2011).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q36233
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q36233.json
+  title: Václav Havel
+  publisher: Wikidata
+  quote: Czech statesman, playwright, and former dissident, the last president of Czechoslovakia and the
+    first president of the Czech Republic (1936–2011)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

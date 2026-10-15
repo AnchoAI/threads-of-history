@@ -1,0 +1,64 @@
+id: revolutions-of-1989
+title: Revolutions of 1989
+summary: A wave of movements, beginning in Poland and spreading to Hungary, East Germany, Bulgaria, Czechoslovakia
+  and Romania, brings down most of the communist governments of the Eastern Bloc, some of them violently.
+  They were a key factor in the dissolution of the Soviet Union and marked the end of the Cold War.
+occurred:
+  start: '1988-05-12'
+  end: '1991-12-26'
+  precision: day
+threads:
+- revolutions
+- usru
+regions:
+- russia-eastern-europe
+- western-europe
+actors:
+- solidarity
+- mikhail-gorbachev
+- soviet-union
+importance: 5
+wikidata: Q382861
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: were a wave of liberal democratic movements that resulted in the collapse of most Marxist–Leninist
+    governments in the Eastern Bloc
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: The main region of the 1989 revolutions was Central Europe, starting in Poland with the 1988
+    Polish strikes, and continued in Hungary, East Germany, Bulgaria, Czechoslovakia, and Romania.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: some of which were violently overthrown
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: These events drastically altered the world's balance of power, marking the end of the Cold War
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: 'Main phase: 12 May 1988 – 26 December 1991'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

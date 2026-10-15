@@ -1,0 +1,26 @@
+id: revolutions-of-1989--led_to--first-nato-eastward-enlargement-1999
+from: revolutions-of-1989
+to: first-nato-eastward-enlargement-1999
+type: led_to
+confidence: documented
+note: Former Eastern Bloc countries went on to join NATO and the EU.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: with former Eastern Bloc countries joining NATO and the European Union
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  title: Enlargement of NATO
+  publisher: Wikipedia
+  quote: Following the dissolution of the Soviet Union in 1991, many former Warsaw Pact and post-Soviet
+    states sought to join NATO.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
