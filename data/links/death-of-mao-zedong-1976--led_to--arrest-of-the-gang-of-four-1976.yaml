@@ -1,0 +1,25 @@
+id: death-of-mao-zedong-1976--led_to--arrest-of-the-gang-of-four-1976
+from: death-of-mao-zedong-1976
+to: arrest-of-the-gang-of-four-1976
+type: led_to
+confidence: documented
+note: Mao's death opened a succession struggle that Hua Guofeng won by arresting the Gang of Four.
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Hua had been widely considered to be lacking in political skill and ambitions, and seemingly posed
+    no serious threat to the Gang of Four in the race for succession.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: On October 6, 1976, shortly after Mao's death, the Gang was removed from power in a bloodless coup
+    d'état
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

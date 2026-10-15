@@ -1,0 +1,18 @@
+id: sino-soviet-border-conflict-1969--led_to--nixon-visit-to-china-1972
+from: sino-soviet-border-conflict-1969
+to: nixon-visit-to-china-1972
+type: led_to
+confidence: documented
+note: To counter the Soviet threat after the 1969 clashes, China sought rapprochement with the US.
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  archive_url: https://web.archive.org/web/20261002050539/https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  title: Sino-Soviet border conflict
+  publisher: Wikipedia
+  quote: To counterbalance the Soviet threat, the Chinese government sought a rapprochement with the United
+    States. This resulted in a secret visit to China by Henry Kissinger in 1971, which in turn paved the way
+    for President Richard Nixon's official visit to China in 1972.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,19 @@
+id: nsa-releases-gulf-of-tonkin-documents-2005--revealed--reported-second-gulf-of-tonkin-attack-1964
+from: nsa-releases-gulf-of-tonkin-documents-2005
+to: reported-second-gulf-of-tonkin-attack-1964
+type: revealed
+confidence: documented
+note: The 2005 release confirmed that the 4 August attack did not occur.
+sources:
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  archive_url: https://web.archive.org/web/20261011000949/https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  title: Tonkin Gulf Intelligence "Skewed" According to Official History and Intercepts
+  publisher: National Security Archive, George Washington University
+  date: '2005-12-01'
+  quote: 'Included in the release is a controversial article by Agency historian Robert J. Hanyok on SIGINT
+    and the Tonkin Gulf which confirms what historians have long argued: that there was no second attack on
+    U.S. ships in Tonkin on August 4, 1964.'
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

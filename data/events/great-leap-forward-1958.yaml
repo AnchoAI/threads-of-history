@@ -1,0 +1,41 @@
+id: great-leap-forward-1958
+title: Great Leap Forward
+summary: An industrialisation campaign launched by Mao Zedong in 1958 to turn China from an agrarian into an
+  industrial society through people's communes. It caused the Great Chinese Famine of 1959–1961.
+occurred:
+  start: '1958'
+  end: '1962'
+  precision: year
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- mao-zedong
+- chinese-communist-party
+- peoples-republic-of-china
+importance: 4
+wikidata: Q58715
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: The Great Leap Forward was an industrialization campaign within China from 1958 to 1962, initiated
+    by Mao Zedong, chairman of the Chinese Communist Party, whose goal was to transform the country from an
+    agrarian society to an industrialized society through the formation of people's communes.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: Mao unveiled the Great Leap Forward at a meeting in January 1958 in Nanjing.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The campaign itself was discontinued by 1961 according to the same article; 1962 follows the article's
+    lead.

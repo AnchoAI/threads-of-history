@@ -1,0 +1,17 @@
+id: gulf-of-tonkin-incident-1964--part_of--vietnam-war-1955
+from: gulf-of-tonkin-incident-1964
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: The incident led the US to engage more directly in the Vietnam War.
+sources:
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: refers to a naval confrontation in the Gulf of Tonkin off the coast of North Vietnam, which led to
+    the United States engaging more directly in the Vietnam War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

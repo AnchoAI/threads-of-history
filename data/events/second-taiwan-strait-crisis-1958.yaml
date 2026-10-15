@@ -1,0 +1,53 @@
+id: second-taiwan-strait-crisis-1958
+title: Second Taiwan Strait Crisis
+summary: From August to December 1958 the PRC shelled Kinmen and the Matsu Islands to try to take them from
+  the ROC and to probe how far the US would defend it. US Navy escorts of ROC supply convoys broke the artillery
+  blockade, and the ROC held Kinmen.
+occurred:
+  start: '1958-08-23'
+  end: '1958-12-02'
+  precision: day
+threads:
+- china
+- usru
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+- taiwan
+- united-states
+importance: 2
+wikidata: Q700442
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: The PRC shelled the islands of Kinmen (Quemoy) and the Matsu Islands along the east coast of mainland
+    China in an attempt to take them from the ROC, governed by the Kuomintang (KMT), and to probe the extent
+    of American commitment to defend the Republic of China.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: By 11 September, the artillery crisis was overall stabilized (even though numerous rounds of artillery
+    would still be fired by Communist China almost daily for the next two months or so) because U.S. Navy warships
+    started to escort ROC convoys to Kinmen, breaking the previous artillery blockade
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cross-Strait_relations
+  archive_url: https://web.archive.org/web/20261009122724/https://en.wikipedia.org/wiki/Cross-strait_relations
+  title: Cross-Strait relations
+  publisher: Wikipedia
+  quote: The Second Taiwan Strait Crisis began on 23 August 1958 with air and naval engagements between the
+    PRC and the ROC military forces
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The infobox gives 23 August – 2 December 1958; the Cross-Strait relations article says it ended in November.

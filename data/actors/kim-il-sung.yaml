@@ -1,0 +1,21 @@
+id: kim-il-sung
+title: Kim Il Sung
+actor_type: person
+summary: Supreme Leader of North Korea from 1948 to 1994.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q41117
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q41117.json
+  title: Kim Il Sung
+  publisher: Wikidata
+  quote: Supreme Leader of North Korea from 1948 to 1994
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,21 @@
+id: korean-war-1950--led_to--vietnam-war-1955
+from: korean-war-1950
+to: vietnam-war-1955
+type: led_to
+confidence: documented
+note: The Korean War convinced US policymakers that the Indochina war was communist expansion, drawing the
+  US in on France's side.
+sources:
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  archive_url: https://web.archive.org/web/20261014173152/https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: The outbreak of the Korean War in June convinced Washington policymakers that the war in Indochina
+    was another example of communist expansionism.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The source describes US policy towards the First Indochina War, the Vietnam War's background; that war
+    began in 1946, so the link points to the later war, whose article makes the statement.

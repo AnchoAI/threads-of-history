@@ -1,0 +1,25 @@
+id: sino-soviet-split-1956--led_to--sino-soviet-border-conflict-1969
+from: sino-soviet-split-1956
+to: sino-soviet-border-conflict-1969
+type: led_to
+confidence: documented
+note: The split let border disputes escalate into armed clashes in 1969.
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  archive_url: https://web.archive.org/web/20261002050539/https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  title: Sino-Soviet border conflict
+  publisher: Wikipedia
+  quote: was a seven-month undeclared military conflict between the Soviet Union and China in 1969, following
+    the Sino-Soviet split.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: The Sino-Soviet split allowed minor border disputes to escalate to firefights for areas of the Argun
+    and Amur rivers
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

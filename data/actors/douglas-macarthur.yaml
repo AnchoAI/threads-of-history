@@ -1,0 +1,22 @@
+id: douglas-macarthur
+title: Douglas MacArthur
+actor_type: person
+summary: United States Army general in WWI, WWII and Korea (1880–1964).
+threads: []
+regions:
+- americas
+- east-asia
+importance: 3
+wikidata: Q127417
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q127417.json
+  title: Douglas MacArthur
+  publisher: Wikidata
+  quote: United States Army general in WWI, WWII and Korea (1880–1964)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

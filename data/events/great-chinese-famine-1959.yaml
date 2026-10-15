@@ -1,0 +1,74 @@
+id: great-chinese-famine-1959
+title: Great Chinese Famine
+summary: 'A famine in the People''s Republic of China from 1959 to 1961, to which the policies of the Great
+  Leap Forward were the main contributor. Death toll estimates range from about 15 to 55 million: for example
+  about 30 million (Ashton et al.; Banister), 36 million (Yang Jisheng), 43–46 million (Chen Yizi) and at least
+  45 million (Frank Dikötter).'
+occurred:
+  start: '1959'
+  end: '1961'
+  precision: year
+threads:
+- china
+regions:
+- east-asia
+actors:
+- mao-zedong
+- chinese-communist-party
+- peoples-republic-of-china
+importance: 4
+wikidata: Q2454958
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: 'The Great Chinese Famine (Chinese: 三年大饥荒; lit. ''three years of great famine'') was a famine that
+    occurred between 1959 and 1961 in the People''s Republic of China (PRC).'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: The major contributing factors in the famine were the policies of the Great Leap Forward (1958 to
+    1962) and people's communes
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: The exact number of deaths by famine is difficult to determine, and estimates range from 15 million
+    to 55 million people.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: Basil Ashton and Judith Banister provide a baseline of 30 million famine deaths. Cao Shuji's rigorous
+    archival research estimates 32.5 million deaths, while Yang Jisheng's work estimates 36 million. Chen Yizhi's
+    survey under Zhao Ziyang's directive estimated between 43 and 46 million deaths. Frank Dikotter estimates
+    45 million deaths.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: In Mao's Great Famine, Dikötter estimated that at least 45 million people died from starvation, overwork
+    and state violence during the Great Leap Forward
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: According to a declassified CIA report, Mao Zedong suggested that "unnatural deaths" exceeded 5 million
+    in 1960–1961, while speaking to Field Marshal Montgomery in Autumn 1961.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Death tolls are given only as attributed estimates. Lower outlier estimates exist (e.g. Utsa Patnaik, 11
+    million; Sun Jingxian, 3.66 million), and Gao Mobo has criticised reliance on Deng-era officials such as
+    Chen Yizi.
+  - Some scholars include 1958 or 1962 in the famine years.
