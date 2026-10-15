@@ -1,0 +1,28 @@
+id: gatt-signed-1947--led_to--wto-founded-1995
+from: gatt-signed-1947
+to: wto-founded-1995
+type: led_to
+confidence: documented
+note: GATT's Uruguay Round created the WTO, which succeeded the GATT.
+sources:
+- url: https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade
+  title: General Agreement on Tariffs and Trade
+  publisher: Wikipedia
+  quote: The round led to the creation of WTO
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/World_Trade_Organization
+  title: World Trade Organization
+  publisher: Wikipedia
+  quote: it succeeded the General Agreement on Tariffs and Trade (GATT)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: before it was superseded by the World Trade Organization in 1995
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

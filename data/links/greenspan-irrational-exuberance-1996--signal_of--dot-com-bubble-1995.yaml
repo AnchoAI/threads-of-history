@@ -1,0 +1,17 @@
+id: greenspan-irrational-exuberance-1996--signal_of--dot-com-bubble-1995
+from: greenspan-irrational-exuberance-1996
+to: dot-com-bubble-1995
+type: signal_of
+confidence: documented
+note: Greenspan's remark was read as a warning that the market of the dot-com boom was overvalued.
+sources:
+- url: https://en.wikipedia.org/wiki/Irrational_exuberance
+  archive_url: https://web.archive.org/web/20260918220249/https://en.wikipedia.org/wiki/Irrational_exuberance
+  title: Irrational exuberance
+  publisher: Wikipedia
+  quote: in a December 1996 speech given at the American Enterprise Institute during the dot-com bubble
+    of the 1990s. The phrase was interpreted as a warning that the stock market might be overvalued.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

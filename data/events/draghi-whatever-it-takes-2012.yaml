@@ -1,0 +1,69 @@
+id: draghi-whatever-it-takes-2012
+title: 'Draghi: the ECB will do "whatever it takes"'
+summary: In a speech in London on 26 July 2012 ECB president Mario Draghi said that, within its mandate,
+  the bank was ready "to do whatever it takes to preserve the euro". On 6 September 2012 the ECB set out
+  Outright Monetary Transactions, bond purchases with no preset limit for countries under a eurozone rescue
+  programme, which calmed financial markets.
+occurred:
+  start: '2012-07-26'
+  end: '2012-09-06'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- mario-draghi
+- european-central-bank
+importance: 3
+wikidata: none
+sources:
+- url: https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html
+  archive_url: https://web.archive.org/web/20261009131617/https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html
+  title: Verbatim of the remarks made by Mario Draghi
+  publisher: European Central Bank
+  date: '2012-07-26'
+  quote: Speech by Mario Draghi, President of the European Central Bankat the Global Investment Conference
+    in London26 July 2012
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html
+  archive_url: https://web.archive.org/web/20261009131617/https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html
+  title: Verbatim of the remarks made by Mario Draghi
+  publisher: European Central Bank
+  date: '2012-07-26'
+  quote: Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe
+    me, it will be enough.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html
+  title: Technical features of Outright Monetary Transactions
+  publisher: European Central Bank
+  date: '2012-09-06'
+  quote: No ex ante quantitative limits are set on the size of Outright Monetary Transactions.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html
+  title: Technical features of Outright Monetary Transactions
+  publisher: European Central Bank
+  date: '2012-09-06'
+  quote: A necessary condition for Outright Monetary Transactions is strict and effective conditionality
+    attached to an appropriate European Financial Stability Facility/European Stability Mechanism (EFSF/ESM)
+    programme.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: On 6 September 2012, the ECB calmed financial markets by announcing free unlimited support for
+    all eurozone countries involved in a sovereign state bailout/precautionary programme from EFSF/ESM,
+    through some yield lowering Outright Monetary Transactions (OMT).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The first quote is the ECB page's heading as extracted; the missing spaces ('Bankat', 'London26')
+    come from the page layout.
+  - 'No wikidata id: Q1589421 is the OMT programme, not the speech.'

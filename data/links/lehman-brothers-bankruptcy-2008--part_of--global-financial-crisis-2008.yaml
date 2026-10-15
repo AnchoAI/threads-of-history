@@ -1,0 +1,21 @@
+id: lehman-brothers-bankruptcy-2008--part_of--global-financial-crisis-2008
+from: lehman-brothers-bankruptcy-2008
+to: global-financial-crisis-2008
+type: part_of
+confidence: documented
+note: Lehman's bankruptcy was the climax of the crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: is often considered the climax of the 2008 financial crisis
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: climaxed with the bankruptcy of Lehman Brothers in September 2008
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

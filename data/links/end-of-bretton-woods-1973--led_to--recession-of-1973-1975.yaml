@@ -1,0 +1,17 @@
+id: end-of-bretton-woods-1973--led_to--recession-of-1973-1975
+from: end-of-bretton-woods-1973
+to: recession-of-1973-1975
+type: led_to
+confidence: documented
+note: The fall of the Bretton Woods system is listed among the causes of the 1973–75 recession.
+sources:
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: Among the causes were the 1973 oil crisis, the deficits of the Vietnam War, and the fall of the
+    Bretton Woods system after the Nixon shock.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

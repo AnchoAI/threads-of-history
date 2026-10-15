@@ -1,0 +1,30 @@
+id: nixon-shock-1971--led_to--end-of-bretton-woods-1973
+from: nixon-shock-1971
+to: end-of-bretton-woods-1973
+type: led_to
+confidence: documented
+note: Suspending gold convertibility made the Bretton Woods system inoperative; floating followed by 1973.
+sources:
+- url: https://history.state.gov/milestones/1969-1976/nixon-shock
+  archive_url: https://web.archive.org/web/20261004123856/https://history.state.gov/milestones/1969-1976/nixon-shock
+  title: Nixon and the End of the Bretton Woods System, 1971–1973
+  publisher: US Department of State, Office of the Historian
+  quote: the initiative marked the beginning of the end for the Bretton Woods system of fixed exchange
+    rates established at the end of World War II
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nixon_shock
+  title: Nixon shock
+  publisher: Wikipedia
+  quote: the suspension of one of its key components effectively rendered the Bretton Woods system inoperative
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: which soon brought an end to the Bretton Woods System
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,37 @@
+id: schuman-declaration-1950
+title: Schuman Declaration
+summary: On 9 May 1950 French foreign minister Robert Schuman proposed placing French and West German
+  coal and steel production under a single authority, saying the pooling would make war between the two
+  countries "not only unthinkable but materially impossible". The plan became the European Coal and Steel
+  Community.
+occurred:
+  start: '1950-05-09'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- france
+- west-germany
+importance: 3
+wikidata: Q160211
+sources:
+- url: https://en.wikipedia.org/wiki/Schuman_Declaration
+  title: Schuman Declaration
+  publisher: Wikipedia
+  quote: The Schuman Declaration, or Schuman Plan, was a proposal to place French and West German production
+    of coal and steel under a single authority that later became the European Coal and Steel Community,
+    made by the French foreign minister, Robert Schuman, on 9 May 1950
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  archive_url: https://web.archive.org/web/20261013162359/https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  title: European Coal and Steel Community
+  publisher: Wikipedia
+  quote: He declared "the solidarity in production" from pooling "coal and steel production" would make
+    war between the two "not only unthinkable but materially impossible".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

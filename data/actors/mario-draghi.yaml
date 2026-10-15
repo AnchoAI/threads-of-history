@@ -1,0 +1,22 @@
+id: mario-draghi
+title: Mario Draghi
+actor_type: person
+summary: Italian economist, academic, banker and politician; former prime minister of Italy.
+threads:
+- econ-crises
+regions:
+- western-europe
+importance: 3
+wikidata: Q294460
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q294460.json
+  title: Mario Draghi
+  publisher: Wikidata
+  quote: Italian economist, academic, banker and politician; former prime minister of Italy
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,22 @@
+id: european-union
+title: European Union
+actor_type: organization
+summary: Political and economic union of 27 European states.
+threads:
+- econ-crises
+regions:
+- western-europe
+importance: 3
+wikidata: Q458
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q458.json
+  title: European Union
+  publisher: Wikidata
+  quote: political and economic union of 27 European states
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
