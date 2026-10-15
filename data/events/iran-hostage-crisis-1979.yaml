@@ -1,0 +1,51 @@
+id: iran-hostage-crisis-1979
+title: Iran hostage crisis
+summary: On 4 November 1979 students backed by Khomeini seized the US embassy in Tehran, holding 52 Americans
+  until 20 January 1981. They demanded the extradition of the Shah; supporters said they feared another US-backed
+  coup like 1953.
+occurred:
+  start: '1979-11-04'
+  end: '1981-01-20'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- ruhollah-khomeini
+- jimmy-carter
+- united-states
+- iran
+importance: 3
+wikidata: Q589673
+sources:
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261011003529/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: 'The Iran hostage crisis (Persian: بحران گروگانگیری سفارت آمریکا) began on November 4, 1979, when
+    66 Americans, including diplomats and other civilian personnel, were taken hostage at the Embassy of the
+    United States in Tehran, with 52 of them being held until January 20, 1981.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261011003529/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: With support from Ruhollah Khomeini, who had led the Iranian Revolution and would eventually establish
+    the present-day Islamic Republic of Iran, the hostage-takers demanded that the United States extradite
+    Iranian king Mohammad Reza Pahlavi
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261011003529/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: Supporters of the takeover stated that their motivation was fear of another American-backed coup against
+    their popular revolution.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

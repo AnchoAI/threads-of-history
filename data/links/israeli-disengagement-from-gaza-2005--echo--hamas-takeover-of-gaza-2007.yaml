@@ -1,0 +1,20 @@
+id: israeli-disengagement-from-gaza-2005--echo--hamas-takeover-of-gaza-2007
+from: israeli-disengagement-from-gaza-2005
+to: hamas-takeover-of-gaza-2007
+type: echo
+confidence: documented
+note: Hamas took Gaza two years after Israel left; the source does not state that the withdrawal caused it.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  archive_url: https://web.archive.org/web/20260927085853/https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)
+  title: Battle of Gaza (2007)
+  publisher: Wikipedia
+  quote: Israel completed its unilateral disengagement from the Gaza Strip on 12 September 2005, removing all
+    Israeli residents and security personnel, and demolishing all of the associated residential buildings.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: unverified
+  notes:
+  - Kept as unverified echo only. Some commentators argue the disengagement enabled Hamas's rise; no fetched
+    source states this, so no led_to was added.

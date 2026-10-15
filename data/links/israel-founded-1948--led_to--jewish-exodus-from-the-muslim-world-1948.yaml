@@ -1,0 +1,34 @@
+id: israel-founded-1948--led_to--jewish-exodus-from-the-muslim-world-1948
+from: israel-founded-1948
+to: jewish-exodus-from-the-muslim-world-1948
+type: led_to
+confidence: documented
+note: The 1948 war is followed by the flight or expulsion of hundreds of thousands of Jews from Arab countries;
+  the reasons (push and pull factors) are debated.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  archive_url: https://web.archive.org/web/20261010133054/https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  title: 1948 Arab–Israeli War
+  publisher: Wikipedia
+  quote: Hundreds of thousands of Jews flee or are expelled from Arab countries, with over 260,000 in Israel
+    by 1951.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: Approximately 900,000 Jews migrated, fled, or were expelled from Muslim-majority countries throughout
+    Africa and Asia in the 20th century, primarily after the establishment of the State of Israel.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: Additionally, like most Arab League states, Iraq forbade any legal emigration of its Jews after the
+    1948 war on the grounds that they might go to Israel and could strengthen that state.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The first quote is from the infobox of the 1948 war article, where it is listed among the war's results.

@@ -1,0 +1,48 @@
+id: un-partition-plan-for-palestine-1947
+title: UN Partition Plan for Palestine
+summary: The UN General Assembly adopted Resolution 181, recommending that Mandatory Palestine be partitioned
+  into independent Arab and Jewish states with an international regime for Jerusalem. The Jewish Agency accepted
+  it with misgivings; the Arab Higher Committee and Arab governments rejected it.
+occurred:
+  start: '1947-11-29'
+  precision: day
+threads:
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- united-nations
+- united-kingdom
+importance: 4
+wikidata: Q846795
+sources:
+- url: https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine
+  title: United Nations Partition Plan for Palestine
+  publisher: Wikipedia
+  quote: the Plan was adopted by the UN General Assembly on 29 November 1947 as Resolution 181 (II).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine
+  title: United Nations Partition Plan for Palestine
+  publisher: Wikipedia
+  quote: The resolution recommended the partition of Mandatory Palestine into independent but economically
+    linked Arab and Jewish states, together with an extraterritorial "Special International Regime" for the
+    city of Jerusalem and its surroundings.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine
+  title: United Nations Partition Plan for Palestine
+  publisher: Wikipedia
+  quote: The Plan was celebrated by most Jews in Palestine and reluctantly accepted by the Jewish Agency for
+    Palestine with misgivings.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine
+  title: United Nations Partition Plan for Palestine
+  publisher: Wikipedia
+  quote: The Arab Higher Committee, the Arab League and other Arab leaders and governments rejected the Plan
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

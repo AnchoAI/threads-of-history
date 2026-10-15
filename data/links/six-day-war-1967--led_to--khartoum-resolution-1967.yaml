@@ -1,0 +1,18 @@
+id: six-day-war-1967--led_to--khartoum-resolution-1967
+from: six-day-war-1967
+to: khartoum-resolution-1967
+type: led_to
+confidence: documented
+note: The Arab League summit that issued the 'Three Noes' was convened in the wake of the Six-Day War.
+sources:
+- url: https://en.wikipedia.org/wiki/Khartoum_Resolution
+  archive_url: https://web.archive.org/web/20260923135019/https://en.wikipedia.org/wiki/Khartoum_Resolution
+  title: Khartoum Resolution
+  publisher: Wikipedia
+  quote: 'The Khartoum Resolution (Arabic: قرار الخرطوم) of 1 September 1967 was issued at the conclusion of
+    the 1967 Arab League summit, which was convened in Khartoum, the capital of Sudan, in the wake of the Six-Day
+    War.'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

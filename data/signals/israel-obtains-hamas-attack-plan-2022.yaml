@@ -1,0 +1,59 @@
+id: israel-obtains-hamas-attack-plan-2022
+title: Israeli intelligence obtains Hamas's 'Jericho Wall' attack plan
+summary: More than a year before 7 October 2023, Israeli officials obtained a detailed Hamas plan for a mass
+  invasion of southern Israel, which the New York Times later reported Hamas followed closely. Military and
+  intelligence leaders largely dismissed it as beyond Hamas's capabilities.
+occurred:
+  start: '2022'
+  precision: year
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- hamas
+importance: 3
+source_credibility: high
+outcome: confirmed
+resolves_to: october-7-attack-and-gaza-war-2023
+sources:
+- url: https://en.wikipedia.org/wiki/October_7_attacks
+  archive_url: https://web.archive.org/web/20261013085829/https://en.wikipedia.org/wiki/October_7_attacks
+  title: October 7 attacks
+  publisher: Wikipedia
+  quote: According to The New York Times, Israeli officials had obtained detailed attack plans more than a
+    year before the attack.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/October_7_attacks
+  archive_url: https://web.archive.org/web/20261013085829/https://en.wikipedia.org/wiki/October_7_attacks
+  title: October 7 attacks
+  publisher: Wikipedia
+  quote: The Times reported, "Hamas followed the blueprint with shocking precision."
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/October_7_attacks
+  archive_url: https://web.archive.org/web/20261013085829/https://en.wikipedia.org/wiki/October_7_attacks
+  title: October 7 attacks
+  publisher: Wikipedia
+  quote: the document was widely circulated among Israeli military and intelligence leadership, who largely
+    dismissed the plan as beyond Hamas's capabilities, though it was unclear whether the political leadership
+    was informed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/October_7_attacks
+  archive_url: https://web.archive.org/web/20261013085829/https://en.wikipedia.org/wiki/October_7_attacks
+  title: October 7 attacks
+  publisher: Wikipedia
+  quote: that very apparatus had ignored its own detection of Hamas's "Walls of Jericho" mass-invasion plan
+    a year prior to the event
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Year precision: the source says only ''more than a year before the attack''. The underlying New York Times
+    report should be added as a news source with its date, which would also give a known.public date for when
+    the plan''s existence became public (after the attack).'

@@ -1,0 +1,51 @@
+id: hamas-founded-1987
+title: Hamas founded
+summary: Hamas was founded by Ahmed Yassin in December 1987, after the First Intifada broke out, out of a Muslim
+  Brotherhood-affiliated network in Gaza. Its 1988 charter called for an Islamist state in all of Mandatory
+  Palestine.
+occurred:
+  start: 1987-12
+  precision: month
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- hamas
+- muslim-brotherhood
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: The Hamas movement was founded by Palestinian Islamic scholar Ahmed Yassin in 1987 after the outbreak
+    of the First Intifada against the Israeli occupation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: In December 1987, the Brotherhood adopted a more nationalist and activist line under the name of Hamas.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: It emerged from his 1973 Mujama al-Islamiya Islamic charity affiliated with the Muslim Brotherhood.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: Historically, Hamas envisioned a Palestinian state on all of the territory that belonged to the British
+    Mandate for Palestine (that is, from the Jordan River to the Mediterranean Sea), and in its 1988 Charter
+    framed the Mandate Palestine as 'Islamic waqf' or endowment, under sovereignty of God.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No Wikidata item for the founding event; the organisation's QID (Q38799) belongs on the existing actor
+    hamas (V1's file).

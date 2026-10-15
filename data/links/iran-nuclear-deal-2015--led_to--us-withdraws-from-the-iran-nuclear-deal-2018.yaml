@@ -1,0 +1,19 @@
+id: iran-nuclear-deal-2015--led_to--us-withdraws-from-the-iran-nuclear-deal-2018
+from: iran-nuclear-deal-2015
+to: us-withdraws-from-the-iran-nuclear-deal-2018
+type: led_to
+confidence: documented
+note: The US left the deal three years after signing it, reimposing sanctions.
+sources:
+- url: https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010220942/https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action
+  title: Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: The United States withdrew from the pact in 2018, imposing sanctions under its maximum pressure campaign.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: unverified
+  notes:
+  - A led_to from a deal to the withdrawal from it is a weak use of the type; the source gives the opposition
+    to the deal, not the deal itself, as the cause. A reviewer may prefer to drop this link.

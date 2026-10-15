@@ -1,0 +1,60 @@
+id: israeli-invasion-of-lebanon-1982
+title: 1982 Lebanon War
+summary: Israel invaded southern Lebanon on 6 June 1982 after an attempt on its ambassador in London by the
+  Abu Nidal Organization, reached Beirut and forced the PLO out to Tunis. The Phalangist massacre at Sabra
+  and Shatila, in an area under Israeli control, caused outrage.
+occurred:
+  start: '1982-06-06'
+  end: '1982-09-29'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- ariel-sharon
+- menachem-begin
+- palestine-liberation-organization
+- lebanon
+importance: 3
+wikidata: Q49103
+sources:
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: The 1982 Lebanon War, also called the Second Israeli invasion of Lebanon, began on 6 June 1982, when
+    Israel invaded southern Lebanon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: The Israeli military operation, codenamed Operation Peace for Galilee, was launched after gunmen from
+    the Abu Nidal Organization attempted to assassinate Shlomo Argov, Israel's ambassador to the United Kingdom.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Palestine_Liberation_Organization
+  title: Palestine Liberation Organization
+  publisher: Wikipedia
+  quote: In 1982, the PLO relocated to Tunis, Tunisia after it was driven out of Lebanon by Israel during the
+    1982 Lebanon War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: There was outrage at the IDF's role in the Israeli-backed, Phalangist-perpetrated Sabra and Shatila
+    massacre of Palestinians and Lebanese Shias.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: The IDF withdrew from Beirut and ended its operation on 29 September 1982.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The end date is the end of the Beirut operation; Israel stayed in a southern 'security zone' until 2000.
