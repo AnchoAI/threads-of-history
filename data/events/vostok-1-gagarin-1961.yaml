@@ -1,0 +1,46 @@
+id: vostok-1-gagarin-1961
+title: Yuri Gagarin becomes the first human in space
+summary: Soviet cosmonaut Yuri Gagarin makes the first human orbital spaceflight aboard Vostok 1, a single
+  108-minute orbit of the Earth. The flight reinforced American fears of falling behind the Soviet Union.
+occurred:
+  start: '1961-04-12'
+  precision: day
+threads:
+- usru
+- industry
+regions:
+- russia-eastern-europe
+actors:
+- yuri-gagarin
+- soviet-union
+importance: 4
+wikidata: Q182524
+sources:
+- url: https://en.wikipedia.org/wiki/Vostok_1
+  archive_url: https://web.archive.org/web/20261006150828/https://en.wikipedia.org/wiki/Vostok_1
+  title: Vostok 1
+  publisher: Wikipedia
+  quote: was the first spaceflight of the Vostok programme and the first human orbital spaceflight in
+    history. The Vostok 3KA space capsule was launched from Baikonur Cosmodrome on 12 April 1961, with
+    Soviet cosmonaut Yuri Gagarin aboard
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Vostok_1
+  archive_url: https://web.archive.org/web/20261006150828/https://en.wikipedia.org/wiki/Vostok_1
+  title: Vostok 1
+  publisher: Wikipedia
+  quote: The flight took 108 minutes from launch to landing.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first person to fly in space, reinforcing
+    American fears about being left behind in a technological competition with the Soviet Union.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

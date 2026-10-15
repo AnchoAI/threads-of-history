@@ -1,0 +1,27 @@
+id: sputnik-1-1957--led_to--arpa-founded-1958
+from: sputnik-1-1957
+to: arpa-founded-1958
+type: led_to
+confidence: documented
+note: Eisenhower created ARPA in response to Sputnik.
+sources:
+- url: https://en.wikipedia.org/wiki/DARPA
+  archive_url: https://web.archive.org/web/20261012072136/https://en.wikipedia.org/wiki/DARPA
+  title: DARPA
+  publisher: Wikipedia
+  quote: the agency was created on February 7, 1958, by President Dwight D. Eisenhower in response to
+    the Soviets' launch of Sputnik 1 in 1957.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.darpa.mil/about
+  archive_url: https://web.archive.org/web/20261011174042/https://www.darpa.mil/about
+  title: About DARPA
+  publisher: DARPA
+  quote: Created in response to the launch of Sputnik in 1957, DARPA stands as our nation’s commitment
+    to never again face a strategic technical surprise.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,20 @@
+id: vostok-1-gagarin-1961--led_to--kennedy-moon-landing-goal-1961
+from: vostok-1-gagarin-1961
+to: kennedy-moon-landing-goal-1961
+type: led_to
+confidence: documented
+note: Gagarin's flight led Kennedy to set the Moon landing goal.
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Gagarin's flight led US president John F. Kennedy to raise the stakes on May 25, 1961, by asking
+    the US Congress to commit to the goal of "landing a man on the Moon and returning him safely to the
+    Earth" before the end of the decade.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

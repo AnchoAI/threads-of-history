@@ -1,0 +1,27 @@
+id: smallpox-eradicated-1980--led_to--global-polio-eradication-initiative-1988
+from: smallpox-eradicated-1980
+to: global-polio-eradication-initiative-1988
+type: led_to
+confidence: documented
+note: The success against smallpox encouraged the WHO to attempt polio eradication, and the campaign drew
+  on its lessons.
+sources:
+- url: https://www.santepubliquefrance.fr/en/poliomyelite/article/eradication-polio
+  title: Eradication of polio
+  publisher: Santé publique France
+  quote: The success of the global eradication of smallpox, certified in 1980, encouraged the World Health
+    Organization to launch the Global Polio Eradication Initiative in 1988.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Global_Polio_Eradication_Initiative
+  archive_url: https://web.archive.org/web/20260924022129/https://en.wikipedia.org/wiki/Global_Polio_Eradication_Initiative
+  title: Global Polio Eradication Initiative
+  publisher: Wikipedia
+  quote: Efforts were built upon those used to control wild poliovirus in the Americas in the early 1980s,
+    and on lessons from smallpox eradication.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

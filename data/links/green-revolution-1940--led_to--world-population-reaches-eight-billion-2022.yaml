@@ -1,0 +1,30 @@
+id: green-revolution-1940--led_to--world-population-reaches-eight-billion-2022
+from: green-revolution-1940
+to: world-population-reaches-eight-billion-2022
+type: led_to
+confidence: documented
+note: Higher farm yields from the Green Revolution were a key factor in the 20th-century population increase.
+sources:
+- url: https://en.wikipedia.org/wiki/World_population
+  archive_url: https://web.archive.org/web/20261012072300/https://en.wikipedia.org/wiki/World_population
+  title: World population
+  publisher: Wikipedia
+  quote: Some of the key factors contributing to this increase included the lessening of the mortality
+    rate in many countries by improved sanitation and medical advances, and a massive increase in agricultural
+    productivity attributed to the Green Revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Green_Revolution
+  archive_url: https://web.archive.org/web/20261009101030/https://en.wikipedia.org/wiki/Green_Revolution
+  title: Green Revolution
+  publisher: Wikipedia
+  quote: The production increases fostered by the Green Revolution are often credited with having helped
+    to avoid widespread famine, and for feeding billions of people.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The source speaks of the rise from 1.6 billion (1900) to 6 billion (2000); the eight-billion milestone
+    is the continuation of that growth.

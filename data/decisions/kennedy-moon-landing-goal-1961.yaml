@@ -1,0 +1,81 @@
+id: kennedy-moon-landing-goal-1961
+title: Kennedy commits the US to a Moon landing
+summary: Six weeks after Gagarin's flight, President Kennedy asks Congress to commit to "landing a man
+  on the Moon and returning him safely to the Earth" before the end of the decade. The goal replaced NASA's
+  vaguer plans for space stations and flights around the Moon.
+occurred:
+  start: '1961-05-25'
+  precision: day
+threads:
+- usru
+- industry
+regions:
+- americas
+actors:
+- john-f-kennedy
+- united-states
+- nasa
+importance: 4
+decided_by:
+- john-f-kennedy
+alternatives:
+- option: Space stations or crewed flights around the Moon, without a landing
+  note: Missions Apollo had been conceived for in 1960; Kennedy's landing goal replaced them.
+  sources:
+  - url: https://en.wikipedia.org/wiki/Apollo_program
+    title: Apollo program
+    publisher: Wikipedia
+    quote: Possible missions included ferrying crews to a space station, circumlunar flights, and eventual
+      crewed lunar landings.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Apollo_program
+    title: Apollo program
+    publisher: Wikipedia
+    quote: With the clear goal of a crewed landing replacing the more nebulous goals of space stations
+      and circumlunar flights
+    type: reference
+    accessed: '2026-10-15'
+- option: Make no commitment in response to the Soviet lead
+  note: Kennedy's first response to Gagarin's flight.
+  sources:
+  - url: https://en.wikipedia.org/wiki/Apollo_program
+    title: Apollo program
+    publisher: Wikipedia
+    quote: Kennedy was circumspect in his response to the news, refusing to make a commitment on America's
+      response to the Soviets.
+    type: reference
+    accessed: '2026-10-15'
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Gagarin's flight led US president John F. Kennedy to raise the stakes on May 25, 1961, by asking
+    the US Congress to commit to the goal of "landing a man on the Moon and returning him safely to the
+    Earth" before the end of the decade.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: On April 20, Kennedy sent a memo to Vice President Lyndon B. Johnson, asking Johnson to look
+    into the status of America's space program, and into programs that could offer NASA the opportunity
+    to catch up.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: With the clear goal of a crewed landing replacing the more nebulous goals of space stations and
+    circumlunar flights
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata has items for Kennedy's later 1962 Rice University speech, not for the 25 May 1961 message
+    to Congress; 'none' is set.

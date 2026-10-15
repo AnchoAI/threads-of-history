@@ -1,0 +1,46 @@
+id: alphago-defeats-lee-sedol-2016
+title: AlphaGo defeats Lee Sedol
+summary: In Seoul, DeepMind's AlphaGo program, which uses neural networks, beats the top Go player Lee
+  Sedol 4–1. Before AlphaGo, some researchers had claimed computers would never beat top humans at Go.
+occurred:
+  start: '2016-03-09'
+  end: '2016-03-15'
+  precision: day
+threads:
+- industry
+regions:
+- east-asia
+actors:
+- google-deepmind
+importance: 3
+wikidata: Q23016184
+sources:
+- url: https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  archive_url: https://web.archive.org/web/20261009134036/https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  title: AlphaGo versus Lee Sedol
+  publisher: Wikipedia
+  quote: was a five-game Go match between top Go player Lee Sedol and AlphaGo, a computer Go program developed
+    by DeepMind, played in Seoul, South Korea between the 9th and 15th of March 2016. AlphaGo won all
+    but the fourth game
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  archive_url: https://web.archive.org/web/20261009134036/https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  title: AlphaGo versus Lee Sedol
+  publisher: Wikipedia
+  quote: Before AlphaGo, some researchers had claimed that computers would never defeat top humans at
+    Go.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  archive_url: https://web.archive.org/web/20261009134036/https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+  title: AlphaGo versus Lee Sedol
+  publisher: Wikipedia
+  quote: AlphaGo uses neural networks to estimate its probability of winning.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,51 @@
+id: world-wide-web-1989
+title: Tim Berners-Lee proposes the World Wide Web
+summary: At CERN, Tim Berners-Lee proposes a linked information system that becomes the World Wide Web.
+  The Web opened to the public in 1991, and in April 1993 CERN put its software in the public domain.
+occurred:
+  start: '1989-03-12'
+  end: '1993-04-30'
+  precision: day
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- tim-berners-lee
+- cern
+importance: 5
+wikidata: Q466
+sources:
+- url: https://home.cern/science/computing/the-birth-of-the-web/
+  title: The birth of the Web
+  publisher: CERN
+  quote: Tim Berners-Lee, a British scientist, invented the World Wide Web (WWW) in 1989, while working
+    at CERN.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+  archive_url: https://web.archive.org/web/20261012072134/https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+  title: History of the World Wide Web
+  publisher: Wikipedia
+  quote: 'On 12 March 1989, he submitted a memorandum, titled "Information Management: A Proposal", to
+    the management at CERN.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/History_of_the_Internet
+  title: History of the Internet
+  publisher: Wikipedia
+  quote: The Web opened to the public in 1991 and began to enter general use in 1993–4, when websites
+    for everyday use started to become available.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://home.cern/science/computing/the-birth-of-the-web/
+  title: The birth of the Web
+  publisher: CERN
+  quote: On 30 April 1993, CERN put the World Wide Web software in the public domain.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

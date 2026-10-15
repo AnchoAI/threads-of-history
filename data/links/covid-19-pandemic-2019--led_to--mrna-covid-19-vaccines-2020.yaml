@@ -1,0 +1,27 @@
+id: covid-19-pandemic-2019--led_to--mrna-covid-19-vaccines-2020
+from: covid-19-pandemic-2019
+to: mrna-covid-19-vaccines-2020
+type: led_to
+confidence: documented
+note: The mRNA vaccines were developed at record speed in response to the pandemic.
+sources:
+- url: https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  archive_url: https://web.archive.org/web/20261002080754/https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  title: 'Press release: The Nobel Prize in Physiology or Medicine 2023'
+  publisher: Nobel Prize Outreach
+  quote: After the outbreak of the COVID-19 pandemic, two base-modified mRNA vaccines encoding the SARS-CoV-2
+    surface protein were developed at record speed.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  archive_url: https://web.archive.org/web/20261002080754/https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  title: 'Press release: The Nobel Prize in Physiology or Medicine 2023'
+  publisher: Nobel Prize Outreach
+  quote: The discoveries by the two Nobel Laureates were critical for developing effective mRNA vaccines
+    against COVID-19 during the pandemic that began in early 2020.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,25 @@
+id: transformer-architecture-2017--led_to--chatgpt-released-2022
+from: transformer-architecture-2017
+to: chatgpt-released-2022
+type: led_to
+confidence: documented
+note: ChatGPT runs on generative pre-trained transformers, the architecture the 2017 paper introduced.
+sources:
+- url: https://en.wikipedia.org/wiki/ChatGPT
+  title: ChatGPT
+  publisher: Wikipedia
+  quote: the product uses large language models—specifically generative pre-trained transformers (GPTs)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  archive_url: https://web.archive.org/web/20261014195143/https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  title: Attention Is All You Need
+  publisher: Wikipedia
+  quote: The transformer approach it describes has become the main architecture of a wide variety of artificial
+    intelligence systems, including large language models.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

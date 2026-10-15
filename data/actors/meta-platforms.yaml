@@ -1,0 +1,21 @@
+id: meta-platforms
+title: Meta Platforms (Facebook)
+actor_type: organization
+summary: American technology company.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q380
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q380.json
+  title: Meta Platforms (Facebook)
+  publisher: Wikidata
+  quote: American technology company
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

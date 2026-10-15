@@ -1,0 +1,34 @@
+id: sputnik-1-1957--led_to--missile-gap-1957
+from: sputnik-1-1957
+to: missile-gap-1957
+type: led_to
+confidence: documented
+note: Sputnik's shock fed fears that the US had fallen behind in missiles, later exploited as the "missile
+  gap".
+sources:
+- url: https://history.state.gov/milestones/1953-1960/sputnik
+  title: Sputnik, 1957
+  publisher: Office of the Historian, U.S. Department of State
+  quote: In this way, the launch of Sputnik fueled both the space race and the arms race, in addition
+    to increasing Cold War tensions
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1953-1960/sputnik
+  title: Sputnik, 1957
+  publisher: Office of the Historian, U.S. Department of State
+  quote: Eventually, lawmakers and political campaigners in the United States successfully exploited the
+    fear of a "missile gap" developing between U.S. and Soviet nuclear arsenals in the 1960 presidential
+    election
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: The Soviet launch of Sputnik 1, on October 4, 1957, highlighted the technological achievements
+    of the Soviets and sparked some worrying questions for the politicians and general public of the US.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

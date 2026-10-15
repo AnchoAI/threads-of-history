@@ -1,0 +1,59 @@
+id: missile-gap-1957
+title: US estimates warn of a Soviet "missile gap"
+summary: After Sputnik, the Gaither Committee and US Air Force estimates warn that the Soviet Union will
+  soon lead in intercontinental missiles, and Kennedy campaigns on a "missile gap". Satellite photographs
+  in 1961 showed the gap did not exist and favoured the United States.
+occurred:
+  start: 1957-12
+  precision: month
+threads:
+- usru
+- nuclear
+- intel
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- john-f-kennedy
+- nikita-khrushchev
+importance: 3
+source_credibility: medium
+outcome: 'false'
+wikidata: Q2916432
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: The gap in the ballistic missile arsenals did not exist except in exaggerated estimates, made
+    by the Gaither Committee in 1957 and in United States Air Force (USAF) figures.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: National Intelligence Estimate (NIE) 11-10-57, issued in December 1957, predicted that the Soviets
+    would "probably have a first operational capability with up to 10 prototype ICBMs"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Unaware that the report was misleading, Kennedy used the numbers in the document and based some
+    of his 1960 election campaign platform on the Republicans being "weak on defense".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: The missile gap was greatly in the US's favor. Satellite photographs showed the Soviets had 10
+    operational ICBMs, the US 57.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Dated to December 1957, the National Intelligence Estimate quoted; the Gaither Committee report is
+    dated only to 1957 in the source. The term was coined by Kennedy in 1958.
