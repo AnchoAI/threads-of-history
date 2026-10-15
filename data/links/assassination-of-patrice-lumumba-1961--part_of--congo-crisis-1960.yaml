@@ -1,0 +1,19 @@
+id: assassination-of-patrice-lumumba-1961--part_of--congo-crisis-1960
+from: assassination-of-patrice-lumumba-1961
+to: congo-crisis-1960
+type: part_of
+confidence: documented
+note: Lumumba was killed during the Congo Crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: was assassinated on January 17, 1961 in Katanga, near Elizabethville, amidst the Congo Crisis
+    that began in July 1960.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

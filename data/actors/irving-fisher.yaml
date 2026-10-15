@@ -1,0 +1,21 @@
+id: irving-fisher
+title: Irving Fisher
+actor_type: person
+summary: American economist and statistician (1867–1947).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q312739
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q312739.json
+  title: Irving Fisher
+  publisher: Wikidata
+  quote: American economist and statistician (1867–1947)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

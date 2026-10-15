@@ -1,0 +1,58 @@
+id: reported-second-gulf-of-tonkin-attack-1964
+title: Reported second attack in the Gulf of Tonkin
+summary: 'On the night of 4 August 1964 the destroyers Maddox and Turner Joy reported that North Vietnamese
+  boats were attacking them, and the Johnson administration treated signals intercepts as confirmation. No
+  attack took place: there were no North Vietnamese boats in the area, and the intercepts concerned the 2 August
+  clash.'
+occurred:
+  start: '1964-08-04'
+  precision: day
+threads:
+- usru
+- intel
+regions:
+- south-east-asia
+- americas
+actors:
+- united-states
+- lyndon-b-johnson
+- robert-mcnamara
+- national-security-agency
+importance: 3
+source_credibility: medium
+outcome: 'false'
+sources:
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: The commodore of the Maddox task force, Captain John Herrick, reported that the ships were being attacked
+    by North Vietnamese boats when, in fact, there were no North Vietnamese boats in the area.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: the Johnson administration ended up basing its conclusion mostly on communications intercepts erroneously
+    assessed to be North Vietnamese preparations to carry out an attack and a North Vietnamese after action
+    report. Later analysis showed those communications to have concerned the recovery of torpedo boats damaged
+    in the 2 August attack
+  type: reference
+  accessed: '2026-10-15'
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  archive_url: https://web.archive.org/web/20261011000949/https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  title: Tonkin Gulf Intelligence "Skewed" According to Official History and Intercepts
+  publisher: National Security Archive, George Washington University
+  date: '2005-12-01'
+  quote: The SIGINT also shows, according to Hanyok, that a second attack, on August 4, 1964, by North Vietnamese
+    torpedo boats on U.S. ships, did not occur despite claims to the contrary by the Johnson administration.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'A false alarm: the report was believed at the time by the administration, though Captain Herrick soon
+    cabled doubts. Its falsity became public only gradually (McNamara 1995/2003; NSA release 2005).'

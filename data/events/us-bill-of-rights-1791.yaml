@@ -1,0 +1,42 @@
+id: us-bill-of-rights-1791
+title: US Bill of Rights ratified
+summary: Ten amendments to the US Constitution, proposed by Congress in 1789, are ratified by three-fourths
+  of the states, adding guarantees of personal freedoms such as freedom of speech and religion.
+occurred:
+  start: '1791-12-15'
+  precision: day
+threads:
+- revolutions
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q862765
+sources:
+- url: https://www.archives.gov/founding-docs/bill-of-rights-transcript
+  title: 'The Bill of Rights: A Transcription'
+  publisher: U.S. National Archives
+  archive_url: https://web.archive.org/web/20261014024059/https://www.archives.gov/founding-docs/bill-of-rights-transcript
+  quote: Ten of the proposed 12 amendments were ratified by three-fourths of the state legislatures on
+    December 15, 1791.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  title: United States Bill of Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009110822/https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  quote: Congress approved twelve articles of amendment on September 25, 1789, and submitted them to the
+    states for ratification.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  title: United States Bill of Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009110822/https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  quote: The amendments of the Bill of Rights add to the Constitution specific guarantees of personal
+    freedoms, such as freedom of speech, the right to publish, practice religion
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

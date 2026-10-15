@@ -1,0 +1,19 @@
+id: nicaraguan-revolution-1961--part_of--cold-war-1947-1991
+from: nicaraguan-revolution-1961
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Nicaraguan Revolution is part of the Cold War in Latin America.
+sources:
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: Part of the Central American crisis and the Cold War in Latin America
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

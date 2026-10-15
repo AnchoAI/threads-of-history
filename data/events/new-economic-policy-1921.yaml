@@ -1,0 +1,48 @@
+id: new-economic-policy-1921
+title: New Economic Policy
+summary: 'Soviet Russia replaced war communism with a mixed economy: forced grain requisitioning gave
+  way to a tax in kind, and small private businesses were allowed. Stalin abandoned it from 1928.'
+occurred:
+  start: '1921'
+  end: '1928'
+  precision: year
+  note: Adopted at the 10th Party Congress in March 1921; abandoned in 1928 and phased out during 1928–1931.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- vladimir-lenin
+- joseph-stalin
+importance: 4
+wikidata: Q45745
+sources:
+- url: https://en.wikipedia.org/wiki/New_Economic_Policy
+  title: New Economic Policy
+  publisher: Wikipedia
+  quote: The Bolshevik government adopted the NEP in the course of the 10th Congress of the All-Russian
+    Communist Party (March 1921).
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Economic_Policy
+  title: New Economic Policy
+  publisher: Wikipedia
+  quote: abolished forced grain-requisition (prodrazvyorstka) and introduced a tax on farmers
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Economic_Policy
+  title: New Economic Policy
+  publisher: Wikipedia
+  quote: introduced a mixed economy which allowed private individuals to own small and medium-sized enterprises
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/New_Economic_Policy
+  title: New Economic Policy
+  publisher: Wikipedia
+  quote: NEP was abandoned in 1928 with Joseph Stalin's "Great Break" and gradually phased out during
+    1928–1931.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

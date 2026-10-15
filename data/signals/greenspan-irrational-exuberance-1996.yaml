@@ -1,0 +1,65 @@
+id: greenspan-irrational-exuberance-1996
+title: Greenspan's "irrational exuberance" warning
+summary: In a televised speech on 5 December 1996, Federal Reserve chairman Alan Greenspan asked how one
+  would know "when irrational exuberance has unduly escalated asset values"; the remark was read as a
+  warning that stocks were overvalued, and Tokyo's market closed 3 percent down. The dot-com bubble went
+  on growing until March 2000.
+occurred:
+  start: '1996-12-05'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- alan-greenspan
+- federal-reserve
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: dot-com-bubble-1995
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Irrational_exuberance
+  archive_url: https://web.archive.org/web/20260918220249/https://en.wikipedia.org/wiki/Irrational_exuberance
+  title: Irrational exuberance
+  publisher: Wikipedia
+  quote: Greenspan's comment was made during a televised speech on December 5, 1996
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Irrational_exuberance
+  archive_url: https://web.archive.org/web/20260918220249/https://en.wikipedia.org/wiki/Irrational_exuberance
+  title: Irrational exuberance
+  publisher: Wikipedia
+  quote: But how do we know when irrational exuberance has unduly escalated asset values
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Irrational_exuberance
+  archive_url: https://web.archive.org/web/20260918220249/https://en.wikipedia.org/wiki/Irrational_exuberance
+  title: Irrational exuberance
+  publisher: Wikipedia
+  quote: The phrase was interpreted as a warning that the stock market might be overvalued.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Irrational_exuberance
+  archive_url: https://web.archive.org/web/20260918220249/https://en.wikipedia.org/wiki/Irrational_exuberance
+  title: Irrational exuberance
+  publisher: Wikipedia
+  quote: The Tokyo market was open during the speech and immediately moved down sharply after this comment,
+    closing off 3%.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dot-com_bubble
+  archive_url: https://web.archive.org/web/20261010102410/https://en.wikipedia.org/wiki/Dot-com_bubble
+  title: Dot-com bubble
+  publisher: Wikipedia
+  quote: The dot-com bubble (or dot-com boom) was a stock market bubble that developed during the late
+    1990s and peaked on March 10, 2000.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Outcome is set to confirmed because the bubble did later burst, but the market kept rising for more
+    than three years after the warning; a reviewer may prefer 'unresolved' for a warning this early.
+  - 'No wikidata id: Q389582 is the phrase as a concept, not the speech.'

@@ -1,0 +1,47 @@
+id: king-hussein-warns-meir-1973
+title: King Hussein warns Golda Meir of a Syrian attack
+summary: On the night of 25 September 1973 King Hussein of Jordan flew secretly to Tel Aviv to warn Prime Minister
+  Golda Meir of an impending Syrian attack. The warning was not acted on; Israeli intelligence judged he had
+  said nothing new.
+occurred:
+  start: '1973-09-25'
+  precision: day
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- hussein-of-jordan
+- israel
+- jordan
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: yom-kippur-war-and-oil-embargo-1973
+sources:
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: On the night of 25 September, Hussein secretly flew to Tel Aviv to warn Meir of an impending Syrian
+    attack.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: This warning was ignored, and Israeli intelligence indicated that Hussein had not said anything that
+    was not already known.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: Throughout September, Israel received eleven warnings of war from well-placed sources.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

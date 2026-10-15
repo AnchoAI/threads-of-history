@@ -1,0 +1,23 @@
+id: franco-prussian-war-1870--led_to--unification-of-germany-1871
+from: franco-prussian-war-1870
+to: unification-of-germany-1871
+type: led_to
+confidence: documented
+note: Victory over France completed German unification; the Empire was proclaimed before the war ended.
+sources:
+- url: https://en.wikipedia.org/wiki/Unification_of_Germany
+  title: Unification of Germany
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260930013411/https://en.wikipedia.org/wiki/Unification_of_Germany
+  quote: Victory in the Franco-Prussian War proved the capstone of the unification process.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: In the final days of the war, with German victory all but assured, the German states proclaimed
+    their union as the German Empire under the Prussian king Wilhelm I.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

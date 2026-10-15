@@ -1,0 +1,45 @@
+id: panama-canal-opens-1914
+title: Panama Canal opens
+summary: The US-built Panama Canal formally opens, letting ships between the Atlantic and Pacific avoid
+  the long route around South America. The US had taken over the project from France in 1904.
+occurred:
+  start: '1914-08-15'
+  precision: day
+threads:
+- empire
+regions:
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Panama_Canal
+  title: Panama Canal
+  publisher: Wikipedia
+  quote: The canal was formally opened on 15 August 1914
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Panama_Canal
+  title: Panama Canal
+  publisher: Wikipedia
+  quote: enabling them to avoid the lengthy, hazardous route around the southernmost tip of South America
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Panama_Canal
+  title: Panama Canal
+  publisher: Wikipedia
+  quote: France began work on the canal in 1881, but stopped in 1889
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Panama_Canal
+  title: Panama Canal
+  publisher: Wikipedia
+  quote: The US took over the project in 1904 and opened the canal in 1914.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'wikidata is none: Q7350 is the canal itself, not its opening.'

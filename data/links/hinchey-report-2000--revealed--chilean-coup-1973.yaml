@@ -1,0 +1,20 @@
+id: hinchey-report-2000--revealed--chilean-coup-1973
+from: hinchey-report-2000
+to: chilean-coup-1973
+type: revealed
+confidence: documented
+note: The intelligence community's review set out what the CIA knew of the coup plotting.
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: Although CIA did not instigate the coup that ended Allende's government on 11 September 1973,
+    it was aware of coup-plotting by the military, had ongoing intelligence collection relationships with
+    some plotters, and – because CIA did not discourage the takeover and had sought to instigate a coup
+    in 1970 – probably appeared to condone it.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,18 @@
+id: soviet-invasion-of-afghanistan-1979--part_of--cold-war-1947-1991
+from: soviet-invasion-of-afghanistan-1979
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Soviet–Afghan War is part of the Cold War in Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War
+  title: Soviet–Afghan War
+  publisher: Wikipedia
+  quote: Part of Afghan conflict and the Cold War in Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,25 @@
+id: assassination-of-franz-ferdinand-1914--led_to--july-crisis-1914
+from: assassination-of-franz-ferdinand-1914
+to: july-crisis-1914
+type: led_to
+confidence: documented
+note: The assassination initiated the July Crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: The assassination initiated the July Crisis
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand
+  title: Assassination of Archduke Franz Ferdinand
+  publisher: Wikipedia
+  quote: The assassination precipitated the July Crisis, which led to Austria-Hungary declaring war on Serbia and
+    the start of World War I.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

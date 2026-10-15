@@ -1,0 +1,34 @@
+id: berlin-conference-1884--part_of--scramble-for-africa-1870
+from: berlin-conference-1884
+to: scramble-for-africa-1870
+type: part_of
+confidence: documented
+note: The conference formalised the ongoing Scramble and set its rules; scholars warn against overstating its role
+  in drawing borders.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: The General Act of Berlin can be seen as formalizing the ongoing Scramble for Africa.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: The 1884–1885 Berlin Conference regulated European colonisation and trade in Africa, and is seen as emblematic
+    of the "scramble".
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: However, some scholars warn against overstating its role in the colonial partitioning of Africa, drawing
+    attention to the many bilateral agreements concluded before and after the conference.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

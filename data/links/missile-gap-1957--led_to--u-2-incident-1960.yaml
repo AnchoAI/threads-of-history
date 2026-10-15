@@ -1,0 +1,17 @@
+id: missile-gap-1957--led_to--u-2-incident-1960
+from: missile-gap-1957
+to: u-2-incident-1960
+type: led_to
+confidence: documented
+note: The wish to count Soviet ICBMs led Eisenhower to allow the last U-2 flights before the Paris summit.
+sources:
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: because of desire to determine the number of Soviet intercontinental ballistic missiles more
+    accurately, Eisenhower allowed the flying of two more missions before the Four Power Paris Summit
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,26 @@
+id: partition-of-ireland-1921--led_to--the-troubles-1968
+from: partition-of-ireland-1921
+to: the-troubles-1968
+type: led_to
+confidence: documented
+note: After partition, discrimination against the Catholic minority in Northern Ireland, and unionist
+  opposition to the civil rights campaign against it, helped spark the Troubles.
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_Ireland
+  archive_url: https://web.archive.org/web/20261011195640/https://en.wikipedia.org/wiki/Partition_of_Ireland
+  title: Partition of Ireland
+  publisher: Wikipedia
+  quote: Over the years the Unionist governments of Northern Ireland have been accused of discrimination
+    against the Irish nationalist and Catholic minority. In 1967 Unionists opposed a civil rights campaign
+    to end discrimination, viewing it as a republican front. This helped spark the Troubles
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: nationalists largely viewed the partition of Ireland as an illegal and arbitrary division of
+    the island against the will of the majority of its people.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,16 @@
+id: battle-of-stalingrad-1942-1943--part_of--second-world-war-1939-1945
+from: battle-of-stalingrad-1942-1943
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Stalingrad
+  archive_url: https://web.archive.org/web/20260928215259/https://en.wikipedia.org/wiki/Battle_of_stalingrad
+  title: Battle of Stalingrad
+  publisher: Wikipedia
+  quote: Part of the Eastern Front of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

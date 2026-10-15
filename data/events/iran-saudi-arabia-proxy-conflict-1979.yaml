@@ -1,0 +1,52 @@
+id: iran-saudi-arabia-proxy-conflict-1979
+title: Iran–Saudi Arabia proxy conflict
+summary: Since Iran's 1979 revolution, Iran and Saudi Arabia have competed for influence across the Middle East
+  and backed opposing sides in conflicts including the civil wars in Syria and Yemen. Analysts describe a mainly
+  political and economic struggle in which both sides exploit sectarian differences.
+occurred:
+  start: '1979-02-11'
+  ongoing: true
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- iran
+- saudi-arabia
+importance: 4
+wikidata: Q22948406
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: The proxy conflict can be traced back to the Iranian Revolution in 1979, when the monarchic Imperial State
+    of Iran became an Islamic republic.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: The two countries have provided varying degrees of support to opposing sides in nearby conflicts, including
+    the civil wars in Syria and Yemen
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: As of 2017, the rivalry is primarily a political and economic struggle exacerbated by religious differences,
+    and sectarianism in the region is exploited by both countries for geopolitical purposes as part of a larger
+    conflict.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: 11 February 1979 – present
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

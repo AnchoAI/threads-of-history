@@ -1,0 +1,26 @@
+id: nixon-shock-1971--led_to--smithsonian-agreement-1971
+from: nixon-shock-1971
+to: smithsonian-agreement-1971
+type: led_to
+confidence: documented
+note: The shock set off months of negotiations on new exchange rates, ending in the Smithsonian Agreement.
+sources:
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: Officials at the International Monetary Fund immediately pressed for negotiations to revamp exchange-rate
+    parities and address other complaints about the international financial system
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/nixon-shock
+  archive_url: https://web.archive.org/web/20261004123856/https://history.state.gov/milestones/1969-1976/nixon-shock
+  title: Nixon and the End of the Bretton Woods System, 1971–1973
+  publisher: US Department of State, Office of the Historian
+  quote: Nevertheless, after months of negotiations, the Group of Ten (G–10) industrialized democracies
+    agreed to a new set of fixed exchange rates centered on a devalued dollar in the December 1971 Smithsonian
+    Agreement.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

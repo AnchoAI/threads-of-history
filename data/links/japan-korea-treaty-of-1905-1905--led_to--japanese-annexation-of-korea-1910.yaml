@@ -1,0 +1,24 @@
+id: japan-korea-treaty-of-1905-1905--led_to--japanese-annexation-of-korea-1910
+from: japan-korea-treaty-of-1905-1905
+to: japanese-annexation-of-korea-1910
+type: led_to
+confidence: documented
+note: The protectorate treaty was a first step towards formal annexation.
+sources:
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1910
+  title: Japan–Korea Treaty of 1910
+  publisher: Wikipedia
+  quote: In this treaty, Japan formally annexed Korea following the Japan–Korea Treaty of 1905 (by which
+    Korea became a protectorate of Japan) and the Japan–Korea Treaty of 1907 (by which Korea was deprived
+    of the administration of internal affairs).
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: '"as a first step towards the final annexation of Korea in 1910, Japan forced the Korean king,
+    Kojong, to accept the protectorate treaty (known as the Ulsa Protectorate Treaty)'
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

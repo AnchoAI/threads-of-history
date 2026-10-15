@@ -1,0 +1,56 @@
+id: egypt-israel-peace-treaty-1979
+title: Egypt–Israel peace treaty
+summary: Signed in Washington on 26 March 1979, the treaty ended the state of war, provided for mutual recognition
+  and Israel's withdrawal from Sinai, and made Egypt the first Arab state to recognise Israel. Egypt was suspended
+  from the Arab League from 1979 to 1989.
+occurred:
+  start: '1979-03-26'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- anwar-sadat
+- menachem-begin
+- jimmy-carter
+- egypt
+- israel
+importance: 4
+wikidata: Q1129412
+sources:
+- url: https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  archive_url: https://web.archive.org/web/20260929162840/https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  title: Egypt–Israel peace treaty
+  publisher: Wikipedia
+  quote: The Egypt–Israel peace treaty was signed in Washington, D.C., United States, on 26 March 1979, following
+    the 1978 Camp David Accords.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  archive_url: https://web.archive.org/web/20260929162840/https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  title: Egypt–Israel peace treaty
+  publisher: Wikipedia
+  quote: The main features of the treaty were mutual recognition, cessation of the state of war that had existed
+    since the 1948 Arab–Israeli War, normalization of relations and the withdrawal by Israel of its armed forces
+    and civilians from the Sinai Peninsula, which Israel had captured during the Six-Day War in 1967.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  archive_url: https://web.archive.org/web/20260929162840/https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  title: Egypt–Israel peace treaty
+  publisher: Wikipedia
+  quote: The agreement notably made Egypt the first Arab state to officially recognize Israel, although it
+    has been described as a "cold peace".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  archive_url: https://web.archive.org/web/20260929162840/https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  title: Egypt–Israel peace treaty
+  publisher: Wikipedia
+  quote: However, as a result of the treaty, Egypt was suspended from the Arab League in 1979–1989, and Sadat
+    was assassinated on 6 October 1981 by members of the Egyptian Islamic Jihad.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

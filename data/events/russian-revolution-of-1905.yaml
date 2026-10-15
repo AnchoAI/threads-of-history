@@ -1,0 +1,45 @@
+id: russian-revolution-of-1905
+title: Russian Revolution of 1905
+summary: A wave of strikes, peasant revolts and military mutinies against the autocracy of Nicholas II,
+  which led to the State Duma and Russia's first constitution in 1906.
+occurred:
+  start: '1905-01-22'
+  end: '1907-06-16'
+  precision: day
+  note: The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date is
+    recorded here.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- russian-empire
+importance: 4
+wikidata: Q184928
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Revolution_of_1905
+  title: Russian Revolution of 1905
+  publisher: Wikipedia
+  quote: 22 January 1905 – 16 June 1907
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Revolution_of_1905
+  title: Russian Revolution of 1905
+  publisher: Wikipedia
+  quote: began on 22 January 1905 and led to the establishment of a constitutional monarchy under the
+    Russian Constitution of 1906, the country's first
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Revolution_of_1905
+  title: Russian Revolution of 1905
+  publisher: Wikipedia
+  quote: The revolution saw mass political and social unrest, including worker strikes, peasant revolts,
+    and military mutinies directed against Tsar Nicholas II and the autocracy
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The end date (16 June 1907, the "Coup of June 1907") is taken from the Wikipedia infobox; other accounts
+    end the revolution earlier.

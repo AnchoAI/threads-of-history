@@ -1,0 +1,34 @@
+id: gulf-of-tonkin-resolution-1964
+title: Gulf of Tonkin Resolution
+summary: On 7 August 1964, after the reported attacks, Congress passed a resolution authorising President Johnson
+  to take any measures he believed necessary in South-East Asia. It became the legal basis for the Johnson
+  and Nixon administrations' prosecution of the Vietnam War.
+occurred:
+  start: '1964-08-07'
+  precision: day
+threads:
+- usru
+regions:
+- americas
+- south-east-asia
+actors:
+- lyndon-b-johnson
+- united-states
+importance: 4
+wikidata: Q240352
+sources:
+- url: https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  archive_url: https://web.archive.org/web/20261009212431/https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  title: 'U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964'
+  publisher: US Department of State, Office of the Historian
+  quote: On August 7, 1964, Congress passed the Gulf of Tonkin Resolution, authorizing President Johnson to
+    take any measures he believed were necessary to retaliate and to promote the maintenance of international
+    peace and security in southeast Asia. This resolution became the legal basis for the Johnson and Nixon
+    Administrations prosecution of the Vietnam War.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

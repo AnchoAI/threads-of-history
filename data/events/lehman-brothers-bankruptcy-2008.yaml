@@ -1,0 +1,68 @@
+id: lehman-brothers-bankruptcy-2008
+title: Lehman Brothers goes bankrupt
+summary: On 15 September 2008 Lehman Brothers, heavily exposed to subprime mortgages, filed the largest
+  bankruptcy in US history after talks on rescuing it failed. The Dow fell 4.5 percent that day, money
+  market funds faced mass withdrawals and interbank lending tightened, and the government and the Federal
+  Reserve took emergency measures.
+occurred:
+  start: '2008-09-15'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- lehman-brothers
+- federal-reserve
+- united-states
+importance: 4
+wikidata: Q3269580
+sources:
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: The bankruptcy of Lehman Brothers, also known as the Crash of '08 and the Lehman Shock, on September
+    15, 2008, was the climax of the subprime mortgage crisis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: due to its very heavy position in subprime mortgages
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: These discussions failed, and Lehman filed a Chapter 11 petition that remains the largest bankruptcy
+    filing in U.S. history, involving more than US$600 billion in assets.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: The bankruptcy triggered a 4.5% one-day drop in the Dow Jones Industrial Average
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: Money market mutual funds, a key source of credit, saw mass withdrawal demands to avoid losses,
+    and the interbank lending market tightened
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  archive_url: https://web.archive.org/web/20261013180932/https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers
+  title: Bankruptcy of Lehman Brothers
+  publisher: Wikipedia
+  quote: The government and the Federal Reserve system responded with several emergency measures to contain
+    the panic.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

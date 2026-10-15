@@ -1,0 +1,27 @@
+id: archives-of-terror-found-1992--revealed--operation-condor-1975
+from: archives-of-terror-found-1992
+to: operation-condor-1975
+type: revealed
+confidence: documented
+note: The Paraguayan police files proved Condor existed.
+sources:
+- url: https://en.wikipedia.org/wiki/Archives_of_Terror
+  archive_url: https://web.archive.org/web/20260929075849/https://en.wikipedia.org/wiki/Archives_of_terror
+  title: Archives of Terror
+  publisher: Wikipedia
+  quote: The documents also proved the existence of Operation Condor
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Archives_of_Terror
+  archive_url: https://web.archive.org/web/20260929075849/https://en.wikipedia.org/wiki/Archives_of_terror
+  title: Archives of Terror
+  publisher: Wikipedia
+  quote: Also revealed was a letter written by Manuel Contreras, head of the Chilean National Intelligence
+    Directorate (DINA) at the time of writing, which invited Paraguayan intelligence officials to Santiago
+    for a clandestine "First Working Meeting on National Intelligence" on 25 November 1975.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

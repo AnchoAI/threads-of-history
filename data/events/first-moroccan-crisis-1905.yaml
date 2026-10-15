@@ -1,0 +1,49 @@
+id: first-moroccan-crisis-1905
+title: First Moroccan Crisis
+summary: Germany challenged France's growing control over Morocco, beginning with Kaiser Wilhelm II's visit to Tangier
+  on 31 March 1905. The Algeciras Conference ended the crisis in April 1906 by affirming French control.
+occurred:
+  start: '1905-03-31'
+  end: '1906-04-07'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- western-europe
+- middle-east-north-africa
+actors:
+- german-empire
+- france
+- united-kingdom
+- wilhelm-ii
+importance: 3
+wikidata: Q167455
+sources:
+- url: https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  archive_url: https://web.archive.org/web/20260903073806/https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  title: First Moroccan Crisis
+  publisher: Wikipedia
+  quote: was an international crisis between March 31, 1905, and April 7, 1906, over the status of Morocco. Germany
+    wanted to challenge France's growing control over Morocco
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  archive_url: https://web.archive.org/web/20260903073806/https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  title: First Moroccan Crisis
+  publisher: Wikipedia
+  quote: On 31 March 1905 Kaiser Wilhelm II of Germany arrived at Tangier
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  archive_url: https://web.archive.org/web/20260903073806/https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  title: First Moroccan Crisis
+  publisher: Wikipedia
+  quote: The crisis was resolved by the Algeciras Conference of 1906, a conference of mostly European countries
+    that affirmed French control
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

@@ -1,0 +1,46 @@
+id: south-african-general-election-1994
+title: First non-racial election in South Africa
+summary: South Africa holds its first election in which citizens of all races can vote, ending the process that
+  dismantled apartheid. The new National Assembly elects Nelson Mandela as the country's first black president.
+occurred:
+  start: '1994-04-26'
+  end: '1994-04-29'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- nelson-mandela
+- african-national-congress
+importance: 4
+wikidata: Q957012
+sources:
+- url: https://en.wikipedia.org/wiki/1994_South_African_general_election
+  archive_url: https://web.archive.org/web/20260925063747/https://en.wikipedia.org/wiki/1994_South_African_general_election
+  title: 1994 South African general election
+  publisher: Wikipedia
+  quote: General elections were held in South Africa between 26 and 29 April 1994. The elections were the first
+    in South Africa in which citizens of all races could vote
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/1994_South_African_general_election
+  archive_url: https://web.archive.org/web/20260925063747/https://en.wikipedia.org/wiki/1994_South_African_general_election
+  title: 1994 South African general election
+  publisher: Wikipedia
+  quote: marked the culmination of the four-year process that ended apartheid
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/1994_South_African_general_election
+  archive_url: https://web.archive.org/web/20260925063747/https://en.wikipedia.org/wiki/1994_South_African_general_election
+  title: 1994 South African general election
+  publisher: Wikipedia
+  quote: The new National Assembly's first act was to elect Nelson Mandela as President, making him the country's
+    first black chief executive.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

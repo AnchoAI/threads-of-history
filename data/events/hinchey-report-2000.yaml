@@ -1,0 +1,48 @@
+id: hinchey-report-2000
+title: Hinchey Report on CIA activities in Chile
+summary: A US intelligence community report finds that the CIA did not instigate the 1973 coup but knew
+  of the plotting, had ties to some plotters and, having sought a coup in 1970, probably appeared to condone
+  it.
+occurred:
+  start: '2000-09-18'
+  precision: day
+threads:
+- intel
+regions:
+- americas
+actors:
+- cia
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: 'A report prepared by the United States Intelligence Community in 2000, at the direction of the
+    National Intelligence Council, that echoed the Church Committee, states that:'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: Although CIA did not instigate the coup that ended Allende's government on 11 September 1973,
+    it was aware of coup-plotting by the military, had ongoing intelligence collection relationships with
+    some plotters, and – because CIA did not discourage the takeover and had sought to instigate a coup
+    in 1970 – probably appeared to condone it.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: Hinchey Report on CIA Activities in Chile (Report). 18 September 2000.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the report was found.'
+  - The date comes from the citation in the Wikipedia article; the report itself (foia.state.gov) was
+    not fetched.

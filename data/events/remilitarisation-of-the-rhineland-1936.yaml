@@ -1,0 +1,36 @@
+id: remilitarisation-of-the-rhineland-1936
+title: Remilitarisation of the Rhineland
+summary: On 7 March 1936 German troops entered the demilitarised Rhineland, contravening the Treaty of
+  Versailles and the Locarno Treaties. France and Britain, unwilling to risk war, did not enforce the
+  treaties.
+occurred:
+  start: '1936-03-07'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- nazi-germany
+- adolf-hitler
+- france
+- united-kingdom
+importance: 4
+wikidata: Q697659
+sources:
+- url: https://en.wikipedia.org/wiki/Remilitarization_of_the_Rhineland
+  title: Remilitarization of the Rhineland
+  publisher: Wikipedia
+  quote: began on 7 March 1936, when military forces of Nazi Germany entered the Rhineland, which directly
+    contravened the Treaty of Versailles and the Locarno Treaties
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Remilitarization_of_the_Rhineland
+  title: Remilitarization of the Rhineland
+  publisher: Wikipedia
+  quote: The French and the British governments, unwilling to risk war, decided against enforcing the
+    treaties.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

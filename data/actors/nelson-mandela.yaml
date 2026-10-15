@@ -1,0 +1,20 @@
+id: nelson-mandela
+title: Nelson Mandela
+actor_type: person
+summary: President of South Africa and anti-apartheid activist (1918–2013).
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q8023
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8023.json
+  title: Nelson Mandela
+  publisher: Wikidata
+  quote: President of South Africa and anti-apartheid activist (1918–2013)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

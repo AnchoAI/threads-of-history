@@ -1,0 +1,18 @@
+id: japanese-occupation-of-the-dutch-east-indies-1942--led_to--indonesian-national-revolution-1945
+from: japanese-occupation-of-the-dutch-east-indies-1942
+to: indonesian-national-revolution-1945
+type: led_to
+confidence: documented
+note: The occupation undermined Dutch colonial rule and made the revolution possible.
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies
+  title: Japanese occupation of the Dutch East Indies
+  publisher: Wikipedia
+  quote: The invasion and subsequent occupation formed a fundamental challenge to Dutch colonial rule
+    and brought about changes so extensive that the subsequent Indonesian National Revolution became possible.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

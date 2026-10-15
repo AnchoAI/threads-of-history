@@ -1,0 +1,78 @@
+id: bangladesh-liberation-war-1971
+title: Bangladesh Liberation War
+summary: Pakistan's military launches Operation Searchlight against East Pakistan, beginning what Bangladesh
+  calls a genocide; estimates of civilian deaths range from 300,000 to 3 million. Bengali guerrillas fight
+  back, India enters the war in December, and Pakistan surrenders in Dhaka, leading to Bangladesh's independence.
+occurred:
+  start: '1971-03-25'
+  end: '1971-12-16'
+  precision: day
+threads:
+- empire
+- rights
+regions:
+- south-central-asia
+actors:
+- pakistan
+- india
+- sheikh-mujibur-rahman
+importance: 4
+wikidata: Q371394
+sources:
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: launched Operation Searchlight against East Pakistanis on the night of 25 March 1971, initiating
+    the Bangladesh genocide.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: 'Civilian deaths: Estimates range between 300,000 and 3,000,000.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: members of the Mukti Bahini—a guerrilla resistance movement formed by Bengali military, paramilitary
+    and civilians—launched a mass guerrilla war against the Pakistani military
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: India joined the war on 3 December 1971 in support of the Mukti Bahini
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: Pakistan surrendered in Dhaka on 16 December 1971
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: which resulted in the independence of Bangladesh with the help of India.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  archive_url: https://web.archive.org/web/20261010185853/https://en.wikipedia.org/wiki/Bangladesh_Liberation_War
+  title: Bangladesh Liberation War
+  publisher: Wikipedia
+  quote: Genocide is the term still used to describe the event in almost every major publication and newspaper
+    in Bangladesh, although in Pakistan, the accusations against Pakistani forces continue to be disputed.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

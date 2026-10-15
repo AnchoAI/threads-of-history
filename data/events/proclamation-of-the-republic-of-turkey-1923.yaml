@@ -1,0 +1,35 @@
+id: proclamation-of-the-republic-of-turkey-1923
+title: Proclamation of the Republic of Turkey
+summary: The Grand National Assembly declared Turkey a republic through a constitutional amendment drafted
+  by Mustafa Kemal, who was elected president unanimously.
+occurred:
+  start: '1923-10-29'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- grand-national-assembly-of-turkey
+- mustafa-kemal-ataturk
+- turkey
+importance: 4
+wikidata: Q31187690
+sources:
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_Republic_of_Turkey
+  title: Proclamation of the Republic of Turkey
+  publisher: Wikipedia
+  quote: formally declared during a session of the Grand National Assembly of Turkey on 29 October 1923,
+    established of Turkey's form of government as a republic. This was realized by a constitutional amendment
+    drafted by Mustafa Kemal Atatürk.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_Republic_of_Turkey
+  title: Proclamation of the Republic of Turkey
+  publisher: Wikipedia
+  quote: Unanimous election of Mustafa Kemal Pasha as president
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

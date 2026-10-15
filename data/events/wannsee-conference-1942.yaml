@@ -1,0 +1,51 @@
+id: wannsee-conference-1942
+title: Wannsee Conference
+summary: On 20 January 1942, 15 senior Nazi Party and German government officials meet in the Berlin suburb
+  of Wannsee to coordinate the 'Final Solution', the plan to murder Europe's Jews. Reinhard Heydrich chairs;
+  none of those present objects. The minutes were found only in 1947.
+occurred:
+  start: '1942-01-20'
+  precision: day
+known:
+  public:
+    start: 1947-03
+    precision: month
+    note: A copy of the minutes was found by US prosecutor Robert Kempner in March 1947 in seized German
+      Foreign Office files.
+threads:
+- ww2
+regions:
+- western-europe
+actors:
+- nazi-germany
+importance: 3
+wikidata: Q152120
+sources:
+- url: https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution
+  title: Wannsee Conference and the "Final Solution"
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: On January 20, 1942, 15 high-ranking Nazi Party and German government officials gathered at a
+    villa in the Berlin suburb of Wannsee to discuss and coordinate the implementation of what they called
+    the "Final Solution to the Jewish Question."
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution
+  title: Wannsee Conference and the "Final Solution"
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: None of the officials present at the meeting objected to the "Final Solution" policy that Heydrich
+    announced.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was found by Robert Kempner in March 1947 among files that had been seized from the German
+    Foreign Office.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - known.public is set to when the minutes were found. Some knowledge of the killings was public earlier;
+    the date marks when the meeting itself became documented.

@@ -1,0 +1,48 @@
+id: invasion-of-poland-1939
+title: Invasion of Poland
+summary: Germany invades Poland on 1 September 1939, and the Soviet Union invades from the east on 17
+  September. By 6 October the two powers control the whole country and divide it under a secret protocol
+  of their non-aggression pact.
+occurred:
+  start: '1939-09-01'
+  end: '1939-10-06'
+  precision: day
+threads:
+- ww2
+regions:
+- russia-eastern-europe
+actors:
+- nazi-germany
+- soviet-union
+- second-polish-republic
+- adolf-hitler
+- joseph-stalin
+importance: 4
+wikidata: Q150812
+sources:
+- url: https://en.wikipedia.org/wiki/Invasion_of_Poland
+  title: Invasion of Poland
+  publisher: Wikipedia
+  quote: The invasion of Poland, also known as the September Campaign, Polish Campaign, and Polish Defensive
+    War of 1939 (1 September – 6 October 1939), was a joint attack on the Republic of Poland by Nazi Germany,
+    the Slovak Republic, and the Soviet Union, which marked the beginning of World War II.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939
+  title: Invasion of Poland, Fall 1939
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: On September 17, 1939, the Soviet Union invaded eastern Poland, sealing Poland’s fate.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939
+  title: Invasion of Poland, Fall 1939
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: After Poland’s defeat in early October 1939, Nazi Germany and the Soviet Union divided the country
+    in accordance with a secret protocol to the German-Soviet Non-Aggression Pact.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The Wikidata item (Q150812) covers the joint German, Slovak and Soviet campaign; the Soviet part is
+    also modelled separately as soviet-invasion-of-poland-1939.

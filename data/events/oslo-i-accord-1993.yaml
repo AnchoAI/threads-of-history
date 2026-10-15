@@ -1,0 +1,65 @@
+id: oslo-i-accord-1993
+title: Oslo I Accord
+summary: Negotiated secretly in Oslo and signed in Washington on 13 September 1993, the Declaration of Principles
+  set up a Palestinian interim self-government for five years, with Jerusalem, refugees, settlements and borders
+  left to permanent-status talks. In accompanying letters the PLO recognised Israel and renounced violence,
+  and Israel recognised the PLO.
+occurred:
+  start: '1993-09-13'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- yitzhak-rabin
+- yasser-arafat
+- palestine-liberation-organization
+- israel
+- united-states
+importance: 4
+wikidata: Q49107
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: the Oslo Accords were subsequently officially signed at a public ceremony in Washington, D.C., on
+    13 September 1993, in the presence of PLO chairman Yasser Arafat, Israeli Prime Minister Yitzhak Rabin
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: Negotiations concerning the agreement, an outgrowth of the Madrid Conference of 1991, were conducted
+    secretly in Oslo, Norway
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: The Accord provided for the creation of a Palestinian interim self-government, the Palestinian National
+    Authority (PNA).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: Remaining issues such as the status of Jerusalem, Palestinian refugees, Israeli settlements, security
+    and borders would be part of the "permanent status negotiations" during this period.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: In the Letters of Mutual Recognition, the PLO acknowledged the State of Israel and pledged to reject
+    violence, and Israel recognized the PLO as the representative of the Palestinian people and as partner
+    in negotiations.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

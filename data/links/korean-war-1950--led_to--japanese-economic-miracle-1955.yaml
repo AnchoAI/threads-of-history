@@ -1,0 +1,22 @@
+id: korean-war-1950--led_to--japanese-economic-miracle-1955
+from: korean-war-1950
+to: japanese-economic-miracle-1955
+type: led_to
+confidence: documented
+note: US military procurement for the Korean War helped Japan's postwar recovery.
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_economic_miracle
+  title: Japanese economic miracle
+  publisher: Wikipedia
+  quote: Another reason that accounts for Japan's recovery from WWII in the early 1950s was the outbreak of
+    the Korean War in 1950.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Japanese_economic_miracle
+  title: Japanese economic miracle
+  publisher: Wikipedia
+  quote: As a result, the US had to procure military supplies from Japan to support the war effort in Korea.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

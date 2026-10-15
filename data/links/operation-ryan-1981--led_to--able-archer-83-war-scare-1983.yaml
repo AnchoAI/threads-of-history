@@ -1,0 +1,25 @@
+id: operation-ryan-1981--led_to--able-archer-83-war-scare-1983
+from: operation-ryan-1981
+to: able-archer-83-war-scare-1983
+type: led_to
+confidence: documented
+note: RYaN's search for signs of a US first strike is described as the greatest catalyst of the Able Archer
+  war scare.
+sources:
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: The greatest catalyst to the Able Archer war scare occurred more than two years earlier.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Upon learning that US nuclear activity mirrored its hypothesized first strike activity, Moscow
+    Centre sent its residencies a flash telegram
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

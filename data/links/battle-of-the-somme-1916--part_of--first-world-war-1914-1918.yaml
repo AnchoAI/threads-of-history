@@ -1,0 +1,18 @@
+id: battle-of-the-somme-1916--part_of--first-world-war-1914-1918
+from: battle-of-the-somme-1916
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Battle of the Somme was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_the_Somme
+  title: Battle of the Somme
+  publisher: Wikipedia
+  quote: was a battle of the First World War fought by the armies of the British Empire and the French Republic
+    against the German Empire
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

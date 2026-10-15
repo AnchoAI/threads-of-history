@@ -1,0 +1,55 @@
+id: us-senate-rejects-treaty-of-versailles-1920
+title: US Senate rejects the Treaty of Versailles
+summary: 'The US Senate failed to ratify the Treaty of Versailles and the League Covenant: on 19 March
+  1920 the vote was 49–35, short of the two-thirds majority needed. Senator Henry Cabot Lodge led the
+  opposition, and the United States never joined the League.'
+occurred:
+  start: '1920-03-19'
+  precision: day
+threads:
+- interwar
+regions:
+- americas
+actors:
+- united-states
+- henry-cabot-lodge
+- woodrow-wilson
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/League_of_Nations
+  archive_url: https://web.archive.org/web/20261003154708/https://en.wikipedia.org/wiki/League_of_Nations
+  title: League of Nations
+  publisher: Wikipedia
+  quote: The Senate voted on the ratification on 19 March 1920, and the 49–35 vote fell short of the needed
+    2/3 majority.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/league
+  archive_url: https://web.archive.org/web/20260918110234/https://history.state.gov/milestones/1914-1920/league
+  title: The League of Nations, 1920
+  publisher: Office of the Historian, US Department of State
+  quote: in March 1920, the Treaty and Covenant were defeated by a 49-35 Senate vote
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/league
+  archive_url: https://web.archive.org/web/20260918110234/https://history.state.gov/milestones/1914-1920/league
+  title: The League of Nations, 1920
+  publisher: Office of the Historian, US Department of State
+  quote: Lodge led the opposition to joining the League
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/league
+  archive_url: https://web.archive.org/web/20260918110234/https://history.state.gov/milestones/1914-1920/league
+  title: The League of Nations, 1920
+  publisher: Office of the Historian, US Department of State
+  quote: The United States never joined the League.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - No wikidata id found for the vote itself (Lodge Reservations, Q6666317, is a related but different
+    item).
+  - An earlier Senate vote in November 1919 also failed; not yet sourced, so the item covers only the
+    final vote.

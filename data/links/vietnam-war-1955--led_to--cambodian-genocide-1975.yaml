@@ -1,0 +1,54 @@
+id: vietnam-war-1955--led_to--cambodian-genocide-1975
+from: vietnam-war-1955
+to: cambodian-genocide-1975
+type: led_to
+confidence: contested
+note: Whether US bombing and intervention in Cambodia during the war enabled the Khmer Rouge's rise to power
+  is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: The relationship between the United States' massive bombing of Cambodia and the growth of the Khmer
+    Rouge in recruitment and popular support has been a matter of interest to historians.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: The Khmer Rouge would not have won power without US destabilisation of Cambodia, and used the bombing
+    as recruitment propaganda.
+  held_by:
+  - Ben Kiernan
+  - Michael Ignatieff
+  - Adam Jones
+  - Greg Grandin
+  sources:
+  - url: https://en.wikipedia.org/wiki/Cambodian_genocide
+    title: Cambodian genocide
+    publisher: Wikipedia
+    quote: According to Ben Kiernan, the Khmer Rouge "would not have won power without U.S. economic and military
+      destabilization of Cambodia. ... It used the bombing's devastation and massacre of civilians as recruitment
+      propaganda and as an excuse for its brutal, radical policies and its purge of moderate communists and
+      Sihanoukists."
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Cambodian_genocide
+    title: Cambodian genocide
+    publisher: Wikipedia
+    quote: Some scholars, including Michael Ignatieff, Adam Jones, and Greg Grandin, have cited the United
+      States intervention and bombing campaign from 1965 to 1973 as a significant factor in increasing the
+      Cambodian peasantry's support for the Khmer Rouge.
+    type: reference
+    accessed: '2026-10-15'
+- claim: US intervention increased Khmer Rouge recruitment but was not a primary cause of its victory.
+  held_by:
+  - Craig Etcheson
+  sources:
+  - url: https://en.wikipedia.org/wiki/Cambodian_genocide
+    title: Cambodian genocide
+    publisher: Wikipedia
+    quote: Craig Etcheson agrees that U.S. intervention increased recruitment for the Khmer Rouge but disputes
+      that it was a primary cause of the Khmer Rouge victory.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced

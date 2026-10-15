@@ -1,0 +1,21 @@
+id: menachem-begin
+title: Menachem Begin
+actor_type: person
+summary: Israeli politician and former Prime Minister (1913–1992).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q130873
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q130873.json
+  title: Menachem Begin
+  publisher: Wikidata
+  quote: Israeli politician and former Prime Minister (1913–1992)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

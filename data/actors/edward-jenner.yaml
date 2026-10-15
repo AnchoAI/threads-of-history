@@ -1,0 +1,21 @@
+id: edward-jenner
+title: Edward Jenner
+actor_type: person
+summary: English physician, scientist and pioneer of vaccination (1749–1823).
+threads:
+- industry
+regions:
+- western-europe
+importance: 3
+wikidata: Q40852
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q40852.json
+  title: Edward Jenner
+  publisher: Wikidata
+  quote: English physician, scientist and pioneer of vaccination (1749–1823)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

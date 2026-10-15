@@ -1,0 +1,56 @@
+id: frus-guatemala-volume-2003
+title: State Department publishes the CIA's Guatemala operation
+summary: The State Department's historians publish a documentary volume on the 1954 Guatemala operation.
+  Its 1983 volume had left out the CIA's role, which was denied in declassification; CIA directors acknowledged
+  the operation in the early 1990s.
+occurred:
+  start: '2003'
+  precision: year
+threads:
+- intel
+regions:
+- americas
+actors:
+- united-states
+- cia
+importance: 2
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  archive_url: https://web.archive.org/web/20260927100911/https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  title: 'Foreign Relations of the United States, 1952–1954, Guatemala: Preface'
+  publisher: Office of the Historian, US Department of State
+  quote: The role of the Central Intelligence Agency in the ouster of Guatemala’s elected president, Jacobo
+    Arbenz Guzmán, was not documented in the volume.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  archive_url: https://web.archive.org/web/20260927100911/https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  title: 'Foreign Relations of the United States, 1952–1954, Guatemala: Preface'
+  publisher: Office of the Historian, US Department of State
+  quote: He inserted references to the covert operation into the Guatemala compilation, but they were
+    denied in the declassification process.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  archive_url: https://web.archive.org/web/20260927100911/https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  title: 'Foreign Relations of the United States, 1952–1954, Guatemala: Preface'
+  publisher: Office of the Historian, US Department of State
+  quote: In the early 1990s, Directors of Central Intelligence officially acknowledged eleven covert actions
+    during the early cold war years, including Guatemala.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat
+  archive_url: https://web.archive.org/web/20260927100938/https://history.state.gov/historicaldocuments/frus1952-54Guat
+  title: Foreign Relations of the United States, 1952–1954, Guatemala
+  publisher: Office of the Historian, US Department of State
+  quote: United States Government Printing Office Washington 2003
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the volume was found.'
+  - The preface is dated April 2003; the exact publication date was not checked.

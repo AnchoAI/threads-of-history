@@ -1,0 +1,48 @@
+id: slave-trade-act-1807
+title: Britain abolishes the slave trade
+summary: The Slave Trade Act 1807 prohibits the Atlantic slave trade in the British Empire. It did not free people
+  already enslaved; slavery remained legal in most of the empire until 1833.
+occurred:
+  start: '1807-03-25'
+  precision: day
+threads:
+- rights
+- empire
+regions:
+- western-europe
+- americas
+- sub-saharan-africa
+actors:
+- united-kingdom
+- british-empire
+importance: 4
+wikidata: Q770832
+sources:
+- url: https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  archive_url: https://web.archive.org/web/20260917054012/https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  title: Slave Trade Act 1807
+  publisher: Wikipedia
+  quote: was an act of the Parliament of the United Kingdom prohibiting the Atlantic slave trade in the British
+    Empire. Although it did not automatically emancipate those enslaved at the time
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  archive_url: https://web.archive.org/web/20260917054012/https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  title: Slave Trade Act 1807
+  publisher: Wikipedia
+  quote: 25 March 1807
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  archive_url: https://web.archive.org/web/20260917054012/https://en.wikipedia.org/wiki/Slave_Trade_Act_1807
+  title: Slave Trade Act 1807
+  publisher: Wikipedia
+  quote: it remained legal in most of the British Empire until the passing of the Slavery Abolition Act 1833
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Dated to royal assent (25 March 1807, from the infobox). The act took effect on 1 May 1807.

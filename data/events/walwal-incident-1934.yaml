@@ -1,0 +1,52 @@
+id: walwal-incident-1934
+title: Walwal incident
+summary: Fighting breaks out between Ethiopian troops and the Italian garrison at Walwal, a fort in a
+  disputed border strip in the Ogaden. Accounts differ over who was at fault; Italy used it as a pretext
+  for war.
+occurred:
+  start: '1934-12-05'
+  precision: day
+threads:
+- empire
+- interwar
+regions:
+- sub-saharan-africa
+actors:
+- kingdom-of-italy
+- ethiopian-empire
+importance: 2
+wikidata: Q3149889
+sources:
+- url: https://en.wikipedia.org/wiki/Walwal_Incident
+  title: Walwal Incident
+  publisher: Wikipedia
+  quote: On 5 December 1934, after a few weeks of tension between the garrison and Ethiopian armed men,
+    a violent firefight began for the possession of the locality, which was located in a strip of disputed
+    territory.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Walwal_Incident
+  title: Walwal Incident
+  publisher: Wikipedia
+  quote: According to the Ethiopians, Ual-Ual had been illegitimately occupied by the Italians since 1926
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Walwal_Incident
+  title: Walwal Incident
+  publisher: Wikipedia
+  quote: According to some sources linked to Roberto Cimmaruta himself, the responsibility for what happened
+    lies solely with the Ethiopian forces
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War
+  title: Second Italo-Ethiopian War
+  publisher: Wikipedia
+  quote: The fort at Walwal was well beyond the 21-league limit and inside Ethiopian territory.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - The interwar batch may also add this incident. If so, keep one file and merge the sources.
+  - Wikidata Q3149889 is labelled 'Ual-Ual Incident' (1934 battle).

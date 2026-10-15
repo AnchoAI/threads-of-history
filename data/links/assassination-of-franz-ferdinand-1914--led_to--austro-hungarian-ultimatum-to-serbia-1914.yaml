@@ -1,0 +1,19 @@
+id: assassination-of-franz-ferdinand-1914--led_to--austro-hungarian-ultimatum-to-serbia-1914
+from: assassination-of-franz-ferdinand-1914
+to: austro-hungarian-ultimatum-to-serbia-1914
+type: led_to
+confidence: documented
+note: The ultimatum was Austria-Hungary's response to the assassination.
+sources:
+- url: https://en.wikipedia.org/wiki/Ultimatum_of_July_23,_1914
+  archive_url: https://web.archive.org/web/20260807182000/https://en.wikipedia.org/wiki/Ultimatum_of_July_23,_1914
+  title: Ultimatum of July 23, 1914
+  publisher: Wikipedia
+  quote: The note was Austria-Hungary's response to the assassination of Archduke Franz Ferdinand by Serbia-aligned
+    perpetrators the previous month, following weeks of deliberation.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

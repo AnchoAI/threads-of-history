@@ -1,0 +1,50 @@
+id: northern-expedition-1926
+title: Northern Expedition
+summary: The Kuomintang's National Revolutionary Army, led by Chiang Kai-shek, campaigns against the Beiyang
+  government and regional warlords to reunify China. It ends when Manchuria accepts the Nationalist government
+  in Nanjing.
+occurred:
+  start: '1926-07-09'
+  end: '1928-12-29'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- kuomintang
+- chiang-kai-shek
+- beiyang-government
+- zhang-xueliang
+importance: 4
+wikidata: Q1073476
+sources:
+- url: https://en.wikipedia.org/wiki/Northern_Expedition
+  title: Northern Expedition
+  publisher: Wikipedia
+  quote: 9 July 1926 – 29 December 1928 (2 years and 173 days)
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Northern_Expedition
+  title: Northern Expedition
+  publisher: Wikipedia
+  quote: The Northern Expedition was a military campaign launched by the National Revolutionary Army (NRA)
+    of the Kuomintang (KMT) against the Beiyang government and other regional warlords in 1926.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Northern_Expedition
+  title: Northern Expedition
+  publisher: Wikipedia
+  quote: The purpose of the campaign was to reunify China, which had become fragmented in the aftermath
+    of the 1911 Revolution.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Northern_Expedition
+  title: Northern Expedition
+  publisher: Wikipedia
+  quote: His son, Zhang Xueliang, took over as the leader of the Fengtian clique, and in December 1928,
+    announced that Manchuria would accept the authority of the nationalist government in Nanjing.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

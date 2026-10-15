@@ -1,0 +1,27 @@
+id: napoleonic-wars-1803--led_to--unification-of-germany-1871
+from: napoleonic-wars-1803
+to: unification-of-germany-1871
+type: led_to
+confidence: documented
+note: Napoleon's reign spread nationalism and began consolidating the German states, sowing the seeds
+  of a German nation-state.
+sources:
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: Bonaparte's reign over Europe sowed the seeds for the founding of the nation-states of Germany
+    and Italy by starting the process of consolidating city-states, kingdoms and principalities.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Unification_of_Germany
+  title: Unification of Germany
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260930013411/https://en.wikipedia.org/wiki/Unification_of_Germany
+  quote: The surge of German nationalism, stimulated by the experience of Germans in the Napoleonic period
+    and initially allied with liberalism, shifted political, social, and cultural relationships within
+    the German states.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

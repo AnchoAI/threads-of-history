@@ -1,0 +1,26 @@
+id: palestinian-expulsion-and-flight-1947--led_to--unrwa-established-1949
+from: palestinian-expulsion-and-flight-1947
+to: unrwa-established-1949
+type: led_to
+confidence: documented
+note: The UN set up relief bodies, then UNRWA, for the refugees of the 1948 war.
+sources:
+- url: https://en.wikipedia.org/wiki/UNRWA
+  archive_url: https://web.archive.org/web/20261010063100/https://en.wikipedia.org/wiki/UNRWA
+  title: UNRWA
+  publisher: Wikipedia
+  quote: Following the outbreak of the 1948 Palestine war and the 1948 Palestinian expulsion and flight, which
+    displaced approximately 750,000 Palestinian Arabs, the United Nations General Assembly passed Resolution
+    212 (III), dated 19 November 1948, which established the UN Relief for Palestine Refugees (UNRPR)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/UNRWA
+  archive_url: https://web.archive.org/web/20261010063100/https://en.wikipedia.org/wiki/UNRWA
+  title: UNRWA
+  publisher: Wikipedia
+  quote: on 8 December 1949 the General Assembly adopted Resolution 302(IV) which established the United Nations
+    Relief and Works Agency for Palestine Refugees in the Near East (UNRWA).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

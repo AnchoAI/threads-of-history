@@ -1,0 +1,23 @@
+id: matthew-c-perry
+title: Matthew C. Perry
+actor_type: person
+summary: American naval officer (1794–1858).
+threads:
+- china
+regions:
+- americas
+- east-asia
+importance: 3
+wikidata: Q61855
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q61855.json
+  title: Matthew C. Perry
+  publisher: Wikidata
+  quote: American naval officer (1794–1858)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

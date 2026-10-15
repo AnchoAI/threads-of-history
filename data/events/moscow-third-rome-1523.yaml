@@ -1,0 +1,59 @@
+id: moscow-third-rome-1523
+title: Moscow proclaimed the "Third Rome"
+summary: The idea that Moscow is the successor to Rome and Constantinople as the centre of Orthodox Christianity
+  emerged after 1453 and was given its classic form in the epistles of the monk Philotheus of Pskov (c.
+  1523–1524). In the 21st century the concept was revived in Russian state and church discourse alongside
+  the "Russian world".
+occurred:
+  start: '1520'
+  precision: decade
+threads:
+- religion
+- empire
+- ukraine
+regions:
+- russia-eastern-europe
+actors:
+- russian-orthodox-church
+importance: 4
+wikidata: Q1194333
+sources:
+- url: https://en.wikipedia.org/wiki/Moscow,_third_Rome
+  archive_url: https://web.archive.org/web/20261006180205/https://en.wikipedia.org/wiki/Moscow,_Third_Rome
+  title: Moscow, third Rome
+  publisher: Wikipedia
+  quote: 'Moscow, the Third Rome (Russian: Москва — Третий Рим, romanized: Moskva — Tretiy Rim) is a theological
+    and political concept asserting that Moscow is the successor to Rome and Constantinople as the center
+    of Orthodox Christianity.'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Moscow,_third_Rome
+  archive_url: https://web.archive.org/web/20261006180205/https://en.wikipedia.org/wiki/Moscow,_Third_Rome
+  title: Moscow, third Rome
+  publisher: Wikipedia
+  quote: The idea emerged in the late 15th and early 16th centuries after the Fall of Constantinople (1453),
+    receiving its classic formulation in the epistles of the monk Philotheus of Pskov
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Moscow,_third_Rome
+  archive_url: https://web.archive.org/web/20261006180205/https://en.wikipedia.org/wiki/Moscow,_Third_Rome
+  title: Moscow, third Rome
+  publisher: Wikipedia
+  quote: Philotheus of Pskov, Epistle on the Sign of the Cross (c. 1523–1524)
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Moscow,_third_Rome
+  archive_url: https://web.archive.org/web/20261006180205/https://en.wikipedia.org/wiki/Moscow,_Third_Rome
+  title: Moscow, third Rome
+  publisher: Wikipedia
+  quote: In the 21st century, the concept has been revived in Russian state and church discourse alongside
+    the doctrine of the "Russian world."
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The Wikidata item Q1194333 is the general "Third Rome" concept; English Wikipedia's "Moscow, third
+    Rome" article has no separate sitelink. A reviewer may prefer a more specific item if one exists.
+  - Dated to the decade of Philotheus's epistles (c. 1523–1524); the idea itself emerged gradually from
+    the late 15th century.

@@ -1,0 +1,48 @@
+id: ninety-five-theses-1517
+title: Luther's Ninety-five Theses
+summary: On 31 October 1517 Martin Luther sent his Ninety-five Theses, a set of propositions criticising
+  the sale of indulgences, to the Archbishop of Mainz. They are retrospectively considered to have launched
+  the Protestant Reformation.
+occurred:
+  start: '1517-10-31'
+  precision: day
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- martin-luther
+- catholic-church
+- holy-roman-empire
+importance: 5
+wikidata: Q157506
+sources:
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  archive_url: https://web.archive.org/web/20261013011131/https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: On 31 October 1517, Luther sent a letter to the Archbishop of Mainz, Albert of Brandenburg, under
+    whose authority the indulgences were being sold.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  archive_url: https://web.archive.org/web/20261013011131/https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: The Theses are retrospectively considered to have launched the Protestant Reformation and the
+    birth of Protestantism, despite various quasi- or proto-Protestant groups having existed previously.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  archive_url: https://web.archive.org/web/20261013011131/https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: They aired contemporary theological misgivings about the theory and practice of indulgences and
+    their relation to repentance, penance and papal authority.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Whether Luther also posted the Theses on the Wittenberg church door that day is uncertain; the summary
+    records only the letter to the archbishop.

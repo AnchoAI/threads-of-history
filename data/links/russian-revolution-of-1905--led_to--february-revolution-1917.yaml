@@ -1,0 +1,20 @@
+id: russian-revolution-of-1905--led_to--february-revolution-1917
+from: russian-revolution-of-1905
+to: february-revolution-1917
+type: led_to
+confidence: documented
+note: Many historians argue that 1905 set the stage for the revolutions of 1917; Lenin called it a "dress
+  rehearsal".
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Revolution_of_1905
+  title: Russian Revolution of 1905
+  publisher: Wikipedia
+  quote: Many historians contend that the Revolution of 1905 set the stage for the Russian Revolution
+    of 1917
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The source speaks of "the Russian Revolution of 1917" as a whole; the link targets the February Revolution
+    as its start. The claim is attributed to "many historians"; look for a named scholarly source.

@@ -1,0 +1,66 @@
+id: berlin-blockade-1948
+title: Berlin Blockade
+summary: From 24 June 1948 to 12 May 1949 the Soviet Union blocked rail, road and canal access to the
+  Western-held sectors of Berlin, offering to lift the blockade if the Western Allies withdrew the new
+  Deutsche Mark from West Berlin. One of the first major crises of the Cold War, it was met by the Berlin
+  Airlift.
+occurred:
+  start: '1948-06-24'
+  end: '1949-05-12'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- joseph-stalin
+- soviet-union
+- united-states
+- united-kingdom
+- france
+importance: 4
+wikidata: Q151349
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: The Berlin Blockade (24 June 1948 – 12 May 1949) was one of the first major international crises
+    of the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: the Soviet Union blocked the Western Allies' railway, road, and canal access to the sectors of
+    Berlin under Western control
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: The Soviets offered to drop the blockade if the Western Allies withdrew the newly introduced
+    Deutsche Mark from West Berlin.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/berlin-airlift
+  archive_url: https://web.archive.org/web/20261002035656/https://history.state.gov/milestones/1945-1952/berlin-airlift
+  title: The Berlin Airlift, 1948–1949
+  publisher: Office of the Historian, US Department of State
+  quote: The crisis started on June 24, 1948, when Soviet forces blockaded rail, road, and water access
+    to Allied-controlled areas of Berlin.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/berlin-airlift
+  archive_url: https://web.archive.org/web/20261002035656/https://history.state.gov/milestones/1945-1952/berlin-airlift
+  title: The Berlin Airlift, 1948–1949
+  publisher: Office of the Historian, US Department of State
+  quote: The crisis ended on May 12, 1949, when Soviet forces lifted the blockade on land access to western
+    Berlin.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

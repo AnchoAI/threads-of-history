@@ -1,0 +1,63 @@
+id: treaty-of-sevres-1920
+title: Treaty of Sèvres
+summary: The Allied peace treaty with the Ottoman Empire began its partition and imposed harsh terms.
+  It was never ratified, was rejected by the Turkish nationalists in Ankara and was replaced by the Treaty
+  of Lausanne.
+occurred:
+  start: '1920-08-10'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- united-kingdom
+- france
+- kingdom-of-italy
+importance: 3
+wikidata: Q182515
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  archive_url: https://web.archive.org/web/20260929020116/https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  title: Treaty of Sèvres
+  publisher: Wikipedia
+  quote: The treaty was signed on 10 August 1920 in an exhibition room at the Manufacture nationale de
+    Sèvres porcelain factory in Sèvres, France.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  archive_url: https://web.archive.org/web/20260929020116/https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  title: Treaty of Sèvres
+  publisher: Wikipedia
+  quote: The Treaty of Sèvres marked the beginning of the partitioning of the Ottoman Empire.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: imposed harsh terms on the Ottoman Empire, but it was never ratified by the Ottoman Parliament
+    in Istanbul
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: a treaty unfavorable to Turkish interests that the "Ankara government" declared illegal
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  archive_url: https://web.archive.org/web/20260929020116/https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres
+  title: Treaty of Sèvres
+  publisher: Wikipedia
+  quote: The 1923 Treaty of Lausanne, which superseded the Treaty of Sèvres, ended the conflict and saw
+    the establishment of the Republic of Turkey.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The Sèvres article says stripping the signatories of citizenship "ignited the Turkish War of Independence",
+    but the war article dates the war from May 1919, before the treaty. No led_to link was added; a reviewer
+    should resolve this.

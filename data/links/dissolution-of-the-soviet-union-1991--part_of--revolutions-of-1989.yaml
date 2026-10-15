@@ -1,0 +1,19 @@
+id: dissolution-of-the-soviet-union-1991--part_of--revolutions-of-1989
+from: dissolution-of-the-soviet-union-1991
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: The dissolution is part of the Revolutions of 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: Part of the Cold War and the Revolutions of 1989
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

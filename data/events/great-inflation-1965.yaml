@@ -1,0 +1,81 @@
+id: great-inflation-1965
+title: The Great Inflation
+summary: From 1965 to 1982 US inflation climbed from about 1 percent to more than 14 percent in 1980,
+  a period that saw four recessions, two energy crises and peacetime wage and price controls. The Federal
+  Reserve History account traces its source to Fed policies that let the money supply grow too fast, while
+  economists debate how much other factors, such as oil shocks and fiscal deficits, mattered.
+occurred:
+  start: '1965'
+  end: '1982'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- federal-reserve
+- united-states
+importance: 4
+wikidata: none
+sources:
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: Lasting from 1965 to 1982, it led economists to rethink the policies of the Fed and other central
+    banks.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: In 1964, inflation measured a little more than 1 percent per year.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: Inflation began ratcheting upward in the mid-1960s and reached more than 14 percent in 1980.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: there were four economic recessions, two severe energy shortages, and the unprecedented peacetime
+    implementation of wage and price controls
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: While economists debate the relative importance of the factors that motivated and perpetuated
+    inflation for more than a decade, there is little debate about its source.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: The origins of the Great Inflation were policies that allowed for an excessive growth in the
+    supply of money—Federal Reserve policies.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: A more disruptive force was the repeated energy crises that increased oil costs and sapped U.S.
+    growth.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: English Wikipedia has no article titled ''Great Inflation''. A reviewer could look
+    for a matching Wikidata item.'
+  - The period is US-centred, as in the Federal Reserve History essay; other economies had their own inflation
+    histories.

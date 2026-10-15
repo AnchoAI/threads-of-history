@@ -1,0 +1,53 @@
+id: bretton-woods-conference-1944
+title: Bretton Woods Conference
+summary: Delegates from 44 Allied nations meet at Bretton Woods, New Hampshire, from 1 to 22 July 1944
+  and create the International Monetary Fund and the World Bank. The fixed exchange-rate system centred
+  on the US dollar and gold lasts until the early 1970s.
+occurred:
+  start: '1944-07-01'
+  end: '1944-07-22'
+  precision: day
+threads:
+- econ-crises
+- ww2
+regions:
+- americas
+actors:
+- united-states
+- united-kingdom
+importance: 4
+wikidata: Q1194052
+sources:
+- url: https://en.wikipedia.org/wiki/Bretton_Woods_Conference
+  title: Bretton Woods Conference
+  publisher: Wikipedia
+  quote: The conference was held from July 1 to 22, 1944.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: Agreement was finally reached at the July 1944 United Nations Monetary and Financial Conference,
+    a gathering of delegates from 44 nations that met in Bretton Woods, New Hampshire.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The two major accomplishments of the Bretton Woods conference were the creation of the International
+    Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), commonly
+    known as the World Bank.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The fixed exchange rate system established at Bretton Woods endured for the better part of three
+    decades
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

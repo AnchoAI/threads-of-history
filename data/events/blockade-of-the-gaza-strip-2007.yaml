@@ -1,0 +1,53 @@
+id: blockade-of-the-gaza-strip-2007
+title: Blockade of the Gaza Strip
+summary: After Hamas took over Gaza in 2007, Israel, with Egypt, imposed a blockade on the movement of goods
+  and people. Israel cites security and isolating Hamas; human rights groups and others describe it as collective
+  punishment.
+occurred:
+  start: 2007-06
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- egypt
+- hamas
+importance: 3
+wikidata: Q653112
+sources:
+- url: https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261011121055/https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  title: Blockade of the Gaza Strip
+  publisher: Wikipedia
+  quote: 'General blockade: June 2007 – present'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261011121055/https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  title: Blockade of the Gaza Strip
+  publisher: Wikipedia
+  quote: After Hamas took over in 2007, Israel significantly intensified existing movement restrictions and
+    imposed a blockade on the movement of goods and people in and out of the Gaza Strip.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261011121055/https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  title: Blockade of the Gaza Strip
+  publisher: Wikipedia
+  quote: Isolate Hamas after its takeover, prevent weapons smuggling and attacks, and exert political pressure
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gaza_war
+  archive_url: https://web.archive.org/web/20261013085913/https://en.wikipedia.org/wiki/Gaza_war
+  title: Gaza war
+  publisher: Wikipedia
+  quote: Israel justified the blockade by citing security concerns, but international rights groups have characterized
+    it as collective punishment.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The blockade is ongoing; it was intensified in October 2023 (a separate article covers that phase).

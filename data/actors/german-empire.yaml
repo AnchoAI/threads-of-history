@@ -1,0 +1,21 @@
+id: german-empire
+title: German Empire
+actor_type: state
+summary: German nation-state in Central Europe from 1871 to 1918.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q43287
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q43287.json
+  title: German Empire
+  publisher: Wikidata
+  quote: German nation-state in Central Europe from 1871 to 1918
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,29 @@
+id: global-financial-crisis-2008--echo--great-depression-1929
+from: global-financial-crisis-2008
+to: great-depression-1929
+type: echo
+confidence: documented
+note: The 2008 crisis was widely compared with the Great Depression, though some stressed the differences.
+sources:
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: 'Early March 2009: The drop in stock prices was compared to that of the Great Depression.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  archive_url: https://web.archive.org/web/20261014074435/https://www.federalreservehistory.org/essays/recession-of-1981-82
+  title: Recession of 1981-82
+  publisher: Federal Reserve History (Tim Sablik)
+  quote: Prior to the 2007-09 recession, the 1981-82 recession was the worst economic downturn in the
+    United States since the Great Depression.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: And, unlike the Great Depression, this crisis was entirely the product of financial markets.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

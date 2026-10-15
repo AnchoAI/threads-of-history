@@ -1,0 +1,17 @@
+id: smyth-report-1945--revealed--manhattan-project-1942-1946
+from: smyth-report-1945
+to: manhattan-project-1942-1946
+type: revealed
+confidence: documented
+note: The first official public account of the secret bomb programme.
+sources:
+- url: https://en.wikipedia.org/wiki/Smyth_Report
+  archive_url: https://web.archive.org/web/20260919070642/https://en.wikipedia.org/wiki/Smyth_Report
+  title: Smyth Report
+  publisher: Wikipedia
+  quote: The Smyth Report was the first official account of the development of the atomic bombs and the
+    basic physical processes behind them.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

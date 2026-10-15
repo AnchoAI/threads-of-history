@@ -1,0 +1,18 @@
+id: cuban-missile-crisis-1962--part_of--cold-war-1947-1991
+from: cuban-missile-crisis-1962
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Cuban Missile Crisis is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: Part of the Cold War and the aftermath of the Cuban Revolution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,43 @@
+id: treaty-of-nanking-1842
+title: Treaty of Nanking
+summary: The treaty that ended the First Opium War, signed on 29 August 1842, required China to pay an
+  indemnity, cede Hong Kong Island to Britain and open five treaty ports. Chinese nationalists later called
+  it and similar settlements "unequal treaties".
+occurred:
+  start: '1842-08-29'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- qing-dynasty
+importance: 4
+wikidata: Q238262
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: The First Opium war officially ended on 29 August 1842 with the signing of the Treaty of Nanking.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Nanking
+  title: Treaty of Nanking
+  publisher: Wikipedia
+  quote: The treaty required the Chinese to pay an indemnity, to cede the Island of Hong Kong to the British
+    as a colony, to essentially end the Canton system that had limited trade to that port and allow trade
+    at five treaty ports.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Nanking
+  title: Treaty of Nanking
+  publisher: Wikipedia
+  quote: would earn the Nanking Treaty and similar settlements that followed the name, "unequal treaty,"
+    from Chinese nationalists in later centuries.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,19 @@
+id: release-of-nelson-mandela-1990--part_of--negotiations-to-end-apartheid-1990
+from: release-of-nelson-mandela-1990
+to: negotiations-to-end-apartheid-1990
+type: part_of
+confidence: documented
+note: Mandela's release was one of de Klerk's opening steps towards negotiation.
+sources:
+- url: https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  archive_url: https://web.archive.org/web/20260920213835/https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  title: Negotiations to end apartheid in South Africa
+  publisher: Wikipedia
+  quote: the government of F. W. de Klerk took a number of unilateral steps towards reform, including
+    releasing Nelson Mandela from prison and unbanning the ANC
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,46 @@
+id: soviet-declaration-of-war-on-japan-1945
+title: Soviet Union declares war on Japan
+summary: Late on 8 August 1945, in line with the Yalta agreements but in breach of the Soviet–Japanese
+  Neutrality Pact, the Soviet Union declares war on Japan and invades Manchuria soon after midnight. The
+  campaign lasts until 2 September.
+occurred:
+  start: '1945-08-08'
+  end: '1945-09-02'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- east-asia
+actors:
+- soviet-union
+- empire-of-japan
+- joseph-stalin
+importance: 4
+wikidata: Q220602
+sources:
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: Late on 8 August 1945, in accordance with the Yalta agreements, but in violation of the Soviet–Japanese
+    Neutrality Pact, the Soviet Union declared war on Japan, and soon after midnight on 9 August 1945,
+    the Soviet Union invaded the Japanese puppet state of Manchuria.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War
+  title: Soviet–Japanese War
+  publisher: Wikipedia
+  quote: The Soviet–Japanese War was a campaign of the Second World War that began with the Soviet invasion
+    of Manchuria following the Soviet declaration of war against Japan on 8 August 1945.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War
+  title: Soviet–Japanese War
+  publisher: Wikipedia
+  quote: 8 August – 2 September 1945
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Wikidata Q220602 is the Soviet–Japanese War as a whole; this item covers the declaration and the campaign.

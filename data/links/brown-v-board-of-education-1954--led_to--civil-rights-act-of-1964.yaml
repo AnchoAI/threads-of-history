@@ -1,0 +1,30 @@
+id: brown-v-board-of-education-1954--led_to--civil-rights-act-of-1964
+from: brown-v-board-of-education-1954
+to: civil-rights-act-of-1964
+type: led_to
+confidence: documented
+note: Brown was the first step against segregation; televised resistance to it, as at Little Rock, and the 1963
+  Birmingham protests pressured the executive to seek sweeping legislation.
+sources:
+- url: https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  archive_url: https://web.archive.org/web/20260926070639/https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  title: Civil Rights Act of 1964
+  publisher: Wikipedia
+  quote: As the negative global attention that televised instances of Civil rights resistance received such as the
+    1957 Little Rock Crisis, challenging the 1954 Brown vs Board of Education ruling by the United States Supreme
+    Court which outlawed public school segregation, and the attack on the 1963 Birmingham campaign protestors, put
+    major pressure on the executive branch of government to enact sweeping legislative reform.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: The Supreme Court had taken the first initiative in Brown v. Board of Education (1954), declaring segregation
+    of public schools unconstitutional.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

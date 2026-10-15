@@ -1,0 +1,59 @@
+id: gatt-signed-1947
+title: General Agreement on Tariffs and Trade signed
+summary: Twenty-three nations signed the General Agreement on Tariffs and Trade in Geneva on 30 October
+  1947 to cut tariffs and other trade barriers. Meant as an interim code until an International Trade
+  Organization was set up, it instead governed postwar trade for almost fifty years, until the World Trade
+  Organization replaced it in 1995.
+occurred:
+  start: '1947-10-30'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+- americas
+actors:
+- united-states
+- united-kingdom
+importance: 4
+wikidata: Q194284
+sources:
+- url: https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade
+  title: General Agreement on Tariffs and Trade
+  publisher: Wikipedia
+  quote: It was signed by 23 nations in Geneva on 30 October 1947, and was applied on a provisional basis
+    1 January 1948.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade
+  title: General Agreement on Tariffs and Trade
+  publisher: Wikipedia
+  quote: whose overall purpose was to promote international trade by reducing or eliminating trade barriers
+    such as tariffs or quotas
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: signed the General Agreement on Tariffs and Trade (GATT), designed not only to implement the
+    agreed tariff cuts but to serve as an interim codification of the rules governing commercial relations
+    among its signatories until the ITO was created.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: Instead, it was the GATT that governed postwar international trade relations for almost fifty
+    years.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade
+  title: General Agreement on Tariffs and Trade
+  publisher: Wikipedia
+  quote: It remained in effect until 1 January 1995, when the World Trade Organization (WTO) was established
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

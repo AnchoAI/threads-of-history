@@ -1,0 +1,64 @@
+id: kosovo-war-1998
+title: Kosovo War
+summary: War in Kosovo from 28 February 1998 to 11 June 1999 between Yugoslav forces and the Kosovo Liberation
+  Army. NATO began bombing on 24 March 1999 on humanitarian grounds without UN Security Council approval,
+  and Yugoslav forces agreed to withdraw under the Kumanovo Agreement of 9 June 1999.
+occurred:
+  start: '1998-02-28'
+  end: '1999-06-11'
+  precision: day
+threads:
+- migration
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- nato
+- slobodan-milosevic
+importance: 4
+wikidata: Q190029
+sources:
+- url: https://en.wikipedia.org/wiki/Kosovo_War
+  archive_url: https://web.archive.org/web/20261008213225/https://en.wikipedia.org/wiki/Kosovo_War
+  title: Kosovo War
+  publisher: Wikipedia
+  quote: an armed conflict in Kosovo that lasted from 28 February 1998 until 11 June 1999
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kosovo_War
+  archive_url: https://web.archive.org/web/20261008213225/https://en.wikipedia.org/wiki/Kosovo_War
+  title: Kosovo War
+  publisher: Wikipedia
+  quote: It was fought between the forces of the Federal Republic of Yugoslavia (FRY), which controlled
+    Kosovo before the war, and the Kosovo Albanian separatist militia known as the Kosovo Liberation Army
+    (KLA).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kosovo_War
+  archive_url: https://web.archive.org/web/20261008213225/https://en.wikipedia.org/wiki/Kosovo_War
+  title: Kosovo War
+  publisher: Wikipedia
+  quote: NATO intervened with an aerial bombing campaign that began on March 24, justifying it on humanitarian
+    grounds.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kosovo_War
+  archive_url: https://web.archive.org/web/20261008213225/https://en.wikipedia.org/wiki/Kosovo_War
+  title: Kosovo War
+  publisher: Wikipedia
+  quote: It did not gain the approval of the UN Security Council
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kosovo_War
+  archive_url: https://web.archive.org/web/20261008213225/https://en.wikipedia.org/wiki/Kosovo_War
+  title: Kosovo War
+  publisher: Wikipedia
+  quote: The war ended with the Kumanovo Agreement, signed on 9 June 1999, with Yugoslav and Serb forces
+    agreeing to withdraw from Kosovo
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

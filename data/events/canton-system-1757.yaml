@@ -1,0 +1,40 @@
+id: canton-system-1757
+title: Canton System confines Western trade to Guangzhou
+summary: From 1757 the Qing dynasty restricted Western maritime trade to Canton (Guangzhou), where only
+  licensed Chinese merchants could trade with foreigners. The 1842 Treaty of Nanking abolished the system.
+occurred:
+  start: '1757'
+  end: '1842'
+  precision: year
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- east-india-company
+importance: 4
+wikidata: Q2617767
+sources:
+- url: https://en.wikipedia.org/wiki/Canton_System
+  title: Canton System
+  publisher: Wikipedia
+  quote: The Canton System (1757–1842;
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Canton_System
+  title: Canton System
+  publisher: Wikipedia
+  quote: Under the system, the Qianlong Emperor restricted trade with foreigners on Chinese soil only
+    for licensed Chinese merchants (Cohongs)
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Canton_System
+  title: Canton System
+  publisher: Wikipedia
+  quote: In addition, Article V of the Treaty specifically abolishes the Canton system
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

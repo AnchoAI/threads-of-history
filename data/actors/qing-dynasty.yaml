@@ -1,0 +1,21 @@
+id: qing-dynasty
+title: Qing dynasty
+actor_type: state
+summary: Manchu-led dynasty of China (1644–1912).
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q8733
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8733.json
+  title: Qing dynasty
+  publisher: Wikidata
+  quote: Manchu-led dynasty of China (1644–1912)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

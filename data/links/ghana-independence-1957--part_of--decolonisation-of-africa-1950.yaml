@@ -1,0 +1,19 @@
+id: ghana-independence-1957--part_of--decolonisation-of-africa-1950
+from: ghana-independence-1957
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: Ghana was the first sub-Saharan African country to win independence.
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  archive_url: https://web.archive.org/web/20261003144220/https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: On 6 March 1957, Ghana (formerly the Gold Coast) became the first sub-Saharan African country
+    to gain its independence from European colonisation.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

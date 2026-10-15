@@ -1,0 +1,38 @@
+id: entente-cordiale-1904
+title: Entente Cordiale
+summary: On 8 April 1904 the United Kingdom and France signed a series of agreements settling colonial disputes,
+  recognising Egypt as a British and Morocco as a French sphere of influence. It was not a formal alliance.
+occurred:
+  start: '1904-04-08'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- western-europe
+- middle-east-north-africa
+actors:
+- united-kingdom
+- france
+importance: 3
+wikidata: Q464399
+sources:
+- url: https://en.wikipedia.org/wiki/Entente_Cordiale
+  title: Entente Cordiale
+  publisher: Wikipedia
+  quote: comprised a series of agreements signed on 8 April 1904 between the United Kingdom and France
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Entente_Cordiale
+  title: Entente Cordiale
+  publisher: Wikipedia
+  quote: Egypt was recognized as part of Britain's sphere of influence, and Morocco as part of France's. The Entente
+    was not a formal alliance
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - The agreement included a secret annex. A later item could record when the secret articles were published (a
+    known.public case); no source for the publication date was fetched.

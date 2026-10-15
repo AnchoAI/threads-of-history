@@ -1,0 +1,15 @@
+id: treaty-of-shimonoseki-1895--part_of--first-sino-japanese-war-1894
+from: treaty-of-shimonoseki-1895
+to: first-sino-japanese-war-1894
+type: part_of
+confidence: documented
+note: The treaty ended the war.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: The war concluded with the Treaty of Shimonoseki on 17 April
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

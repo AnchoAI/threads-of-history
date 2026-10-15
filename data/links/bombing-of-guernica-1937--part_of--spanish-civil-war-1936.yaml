@@ -1,0 +1,16 @@
+id: bombing-of-guernica-1937--part_of--spanish-civil-war-1936
+from: bombing-of-guernica-1937
+to: spanish-civil-war-1936
+type: part_of
+confidence: documented
+note: Guernica was bombed during the civil war by Franco's German and Italian allies.
+sources:
+- url: https://en.wikipedia.org/wiki/Bombing_of_Guernica
+  title: Bombing of Guernica
+  publisher: Wikipedia
+  quote: On 26 April 1937, the Basque town of Guernica (Gernika in Basque) was aerially bombed during
+    the Spanish Civil War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

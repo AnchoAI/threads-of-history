@@ -1,0 +1,23 @@
+id: turkish-war-of-independence-1919-1922--led_to--treaty-of-lausanne-1923
+from: turkish-war-of-independence-1919-1922
+to: treaty-of-lausanne-1923
+type: led_to
+confidence: documented
+note: Lausanne was signed after the Turkish victory and replaced Sèvres.
+sources:
+- url: https://en.wikipedia.org/wiki/Armistice_of_Mudros
+  title: Armistice of Mudros
+  publisher: Wikipedia
+  quote: The Armistice of Mudros was superseded by the Treaty of Lausanne, signed on 24 July 1923, following
+    the Turkish victory in the War of Independence.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Lausanne
+  title: Treaty of Lausanne
+  publisher: Wikipedia
+  quote: which was annulled and replaced by the Treaty of Lausanne (1923) in the aftermath of the Turkish
+    War of Independence
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

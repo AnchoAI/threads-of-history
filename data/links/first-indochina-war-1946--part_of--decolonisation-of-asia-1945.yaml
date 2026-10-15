@@ -1,0 +1,18 @@
+id: first-indochina-war-1946--part_of--decolonisation-of-asia-1945
+from: first-indochina-war-1946
+to: decolonisation-of-asia-1945
+type: part_of
+confidence: documented
+note: The First Indochina War is part of the decolonisation of Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Indochina_War
+  title: First Indochina War
+  publisher: Wikipedia
+  quote: Part of the Indochina wars, the Cold War in Asia, and the decolonisation of Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

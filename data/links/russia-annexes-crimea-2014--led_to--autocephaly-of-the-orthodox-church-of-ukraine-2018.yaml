@@ -1,0 +1,64 @@
+id: russia-annexes-crimea-2014--led_to--autocephaly-of-the-orthodox-church-of-ukraine-2018
+from: russia-annexes-crimea-2014
+to: autocephaly-of-the-orthodox-church-of-ukraine-2018
+type: led_to
+confidence: contested
+note: Ukraine's leaders presented church independence as part of the conflict with Russia since 2014;
+  others stress a decades-old aspiration.
+sources:
+- url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+  title: Autocephaly of the Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: He presented Ukrainian Church independence as part of Ukraine's wider conflict with Russia that
+    involves Russia's 2014 annexation of the Crimea, Russia's military intervention in Ukraine
+  type: reference
+  accessed: '2026-10-14'
+- url: https://berkleycenter.georgetown.edu/posts/the-future-of-orthodox-christianity-in-ukraine
+  title: The Future of Orthodox Christianity in Ukraine
+  publisher: Berkley Center for Religion, Peace & World Affairs, Georgetown University
+  quote: Russian military activity in eastern Ukraine has been particularly influential, cited by Ukrainian
+    President Petro Poroshenko as a reason to separate the two churches.
+  type: scholarly
+  accessed: '2026-10-14'
+positions:
+- claim: Russia's annexation of Crimea and the war in eastern Ukraine drove the push for church independence.
+  held_by:
+  - Petro Poroshenko
+  - Berkley Center, Georgetown University
+  sources:
+  - url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+    title: Autocephaly of the Orthodox Church of Ukraine
+    publisher: Wikipedia
+    quote: He presented Ukrainian Church independence as part of Ukraine's wider conflict with Russia
+      that involves Russia's 2014 annexation of the Crimea
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://berkleycenter.georgetown.edu/posts/the-future-of-orthodox-christianity-in-ukraine
+    title: The Future of Orthodox Christianity in Ukraine
+    publisher: Berkley Center for Religion, Peace & World Affairs, Georgetown University
+    quote: Russian military activity in eastern Ukraine has been particularly influential, cited by Ukrainian
+      President Petro Poroshenko as a reason to separate the two churches.
+    type: scholarly
+    accessed: '2026-10-14'
+- claim: Ukrainian church independence was a long-standing aim; 2014 changed the circumstances that made
+    it possible rather than creating the aim.
+  held_by:
+  - Berkley Center, Georgetown University
+  sources:
+  - url: https://berkleycenter.georgetown.edu/posts/the-future-of-orthodox-christianity-in-ukraine
+    title: The Future of Orthodox Christianity in Ukraine
+    publisher: Berkley Center for Religion, Peace & World Affairs, Georgetown University
+    quote: For decades, the Ukrainian Orthodox Church has sought its independence, but only recently have
+      geopolitical and theological factors aligned to make such a move possible.
+    type: scholarly
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+    title: Autocephaly of the Orthodox Church of Ukraine
+    publisher: Wikipedia
+    quote: In January 1992, after Ukraine gained its independence from the Soviet Union following the
+      latter's dissolution, Metropolitan of Kyiv Filaret of the UOC-MP convened an assembly at the Kyiv
+      Pechersk Lavra that adopted a request for autocephaly to the Moscow Patriarch.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced

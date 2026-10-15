@@ -1,0 +1,23 @@
+id: ecumenical-patriarchate-of-constantinople
+title: Ecumenical Patriarchate of Constantinople
+actor_type: organization
+summary: Eastern Orthodox religious denomination based in İstanbul, Türkiye.
+threads:
+- religion
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+importance: 3
+wikidata: Q211004
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q211004.json
+  title: Ecumenical Patriarchate of Constantinople
+  publisher: Wikidata
+  quote: Eastern Orthodox religious denomination based in İstanbul, Türkiye
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

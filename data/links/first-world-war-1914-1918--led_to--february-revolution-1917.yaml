@@ -1,0 +1,18 @@
+id: first-world-war-1914-1918--led_to--february-revolution-1917
+from: first-world-war-1914-1918
+to: february-revolution-1917
+type: led_to
+confidence: documented
+note: Russia's military failures in the war provoked the February Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: The 1917 Revolution was provoked by Russian military failures during the First World War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

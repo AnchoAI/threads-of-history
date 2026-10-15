@@ -1,0 +1,21 @@
+id: winston-churchill
+title: Winston Churchill
+actor_type: person
+summary: British statesman, soldier and writer (1874–1965).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q8016
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8016.json
+  title: Winston Churchill
+  publisher: Wikidata
+  quote: British statesman, soldier and writer (1874–1965)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,19 @@
+id: us-entry-into-world-war-i-1917--part_of--first-world-war-1914-1918
+from: us-entry-into-world-war-i-1917
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The United States entered the war on 6 April 1917.
+sources:
+- url: https://en.wikipedia.org/wiki/American_entry_into_World_War_I
+  archive_url: https://web.archive.org/web/20261003044202/https://en.wikipedia.org/wiki/American_entry_into_World_War_I
+  title: American entry into World War I
+  publisher: Wikipedia
+  quote: The United States entered World War I on April 6, 1917
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

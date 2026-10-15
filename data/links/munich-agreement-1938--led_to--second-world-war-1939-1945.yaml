@@ -1,0 +1,18 @@
+id: munich-agreement-1938--led_to--second-world-war-1939-1945
+from: munich-agreement-1938
+to: second-world-war-1939-1945
+type: led_to
+confidence: documented
+note: The agreement is described as an indirect contributor to the war's outbreak.
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: Thus, the agreement indirectly contributed to the outbreak of war in 1939.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

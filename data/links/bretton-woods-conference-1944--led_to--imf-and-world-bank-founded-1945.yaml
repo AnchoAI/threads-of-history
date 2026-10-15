@@ -1,0 +1,25 @@
+id: bretton-woods-conference-1944--led_to--imf-and-world-bank-founded-1945
+from: bretton-woods-conference-1944
+to: imf-and-world-bank-founded-1945
+type: led_to
+confidence: documented
+note: The conference created the IMF and World Bank, which came into existence once enough countries ratified.
+sources:
+- url: https://en.wikipedia.org/wiki/International_Monetary_Fund
+  archive_url: https://web.archive.org/web/20261010063006/https://en.wikipedia.org/wiki/International_Monetary_Fund
+  title: International Monetary Fund
+  publisher: Wikipedia
+  quote: Established in July 1944 at the Bretton Woods Conference based on the ideas of Harry Dexter White
+    and John Maynard Keynes, the IMF came into formal existence in 1945 with 29 member countries
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: In July 1945, Congress passed the Bretton Woods Agreements Act, authorizing U.S. entry into the
+    IMF and World Bank, and the two organizations officially came into existence five months later.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

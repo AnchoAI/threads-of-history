@@ -1,0 +1,58 @@
+id: tiananmen-square-protests-1989
+title: Tiananmen Square protests and massacre
+summary: Student- and worker-led protests in Beijing, set off by the death of the reformist Hu Yaobang on 15
+  April 1989, were ended when the government declared martial law and sent troops into the city on the night
+  of 3–4 June. Estimates of the death toll range from several hundred to the low thousands.
+occurred:
+  start: '1989-04-15'
+  end: '1989-06-04'
+  precision: day
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- deng-xiaoping
+- li-peng
+- zhao-ziyang
+- chinese-communist-party
+- peoples-republic-of-china
+importance: 5
+wikidata: Q99717
+sources:
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Protests led by students and workers, known in China as the June Fourth Incident, were held in Tiananmen
+    Square in Beijing, China, from 15 April to 4 June 1989.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: The protests were initiated by the death of former pro-reform Chinese Communist Party (CCP) general
+    secretary Hu Yaobang in April 1989
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Estimates of the death toll vary from several hundreds to the low thousands, with thousands more wounded.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: A declassified National Security Agency cable filed on the same day estimated 180–500 deaths up to
+    the morning of 4 June.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Chinese government has not acknowledged a death toll; individual estimates in the source include Nicholas
+    Kristof (400–800 civilians), Amnesty International (several hundred to close to 1,000) and a disputed British
+    cable (initially 10,000).

@@ -1,0 +1,47 @@
+id: bombing-of-guernica-1937
+title: Bombing of Guernica
+summary: On 26 April 1937 the German Condor Legion and the Italian Aviazione Legionaria bombed the Basque
+  town of Guernica at the behest of Franco's Nationalists. Estimates of the dead range from about 150
+  to 1,654; some historians call it a war crime and others argue it was a legitimate attack.
+occurred:
+  start: '1937-04-26'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- francisco-franco
+- nazi-germany
+- kingdom-of-italy
+importance: 3
+wikidata: Q170351
+sources:
+- url: https://en.wikipedia.org/wiki/Bombing_of_Guernica
+  title: Bombing of Guernica
+  publisher: Wikipedia
+  quote: On 26 April 1937, the Basque town of Guernica (Gernika in Basque) was aerially bombed during
+    the Spanish Civil War.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bombing_of_Guernica
+  title: Bombing of Guernica
+  publisher: Wikipedia
+  quote: It was carried out at the behest of Francisco Franco's rebel Nationalist faction by its allies,
+    the Nazi German Luftwaffe's Condor Legion and the Fascist Italian Aviazione Legionaria
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bombing_of_Guernica
+  title: Bombing of Guernica
+  publisher: Wikipedia
+  quote: ~150–1,654 (estimates vary) killed
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bombing_of_Guernica
+  title: Bombing of Guernica
+  publisher: Wikipedia
+  quote: Seen as a war crime by some historians and argued as a legitimate attack by others
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,22 @@
+id: friedrich-engels
+title: Friedrich Engels
+actor_type: person
+summary: German philosopher, sociologist and economist (1820–1895).
+threads:
+- revolutions
+regions:
+- western-europe
+importance: 3
+wikidata: Q34787
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34787.json
+  title: Friedrich Engels
+  publisher: Wikidata
+  quote: German philosopher, sociologist and economist (1820–1895)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

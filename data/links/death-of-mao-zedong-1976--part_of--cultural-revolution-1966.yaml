@@ -1,0 +1,17 @@
+id: death-of-mao-zedong-1976--part_of--cultural-revolution-1966
+from: death-of-mao-zedong-1976
+to: cultural-revolution-1966
+type: part_of
+confidence: documented
+note: The Cultural Revolution lasted until Mao's death.
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: It was launched by Mao Zedong, chairman of the Chinese Communist Party, in 1966 and lasted until his
+    death in 1976.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

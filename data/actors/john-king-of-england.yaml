@@ -1,0 +1,22 @@
+id: john-king-of-england
+title: John, King of England
+actor_type: person
+summary: King of England from 1199 to 1216.
+threads:
+- revolutions
+regions:
+- western-europe
+importance: 3
+wikidata: Q129308
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q129308.json
+  title: John, King of England
+  publisher: Wikidata
+  quote: King of England from 1199 to 1216
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

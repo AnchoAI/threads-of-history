@@ -1,0 +1,55 @@
+id: first-opium-war-1839
+title: First Opium War
+summary: Britain fought Qing China from 1839 to 1842 after Chinese officials seized opium stocks from
+  mainly British merchants at Canton. Twentieth-century Chinese nationalists treated 1839 as the start
+  of a "century of humiliation", and many historians date modern Chinese history from it.
+occurred:
+  start: '1839-09-04'
+  end: '1842-08-29'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- british-empire
+- qing-dynasty
+- lin-zexu
+importance: 5
+wikidata: Q191282
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: 4 September 1839 – 29 August 1842
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: The immediate issue was the Chinese enforcement of their ban on the opium trade by seizing private
+    opium stocks from mainly British merchants at Guangzhou (then named Canton)
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: Twentieth-century nationalists considered 1839 the start of a century of humiliation, and many
+    historians consider it the beginning of modern Chinese history.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: In 1839, the Daoguang Emperor appointed scholar-official Lin Zexu to the post of Special Imperial
+    Commissioner with the task of eradicating the opium trade.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

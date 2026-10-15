@@ -1,0 +1,21 @@
+id: russian-empire
+title: Russian Empire
+actor_type: state
+summary: Former empire in Eurasia and North America (1721–1917).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q34266
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34266.json
+  title: Russian Empire
+  publisher: Wikidata
+  quote: former empire in Eurasia and North America (1721–1917)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

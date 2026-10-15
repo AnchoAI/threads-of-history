@@ -1,0 +1,78 @@
+id: chernobyl-disaster-1986
+title: Chernobyl disaster
+summary: Reactor 4 of the Chernobyl Nuclear Power Plant in the Ukrainian SSR explodes on 26 April 1986
+  during a safety test, and the fire spreads radioactive material across the Soviet Union and Europe.
+  When Sweden detected the radiation on 28 April, Soviet authorities at first denied an accident, then
+  announced it on the evening television news.
+occurred:
+  start: '1986-04-26'
+  precision: day
+known:
+  public:
+    start: '1986-04-28'
+    precision: day
+    note: Swedish monitors detected the radiation on the morning of 28 April; Soviet television announced
+      the accident at 21:02 that evening.
+threads:
+- nuclear
+- industry
+- russia
+- ukraine
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+importance: 4
+wikidata: Q486
+sources:
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: On 26 April 1986, reactor 4 of the Chernobyl Nuclear Power Plant, located near Pripyat in the
+    Ukrainian SSR of the Soviet Union, exploded.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: The disaster occurred while conducting a test to simulate the cooling of the reactor
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: This was followed by a meltdown and fire that dispersed radioactive contaminants across the Soviet
+    Union and Europe.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: On the morning of 28 April, radiation levels set off alarms at the Forsmark Nuclear Power Plant
+    in Sweden
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: The Soviet authorities initially denied it.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: At 21:02 the evening of 28 April, a 20-second announcement was read in the TV news programme
+    Vremya
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

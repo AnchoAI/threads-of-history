@@ -1,0 +1,56 @@
+id: pfiab-war-scare-report-declassified-2015
+title: PFIAB 'Soviet War Scare' report declassified
+summary: On 24 October 2015 the National Security Archive publishes the President's Foreign Intelligence
+  Advisory Board's 1990 report on the 1983 war scare, released after a 12-year effort. The board wrote
+  that the United States 'may have inadvertently placed our relations with the Soviet Union on a hair
+  trigger' during Able Archer 83.
+occurred:
+  start: '2015-10-24'
+  precision: day
+threads:
+- intel
+- nuclear
+regions:
+- americas
+actors:
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  title: The 1983 War Scare Declassified and For Real
+  publisher: National Security Archive
+  date: '2015-10-24'
+  quote: published today after a 12-year fight by the National Security Archive
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  title: The 1983 War Scare Declassified and For Real
+  publisher: National Security Archive
+  date: '2015-10-24'
+  quote: Posted - October 24, 2015
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  title: The 1983 War Scare Declassified and For Real
+  publisher: National Security Archive
+  date: '2015-10-24'
+  quote: the United States "may have inadvertently placed our relations with the Soviet Union on a hair
+    trigger" during the 1983 NATO nuclear release exercise, Able Archer 83.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: The exercise attracted public attention in 2015 when the President's Intelligence Advisory Board's
+    1990 report on the exercise was declassified.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

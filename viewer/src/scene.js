@@ -13,7 +13,8 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { LINK_TYPES, esc, yearLabel } from "./data.js";
 import { computeLanes } from "./layout.js";
-import { TimeWindow, WORLD_LENGTH, ticks } from "./timescale.js";
+import { TimeWindow, WORLD_LENGTH, DEEP_SPAN, ticks } from "./timescale.js";
+import { chooseEras } from "./eras.js";
 import { chooseVisible, inWindow, parents, span } from "./visibility.js";
 
 const R = 26;          // 3D lane radius for up to 10 lanes; grows gently beyond that
@@ -37,6 +38,8 @@ export class Timeline {
     this.hidden = new Set();
     this.selected = null;
     this.pinned = [];
+    this.trace = null;          // { ids, links, span } while a "why did this happen?" chain is shown
+    this.knowable = null;       // { t, party } when the "knowable on" slider is on
     this.layout = null;
     this.laneKey = "";
     this.world = null;
@@ -53,7 +56,7 @@ export class Timeline {
     const starts = data.nodes.map((n) => n.occurred.range[0]);
     const lo = Math.floor(Math.min(...starts) / 10) * 10 - 2;
     const hi = Math.max(Math.ceil(Math.max(...starts)), new Date().getFullYear()) + 1;
-    this.window = new TimeWindow(lo, hi);
+    this.window = new TimeWindow(lo, hi, [lo, hi], { compressed: hi - lo > DEEP_SPAN });
 
     this.renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
@@ -113,8 +116,8 @@ export class Timeline {
     this.spine.visible = view === "3d";
     this.home = view === "2d"
       ? { pos: new THREE.Vector3(0, 0, 500), tgt: new THREE.Vector3(0, 0, 0) }
-      : { pos: new THREE.Vector3(-WORLD_LENGTH * 0.15, WORLD_LENGTH * 0.25, WORLD_LENGTH * 0.72),
-          tgt: new THREE.Vector3(WORLD_LENGTH * 0.07, 0, 0) };
+      : { pos: new THREE.Vector3(-WORLD_LENGTH * 0.2, WORLD_LENGTH * 0.24, WORLD_LENGTH * 0.86),
+          tgt: new THREE.Vector3(-WORLD_LENGTH * 0.1, 0, 0) };
     this.camera.position.copy(this.home.pos);
     this.controls.target.copy(this.home.tgt);
     if (view === "2d") this.ortho.zoom = 1;
@@ -262,7 +265,9 @@ export class Timeline {
   relayout() {
     const win = this.window;
     const { visible, labelled } = chooseVisible(this.data, win, {
-      hiddenThreads: this.hidden, selected: this.selected, pinned: this.pinned, parentOf: this.parentOf,
+      hiddenThreads: this.hidden, selected: this.selected, parentOf: this.parentOf,
+      pinned: this.trace ? [...this.pinned, ...this.trace.ids] : this.pinned,
+      knowable: this.knowable,
     });
     this.visibleIds = visible;
     for (const n of this.nodes.values()) {
@@ -313,6 +318,7 @@ export class Timeline {
     return new THREE.QuadraticBezierCurve3(A.clone(), mid.add(out.multiplyScalar(bend)), B.clone());
   }
 
+  // Ticks, plus the "knowable on" marker when the slider is on.
   #buildTicks() {
     for (const t of this.tickObjs) {
       t.mesh.geometry.dispose();
@@ -342,6 +348,57 @@ export class Timeline {
       const h = this.view === "2d" ? -((this.layout?.lanes.length ?? 1) * ROW / 2 + ROW) : 0;
       this.tickObjs.push({ mesh, el, p: new THREE.Vector3(x, h, 0) });
     }
+    // Era zones: faint bands for long, important events in view.
+    for (const e of chooseEras(this.data, this.window, { knowable: this.knowable })) {
+      const x0 = this.x(Math.max(e.a, this.window.t0)), x1 = this.x(Math.min(e.b, this.window.t1));
+      const len = Math.max(x1 - x0, 0.5);
+      let mesh, p;
+      if (this.view === "2d") {
+        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        mesh = new THREE.Mesh(new THREE.PlaneGeometry(len, 2 * h),
+          new THREE.MeshBasicMaterial({ color: 0xC9C2B2, transparent: true, opacity: 0.045, depthWrite: false }));
+        mesh.position.set(x0 + len / 2, 0, -2 + e.depth * 0.1);
+        p = new THREE.Vector3(x0, h - ROW * 0.55 + e.row * ROW * 0.6, 0);  // in the gap above the top lane
+      } else {
+        const radius = R * (0.42 - 0.12 * Math.min(e.depth, 2));
+        mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, len, 32, 1, true),
+          new THREE.MeshBasicMaterial({ color: 0xC9C2B2, transparent: true, opacity: 0.05, side: THREE.DoubleSide, depthWrite: false }));
+        mesh.rotation.z = Math.PI / 2;
+        mesh.position.x = x0 + len / 2;
+        p = new THREE.Vector3(x0, radius + e.row * 3, 0);
+      }
+      this.scene.add(mesh);
+      const el = document.createElement("div");
+      el.className = "yr era";
+      el.textContent = e.item.title;
+      this.labelsEl.appendChild(el);
+      this.tickObjs.push({ mesh, el, p });
+    }
+    const k = this.knowable;
+    if (k && k.t >= this.window.t0 && k.t <= this.window.t1) {
+      const x = this.x(k.t);
+      const accent = 0x8FD3FF;
+      let mesh, p;
+      if (this.view === "2d") {
+        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        mesh = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, -h, -0.5), new THREE.Vector3(x, h, -0.5)]),
+          new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: 0.9 }));
+        p = new THREE.Vector3(x, h, 0);
+      } else {
+        const radius = R * Math.max(1, Math.sqrt((this.layout?.lanes.length ?? 1) / 10)) * 1.25;
+        mesh = new THREE.Mesh(new THREE.CircleGeometry(radius, 48),
+          new THREE.MeshBasicMaterial({ color: accent, transparent: true, opacity: 0.08, side: THREE.DoubleSide, depthWrite: false }));
+        mesh.rotation.y = Math.PI / 2;
+        mesh.position.x = x;
+        p = new THREE.Vector3(x, radius, 0);
+      }
+      this.scene.add(mesh);
+      const el = document.createElement("div");
+      el.className = "yr knowable-mark";
+      el.textContent = `Knowable on ${k.label}${k.party ? ` · ${k.party}` : ""}`;
+      this.labelsEl.appendChild(el);
+      this.tickObjs.push({ mesh, el, p });
+    }
   }
 
   // ---------------------------------------------------------------- state changes
@@ -367,8 +424,37 @@ export class Timeline {
     this.relayout();
   }
 
+  // Compressed past (square-root time) or even time.
+  setCompressed(on) {
+    this.window.compressed = on;
+    this.relayout();
+  }
+
   setPinned(ids) {
     this.pinned = ids;
+  }
+
+  // Show a "why did this happen?" chain: its items are always drawn and stay lit, the window
+  // widens to cover it, and everything else dims. null clears it.
+  setTrace(t) {
+    this.trace = t;
+    if (t) {
+      const [a, b] = t.span;
+      const pad = Math.max((b - a) * 0.06, 1);
+      this.window.set(a - pad, b + pad);
+      // Pull back so the whole chain is in view.
+      this.fly = { t: 0, p0: this.camera.position.clone(), t0: this.controls.target.clone(),
+                   p1: this.home.pos.clone(), t1: this.home.tgt.clone() };
+    }
+    this.relayout();
+    this.settle();
+    this.highlight();
+  }
+
+  // knowable: null to show everything, or { t: decimal year, party: string | null, label }
+  setKnowable(knowable) {
+    this.knowable = knowable;
+    this.relayout();
   }
 
   // Dim everything not connected to the selected item.
@@ -376,14 +462,16 @@ export class Timeline {
     const changed = id !== this.selected;
     this.selected = id;
     if (changed) { this.relayout(); return; }  // the selection is always drawn, so visibility may change
+    const tr = this.trace;
     for (const n of this.nodes.values()) {
-      const on = !id || n.item.id === id || this.data.linksOf.get(n.item.id).some((l) => l.from === id || l.to === id);
+      const on = tr ? tr.ids.has(n.item.id)
+        : !id || n.item.id === id || this.data.linksOf.get(n.item.id).some((l) => l.from === id || l.to === id);
       n.mesh.material.opacity = on ? 1 : 0.15;
       n.bar.material.opacity = on ? 0.55 : 0.08;
       n.dim = !on;
     }
     for (const L of this.linkObjs) {
-      const on = !id || L.link.from === id || L.link.to === id;
+      const on = tr ? tr.links.has(L.link.id) : !id || L.link.from === id || L.link.to === id;
       L.mat.opacity = on ? (id ? 1 : 0.6) : 0.05;
       L.dot.visible = on && L.vis;
     }
@@ -511,7 +599,7 @@ export class Timeline {
       for (const n of this.labelOrder ?? []) {
         let o = flat ? 1 : Math.max(0, Math.min(1, (260 - this.camera.position.distanceTo(n.pos)) / 110));
         if (n.dim) o *= 0.08;
-        if (n.item.id === this.selected) o = 1;
+        if (n.item.id === this.selected || this.trace?.ids.has(n.item.id)) o = 1;
         if (o < 0.05 || !this.#project(n.pos, n.el, o)) { n.el.style.display = "none"; continue; }
         n.w ??= n.el.offsetWidth;  // label text never changes, so measure once
         const x = parseFloat(n.el.style.left) + 16, y = parseFloat(n.el.style.top);

@@ -1,0 +1,42 @@
+id: meiji-restoration-1868
+title: Meiji Restoration
+summary: On 3 January 1868 Emperor Meiji declared political power restored to the imperial house, ending
+  the rule of the Tokugawa shogunate. The new government modernised Japan and laid the foundations of
+  the Empire of Japan, which went on to pursue colonial interests against its neighbours.
+occurred:
+  start: '1868-01-03'
+  precision: day
+threads:
+- empire
+- revolutions
+regions:
+- east-asia
+actors:
+- emperor-meiji
+- tokugawa-shogunate
+- empire-of-japan
+importance: 5
+wikidata: Q8707
+sources:
+- url: https://en.wikipedia.org/wiki/Meiji_Restoration
+  title: Meiji Restoration
+  publisher: Wikipedia
+  quote: On 3 January 1868, Emperor Meiji declared political power to be restored to the Imperial House.
+  type: reference
+  accessed: '2026-10-14'
+- url: http://afe.easia.columbia.edu/special/japan_1750_meiji.htm
+  title: The Meiji Restoration and Modernization
+  publisher: Asia for Educators, Columbia University
+  quote: lost his power and the emperor was restored to the supreme position.
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Meiji_Restoration
+  title: Meiji Restoration
+  publisher: Wikipedia
+  quote: The Meiji Restoration was the political process that laid the foundation for the institutions
+    of the Empire of Japan, and would have far-reaching consequences in East Asia as Japan pursued colonial
+    interests against its neighbours.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

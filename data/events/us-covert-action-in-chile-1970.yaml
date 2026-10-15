@@ -1,0 +1,49 @@
+id: us-covert-action-in-chile-1970
+title: US covert action against Allende
+summary: After Salvador Allende wins the 1970 election, the Nixon administration and the CIA try first
+  to stop Congress confirming him and then to encourage a military coup, and keep up diplomatic, economic
+  and covert pressure on his government.
+occurred:
+  start: '1970'
+  end: '1973'
+  precision: year
+threads:
+- intel
+- usru
+regions:
+- americas
+actors:
+- cia
+- united-states
+- henry-kissinger
+- salvador-allende
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: The CIA's "Track I" operation was a plan to influence Congress to choose Alessandri
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: The other CIA approach in 1970 (but not later), also known as the Track II approach, sought to
+    encourage a military coup by creating a climate of crisis across the country.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: The U.S. feared the example of a "well-functioning socialist experiment" in the region and exerted
+    diplomatic, economic, and covert pressure upon Chile's elected socialist government.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the covert action as a whole was found.'
+  - The dates (1970 to 1973) follow the source's account from the 1970 election to the coup.

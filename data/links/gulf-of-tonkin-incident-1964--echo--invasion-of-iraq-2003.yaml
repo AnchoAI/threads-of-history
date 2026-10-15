@@ -1,0 +1,22 @@
+id: gulf-of-tonkin-incident-1964--echo--invasion-of-iraq-2003
+from: gulf-of-tonkin-incident-1964
+to: invasion-of-iraq-2003
+type: echo
+confidence: documented
+note: The National Security Archive drew a parallel between the faulty Tonkin intelligence and the intelligence
+  used to justify the Iraq War.
+sources:
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  archive_url: https://web.archive.org/web/20261011000949/https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  title: Tonkin Gulf Intelligence "Skewed" According to Official History and Intercepts
+  publisher: National Security Archive, George Washington University
+  date: '2005-12-01'
+  quote: The parallels between the faulty intelligence on Tonkin Gulf and the manipulated intelligence used
+    to justify the Iraq War make it all the more worthwhile to re-examine the events of August 1964 in light
+    of new evidence.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - An echo is a parallel, not a cause. The quote is John Prados's view; others may reject the comparison.

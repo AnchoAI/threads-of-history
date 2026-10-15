@@ -1,0 +1,21 @@
+id: ashraf-marwan
+title: Ashraf Marwan
+actor_type: person
+summary: Egyptian businessman.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q2866586
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2866586.json
+  title: Ashraf Marwan
+  publisher: Wikidata
+  quote: Egyptian businessman
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

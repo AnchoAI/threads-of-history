@@ -24,11 +24,27 @@
       <button data-view="3d" aria-pressed="true">3D</button>
       <button data-view="2d" aria-pressed="false">2D</button>
     </div>
+    <div class="seg" role="group" aria-label="Time scale" id="timeScale">
+      <button data-time="compressed" aria-pressed="true" title="Older centuries take less room, so the recent past stays readable">Compressed</button>
+      <button data-time="even" aria-pressed="false" title="Every year takes the same room">Even</button>
+    </div>
     <div class="h">Lanes</div>
     <div class="seg" role="group" aria-label="Arrange lanes by">
       <button data-mode="threads" aria-pressed="true">Thread</button>
       <button data-mode="regions" aria-pressed="false">Region</button>
       <button data-mode="domains" aria-pressed="false">Domain</button>
+    </div>
+    <div class="h">Knowable on</div>
+    <label class="toggle" for="knowOn"><input type="checkbox" id="knowOn"> Show only what was known by a date</label>
+    <div id="knowControls" hidden>
+      <input type="range" id="knowRange" aria-label="Knowable on date">
+      <div class="knowrow">
+        <input type="date" id="knowDate" aria-label="Knowable on date">
+        <select id="knowParty" aria-label="Known to">
+          <option value="">to the public</option>
+        </select>
+      </div>
+      <p class="note" id="knowCount" aria-live="polite"></p>
     </div>
     <div class="h">Threads (click to hide)</div>
     <p class="note" id="laneHint" hidden>Too many threads to show at once, so each domain is one lane. Click a domain, here or on its lane, to open its threads.</p>

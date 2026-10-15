@@ -1,0 +1,56 @@
+id: second-sino-japanese-war-1937
+title: Second Sino-Japanese War
+summary: Full-scale war between the Republic of China and Japan, after localised conflict in Manchuria
+  from 1931. It becomes intertwined with the Second World War after Pearl Harbor and ends with Japan's
+  surrender on 2 September 1945. China's government has dated it from 1931 since 2017.
+occurred:
+  start: '1937-07-07'
+  end: '1945-09-02'
+  precision: day
+threads:
+- china
+- ww2
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- republic-of-china-1912-1949
+- kuomintang
+- chinese-communist-party
+- chiang-kai-shek
+- hirohito
+importance: 5
+wikidata: Q170314
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: 7 July 1937 – 2 September 1945 (8 years, 1 month, 3 weeks and 5 days)
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: The Second Sino-Japanese War was fought between the Republic of China and the Empire of Japan
+    and its puppet states between 1937 and 1945, following a period of conflict localized to Manchuria
+    that started in 1931.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: It is often regarded as the beginning of World War II in Asia, as the wars became heavily intertwined
+    after Japan attacked the United States.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Second_Sino-Japanese_War
+  title: Second Sino-Japanese War
+  publisher: Wikipedia
+  quote: Since 2017, the Chinese Communist Party's official view of Chinese historiography has held the
+    18 September 1931 Japanese invasion of Manchuria as the start of the" Fourteen Years' War of Resistance"
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Start date is itself disputed (1931 or 1937); see the contested link from mukden-incident-1931.

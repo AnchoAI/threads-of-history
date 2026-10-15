@@ -1,0 +1,42 @@
+id: german-blank-cheque-1914
+title: Germany's "blank cheque" to Austria-Hungary
+summary: On 5–6 July 1914 Kaiser Wilhelm II and Chancellor Bethmann Hollweg assured Austria-Hungary of Germany's
+  full support against Serbia, even at the risk of "grave European complications".
+occurred:
+  start: '1914-07-05'
+  end: '1914-07-06'
+  precision: day
+threads:
+- ww1
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- wilhelm-ii
+- theobald-von-bethmann-hollweg
+- arthur-zimmermann
+- german-empire
+- austria-hungary
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: After meeting with Szögyény on 5 July, the German Emperor informed him that his state could "count on Germany's
+    full support", even if "grave European complications" ensued
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: On 6 July, Bethmann Hollweg and Zimmermann further repeated the promise of Wilhelm's "blank cheque" at
+    a conference with Szögyény.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - 'No exact Wikidata item: the closest is the Hoyos Mission (Q1462948), the Austro-Hungarian mission to Berlin
+    that received the assurance. Left without a wikidata id.'

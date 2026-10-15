@@ -1,0 +1,26 @@
+id: draghi-whatever-it-takes-2012--part_of--european-debt-crisis-2009
+from: draghi-whatever-it-takes-2012
+to: european-debt-crisis-2009
+type: part_of
+confidence: documented
+note: The ECB's pledge and its bond-buying programme were a turning point of the eurozone crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: On 6 September 2012, the ECB calmed financial markets by announcing free unlimited support for
+    all eurozone countries involved in a sovereign state bailout/precautionary programme from EFSF/ESM,
+    through some yield lowering Outright Monetary Transactions (OMT).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mario_Draghi
+  archive_url: https://web.archive.org/web/20261005144444/https://en.wikipedia.org/wiki/Mario_Draghi
+  title: Mario Draghi
+  publisher: Wikipedia
+  quote: He presided over the institution during the Eurozone crisis, becoming famous throughout Europe
+    for saying that he would be prepared to do "whatever it takes" to prevent the euro from failing.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,33 @@
+id: iranian-revolution-1979--led_to--oil-crisis-1979
+from: iranian-revolution-1979
+to: oil-crisis-1979
+type: led_to
+confidence: documented
+note: The revolution cut Iran's oil output and set off the second oil shock.
+sources:
+- url: https://www.federalreservehistory.org/essays/oil-shock-of-1978-79
+  archive_url: https://web.archive.org/web/20261003195215/https://www.federalreservehistory.org/essays/oil-shock-of-1978-79
+  title: Oil Shock of 1978-79
+  publisher: Federal Reserve History (Laurel Graefe)
+  quote: In conjunction with the revolution, Iranian oil output declined by 4.8 million barrels per day
+    (7 percent of world production at the time) by January 1979.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: During this period, crude oil prices quadrupled to a plateau that held until the Iranian revolution
+    brought a second energy crisis in 1979.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1979_oil_crisis
+  archive_url: https://web.archive.org/web/20261002201807/https://en.wikipedia.org/wiki/1979_oil_crisis
+  title: 1979 oil crisis
+  publisher: Wikipedia
+  quote: refers to the drop in oil production in the aftermath of the Iranian Revolution that led to an
+    energy crisis in 1979
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,24 @@
+id: russian-invasion-of-manchuria-1900--led_to--russo-japanese-war-1904
+from: russian-invasion-of-manchuria-1900
+to: russo-japanese-war-1904
+type: led_to
+confidence: documented
+note: Russia's full occupation of Manchuria caused tensions with Japan that led to war.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: The invasion concluded with the full occupation of Manchuria by Russia, causing tensions that
+    led to the Russo-Japanese War.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: Despite previous assurances that Russia would completely withdraw from Manchuria the forces it
+    had sent to crush the Boxer Rebellion by 8 April 1903, that day passed with no reduction in Russian
+    forces in that region.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

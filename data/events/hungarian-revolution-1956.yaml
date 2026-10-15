@@ -1,0 +1,68 @@
+id: hungarian-revolution-1956
+title: Hungarian Revolution of 1956
+summary: On 23 October 1956 a student protest in Budapest grew into a nationwide revolt against Hungary's
+  Soviet-dominated government. Imre Nagy's new government disbanded the secret police and on 1 November
+  declared Hungary's withdrawal from the Warsaw Pact; Soviet forces crushed the revolt from 4 November.
+  About 2,500 Hungarians and 700 Soviet soldiers were killed, some 200,000 Hungarians fled abroad, and
+  Nagy was executed after a secret trial in 1958.
+occurred:
+  start: '1956-10-23'
+  end: '1956-11-10'
+  precision: day
+threads:
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- imre-nagy
+- nikita-khrushchev
+- soviet-union
+importance: 4
+wikidata: Q164348
+sources:
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: The Hungarian Revolution began on 23 October 1956 in Budapest when university students appealed
+    to the civil populace to join them at the Hungarian Parliament Building
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: The new government of Imre Nagy disbanded the ÁVH (on 28 October), declared Hungary's withdrawal
+    from the Warsaw Pact (on 1 November), and pledged to reestablish free elections.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: the USSR repressed the Hungarian Revolution on 4 November, and fought the Hungarian revolutionaries
+    until Soviet victory on 10 November
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: repression of the Hungarian Uprising killed 2,500 Hungarians and 700 Soviet Army soldiers, and
+    compelled 200,000 Hungarians to seek political refuge abroad, mostly in Austria
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: Nagy was executed, along with Maléter and Miklós Gimes, after secret trials in June 1958.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The concurrent Suez Crisis is said to have ruled out Western intervention; this is not modelled as
+    a link because neither event caused the other.
+  - Whether Radio Free Europe broadcasts encouraged Hungarians to expect Western help is disputed in the
+    source; candidate for a contested item.

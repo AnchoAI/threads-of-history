@@ -1,0 +1,21 @@
+id: grand-national-assembly-of-turkey
+title: Grand National Assembly of Turkey
+summary: Parliament of the Republic of Turkey.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q274918
+actor_type: organization
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q274918.json
+  title: Grand National Assembly of Turkey
+  publisher: Wikidata
+  quote: Parliament of the Republic of Turkey
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity data (via SPARQL). Role in specific events
+    is sourced on those events.

@@ -1,0 +1,21 @@
+id: karl-marx
+title: Karl Marx
+actor_type: person
+summary: German-born philosopher (1818–1883).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q9061
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9061.json
+  title: Karl Marx
+  publisher: Wikidata
+  quote: German-born philosopher (1818–1883)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

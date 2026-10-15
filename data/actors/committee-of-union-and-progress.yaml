@@ -1,0 +1,22 @@
+id: committee-of-union-and-progress
+title: Committee of Union and Progress
+summary: Political party in the Ottoman Empire.
+threads: []
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+importance: 3
+wikidata: Q1559352
+actor_type: organization
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1559352.json
+  title: Committee of Union and Progress
+  publisher: Wikidata
+  quote: political party in the Ottoman Empire
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity data (via SPARQL). Role in specific events
+    is sourced on those events.

@@ -1,0 +1,29 @@
+id: korean-war-1950--led_to--non-aligned-movement-founded-1961
+from: korean-war-1950
+to: non-aligned-movement-founded-1961
+type: led_to
+confidence: documented
+note: Non-alignment grew out of the Korean War, as some states tried to counter the bipolar division of
+  the world.
+sources:
+- url: https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  archive_url: https://web.archive.org/web/20260929092641/https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  title: Non-Aligned Movement
+  publisher: Wikipedia
+  quote: The movement originated in the aftermath of the Korean War, as an effort by some countries to
+    counterbalance the rapid bi-polarization of the world during the Cold War
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  archive_url: https://web.archive.org/web/20260929092641/https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  title: Non-Aligned Movement
+  publisher: Wikipedia
+  quote: The term 'Non-Alignment' was used for the first time in 1950 at the United Nations by India and
+    Yugoslavia, both of which refused to align themselves with any side in the multi-alliances involving
+    Korean War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

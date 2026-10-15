@@ -1,0 +1,25 @@
+id: iranian-revolution-1979--led_to--iran-saudi-arabia-proxy-conflict-1979
+from: iranian-revolution-1979
+to: iran-saudi-arabia-proxy-conflict-1979
+type: led_to
+confidence: documented
+note: Iran's new rulers called for the overthrow of the Gulf monarchies and challenged Saudi religious legitimacy.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: The proxy conflict can be traced back to the Iranian Revolution in 1979, when the monarchic Imperial State
+    of Iran became an Islamic republic.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: Saudi Arabia's image as the leader of the Muslim world was undermined in 1979 with the rise of Iran's new
+    theocratic government under Ayatollah Khomeini, who challenged the legitimacy of the Al Saud dynasty
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

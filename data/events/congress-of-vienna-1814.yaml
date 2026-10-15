@@ -1,0 +1,48 @@
+id: congress-of-vienna-1814
+title: Congress of Vienna
+summary: After Napoleon's downfall, the European powers meet in Vienna to redraw the map so the great
+  powers balance each other; conservative leaders such as Metternich also aim to restrain liberal and
+  revolutionary movements.
+occurred:
+  start: 1814-09
+  end: '1815-06-09'
+  precision: month
+threads:
+- revolutions
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- france
+- united-kingdom
+- russian-empire
+importance: 4
+wikidata: Q46362
+sources:
+- url: https://en.wikipedia.org/wiki/Congress_of_Vienna
+  title: Congress of Vienna
+  publisher: Wikipedia
+  quote: held in Vienna from September 1814 to June 1815
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Congress_of_Vienna
+  title: Congress of Vienna
+  publisher: Wikipedia
+  quote: The Final Act, embodying all the separate treaties, was signed on 9 June 1815
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Congress_of_Vienna
+  title: Congress of Vienna
+  publisher: Wikipedia
+  quote: to resize the main powers so they could balance each other and remain at peace
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Congress_of_Vienna
+  title: Congress of Vienna
+  publisher: Wikipedia
+  quote: conservative leaders like Metternich also sought to restrain or eliminate Bonapartist, republican,
+    liberal, and revolutionary movements
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

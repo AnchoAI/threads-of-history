@@ -1,0 +1,21 @@
+id: emiliano-zapata
+title: Emiliano Zapata
+actor_type: person
+summary: Mexican revolutionary (1879–1919).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q41718
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q41718.json
+  title: Emiliano Zapata
+  publisher: Wikidata
+  quote: Mexican revolutionary (1879–1919)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

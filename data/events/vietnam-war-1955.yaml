@@ -1,0 +1,53 @@
+id: vietnam-war-1955
+title: Vietnam War
+summary: A war from about 1955 to 30 April 1975 between North Vietnam, backed by the Soviet Union and China,
+  and South Vietnam, backed by the United States, fought in Vietnam, Laos and Cambodia. Estimates of Vietnamese
+  soldiers and civilians killed range from 970,000 to 3 million; 58,220 US service members died.
+occurred:
+  start: '1955'
+  end: '1975-04-30'
+  precision: year
+threads:
+- usru
+regions:
+- south-east-asia
+- americas
+actors:
+- north-vietnam
+- south-vietnam
+- viet-cong
+- united-states
+- soviet-union
+- peoples-republic-of-china
+- lyndon-b-johnson
+- richard-nixon
+- ho-chi-minh
+importance: 5
+wikidata: Q8740
+sources:
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  archive_url: https://web.archive.org/web/20261014173152/https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: The Vietnam War (c. 1955 – 30 April 1975) was an armed conflict in Vietnam, Laos, and Cambodia fought
+    between North Vietnam (Democratic Republic of Vietnam) and South Vietnam (Republic of Vietnam) and their
+    allies. North Vietnam was supported by the Soviet Union and China, while South Vietnam was supported by
+    the United States and other anti-communist nations.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  archive_url: https://web.archive.org/web/20261014173152/https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: 'The war exacted an enormous cost: estimates of Vietnamese soldiers and civilians killed range from
+    970,000 to 3 million. Some 275,000–310,000 Cambodians, 20,000–62,000 Laotians, and 58,220 US service members
+    died.'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The start date is approximate ("c. 1955") in the source; the State Department history dates the large-scale
+    insurgency in the South to 1959.

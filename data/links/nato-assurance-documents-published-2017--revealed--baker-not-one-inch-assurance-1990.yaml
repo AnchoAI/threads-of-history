@@ -1,0 +1,30 @@
+id: nato-assurance-documents-published-2017--revealed--baker-not-one-inch-assurance-1990
+from: nato-assurance-documents-published-2017
+to: baker-not-one-inch-assurance-1990
+type: revealed
+confidence: documented
+note: Declassified memoranda published in 2017 documented Baker's and other Western leaders' assurances
+  to Gorbachev.
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: Not once, but three times, Baker tried out the "not one inch eastward" formula with Gorbachev
+    in the February 9, 1990, meeting.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: according to declassified U.S., Soviet, German, British and French documents posted today by
+    the National Security Archive
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - The phrase itself was reported before 2017 (Mark Kramer discussed it in 2009); the 2017 release added
+    the full contemporaneous records.

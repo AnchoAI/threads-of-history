@@ -1,0 +1,63 @@
+id: plantation-of-ulster-1609
+title: Plantation of Ulster
+summary: From 1609 the English Crown colonised Ulster with English-speaking Protestant settlers, mostly
+  from Scotland and England, on land confiscated from Gaelic chiefs. It created a lasting Ulster Protestant
+  community and was also meant to spread the Protestant Reformation there.
+occurred:
+  start: '1609'
+  precision: year
+threads:
+- religion
+- empire
+regions:
+- western-europe
+actors:
+- kingdom-of-england
+importance: 4
+wikidata: Q393046
+sources:
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: Small privately funded plantations by wealthy landowners began in 1606, while the official plantation
+    began in 1609.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: Most of the land had been confiscated from the native Gaelic chiefs, several of whom had fled
+    Ireland for mainland Europe in 1607 following the Nine Years' War against English rule.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: The colonists (or "British tenants") were required to be English-speaking Protestants; most came
+    from the Scottish Lowlands and Northern England.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: The plantation led to the founding of many of Ulster's towns and created a separate and lasting
+    Ulster Protestant community in the province with ties to Britain.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: Plantation was seen as a means of anglicising Ulster and implementing the Protestant Reformation
+    there.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The plantation was run by the Crown under James I, who reigned over both England and Scotland; no
+    actor file exists for James I yet.

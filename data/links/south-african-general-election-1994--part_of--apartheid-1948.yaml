@@ -1,0 +1,27 @@
+id: south-african-general-election-1994--part_of--apartheid-1948
+from: south-african-general-election-1994
+to: apartheid-1948
+type: part_of
+confidence: documented
+note: The 1994 election was the culmination of the four-year process that ended apartheid.
+sources:
+- url: https://en.wikipedia.org/wiki/1994_South_African_general_election
+  archive_url: https://web.archive.org/web/20260925063747/https://en.wikipedia.org/wiki/1994_South_African_general_election
+  title: 1994 South African general election
+  publisher: Wikipedia
+  quote: marked the culmination of the four-year process that ended apartheid
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Apartheid
+  title: Apartheid
+  publisher: Wikipedia
+  quote: Between 1987 and 1993, the National Party entered into bilateral negotiations with the African National
+    Congress (ANC), the leading anti-apartheid political movement, for ending segregation and introducing majority
+    rule, leading to non-racial elections in April 1994.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - part_of is used for the ending of apartheid inside the apartheid span (1948–1994).

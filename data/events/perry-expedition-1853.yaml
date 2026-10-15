@@ -1,0 +1,45 @@
+id: perry-expedition-1853
+title: Perry Expedition opens Japan
+summary: US Commodore Matthew Perry led warships into Tokyo Bay on 8 July 1853 to force Japan to end its
+  isolation and open its ports to American trade. The Tokugawa shogunate signed the Treaty of Kanagawa
+  on 31 March 1854.
+occurred:
+  start: '1853-07-08'
+  end: '1854-03-31'
+  precision: day
+threads:
+- empire
+regions:
+- east-asia
+- americas
+actors:
+- united-states
+- matthew-c-perry
+- tokugawa-shogunate
+importance: 4
+wikidata: Q7169780
+sources:
+- url: https://history.state.gov/milestones/1830-1860/opening-to-japan
+  archive_url: https://web.archive.org/web/20260809043057/https://history.state.gov/milestones/1830-1860/opening-to-japan
+  title: The United States and the Opening to Japan, 1853
+  publisher: Office of the Historian, US Department of State
+  quote: On July 8, 1853, American Commodore Matthew Perry led his four ships into the harbor at Tokyo
+    Bay
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://history.state.gov/milestones/1830-1860/opening-to-japan
+  archive_url: https://web.archive.org/web/20260809043057/https://history.state.gov/milestones/1830-1860/opening-to-japan
+  title: The United States and the Opening to Japan, 1853
+  publisher: Office of the Historian, US Department of State
+  quote: the two sides signed the Treaty of Kanagawa on March 31, 1854.
+  type: scholarly
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Perry_Expedition
+  title: Perry Expedition
+  publisher: Wikipedia
+  quote: Perry's primary goal was to force an end to Japan's 220-year-old policy of isolation and to open
+    Japanese ports to American trade, through the use of gunboat diplomacy if necessary.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

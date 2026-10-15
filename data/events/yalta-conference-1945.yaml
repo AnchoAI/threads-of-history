@@ -1,0 +1,51 @@
+id: yalta-conference-1945
+title: Yalta Conference
+summary: Roosevelt, Churchill and Stalin meet at Yalta in Crimea on 4–11 February 1945. The Soviet Union
+  agrees to enter the war against Japan in exchange for a sphere of influence in Manchuria, and the leaders
+  settle Security Council voting for the planned United Nations.
+occurred:
+  start: '1945-02-04'
+  end: '1945-02-11'
+  precision: day
+threads:
+- ww2
+regions:
+- russia-eastern-europe
+actors:
+- franklin-d-roosevelt
+- winston-churchill
+- joseph-stalin
+- united-states
+- united-kingdom
+- soviet-union
+importance: 4
+wikidata: Q161227
+sources:
+- url: https://history.state.gov/milestones/1937-1945/yalta-conf
+  title: The Yalta Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: The Yalta Conference took place in a Russian resort town in the Crimea from February 4–11, 1945,
+    during World War Two.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/yalta-conf
+  title: The Yalta Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: At Yalta, Roosevelt and Churchill discussed with Stalin the conditions under which the Soviet
+    Union would enter the war against Japan and all three agreed that, in exchange for potentially crucial
+    Soviet participation in the Pacific theater, the Soviets would be granted a sphere of influence in
+    Manchuria following Japan’s surrender.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/yalta-conf
+  title: The Yalta Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: In discussions regarding the future of the United Nations, all parties agreed to an American
+    plan concerning voting procedures in the Security Council
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The Far East agreement was secret at the time. Its publication date was not found in the sources used;
+    a known.public date and a revealed item could be added.

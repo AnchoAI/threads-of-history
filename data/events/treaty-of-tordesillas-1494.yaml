@@ -1,0 +1,37 @@
+id: treaty-of-tordesillas-1494
+title: Treaty of Tordesillas
+summary: 'Portugal and Castile divide newly discovered lands outside Europe along a meridian west of the Cape Verde
+  islands: lands to the east go to Portugal, lands to the west to Castile.'
+occurred:
+  start: '1494-06-07'
+  precision: day
+threads:
+- empire
+regions:
+- western-europe
+- americas
+actors:
+- spanish-empire
+importance: 4
+wikidata: Q180897
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Tordesillas
+  archive_url: https://web.archive.org/web/20261010185120/https://en.wikipedia.org/wiki/Treaty_of_Tordesillas
+  title: Treaty of Tordesillas
+  publisher: Wikipedia
+  quote: The Treaty of Tordesillas, signed in Tordesillas, Spain, on 7 June 1494, and ratified in Setúbal, Portugal,
+    divided the newly discovered lands outside Europe between the Kingdom of Portugal and the Crown of Castile
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Tordesillas
+  archive_url: https://web.archive.org/web/20261010185120/https://en.wikipedia.org/wiki/Treaty_of_Tordesillas
+  title: Treaty of Tordesillas
+  publisher: Wikipedia
+  quote: The lands to the east would belong to Portugal and the lands to the west to Castile
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

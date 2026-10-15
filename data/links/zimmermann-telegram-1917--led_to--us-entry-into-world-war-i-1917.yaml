@@ -1,0 +1,24 @@
+id: zimmermann-telegram-1917--led_to--us-entry-into-world-war-i-1917
+from: zimmermann-telegram-1917
+to: us-entry-into-world-war-i-1917
+type: led_to
+confidence: documented
+note: The telegram's publication swayed American opinion and was one of the reasons Wilson gave for war.
+sources:
+- url: https://www.archives.gov/education/lessons/zimmermann
+  title: The Zimmermann Telegram (teaching activity)
+  publisher: U.S. National Archives
+  quote: This message helped draw the United States into the war and thus changed the course of history.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1914-1920/wwi
+  title: U.S. Entry into World War I, 1917
+  publisher: Office of the Historian, U.S. Department of State
+  quote: the “Zimmermann Telegram’s” implied threat of a German attack on the United States, swayed U.S. public
+    opinion in support of a declaration of war.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

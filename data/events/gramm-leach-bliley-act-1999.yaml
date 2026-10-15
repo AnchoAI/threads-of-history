@@ -1,0 +1,49 @@
+id: gramm-leach-bliley-act-1999
+title: Gramm–Leach–Bliley Act repeals part of Glass–Steagall
+summary: Signed by President Bill Clinton on 12 November 1999, the act repealed part of the 1933 Glass–Steagall
+  Act, allowing commercial banks, investment banks, securities firms and insurers to combine. Whether
+  this contributed to the 2008 financial crisis is disputed.
+occurred:
+  start: '1999-11-12'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- united-states
+importance: 2
+wikidata: Q2613233
+sources:
+- url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  title: Gramm–Leach–Bliley Act
+  publisher: Wikipedia
+  quote: Signed into law by President Bill Clinton on November 12, 1999
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  title: Gramm–Leach–Bliley Act
+  publisher: Wikipedia
+  quote: It repealed part of the Glass–Steagall Act of 1933, removing barriers in the market among banking
+    companies, securities companies, and insurance companies
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  title: Gramm–Leach–Bliley Act
+  publisher: Wikipedia
+  quote: commercial banks, investment banks, securities firms, and insurance companies were allowed to
+    consolidate
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: Some analysts say that this repeal directly contributed to the severity of the crisis, while
+    others downplay its impact
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

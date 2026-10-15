@@ -1,0 +1,48 @@
+id: red-terror-1918
+title: Red Terror
+summary: A Bolshevik campaign of political repression and mass executions, organised by the Cheka and
+  officially declared after the attempt on Lenin's life and the killing of Moisei Uritsky. Mainstream
+  estimates of deaths range from 50,000 to 600,000.
+occurred:
+  start: 1918-08
+  end: 1922-02
+  precision: month
+  note: Infobox dates. The text says it officially started in early September 1918; the Sovnarkom decree
+    is dated 5 September 1918.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- cheka
+importance: 4
+wikidata: Q542291
+sources:
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: Date August 1918 – February 1922
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: Organized by Cheka Deaths Mainstream estimates range between 50,000 and 600,000
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: It officially started in early September 1918 and it lasted until 1922
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: Decreed after assassination attempts on Vladimir Lenin along with the successful assassinations
+    of Petrograd Cheka leader Moisei Uritsky
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

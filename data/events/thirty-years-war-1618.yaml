@@ -1,0 +1,53 @@
+id: thirty-years-war-1618
+title: Thirty Years' War
+summary: A war fought mainly in Central Europe from 1618 to 1648, among the most destructive in European
+  history, with an estimated 4.5 to 8 million deaths. Its causes lay in religious conflict in the Holy
+  Roman Empire, but external rivalries shaped its scope.
+occurred:
+  start: '1618-05-23'
+  end: '1648-10-24'
+  precision: day
+threads:
+- religion
+- empire
+regions:
+- western-europe
+actors:
+- holy-roman-empire
+- kingdom-of-france
+- spanish-empire
+importance: 5
+wikidata: Q2487
+sources:
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: 23 May 1618 – 24 October 1648
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: The Thirty Years' War, fought primarily in Central Europe between 1618 and 1648, was one of the
+    most destructive conflicts in European history. An estimated 4.5 to 8 million soldiers and civilians
+    died from the effects of battle, famine, or disease
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: Its causes derived from religious conflict within the Holy Roman Empire, sparked by the 16th-century
+    Reformation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: However, its scope and extent were largely the consequence of external drivers such as the French–Habsburg
+    rivalry and the Dutch Revolt.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Sweden and the Dutch Republic were also major participants; no actor files exist for them yet.

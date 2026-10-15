@@ -1,0 +1,19 @@
+id: baker-not-one-inch-assurance-1990--part_of--german-reunification-1990
+from: baker-not-one-inch-assurance-1990
+to: german-reunification-1990
+type: part_of
+confidence: documented
+note: Baker's assurance was given during the negotiations over German unification.
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: was part of a cascade of assurances about Soviet security given by Western leaders to Gorbachev
+    and other Soviet officials throughout the process of German unification in 1990 and on into 1991
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

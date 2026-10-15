@@ -1,0 +1,48 @@
+id: iea-founded-1974
+title: International Energy Agency founded
+summary: Set up within the OECD framework on 18 November 1974 in the aftermath of the 1973 oil crisis,
+  the International Energy Agency responds to disruptions in oil supply and coordinates the oil reserves
+  its members must hold. US Secretary of State Henry Kissinger had proposed it.
+occurred:
+  start: '1974-11-18'
+  precision: day
+threads:
+- energy
+regions:
+- western-europe
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/International_Energy_Agency
+  title: International Energy Agency
+  publisher: Wikipedia
+  quote: the IEA was founded on November 18, 1974, after the 1973 oil crisis
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Energy_Agency
+  title: International Energy Agency
+  publisher: Wikipedia
+  quote: The IEA was set up under the framework of the Organisation for Economic Co-operation and Development
+    (OECD) in the aftermath of the 1973 oil crisis to respond to physical disruptions in global oil supplies
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Energy_Agency
+  title: International Energy Agency
+  publisher: Wikipedia
+  quote: Since its founding, the IEA has also coordinated use of the oil reserves that its members are
+    required to hold.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/oil-embargo
+  title: Oil Embargo, 1973–1974
+  publisher: US Department of State, Office of the Historian
+  quote: It also prompted the creation of the International Energy Agency proposed by Kissinger.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Q826700 is the agency itself; it is free for an actor file if one is added.'

@@ -1,0 +1,48 @@
+id: ghana-independence-1957
+title: Ghana becomes independent
+summary: The Gold Coast becomes independent from Britain as the Dominion of Ghana, with Kwame Nkrumah
+  as prime minister. It was the first sub-Saharan African country to gain independence from European colonisation.
+occurred:
+  start: '1957-03-06'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- kwame-nkrumah
+- united-kingdom
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Kwame_Nkrumah
+  archive_url: https://web.archive.org/web/20261002032300/https://en.wikipedia.org/wiki/Kwame_Nkrumah
+  title: Kwame Nkrumah
+  publisher: Wikipedia
+  quote: Ghana became independent on 6 March 1957 as the Dominion of Ghana. As the first of Britain's
+    African colonies to gain majority-rule independence
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  archive_url: https://web.archive.org/web/20261003144220/https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: On 6 March 1957, Ghana (formerly the Gold Coast) became the first sub-Saharan African country
+    to gain its independence from European colonisation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  archive_url: https://web.archive.org/web/20261003144220/https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: In 1956, Ghana requested independence inside the Commonwealth, which was granted peacefully in
+    1957 with Nkrumah as prime minister
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: Q5555325 is the Dominion of Ghana as a state (1957–1960), not the act of independence;
+    no separate item was found.'

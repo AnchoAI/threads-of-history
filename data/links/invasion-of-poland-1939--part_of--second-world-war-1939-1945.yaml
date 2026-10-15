@@ -1,0 +1,16 @@
+id: invasion-of-poland-1939--part_of--second-world-war-1939-1945
+from: invasion-of-poland-1939
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Invasion_of_Poland
+  title: Invasion of Poland
+  publisher: Wikipedia
+  quote: was a joint attack on the Republic of Poland by Nazi Germany, the Slovak Republic, and the Soviet
+    Union, which marked the beginning of World War II.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

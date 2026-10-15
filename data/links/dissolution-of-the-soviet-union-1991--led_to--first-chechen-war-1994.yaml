@@ -1,0 +1,28 @@
+id: dissolution-of-the-soviet-union-1991--led_to--first-chechen-war-1994
+from: dissolution-of-the-soviet-union-1991
+to: first-chechen-war-1994
+type: led_to
+confidence: documented
+note: Chechnya came under a secessionist government during the Soviet dissolution; Russia invaded in 1994
+  to end its independence.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: During the dissolution of the Soviet Union in late 1991, Chechnya came under the control of a
+    secessionist regime led by Dzhokhar Dudayev.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: Russian president Boris Yeltsin supported anti-Dudayev militias until 1994, when he launched
+    a military operation to "establish constitutional order in Chechnya".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

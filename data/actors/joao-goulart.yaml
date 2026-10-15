@@ -1,0 +1,21 @@
+id: joao-goulart
+title: João Goulart
+actor_type: person
+summary: President of Brazil from 1961 to 1964.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q34982
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34982.json
+  title: João Goulart
+  publisher: Wikidata
+  quote: President of Brazil from 1961 to 1964
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

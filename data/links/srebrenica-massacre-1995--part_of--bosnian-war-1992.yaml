@@ -1,0 +1,17 @@
+id: srebrenica-massacre-1995--part_of--bosnian-war-1992
+from: srebrenica-massacre-1995
+to: bosnian-war-1992
+type: part_of
+confidence: documented
+note: The massacre took place during the Bosnian War.
+sources:
+- url: https://en.wikipedia.org/wiki/Srebrenica_massacre
+  title: Srebrenica massacre
+  publisher: Wikipedia
+  quote: Part of the Bosnian War and the Bosnian genocide
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

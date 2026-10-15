@@ -1,0 +1,24 @@
+id: european-banking-crisis-1931--led_to--britain-leaves-gold-standard-1931
+from: european-banking-crisis-1931
+to: britain-leaves-gold-standard-1931
+type: led_to
+confidence: documented
+note: The Central European banking crisis helped destroy confidence in sterling, leading to Britain's
+  exit from gold.
+sources:
+- url: https://en.wikipedia.org/wiki/European_banking_crisis_of_1931
+  title: European banking crisis of 1931
+  publisher: Wikipedia
+  quote: It triggered Germany's exit from the gold standard on 15 July 1931, followed by the UK on 19
+    September 1931
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gold_standard
+  title: Gold standard
+  publisher: Wikipedia
+  quote: The Austrian and German experiences, as well as British budgetary and political difficulties,
+    were among the factors that destroyed confidence in sterling
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

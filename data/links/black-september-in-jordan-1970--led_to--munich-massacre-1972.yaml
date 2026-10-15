@@ -1,0 +1,26 @@
+id: black-september-in-jordan-1970--led_to--munich-massacre-1972
+from: black-september-in-jordan-1970
+to: munich-massacre-1972
+type: led_to
+confidence: documented
+note: The Black September Organization, founded after the Jordanian expulsion of the fedayeen, carried out
+  the Munich attack.
+sources:
+- url: https://en.wikipedia.org/wiki/Black_September
+  archive_url: https://web.archive.org/web/20261010072524/https://en.wikipedia.org/wiki/Black_September
+  title: Black September
+  publisher: Wikipedia
+  quote: The Palestinian Black September Organization was founded after the conflict to carry out attacks against
+    Jordanian authorities in response to the fedayeen's expulsion
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Black_September
+  archive_url: https://web.archive.org/web/20261010072524/https://en.wikipedia.org/wiki/Black_September
+  title: Black September
+  publisher: Wikipedia
+  quote: The following year, the organization shifted its focus to attacking Israeli targets and carried out
+    the Munich massacre against Israeli athletes.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

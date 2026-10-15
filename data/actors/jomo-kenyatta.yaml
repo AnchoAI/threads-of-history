@@ -1,0 +1,21 @@
+id: jomo-kenyatta
+title: Jomo Kenyatta
+actor_type: person
+summary: First Prime Minister (1963 to 1964) and President (1964 to 1978) of self-governing Kenya.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q173563
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q173563.json
+  title: Jomo Kenyatta
+  publisher: Wikidata
+  quote: first Prime Minister (1963 to 1964) and President (1964 to 1978) of self-governing Kenya
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

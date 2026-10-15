@@ -1,0 +1,50 @@
+id: brown-v-board-of-education-1954
+title: Brown v. Board of Education
+summary: The US Supreme Court rules unanimously that state laws establishing racial segregation in public schools
+  are unconstitutional, partly overruling Plessy v. Ferguson (1896).
+occurred:
+  start: '1954-05-17'
+  precision: day
+threads:
+- rights
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q875738
+sources:
+- url: https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  archive_url: https://web.archive.org/web/20261012040836/https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  title: Brown v. Board of Education
+  publisher: Wikipedia
+  quote: Decided May 17, 1954
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  archive_url: https://web.archive.org/web/20261012040836/https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  title: Brown v. Board of Education
+  publisher: Wikipedia
+  quote: ruled that U.S. state laws establishing racial segregation in public schools violate the Equal Protection
+    Clause of the Fourteenth Amendment
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  archive_url: https://web.archive.org/web/20261012040836/https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  title: Brown v. Board of Education
+  publisher: Wikipedia
+  quote: The decision partially overruled the Court's 1896 decision Plessy v. Ferguson
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  archive_url: https://web.archive.org/web/20261012040836/https://en.wikipedia.org/wiki/Brown_v._Board_of_Education
+  title: Brown v. Board of Education
+  publisher: Wikipedia
+  quote: On May 17, 1954, the Supreme Court issued a unanimous 9–0 decision in favor of the Brown family
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

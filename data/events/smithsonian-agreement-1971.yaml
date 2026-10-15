@@ -1,0 +1,58 @@
+id: smithsonian-agreement-1971
+title: Smithsonian Agreement
+summary: In December 1971 the Group of Ten agreed, at the Smithsonian Institution in Washington, on a
+  new set of fixed exchange rates around a devalued dollar, pegged at $38 an ounce of gold. It did little
+  to restore confidence, and the Bretton Woods system collapsed within fifteen months.
+occurred:
+  start: 1971-12
+  precision: month
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+importance: 2
+wikidata: Q1040554
+sources:
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: In December 1971, monetary authorities from the world's leading developed countries met at the
+    Smithsonian Institution in Washington, DC.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/nixon-shock
+  archive_url: https://web.archive.org/web/20261004123856/https://history.state.gov/milestones/1969-1976/nixon-shock
+  title: Nixon and the End of the Bretton Woods System, 1971–1973
+  publisher: US Department of State, Office of the Historian
+  quote: the Group of Ten (G–10) industrialized democracies agreed to a new set of fixed exchange rates
+    centered on a devalued dollar in the December 1971 Smithsonian Agreement.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: At the Smithsonian meeting, the United States agreed to devalue the dollar against gold by approximately
+    8.5 percent to $38 per ounce.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: The Smithsonian Agreement did little to restore confidence in the Bretton Woods system.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: Within fifteen months, the Bretton Woods system collapsed.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

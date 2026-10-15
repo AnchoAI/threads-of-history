@@ -1,0 +1,28 @@
+id: decolonisation-of-africa-1950--led_to--rhodesia-udi-1965
+from: decolonisation-of-africa-1950
+to: rhodesia-udi-1965
+type: led_to
+confidence: documented
+note: As Britain granted independence to colonies to the north only under majority rule, Rhodesia's white-minority
+  government declared independence on its own.
+sources:
+- url: https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  archive_url: https://web.archive.org/web/20260907025649/https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  title: Unilateral Declaration of Independence (Rhodesia)
+  publisher: Wikipedia
+  quote: was indignant when, amid the UK colonial government's Wind of Change policies of decolonisation,
+    African colonies to the north without comparable experience of self-rule quickly advanced to independence
+    during the early 1960s while Rhodesia was refused sovereignty
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: Britain's unwillingness to compromise led to Rhodesia's unilateral declaration of independence
+    (UDI) on 11 November 1965.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

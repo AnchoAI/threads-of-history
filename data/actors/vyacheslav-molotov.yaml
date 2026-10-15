@@ -1,0 +1,21 @@
+id: vyacheslav-molotov
+title: Vyacheslav Molotov
+actor_type: person
+summary: Soviet politician, statesman and diplomat (1890–1986).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q132899
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q132899.json
+  title: Vyacheslav Molotov
+  publisher: Wikidata
+  quote: Soviet politician, statesman and diplomat (1890–1986)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

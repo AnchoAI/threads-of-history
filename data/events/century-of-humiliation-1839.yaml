@@ -1,0 +1,50 @@
+id: century-of-humiliation-1839
+title: Century of humiliation
+summary: A Chinese historiographical term for the period from the First Opium War to the founding of the
+  People's Republic in 1949, when foreign powers forced China to cede territory and sovereignty. Both
+  the Kuomintang and the Communist Party popularised it, and it remains central to Chinese nationalism.
+occurred:
+  start: '1839'
+  end: '1949'
+  precision: year
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- republic-of-china-1912-1949
+- kuomintang
+- chinese-communist-party
+importance: 4
+wikidata: Q2909446
+sources:
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: is a Chinese historiographical concept for a period in history beginning with the end of the
+    First Opium War (1839–1842), and terminating with the establishment of the People's Republic of China
+    in 1949
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: Both the Kuomintang and Chinese Communist Party popularized the characterization in the 1920s,
+    protesting the unequal treaties and loss of Chinese territory to foreign empires.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: Although formal treaty provisions were ended, the epoch remains central to concepts of Chinese
+    nationalism, and the term is widely used in both political rhetoric and popular culture.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'This is a period and a narrative rather than a single event. Sources differ on its start: the Wikipedia
+    lead says it begins with the end of the First Opium War, while the First Opium War article says nationalists
+    took 1839 as its start; 1839 is used here.'

@@ -1,0 +1,25 @@
+id: iranian-revolution-1979--led_to--hezbollah-founded-1982
+from: iranian-revolution-1979
+to: hezbollah-founded-1982
+type: led_to
+confidence: documented
+note: Hezbollah's formation was shaped by the Iranian Revolution and backed by Revolutionary Guards instructors.
+sources:
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: The movement's formation was shaped by the Iranian Revolution of 1979 and Ayatollah Ruhollah Khomeini's
+    model of Islamic governance.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: The group was initially supported by 1,500 Islamic Revolutionary Guard Corps (IRGC) instructors, who
+    helped unify various Lebanese Shia factions under Hezbollah's leadership.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

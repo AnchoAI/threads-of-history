@@ -1,0 +1,24 @@
+id: european-coal-and-steel-community-1951--led_to--treaty-of-rome-1957
+from: european-coal-and-steel-community-1951
+to: treaty-of-rome-1957
+type: led_to
+confidence: documented
+note: The coal and steel community was the model for the European Economic Community.
+sources:
+- url: https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  archive_url: https://web.archive.org/web/20261013162359/https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  title: European Coal and Steel Community
+  publisher: Wikipedia
+  quote: 'The ECSC set an example for the pan-European organizations created by the Treaty of Rome in
+    1957: the European Economic Community and European Atomic Energy Community'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Schuman_Declaration
+  title: Schuman Declaration
+  publisher: Wikipedia
+  quote: Europe's first supranational community, which paved the way for the European Economic Community
+    and subsequently the European Union.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

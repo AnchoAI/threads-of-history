@@ -1,0 +1,19 @@
+id: japanese-coup-in-french-indochina-1945--part_of--second-world-war-1939-1945
+from: japanese-coup-in-french-indochina-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: The coup is part of the South-East Asian theatre of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  archive_url: https://web.archive.org/web/20261009145004/https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  title: Japanese coup d'état in French Indochina
+  publisher: Wikipedia
+  quote: Part of the South-East Asian theatre of World War II
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

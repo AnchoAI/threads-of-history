@@ -1,0 +1,54 @@
+id: covid-19-pandemic-2019
+title: COVID-19 pandemic
+summary: A pandemic caused by the SARS-CoV-2 coronavirus begins with an outbreak in Wuhan, China, in December 2019.
+  WHO declares it a pandemic on 11 March 2020 and ends the public health emergency in May 2023; estimated deaths
+  range from 18.5 to 35.2 million.
+occurred:
+  start: '2019-12'
+  end: '2023-05'
+  precision: month
+  note: End date is when WHO ended the public health emergency; the disease still circulates.
+threads:
+- industry
+regions:
+- east-asia
+- americas
+- western-europe
+- south-central-asia
+actors:
+- world-health-organization
+importance: 5
+wikidata: Q81068910
+sources:
+- url: https://en.wikipedia.org/wiki/COVID-19_pandemic
+  title: COVID-19 pandemic
+  publisher: Wikipedia
+  quote: caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak in Wuhan,
+    China, in December 2019.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/COVID-19_pandemic
+  title: COVID-19 pandemic
+  publisher: Wikipedia
+  quote: The World Health Organization (WHO) declared the outbreak a public health emergency of international concern
+    (PHEIC) on 30 January 2020 and assessed it as having become a pandemic on 11 March.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/COVID-19_pandemic
+  title: COVID-19 pandemic
+  publisher: Wikipedia
+  quote: The WHO declared that the public health emergency caused by COVID-19 had ended in May 2023
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/COVID-19_pandemic
+  title: COVID-19 pandemic
+  publisher: Wikipedia
+  quote: As of 18 September 2026, COVID-19 has caused 7,115,706 confirmed deaths and 18.5 to 35.2 million estimated
+    deaths.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,57 @@
+id: guatemalan-civil-war-1960
+title: Guatemalan Civil War
+summary: Leftist insurgencies starting in 1960 grow into a 36-year war with the US-backed military government.
+  A truth commission later attributed 93% of the violations to state forces, including genocide against
+  the Maya in the 1980s; an estimated 200,000 people were killed or disappeared.
+occurred:
+  start: '1960'
+  end: '1996'
+  precision: year
+threads:
+- rights
+- usru
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q1282732
+sources:
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: The rolling-back of progressive policies resulted in a series of leftist insurgencies in the
+    countryside, beginning in 1960. This triggered the 36-year Guatemalan Civil War between the U.S.-backed
+    military government and the leftist insurgents
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: a genocidal scorched-earth campaign against the indigenous Maya population in the 1980s.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: The civil war ended in 1996, with a peace accord between the guerrillas and the government
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  archive_url: https://web.archive.org/web/20260829035717/https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  title: Historical Clarification Commission
+  publisher: Wikipedia
+  quote: the commission revealed that over 200,000 people were killed or disappeared during the conflict
+    and attributed 93% of the violations to state forces and related paramilitary groups.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - The Historical Clarification Commission's article dates the start of the war to 1962; the coup article
+    and Wikidata give 1960.

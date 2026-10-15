@@ -1,0 +1,32 @@
+id: second-world-war-1939-1945--led_to--decolonisation-of-africa-1950
+from: second-world-war-1939-1945
+to: decolonisation-of-africa-1950
+type: led_to
+confidence: documented
+note: Colonial powers were exhausted by the war, Italy lost its African empire, and the Atlantic Charter became
+  a stepping stone toward independence.
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Furthermore, colonies such as Nigeria, Senegal and Ghana pushed for self-governance as colonial powers
+    were exhausted by war efforts.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Following World War II, rapid decolonisation swept across the continent of Africa as many territories gained
+    their independence from European colonisation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: This agreement became the post-WWII stepping stone toward independence as nationalism grew throughout Africa.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

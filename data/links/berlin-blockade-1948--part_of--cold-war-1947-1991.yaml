@@ -1,0 +1,19 @@
+id: berlin-blockade-1948--part_of--cold-war-1947-1991
+from: berlin-blockade-1948
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: One of the first major crises of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: was one of the first major international crises of the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

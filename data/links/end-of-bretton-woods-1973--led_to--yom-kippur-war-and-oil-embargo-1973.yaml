@@ -1,0 +1,33 @@
+id: end-of-bretton-woods-1973--led_to--yom-kippur-war-and-oil-embargo-1973
+from: end-of-bretton-woods-1973
+to: yom-kippur-war-and-oil-embargo-1973
+type: led_to
+confidence: documented
+note: The dollar's fall after Bretton Woods ended was a factor in the oil price increases and worsened
+  the crisis; it did not cause the war or the embargo itself.
+sources:
+- url: https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+  archive_url: https://web.archive.org/web/20260823165631/https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+  title: Oil Shock of 1973-74
+  publisher: Federal Reserve History (Michael Corbett)
+  quote: The devaluation of the dollar that was experienced in the early 1970s was also a central factor
+    in the price increases instituted by OAPEC.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+  archive_url: https://web.archive.org/web/20260823165631/https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+  title: Oil Shock of 1973-74
+  publisher: Federal Reserve History (Michael Corbett)
+  quote: This drastic change in the value of the dollar is an undeniably important factor in the oil price
+    increases of the 1970s.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/oil-embargo
+  title: Oil Embargo, 1973–1974
+  publisher: US Department of State, Office of the Historian
+  quote: the recent decision to allow the U.S. dollar to float freely in the international exchange all
+    played a role in exacerbating the crisis
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

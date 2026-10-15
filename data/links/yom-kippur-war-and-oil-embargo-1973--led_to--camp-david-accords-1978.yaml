@@ -1,0 +1,18 @@
+id: yom-kippur-war-and-oil-embargo-1973--led_to--camp-david-accords-1978
+from: yom-kippur-war-and-oil-embargo-1973
+to: camp-david-accords-1978
+type: led_to
+confidence: documented
+note: The shifts after the 1973 war led to the Camp David Accords and the peace treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: These shifts contributed to the Israeli–Palestinian peace process, leading to the 1978 Camp David
+    Accords, when Israel returned the Sinai Peninsula to Egypt, and the Egypt–Israel peace treaty, the first
+    time an Arab country recognized Israel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

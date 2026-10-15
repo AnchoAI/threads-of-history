@@ -1,0 +1,16 @@
+id: britain-and-france-declare-war-on-germany-1939--part_of--second-world-war-1939-1945
+from: britain-and-france-declare-war-on-germany-1939
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Historians usually date the war's start from the invasion of Poland and these declarations.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: Most historians agree that World War II began with the German invasion of Poland on 1 September
+    1939 and the British and French declarations of war on Germany two days later.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
