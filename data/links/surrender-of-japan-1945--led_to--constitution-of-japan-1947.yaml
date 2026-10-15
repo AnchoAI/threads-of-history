@@ -1,0 +1,17 @@
+id: surrender-of-japan-1945--led_to--constitution-of-japan-1947
+from: surrender-of-japan-1945
+to: constitution-of-japan-1947
+type: led_to
+confidence: documented
+note: After Japan's surrender, the occupation under MacArthur directed the drafting of a new constitution.
+sources:
+- url: https://en.wikipedia.org/wiki/Constitution_of_Japan
+  title: Constitution of Japan
+  publisher: Wikipedia
+  quote: Upon the surrender of Japan at the end of the war in 1945, Japan was occupied and U.S. General Douglas
+    MacArthur, the Supreme Commander for the Allied Powers, directed Prime Minister Kijūrō Shidehara to draft
+    a new constitution.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

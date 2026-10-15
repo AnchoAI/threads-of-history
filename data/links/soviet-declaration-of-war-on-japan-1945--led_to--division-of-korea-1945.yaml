@@ -1,0 +1,26 @@
+id: soviet-declaration-of-war-on-japan-1945--led_to--division-of-korea-1945
+from: soviet-declaration-of-war-on-japan-1945
+to: division-of-korea-1945
+type: led_to
+confidence: documented
+note: The rapid Soviet advance into Korea prompted the US to propose dividing it at the 38th parallel.
+sources:
+- url: https://en.wikipedia.org/wiki/Division_of_Korea
+  archive_url: https://web.archive.org/web/20261006101016/https://en.wikipedia.org/wiki/Division_of_Korea
+  title: Division of Korea
+  publisher: Wikipedia
+  quote: Soviet troops advanced rapidly, and the U.S. government became anxious that they would occupy the
+    whole of Korea. On 10 August 1945 two young officers – Dean Rusk and Charles Bonesteel – were assigned
+    to define an American occupation zone.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Division_of_Korea
+  archive_url: https://web.archive.org/web/20261006101016/https://en.wikipedia.org/wiki/Division_of_Korea
+  title: Division of Korea
+  publisher: Wikipedia
+  quote: On 8 August 1945, two days after the first atomic bomb was dropped on Hiroshima, but before the second
+    bomb was dropped at Nagasaki, the USSR declared war on Japan.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

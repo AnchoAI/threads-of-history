@@ -1,0 +1,23 @@
+id: viet-cong
+title: Viet Cong
+actor_type: organization
+summary: The National Liberation Front of South Vietnam, a revolutionary organisation active in South Vietnam
+  and Cambodia from 1960 to 1977.
+threads:
+- usru
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q174423
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q174423.json
+  title: Viet Cong
+  publisher: Wikidata
+  quote: revolutionary organization active in South Vietnam and Cambodia from 1960 to 1977
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

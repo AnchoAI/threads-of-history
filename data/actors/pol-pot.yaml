@@ -1,0 +1,22 @@
+id: pol-pot
+title: Pol Pot
+actor_type: person
+summary: Former General Secretary of the Communist Party of Kampuchea (1925–1998).
+threads:
+- revolutions
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q39464
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q39464.json
+  title: Pol Pot
+  publisher: Wikidata
+  quote: former General Secretary of the Communist Party of Kampuchea (1925–1998)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

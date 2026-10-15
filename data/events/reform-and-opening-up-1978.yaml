@@ -1,0 +1,42 @@
+id: reform-and-opening-up-1978
+title: Reform and opening up
+summary: Economic reforms launched under Deng Xiaoping at the Third Plenum of the 11th Central Committee on
+  18 December 1978. They de-collectivised agriculture, abolished the people's communes, allowed foreign investment
+  and created special economic zones such as Shenzhen, moving China towards what is officially called a socialist
+  market economy.
+occurred:
+  start: '1978-12-18'
+  precision: day
+threads:
+- china
+- econ-crises
+regions:
+- east-asia
+actors:
+- deng-xiaoping
+- chinese-communist-party
+- peoples-republic-of-china
+importance: 5
+wikidata: Q1205521
+sources:
+- url: https://en.wikipedia.org/wiki/Reform_and_opening_up
+  title: Reform and opening up
+  publisher: Wikipedia
+  quote: the reforms were launched by the ruling Chinese Communist Party (CCP) on December 18, 1978 at the
+    third plenary session of the 11th CCP Central Committee
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Reform_and_opening_up
+  title: Reform and opening up
+  publisher: Wikipedia
+  quote: It began after the Cultural Revolution, and changed the planned economic model of China to what is
+    officially termed as a socialist market economy. The reforms de-collectivized agriculture, abolished the
+    people's communes, relaxed price controls, allowed foreign direct investment into China, and led to the
+    creation of special economic zones
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

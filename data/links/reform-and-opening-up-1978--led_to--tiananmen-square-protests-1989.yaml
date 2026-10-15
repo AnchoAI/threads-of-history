@@ -1,0 +1,22 @@
+id: reform-and-opening-up-1978--led_to--tiananmen-square-protests-1989
+from: reform-and-opening-up-1978
+to: tiananmen-square-protests-1989
+type: led_to
+confidence: documented
+note: Inflation and corruption in the reform era fed the discontent behind the 1989 protests.
+sources:
+- url: https://en.wikipedia.org/wiki/Reform_and_opening_up
+  title: Reform and opening up
+  publisher: Wikipedia
+  quote: Corruption and increased inflation increased discontent, contributing to the 1989 Tiananmen Square
+    protests and massacre
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Common grievances at the time included inflation, corruption, dismantling of the "iron rice bowl"
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

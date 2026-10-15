@@ -1,0 +1,22 @@
+id: zhou-enlai
+title: Zhou Enlai
+actor_type: person
+summary: 1st Premier of the People's Republic of China.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q17410
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q17410.json
+  title: Zhou Enlai
+  publisher: Wikidata
+  quote: 1st Premier of the People's Republic of China
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

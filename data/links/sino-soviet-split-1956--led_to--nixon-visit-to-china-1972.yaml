@@ -1,0 +1,25 @@
+id: sino-soviet-split-1956--led_to--nixon-visit-to-china-1972
+from: sino-soviet-split-1956
+to: nixon-visit-to-china-1972
+type: led_to
+confidence: documented
+note: Sino-Soviet rivalry pushed China towards rapprochement with the United States.
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: The rivalry facilitated Mao's realization of Sino-American rapprochement with the US president Richard
+    Nixon's visit to China in 1972.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20260918012752/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: US Department of State, Office of the Historian
+  quote: Likewise, Sino-Soviet tension contributed to the Chinese leadership’s desire for a rapprochement with
+    the United States.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
