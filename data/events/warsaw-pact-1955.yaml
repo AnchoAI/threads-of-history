@@ -14,7 +14,7 @@ actors:
 - soviet-union
 - east-germany
 importance: 4
-wikidata: Q41644
+wikidata: none
 sources:
 - url: https://en.wikipedia.org/wiki/Warsaw_Pact
   archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
@@ -56,3 +56,6 @@ sources:
   accessed: '2026-10-15'
 review:
   status: sourced
+  notes:
+  - Q41644 is the Warsaw Pact organisation, used by actors/warsaw-pact.yaml; Wikidata has no separate
+    item for its founding.
