@@ -1,0 +1,54 @@
+id: rds-6s-1953
+title: Joe 4, the first Soviet test with fusion fuel
+summary: On 12 August 1953 the Soviet Union tested RDS-6s ("Joe 4" to the CIA), a layered design combining
+  fission and fusion fuel with a 400-kiloton yield, about 26 times less than Ivy Mike. Sources describe
+  it as a boosted fission weapon or a single-stage thermonuclear design; the Soviet two-stage RDS-37 followed
+  in 1955.
+occurred:
+  start: '1953-08-12'
+  precision: day
+threads:
+- nuclear
+- usru
+regions:
+- south-central-asia
+- russia-eastern-europe
+actors:
+- soviet-union
+importance: 3
+wikidata: Q2582085
+sources:
+- url: https://en.wikipedia.org/wiki/RDS-6s
+  archive_url: https://web.archive.org/web/20261004144632/https://en.wikipedia.org/wiki/RDS-6s
+  title: RDS-6s
+  publisher: Wikipedia
+  quote: 'RDS-6s (Russian: РДС-6с; CIA designation: JOE 4) was the first Soviet test of a boosted fission
+    weapon that occurred on August 12, 1953, that detonated with an energy equivalent to 400 kilotons
+    of TNT.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/RDS-6s
+  archive_url: https://web.archive.org/web/20261004144632/https://en.wikipedia.org/wiki/RDS-6s
+  title: RDS-6s
+  publisher: Wikipedia
+  quote: A ten-fold increase in explosive power was achieved by a combination of fusion and fission, yet
+    it was still 26 times less powerful than the Ivy Mike device tested by the US in 1952.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/RDS-6s
+  archive_url: https://web.archive.org/web/20261004144632/https://en.wikipedia.org/wiki/RDS-6s
+  title: RDS-6s
+  publisher: Wikipedia
+  quote: Semipalatinsk Test Site, Kazakh SSR
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  archive_url: https://web.archive.org/web/20261009183723/https://en.wikipedia.org/wiki/Ivy_Mike
+  title: Ivy Mike
+  publisher: Wikipedia
+  quote: The Soviet Union tested a single-stage thermonuclear design, RDS-6s, in August 1953, and a three-megaton
+    two-stage design, RDS-37, in 1955.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

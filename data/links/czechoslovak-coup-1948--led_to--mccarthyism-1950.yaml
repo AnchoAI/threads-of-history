@@ -1,0 +1,17 @@
+id: czechoslovak-coup-1948--led_to--mccarthyism-1950
+from: czechoslovak-coup-1948
+to: mccarthyism-1950
+type: led_to
+confidence: documented
+note: The coup heightened Western fears of communist takeovers and subversion before McCarthy's campaign.
+sources:
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: The following year, the Czechoslovak coup by the Communist Party of Czechoslovakia heightened
+    concern in the West about Communist parties seizing power and the possibility of subversion.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

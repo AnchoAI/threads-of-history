@@ -1,0 +1,52 @@
+id: west-germany-joins-nato-1955
+title: West Germany joins NATO
+summary: West Germany joined NATO on 9 May 1955, promising to rearm, after the French parliament had rejected
+  the European Defence Community in August 1954; its new army, the Bundeswehr, was founded the same year.
+  Norway's foreign minister called it "a decisive turning point in the history of our continent".
+occurred:
+  start: '1955-05-09'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+actors:
+- west-germany
+- nato
+- konrad-adenauer
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_NATO
+  archive_url: https://web.archive.org/web/20261006170620/https://en.wikipedia.org/wiki/History_of_NATO
+  title: History of NATO
+  publisher: Wikipedia
+  quote: The incorporation of West Germany into the organization on 9 May 1955 was described as "a decisive
+    turning point in the history of our continent" by Halvard Lange, then the Norwegian Foreign Affairs
+    Minister.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/West_Germany
+  title: West Germany
+  publisher: Wikipedia
+  quote: which West Germany joined on 9 May 1955, promising to rearm itself soon
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: On 30 August 1954, the French Parliament rejected the EDC, thus ensuring its failure
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/West_German_rearmament
+  archive_url: https://web.archive.org/web/20260906161745/https://en.wikipedia.org/wiki/West_German_rearmament
+  title: West German rearmament
+  publisher: Wikipedia
+  quote: The events led to the establishment of the Bundeswehr, the West German military, in 1955.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': no Wikidata item found for the accession itself.'

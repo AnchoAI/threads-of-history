@@ -1,0 +1,69 @@
+id: bomber-gap-1955
+title: US fears of a Soviet "bomber gap"
+summary: At the July 1955 Soviet Aviation Day flypast, ten Bison bombers flew past twice, with eight more,
+  giving the illusion of 28; Western analysts projected 800 Soviet bombers by 1960, and NIE 11-4-57 later
+  forecast 150 to 250 by 1958. The US Air Force built up its own bomber fleet in response. U-2 flights
+  later showed the gap did not exist.
+occurred:
+  start: '1955-07'
+  precision: month
+threads:
+- usru
+- nuclear
+- intel
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- soviet-union
+importance: 2
+wikidata: Q4940633
+source_credibility: medium
+outcome: 'false'
+sources:
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  archive_url: https://web.archive.org/web/20260910134633/https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: At the Soviet Aviation Day demonstrations at the Tushino Airfield, ten Bison bombers were flown
+    past the reviewing stand, flew out of sight, quickly turned around, and then flew past the stands
+    again with eight more.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  archive_url: https://web.archive.org/web/20260910134633/https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: Western analysts, extrapolating from the illusionary 28 aircraft, judged that by 1960, the Soviets
+    would have 800.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  archive_url: https://web.archive.org/web/20260910134633/https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: with National Intelligence Estimate 11-4-57 of November 1957 claiming 150 to 250 by 1958, and
+    over 600 by the mid-1960s
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  archive_url: https://web.archive.org/web/20260910134633/https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: In response to these estimates, the US Air Force undertook a massive buildup of its bomber fleet,
+    which peaked at over 2500 bombers to counter the perceived Soviet threat.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  archive_url: https://web.archive.org/web/20260910134633/https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: By 1960, subsequent U-2 surveillance flights had proven that the bomber gap did not exist.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'source_credibility ''medium'' is an editorial judgement: the estimates came from Western analysts
+    extrapolating from a staged flypast and a single airbase photograph.'

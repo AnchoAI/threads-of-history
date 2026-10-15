@@ -1,0 +1,21 @@
+id: george-marshall
+title: George Marshall
+actor_type: person
+summary: American army officer and statesman (1880–1959).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q151414
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q151414.json
+  title: George Marshall
+  publisher: Wikidata
+  quote: American army officer and statesman (1880–1959)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

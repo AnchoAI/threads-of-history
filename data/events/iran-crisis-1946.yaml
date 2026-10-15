@@ -1,0 +1,65 @@
+id: iran-crisis-1946
+title: Iran crisis of 1946
+summary: After the Second World War the Soviet Union kept troops in northern Iran past the 2 March 1946
+  withdrawal deadline while pro-Soviet Iranians proclaimed the separatist Azerbaijan People's Government
+  and the Kurdish Republic of Mahabad. Iranian negotiation and US diplomatic pressure led to Soviet withdrawal,
+  and Iranian troops re-entered the region in December 1946.
+occurred:
+  start: '1945-11'
+  end: '1946-12'
+  precision: month
+threads:
+- usru
+- mideast
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- joseph-stalin
+- soviet-union
+- iran
+- united-states
+importance: 3
+wikidata: Q1132835
+sources:
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: Date November 1945 – December 15, 1946
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: The Soviets not only violated the 2 March 1946 withdrawal deadline; in that time they had expanded
+    their military presence southward.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: Instead, pro-Soviet Iranians proclaimed the separatist Azerbaijan People's Government and the
+    Kurdish separatist Republic of Mahabad.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: Negotiation by Iranian premier Ahmad Qavam and diplomatic pressure on the Soviets by the United
+    States eventually led to Soviet withdrawal and dissolution of the separatist Azerbaijani and Kurdish
+    states.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: After the Soviet withdrawal, Iranian troops entered the region in December 1946
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,25 @@
+id: truman-doctrine-1947--led_to--nato-founded-1949
+from: truman-doctrine-1947
+to: nato-founded-1949
+type: led_to
+confidence: documented
+note: The Truman Doctrine was the first containment step; military containment followed with NATO.
+sources:
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: It led to the formation of NATO in 1949.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: The Truman Doctrine was the first in a series of containment moves by the United States, followed
+    by economic restoration of Western Europe through the Marshall Plan and military containment by the
+    creation of NATO in 1949.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

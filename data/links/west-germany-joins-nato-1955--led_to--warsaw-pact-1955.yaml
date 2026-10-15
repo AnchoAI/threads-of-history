@@ -1,0 +1,23 @@
+id: west-germany-joins-nato-1955--led_to--warsaw-pact-1955
+from: west-germany-joins-nato-1955
+to: warsaw-pact-1955
+type: led_to
+confidence: documented
+note: The Warsaw Pact was created days after West Germany entered NATO, in response to its rearmament.
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_NATO
+  archive_url: https://web.archive.org/web/20261006170620/https://en.wikipedia.org/wiki/History_of_NATO
+  title: History of NATO
+  publisher: Wikipedia
+  quote: One of the immediate results of West German entry was the creation of the Warsaw Pact
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: The Warsaw Pact was put in place as a consequence of the rearming of West Germany inside NATO.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
