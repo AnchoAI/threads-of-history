@@ -55,6 +55,7 @@ h1 { font: 600 22px/1.1 var(--serif); margin: 0 0 2px; }
   background: rgba(0,0,0,.25); border: 1px solid var(--line); border-radius: 4px; padding: 4px 6px; }
 #knowCount { margin: 0; }
 .yr.knowable-mark { color: var(--known); font-weight: 500; transform: translate(-50%, -140%); white-space: nowrap; }
+.yr.era { color: var(--ink); opacity: .45; font: italic 400 12px var(--serif); letter-spacing: 0; transform: translate(4px, -130%); white-space: nowrap; }
 .withheld { font-style: italic; }
 .row { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 3px 0; cursor: pointer; user-select: none; }
 .row.off { opacity: .35; }

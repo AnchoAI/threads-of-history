@@ -133,3 +133,15 @@ test("compressed past: ticks are spread out on screen and reach the recent end",
   w.set(1914, 1919);
   assert.ok(ticks(w).length >= 4);
 });
+
+test("eras: long importance-5 events in view, no near-duplicates, capped", async () => {
+  const { chooseEras, MAX_ERAS } = await import("../src/eras.js");
+  const w = new TimeWindow(1900, 1950);
+  const eras = chooseEras(real, w);
+  assert.ok(eras.length >= 1 && eras.length <= MAX_ERAS);
+  assert.ok(eras.every((e) => e.item.importance >= 5 && e.b - e.a >= 0.04 * w.span));
+  assert.ok(eras.some((e) => e.item.id === "first-world-war-1914-1918"));
+  for (let i = 1; i < eras.length; i++) assert.ok(eras[i].a >= eras[i - 1].a);
+  // Zoomed into a single month, a war is not an "era" band unless it spans the window share.
+  assert.ok(chooseEras(real, new TimeWindow(1916.5, 1916.6)).every((e) => e.b - e.a >= 1));
+});

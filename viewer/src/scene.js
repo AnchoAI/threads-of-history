@@ -14,6 +14,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { LINK_TYPES, esc, yearLabel } from "./data.js";
 import { computeLanes } from "./layout.js";
 import { TimeWindow, WORLD_LENGTH, DEEP_SPAN, ticks } from "./timescale.js";
+import { chooseEras } from "./eras.js";
 import { chooseVisible, inWindow, parents, span } from "./visibility.js";
 
 const R = 26;          // 3D lane radius for up to 10 lanes; grows gently beyond that
@@ -346,6 +347,32 @@ export class Timeline {
       this.labelsEl.appendChild(el);
       const h = this.view === "2d" ? -((this.layout?.lanes.length ?? 1) * ROW / 2 + ROW) : 0;
       this.tickObjs.push({ mesh, el, p: new THREE.Vector3(x, h, 0) });
+    }
+    // Era zones: faint bands for long, important events in view.
+    for (const e of chooseEras(this.data, this.window, { knowable: this.knowable })) {
+      const x0 = this.x(Math.max(e.a, this.window.t0)), x1 = this.x(Math.min(e.b, this.window.t1));
+      const len = Math.max(x1 - x0, 0.5);
+      let mesh, p;
+      if (this.view === "2d") {
+        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        mesh = new THREE.Mesh(new THREE.PlaneGeometry(len, 2 * h),
+          new THREE.MeshBasicMaterial({ color: 0xC9C2B2, transparent: true, opacity: 0.045, depthWrite: false }));
+        mesh.position.set(x0 + len / 2, 0, -2 + e.depth * 0.1);
+        p = new THREE.Vector3(x0, h - ROW * 0.55 + e.row * ROW * 0.6, 0);  // in the gap above the top lane
+      } else {
+        const radius = R * (0.42 - 0.12 * Math.min(e.depth, 2));
+        mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, len, 32, 1, true),
+          new THREE.MeshBasicMaterial({ color: 0xC9C2B2, transparent: true, opacity: 0.05, side: THREE.DoubleSide, depthWrite: false }));
+        mesh.rotation.z = Math.PI / 2;
+        mesh.position.x = x0 + len / 2;
+        p = new THREE.Vector3(x0, radius + e.row * 3, 0);
+      }
+      this.scene.add(mesh);
+      const el = document.createElement("div");
+      el.className = "yr era";
+      el.textContent = e.item.title;
+      this.labelsEl.appendChild(el);
+      this.tickObjs.push({ mesh, el, p });
     }
     const k = this.knowable;
     if (k && k.t >= this.window.t0 && k.t <= this.window.t1) {

@@ -26,7 +26,8 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Long arcs (October 2026): about 120 coarse events from 632 to the 1890s plus modern endpoints, 155 links and 49 actors in six themes: Christianity's splits, Islam's splits, China/Japan/Korea, empire and slavery, revolutions and political ideas, and industry/science/climate. Eight guided paths follow them to today (e.g. Great Schism → Ukraine's church split, Opium Wars → Hong Kong 2020, Coal → the Paris Agreement). Every quote was re-checked word for word. Links that no source stated were dropped (Act of Supremacy → Ulster, CO₂ rise → IPCC, Tordesillas → slave trade); three `part_of` links into the Scramble for Africa are `unverified`. `on-the-origin-of-species-1859 → the-holocaust` is contested and needs a person's judgement.
 - "Why did this happen?" and "What did it lead to?": done. The side panel follows `led_to` links up to four steps back or forward (sub-events inherit their parent's causes), and a button shows the chain on the map. Rules in `viewer/src/chains.js`, with unit tests.
 - Compressed past: with more than 300 years of data, the time axis follows the square root of the time before today, so long arcs (from 1054 to 2019, say) fit without squashing the 20th century. A toggle switches to even time. In `viewer/src/timescale.js`.
-- Next for the viewer: series as bands, and era zones.
+- Era zones: faint bands along the time axis for long, well-connected importance-5 events in view (the World Wars, the Reformation, the Great Depression...), derived from the data with no extra format. Rules in `viewer/src/eras.js`.
+- Next for the viewer: series as bands.
 
 ## Decisions since the handoff
 
