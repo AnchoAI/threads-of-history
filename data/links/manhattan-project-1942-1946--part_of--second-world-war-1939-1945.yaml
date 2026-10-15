@@ -1,0 +1,22 @@
+id: manhattan-project-1942-1946--part_of--second-world-war-1939-1945
+from: manhattan-project-1942-1946
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: The Manhattan Project was the wartime programme that built the atomic bombs used in the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  archive_url: https://web.archive.org/web/20261014023836/https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: The Manhattan Project was a research and development program undertaken during World War II to produce
+    the first nuclear weapons.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The source says the programme was undertaken "during" the Second World War; it is treated as part of the war
+    because it was a military weapons programme of a belligerent. A person should confirm.

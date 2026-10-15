@@ -1,0 +1,19 @@
+id: reported-second-gulf-of-tonkin-attack-1964--part_of--gulf-of-tonkin-incident-1964
+from: reported-second-gulf-of-tonkin-attack-1964
+to: gulf-of-tonkin-incident-1964
+type: part_of
+confidence: documented
+note: The reported second attack of 4 August is part of the Gulf of Tonkin incident.
+sources:
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: On the night of 4 August, two US destroyers reported they were attacked by North Vietnamese vessels and
+    that they were returning fire.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

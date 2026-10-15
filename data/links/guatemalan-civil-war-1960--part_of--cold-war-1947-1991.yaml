@@ -1,0 +1,18 @@
+id: guatemalan-civil-war-1960--part_of--cold-war-1947-1991
+from: guatemalan-civil-war-1960
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Guatemalan Civil War is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Guatemalan_civil_war
+  title: Guatemalan civil war
+  publisher: Wikipedia
+  quote: Part of the Central American crisis and Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

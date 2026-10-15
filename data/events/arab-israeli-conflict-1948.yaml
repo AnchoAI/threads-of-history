@@ -1,0 +1,41 @@
+id: arab-israeli-conflict-1948
+title: Arab–Israeli conflict
+summary: Conflict between Israel and the surrounding Arab countries since the declaration of Israel's establishment
+  in 1948, rooted in the Israeli–Palestinian conflict. Its main phase of interstate wars is dated from 15 May 1948
+  to 26 March 1979.
+occurred:
+  start: '1948-05-15'
+  ongoing: true
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- egypt
+- syria
+- jordan
+importance: 4
+wikidata: Q8669
+sources:
+- url: https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  archive_url: https://web.archive.org/web/20261003090742/https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  title: Arab–Israeli conflict
+  publisher: Wikipedia
+  quote: Since the declaration of Israel's establishment in 1948, conflict has existed between Israel and the surrounding
+    Arab countries, rooted in the Israeli–Palestinian conflict.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  archive_url: https://web.archive.org/web/20261003090742/https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  title: Arab–Israeli conflict
+  publisher: Wikipedia
+  quote: '1948–present (main phase: 15 May 1948 – 26 March 1979)'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'

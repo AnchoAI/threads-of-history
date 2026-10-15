@@ -1,0 +1,19 @@
+id: indonesian-national-revolution-1945--part_of--decolonisation-of-asia-1945
+from: indonesian-national-revolution-1945
+to: decolonisation-of-asia-1945
+type: part_of
+confidence: documented
+note: The Indonesian National Revolution is part of the decolonisation of Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  archive_url: https://web.archive.org/web/20260910151444/https://en.wikipedia.org/wiki/Indonesian_National_Revolution
+  title: Indonesian National Revolution
+  publisher: Wikipedia
+  quote: Part of the aftermath of World War II, the decolonisation of Asia, and the Cold War in Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

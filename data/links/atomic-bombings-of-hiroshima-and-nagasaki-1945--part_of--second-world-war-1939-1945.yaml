@@ -1,0 +1,19 @@
+id: atomic-bombings-of-hiroshima-and-nagasaki-1945--part_of--second-world-war-1939-1945
+from: atomic-bombings-of-hiroshima-and-nagasaki-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: The bombings are part of the Pacific theatre of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
+  archive_url: https://web.archive.org/web/20261015180851/https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
+  title: Atomic bombings of Hiroshima and Nagasaki
+  publisher: Wikipedia
+  quote: Part of the Pacific Theatre of World War II
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

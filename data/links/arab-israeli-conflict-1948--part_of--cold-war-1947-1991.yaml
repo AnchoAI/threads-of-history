@@ -1,0 +1,21 @@
+id: arab-israeli-conflict-1948--part_of--cold-war-1947-1991
+from: arab-israeli-conflict-1948
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The source infobox places the Arab–Israeli conflict within the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  archive_url: https://web.archive.org/web/20261003090742/https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict
+  title: Arab–Israeli conflict
+  publisher: Wikipedia
+  quote: Part of the Cold War and Middle Eastern conflicts
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The Arab–Israeli conflict continues after 1991; a person should judge whether nesting it under the Cold War
+    is sensible.

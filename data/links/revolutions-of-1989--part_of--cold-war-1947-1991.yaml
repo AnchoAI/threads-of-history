@@ -1,0 +1,19 @@
+id: revolutions-of-1989--part_of--cold-war-1947-1991
+from: revolutions-of-1989
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Revolutions of 1989 are part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: Part of the Cold War (until 1991)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
