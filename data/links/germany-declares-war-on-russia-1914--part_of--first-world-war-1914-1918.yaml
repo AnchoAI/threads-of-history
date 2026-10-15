@@ -1,0 +1,19 @@
+id: germany-declares-war-on-russia-1914--part_of--first-world-war-1914-1918
+from: germany-declares-war-on-russia-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Germany's declaration of war on Russia was its entry into the war.
+sources:
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  archive_url: https://web.archive.org/web/20260928072431/https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: Germany entered into World War I on August 1, 1914, when it declared war on Russia.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

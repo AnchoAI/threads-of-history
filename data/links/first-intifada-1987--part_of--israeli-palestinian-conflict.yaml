@@ -1,0 +1,19 @@
+id: first-intifada-1987--part_of--israeli-palestinian-conflict
+from: first-intifada-1987
+to: israeli-palestinian-conflict
+type: part_of
+confidence: documented
+note: The First Intifada is part of the Israeli–Palestinian conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  archive_url: https://web.archive.org/web/20261010073049/https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: Part of the Israeli–Palestinian conflict
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

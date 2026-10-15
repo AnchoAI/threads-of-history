@@ -1,0 +1,19 @@
+id: non-cooperation-movement-1920--part_of--indian-independence-movement-1885
+from: non-cooperation-movement-1920
+to: indian-independence-movement-1885
+type: part_of
+confidence: documented
+note: The Non-cooperation movement was part of the broader Indian independence movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  archive_url: https://web.archive.org/web/20260924214841/https://en.wikipedia.org/wiki/Non-cooperation_movement_%281919%E2%80%931922%29
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: The non-cooperation movement was among the broader movement for Indian independence from British rule
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,19 @@
+id: soviet-nuclear-false-alarm-1983--part_of--cold-war-1947-1991
+from: soviet-nuclear-false-alarm-1983
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The false alarm is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  archive_url: https://web.archive.org/web/20260929034609/https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
+  title: 1983 Soviet nuclear false alarm incident
+  publisher: Wikipedia
+  quote: Part of the Cold War (1979–1985) and nuclear close calls
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

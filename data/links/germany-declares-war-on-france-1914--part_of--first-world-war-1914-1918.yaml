@@ -1,0 +1,20 @@
+id: germany-declares-war-on-france-1914--part_of--first-world-war-1914-1918
+from: germany-declares-war-on-france-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Germany declared war on France on 3 August as part of its war plan.
+sources:
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  archive_url: https://web.archive.org/web/20260928072431/https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: In accordance with its war plan, it ignored Russia and moved first against France–declaring war on August
+    3
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

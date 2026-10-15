@@ -1,0 +1,19 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968--part_of--prague-spring-1968
+from: warsaw-pact-invasion-of-czechoslovakia-1968
+to: prague-spring-1968
+type: part_of
+confidence: documented
+note: The invasion is part of the Prague Spring.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20260929033434/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: Part of the Cold War and the Prague Spring
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

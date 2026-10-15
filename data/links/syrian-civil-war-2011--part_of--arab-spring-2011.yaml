@@ -1,0 +1,19 @@
+id: syrian-civil-war-2011--part_of--arab-spring-2011
+from: syrian-civil-war-2011
+to: arab-spring-2011
+type: part_of
+confidence: documented
+note: The Syrian civil war is part of the Arab Spring.
+sources:
+- url: https://en.wikipedia.org/wiki/Syrian_civil_war
+  archive_url: https://web.archive.org/web/20261010211325/https://en.wikipedia.org/wiki/Syrian_civil_war
+  title: Syrian civil war
+  publisher: Wikipedia
+  quote: Part of the Syrian revolution, Arab Spring, Arab Winter
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

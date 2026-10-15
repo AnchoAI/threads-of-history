@@ -1,0 +1,18 @@
+id: ninety-five-theses-1517--part_of--protestant-reformation-1517
+from: ninety-five-theses-1517
+to: protestant-reformation-1517
+type: part_of
+confidence: documented
+note: The Theses are considered to have launched the Reformation.
+sources:
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: The Theses are retrospectively considered to have launched the Protestant Reformation
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

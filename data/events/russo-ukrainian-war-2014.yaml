@@ -1,0 +1,44 @@
+id: russo-ukrainian-war-2014
+title: Russo-Ukrainian war
+summary: A war between Russia and Ukraine that began in February 2014, when Russia occupied and annexed Crimea and
+  backed separatist armed groups in the Donbas, and escalated in February 2022 into a full-scale Russian invasion.
+occurred:
+  start: '2014-02'
+  ongoing: true
+  precision: month
+threads:
+- ukraine
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- ukraine
+importance: 4
+wikidata: Q15860072
+sources:
+- url: https://en.wikipedia.org/wiki/Russo-Ukrainian_war
+  title: Russo-Ukrainian war
+  publisher: Wikipedia
+  quote: The Russo-Ukrainian war began in February 2014 and is ongoing.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Russo-Ukrainian_war
+  title: Russo-Ukrainian war
+  publisher: Wikipedia
+  quote: Following Ukraine's Revolution of Dignity, Russia occupied Crimea and annexed it from Ukraine. It then
+    supported Russian separatist armed groups who started a war in the eastern Donbas region against Ukraine's military.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Russo-Ukrainian_war
+  title: Russo-Ukrainian war
+  publisher: Wikipedia
+  quote: In February 2022, Russia launched a full-scale invasion of Ukraine and began occupying more of the country,
+    starting the current phase of the war
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'

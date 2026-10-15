@@ -1,0 +1,55 @@
+id: war-on-terror-2001
+title: War on terror
+summary: A global military campaign launched by the United States in response to the September 11 attacks, first
+  aimed at al-Qaeda, with its main theatre in Afghanistan and Pakistan. Its main phase is dated 14 September 2001
+  to 30 August 2021; smaller operations continue.
+occurred:
+  start: '2001-09-14'
+  end: '2021-08-30'
+  precision: day
+  note: Dates of the main phase as the source gives them; the source says small operations are ongoing.
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- south-central-asia
+- americas
+actors:
+- united-states
+- al-qaeda
+importance: 4
+wikidata: Q185729
+sources:
+- url: https://en.wikipedia.org/wiki/War_on_terror
+  title: War on terror
+  publisher: Wikipedia
+  quote: The war on terror, officially the Global War on Terrorism (GWOT), is a global military campaign initiated
+    by the United States in response to the September 11 attacks in 2001.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/War_on_terror
+  title: War on terror
+  publisher: Wikipedia
+  quote: The initial conflict was aimed at al-Qaeda, with the main theater in Afghanistan and Pakistan
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/War_on_terror
+  title: War on terror
+  publisher: Wikipedia
+  quote: 'Main phase: 14 September 2001 – 30 August 2021'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/War_on_terror
+  title: War on terror
+  publisher: Wikipedia
+  quote: Major wars ended, ongoing in small operations
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'
+  - The Wikipedia article carries warnings about out-of-date information and possible machine-generated text; the
+    dates should be checked against a scholarly source.
