@@ -10,6 +10,11 @@ gain over the chain comes from the extra conditions:
   - how long the country has been in its current state (history has memory)
   - years of armed conflict or civil war in the last 10 years
 
+The variant LogitNeighbours also uses the share of land neighbours in armed conflict or civil
+war that year, and whether any neighbour was in civil war (see forecast/neighbours.py). In the
+October 2026 backtest it did not improve on Logit, so it is reported alongside, not used by default.
+LogitYouth adds the youth bulge (share of 15-24 year olds among adults, wdi-youth-bulge).
+
 Missing values become 0 after standardising, with a flag saying they were missing, so
 gaps in the data don't drop countries. Everything is computed from tables as known before
 the cutoff year, so nothing leaks from the test years.
@@ -21,8 +26,10 @@ import warnings
 
 import numpy as np
 
+from .neighbours import neighbours
+
 CONFLICT = {"armed-conflict", "civil-war"}
-TABLES = ["vdem-electoral-democracy", "maddison-gdp-per-capita", "wdi-infant-mortality"]
+TABLES = ["vdem-electoral-democracy", "maddison-gdp-per-capita", "wdi-infant-mortality", "wdi-youth-bulge"]
 
 
 def _latest(table, iso, year, max_back):
@@ -33,8 +40,9 @@ def _latest(table, iso, year, max_back):
     return None
 
 
-def features(states, iso, year, seq, tables):
-    """Feature vector for one country-year. `seq` is {year: state} for the country."""
+def features(states, iso, year, seq, tables, world=None, extras=()):
+    """Feature vector for one country-year. `seq` is {year: state} for the country;
+    `world` is {iso: {year: state}} for every country, for neighbour effects."""
     s = seq[year]
     one_hot = [float(s == x) for x in states]
     dem = tables.get("vdem-electoral-democracy", {}).get((iso, year))
@@ -47,6 +55,9 @@ def features(states, iso, year, seq, tables):
         run += 1
     conflict10 = sum(1 for y in range(year - 9, year + 1) if seq.get(y) in CONFLICT)
     growth = (math.log(gdp) - math.log(gdp3)) / 3 if gdp and gdp3 else None
+    near = [world[n][year] for n in neighbours(iso, year) if world and year in world.get(n, {})] if iso and "neighbours" in extras else []
+    near_conflict = sum(s2 in CONFLICT for s2 in near) / len(near) if near else None
+    near_civil_war = float(any(s2 == "civil-war" for s2 in near)) if near else None
     raw = [
         dem,
         math.log(gdp) if gdp else None,
@@ -55,11 +66,16 @@ def features(states, iso, year, seq, tables):
         math.log1p(run),
         conflict10 / 10,
     ]
+    if "neighbours" in extras:
+        raw += [near_conflict, near_civil_war]
+    if "youth" in extras:
+        raw.append(_latest(tables.get("wdi-youth-bulge", {}), iso, year, 5))
     return one_hot, raw
 
 
 class Logit:
     name = "logit"
+    extras: tuple[str, ...] = ()
 
     def __init__(self, states, l2: float = 1.0, iters: int = 400, lr: float = 0.5):
         self.states, self.l2, self.iters, self.lr = list(states), l2, iters, lr
@@ -74,7 +90,7 @@ class Logit:
                     out = seq.get(t + h)
                     if out is None or t + h >= before:
                         continue
-                    oh, raw = features(self.states, iso, t, seq, self.tables)
+                    oh, raw = features(self.states, iso, t, seq, self.tables, seqs, self.extras)
                     X_oh.append(oh)
                     X_raw.append(raw)
                     y.append(self.states.index(out))
@@ -115,10 +131,20 @@ class Logit:
         seq = self.seqs.get(iso, {})
         if iso is None or seq.get(year) != state:
             seq = {year: state}
-        oh, raw = features(self.states, iso, year, seq, self.tables)
+        oh, raw = features(self.states, iso, year, seq, self.tables, self.seqs, self.extras)
         X, _ = self._design(np.array([oh]), [raw], stats)
         p = _softmax(X @ W)[0]
         return dict(zip(self.states, p.tolist()))
+
+
+class LogitNeighbours(Logit):
+    name = "logit+neighbours"
+    extras = ("neighbours",)
+
+
+class LogitYouth(Logit):
+    name = "logit+youth"
+    extras = ("youth",)
 
 
 def _softmax(Z):

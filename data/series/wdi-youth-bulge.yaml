@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-youth-bulge
+title: Youth bulge (World Bank / UN WPP)
+summary: People aged 15-24 as a share of everyone aged 15 and over, computed from World Bank age and population
+  series (which come from UN World Population Prospects).
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: share (0-1)
+dataset: world-bank-wdi
+indicator: youth-bulge
+table: tables/wdi-youth-bulge.csv
+sources:
+- url: https://data.worldbank.org/indicator/SP.POP.1519.MA.5Y
+  title: Population by age group (WDI)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

@@ -88,3 +88,12 @@ def test_logit_uses_conditions_the_markov_chain_cannot_see():
     tables = lambda X: {"vdem-electoral-democracy": {k: v for k, v in dem.items() if k[1] < X}}
     res = run(known, world, states, range(1990, 2000), horizons=(1,), models=(Markov, Logit), tables_known_before=tables)
     assert res[("logit", 1)]["log"] < res[("markov", 1)]["log"]
+
+
+def test_neighbours_rebuild_federations():
+    from forecast.neighbours import neighbours
+    assert "RUS" in neighbours("UKR", 2020)
+    ussr = neighbours("RUS", 1980)
+    assert "AFG" in ussr and "IRN" in ussr and "UKR" not in ussr  # via Turkmenistan etc.; members excluded
+    assert "AFG" not in neighbours("RUS", 2000)
+    assert neighbours("DDR", 1970) == {"DEU", "POL", "CZE"}

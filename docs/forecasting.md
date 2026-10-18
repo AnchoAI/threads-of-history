@@ -31,10 +31,10 @@ The event graph (events, links, sources) explains history but can't predict it. 
 | # | Step | Status |
 |---|---|---|
 | 1 | Check the licences of the registered datasets (Task 3a); register Ethnic Power Relations, Archigos, Penn World Table, UN population data, World Bank WDI, UCDP GED and IMF World Economic Outlook vintages | done: cleared V-Dem (CC BY-SA, share-alike), UCDP, Maddison, Penn World Table, UN WPP, World Bank WDI; blocked (no readable licence): Powell & Thyne, EPR, Archigos, IMF vintages |
-| 2 | Importers into `data/tables/` | V-Dem, UCDP/PRIO, Maddison and World Bank infant mortality done; UN WPP (youth bulge) next; Powell & Thyne waits on its licence |
+| 2 | Importers into `data/tables/` | V-Dem, UCDP/PRIO, Maddison, World Bank infant mortality and youth bulge (UN WPP figures via the World Bank) and Natural Earth borders done; Powell & Thyne waits on its licence |
 | 3 | `forecast/`: country states, a Markov chain, baselines, backtest and Brier scoring | in progress (built and tested on synthetic data) |
 | 4 | First real backtest: train up to each year from 1960 to 2014, predict 1–5 years ahead, and compare against the baselines | done: `docs/backtests/2026-10-markov-baseline.md`. The Markov chain beats both baselines |
-| 5 | Models with conditions beyond the current state, on the Political Instability Task Force's predictors: infant mortality, regime type, neighbours in conflict, ethnic exclusion. A replication of a published model | first version done: `forecast/logit.py` beats the Markov chain (`docs/backtests/2026-10-logit-covariates.md`). Neighbours and ethnic exclusion still to add |
+| 5 | Models with conditions beyond the current state, on the Political Instability Task Force's predictors: infant mortality, regime type, neighbours in conflict, ethnic exclusion. A replication of a published model | first version done: `forecast/logit.py` beats the Markov chain (`docs/backtests/2026-10-logit-covariates.md`). Neighbours and youth bulge tried: no gain (`2026-10-neighbours-youth.md`). Ethnic exclusion is blocked on its licence |
 | 6 | Hierarchical model with contagion from neighbours, then an ensemble | later |
 | 7 | Forecast aggregation and benchmarks: prediction markets, human forecasters, and AI models given only what was knowable on a date | later |
 | 8 | Viewer: at "today" the timeline fans out into scenario branches, each as thick as its probability | later |

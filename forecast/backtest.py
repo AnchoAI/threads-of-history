@@ -112,7 +112,7 @@ def main(argv=None):
         text = report(results, SYNTH_STATES, horizons, "Backtest on a made-up world")
     else:
         from .panel import load_table
-        from .logit import TABLES as LOGIT_TABLES, Logit
+        from .logit import TABLES as LOGIT_TABLES, Logit, LogitNeighbours, LogitYouth
         names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
         names += [n for n in LOGIT_TABLES if n not in names]
         try:
@@ -129,7 +129,7 @@ def main(argv=None):
                 cache[X] = tables(X)
             return cache[X]
         known = lambda X: classify(tables_at(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
-        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit,), tables_known_before=tables_at)
+        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit, LogitNeighbours, LogitYouth), tables_known_before=tables_at)
         text = report(results, state_list, horizons,
                       f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:

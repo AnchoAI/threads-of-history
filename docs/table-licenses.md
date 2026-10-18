@@ -8,3 +8,5 @@ The tables in `data/tables/` come from external datasets, and each keeps its sou
 | `ucdp-*.csv` | UCDP/PRIO Armed Conflict Dataset 26.1 | CC BY 4.0 | Cite both publications listed in `data/datasets/ucdp-prio-armed-conflict.yaml` |
 | `maddison-*.csv` | Maddison Project Database 2023 | CC BY 4.0 | Bolt and van Zanden (2024); graphs must also credit the per-country sources listed in the database (see `data/datasets/maddison-project.yaml`) |
 | `wdi-*.csv` | World Bank World Development Indicators | CC BY 4.0, plus World Bank terms | "The World Bank: World Development Indicators: <indicator source>" must appear with any use |
+
+`forecast/data/neighbours.json` (land borders) is derived from Natural Earth, which is public domain.
