@@ -2,24 +2,35 @@ id: ucdp-prio-armed-conflict
 title: UCDP/PRIO Armed Conflict Dataset
 publisher: Uppsala Conflict Data Program (UCDP) and Peace Research Institute Oslo (PRIO)
 url: https://ucdp.uu.se/downloads/
-version: 25.1 (to confirm)
+version: '26.1'
 license:
-  name: CC BY 4.0 (to confirm)
-  redistribution: unknown
-citation: 'Gleditsch, Nils Petter, Peter Wallensteen, Mikael Eriksson, Margareta Sollenberg and Håvard Strand (2002).
-  Armed Conflict 1946–2001: A New Dataset. Journal of Peace Research 39(5).'
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  redistribution: allowed
+  attribution: Cite both publications in `citation` (the UCDP downloads page lists them under "Please cite").
+citation: 'Shawn Davies, Therése Pettersson, Magnus Öberg, Organized violence 1989–2025, and violent political protests,
+  Journal of Peace Research, 2026. https://doi.org/10.1093/jopres/xjag046; and Gleditsch, Nils Petter, Peter Wallensteen,
+  Mikael Eriksson, Margareta Sollenberg, and Håvard Strand (2002) Armed Conflict 1946-2001: A New Dataset. Journal
+  of Peace Research 39(5).'
 unit_of_analysis: country-year
 coverage:
   start: '1946'
-  end: '2024'
+  end: '2025'
   precision: year
-  approximate: true
+  note: 'UCDP downloads page: "A conflict-year dataset with information on armed conflict where at least one party
+    is the government of a state in the time period 1946-2025."'
 importer: tools/importers/ucdp_armed_conflict.py
 notes:
-- The raw data is one row per conflict-year. The importer turns it into country-year tables such as 'active armed
-  conflict (0/1)'.
+- 'Licence, quoted from https://ucdp.uu.se/downloads/ (archived at https://web.archive.org/web/20261008153407/https://ucdp.uu.se/downloads/):
+  "All datasets are free of charge and licensed under CC BY 4.0 — you are free to use and redistribute them provided
+  you cite the relevant publications listed with each dataset."'
+- 'Version: the downloads page lists "UCDP/PRIO Armed Conflict Dataset version 26.1". No release date is given on
+  that page.'
+- 'Share-alike: no. CC BY 4.0 only requires attribution, so derived tables can go under any licence the project
+  picks, including CC0, as long as the credit line travels with them.'
+- The raw data is one row per conflict-year (unit_of_analysis is set to country-year because that is what the importer
+  produces). The importer turns it into country-year tables such as 'active armed conflict (0/1)'.
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
-    the review status.
+  - Licence, version, coverage and citation checked word for word against the UCDP downloads page on 2026-10-18.
