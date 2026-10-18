@@ -24,14 +24,14 @@ class Markov:
     def __init__(self, states, alpha: float = 0.5):
         self.states, self.alpha = list(states), alpha
 
-    def fit(self, seqs, before):
+    def fit(self, seqs, before, **_):
         counts = {a: {b: self.alpha for b in self.states} for a in self.states}
         for a, b in _transitions(seqs, before):
             counts[a][b] += 1
         self.P = {a: {b: c / sum(row.values()) for b, c in row.items()} for a, row in counts.items()}
         return self
 
-    def predict(self, state, h=1):
+    def predict(self, state, h=1, **_):
         dist = {s: float(s == state) for s in self.states}
         for _ in range(h):
             dist = {b: sum(dist[a] * self.P[a][b] for a in self.states) for b in self.states}
@@ -46,7 +46,7 @@ class BaseRate:
     def __init__(self, states, alpha: float = 0.5):
         self.states, self.alpha = list(states), alpha
 
-    def fit(self, seqs, before):
+    def fit(self, seqs, before, **_):
         counts = {s: self.alpha for s in self.states}
         for years in seqs.values():
             for y, s in years.items():
@@ -56,7 +56,7 @@ class BaseRate:
         self.dist = {s: c / total for s, c in counts.items()}
         return self
 
-    def predict(self, state, h=1):
+    def predict(self, state, h=1, **_):
         return dict(self.dist)
 
 
@@ -69,9 +69,9 @@ class Persistence:
     def __init__(self, states, keep: float = 0.95):
         self.states, self.keep = list(states), keep
 
-    def fit(self, seqs, before):
+    def fit(self, seqs, before, **_):
         return self
 
-    def predict(self, state, h=1):
+    def predict(self, state, h=1, **_):
         rest = (1 - self.keep) / (len(self.states) - 1)
         return {s: self.keep if s == state else rest for s in self.states}

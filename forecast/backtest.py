@@ -22,14 +22,16 @@ from .states import DEFAULT_REQUIRED, DEFAULT_RULES, FIRST_COVERED_YEAR, classif
 MODELS = (Markov, BaseRate, Persistence)
 
 
-def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models=MODELS):
+def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models=MODELS, tables_known_before=None):
     """states_known_before(X) -> {(iso, year): state} as knowable at X; truth likewise, from the latest data.
+    tables_known_before(X) -> {name: table} for models that use conditions beyond the state.
     Returns {(model name, h): {"n", "brier", "log", "pairs"}}."""
     truth_seqs = sequences(truth)
     out = defaultdict(lambda: {"n": 0, "brier": 0.0, "log": 0.0, "pairs": defaultdict(list)})
     for X in cutoffs:
         train = sequences(states_known_before(X))
-        fitted = [m(state_list).fit(train, before=X) for m in models]
+        tables = tables_known_before(X) if tables_known_before else None
+        fitted = [m(state_list).fit(train, before=X, tables=tables, horizons=horizons) for m in models]
         for iso, years in train.items():
             start = years.get(X - 1)
             if start is None:
@@ -39,7 +41,7 @@ def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models
                 if outcome is None:
                     continue
                 for m in fitted:
-                    dist = m.predict(start, h)
+                    dist = m.predict(start, h, iso=iso, year=X - 1)
                     r = out[(m.name, h)]
                     r["n"] += 1
                     r["brier"] += brier(dist, outcome)
@@ -110,16 +112,24 @@ def main(argv=None):
         text = report(results, SYNTH_STATES, horizons, "Backtest on a made-up world")
     else:
         from .panel import load_table
+        from .logit import TABLES as LOGIT_TABLES, Logit
         names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
+        names += [n for n in LOGIT_TABLES if n not in names]
         try:
             tables = lambda X=None: {n: load_table(n, known_before=X) for n in names}
             latest = classify(tables(), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
         except FileNotFoundError as e:
             raise SystemExit(f"{e}\nThe real backtest needs the importers (docs/forecasting.md, step 2). "
                              "Try --synthetic to see how it works.")
-        known = lambda X: classify(tables(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
         state_list = states_of(DEFAULT_RULES)
-        results = run(known, latest, state_list, cutoffs, horizons)
+        cache = {}
+        def tables_at(X):
+            if X not in cache:
+                cache.clear()
+                cache[X] = tables(X)
+            return cache[X]
+        known = lambda X: classify(tables_at(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
+        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit,), tables_known_before=tables_at)
         text = report(results, state_list, horizons,
                       f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:

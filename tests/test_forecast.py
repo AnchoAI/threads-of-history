@@ -67,3 +67,24 @@ def test_classify_uses_the_first_matching_rule_and_skips_gaps():
     got = classify(tables, rules, required=["dem"])
     assert got == {("AAA", 2000): "war", ("BBB", 2000): "autocracy"}
     assert classify({"dem": {}, "war": {("CCC", 2000): 1}}, rules, required=["dem"]) == {}
+
+
+def test_logit_uses_conditions_the_markov_chain_cannot_see():
+    import random
+    from forecast.logit import Logit
+    rng = random.Random(3)
+    states = ["democracy", "autocracy", "civil-war"]
+    world, dem = {}, {}
+    for c in range(80):
+        iso = f"C{c:02d}"
+        score = rng.random()  # fixed per country: low scores make civil war far likelier
+        s = "democracy" if score > 0.5 else "autocracy"
+        for y in range(1950, 2011):
+            world[(iso, y)] = s
+            dem[(iso, y)] = score
+            war = 0.02 + 0.25 * (1 - score) ** 3
+            s = "civil-war" if rng.random() < war else ("democracy" if score > 0.5 else "autocracy")
+    known = lambda X: {k: v for k, v in world.items() if k[1] < X}
+    tables = lambda X: {"vdem-electoral-democracy": {k: v for k, v in dem.items() if k[1] < X}}
+    res = run(known, world, states, range(1990, 2000), horizons=(1,), models=(Markov, Logit), tables_known_before=tables)
+    assert res[("logit", 1)]["log"] < res[("markov", 1)]["log"]
