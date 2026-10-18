@@ -28,6 +28,7 @@ The file `prototype/index.html` (attached alongside this handoff) is a working s
 - Compressed past: with more than 300 years of data, the time axis follows the square root of the time before today, so long arcs (from 1054 to 2019, say) fit without squashing the 20th century. A toggle switches to even time. In `viewer/src/timescale.js`.
 - Era zones: faint bands along the time axis for long, well-connected importance-5 events in view (the World Wars, the Reformation, the Great Depression...), derived from the data with no extra format. Rules in `viewer/src/eras.js`.
 - Next for the viewer: series as bands.
+- Forecasting started (October 2026): the plan is `docs/forecasting.md`. `forecast/` has country-year states, a Markov chain, persistence and base-rate baselines, Brier and log scores, calibration, and a rolling backtest that never looks ahead (`load_table(known_before=X)` drops figures published from year X on). `python -m forecast.backtest --synthetic` shows it on a made-up world; the real run waits on the importers (step 2), which wait on the licence checks (Task 3a).
 
 ## Decisions since the handoff
 
