@@ -15,11 +15,12 @@ Lookup = Callable[[str], float | None]
 DEFAULT_RULES: list[tuple[str, Callable[[Lookup], bool]]] = [
     ("civil-war", lambda v: (v("ucdp-intrastate-max-intensity") or 0) >= 2),
     ("armed-conflict", lambda v: (v("ucdp-any-conflict") or 0) >= 1),
-    ("coup", lambda v: (v("powell-thyne-successful-coups") or 0) >= 1),
+    # ("coup", ...) waits for the Powell & Thyne licence (data/datasets/powell-thyne-coups.yaml)
     ("democracy", lambda v: (v("vdem-electoral-democracy") or 0) >= 0.5),
     ("autocracy", lambda v: True),
 ]
 DEFAULT_REQUIRED = ["vdem-electoral-democracy"]
+FIRST_COVERED_YEAR = 1946  # UCDP starts here; before it, "no conflict recorded" isn't evidence of peace
 
 
 def states_of(rules) -> list[str]:
@@ -27,10 +28,10 @@ def states_of(rules) -> list[str]:
 
 
 def classify(tables: dict[str, dict[tuple[str, int], float]], rules=DEFAULT_RULES,
-             required=DEFAULT_REQUIRED) -> dict[tuple[str, int], str]:
+             required=DEFAULT_REQUIRED, since: int | None = None) -> dict[tuple[str, int], str]:
     keys = set()
     for name in required:
-        keys |= set(tables[name])
+        keys |= {k for k in tables[name] if since is None or k[1] >= since}
     out = {}
     for key in sorted(keys):
         if any(key not in tables[name] for name in required):

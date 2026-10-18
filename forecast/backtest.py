@@ -17,7 +17,7 @@ from collections import defaultdict
 
 from .markov import BaseRate, Markov, Persistence
 from .scoring import brier, calibration, log_score
-from .states import DEFAULT_REQUIRED, DEFAULT_RULES, classify, sequences, states_of
+from .states import DEFAULT_REQUIRED, DEFAULT_RULES, FIRST_COVERED_YEAR, classify, sequences, states_of
 
 MODELS = (Markov, BaseRate, Persistence)
 
@@ -110,18 +110,18 @@ def main(argv=None):
         text = report(results, SYNTH_STATES, horizons, "Backtest on a made-up world")
     else:
         from .panel import load_table
-        names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict",
-                 "powell-thyne-successful-coups"]
+        names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
         try:
             tables = lambda X=None: {n: load_table(n, known_before=X) for n in names}
-            latest = classify(tables(), DEFAULT_RULES, DEFAULT_REQUIRED)
+            latest = classify(tables(), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
         except FileNotFoundError as e:
             raise SystemExit(f"{e}\nThe real backtest needs the importers (docs/forecasting.md, step 2). "
                              "Try --synthetic to see how it works.")
-        known = lambda X: classify(tables(X), DEFAULT_RULES, DEFAULT_REQUIRED)
+        known = lambda X: classify(tables(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
         state_list = states_of(DEFAULT_RULES)
         results = run(known, latest, state_list, cutoffs, horizons)
-        text = report(results, state_list, horizons)
+        text = report(results, state_list, horizons,
+                      f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:
         open(args.out, "w", encoding="utf-8").write(text)
     print(text)

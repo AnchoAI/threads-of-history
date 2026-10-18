@@ -30,10 +30,10 @@ The event graph (events, links, sources) explains history but can't predict it. 
 
 | # | Step | Status |
 |---|---|---|
-| 1 | Check the licences of the registered datasets (Task 3a); register Ethnic Power Relations, Archigos, Penn World Table, UN population data, World Bank WDI, UCDP GED and IMF World Economic Outlook vintages | in progress |
-| 2 | Importers for V-Dem, UCDP/PRIO, Powell & Thyne and Maddison into `data/tables/` | next |
+| 1 | Check the licences of the registered datasets (Task 3a); register Ethnic Power Relations, Archigos, Penn World Table, UN population data, World Bank WDI, UCDP GED and IMF World Economic Outlook vintages | done: cleared V-Dem (CC BY-SA, share-alike), UCDP, Maddison, Penn World Table, UN WPP, World Bank WDI; blocked (no readable licence): Powell & Thyne, EPR, Archigos, IMF vintages |
+| 2 | Importers into `data/tables/` | V-Dem and UCDP/PRIO done; Maddison, Penn World Table, UN WPP and World Bank infant mortality next; Powell & Thyne waits on its licence |
 | 3 | `forecast/`: country states, a Markov chain, baselines, backtest and Brier scoring | in progress (built and tested on synthetic data) |
-| 4 | First real backtest: train up to each year from 1960 to 2014, predict 1–5 years ahead, and compare against the baselines | after 2 |
+| 4 | First real backtest: train up to each year from 1960 to 2014, predict 1–5 years ahead, and compare against the baselines | done: `docs/backtests/2026-10-markov-baseline.md`. The Markov chain beats both baselines |
 | 5 | Hazard (survival) models with the Political Instability Task Force's predictors: infant mortality, regime type, neighbours in conflict, ethnic exclusion. A replication of a published model | after 4 |
 | 6 | Hierarchical model with contagion from neighbours, then an ensemble | later |
 | 7 | Forecast aggregation and benchmarks: prediction markets, human forecasters, and AI models given only what was knowable on a date | later |
@@ -46,7 +46,7 @@ Each country-year gets exactly one state. The first matching rule wins:
 
 1. `civil-war`: UCDP/PRIO records an intrastate conflict with at least 1,000 battle deaths that year.
 2. `armed-conflict`: any UCDP/PRIO conflict on the country's territory that year (25 or more battle deaths).
-3. `coup`: Powell & Thyne record a successful coup that year.
+3. `coup`: Powell & Thyne record a successful coup that year. *(Left out until its licence is resolved.)*
 4. `democracy`: V-Dem electoral democracy index (`v2x_polyarchy`) of 0.5 or more.
 5. `autocracy`: everything else.
 
