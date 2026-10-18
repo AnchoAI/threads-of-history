@@ -2,24 +2,44 @@ id: v-dem
 title: Varieties of Democracy (V-Dem) Country-Year dataset
 publisher: V-Dem Institute, University of Gothenburg
 url: https://v-dem.net/data/the-v-dem-dataset/
-version: v15 (to confirm it is the latest)
+download_url: https://v-dem.net/data/the-v-dem-dataset/
+version: v16 (March 2026)
 license:
-  name: CC BY-SA 4.0 (to confirm)
-  redistribution: unknown
-citation: Coppedge, Michael et al. V-Dem Country-Year Dataset. Varieties of Democracy (V-Dem) Project.
+  name: CC BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  redistribution: allowed
+  attribution: Cite the v16 dataset as given in `citation`, and distribute anything derived from it under CC BY-SA 4.0.
+citation: Coppedge, Michael, John Gerring, Carl Henrik Knutsen, Staffan I. Lindberg, Jan Teorell, David Altman, Fabio
+  Angiolillo, Michael Bernhard, Agnes Cornell, M. Steven Fish, Linnea Fox, Lisa Gastaldi, Haakon Gjerløw, Adam Glynn,
+  Ana Good God, Allen Hicken, Katrin Kinzelbach, Joshua Krusell, Kyle L. Marquardt, Kelly McMann, Valeriya Mechkova,
+  Juraj Medzihorsky, Anja Neundorf, Pamela Paxton, Daniel Pemstein, Josefine Pernes, Johannes von Römer, Brigitte Seim,
+  Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Aksel Sundström, Marcus Tannenberg, Eitan Tzelgov, Yi-ting Wang,
+  Tore Wig, Steven Wilson and Daniel Ziblatt. 2026. ”V-Dem [Country-Year/Country-Date] Dataset v16” Varieties of Democracy
+  (V-Dem) Project. https://doi.org/10.23696/vdemds26.
 unit_of_analysis: country-year
 coverage:
   start: '1789'
-  end: '2024'
   precision: year
-  approximate: true
+  ongoing: true
+  note: 'V-Dem project page: "which measures 600+ indicators annually from 1789 to the present for all countries of
+    the world" (https://www.v-dem.net/about/v-dem-project/). The exact last year in v16 was not checked.'
 importer: tools/importers/vdem.py
 notes:
-- 'First use: a handful of indices (electoral democracy, liberal democracy, civil liberties), not the thousands
-  of raw variables.'
-- If the licence is share-alike, record what that means for this project's own licence choice.
+- 'Licence, quoted from https://v-dem.net/data/the-v-dem-dataset/ (archived at https://web.archive.org/web/20261009040949/https://v-dem.net/data/the-v-dem-dataset/):
+  "The V-Dem Dataset is publicly available and published under a Creative Commons Attribution-ShareAlike (CC BY-SA)
+  4.0 license." The same paragraph adds: "provided that appropriate attribution is given and that any derivative products
+  are distributed under the same license terms".'
+- 'Version, from the same page: "Download Country-Year: V-Dem Full+Others version 16", listed with version date March
+  2026. The citation above is copied from "The proper citation for the v16 dataset is:" on that page.'
+- 'Share-alike: yes. Any table this project derives from V-Dem (the planned v2x_polyarchy, v2x_libdem and v2x_civlib
+  series) must be published under CC BY-SA 4.0. If the project picks CC0 or CC BY for its own data, V-Dem tables
+  must ship as a separately licensed part of dist/ with their own licence notice, or the project has to adopt CC BY-SA
+  for the whole dataset. This is our reading of the licence, not legal advice.'
+- 'First use: a handful of indices (electoral democracy, liberal democracy, civil liberties), not the thousands of raw
+  variables.'
+- The V-Dem site warns that index values are not comparable across versions; pin v16 for every import.
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
-    the review status.
+  - Licence, version and citation checked word for word against the V-Dem dataset page on 2026-10-18. A person still
+    needs to confirm the share-alike consequence for the project's own licence.

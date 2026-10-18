@@ -8,19 +8,27 @@ license:
   name: CC0 1.0
   url: https://creativecommons.org/publicdomain/zero/1.0/
   redistribution: allowed
-citation: Wikidata contributors. Wikidata. Wikimedia Foundation.
+  attribution: None required by CC0. Crediting Wikidata is still good practice.
+citation: Wikidata contributors. Wikidata. Wikimedia Foundation. https://www.wikidata.org/ (accessed on the import
+  date).
 unit_of_analysis: event
 coverage:
   start: '1900'
   precision: year
   ongoing: true
-  note: This project imports from 1900 onwards.
+  note: This project imports from 1900 onwards (plus hand-picked long-arc items).
 importer: tools/importers/wikidata_events.py
 notes:
-- Used for event skeletons (dates, places, participants) and ids. Imports go to the candidate pool in staging/,
-  not straight into data/.
+- 'Licence, quoted from https://www.wikidata.org/wiki/Wikidata:Licensing: "All structured data (i.e. the main, Property,
+  Lexeme, and EntitySchema namespaces) is released into the public domain under Creative Commons Zero." Text in other
+  namespaces (talk and project pages) is CC BY-SA 4.0 and is not imported.'
+- 'Citation: Wikidata publishes no official recommended citation (https://www.wikidata.org/wiki/Wikidata:Citing_Wikidata
+  returns 404). The citation above is our own form, not one copied from Wikidata.'
+- 'Share-alike: no. CC0 has no conditions, so it fits any licence the project picks.'
+- Used for event skeletons (dates, places, participants) and ids. Imports go to the candidate pool in staging/, not
+  straight into data/.
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
-    the review status.
+  - Licence checked word for word against Wikidata:Licensing on 2026-10-18. The citation is not an official one (see
+    notes).
