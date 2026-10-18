@@ -1,0 +1,59 @@
+id: alphago-defeats-lee-sedol-2016--led_to--china-next-generation-ai-plan-2017
+from: alphago-defeats-lee-sedol-2016
+to: china-next-generation-ai-plan-2017
+type: led_to
+confidence: contested
+note: AlphaGo's victories are described as China's "Sputnik moment" for AI; others put more weight on
+  US trade restrictions and earlier Chinese plans.
+sources:
+- url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+  title: Artificial intelligence industry in China
+  publisher: Wikipedia
+  quote: Various interpretations of the primary cause for this increased focus exist, with some analyses
+    focusing on the 2016 Go match between Google's AlphaGo and Lee Sedol
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: AlphaGo's wins were China's "Sputnik moment" and led to the government's AI plan.
+  held_by:
+  - Kai-Fu Lee, AI Superpowers (2018)
+  sources:
+  - url: https://amp.tvo.org/article/excerpt-kai-fu-lees-ai-superpowers-china-silicon-valley-and-the-new-world-order
+    title: 'Excerpt: Kai-Fu Lee''s AI Superpowers'
+    publisher: TVO
+    quote: To people here, AlphaGo’s victories were both a challenge and an inspiration. They turned into
+      China’s “Sputnik moment” for artificial intelligence.
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://amp.tvo.org/article/excerpt-kai-fu-lees-ai-superpowers-china-silicon-valley-and-the-new-world-order
+    title: 'Excerpt: Kai-Fu Lee''s AI Superpowers'
+    publisher: TVO
+    quote: And less than two months after Ke Jie resigned his last game to AlphaGo, the Chinese central
+      government issued an ambitious plan to build artificial intelligence capabilities.
+    type: scholarly
+    accessed: '2026-10-15'
+- claim: China's AI push came mainly from earlier state planning, US trade restrictions and the goal of
+    technological self-sufficiency.
+  held_by:
+  - Analyses emphasising US trade restrictions and earlier plans (as summarised by Wikipedia)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+    title: Artificial intelligence industry in China
+    publisher: Wikipedia
+    quote: others emphasising the U.S. increasing trade restrictions on China's technology industries
+      and the desire to achieve national technological self-sufficiency.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+    title: Artificial intelligence industry in China
+    publisher: Wikipedia
+    quote: In 2016, the Chinese Communist Party (CCP) released its 13th Five-Year Plan in which it aimed
+      to become a global AI leader by 2030.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The second position is sourced to a Wikipedia summary of unnamed analyses; a named scholarly source
+    should replace it.

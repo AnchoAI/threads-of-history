@@ -1,0 +1,25 @@
+id: vostok-1-gagarin-1961--part_of--space-race-1955
+from: vostok-1-gagarin-1961
+to: space-race-1955
+type: part_of
+confidence: documented
+note: Gagarin's flight was a Soviet first in the Space Race.
+sources:
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first person to fly in space, reinforcing
+    American fears about being left behind in a technological competition with the Soviet Union.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Gagarin's flight led US president John F. Kennedy to raise the stakes
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

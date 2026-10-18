@@ -1,0 +1,25 @@
+id: second-world-war-1939-1945--led_to--eniac-1945
+from: second-world-war-1939-1945
+to: eniac-1945
+type: led_to
+confidence: documented
+note: ENIAC was built for the US Army's wartime ballistics work and rushed to completion under war priorities.
+sources:
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: During World War II, while the U.S. Army needed to compute ballistics trajectories, many women
+    were interviewed for this task.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: it was not initially implemented in ENIAC because World War II priorities required the machine
+    to be completed quickly
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

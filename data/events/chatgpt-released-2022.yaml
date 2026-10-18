@@ -1,0 +1,36 @@
+id: chatgpt-released-2022
+title: ChatGPT released
+summary: OpenAI releases ChatGPT, a chatbot built on generative pre-trained transformer language models.
+  It accelerated the AI boom, a period of rapid investment and public attention to artificial intelligence.
+occurred:
+  start: '2022-11-30'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- openai
+importance: 4
+wikidata: Q115564437
+sources:
+- url: https://en.wikipedia.org/wiki/ChatGPT
+  title: ChatGPT
+  publisher: Wikipedia
+  quote: ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022,
+    the product uses large language models—specifically generative pre-trained transformers (GPTs)—to
+    generate text, speech, and images in response to user prompts.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ChatGPT
+  title: ChatGPT
+  publisher: Wikipedia
+  quote: ChatGPT accelerated the AI boom, an ongoing period marked by rapid investment and public attention
+    toward the field of artificial intelligence (AI).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

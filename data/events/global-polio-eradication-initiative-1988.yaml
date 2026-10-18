@@ -1,0 +1,48 @@
+id: global-polio-eradication-initiative-1988
+title: Global Polio Eradication Initiative launched
+summary: After a World Health Assembly resolution, the WHO, Rotary International, UNICEF and the US CDC
+  launch a campaign to eradicate polio by 2000. Reported cases fell from an estimated 350,000 in 1988
+  to 33 in 2018, though the disease was not eradicated.
+occurred:
+  start: '1988'
+  precision: year
+threads:
+- industry
+regions:
+- south-central-asia
+- sub-saharan-africa
+- americas
+actors:
+- world-health-organization
+importance: 3
+wikidata: Q24895628
+sources:
+- url: https://en.wikipedia.org/wiki/Polio_eradication
+  archive_url: https://web.archive.org/web/20261004193143/https://en.wikipedia.org/wiki/Polio_eradication
+  title: Polio eradication
+  publisher: Wikipedia
+  quote: In 1988, the World Health Organization (WHO), together with Rotary International, UNICEF, and
+    the U.S. Centers for Disease Control and Prevention (CDC) passed the Global Polio Eradication Initiative
+    (GPEI), with the goal of eradicating polio by the year 2000.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Global_Polio_Eradication_Initiative
+  archive_url: https://web.archive.org/web/20260924022129/https://en.wikipedia.org/wiki/Global_Polio_Eradication_Initiative
+  title: Global Polio Eradication Initiative
+  publisher: Wikipedia
+  quote: The Global Polio Eradication Initiative is an initiative created in 1988, just after the World
+    Health Assembly resolved to eradicate the disease poliomyelitis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: reduced the number of cases reported each year from an estimated 350,000 in 1988 to 33 in 2018.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

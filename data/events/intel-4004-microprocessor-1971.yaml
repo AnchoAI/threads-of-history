@@ -1,0 +1,48 @@
+id: intel-4004-microprocessor-1971
+title: Intel 4004, the first commercial single-chip microprocessor
+summary: Intel releases the 4004, the first commercial single-chip microprocessor, developed with the
+  Japanese calculator maker Busicom; the chip held 2,300 transistors.
+occurred:
+  start: '1971-11-15'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+- east-asia
+actors:
+- intel
+importance: 4
+wikidata: Q205509
+sources:
+- url: https://en.wikipedia.org/wiki/Intel_4004
+  title: Intel 4004
+  publisher: Wikipedia
+  quote: The Intel 4004, released by the Intel Corporation on November 15, 1971, was the first in a long
+    line of Intel central processing units (CPUs).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/History_of_the_transistor
+  title: History of the transistor
+  publisher: Wikipedia
+  quote: The first commercial single-chip microprocessor, the Intel 4004, was developed by Federico Faggin
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Intel_4004
+  title: Intel 4004
+  publisher: Wikipedia
+  quote: The project originated in 1969 when Busicom Corp. commissioned Intel to design a family of seven
+    chips for electronic calculators
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Intel_4004
+  title: Intel 4004
+  publisher: Wikipedia
+  quote: allowing a single chip to contain 2,300 transistors
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

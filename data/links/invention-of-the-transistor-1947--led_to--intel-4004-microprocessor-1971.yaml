@@ -1,0 +1,32 @@
+id: invention-of-the-transistor-1947--led_to--intel-4004-microprocessor-1971
+from: invention-of-the-transistor-1947
+to: intel-4004-microprocessor-1971
+type: led_to
+confidence: documented
+note: 'The microprocessor is built from transistors: the Intel 4004 put 2,300 MOS transistors on one chip.'
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_the_transistor
+  title: History of the transistor
+  publisher: Wikipedia
+  quote: The MOS transistor has been described as the "workhorse of the electronics industry" due to being
+    the building block of every microprocessor, memory chip and telecommunication circuit in use.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/History_of_the_transistor
+  title: History of the transistor
+  publisher: Wikipedia
+  quote: The MOSFET is the basis of every microprocessor.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Intel_4004
+  title: Intel 4004
+  publisher: Wikipedia
+  quote: allowing a single chip to contain 2,300 transistors
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The 1947 device was a point-contact transistor; the source traces the microprocessor to the later
+    MOS transistor, which descends from it.

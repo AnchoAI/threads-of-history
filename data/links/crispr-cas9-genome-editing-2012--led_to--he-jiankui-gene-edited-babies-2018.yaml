@@ -1,0 +1,25 @@
+id: crispr-cas9-genome-editing-2012--led_to--he-jiankui-gene-edited-babies-2018
+from: crispr-cas9-genome-editing-2012
+to: he-jiankui-gene-edited-babies-2018
+type: led_to
+confidence: documented
+note: He Jiankui used CRISPR/Cas9 to edit the embryos.
+sources:
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: use of CRISPR gene editing (CRISPR/Cas9), a technology for modifying DNA
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: then edited the genomes of the embryos using CRISPR/Cas9
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

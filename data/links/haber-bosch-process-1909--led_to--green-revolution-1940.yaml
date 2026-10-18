@@ -1,0 +1,37 @@
+id: haber-bosch-process-1909--led_to--green-revolution-1940
+from: haber-bosch-process-1909
+to: green-revolution-1940
+type: led_to
+confidence: documented
+note: The Green Revolution's new seeds depended on synthetic nitrogen fertilizer, the product of the Haber–Bosch
+  process.
+sources:
+- url: https://en.wikipedia.org/wiki/Green_Revolution
+  archive_url: https://web.archive.org/web/20261009101030/https://en.wikipedia.org/wiki/Green_Revolution
+  title: Green Revolution
+  publisher: Wikipedia
+  quote: The technologies in cultivation are targeted at providing excellent growing conditions, which
+    include modern irrigation projects, pesticides, and synthetic nitrogen fertilizer.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Green_Revolution
+  archive_url: https://web.archive.org/web/20261009101030/https://en.wikipedia.org/wiki/Green_Revolution
+  title: Green Revolution
+  publisher: Wikipedia
+  quote: to produce their high yields, the new seeds require far more fertilizer than traditional varieties
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Green_Revolution
+  archive_url: https://web.archive.org/web/20261009101030/https://en.wikipedia.org/wiki/Green_Revolution
+  title: Green Revolution
+  publisher: Wikipedia
+  quote: The energy for the Green Revolution was provided by fossil fuels in the form of fertilizers (natural
+    gas)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The source names synthetic nitrogen fertilizer rather than the Haber–Bosch process by name; the Haber–Bosch
+    item's own sources establish that synthetic nitrogen fertilizer is made by that process.

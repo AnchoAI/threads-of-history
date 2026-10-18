@@ -1,0 +1,54 @@
+id: ibm-personal-computer-1981
+title: IBM Personal Computer released
+summary: IBM releases its Personal Computer, built from off-the-shelf parts around an Intel 8088 processor.
+  Its open design became the basis of the "IBM PC compatible" standard followed by most later personal
+  computers.
+occurred:
+  start: '1981-08-12'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- ibm
+- intel
+importance: 4
+wikidata: Q202712
+sources:
+- url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  archive_url: https://web.archive.org/web/20261012074112/https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  title: IBM Personal Computer
+  publisher: Wikipedia
+  quote: is the first microcomputer released in the IBM PC model line and the basis for the IBM PC compatible
+    de facto standard. Released on August 12, 1981
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  archive_url: https://web.archive.org/web/20261012074112/https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  title: IBM Personal Computer
+  publisher: Wikipedia
+  quote: Powered by an x86-architecture Intel 8088 processor, the machine was based on open architecture
+    and third-party peripherals.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  archive_url: https://web.archive.org/web/20261012074112/https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  title: IBM Personal Computer
+  publisher: Wikipedia
+  quote: the specifications of the IBM PC became one of the most popular computer design standards in
+    the world
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  archive_url: https://web.archive.org/web/20261012074112/https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  title: IBM Personal Computer
+  publisher: Wikipedia
+  quote: they insisted the company use a design based on standard parts, not IBM-designed ones
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

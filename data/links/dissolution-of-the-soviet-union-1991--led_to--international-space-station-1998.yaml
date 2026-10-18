@@ -1,0 +1,30 @@
+id: dissolution-of-the-soviet-union-1991--led_to--international-space-station-1998
+from: dissolution-of-the-soviet-union-1991
+to: international-space-station-1998
+type: led_to
+confidence: documented
+note: The Soviet collapse left Mir-2 in jeopardy and led the US and Russia to merge their station plans
+  into the ISS.
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: The collapse of the Soviet Union eventually allowed the US and the newly reconstituted Russian
+    Federation to end their Cold War competition also in space, by agreeing in 1993 on the Shuttle–Mir
+    and International Space Station programs.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Space_Station
+  archive_url: https://web.archive.org/web/20261013012825/https://en.wikipedia.org/wiki/International_Space_Station
+  title: International Space Station
+  publisher: Wikipedia
+  quote: However the collapse of the Soviet Union required these plans to be greatly downscaled, and soon
+    Mir-2 was in danger of never being launched at all. With both space station projects in jeopardy,
+    American and Russian officials met and proposed they be combined.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

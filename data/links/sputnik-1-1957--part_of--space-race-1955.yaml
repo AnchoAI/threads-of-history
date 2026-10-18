@@ -1,0 +1,26 @@
+id: sputnik-1-1957--part_of--space-race-1955
+from: sputnik-1-1957
+to: space-race-1955
+type: part_of
+confidence: documented
+note: Sputnik brought the Space Race to Western public attention.
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: The competition gained Western public attention with the "Sputnik crisis", when the USSR achieved
+    the first successful satellite launch, Sputnik 1, on October 4, 1957.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sputnik_1
+  archive_url: https://web.archive.org/web/20261013003213/https://en.wikipedia.org/wiki/Sputnik_1
+  title: Sputnik 1
+  publisher: Wikipedia
+  quote: This precipitated the American Sputnik crisis and triggered the start of the Space Race.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
