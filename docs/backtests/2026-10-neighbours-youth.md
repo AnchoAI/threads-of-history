@@ -6,6 +6,8 @@
 - **Neighbours at war** (`logit+neighbours`): the share of land neighbours in armed conflict or civil war, and whether any neighbour was in civil war. Borders come from Natural Earth (public domain), with the USSR, Yugoslavia and Czechoslovakia rebuilt for the years they existed (`forecast/neighbours.py`).
 - **Youth bulge** (`logit+youth`): people aged 15–24 as a share of all adults, from World Bank series based on UN World Population Prospects.
 
+> **Update, 2026-10-19:** this conclusion was too strong. Scored on new wars only (`2026-10-regional-unrest.md`), neighbours do help: AUC +0.020 at 1 year and +0.016 at 5 years, both with intervals clear of zero. The overall scores below hide the effect.
+
 **Answer: no, not in this form.** Both variants score about the same as the plain covariate model, and slightly worse at 5 years. Neither becomes the default. Likely reasons:
 - Over all country-years the scores are dominated by "wars continue, peace continues". The few new wars where neighbours might matter barely move the average. The case studies (`2026-10-case-studies.md`) also showed no clear gain on onsets. Syria 2011 stays a miss: the Arab Spring spread across a region, not along Syria's own borders.
 - The youth bulge overlaps with infant mortality and income, which the model already has. Studies that find a youth-bulge effect usually find it weakens once development is controlled for.

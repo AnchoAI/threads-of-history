@@ -16,10 +16,12 @@ import random
 from collections import defaultdict
 
 from .markov import BaseRate, Markov, Persistence
-from .scoring import brier, calibration, log_score
+from .scoring import auc, brier, calibration, log_score
 from .states import DEFAULT_REQUIRED, DEFAULT_RULES, FIRST_COVERED_YEAR, classify, sequences, states_of
 
 MODELS = (Markov, BaseRate, Persistence)
+CONFLICT_STATES = ("armed-conflict", "civil-war")
+ONSET_FROM_EXCLUDED = CONFLICT_STATES  # onset scores only count countries at peace the year before
 
 
 def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models=MODELS, tables_known_before=None):
@@ -27,7 +29,7 @@ def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models
     tables_known_before(X) -> {name: table} for models that use conditions beyond the state.
     Returns {(model name, h): {"n", "brier", "log", "pairs"}}."""
     truth_seqs = sequences(truth)
-    out = defaultdict(lambda: {"n": 0, "brier": 0.0, "log": 0.0, "pairs": defaultdict(list)})
+    out = defaultdict(lambda: {"n": 0, "brier": 0.0, "log": 0.0, "pairs": defaultdict(list), "onset": []})
     for X in cutoffs:
         train = sequences(states_known_before(X))
         tables = tables_known_before(X) if tables_known_before else None
@@ -48,10 +50,44 @@ def run(states_known_before, truth, state_list, cutoffs, horizons=(1, 5), models
                     r["log"] += log_score(dist, outcome)
                     for s in state_list:
                         r["pairs"][s].append((dist[s], s == outcome))
+                    if start not in ONSET_FROM_EXCLUDED:
+                        r["onset"].append((sum(dist.get(s, 0) for s in CONFLICT_STATES), outcome in CONFLICT_STATES))
     for r in out.values():
         r["brier"] /= max(r["n"], 1)
         r["log"] /= max(r["n"], 1)
     return dict(out)
+
+
+def auc_difference(a_pairs, b_pairs, reps=1000, seed=1):
+    """AUC(a) - AUC(b) on the same cases, with a paired bootstrap 95% interval."""
+    import numpy as np
+
+    pa = np.array([p for p, _ in a_pairs])
+    pb = np.array([p for p, _ in b_pairs])
+    y = np.array([hit for _, hit in a_pairs], dtype=bool)
+
+    def rank_auc(p, y):
+        order = np.argsort(p, kind="mergesort")
+        ranks = np.empty(len(p))
+        sp = p[order]
+        i = 0
+        while i < len(sp):  # average ranks for ties
+            j = i
+            while j + 1 < len(sp) and sp[j + 1] == sp[i]:
+                j += 1
+            ranks[order[i:j + 1]] = (i + j) / 2 + 1
+            i = j + 1
+        n1, n0 = y.sum(), (~y).sum()
+        return (ranks[y].sum() - n1 * (n1 + 1) / 2) / (n1 * n0) if n1 and n0 else np.nan
+
+    d = rank_auc(pa, y) - rank_auc(pb, y)
+    rng = np.random.default_rng(seed)
+    diffs = []
+    for _ in range(reps):
+        i = rng.integers(0, len(y), len(y))
+        diffs.append(rank_auc(pa[i], y[i]) - rank_auc(pb[i], y[i]))
+    lo, hi = np.nanpercentile(diffs, [2.5, 97.5])
+    return float(d), float(lo), float(hi)
 
 
 def report(results, state_list, horizons, title="Backtest") -> str:
@@ -62,6 +98,32 @@ def report(results, state_list, horizons, title="Backtest") -> str:
             if hh == h:
                 lines.append(f"| {name} | {r['n']} | {r['brier']:.4f} | {r['log']:.4f} |")
         lines.append("")
+    lines += ["## New conflicts: countries at peace the year before", "",
+              "Only countries not in armed conflict or civil war at the start. The question is whether a new conflict "
+              "breaks out by the horizon. Brier is for that yes/no forecast. AUC is the chance that a country where conflict "
+              "did break out was rated riskier than one where it didn't (0.5 is a coin flip, 1.0 perfect).", ""]
+    for h in horizons:
+        lines += [f"### {h} year{'s' if h > 1 else ''} ahead", "", "| model | forecasts | new conflicts | Brier | AUC |", "|---|---|---|---|---|"]
+        rows = []
+        for (name, hh), r in results.items():
+            if hh != h or not r["onset"]:
+                continue
+            o = r["onset"]
+            b = sum((p - hit) ** 2 for p, hit in o) / len(o)
+            a = auc(o)
+            rows.append((-(a or 0), name, len(o), sum(hit for _, hit in o), b, a))
+        for _, name, n, k, b, a in sorted(rows):
+            lines.append(f"| {name} | {n} | {k} | {b:.4f} | {a:.3f} |" if a is not None else f"| {name} | {n} | {k} | {b:.4f} | – |")
+        lines.append("")
+        ref = results.get(("logit", h), {}).get("onset")
+        if ref:
+            lines += ["Each variant against the plain covariate model (`logit`), on the same forecasts: the change in AUC, "
+                      "with a 95% interval from 1,000 bootstrap resamples. An interval that includes 0 means the gain could be luck.", ""]
+            for (name, hh), r in sorted(results.items()):
+                if hh == h and name.startswith("logit+") and len(r["onset"]) == len(ref):
+                    d, lo, hi = auc_difference(r["onset"], ref)
+                    lines.append(f"- {name}: {d:+.3f} ({lo:+.3f} to {hi:+.3f})")
+            lines.append("")
     lines += ["## Calibration of the Markov model, 1 year ahead", "",
               "When the model said about p, how often did it happen?", ""]
     pairs = results.get(("markov", horizons[0]), {}).get("pairs", {})
@@ -112,7 +174,7 @@ def main(argv=None):
         text = report(results, SYNTH_STATES, horizons, "Backtest on a made-up world")
     else:
         from .panel import load_table
-        from .logit import TABLES as LOGIT_TABLES, Logit, LogitNeighbours, LogitYouth
+        from .logit import TABLES as LOGIT_TABLES, Logit, LogitMobilization, LogitNeighbours, LogitRegion, LogitRegionMobilization, LogitUnrest, LogitYouth
         names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
         names += [n for n in LOGIT_TABLES if n not in names]
         try:
@@ -129,7 +191,7 @@ def main(argv=None):
                 cache[X] = tables(X)
             return cache[X]
         known = lambda X: classify(tables_at(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
-        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit, LogitNeighbours, LogitYouth), tables_known_before=tables_at)
+        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit, LogitNeighbours, LogitYouth, LogitRegion, LogitMobilization, LogitRegionMobilization, LogitUnrest), tables_known_before=tables_at)
         text = report(results, state_list, horizons,
                       f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:

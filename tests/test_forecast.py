@@ -97,3 +97,11 @@ def test_neighbours_rebuild_federations():
     assert "AFG" in ussr and "IRN" in ussr and "UKR" not in ussr  # via Turkmenistan etc.; members excluded
     assert "AFG" not in neighbours("RUS", 2000)
     assert neighbours("DDR", 1970) == {"DEU", "POL", "CZE"}
+
+
+def test_auc():
+    from forecast.scoring import auc
+    assert auc([(0.9, True), (0.1, False)]) == 1.0
+    assert auc([(0.1, True), (0.9, False)]) == 0.0
+    assert auc([(0.5, True), (0.5, False)]) == 0.5
+    assert auc([(0.5, True)]) is None

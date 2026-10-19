@@ -14,6 +14,9 @@ The variant LogitNeighbours also uses the share of land neighbours in armed conf
 war that year, and whether any neighbour was in civil war (see forecast/neighbours.py). In the
 October 2026 backtest it did not improve on Logit, so it is reported alongside, not used by default.
 LogitYouth adds the youth bulge (share of 15-24 year olds among adults, wdi-youth-bulge).
+LogitRegion adds region-wide unrest: the share of other countries in the same V-Dem region
+in conflict, and the share with a new conflict this year or last. LogitMobilization adds
+mass protest: the country's own level and change, and its region's average.
 
 Missing values become 0 after standardising, with a flag saying they were missing, so
 gaps in the data don't drop countries. Everything is computed from tables as known before
@@ -29,7 +32,8 @@ import numpy as np
 from .neighbours import neighbours
 
 CONFLICT = {"armed-conflict", "civil-war"}
-TABLES = ["vdem-electoral-democracy", "maddison-gdp-per-capita", "wdi-infant-mortality", "wdi-youth-bulge"]
+TABLES = ["vdem-electoral-democracy", "maddison-gdp-per-capita", "wdi-infant-mortality", "wdi-youth-bulge",
+          "vdem-region", "vdem-mass-mobilization"]
 
 
 def _latest(table, iso, year, max_back):
@@ -70,7 +74,62 @@ def features(states, iso, year, seq, tables, world=None, extras=()):
         raw += [near_conflict, near_civil_war]
     if "youth" in extras:
         raw.append(_latest(tables.get("wdi-youth-bulge", {}), iso, year, 5))
+    if "region" in extras:
+        raw += _region_features(iso, year, tables, world)
+    if "mobilization" in extras:
+        mob = tables.get("vdem-mass-mobilization", {})
+        own, before = mob.get((iso, year)), mob.get((iso, year - 1))
+        raw += [own, own - before if own is not None and before is not None else None,
+                _regional(tables, world, iso, year)["mobilization"]]
     return one_hot, raw
+
+
+# ---------------------------------------------------------------- region-wide unrest
+
+_REGION_CACHE: dict = {}
+
+
+def _regional(tables, world, iso, year):
+    """Averages over the other countries in iso's V-Dem region that year: share in conflict,
+    share with a new conflict in this year or the last, and mean mass mobilization.
+    Cached per (tables, world) pair, since a backtest asks for every country in turn."""
+    key = (id(tables), id(world))
+    if _REGION_CACHE.get("key") != key:
+        _REGION_CACHE.clear()
+        _REGION_CACHE["key"] = key
+        members = {}
+        for (c, y), r in tables.get("vdem-region", {}).items():
+            members.setdefault((r, y), []).append(c)
+        _REGION_CACHE["members"] = members
+    region = tables.get("vdem-region", {}).get((iso, year))
+    if region is None:
+        return {"conflict": None, "onsets": None, "mobilization": None}
+    cache_key = ("r", iso, year)
+    if cache_key in _REGION_CACHE:
+        return _REGION_CACHE[cache_key]
+    others = [c for c in _REGION_CACHE["members"].get((region, year), []) if c != iso]
+    w = world or {}
+    states = [w.get(c, {}).get(year) for c in others]
+    known = [s for s in states if s is not None]
+
+    def onset(c, y):
+        seq = w.get(c, {})
+        return seq.get(y) in CONFLICT and seq.get(y - 1) not in CONFLICT and seq.get(y - 1) is not None
+
+    mob = [tables.get("vdem-mass-mobilization", {}).get((c, year)) for c in others]
+    mob = [m for m in mob if m is not None]
+    out = {
+        "conflict": sum(s in CONFLICT for s in known) / len(known) if known else None,
+        "onsets": sum(onset(c, year) or onset(c, year - 1) for c in others) / len(others) if others else None,
+        "mobilization": sum(mob) / len(mob) if mob else None,
+    }
+    _REGION_CACHE[cache_key] = out
+    return out
+
+
+def _region_features(iso, year, tables, world):
+    r = _regional(tables, world, iso, year)
+    return [r["conflict"], r["onsets"]]
 
 
 class Logit:
@@ -145,6 +204,27 @@ class LogitNeighbours(Logit):
 class LogitYouth(Logit):
     name = "logit+youth"
     extras = ("youth",)
+
+
+class LogitRegion(Logit):
+    name = "logit+region"
+    extras = ("region",)
+
+
+class LogitMobilization(Logit):
+    name = "logit+protest"
+    extras = ("mobilization",)
+
+
+class LogitRegionMobilization(Logit):
+    name = "logit+region+protest"
+    extras = ("region", "mobilization")
+
+
+class LogitUnrest(Logit):
+    """Neighbours, region-wide unrest and protest together."""
+    name = "logit+unrest"
+    extras = ("neighbours", "region", "mobilization")
 
 
 def _softmax(Z):

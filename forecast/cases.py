@@ -16,7 +16,7 @@ from pathlib import Path
 
 import yaml
 
-from .logit import TABLES as LOGIT_TABLES, Logit
+from .logit import TABLES as LOGIT_TABLES, Logit, LogitUnrest
 from .markov import Markov
 from .panel import load_table
 from .states import DEFAULT_REQUIRED, DEFAULT_RULES, FIRST_COVERED_YEAR, classify, sequences, states_of
@@ -26,12 +26,15 @@ CONFLICT = ("armed-conflict", "civil-war")
 NAMES = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"] + LOGIT_TABLES
 
 
+MODEL = Logit
+
+
 def risk_table(X, horizons=(1, 5)):
     """{h: {iso: (state in X-1, P(conflict at X-1+h))}} for every country, from both models."""
     tables = {n: load_table(n, known_before=X) for n in dict.fromkeys(NAMES)}
     seqs = sequences(classify(tables, DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR))
     states = states_of(DEFAULT_RULES)
-    models = [Logit(states).fit(seqs, before=X, tables=tables, horizons=horizons),
+    models = [MODEL(states).fit(seqs, before=X, tables=tables, horizons=horizons),
               Markov(states).fit(seqs, before=X)]
     out = {m.name: {h: {} for h in horizons} for m in models}
     for iso, seq in seqs.items():
@@ -54,7 +57,11 @@ def rank(table, iso, peaceful_only=False):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out")
+    ap.add_argument("--model", choices=["logit", "unrest"], default="logit",
+                    help="covariate model to check: plain, or with neighbours, regional unrest and protest")
     args = ap.parse_args(argv)
+    global MODEL
+    MODEL = LogitUnrest if args.model == "unrest" else Logit
     cases = yaml.safe_load((Path(__file__).parent / "cases.yaml").read_text())
     titles = {}
     for c in cases:
@@ -75,17 +82,17 @@ def main(argv=None):
         if X not in cache:
             cache[X] = risk_table(X)
         r = cache[X]
-        if iso not in r["logit"][1]:
+        if iso not in r[MODEL.name][1]:
             lines.append(f"| {titles[c['event']]} ({X}) | {iso} | no data | | | |")
             continue
-        start, p1 = r["logit"][1][iso]
-        k1, n = rank(r["logit"][1], iso)
-        _, p5 = r["logit"][5][iso]
-        k5, _ = rank(r["logit"][5], iso)
+        start, p1 = r[MODEL.name][1][iso]
+        k1, n = rank(r[MODEL.name][1], iso)
+        _, p5 = r[MODEL.name][5][iso]
+        k5, _ = rank(r[MODEL.name][5], iso)
         _, pm = r["markov"][1][iso]
         km, _ = rank(r["markov"][1], iso)
         flagged += k1 <= 20
-        kp, npeace = rank(r["logit"][1], iso, peaceful_only=True)
+        kp, npeace = rank(r[MODEL.name][1], iso, peaceful_only=True)
         peace = f"{kp} of {npeace}" if kp else "already in conflict"
         if kp:
             onsets.append(kp / npeace)
@@ -99,7 +106,7 @@ def main(argv=None):
               "(state from the latest data). Countries that were already at war mostly stay at war, so the interesting entries are the peaceful ones near the top.", ""]
     latest = classify({n: load_table(n) for n in dict.fromkeys(NAMES)}, DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
     for X in sorted(cache):
-        top = sorted(cache[X]["logit"][1].items(), key=lambda kv: -kv[1][1])[:10]
+        top = sorted(cache[X][MODEL.name][1].items(), key=lambda kv: -kv[1][1])[:10]
         cells = []
         for iso, (start, p) in top:
             happened = latest.get((iso, X), "?")

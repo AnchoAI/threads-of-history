@@ -37,7 +37,15 @@ INDICATORS = [
      "How far the ideal of liberal democracy is achieved, from 0 to 1."),
     ("v2x_civlib", "vdem-civil-liberties", "Civil liberties index (V-Dem)",
      "How far civil liberties are respected, from 0 to 1."),
+    ("v2cagenmob", "vdem-mass-mobilization", "Mass mobilization (V-Dem)",
+     "How frequent and large mass mobilization events (protests, demonstrations) were that year, on V-Dem's "
+     "measurement-model scale (higher is more)."),
+    ("e_regionpol", "vdem-region", "Politico-geographic region (V-Dem)",
+     "V-Dem's region code: 1 Eastern Europe and post-Soviet, 2 Latin America, 3 North Africa and Middle East, "
+     "4 Sub-Saharan Africa, 5 Western Europe and North America, 6 Eastern Asia, 7 South-Eastern Asia, "
+     "8 Southern Asia, 9 the Pacific, 10 the Caribbean."),
 ]
+UNITS = {"vdem-mass-mobilization": "scale (about -3 to 3)", "vdem-region": "region code (1-10)"}
 REGIONS = ["americas", "western-europe", "russia-eastern-europe", "middle-east-north-africa",
            "south-central-asia", "east-asia", "sub-saharan-africa", "south-east-asia"]
 
@@ -66,7 +74,7 @@ def main():
             "id": table, "title": title, "summary": summary,
             "occurred": {"start": str(FIRST_YEAR), "end": str(last), "precision": "year"},
             "threads": ["revolutions"], "regions": REGIONS, "importance": 2,
-            "unit": "index (0-1)", "dataset": "v-dem", "indicator": column, "table": f"tables/{table}.csv",
+            "unit": UNITS.get(table, "index (0-1)"), "dataset": "v-dem", "indicator": column, "table": f"tables/{table}.csv",
             "sources": [{"url": "https://v-dem.net/data/the-v-dem-dataset/", "title": "The V-Dem Dataset",
                          "publisher": "V-Dem Institute", "type": "primary"}],
         })
