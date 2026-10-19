@@ -3,6 +3,7 @@
 Tables:
   wdi-infant-mortality  SP.DYN.IMRT.IN, deaths per 1,000 live births. The Political Instability
                         Task Force found it one of the strongest predictors of instability.
+  wdi-inflation         FP.CPI.TOTL.ZG, consumer price inflation, % per year.
   wdi-youth-bulge       people aged 15-24 as a share of everyone aged 15 and over, the usual
                         "youth bulge" measure (Urdal). Built from WDI's age shares by sex
                         (SP.POP.1519/2024.MA/FE.5Y), totals by sex (SP.POP.TOTL.MA/FE.IN) and the
@@ -33,6 +34,8 @@ INDICATORS = [
     ("SP.DYN.IMRT.IN", "wdi-infant-mortality", "Infant mortality rate (World Bank)",
      "Deaths of infants under one year old per 1,000 live births (World Bank, World Development Indicators).",
      "per 1,000 live births"),
+    ("FP.CPI.TOTL.ZG", "wdi-inflation", "Inflation, consumer prices (World Bank)",
+     "Annual change in consumer prices, in percent (World Bank, World Development Indicators).", "% per year"),
     ("youth-bulge", "wdi-youth-bulge", "Youth bulge (World Bank / UN WPP)",
      "People aged 15-24 as a share of everyone aged 15 and over, computed from World Bank age and population series "
      "(which come from UN World Population Prospects).", "share (0-1)"),

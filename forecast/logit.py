@@ -33,7 +33,8 @@ from .neighbours import neighbours
 
 CONFLICT = {"armed-conflict", "civil-war"}
 TABLES = ["vdem-electoral-democracy", "maddison-gdp-per-capita", "wdi-infant-mortality", "wdi-youth-bulge",
-          "vdem-region", "vdem-mass-mobilization"]
+          "vdem-region", "vdem-mass-mobilization", "wdi-inflation", "ucdp-ged-deaths", "ucdp-ged-deaths-q4",
+          "ucdp-ged-deaths-nonstate", "ucdp-ged-active-months"]
 
 
 def _latest(table, iso, year, max_back):
@@ -76,12 +77,46 @@ def features(states, iso, year, seq, tables, world=None, extras=()):
         raw.append(_latest(tables.get("wdi-youth-bulge", {}), iso, year, 5))
     if "region" in extras:
         raw += _region_features(iso, year, tables, world)
+    if "shocks" in extras:
+        raw += _shock_features(iso, year, tables)
+    if "violence" in extras:
+        raw += _violence_features(iso, year, tables)
     if "mobilization" in extras:
         mob = tables.get("vdem-mass-mobilization", {})
         own, before = mob.get((iso, year)), mob.get((iso, year - 1))
         raw += [own, own - before if own is not None and before is not None else None,
                 _regional(tables, world, iso, year)["mobilization"]]
     return one_hot, raw
+
+
+# ---------------------------------------------------------------- economic shocks and recent violence
+
+GED_FIRST_YEAR = 1989  # UCDP GED coverage starts here; before it, no row means "not covered"
+
+
+def _shock_features(iso, year, tables):
+    """Growth shock: last year's GDP growth minus the country's average over the 5 years before.
+    Inflation: sign(x) * log(1 + |x|) of consumer price inflation, so hyperinflation doesn't dominate."""
+    gdp = tables.get("maddison-gdp-per-capita", {})
+    g = [gdp.get((iso, y)) for y in range(year - 6, year + 1)]
+    growth = [math.log(b / a) for a, b in zip(g, g[1:]) if a and b]
+    shock = None
+    if len(growth) == 6 and all(gdp.get((iso, y)) for y in range(year - 6, year + 1)):
+        shock = growth[-1] - sum(growth[:-1]) / 5
+    infl = tables.get("wdi-inflation", {}).get((iso, year))
+    infl = math.copysign(math.log1p(abs(infl)), infl) if infl is not None else None
+    return [shock, infl]
+
+
+def _violence_features(iso, year, tables):
+    """Recent violence from UCDP GED: log deaths in the year, in its last quarter, and from
+    non-state and one-sided violence; share of months with violence; share of the year's
+    deaths that fell in the last quarter (rising violence)."""
+    if year < GED_FIRST_YEAR:
+        return [None] * 5
+    get = lambda name: tables.get(name, {}).get((iso, year), 0.0)
+    deaths, q4, nonstate, months = get("ucdp-ged-deaths"), get("ucdp-ged-deaths-q4"), get("ucdp-ged-deaths-nonstate"), get("ucdp-ged-active-months")
+    return [math.log1p(deaths), math.log1p(q4), math.log1p(nonstate), months / 12, q4 / deaths if deaths else 0.0]
 
 
 # ---------------------------------------------------------------- region-wide unrest
@@ -225,6 +260,22 @@ class LogitUnrest(Logit):
     """Neighbours, region-wide unrest and protest together."""
     name = "logit+unrest"
     extras = ("neighbours", "region", "mobilization")
+
+
+class LogitShocks(Logit):
+    name = "logit+shocks"
+    extras = ("shocks",)
+
+
+class LogitViolence(Logit):
+    name = "logit+violence"
+    extras = ("violence",)
+
+
+class LogitAll(Logit):
+    """Everything that has helped so far: unrest, economic shocks and recent violence."""
+    name = "logit+all"
+    extras = ("neighbours", "region", "mobilization", "shocks", "violence")
 
 
 def _softmax(Z):

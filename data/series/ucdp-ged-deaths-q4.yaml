@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: ucdp-ged-deaths-q4
+title: Deaths in October-December (UCDP GED)
+summary: Best estimate of deaths in events that began in the last three months of the year.
+occurred:
+  start: '1989'
+  end: '2025'
+  precision: year
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: deaths
+dataset: ucdp-ged
+indicator: deaths-q4
+table: tables/ucdp-ged-deaths-q4.csv
+sources:
+- url: https://ucdp.uu.se/downloads/
+  title: UCDP Dataset Download Center
+  publisher: Uppsala Conflict Data Program
+  type: primary

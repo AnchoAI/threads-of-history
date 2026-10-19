@@ -120,7 +120,7 @@ def report(results, state_list, horizons, title="Backtest") -> str:
             lines += ["Each variant against the plain covariate model (`logit`), on the same forecasts: the change in AUC, "
                       "with a 95% interval from 1,000 bootstrap resamples. An interval that includes 0 means the gain could be luck.", ""]
             for (name, hh), r in sorted(results.items()):
-                if hh == h and name.startswith("logit+") and len(r["onset"]) == len(ref):
+                if hh == h and name.startswith("logit+") and len(r["onset"]) == len(ref) and r["onset"]:
                     d, lo, hi = auc_difference(r["onset"], ref)
                     lines.append(f"- {name}: {d:+.3f} ({lo:+.3f} to {hi:+.3f})")
             lines.append("")
@@ -164,8 +164,11 @@ def main(argv=None):
     ap.add_argument("--from", dest="first", type=int, default=1960)
     ap.add_argument("--to", dest="last", type=int, default=2014)
     ap.add_argument("--out", help="write the report to this file")
+    ap.add_argument("--horizons", default="1,5", help="years ahead to score, e.g. 1 or 1,5")
+    ap.add_argument("--models", default="current",
+                    help="'current' (baselines, logit, unrest, shocks, violence, all) or 'all' (every variant)")
     args = ap.parse_args(argv)
-    horizons = (1, 5)
+    horizons = tuple(int(h) for h in args.horizons.split(","))
     cutoffs = range(args.first, args.last + 1)
     if args.synthetic:
         world = synthetic()
@@ -174,7 +177,7 @@ def main(argv=None):
         text = report(results, SYNTH_STATES, horizons, "Backtest on a made-up world")
     else:
         from .panel import load_table
-        from .logit import TABLES as LOGIT_TABLES, Logit, LogitMobilization, LogitNeighbours, LogitRegion, LogitRegionMobilization, LogitUnrest, LogitYouth
+        from .logit import TABLES as LOGIT_TABLES, Logit, LogitMobilization, LogitNeighbours, LogitRegion, LogitRegionMobilization, LogitUnrest, LogitYouth, LogitShocks, LogitViolence, LogitAll
         names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
         names += [n for n in LOGIT_TABLES if n not in names]
         try:
@@ -191,7 +194,9 @@ def main(argv=None):
                 cache[X] = tables(X)
             return cache[X]
         known = lambda X: classify(tables_at(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
-        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + (Logit, LogitNeighbours, LogitYouth, LogitRegion, LogitMobilization, LogitRegionMobilization, LogitUnrest), tables_known_before=tables_at)
+        results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + ((Logit, LogitUnrest, LogitShocks, LogitViolence, LogitAll) if args.models == "current" else
+                                         (Logit, LogitNeighbours, LogitYouth, LogitRegion, LogitMobilization,
+                                          LogitRegionMobilization, LogitUnrest, LogitShocks, LogitViolence, LogitAll)), tables_known_before=tables_at)
         text = report(results, state_list, horizons,
                       f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:
