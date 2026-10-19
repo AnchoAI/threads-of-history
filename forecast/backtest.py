@@ -116,11 +116,12 @@ def report(results, state_list, horizons, title="Backtest") -> str:
             lines.append(f"| {name} | {n} | {k} | {b:.4f} | {a:.3f} |" if a is not None else f"| {name} | {n} | {k} | {b:.4f} | – |")
         lines.append("")
         ref = results.get(("logit", h), {}).get("onset")
+        # variants compared against `logit`: every logit+... model and the gradient-boosting model
         if ref:
             lines += ["Each variant against the plain covariate model (`logit`), on the same forecasts: the change in AUC, "
                       "with a 95% interval from 1,000 bootstrap resamples. An interval that includes 0 means the gain could be luck.", ""]
             for (name, hh), r in sorted(results.items()):
-                if hh == h and name.startswith("logit+") and len(r["onset"]) == len(ref) and r["onset"]:
+                if hh == h and (name.startswith("logit+") or name == "gbm") and len(r["onset"]) == len(ref) and r["onset"]:
                     d, lo, hi = auc_difference(r["onset"], ref)
                     lines.append(f"- {name}: {d:+.3f} ({lo:+.3f} to {hi:+.3f})")
             lines.append("")
@@ -158,6 +159,17 @@ def synthetic(countries=150, start=1900, end=2024, seed=7):
     return out
 
 
+def _gbm_models():
+    """The gradient-boosting model, if its optional libraries are installed (requirements-ml.txt)."""
+    try:
+        import lightgbm  # noqa: F401
+    except ImportError:
+        print("lightgbm not installed: skipping the gradient-boosting model (pip install -r requirements-ml.txt)")
+        return ()
+    from .gbm import GBM
+    return (GBM,)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--synthetic", action="store_true", help="use a made-up world instead of real data")
@@ -180,6 +192,10 @@ def main(argv=None):
         from .logit import TABLES as LOGIT_TABLES, Logit, LogitMobilization, LogitNeighbours, LogitRegion, LogitRegionMobilization, LogitUnrest, LogitYouth, LogitShocks, LogitViolence, LogitAll
         names = ["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"]
         names += [n for n in LOGIT_TABLES if n not in names]
+        extra = _gbm_models()
+        if extra:
+            from .gbm import TABLES as GBM_TABLES
+            names += [n for n in GBM_TABLES if n not in names]
         try:
             tables = lambda X=None: {n: load_table(n, known_before=X) for n in names}
             latest = classify(tables(), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
@@ -196,7 +212,7 @@ def main(argv=None):
         known = lambda X: classify(tables_at(X), DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR)
         results = run(known, latest, state_list, cutoffs, horizons, models=MODELS + ((Logit, LogitUnrest, LogitShocks, LogitViolence, LogitAll) if args.models == "current" else
                                          (Logit, LogitNeighbours, LogitYouth, LogitRegion, LogitMobilization,
-                                          LogitRegionMobilization, LogitUnrest, LogitShocks, LogitViolence, LogitAll)), tables_known_before=tables_at)
+                                          LogitRegionMobilization, LogitUnrest, LogitShocks, LogitViolence, LogitAll)) + extra, tables_known_before=tables_at)
         text = report(results, state_list, horizons,
                       f"Backtest on real data ({FIRST_COVERED_YEAR}-{max(y for _, y in latest)}), cutoffs {args.first}-{args.last}")
     if args.out:

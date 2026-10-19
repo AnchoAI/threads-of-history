@@ -23,6 +23,13 @@ from .states import DEFAULT_REQUIRED, DEFAULT_RULES, FIRST_COVERED_YEAR, classif
 CONFLICT = ("armed-conflict", "civil-war")
 NAMES = list(dict.fromkeys(["vdem-electoral-democracy", "ucdp-intrastate-max-intensity", "ucdp-any-conflict"] + LOGIT_TABLES))
 MODELS = {"markov": Markov, "logit": Logit, "logit+unrest": LogitUnrest, "logit+all": LogitAll}
+try:  # the gradient-boosting model needs the optional libraries in requirements-ml.txt
+    from .gbm import GBM, TABLES as GBM_TABLES
+    import lightgbm  # noqa: F401
+    MODELS["gbm"] = GBM
+    NAMES = list(dict.fromkeys(NAMES + GBM_TABLES))
+except ImportError:
+    pass
 
 
 def main(argv=None):

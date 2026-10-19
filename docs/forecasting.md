@@ -1,6 +1,6 @@
 # Forecasting plan
 
-How Threads of History goes from explaining the past to making forecasts that can be scored. This builds on the "Forecasting is a goal" decision in `CLAUDE.md`.
+How Threads of History goes from explaining the past to making forecasts that can be scored. This builds on the "Forecasting is a goal" decision in `CLAUDE.md`. Published models and benchmarks to compare against are reviewed in `forecasting-literature.md`.
 
 ## The idea in one paragraph
 
@@ -22,7 +22,7 @@ The event graph (events, links, sources) explains history but can't predict it. 
 
 1. **No look-ahead.** A backtest at year X may use only data that was knowable at X. Where a table has a `published` column, as with first-release economic figures, rows published after X are ignored. This is principle 3, two kinds of time, applied to numbers, and it is this project's edge: most forecasting research quietly uses revised data.
 2. **Baselines first.** Every model report shows the persistence and base-rate scores beside the model's.
-3. **Licences first.** No dataset is imported until its entry in `data/datasets/` says `redistribution: allowed` (see `AGENTS.md` rule 8).
+3. **Licences first.** No dataset goes into `data/` until its entry in `data/datasets/` says `redistribution: allowed` (see `AGENTS.md` rule 8). While the project is private, datasets with an unconfirmed licence may be used locally: their importers write to `.cache/private-tables/`, which git ignores, and `forecast.panel.load_table` reads them from there. Powell & Thyne's coups are the first (`tools/importers/powell_thyne.py`). Never commit those tables.
 4. **Forecasts are scenarios, not facts.** Published forecasts become `scenario` items in `data/scenarios/`, with `forecast_by`, `forecast_on` and `resolves_by`. They are scored when they resolve, and the scored record stays public, including the misses.
 5. **Plain, careful wording.** "Model X gives a 4% chance of a coup in country Y within a year, against a 1% global base rate" is the right form. Never "Y will have a coup."
 
@@ -35,6 +35,8 @@ The event graph (events, links, sources) explains history but can't predict it. 
 | 3 | `forecast/`: country states, a Markov chain, baselines, backtest and Brier scoring | in progress (built and tested on synthetic data) |
 | 4 | First real backtest: train up to each year from 1960 to 2014, predict 1–5 years ahead, and compare against the baselines | done: `docs/backtests/2026-10-markov-baseline.md`. The Markov chain beats both baselines |
 | 5 | Models with conditions beyond the current state, on the Political Instability Task Force's predictors: infant mortality, regime type, neighbours in conflict, ethnic exclusion. A replication of a published model | first version done: `forecast/logit.py` beats the Markov chain (`docs/backtests/2026-10-logit-covariates.md`). Neighbours, region-wide unrest and protest together (`logit+unrest`) rank new wars best, AUC 0.76 against 0.73 (`2026-10-regional-unrest.md`); youth bulge gives no gain. Ethnic exclusion is blocked on its licence |
+| 5b | Gradient boosting on every table (`forecast/gbm.py`, LightGBM, optional `requirements-ml.txt`), with SHAP explanations | built; scored in `docs/backtests/2026-10-gbm-many-outcomes.md` |
+| 5c | Many outcomes, not just war (`forecast/outcomes.py`): coups, democratic breakdown and democratisation, mass protest waves, economic collapse, high inflation, mass violence | built; same report |
 | 6 | Hierarchical model with contagion from neighbours, then an ensemble | later |
 | 7 | Forecast aggregation and benchmarks: prediction markets, human forecasters, and AI models given only what was knowable on a date | later |
 | 8 | Viewer: at "today" the timeline fans out into scenario branches, each as thick as its probability | later |

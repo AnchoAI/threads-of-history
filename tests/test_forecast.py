@@ -105,3 +105,58 @@ def test_auc():
     assert auc([(0.1, True), (0.9, False)]) == 0.0
     assert auc([(0.5, True), (0.5, False)]) == 0.5
     assert auc([(0.5, True)]) is None
+
+
+def test_gradient_boosting_finds_a_threshold_and_explains_it():
+    import random
+    import pytest
+    pytest.importorskip("lightgbm")
+    from forecast.gbm import GBM
+    rng = random.Random(5)
+    states = ["democracy", "autocracy", "civil-war"]
+    world, dem = {}, {}
+    for c in range(80):
+        iso = f"C{c:02d}"
+        score = rng.random()  # civil war only below a threshold: easy for trees, hard for a straight line
+        s = "democracy" if score > 0.5 else "autocracy"
+        for y in range(1950, 2011):
+            world[(iso, y)] = s
+            dem[(iso, y)] = score
+            war = 0.25 if score < 0.2 else 0.01
+            s = "civil-war" if rng.random() < war else ("democracy" if score > 0.5 else "autocracy")
+    known = lambda X: {k: v for k, v in world.items() if k[1] < X}
+    tables = lambda X: {"vdem-electoral-democracy": {k: v for k, v in dem.items() if k[1] < X}}
+    res = run(known, world, states, range(1995, 2000), horizons=(1,), models=(Markov, GBM), tables_known_before=tables)
+    assert res[("gbm", 1)]["log"] < res[("markov", 1)]["log"]
+    m = GBM(states).fit(sequences(known(2000)), before=2000, tables=tables(2000))
+    low = next(i for i in range(80) if dem[(f"C{i:02d}", 1999)] < 0.2)
+    iso = f"C{low:02d}"
+    shap = m.explain(world[(iso, 1999)], 1, iso=iso, year=1999, target=("civil-war",))
+    assert max(shap, key=lambda k: abs(shap[k])) == "electoral democracy"
+
+
+def test_outcomes_count_onsets_only_from_outside_the_condition():
+    from forecast.outcomes import in_condition, outcome
+    seq = {2000: "autocracy", 2001: "armed-conflict", 2002: "armed-conflict"}
+    assert outcome("conflict-onset", "AAA", 2001, {}, seq) is True
+    assert outcome("conflict-onset", "AAA", 2002, {}, seq) is None  # already at war
+    assert in_condition("conflict-onset", "AAA", 2002, {}, seq) is True
+    dem = {"vdem-electoral-democracy": {("AAA", 2000): 0.6, ("AAA", 2001): 0.4, ("AAA", 2002): 0.45}}
+    assert outcome("democratic-breakdown", "AAA", 2001, dem, seq) is True
+    assert outcome("democratic-breakdown", "AAA", 2002, dem, seq) is None
+    assert outcome("democratisation", "AAA", 2002, dem, seq) is False
+    coups = {"pt-coup-attempts": {("AAA", 2001): 1, ("AAA", 2002): 0}}
+    assert outcome("coup-attempt", "AAA", 2001, coups, seq) is True
+    assert outcome("coup-attempt", "AAA", 2002, coups, seq) is False
+    assert outcome("coup-attempt", "AAA", 2003, coups, seq) is None  # not covered
+
+
+def test_load_table_falls_back_to_private_tables(tmp_path, monkeypatch):
+    import forecast.panel as panel
+    (tmp_path / "pub").mkdir()
+    (tmp_path / "priv").mkdir()
+    (tmp_path / "priv" / "secret.csv").write_text("entity,at,value\nAAA,2000,1\n")
+    monkeypatch.setattr(panel, "TABLES", tmp_path / "pub")
+    monkeypatch.setattr(panel, "PRIVATE", tmp_path / "priv")
+    assert panel.has_table("secret", tables=panel.TABLES)
+    assert panel.load_table("secret", tables=panel.TABLES) == {("AAA", 2000): 1.0}

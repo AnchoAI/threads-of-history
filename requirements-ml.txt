@@ -1,0 +1,5 @@
+# Optional: for forecast/gbm.py (gradient boosting) and its explanations.
+-r requirements.txt
+lightgbm>=4.0
+scikit-learn>=1.3
+shap>=0.44
