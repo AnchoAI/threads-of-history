@@ -162,11 +162,38 @@ def build():
             ys = {o: outcome(o, iso, X, tables, seq) for o in OUTCOMES}
             x = row(states, iso, X - 1, seq, tables, world) + (coup_features(iso, X - 1, tables) if coups else [])
             rows.append((iso, X, x, ys))
-        # the forward look: features from the last year, outcome unknown
+    # the forward look: features from each country's last year, outcome unknown. Tables that end
+    # earlier are extended at each country's recent trend, or the model would read "missing" as it
+    # did in training, where missing income mostly meant small states with nothing happening.
+    # Eligibility is judged on the real tables only.
+    ftables = carried_forward(tables, max(y for seq in world.values() for y in seq))
+    for iso, seq in world.items():
         last = max(seq)
-        x = row(states, iso, last, seq, tables, world) + (coup_features(iso, last, tables) if coups else [])
+        x = row(states, iso, last, seq, ftables, world) + (coup_features(iso, last, ftables) if coups else [])
         future.append((iso, last + 1, x, {o: in_condition(o, iso, last, tables, seq) is False for o in OUTCOMES}))
     return rows, future, names(states, coups), coups
+
+
+CARRY = ("maddison-gdp-per-capita", "maddison-population")
+
+
+def carried_forward(tables, year, trend_years=3):
+    """A copy of tables where each CARRY table is extended to `year` at the country's average
+    growth over its last `trend_years` known years (flat if that can't be computed), so growth
+    features read as "as before" rather than as a sudden stop."""
+    out = dict(tables)
+    for name in CARRY:
+        t = dict(tables.get(name, {}))
+        last = {}
+        for (iso, y) in t:
+            last[iso] = max(last.get(iso, y), y)
+        for iso, y0 in last.items():
+            a, b = t.get((iso, y0 - trend_years)), t[(iso, y0)]
+            g = (b / a) ** (1 / trend_years) if a and b else 1.0
+            for y in range(y0 + 1, year + 1):
+                t[(iso, y)] = b * g ** (y - y0)
+        out[name] = t
+    return out
 
 
 # ---------------------------------------------------------------- models for one yes/no outcome
@@ -343,8 +370,9 @@ def forward_report(fwd) -> str:
     lines = ["", "## Forward look", "",
              "Trained on every known year, forecasting the year after each outcome's last data. Highest-risk countries "
              "by the boosting model, with its probability. A probability, not a prediction: most of these will not happen. "
-             "Onset outcomes leave out countries already in that condition. Features come from each table's latest year, "
-             "so a table that ends earlier (Maddison GDP ends in 2022) counts as missing.", ""]
+             "Onset outcomes leave out countries already in that condition. Tables that end earlier are extended at each "
+             "country's trend over its last 3 years: Maddison GDP and population end in 2022, so 2023-2025 are estimates, "
+             "and economic collapse, which needs real growth figures to say who is eligible, isn't ranked.", ""]
     for o, (year, ranked) in fwd.items():
         if not ranked:
             continue
