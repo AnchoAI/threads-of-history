@@ -1,0 +1,47 @@
+id: freddie-mercury-tribute-concert-1992
+title: Freddie Mercury Tribute Concert for AIDS Awareness
+summary: A benefit concert by Queen and other artists at Wembley Stadium, London, on 20 April 1992 in tribute to
+  Freddie Mercury. Broadcast live worldwide to an estimated one billion viewers, it raised £20 million, used to
+  launch the Mercury Phoenix Trust.
+occurred:
+  start: '1992-04-20'
+  precision: day
+threads:
+- music
+- celebrity-activism
+regions:
+- western-europe
+actors:
+- freddie-mercury
+importance: 2
+wikidata: Q20616479
+sources:
+- url: https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  archive_url: https://web.archive.org/web/20260922094902/https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  title: The Freddie Mercury Tribute Concert
+  publisher: Wikipedia
+  quote: The Freddie Mercury Tribute Concert for AIDS Awareness, also known as A Concert for Life, was a benefit
+    concert by British rock band Queen and a number of supporting artists. It took place on 20 April 1992, at Wembley
+    Stadium in London, England.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  archive_url: https://web.archive.org/web/20260922094902/https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  title: The Freddie Mercury Tribute Concert
+  publisher: Wikipedia
+  quote: It was broadcast live worldwide, and watched by an estimated one billion people.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  archive_url: https://web.archive.org/web/20260922094902/https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  title: The Freddie Mercury Tribute Concert
+  publisher: Wikipedia
+  quote: Proceeds from the concert totalled £20 million, and were used to launch the Mercury Phoenix Trust.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - No source found that states the concert's effect on awareness or policy, so it has no link to the epidemic.

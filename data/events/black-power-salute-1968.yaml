@@ -1,0 +1,53 @@
+id: black-power-salute-1968
+title: 1968 Olympics Black Power salute
+summary: At the 200-metre medal ceremony of the Mexico City Olympics on 16 October 1968, US sprinters Tommie Smith
+  and John Carlos each raise a black-gloved fist during the US national anthem. After IOC president Avery Brundage
+  threatens to ban the whole US track team, the two are expelled from the Games.
+occurred:
+  start: '1968-10-16'
+  precision: day
+threads:
+- sport
+- rights
+regions:
+- americas
+actors:
+- tommie-smith
+- john-carlos
+- international-olympic-committee
+importance: 3
+wikidata: Q1890705
+sources:
+- url: https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  archive_url: https://web.archive.org/web/20261016212148/https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  title: 1968 Olympics Black Power salute
+  publisher: Wikipedia
+  quote: During their medal ceremony in the Olympic Stadium in Mexico City on October 16, 1968, two African-American
+    athletes, Tommie Smith and John Carlos, each raised a black-gloved fist during the playing of the US national
+    anthem
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  archive_url: https://web.archive.org/web/20261016212148/https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  title: 1968 Olympics Black Power salute
+  publisher: Wikipedia
+  quote: When the US Olympic Committee refused, Brundage threatened to ban the entire US track team. This threat
+    led to the expulsion of the two athletes from the Games.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  archive_url: https://web.archive.org/web/20261016212148/https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute
+  title: 1968 Olympics Black Power salute
+  publisher: Wikipedia
+  quote: who had won gold and bronze medals respectively in the 200-meter running event of the 1968 Summer Olympics
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - Smith later described it as a human-rights salute rather than strictly a Black Power one (Olympic Project for
+    Human Rights article).
+  - No fetched source states that the salute influenced the civil rights movement (which by the usual dating had
+    ended in April 1968) or a later political event; the only link out is part_of protests-of-1968.

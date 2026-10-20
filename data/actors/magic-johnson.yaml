@@ -1,0 +1,20 @@
+id: magic-johnson
+title: Magic Johnson
+actor_type: person
+summary: American basketball player and entrepreneur (born 1959).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q134183
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q134183.json
+  title: Magic Johnson
+  publisher: Wikidata
+  quote: American basketball player and entrepreneur (born 1959)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

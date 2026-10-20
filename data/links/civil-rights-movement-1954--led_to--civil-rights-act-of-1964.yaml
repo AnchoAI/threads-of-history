@@ -1,0 +1,17 @@
+id: civil-rights-movement-1954--led_to--civil-rights-act-of-1964
+from: civil-rights-movement-1954
+to: civil-rights-act-of-1964
+type: led_to
+confidence: documented
+note: The movement's campaigns secured new federal civil rights law, including the Civil Rights Act of 1964.
+sources:
+- url: https://en.wikipedia.org/wiki/Civil_rights_movement
+  archive_url: https://web.archive.org/web/20261013161525/https://en.wikipedia.org/wiki/Civil_rights_movement
+  title: Civil rights movement
+  publisher: Wikipedia
+  quote: the civil rights movement achieved many of its legislative goals in the 1960s, during which it secured
+    new protections in federal law for the civil rights of all Americans, including the Civil Rights Act of 1964
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

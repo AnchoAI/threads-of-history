@@ -1,0 +1,17 @@
+id: first-aids-cases-reported-1981--part_of--hiv-aids-epidemic-1981
+from: first-aids-cases-reported-1981
+to: hiv-aids-epidemic-1981
+type: part_of
+confidence: documented
+note: The first official CDC report of cases opens the record of the epidemic.
+sources:
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  archive_url: https://web.archive.org/web/20261015031234/https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: This edition of the MMWR marks the first official reporting of what will later become known as the AIDS
+    (Acquired Immunodeficiency Syndrome) epidemic.
+  type: primary
+  accessed: '2026-10-20'
+review:
+  status: sourced
