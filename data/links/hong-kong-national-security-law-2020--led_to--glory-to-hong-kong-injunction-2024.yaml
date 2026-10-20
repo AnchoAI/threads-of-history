@@ -1,0 +1,25 @@
+id: hong-kong-national-security-law-2020--led_to--glory-to-hong-kong-injunction-2024
+from: hong-kong-national-security-law-2020
+to: glory-to-hong-kong-injunction-2024
+type: led_to
+confidence: documented
+note: The government cited the national security law, among other laws, in seeking the injunction.
+sources:
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: seeking a legal injunction on the song's lyrics and melody and any adaptations thereof, citing the
+    national security law, the sedition law, and the national anthem law.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: Hong Kong authorities have accused the song of promoting subversion and banned it under the national
+    security law
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

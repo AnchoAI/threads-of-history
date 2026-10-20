@@ -1,0 +1,29 @@
+id: east-german-rock-musicians-resolution-1989--part_of--revolutions-of-1989
+from: east-german-rock-musicians-resolution-1989
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: The resolution was East German musicians' political contribution to the Peaceful Revolution of autumn
+  1989.
+sources:
+- url: https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  archive_url: https://web.archive.org/web/20251030135301/https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  title: Resolution von Rockmusikern und Liedermachern
+  publisher: Wikipedia (German)
+  quote: vom 18. September 1989 war ein politischer Beitrag der DDR-Unterhaltungsmusiker während der Zeit der
+    friedlichen Revolution.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  archive_url: https://web.archive.org/web/20251030135301/https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  title: Resolution von Rockmusikern und Liedermachern
+  publisher: Wikipedia (German)
+  quote: Die großen Montagsdemonstrationen fanden erst nach dem 18. September statt.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - 'The quote is in German: "was a political contribution by GDR entertainment musicians during the period
+    of the Peaceful Revolution". The Peaceful Revolution in East Germany is treated here as part of the revolutions
+    of 1989.'

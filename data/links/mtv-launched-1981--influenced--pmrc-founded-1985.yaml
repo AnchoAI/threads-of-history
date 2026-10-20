@@ -1,0 +1,21 @@
+id: mtv-launched-1981--influenced--pmrc-founded-1985
+from: mtv-launched-1981
+to: pmrc-founded-1985
+type: influenced
+confidence: documented
+note: MTV's popularity brought musicians' videos to a wider audience and drew increasing criticism from Christian
+  organisations, part of the climate in which the PMRC formed.
+sources:
+- url: https://www.theguardian.com/music/2025/oct/05/pmrc-parents-senate-hearing-filthy-fifteen-prince-madonna-judas-priest-alice-cooper
+  title: '''I was called an enemy of the people'': how the US Senate went to war with the biggest rock stars
+    of the 1980s'
+  publisher: The Guardian
+  quote: with the surging popularity of MTV, the music video channel, musicians were now drawing increasing
+    ire from Christian organisations.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The Guardian names MTV as one factor in the climate of criticism, alongside Reagan-era "family values";
+    it does not say MTV caused the PMRC to form. Influenced, not led_to.

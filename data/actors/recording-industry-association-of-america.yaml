@@ -1,0 +1,21 @@
+id: recording-industry-association-of-america
+title: Recording Industry Association of America
+actor_type: organization
+summary: Trade organization representing the recording industry in the United States of America.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q200863
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q200863.json
+  title: Recording Industry Association of America
+  publisher: Wikidata
+  quote: trade organization representing the recording industry in the United States of America
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

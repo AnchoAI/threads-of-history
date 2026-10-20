@@ -1,0 +1,43 @@
+id: glory-to-hong-kong-2019
+title: '"Glory to Hong Kong"'
+summary: A musician using the pseudonym "Thomas dgx yhl", working with users of the LIHKG forum, writes "Glory
+  to Hong Kong" during the 2019 protests; first posted on 26 August 2019, it becomes the protesters' main anthem.
+occurred:
+  start: '2019-08-26'
+  precision: day
+threads:
+- music
+- china
+regions:
+- east-asia
+actors: []
+importance: 3
+wikidata: Q67188291
+sources:
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: is a protest anthem that was composed and written by a musician under the pseudonym "Thomas dgx yhl",
+    with the contribution of a group of Hongkonger netizens from the online forum LIHKG during the 2019–2020
+    Hong Kong protests.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: Thomas, a music composer and Cantonese-language lyricist, first posted an instrumental version of
+    "Glory to Hong Kong" and its lyrics on 26 August 2019 to LIHKG
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: Hong Kong protesters previously sung "Do You Hear the People Sing?" and "Sing Hallelujah to the Lord"
+    as protest anthems, before adopting "Glory to Hong Kong" as their main anthem.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
