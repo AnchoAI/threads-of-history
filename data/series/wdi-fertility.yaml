@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-fertility
+title: Fertility rate (births per woman) (World Bank)
+summary: Total fertility rate represents the number of children that would be born to a woman if she were
+  to live to the end of her childbearing years and bear children in accordance with age-specific fertility
+  rates of the specified year.
+occurred:
+  start: '1960'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: births per woman
+dataset: world-bank-wdi
+indicator: SP.DYN.TFRT.IN
+table: tables/wdi-fertility.csv
+sources:
+- url: https://data.worldbank.org/indicator/SP.DYN.TFRT.IN
+  title: Fertility rate, total (births per woman)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

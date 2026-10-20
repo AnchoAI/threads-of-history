@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-electricity-access
+title: Access to electricity (% of population) (World Bank)
+summary: Access to electricity is the percentage of population with access to electricity. Electrification
+  data are collected from industry, national surveys and international sources.
+occurred:
+  start: '1990'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: EG.ELC.ACCS.ZS
+table: tables/wdi-electricity-access.csv
+sources:
+- url: https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+  title: Access to electricity (% of population)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

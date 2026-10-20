@@ -160,3 +160,36 @@ def test_load_table_falls_back_to_private_tables(tmp_path, monkeypatch):
     monkeypatch.setattr(panel, "PRIVATE", tmp_path / "priv")
     assert panel.has_table("secret", tables=panel.TABLES)
     assert panel.load_table("secret", tables=panel.TABLES) == {("AAA", 2000): 1.0}
+
+
+def test_alltables_finds_every_table_and_trade_shocks(tmp_path, monkeypatch):
+    import math
+    import forecast.alltables as at
+    pub, priv = tmp_path / "pub", tmp_path / "priv"
+    pub.mkdir()
+    priv.mkdir()
+    (pub / "wdi-fuel-exports.csv").write_text("entity,at,value\nAAA,2000,50\n")
+    (pub / "pink-energy.csv").write_text("entity,at,value\nWLD,1999,100\nWLD,2000,50\n")
+    (priv / "secret.csv").write_text("entity,at,value\nAAA,1999,1\nAAA,2000,3\n")
+    monkeypatch.setattr(at, "TABLE_DIR", pub)
+    monkeypatch.setattr(at, "PRIVATE", priv)
+    country, world = at.discover()
+    assert country == ["wdi-fuel-exports", "secret"] and world == ["pink-energy"]
+    names = at.feature_names(country, world)
+    tables = {"wdi-fuel-exports": {("AAA", 2000): 50.0}, "pink-energy": {("WLD", 1999): 100.0, ("WLD", 2000): 50.0},
+              "secret": {("AAA", 1999): 1.0, ("AAA", 2000): 3.0}}
+    row = dict(zip(names, at.row("AAA", 2000, tables, country, world)))
+    assert row["secret"] == 3 and row["secret (1-yr change)"] == 2
+    assert math.isclose(row["pink-energy (1-yr log change)"], math.log(0.5))
+    assert math.isclose(row["energy price change x fuel exports"], math.log(0.5) * 0.5)
+    assert math.isnan(row["wdi-fuel-exports (1-yr change)"])
+
+
+def test_platt_scaling_fixes_overconfidence():
+    import numpy as np
+    from forecast.outcomes import _platt
+    rng = np.random.default_rng(0)
+    z = rng.normal(0, 3, 4000)               # a model's log-odds, three times too confident
+    y = rng.random(4000) < 1 / (1 + np.exp(-z / 3))
+    a, b = _platt(z, y)
+    assert 0.25 < a < 0.45 and abs(b) < 0.2

@@ -17,11 +17,16 @@ Most are onsets: a country counts only if it wasn't already in that condition in
   mass-violence           1,000 or more deaths from one-sided and non-state violence (UCDP GED,
                           from 1989), after a year below 1,000. A rough proxy for mass killing.
 
-For each cutoff year X, three models are trained on outcomes before X and forecast year X:
-the base rate, a logistic regression and gradient boosting (LightGBM), all on the same
-features (forecast/gbm.py's, plus coup history when the coup table is present). The report
-gives AUC, Brier, how many events fell in the riskiest 10% of countries, the main patterns
-the boosting model found (SHAP), and a forward look at the next year.
+For each cutoff year X, models are trained on outcomes before X and forecast year X:
+  - the base rate,
+  - a logistic regression and gradient boosting (LightGBM) on the hand-built features
+    (forecast/gbm.py's, plus coup history when the coup table is present),
+  - the same two on every table, found automatically (forecast/alltables.py); the boosting
+    one is recalibrated (Platt scaling) on its last 5 training years,
+  - an ensemble: the mean of the two all-tables models.
+The report gives AUC, the share of events in the riskiest 10% of countries, Brier, whether
+the extra tables help (with bootstrap intervals), calibration, and the main patterns the
+boosting model found (SHAP). --forward adds a look at the year after the last data.
 
 Thresholds are fixed round numbers chosen before looking at results; change them here, not
 per run. No table carries publication dates yet, so features are computed once from the
@@ -37,6 +42,7 @@ from pathlib import Path
 
 import numpy as np
 
+from . import alltables
 from .gbm import TABLES as GBM_TABLES, feature_names, row
 from .logit import CONFLICT, Logit, _softmax
 from .panel import PRIVATE, TABLES as TABLE_DIR, has_table, load_table
@@ -152,6 +158,10 @@ def build():
     coups = all(has_table(n) for n in COUP_TABLES)
     if coups:
         tables.update({n: load_table(n) for n in COUP_TABLES})
+    country, wld = alltables.discover()
+    for n in country + wld:
+        if n not in tables:
+            tables[n] = load_table(n)
     states = states_of(DEFAULT_RULES)
     world = sequences(classify(tables, DEFAULT_RULES, DEFAULT_REQUIRED, since=FIRST_COVERED_YEAR))
     rows, future = [], []
@@ -161,7 +171,7 @@ def build():
                 continue
             ys = {o: outcome(o, iso, X, tables, seq) for o in OUTCOMES}
             x = row(states, iso, X - 1, seq, tables, world) + (coup_features(iso, X - 1, tables) if coups else [])
-            rows.append((iso, X, x, ys))
+            rows.append((iso, X, (x, alltables.row(iso, X - 1, tables, country, wld)), ys))
     # the forward look: features from each country's last year, outcome unknown. Tables that end
     # earlier are extended at each country's recent trend, or the model would read "missing" as it
     # did in training, where missing income mostly meant small states with nothing happening.
@@ -170,8 +180,10 @@ def build():
     for iso, seq in world.items():
         last = max(seq)
         x = row(states, iso, last, seq, ftables, world) + (coup_features(iso, last, ftables) if coups else [])
+        x = (x, alltables.row(iso, last, ftables, country, wld))
         future.append((iso, last + 1, x, {o: in_condition(o, iso, last, tables, seq) is False for o in OUTCOMES}))
-    return rows, future, names(states, coups), coups
+    base = names(states, coups)
+    return rows, future, {"base": base, "all": base + alltables.feature_names(country, wld)}, coups
 
 
 CARRY = ("maddison-gdp-per-capita", "maddison-population")
@@ -200,8 +212,9 @@ def carried_forward(tables, year, trend_years=3):
 
 class BaseRate:
     name = "base rate"
+    features = "base"
 
-    def fit(self, X, y):
+    def fit(self, X, y, years=None):
         self.p = y.mean()
         return self
 
@@ -211,8 +224,9 @@ class BaseRate:
 
 class BinaryLogit:
     name = "logit"
+    features = "base"
 
-    def fit(self, X, y):
+    def fit(self, X, y, years=None):
         self.m = Logit(["no", "yes"], iters=300)
         self.W, self.stats = self.m._train(np.ones((len(X), 1)), X.tolist(), y.astype(int))
         return self
@@ -224,11 +238,12 @@ class BinaryLogit:
 
 class BinaryGBM:
     name = "gbm"
+    features = "base"
     params = dict(objective="binary", learning_rate=0.05, n_estimators=200, num_leaves=15, min_child_samples=30,
                   subsample=0.8, subsample_freq=1, colsample_bytree=0.8, reg_lambda=1.0, random_state=1,
                   verbose=-1, n_jobs=1)
 
-    def fit(self, X, y):
+    def fit(self, X, y, years=None):
         import lightgbm as lgb
         self.m = lgb.LGBMClassifier(**self.params).fit(X, y.astype(int))
         return self
@@ -240,58 +255,129 @@ class BinaryGBM:
         return self.m.booster_.predict(X, pred_contrib=True)[:, :-1]
 
 
+class BinaryLogitAll(BinaryLogit):
+    name = "logit, all tables"
+    features = "all"
+
+
+class BinaryGBMAll(BinaryGBM):
+    """Gradient boosting on every table, with its probabilities recalibrated (Platt scaling).
+    Calibration is fitted on the last CALIB_YEARS training years, forecast by a model trained
+    on the years before them, so it never sees the test year."""
+    name = "gbm, all tables"
+    features = "all"
+    params = {**BinaryGBM.params, "colsample_bytree": 0.5}
+    CALIB_YEARS = 5
+
+    def fit(self, X, y, years=None):
+        super().fit(X, y)
+        self.a, self.b = 1.0, 0.0
+        if years is not None:
+            cut = years.max() - self.CALIB_YEARS + 1
+            early, late = years < cut, years >= cut
+            if y[early].sum() >= 10 and y[late].sum() >= 3:
+                z = _logit(BinaryGBM().fit(X[early], y[early]).predict(X[late]))
+                self.a, self.b = _platt(z, y[late])
+        return self
+
+    def predict(self, X):
+        return 1 / (1 + np.exp(-np.clip(self.a * _logit(super().predict(X)) + self.b, -30, 30)))
+
+
+def _logit(p):
+    p = np.clip(p, 1e-6, 1 - 1e-6)
+    return np.log(p / (1 - p))
+
+
+def _platt(z, y, iters=100):
+    """Fit P(y) = sigmoid(a z + b) by Newton's method with step halving, with a little shrinkage
+    towards a=1, b=0 (no change)."""
+    y = np.asarray(y, dtype=float)
+
+    def loss(a, b):
+        t = a * z + b
+        return np.sum(np.logaddexp(0, t) - y * t) + 0.5 * ((a - 1) ** 2 + b ** 2)
+
+    a, b = 1.0, 0.0
+    cur = loss(a, b)
+    for _ in range(iters):
+        p = 1 / (1 + np.exp(-np.clip(a * z + b, -30, 30)))
+        g = np.array([np.sum((p - y) * z) + (a - 1), np.sum(p - y) + b])
+        w = p * (1 - p)
+        H = np.array([[np.sum(w * z * z) + 1, np.sum(w * z)], [np.sum(w * z), np.sum(w) + 1]])
+        step = np.linalg.solve(H, g)
+        t = 1.0
+        while loss(a - t * step[0], b - t * step[1]) > cur and t > 1e-6:
+            t /= 2
+        a, b = a - t * step[0], b - t * step[1]
+        new = loss(a, b)
+        if cur - new < 1e-9:
+            break
+        cur = new
+    return float(a), float(b)
+
+
+ENSEMBLE = ("logit, all tables", "gbm, all tables")
+
+
 def _models():
     try:
         import lightgbm  # noqa: F401
-        return [BaseRate, BinaryLogit, BinaryGBM]
+        return [BaseRate, BinaryLogit, BinaryGBM, BinaryLogitAll, BinaryGBMAll]
     except ImportError:
-        return [BaseRate, BinaryLogit]
+        return [BaseRate, BinaryLogit, BinaryLogitAll]
 
 
 def backtest(rows, outcome_name, cutoffs, models=None):
     """Rolling backtest for one outcome: train on years < X, forecast X. Returns per-model pairs
-    (probability, happened), per-year (iso, X, p_by_model, happened), and the last fitted models."""
+    (probability, happened), per-year cases (iso, X, p_by_model, happened) and SHAP values of the
+    all-tables boosting model. "ensemble" is the mean of the ENSEMBLE models' probabilities."""
     models = models or _models()
     data = [(iso, X, x, ys[outcome_name]) for iso, X, x, ys in rows if ys[outcome_name] is not None]
     if not data:
         return None
-    Xall = np.array([d[2] for d in data], dtype=float)
+    Xs = {"base": np.array([d[2][0] for d in data], dtype=float)}
+    Xs["all"] = np.hstack([Xs["base"], np.array([d[2][1] for d in data], dtype=float)])
     yall = np.array([d[3] for d in data], dtype=bool)
     years = np.array([d[1] for d in data])
-    pairs = {m.name: [] for m in models}
-    cases, shap_rows, fitted = [], [], {}
+    names = [m.name for m in models] + (["ensemble"] if all(e in [m.name for m in models] for e in ENSEMBLE) else [])
+    pairs = {n: [] for n in names}
+    cases, shap_rows = [], []
     for X in cutoffs:
         train, test = years < X, years == X
         if test.sum() == 0 or yall[train].sum() < 10:
             continue
         preds = {}
         for M in models:
-            m = M().fit(Xall[train], yall[train])
-            preds[M.name] = m.predict(Xall[test])
-            pairs[M.name] += list(zip(preds[M.name].tolist(), yall[test].tolist()))
-            fitted[M.name] = m
-            if M is BinaryGBM:
-                shap_rows.append(m.shap(Xall[test]))
+            F = Xs[M.features]
+            m = M().fit(F[train], yall[train], years[train])
+            preds[M.name] = m.predict(F[test])
+            if M is BinaryGBMAll:
+                shap_rows.append(m.shap(F[test]))
+        if "ensemble" in pairs:
+            preds["ensemble"] = np.mean([preds[e] for e in ENSEMBLE], axis=0)
+        for n in names:
+            pairs[n] += list(zip(preds[n].tolist(), yall[test].tolist()))
         idx = np.where(test)[0]
         for j, i in enumerate(idx):
             cases.append((data[i][0], X, {k: float(v[j]) for k, v in preds.items()}, bool(yall[i])))
-    return {"pairs": pairs, "cases": cases, "shap": np.vstack(shap_rows) if shap_rows else None,
-            "data": (Xall, yall, years), "rows": data}
+    return {"pairs": pairs, "cases": cases, "shap": np.vstack(shap_rows) if shap_rows else None}
 
 
 def forward(rows, future, outcome_name, models=None):
     """Train on every known year and forecast the year after each country's last data, for
-    countries eligible then. Only countries whose last data is the latest year are ranked."""
-    models = models or _models()
-    known = [(x, ys[outcome_name]) for _, _, x, ys in rows if ys[outcome_name] is not None]
+    countries eligible then, with the last model in the list."""
+    M = (models or _models())[-1]
+    known = [(x, ys[outcome_name], X_) for _, X_, x, ys in rows if ys[outcome_name] is not None]
     if not known:
         return None, []
-    X = np.array([k[0] for k in known], dtype=float)
+    pick = lambda x: x[0] if M.features == "base" else x[0] + x[1]
+    X = np.array([pick(k[0]) for k in known], dtype=float)
     y = np.array([k[1] for k in known], dtype=bool)
     year = max(f[1] for f in future)
     target = [(iso, x) for iso, X_, x, ok in future if X_ == year and ok[outcome_name]]
-    best = models[-1]().fit(X, y)
-    p = best.predict(np.array([t[1] for t in target], dtype=float)) if target else []
+    best = M().fit(X, y, np.array([k[2] for k in known]))
+    p = best.predict(np.array([pick(t[1]) for t in target], dtype=float)) if target else []
     return year, sorted(zip([t[0] for t in target], np.asarray(p).tolist()), key=lambda kv: -kv[1])
 
 
@@ -321,40 +407,63 @@ def top_share(pairs, frac=0.1, by_year=None):
 def report(results, feat_names, coups, first, last) -> str:
     from .backtest import auc_difference
 
+    models = next(list(r["pairs"]) for r in results.values() if r)
+    cell = lambda v, f="{:.3f}": f.format(v) if v is not None else "–"
     lines = [f"# Many outcomes: rolling backtest {first}-{last}", "",
              "Each row asks whether an event happens in a country in year X, forecast from data up to X-1, by models "
-             "trained only on years before X. AUC: the chance that a country where it happened was rated riskier than one "
-             "where it didn't (0.5 is a coin flip). Top 10%: the share of events that fell in the riskiest tenth of "
-             "countries that year. Brier: lower is better.", ""]
+             "trained only on years before X. `logit` and `gbm` use the hand-built features "
+             f"({len(feat_names['base'])}); the \"all tables\" models add every table automatically "
+             f"({len(feat_names['all'])} features in all, see forecast/alltables.py). The all-tables boosting model is "
+             "recalibrated on recent training years; `ensemble` is the mean of the two all-tables models.", ""]
     if not coups:
         lines += ["Coup outcomes are missing: their table is private (tools/importers/powell_thyne.py).", ""]
-    lines += ["| outcome | country-years | events | base rate | AUC logit | AUC gbm | gbm − logit (95% interval) | top 10% logit | top 10% gbm | Brier logit | Brier gbm |",
-              "|---|---|---|---|---|---|---|---|---|---|---|"]
+
+    def table(title, intro, value, fmt):
+        out = [f"## {title}", "", intro, "", "| outcome | country-years | events | " + " | ".join(models) + " |",
+               "|---|---|---|" + "---|" * len(models)]
+        for o, r in results.items():
+            if not r or not r["pairs"].get("logit"):
+                continue
+            n, k = len(r["pairs"]["logit"]), sum(h for _, h in r["pairs"]["logit"])
+            vals = {m: value(r, m) for m in models}
+            best = max((v for v in vals.values() if v is not None), default=None) if title != "Brier score" else \
+                min((v for v in vals.values() if v is not None), default=None)
+            cells = [(f"**{cell(v, fmt)}**" if v is not None and v == best else cell(v, fmt)) for v in vals.values()]
+            out.append(f"| {LABELS[o]} | {n} | {k} | " + " | ".join(cells) + " |")
+        return out + [""]
+
+    lines += table("AUC", "The chance that a country where it happened was rated riskier than one where it didn't "
+                   "(0.5 is a coin flip). Best in bold.", lambda r, m: auc(r["pairs"][m]), "{:.3f}")
+    lines += table("Riskiest 10%", "The share of events that fell in the riskiest tenth of countries that year.",
+                   lambda r, m: top_share(None, by_year=_by_year(r["cases"], m)), "{:.0%}")
+    lines += table("Brier score", "Lower is better; it rewards well-calibrated probabilities, not just ranking.",
+                   lambda r, m: sum((p - h) ** 2 for p, h in r["pairs"][m]) / len(r["pairs"][m]), "{:.4f}")
+    lines += ["## Does more data help?", "",
+              "Change in AUC from adding every table, on the same forecasts, with a 95% interval from 500 bootstrap "
+              "resamples. An interval that includes 0 means the gain could be luck.", "",
+              "| outcome | gbm: all tables − hand-built | logit: all tables − hand-built | ensemble − logit |", "|---|---|---|---|"]
     for o, r in results.items():
-        if not r or not r["pairs"].get("logit"):
+        if not r or "gbm, all tables" not in r["pairs"]:
             continue
-        n = len(r["pairs"]["logit"])
-        k = sum(h for _, h in r["pairs"]["logit"])
-        by = lambda name: _by_year(r["cases"], name)
-        brier = lambda name: sum((p - h) ** 2 for p, h in r["pairs"][name]) / n
-        cell = lambda v, f="{:.3f}": f.format(v) if v is not None else "–"
-        g = r["pairs"].get("gbm")
-        diff = "–"
-        if g:
-            d, lo, hi = auc_difference(g, r["pairs"]["logit"], reps=500)
-            diff = f"{d:+.3f} ({lo:+.3f} to {hi:+.3f})"
-        lines.append(f"| {LABELS[o]} | {n} | {k} | {k / n:.3f} | {cell(auc(r['pairs']['logit']))} | "
-                     f"{cell(auc(g) if g else None)} | {diff} | {cell(top_share(None, by_year=by('logit')), '{:.0%}')} | "
-                     f"{cell(top_share(None, by_year=by('gbm')) if g else None, '{:.0%}')} | {brier('logit'):.4f} | "
-                     f"{cell(brier('gbm') if g else None, '{:.4f}')} |")
-    lines += ["", "## What the boosting model relies on", "",
+        def d(a, b):
+            v, lo, hi = auc_difference(r["pairs"][a], r["pairs"][b], reps=500)
+            return f"{v:+.3f} ({lo:+.3f} to {hi:+.3f})"
+        lines.append(f"| {LABELS[o]} | {d('gbm, all tables', 'gbm')} | {d('logit, all tables', 'logit')} | {d('ensemble', 'logit')} |")
+    lines += ["", "## Calibration of the ensemble", "", "When it said about p, how often did it happen? (all outcomes pooled)", ""]
+    pooled = [pr for r in results.values() if r and "ensemble" in r["pairs"] for pr in r["pairs"]["ensemble"]]
+    for lo, hi in ((0, .02), (.02, .05), (.05, .1), (.1, .2), (.2, .4), (.4, 1.01)):
+        b = [(p, h) for p, h in pooled if lo <= p < hi]
+        if b:
+            lines.append(f"- said {lo:.0%}–{min(hi, 1):.0%} (mean {sum(p for p, _ in b) / len(b):.1%}): happened "
+                         f"{sum(h for _, h in b) / len(b):.1%} (n={len(b)})")
+    lines += ["", "## What the all-tables boosting model relies on", "",
               "The features with the largest average effect (mean |SHAP|, in log-odds) on its forecasts in the test years. "
               "These are patterns in the data, not causes.", ""]
     for o, r in results.items():
         if r and r["shap"] is not None:
             imp = np.abs(r["shap"]).mean(axis=0)
-            top = np.argsort(-imp)[:6]
-            lines.append(f"- **{LABELS[o]}:** " + ", ".join(f"{feat_names[i]} ({imp[i]:.2f})" for i in top))
+            top = np.argsort(-imp)[:8]
+            lines.append(f"- **{LABELS[o]}:** " + ", ".join(f"{feat_names['all'][i]} ({imp[i]:.2f})" for i in top))
     return "\n".join(lines) + "\n"
 
 
@@ -386,17 +495,17 @@ def main(argv=None):
     ap.add_argument("--from", dest="first", type=int, default=1975)
     ap.add_argument("--to", dest="last", type=int, default=2024)
     ap.add_argument("--outcomes", default=",".join(OUTCOMES))
-    ap.add_argument("--no-forward", action="store_true")
+    ap.add_argument("--forward", action="store_true", help="also forecast the year after the last data")
     ap.add_argument("--out")
     args = ap.parse_args(argv)
     rows, future, feat_names, coups = build()
-    print(f"{len(rows)} country-years, {len(feat_names)} features, coup table {'found' if coups else 'missing'}", flush=True)
+    print(f"{len(rows)} country-years, {len(feat_names['all'])} features, coup table {'found' if coups else 'missing'}", flush=True)
     results, fwd = {}, {}
     for o in args.outcomes.split(","):
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             results[o] = backtest(rows, o, range(args.first, args.last + 1))
-            if not args.no_forward:
+            if args.forward:
                 fwd[o] = forward(rows, future, o)
         r = results[o]
         print(o, "AUC", {k: round(auc(v) or 0, 3) for k, v in r["pairs"].items()} if r else "no data", flush=True)

@@ -35,8 +35,11 @@ notes:
   series) must be published under CC BY-SA 4.0. If the project picks CC0 or CC BY for its own data, V-Dem tables
   must ship as a separately licensed part of dist/ with their own licence notice, or the project has to adopt CC BY-SA
   for the whole dataset. This is our reading of the licence, not legal advice.'
-- 'First use: a handful of indices (electoral democracy, liberal democracy, civil liberties), not the thousands of raw
-  variables.'
+- 'First use: a handful of indices (electoral democracy, liberal democracy, civil liberties). October 2026: about 50
+  more of V-Dem''s own measures from 1946 (corruption, constraints on the executive, political killings, polarization,
+  exclusion, regime dimensions, election years) and leader tenure and age derived from the head of state and government
+  names (tools/importers/vdem.py, EXTRA and LEADER_TABLES). V-Dem''s bundled third-party "e_" variables are kept out of
+  git (see docs/table-licenses.md).'
 - The V-Dem site warns that index values are not comparable across versions; pin v16 for every import.
 review:
   status: sourced

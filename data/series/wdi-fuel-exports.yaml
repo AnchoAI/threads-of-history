@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-fuel-exports
+title: Fuel exports (% of merchandise exports) (World Bank)
+summary: 'Fuels comprise the commodities in SITC (Rev. 3) section 3 (mineral fuels, lubricants and related
+  materials). This indicator is expressed as a percentage of merchandise exports which is comprised of
+  goods whose economic ownership is changed between a resident and a non-resident and that are not included
+  in the following specific categories: goods under merchanting, non-monetary gold, and parts of...'
+occurred:
+  start: '1962'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: TX.VAL.FUEL.ZS.UN
+table: tables/wdi-fuel-exports.csv
+sources:
+- url: https://data.worldbank.org/indicator/TX.VAL.FUEL.ZS.UN
+  title: Fuel exports (% of merchandise exports)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

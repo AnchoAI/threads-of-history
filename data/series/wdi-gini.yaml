@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-gini
+title: Gini index (World Bank)
+summary: Gini index measures the extent to which the distribution of income (or, in some cases, consumption
+  expenditure) among individuals or households within an economy deviates from a perfectly equal distribution.
+  A Lorenz curve plots the cumulative percentages of total income received against the cumulative number
+  of recipients, starting with the poorest individual or household. The Gini index...
+occurred:
+  start: '1963'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: index (0-100)
+dataset: world-bank-wdi
+indicator: SI.POV.GINI
+table: tables/wdi-gini.csv
+sources:
+- url: https://data.worldbank.org/indicator/SI.POV.GINI
+  title: Gini index
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

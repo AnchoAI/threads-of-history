@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: vdem-exclusion-economic
+title: Exclusion by socio-economic group (V-Dem)
+summary: Exclusion by socio-economic group. V-Dem variable v2xpe_exlecon; see the V-Dem v16 codebook for
+  the exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: index (0-1)
+dataset: v-dem
+indicator: v2xpe_exlecon
+table: tables/vdem-exclusion-economic.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

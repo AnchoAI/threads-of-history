@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: vdem-hos-path-to-power
+title: How the head of state came to power (V-Dem)
+summary: How the head of state came to power. V-Dem variable v2expathhs; see the V-Dem v16 codebook for
+  the exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: 'category: 0 foreign power, 1 force, 2 hereditary, 3 appointed by monarch, 4 appointed by military,
+  5 appointed by ruling party, 6 appointed by legislature, 7 directly elected, 8 other'
+dataset: v-dem
+indicator: v2expathhs
+table: tables/vdem-hos-path-to-power.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

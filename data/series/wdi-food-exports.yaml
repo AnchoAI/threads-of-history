@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-food-exports
+title: Food exports (% of merchandise exports) (World Bank)
+summary: Food comprises the commodities in SITC (Rev. 3) sections 0 (food and live animals), 1 (beverages
+  and tobacco), and 4 (animal and vegetable oils and fats) and division 22 (oil seeds, oil nuts, and oil
+  kernels). This indicator is expressed as a percentage of merchandise exports which is comprised of goods
+  whose economic ownership is changed between a resident and a non-resident and that are not...
+occurred:
+  start: '1962'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: TX.VAL.FOOD.ZS.UN
+table: tables/wdi-food-exports.csv
+sources:
+- url: https://data.worldbank.org/indicator/TX.VAL.FOOD.ZS.UN
+  title: Food exports (% of merchandise exports)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

@@ -40,6 +40,52 @@ INDICATORS = [
      "People aged 15-24 as a share of everyone aged 15 and over, computed from World Bank age and population series "
      "(which come from UN World Population Prospects).", "share (0-1)"),
 ]
+# More indicators for forecasting: (code, table, title, unit). Summaries use the API's own definition.
+EXTRA = [
+    ("NY.GDP.PCAP.KD.ZG", "wdi-gdp-pc-growth", "GDP per capita growth", "% per year"),
+    ("NY.GDP.PCAP.KD", "wdi-gdp-pc", "GDP per capita, constant 2015 US$", "US$ (2015)"),
+    ("NY.GDP.DEFL.KD.ZG", "wdi-gdp-deflator-inflation", "Inflation, GDP deflator", "% per year"),
+    ("NE.TRD.GNFS.ZS", "wdi-trade", "Trade (% of GDP)", "% of GDP"),
+    ("NY.GDP.TOTL.RT.ZS", "wdi-resource-rents", "Total natural resources rents (% of GDP)", "% of GDP"),
+    ("NY.GDP.PETR.RT.ZS", "wdi-oil-rents", "Oil rents (% of GDP)", "% of GDP"),
+    ("NY.GDP.NGAS.RT.ZS", "wdi-gas-rents", "Natural gas rents (% of GDP)", "% of GDP"),
+    ("NY.GDP.MINR.RT.ZS", "wdi-mineral-rents", "Mineral rents (% of GDP)", "% of GDP"),
+    ("BX.KLT.DINV.WD.GD.ZS", "wdi-fdi", "Foreign direct investment, net inflows (% of GDP)", "% of GDP"),
+    ("BX.TRF.PWKR.DT.GD.ZS", "wdi-remittances", "Personal remittances received (% of GDP)", "% of GDP"),
+    ("DT.ODA.ODAT.GN.ZS", "wdi-aid", "Net official development assistance received (% of GNI)", "% of GNI"),
+    ("GC.DOD.TOTL.GD.ZS", "wdi-government-debt", "Central government debt (% of GDP)", "% of GDP"),
+    ("DT.DOD.DECT.GN.ZS", "wdi-external-debt", "External debt stocks (% of GNI)", "% of GNI"),
+    ("FI.RES.TOTL.MO", "wdi-reserves-months", "Total reserves in months of imports", "months"),
+    ("BN.CAB.XOKA.GD.ZS", "wdi-current-account", "Current account balance (% of GDP)", "% of GDP"),
+    ("PA.NUS.FCRF", "wdi-exchange-rate", "Official exchange rate (local currency per US$)", "LCU per US$"),
+    ("SL.UEM.TOTL.ZS", "wdi-unemployment", "Unemployment (% of labour force, ILO estimate)", "%"),
+    ("SL.UEM.1524.ZS", "wdi-youth-unemployment", "Youth unemployment (% of labour force 15-24, ILO estimate)", "%"),
+    ("SP.URB.TOTL.IN.ZS", "wdi-urban-population", "Urban population (% of total)", "%"),
+    ("SP.URB.GROW", "wdi-urban-growth", "Urban population growth", "% per year"),
+    ("SP.POP.GROW", "wdi-population-growth", "Population growth", "% per year"),
+    ("SP.DYN.TFRT.IN", "wdi-fertility", "Fertility rate (births per woman)", "births per woman"),
+    ("SP.DYN.LE00.IN", "wdi-life-expectancy", "Life expectancy at birth", "years"),
+    ("SH.DYN.MORT", "wdi-child-mortality", "Under-5 mortality rate", "per 1,000 live births"),
+    ("NV.AGR.TOTL.ZS", "wdi-agriculture-share", "Agriculture, forestry and fishing (% of GDP)", "% of GDP"),
+    ("AG.PRD.FOOD.XD", "wdi-food-production", "Food production index (2014-2016 = 100)", "index"),
+    ("SN.ITK.DEFC.ZS", "wdi-undernourishment", "Prevalence of undernourishment", "% of population"),
+    ("SE.SEC.ENRR", "wdi-secondary-enrolment", "School enrolment, secondary (% gross)", "%"),
+    ("SE.TER.ENRR", "wdi-tertiary-enrolment", "School enrolment, tertiary (% gross)", "%"),
+    ("IT.NET.USER.ZS", "wdi-internet-users", "Internet users (% of population)", "%"),
+    ("IT.CEL.SETS.P2", "wdi-mobile-subscriptions", "Mobile subscriptions (per 100 people)", "per 100 people"),
+    ("MS.MIL.XPND.GD.ZS", "wdi-military-spending", "Military expenditure (% of GDP)", "% of GDP"),
+    ("MS.MIL.TOTL.TF.ZS", "wdi-armed-forces", "Armed forces personnel (% of labour force)", "%"),
+    ("SI.POV.GINI", "wdi-gini", "Gini index", "index (0-100)"),
+    ("SM.POP.RHCR.EO", "wdi-refugees-origin", "UNHCR refugees by country of origin", "people"),
+    ("SM.POP.RHCR.EA", "wdi-refugees-hosted", "UNHCR refugees by country of asylum", "people"),
+    ("EG.ELC.ACCS.ZS", "wdi-electricity-access", "Access to electricity (% of population)", "%"),
+    ("FS.AST.PRVT.GD.ZS", "wdi-private-credit", "Domestic credit to private sector (% of GDP)", "% of GDP"),
+    ("FR.INR.RINR", "wdi-real-interest-rate", "Real interest rate", "%"),
+    ("TX.VAL.FUEL.ZS.UN", "wdi-fuel-exports", "Fuel exports (% of merchandise exports)", "%"),
+    ("TX.VAL.FOOD.ZS.UN", "wdi-food-exports", "Food exports (% of merchandise exports)", "%"),
+    ("TM.VAL.FOOD.ZS.UN", "wdi-food-imports", "Food imports (% of merchandise imports)", "%"),
+    ("TX.VAL.MMTL.ZS.UN", "wdi-metal-exports", "Ores and metals exports (% of merchandise exports)", "%"),
+]
 REGIONS = ["americas", "western-europe", "russia-eastern-europe", "middle-east-north-africa",
            "south-central-asia", "east-asia", "sub-saharan-africa", "south-east-asia"]
 
@@ -62,12 +108,16 @@ def get(url):
     return data
 
 
+class LicenceError(Exception):
+    pass
+
+
 def series(code, real):
     """{(iso3, year): value} for one WDI indicator, after checking its licence."""
     src = get(f"{API}/sources/2/indicators/{code}/metadata?format=json")  # licence fields live here
     notes = json.dumps(src)
     if "CC BY-4.0" not in notes and "CC BY 4.0" not in notes:
-        raise SystemExit(f"{code}: licence in API metadata is not CC BY 4.0; check before importing")
+        raise LicenceError(f"{code}: licence in API metadata is not CC BY 4.0; check before importing")
     data = get(f"{API}/country/all/indicator/{code}?format=json&per_page=20000&date=1960:2030")[1]
     return {(d["countryiso3code"], int(d["date"])): d["value"] for d in data
             if d["countryiso3code"] in real and d["value"] is not None}
@@ -107,6 +157,34 @@ def main():
                                    "title": meta["name"] if code != "youth-bulge" else "Population by age group (WDI)",
                                    "publisher": "The World Bank: World Development Indicators", "type": "primary"}]})
         print(f"wrote {path.relative_to(CACHE.parent)}: {len(rows)} rows")
+    skipped = []
+    for code, table, title, unit in EXTRA:
+        try:
+            values = series(code, real)
+        except LicenceError as e:
+            skipped.append(str(e))
+            continue
+        except (IndexError, KeyError, TypeError):
+            skipped.append(f"{code}: the API returned no data or an error")
+            continue
+        meta = get(f"{API}/indicator/{code}?format=json")[1][0]
+        rows = [(iso, str(y), v) for (iso, y), v in values.items()]
+        if not rows:
+            skipped.append(f"{code}: no data")
+            continue
+        path = write_table(table, rows, digits=4)
+        note = " ".join((meta.get("sourceNote") or "").split())
+        write_series({"id": table, "title": f"{title} (World Bank)",
+                      "summary": (note[:400].rsplit(" ", 1)[0] + "...") if len(note) > 400 else (note or title),
+                      "occurred": {"start": str(min(int(r[1]) for r in rows)), "end": str(max(int(r[1]) for r in rows)),
+                                   "precision": "year"},
+                      "threads": ["industry"], "regions": REGIONS, "importance": 1, "unit": unit,
+                      "dataset": "world-bank-wdi", "indicator": code, "table": f"tables/{table}.csv",
+                      "sources": [{"url": f"https://data.worldbank.org/indicator/{code}", "title": meta["name"],
+                                   "publisher": "The World Bank: World Development Indicators", "type": "primary"}]})
+        print(f"wrote {path.relative_to(CACHE.parent)}: {len(rows)} rows")
+    for s in skipped:
+        print("skipped", s)
 
 
 if __name__ == "__main__":

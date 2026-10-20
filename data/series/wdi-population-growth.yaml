@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-population-growth
+title: Population growth (World Bank)
+summary: Annual population growth rate for year t is the exponential rate of growth of midyear population
+  from year t-1 to t, expressed as a percentage. Population is based on the de facto definition of population,
+  which counts all residents regardless of legal status or citizenship.
+occurred:
+  start: '1961'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% per year'
+dataset: world-bank-wdi
+indicator: SP.POP.GROW
+table: tables/wdi-population-growth.csv
+sources:
+- url: https://data.worldbank.org/indicator/SP.POP.GROW
+  title: Population growth (annual %)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

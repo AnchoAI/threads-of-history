@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-undernourishment
+title: Prevalence of undernourishment (World Bank)
+summary: Prevalence of undernourishment is the percentage of the population whose habitual food consumption
+  is insufficient to provide the dietary energy levels that are required to maintain a normal active and
+  healthy life. Data showing as 2.5 may signify a prevalence of undernourishment below 2.5%.
+occurred:
+  start: '2001'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of population'
+dataset: world-bank-wdi
+indicator: SN.ITK.DEFC.ZS
+table: tables/wdi-undernourishment.csv
+sources:
+- url: https://data.worldbank.org/indicator/SN.ITK.DEFC.ZS
+  title: Prevalence of undernourishment (% of population)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

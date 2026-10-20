@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: vdem-regime-type
+title: Regimes of the World (V-Dem)
+summary: Regimes of the World. V-Dem variable v2x_regime; see the V-Dem v16 codebook for the exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: 'category: 0 closed autocracy, 1 electoral autocracy, 2 electoral democracy, 3 liberal democracy'
+dataset: v-dem
+indicator: v2x_regime
+table: tables/vdem-regime-type.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary
