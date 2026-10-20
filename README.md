@@ -186,7 +186,7 @@ review: {status: unverified}
 | Type | Meaning | Direction rule the validator checks |
 |---|---|---|
 | `led_to` | cause | `from` cannot start after `to` |
-| `influenced` | a source says `from` shaped attitudes, tastes or behaviour that bear on `to`: a softer claim than cause, used mostly for culture (Diana's 1987 handshake and public attitudes to AIDS) | `from` cannot start after `to` |
+| `influenced` | a source says `from` shaped attitudes, tastes or behaviour that bear on `to`: a softer claim than cause, used mostly for culture (Diana's 1987 handshake and public attitudes to AIDS) | `from` cannot start after `to` ends (influence can land on something already under way) |
 | `revealed` | a later disclosure sheds light on an earlier item | `from` cannot start before `to` |
 | `echo` | a parallel with no causal link | none |
 | `signal_of` | a signal pointing to an event | `from` must be a signal |

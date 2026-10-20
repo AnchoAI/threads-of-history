@@ -507,8 +507,12 @@ def check_links(ds: Dataset, report: Report) -> None:
             report.error(r.path, f"{t} links connect events, signals and decisions, not actors")
         if not (oa and ob):
             continue
-        if t in ("led_to", "influenced") and compare_dates(oa["start"], ob["start"]) > 0:
+        if t == "led_to" and compare_dates(oa["start"], ob["start"]) > 0:
             report.error(r.path, f"cause {a!r} ({oa['start']}) starts after its effect {b!r} ({ob['start']})")
+        # influence can land on something already under way (a 1968 broadcast and the Vietnam War,
+        # 1955-1975), so it only has to start before the target ends; ongoing targets have no end
+        if t == "influenced" and not ob.get("ongoing") and compare_dates(oa["start"], ob.get("end", ob["start"])) > 0:
+            report.error(r.path, f"influence {a!r} ({oa['start']}) starts after {b!r} ended ({ob.get('end', ob['start'])})")
         if t == "revealed" and compare_dates(oa["start"], ob["start"]) < 0:
             report.error(r.path, f"revealed points back in time, but {a!r} ({oa['start']}) is before {b!r} ({ob['start']})")
         if t == "part_of" and compare_dates(oa["start"], ob["start"]) < 0:

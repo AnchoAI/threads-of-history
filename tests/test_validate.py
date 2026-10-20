@@ -200,7 +200,7 @@ def test_full_dates_stay_strings(tmp_path):
     (lambda d: d["series"][0]["points"][1].update(source=5), "does not exist"),
     (lambda d: d["paths"][0]["steps"].append("missing"), "is not an item"),
     (lambda d: d["links"].append(link("invasion-2022", "led_to", "buildup-2021")), "starts after its effect"),
-    (lambda d: d["links"].append(link("invasion-2022", "influenced", "buildup-2021")), "starts after its effect"),
+    (lambda d: d["links"].append(link("invasion-2022", "influenced", "buildup-2021")), "starts after 'buildup-2021' ended"),
     (lambda d: d["links"].append(link("buildup-2021", "revealed", "invasion-2022")), "points back in time"),
     (lambda d: d["links"].append(link("buildup-2021", "signal_of", "invasion-2022")), "must start at a signal"),
     (lambda d: d["links"].append(link("buildup-2021", "led_to", "buildup-2021")), "cannot point to itself"),
@@ -345,3 +345,10 @@ def test_importer_helper_writes_clean_sorted_table(tmp_path, monkeypatch):
     assert path.read_text() == "entity,at,value\nDEU,1928,7\nDEU,1932,30.1\nFRA,1932,4.5\n"
     with pytest.raises(ValueError):
         common.write_table("bad", [("Germany", "1928", 1.0)])
+
+
+def test_influence_can_land_on_something_under_way(tmp_path):
+    def change(d):
+        d["events"][0]["occurred"]["end"] = "2022-06"   # the buildup lasts past the invasion's start
+        d["links"].append(link("invasion-2022", "influenced", "buildup-2021"))
+    assert run(tmp_path, with_changes(change)).errors == []
