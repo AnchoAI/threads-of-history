@@ -18,8 +18,12 @@ import numpy as np
 
 from .panel import PRIVATE, TABLES as TABLE_DIR
 
-# Tables that are outcomes or bookkeeping rather than conditions, left out of the automatic list.
-SKIP = {"vdem-region"}
+# Left out of the automatic list: bookkeeping (region codes), and estimates smoothed over all years
+# at once, whose value for a year can reflect later years (Fariss et al.'s latent GDP and population,
+# bundled by V-Dem), or interpolated between survey years (Clio Infra and Gapminder series). In the
+# first all-tables run the GDP one dominated the economic-collapse forecasts, a sign of hindsight.
+SKIP = {"vdem-region", "vdem-e-gdp-pc", "vdem-e-population", "vdem-e-education-years", "vdem-e-life-expectancy",
+        "vdem-e-child-mortality", "vdem-e-urbanization", "vdem-e-fertility"}
 MAX_BACK = 3
 TRADE = [  # (world table, country share table, feature name)
     ("pink-energy", "wdi-fuel-exports", "energy price change x fuel exports"),

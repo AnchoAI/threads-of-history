@@ -23,7 +23,7 @@ For each cutoff year X, models are trained on outcomes before X and forecast yea
     (forecast/gbm.py's, plus coup history when the coup table is present),
   - the same two on every table, found automatically (forecast/alltables.py); the boosting
     one is recalibrated (Platt scaling) on its last 5 training years,
-  - an ensemble: the mean of the two all-tables models.
+  - an ensemble: the mean of the plain logit and the all-tables boosting model.
 The report gives AUC, the share of events in the riskiest 10% of countries, Brier, whether
 the extra tables help (with bootstrap intervals), calibration, and the main patterns the
 boosting model found (SHAP). --forward adds a look at the year after the last data.
@@ -317,7 +317,7 @@ def _platt(z, y, iters=100):
     return float(a), float(b)
 
 
-ENSEMBLE = ("logit, all tables", "gbm, all tables")
+ENSEMBLE = ("logit", "gbm, all tables")  # the all-tables logit has too many features to do well
 
 
 def _models():
@@ -414,7 +414,8 @@ def report(results, feat_names, coups, first, last) -> str:
              "trained only on years before X. `logit` and `gbm` use the hand-built features "
              f"({len(feat_names['base'])}); the \"all tables\" models add every table automatically "
              f"({len(feat_names['all'])} features in all, see forecast/alltables.py). The all-tables boosting model is "
-             "recalibrated on recent training years; `ensemble` is the mean of the two all-tables models.", ""]
+             "recalibrated on recent training years; `ensemble` is the mean of the plain logit and the all-tables "
+             "boosting model. The base rate's AUC isn't exactly 0.5 because it changes from year to year.", ""]
     if not coups:
         lines += ["Coup outcomes are missing: their table is private (tools/importers/powell_thyne.py).", ""]
 
