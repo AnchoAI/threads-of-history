@@ -1,0 +1,19 @@
+id: tet-offensive-1968--led_to--cronkite-report-from-vietnam-1968
+from: tet-offensive-1968
+to: cronkite-report-from-vietnam-1968
+type: led_to
+confidence: documented
+note: Cronkite went to Vietnam to cover the aftermath of the Tet Offensive; his report came out of that trip.
+sources:
+- url: https://en.wikipedia.org/wiki/Walter_Cronkite
+  archive_url: https://web.archive.org/web/20261015033745/https://en.wikipedia.org/wiki/Walter_Cronkite
+  title: Walter Cronkite
+  publisher: Wikipedia
+  quote: In mid-February 1968, on the urging of his executive producer Ernest Leiser, Cronkite and Leiser journeyed
+    to Vietnam to cover the aftermath of the Tet Offensive.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.

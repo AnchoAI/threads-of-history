@@ -1,0 +1,20 @@
+id: white-house-plumbers-formed-1971--led_to--watergate-scandal-1972
+from: white-house-plumbers-formed-1971
+to: watergate-scandal-1972
+type: led_to
+confidence: documented
+note: Former Plumbers operatives went on to the Watergate break-in.
+sources:
+- url: https://en.wikipedia.org/wiki/White_House_Plumbers
+  archive_url: https://web.archive.org/web/20261011141522/https://en.wikipedia.org/wiki/White_House_Plumbers
+  title: White House Plumbers
+  publisher: Wikipedia
+  quote: some of its former operatives branched into illegal activities while still employed at the White House
+    together with managers of the Committee for the Re-Election of the President, including the Watergate break-in
+    and the ensuing Watergate scandal.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.
