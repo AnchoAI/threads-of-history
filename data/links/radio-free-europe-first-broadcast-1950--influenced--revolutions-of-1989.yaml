@@ -1,0 +1,22 @@
+id: radio-free-europe-first-broadcast-1950--influenced--revolutions-of-1989
+from: radio-free-europe-first-broadcast-1950
+to: revolutions-of-1989
+type: influenced
+confidence: documented
+note: Some European politicians credit Radio Free Europe with a significant role in the collapse of communism in
+  Eastern Europe.
+sources:
+- url: https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  archive_url: https://web.archive.org/web/20261013133406/https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikipedia
+  quote: According to certain European politicians such as Petr Nečas, RFE played a significant role in the collapse
+    of communism and the development of democracy in Eastern Europe.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.
+  - Only one view is sourced (politicians such as Petr Nečas). A reviewer may want a scholarly source, for or against,
+    before keeping this documented.

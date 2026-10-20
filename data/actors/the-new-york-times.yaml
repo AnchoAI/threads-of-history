@@ -1,0 +1,22 @@
+id: the-new-york-times
+title: The New York Times
+actor_type: organization
+summary: American daily newspaper (founded 1851).
+threads:
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q9684
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9684.json
+  title: The New York Times
+  publisher: Wikidata
+  quote: American daily newspaper (founded 1851)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,23 @@
+id: daniel-ellsberg
+title: Daniel Ellsberg
+actor_type: person
+summary: American whistleblower (1931–2023).
+threads:
+- media
+- usru
+regions:
+- americas
+importance: 2
+wikidata: Q431085
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q431085.json
+  title: Daniel Ellsberg
+  publisher: Wikidata
+  quote: American whistleblower (1931–2023)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

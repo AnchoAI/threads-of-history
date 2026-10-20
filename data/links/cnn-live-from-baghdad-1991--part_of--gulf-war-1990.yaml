@@ -1,0 +1,27 @@
+id: cnn-live-from-baghdad-1991--part_of--gulf-war-1990
+from: cnn-live-from-baghdad-1991
+to: gulf-war-1990
+type: part_of
+confidence: documented
+note: CNN's live reporting from Baghdad was the best-known part of the Gulf War's media coverage.
+sources:
+- url: https://en.wikipedia.org/wiki/Media_coverage_of_the_Gulf_War
+  archive_url: https://web.archive.org/web/20260913150606/https://en.wikipedia.org/wiki/Media_coverage_of_the_Gulf_War
+  title: Media coverage of the Gulf War
+  publisher: Wikipedia
+  quote: Media coverage of the Gulf War was significant for many reasons including CNN's live reporting from a Baghdad
+    hotel
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/CNN_effect
+  archive_url: https://web.archive.org/web/20260905184544/https://en.wikipedia.org/wiki/CNN_effect
+  title: CNN effect
+  publisher: Wikipedia
+  quote: it was CNN's live coverage from within Iraq during the 1990-1991 Gulf War that made them a household name
+    and allegedly changed the public's relation to war
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.
