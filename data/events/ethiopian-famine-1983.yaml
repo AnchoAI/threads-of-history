@@ -1,0 +1,41 @@
+id: ethiopian-famine-1983
+title: 1983–1985 famine in Ethiopia
+summary: A famine in Ethiopia from 1983 to 1985, under the Derg military government, affected 7.75 million people
+  and left an estimated 300,000 to 1.2 million dead. Sources attribute it to drought, the civil war and the government's
+  policies.
+occurred:
+  start: '1983'
+  end: '1985'
+  precision: year
+threads:
+- econ-crises
+- rights
+regions:
+- sub-saharan-africa
+actors: []
+importance: 4
+wikidata: Q1637896
+sources:
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: A widespread famine affected Ethiopia from 1983 to 1985. The worst famine to hit the country in a century,
+    it affected 7.75 million people (out of Ethiopia's 38–40 million) and left approximately 300,000 to 1.2 million
+    dead.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: Causes Drought, the Ethiopian Civil War and military policies taken by the Derg regime
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The death toll is a wide range; Alex de Waal's estimate in the same article is 400,000 to 500,000.
+  - Not a culture item; added as the target of the Band Aid and Live Aid links.

@@ -1,0 +1,48 @@
+id: fbi-media-office-burglary-1971
+title: Burglary of the FBI office in Media, Pennsylvania
+summary: On 8 March 1971 an activist group calling itself the Citizens' Commission to Investigate the FBI broke
+  into the FBI field office in Media, Pennsylvania, took over 1,000 classified documents and mailed some to newspapers.
+  The documents revealed the FBI's secret COINTELPRO operation.
+occurred:
+  start: '1971-03-08'
+  precision: day
+threads:
+- intel
+- rights
+regions:
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  archive_url: https://web.archive.org/web/20260929143855/https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  title: Citizens' Commission to Investigate the FBI
+  publisher: Wikipedia
+  quote: Their only known action was breaking into the field office of the Federal Bureau of Investigation (FBI)
+    located in Media, Pennsylvania on March 8, 1971, and stealing over 1,000 classified documents.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  archive_url: https://web.archive.org/web/20260929143855/https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  title: Citizens' Commission to Investigate the FBI
+  publisher: Wikipedia
+  quote: Following the burglary, selected documents were mailed anonymously to several US newspapers
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  archive_url: https://web.archive.org/web/20260929143855/https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  title: Citizens' Commission to Investigate the FBI
+  publisher: Wikipedia
+  quote: The documents revealed the FBI's secret COINTELPRO operation
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata has the group (Q5122620) but no separate item for the burglary, so no wikidata id is set.
+  - 'Candidate `known` refinement: the full document set was first published in March 1972 (WIN Magazine), per the
+    same article.'
