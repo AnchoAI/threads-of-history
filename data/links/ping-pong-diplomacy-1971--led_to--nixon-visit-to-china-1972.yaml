@@ -1,0 +1,25 @@
+id: ping-pong-diplomacy-1971--led_to--nixon-visit-to-china-1972
+from: ping-pong-diplomacy-1971
+to: nixon-visit-to-china-1972
+type: led_to
+confidence: documented
+note: Wikipedia says the table tennis exchange contributed to Nixon's 1972 visit; the State Department calls it
+  the public face of the negotiations behind the visit.
+sources:
+- url: https://en.wikipedia.org/wiki/Ping-pong_diplomacy
+  archive_url: https://web.archive.org/web/20260922160401/https://en.wikipedia.org/wiki/Ping-pong_diplomacy
+  title: Ping-pong diplomacy
+  publisher: Wikipedia
+  quote: The exchange of table tennis players helped create a symbolic moment of goodwill that eventually contributed
+    to President Richard Nixon's historic visit to China in 1972.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20261013011917/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: Office of the Historian, US Department of State
+  quote: This informal “Ping Pong Diplomacy” provided a public face for more serious diplomatic negotiations.
+  type: primary
+  accessed: '2026-10-20'
+review:
+  status: sourced

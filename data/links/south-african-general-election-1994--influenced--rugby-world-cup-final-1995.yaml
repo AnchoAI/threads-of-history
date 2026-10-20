@@ -1,0 +1,18 @@
+id: south-african-general-election-1994--influenced--rugby-world-cup-final-1995
+from: south-african-general-election-1994
+to: rugby-world-cup-final-1995
+type: influenced
+confidence: documented
+note: After his election, Mandela urged black South Africans to support the Springboks, a team many had opposed,
+  at the home World Cup.
+sources:
+- url: https://en.wikipedia.org/wiki/Rugby_union_and_apartheid
+  archive_url: https://web.archive.org/web/20260908212747/https://en.wikipedia.org/wiki/Rugby_union_and_apartheid
+  title: Rugby union and apartheid
+  publisher: Wikipedia
+  quote: After his election in 1994, Nelson Mandela encouraged black South Africans to get behind the previously
+    hated national rugby team, the Springboks, as South Africa hosted the 1995 Rugby World Cup.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
