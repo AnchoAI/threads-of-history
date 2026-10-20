@@ -1,0 +1,18 @@
+id: black-power-salute-1968--part_of--protests-of-1968
+from: black-power-salute-1968
+to: protests-of-1968
+type: part_of
+confidence: documented
+note: Wikipedia's account of the protests of 1968 includes the salute among them.
+sources:
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: The Olympics were targeted as a high-profile venue to bring the Black Movement into public view. At a televised
+    medal ceremony, black U.S. track stars John Carlos and Tommie Smith each raised one black-gloved hand in the
+    black power salute
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

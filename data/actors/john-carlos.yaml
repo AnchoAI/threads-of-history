@@ -1,0 +1,20 @@
+id: john-carlos
+title: John Carlos
+actor_type: person
+summary: American track and field athlete.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q370729
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q370729.json
+  title: John Carlos
+  publisher: Wikidata
+  quote: American track and field athlete
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.
