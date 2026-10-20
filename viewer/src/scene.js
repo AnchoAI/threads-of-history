@@ -311,7 +311,7 @@ export class Timeline {
     if (out.length() < 1) out.set(0, 1, 0);
     out.normalize();
     const dx = Math.abs(A.x - B.x);
-    const bend = { led_to: 5 + dx * 0.1, revealed: 9 + dx * 0.16, part_of: 3 + dx * 0.05 }[type] ?? 14 + dx * 0.2;
+    const bend = { led_to: 5 + dx * 0.1, influenced: 7 + dx * 0.12, revealed: 9 + dx * 0.16, part_of: 3 + dx * 0.05 }[type] ?? 14 + dx * 0.2;
     if (type === "revealed") out.y += 0.6;
     if (type === "echo") out.y -= this.view === "2d" ? 2.5 : 0.6;
     out.normalize();

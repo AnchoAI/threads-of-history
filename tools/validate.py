@@ -503,11 +503,11 @@ def check_links(ds: Dataset, report: Report) -> None:
                 report.error(r.path, f"signal_of must start at a signal; {a!r} is a {ra.kind}")
         if t == "part_of":
             part_of.setdefault(a, []).append(b)
-        if t in ("led_to", "revealed") and "actor" in (ra.kind, rb.kind):
+        if t in ("led_to", "influenced", "revealed") and "actor" in (ra.kind, rb.kind):
             report.error(r.path, f"{t} links connect events, signals and decisions, not actors")
         if not (oa and ob):
             continue
-        if t == "led_to" and compare_dates(oa["start"], ob["start"]) > 0:
+        if t in ("led_to", "influenced") and compare_dates(oa["start"], ob["start"]) > 0:
             report.error(r.path, f"cause {a!r} ({oa['start']}) starts after its effect {b!r} ({ob['start']})")
         if t == "revealed" and compare_dates(oa["start"], ob["start"]) < 0:
             report.error(r.path, f"revealed points back in time, but {a!r} ({oa['start']}) is before {b!r} ({ob['start']})")

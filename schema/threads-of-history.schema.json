@@ -11,7 +11,7 @@
     },
     "link_id": {
       "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*--(led_to|revealed|echo|signal_of|part_of)--[a-z0-9]+(-[a-z0-9]+)*$",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*--(led_to|influenced|revealed|echo|signal_of|part_of)--[a-z0-9]+(-[a-z0-9]+)*$",
       "description": "<from>--<type>--<to>. The validator checks it matches the from, type and to fields."
     },
     "date": {
@@ -528,12 +528,13 @@
         "type": {
           "enum": [
             "led_to",
+            "influenced",
             "revealed",
             "echo",
             "signal_of",
             "part_of"
           ],
-          "description": "led_to: cause. revealed: a later disclosure about an earlier item (points back in time). echo: a parallel with no causal link. signal_of: a signal pointing to an event. part_of: a sub-event inside a larger event."
+          "description": "led_to: cause. influenced: a published source says the first item shaped attitudes, tastes or behaviour that bear on the second; a softer claim than cause, used mostly for culture. revealed: a later disclosure about an earlier item (points back in time). echo: a parallel with no causal link. signal_of: a signal pointing to an event. part_of: a sub-event inside a larger event."
         },
         "confidence": {
           "enum": [

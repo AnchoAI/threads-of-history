@@ -172,7 +172,7 @@ In YAML, **put a bare year in quotes** (`start: "1962"`). Otherwise it is read a
 id: bucharest-summit-2008--led_to--russia-annexes-crimea-2014
 from: bucharest-summit-2008
 to: russia-annexes-crimea-2014
-type: led_to          # led_to | revealed | echo | signal_of | part_of
+type: led_to          # led_to | influenced | revealed | echo | signal_of | part_of
 confidence: contested # documented | contested
 note: One sentence.
 sources: [...]        # at least one, always
@@ -186,6 +186,7 @@ review: {status: unverified}
 | Type | Meaning | Direction rule the validator checks |
 |---|---|---|
 | `led_to` | cause | `from` cannot start after `to` |
+| `influenced` | a source says `from` shaped attitudes, tastes or behaviour that bear on `to`: a softer claim than cause, used mostly for culture (Diana's 1987 handshake and public attitudes to AIDS) | `from` cannot start after `to` |
 | `revealed` | a later disclosure sheds light on an earlier item | `from` cannot start before `to` |
 | `echo` | a parallel with no causal link | none |
 | `signal_of` | a signal pointing to an event | `from` must be a signal |

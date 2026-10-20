@@ -74,3 +74,23 @@
   name: Industry, science & technology
   domain: science
   color: '#6CC28E'
+- id: music
+  name: Music & youth culture
+  domain: culture
+  color: '#FF8FB1'
+- id: film-tv
+  name: Film & television
+  domain: culture
+  color: '#F2A65A'
+- id: media
+  name: Press, media & the internet
+  domain: culture
+  color: '#9AD0C2'
+- id: celebrity-activism
+  name: Celebrity, charity & activism
+  domain: culture
+  color: '#E9C46A'
+- id: sport
+  name: Sport & politics
+  domain: sports
+  color: '#7FB7E6'
