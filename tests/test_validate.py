@@ -200,6 +200,7 @@ def test_full_dates_stay_strings(tmp_path):
     (lambda d: d["series"][0]["points"][1].update(source=5), "does not exist"),
     (lambda d: d["paths"][0]["steps"].append("missing"), "is not an item"),
     (lambda d: d["links"].append(link("invasion-2022", "led_to", "buildup-2021")), "starts after its effect"),
+    (lambda d: d["links"].append(link("invasion-2022", "influenced", "buildup-2021")), "starts after its effect"),
     (lambda d: d["links"].append(link("buildup-2021", "revealed", "invasion-2022")), "points back in time"),
     (lambda d: d["links"].append(link("buildup-2021", "signal_of", "invasion-2022")), "must start at a signal"),
     (lambda d: d["links"].append(link("buildup-2021", "led_to", "buildup-2021")), "cannot point to itself"),
