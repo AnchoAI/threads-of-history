@@ -1,0 +1,59 @@
+id: bowie-concert-at-the-reichstag-1987--influenced--fall-of-the-berlin-wall-1989
+from: bowie-concert-at-the-reichstag-1987
+to: fall-of-the-berlin-wall-1989
+type: influenced
+confidence: contested
+note: Some commentators and the German Foreign Office credit the 1987 concert and the riots that followed with
+  a part in the Wall's fall; others say other factors mattered more.
+sources:
+- url: https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  archive_url: https://web.archive.org/web/20260815014440/https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  title: Glass Spider Tour
+  publisher: Wikipedia
+  quote: According to German journalist Tobias Ruther, these protests in East Berlin were the first in the
+    sequence of riots that led to the fall of the wall in November 1989.
+  type: reference
+  accessed: '2026-10-20'
+positions:
+- claim: The concert and the East Berlin riots that followed were a catalyst, the first in a sequence of protests
+    that led to the fall of the Wall.
+  held_by:
+  - Tobias Rüther (German journalist)
+  - German Foreign Office (2016 tribute)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Glass_Spider_Tour
+    archive_url: https://web.archive.org/web/20260815014440/https://en.wikipedia.org/wiki/Glass_Spider_Tour
+    title: Glass Spider Tour
+    publisher: Wikipedia
+    quote: According to German journalist Tobias Ruther, these protests in East Berlin were the first in the
+      sequence of riots that led to the fall of the wall in November 1989.
+    type: reference
+    accessed: '2026-10-20'
+  - url: https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)
+    archive_url: https://web.archive.org/web/20260830082542/https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)
+    title: '"Heroes" (David Bowie song)'
+    publisher: Wikipedia
+    quote: On Twitter, the German Foreign Office paid homage to Bowie for "helping to bring down the Wall".
+    type: reference
+    accessed: '2026-10-20'
+- claim: Other factors were more influential; no musician was responsible for the fall of the Wall, which East
+    Germans brought down themselves.
+  held_by:
+  - Wikipedia editors (Glass Spider Tour article)
+  - The Berliner (magazine)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Glass_Spider_Tour
+    archive_url: https://web.archive.org/web/20260815014440/https://en.wikipedia.org/wiki/Glass_Spider_Tour
+    title: Glass Spider Tour
+    publisher: Wikipedia
+    quote: Although other factors were probably more influential in the fall of the wall
+    type: reference
+    accessed: '2026-10-20'
+  - url: https://www.the-berliner.com/berlin/bruce-springsteen-plays-east-berlin-1988-history/
+    title: Bruce Springsteen Plays in East Berlin 1988
+    publisher: The Berliner
+    quote: No singular musical artist was responsible for the fall of the Wall and none takes credit for it
+    type: news
+    accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,18 @@
+id: estonian-night-song-festivals-1988--part_of--singing-revolution-1987
+from: estonian-night-song-festivals-1988
+to: singing-revolution-1987
+type: part_of
+confidence: documented
+note: The June 1988 night singing in Tallinn gave the Singing Revolution its name.
+sources:
+- url: https://en.wikipedia.org/wiki/Singing_Revolution
+  archive_url: https://web.archive.org/web/20261010042540/https://en.wikipedia.org/wiki/Singing_Revolution
+  title: Singing Revolution
+  publisher: Wikipedia
+  quote: The term was coined by an Estonian activist and artist, Heinz Valk, in an article published a week
+    after the 10–11 June 1988 spontaneous mass evening singing demonstrations at the Estonian Tallinn Song
+    Festival Grounds.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

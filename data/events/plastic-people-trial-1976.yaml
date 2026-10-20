@@ -1,0 +1,58 @@
+id: plastic-people-trial-1976
+title: Trial of the Plastic People of the Universe
+summary: Czechoslovak authorities arrest members of the rock band the Plastic People of the Universe and others
+  from the underground scene and put them on trial; they are convicted of "organized disturbance of the peace"
+  and sentenced to eight to eighteen months in prison.
+occurred:
+  start: 1976-09
+  precision: month
+threads:
+- music
+- rights
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- the-plastic-people-of-the-universe
+- czechoslovakia
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  archive_url: https://web.archive.org/web/20260719094345/https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  title: The Plastic People of the Universe
+  publisher: Wikipedia
+  quote: In 1976, the Plastics and other people from the underground scene were arrested and put on trial (after
+    performing at the Druhý festival druhé kultury event) by the Communist government, in order to set an example.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  archive_url: https://web.archive.org/web/20260719094345/https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  title: The Plastic People of the Universe
+  publisher: Wikipedia
+  quote: They were convicted of "organized disturbance of the peace" and sentenced to prison terms ranging
+    from eight to eighteen months.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.readex.com/blog/velvet-underground-velvet-revolution-charter-77s-redemption-human-rights-czechoslovakia
+  title: 'From the Velvet Underground to the Velvet Revolution: Charter 77''s Redemption of Human Rights in
+    Czechoslovakia'
+  publisher: Readex
+  quote: The young people now tried and sentenced have for several years been performing as members of rock
+    groups called “Plastic People of the Universe” and “DG-307.”
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.readex.com/blog/velvet-underground-velvet-revolution-charter-77s-redemption-human-rights-czechoslovakia
+  title: 'From the Velvet Underground to the Velvet Revolution: Charter 77''s Redemption of Human Rights in
+    Czechoslovakia'
+  publisher: Readex
+  quote: Prague, Rudé Právo, September 28, 1976.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Month precision rests on a Rudé Právo article of 28 September 1976, quoted by Readex, which reports the
+    young people as "now tried and sentenced". The arrests came earlier in 1976; their exact date and the trial
+    dates were not found in a fetched source.
+  - No Wikidata item exists for the trial itself; the band is Q1478653.

@@ -1,0 +1,63 @@
+id: sun-city-protest-song-1985
+title: '"Sun City" protest song'
+summary: Artists United Against Apartheid, a group of musicians gathered by Steven Van Zandt, release "Sun
+  City" in 1985, pledging not to play the Sun City resort in South Africa in support of the cultural boycott;
+  about half of US radio stations play it, some objecting to its criticism of Reagan's "constructive engagement"
+  policy.
+occurred:
+  start: '1985'
+  precision: year
+threads:
+- music
+- celebrity-activism
+- rights
+regions:
+- americas
+- sub-saharan-africa
+actors: []
+importance: 2
+wikidata: Q7485284
+sources:
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: '"Sun City" is a 1985 protest song written by Steven Van Zandt, produced by Van Zandt and Arthur Baker
+    and recorded by Artists United Against Apartheid to convey opposition to the South African minority regime''s
+    policy of racial segregation, known as apartheid.'
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: The lyrics declared that all the artists involved would refuse to perform at the Sun City resort in
+    South Africa.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: Eventually, Van Zandt, Baker and Schechter gathered a wide array of artists
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: Only about half of American radio stations played "Sun City".
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: Some stations objected to the lyrics' explicit criticism of US President Ronald Reagan's policy of
+    "constructive engagement"
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The single release date (16 October 1985) appears only in the Wikipedia infobox, so year precision is used.

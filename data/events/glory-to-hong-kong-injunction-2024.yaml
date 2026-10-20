@@ -1,0 +1,46 @@
+id: glory-to-hong-kong-injunction-2024
+title: Hong Kong court bans "Glory to Hong Kong"
+summary: On 8 May 2024 Hong Kong's Court of Appeal grants the government an injunction banning criminal acts
+  involving "Glory to Hong Kong", which the government had sought since June 2023 citing the national security
+  law; YouTube then blocks 32 videos of the song in Hong Kong.
+occurred:
+  start: '2024-05-08'
+  precision: day
+threads:
+- music
+- china
+- rights
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: On 8 May 2024, the Court of Appeal ruled in favour of the government, banning criminal acts involving
+    the song.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: The Hong Kong government first sought to wholly ban the song in June 2023, seeking a legal injunction
+    on the song's lyrics and melody and any adaptations thereof, citing the national security law, the sedition
+    law, and the national anthem law.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: Following the court ruling, YouTube blocked access in Hong Kong to 32 videos of the song listed in
+    the court's removal order.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

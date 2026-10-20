@@ -1,0 +1,18 @@
+id: purple-rain-released-1984--led_to--pmrc-founded-1985
+from: purple-rain-released-1984
+to: pmrc-founded-1985
+type: led_to
+confidence: documented
+note: Tipper Gore co-founded the PMRC after hearing her daughter play "Darling Nikki" from Purple Rain.
+sources:
+- url: https://en.wikipedia.org/wiki/Tipper_Gore
+  archive_url: https://web.archive.org/web/20261016162314/https://en.wikipedia.org/wiki/Tipper_Gore
+  title: Tipper Gore
+  publisher: Wikipedia
+  quote: In 1985, Tipper Gore co-founded the Parents Music Resource Center (PMRC) with Sally Nevius, Pam Howar,
+    and Susan Baker, wife of then–United States secretary of the treasury James Baker, because Gore heard her
+    then 11-year-old daughter Karenna playing "Darling Nikki" by Prince.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,68 @@
+id: springsteen-concert-in-east-berlin-1988--influenced--fall-of-the-berlin-wall-1989
+from: springsteen-concert-in-east-berlin-1988
+to: fall-of-the-berlin-wall-1989
+type: influenced
+confidence: contested
+note: Erik Kirschbaum and the historian Gerd Dietrich argue the concert fed East Germans' desire for change;
+  others see it as at most a small part among many causes.
+sources:
+- url: https://www.deutschland.de/en/news/bruce-springsteen-an-icon-of-freedom-in-east-germany
+  title: 'Bruce Springsteen: An icon of freedom in East Germany'
+  publisher: deutschland.de
+  quote: Some believe the concert, the biggest ever to take place on GDR territory, played a part in sparking
+    a protest movement that led to the fall of the Berlin Wall in November, 1989.
+  type: news
+  accessed: '2026-10-20'
+positions:
+- claim: The concert and speech contributed substantially to the mood for change that led to the fall of the
+    Wall.
+  held_by:
+  - Erik Kirschbaum (author of Rocking the Wall)
+  - Gerd Dietrich (historian, Humboldt University)
+  sources:
+  - url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+    archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+    title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+    publisher: MOJO
+    quote: “I think it really contributed to fuelling the sentiment in East Germany for change… Springsteen
+      came there and spoke to their hearts.”
+    type: news
+    accessed: '2026-10-20'
+  - url: https://www.the-berliner.com/berlin/bruce-springsteen-plays-east-berlin-1988-history/
+    title: Bruce Springsteen Plays in East Berlin 1988
+    publisher: The Berliner
+    quote: “Springsteen’s concert and speech certainly contributed, in a large sense, to the events leading
+      up to the fall of the Wall,” Gerd Dietrich, professor of history at Berlin’s Humboldt University, told
+      Kirschbaum.
+    type: news
+    accessed: '2026-10-20'
+- claim: Rock concerts played at most a small part; the Wall's fall is attributed to Gorbachev's reforms, Reagan,
+    the Politburo's ineptitude and above all East German protesters.
+  held_by:
+  - Greg Mitchell (journalist and author)
+  - The Berliner (magazine)
+  sources:
+  - url: https://gregmitchell.substack.com/p/did-bowie-and-springsteen-help-bring
+    archive_url: https://web.archive.org/web/20250512205849/https://gregmitchell.substack.com/p/did-bowie-and-springsteen-help-bring
+    title: Did Bowie and Springsteen Help Bring Down the Berlin Wall?
+    publisher: Greg Mitchell (Substack)
+    quote: The fall of the Berlin Wall, 28 long and deadly years later, has been attributed to lots of things,
+      from Mikhail Gorbachev’s reforms and Ronald Reagan’s famous plea to the ineptitude of the Politburo and
+      the collective courage of the East German protesters.
+    type: news
+    accessed: '2026-10-20'
+  - url: https://gregmitchell.substack.com/p/did-bowie-and-springsteen-help-bring
+    archive_url: https://web.archive.org/web/20250512205849/https://gregmitchell.substack.com/p/did-bowie-and-springsteen-help-bring
+    title: Did Bowie and Springsteen Help Bring Down the Berlin Wall?
+    publisher: Greg Mitchell (Substack)
+    quote: But there’s little doubt that David Bowie and Bruce Springsteen did their own—if small—part.
+    type: news
+    accessed: '2026-10-20'
+  - url: https://www.the-berliner.com/berlin/bruce-springsteen-plays-east-berlin-1988-history/
+    title: Bruce Springsteen Plays in East Berlin 1988
+    publisher: The Berliner
+    quote: It was, of course, the strength of the people living in East Berlin who tore it down
+    type: news
+    accessed: '2026-10-20'
+review:
+  status: sourced

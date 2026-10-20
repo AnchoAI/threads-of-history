@@ -1,0 +1,26 @@
+id: porn-rock-senate-hearing-1985--led_to--riaa-parental-advisory-agreement-1985
+from: porn-rock-senate-hearing-1985
+to: riaa-parental-advisory-agreement-1985
+type: led_to
+confidence: documented
+note: Testimony at the hearing, and senators' threats of legislation, led to the RIAA agreement.
+sources:
+- url: https://ebsco.com/research-starters/music/parents-music-resource-center
+  archive_url: https://web.archive.org/web/20260619215430/https://www.ebsco.com/research-starters/music/parents-music-resource-center
+  title: Parents' Music Resource Center
+  publisher: EBSCO Research Starters
+  quote: To advocate for their cause, representatives of the PMRC appeared before the U.S. Senate, arguing
+    for the implementation of warning labels on albums containing graphic content. This led to an agreement
+    with the Recording Industry Association of America (RIAA)
+  type: reference
+  accessed: '2026-10-20'
+- url: https://ebsco.com/research-starters/music/parents-music-resource-center
+  archive_url: https://web.archive.org/web/20260619215430/https://www.ebsco.com/research-starters/music/parents-music-resource-center
+  title: Parents' Music Resource Center
+  publisher: EBSCO Research Starters
+  quote: Their testimony led some senators, such as Democrat James Exon of Nebraska, to threaten restrictive
+    legislation if the record industry did not remedy the problem.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
