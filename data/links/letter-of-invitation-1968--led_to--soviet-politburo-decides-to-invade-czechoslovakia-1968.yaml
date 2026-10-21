@@ -1,0 +1,25 @@
+id: letter-of-invitation-1968--led_to--soviet-politburo-decides-to-invade-czechoslovakia-1968
+from: letter-of-invitation-1968
+to: soviet-politburo-decides-to-invade-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: The conservatives' request for an invasion shaped the plan the Politburo approved.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: they asked the USSR to launch a military invasion.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: With this plan in mind, the 16 to 17 August Soviet Politburo meeting unanimously passed a resolution
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

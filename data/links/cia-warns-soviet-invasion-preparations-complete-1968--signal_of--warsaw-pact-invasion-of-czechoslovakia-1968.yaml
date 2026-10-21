@@ -1,0 +1,19 @@
+id: cia-warns-soviet-invasion-preparations-complete-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: cia-warns-soviet-invasion-preparations-complete-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: The CIA reported that Soviet forces were ready to intervene.
+sources:
+- url: https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  archive_url: https://web.archive.org/web/20250330210206/https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  title: 'Strategic Warning and the Role of Intelligence: Lessons Learned from the 1968 Soviet Invasion of
+    Czechoslovakia'
+  publisher: Central Intelligence Agency, Historical Collections Division
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: unverified
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.
+  - 'Unverified: the source is a PDF the quote checker cannot read; see the notes on the signal.'

@@ -1,0 +1,21 @@
+id: communist-party-of-the-soviet-union
+title: Communist Party of the Soviet Union
+actor_type: organization
+summary: Marxist–Leninist founding and ruling party of the Soviet Union.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q79854
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q79854.json
+  title: Communist Party of the Soviet Union
+  publisher: Wikidata
+  quote: Marxist–Leninist founding and ruling party of the Soviet Union
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

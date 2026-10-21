@@ -1,0 +1,27 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968--led_to--johnson-postpones-moscow-summit-announcement-1968
+from: warsaw-pact-invasion-of-czechoslovakia-1968
+to: johnson-postpones-moscow-summit-announcement-1968
+type: led_to
+confidence: documented
+note: Johnson called the emergency NSC meeting because of the invasion, and it decided to withhold the summit
+  announcement.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-20'
+  quote: 'The President: I asked you to come here because of the alarm of the last few hours.'
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+  archive_url: https://web.archive.org/web/20260214215633/https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+  title: 'FRUS 1964–1968, vol. XIV, doc. 289: Editorial note'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  quote: On the night of August 20–21, 1968, Soviet and other Warsaw Pact troops invaded Czechoslovakia.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

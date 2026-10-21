@@ -1,0 +1,21 @@
+id: eugene-v-rostow
+title: Eugene V. Rostow
+actor_type: person
+summary: American legal scholar and public servant (1913–2002).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q968874
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q968874.json
+  title: Eugene V. Rostow
+  publisher: Wikidata
+  quote: American legal scholar and public servant (1913–2002)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

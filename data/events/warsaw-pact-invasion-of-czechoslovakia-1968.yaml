@@ -8,6 +8,42 @@ occurred:
   start: '1968-08-20'
   end: '1968-08-21'
   precision: day
+known:
+  by:
+  - party: US government
+    actor: united-states
+    when:
+      start: '1968-08-20'
+      precision: day
+      note: The White House learned of the invasion from Moscow itself; Ambassador Dobrynin read the Soviet
+        message to President Johnson at a meeting that began at 8:15 p.m. Washington time on 20 August. The
+        invasion began at about 11 p.m. on 20 August local time. Rusk told the emergency NSC meeting that
+        night "This surprises me." The CIA's later history says Helms told Johnson earlier that day that an
+        emergency Politburo meeting pointed to an invasion (PDF source; quote not checkable here).
+    sources:
+    - url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+      archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+      title: Warsaw Pact invasion of Czechoslovakia
+      publisher: Wikipedia
+      quote: At approximately 11 pm on 20 August 1968, Eastern Bloc armies from four Warsaw Pact countries
+      type: reference
+      accessed: '2026-10-21'
+    - url: https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+      archive_url: https://web.archive.org/web/20260214215633/https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+      title: 'FRUS 1964–1968, vol. XIV, doc. 289: Editorial note'
+      publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+      quote: Soviet Ambassador Dobrynin informed President Johnson of the invasion at a White House meeting
+        that began at 8:15 p.m. on August 20.
+      type: scholarly
+      accessed: '2026-10-21'
+    - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+      archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+      title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+      publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+      date: '1968-08-20'
+      quote: 'Secretary Rusk: This surprises me.'
+      type: primary
+      accessed: '2026-10-21'
 threads:
 - usru
 - revolutions
@@ -56,3 +92,7 @@ review:
   notes:
   - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
     no person has reviewed them yet.
+  - 'Batch P2 added known.by (US government) from FRUS: Washington learned of the invasion from the Soviet
+    ambassador on the evening of 20 August. The CIA booklet (Strategic Warning and the Role of Intelligence,
+    https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf) is mentioned in the note
+    but not cited, because the quote checker cannot read its PDF.'
