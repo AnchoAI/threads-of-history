@@ -1,0 +1,22 @@
+id: robert-kennedy-dobrynin-meeting-1962--part_of--cuban-missile-crisis-1962
+from: robert-kennedy-dobrynin-meeting-1962
+to: cuban-missile-crisis-1962
+type: part_of
+confidence: documented
+note: The secret meeting of 27 October in which Robert Kennedy pressed for removal of the missiles.
+sources:
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Attorney General Robert Kennedy then met secretly with Soviet Ambassador to the United States,
+    Anatoly Dobrynin, and indicated that the United States was planning to remove the Jupiter missiles
+    from Turkey anyway, and that it would do so soon, but this could not be part of any public resolution
+    of the missile crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

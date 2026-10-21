@@ -1,0 +1,25 @@
+id: u-2-finds-sam-sites-in-cuba-1962--influenced--mccone-warns-of-soviet-mrbms-in-cuba-1962
+from: u-2-finds-sam-sites-in-cuba-1962
+to: mccone-warns-of-soviet-mrbms-in-cuba-1962
+type: influenced
+confidence: documented
+note: The 29 August discovery of SAM sites reinforced McCone's concern that the buildup presaged medium-range
+  ballistic missiles.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: The discovery, which was reported to McCone in the daily briefing cables sent to him by Deputy
+    Director Marshall Carter, reinforced McConeʼs concern that the Soviet military build-up in Cuba presaged
+    the introduction of medium-range ballistic missiles.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'Typed influenced rather than led_to: McCone already raised MRBMs on 21 August, before the 29 August
+    flight; the source says the discovery reinforced his concern.'

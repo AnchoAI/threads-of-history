@@ -1,0 +1,22 @@
+id: rudolf-anderson
+title: Rudolf Anderson
+actor_type: person
+summary: USAF pilot, the only person killed by enemy fire during the Cuban Missile Crisis (1927-1962).
+threads:
+- cuba
+regions:
+- americas
+importance: 2
+wikidata: Q349213
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q349213.json
+  title: Rudolf Anderson
+  publisher: Wikidata
+  quote: USAF pilot, the only person killed by enemy fire during the Cuban Missile Crisis (1927-1962)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

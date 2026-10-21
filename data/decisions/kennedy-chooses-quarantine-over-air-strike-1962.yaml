@@ -1,0 +1,132 @@
+id: kennedy-chooses-quarantine-over-air-strike-1962
+title: Kennedy chooses a blockade over an air strike
+summary: At the National Security Council meeting of 20 October 1962, after advisers split between McNamara's
+  "blockade route" and an air strike backed by Bundy and the Joint Chiefs, Kennedy said he was ready to
+  go ahead with the blockade while preparing an air strike on the missile sites. The Office of the Historian
+  describes this as a middle course between an air strike followed by invasion and warnings alone.
+occurred:
+  start: '1962-10-20'
+  precision: day
+threads:
+- cuba
+- usru
+- nuclear
+regions:
+- americas
+actors:
+- john-f-kennedy
+- robert-mcnamara
+- robert-f-kennedy
+- john-mccone
+- united-states
+importance: 3
+wikidata: none
+decided_by:
+- john-f-kennedy
+alternatives:
+- option: Blockade ("blockade route"), then negotiate removal of the missiles
+  note: Argued by McNamara; the option chosen, announced as a "quarantine".
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+      Document 34: Minutes of the 505th Meeting of the National Security Council'
+    publisher: Office of the Historian, US Department of State
+    date: '1962-10-20'
+    quote: Secretary McNamara described his view as the “blockade route.” This route is aimed at preventing
+      any addition to the strategic missiles already deployed to Cuba and eventually to eliminate these
+      missiles.
+    type: primary
+    accessed: '2026-10-21'
+- option: Air strike on the missiles and bombers (the "Bundy plan")
+  note: Supported by Bundy, General Taylor and the Joint Chiefs, and with variations by Dillon and McCone;
+    McNamara warned it would likely lead to invasion.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+      Document 34: Minutes of the 505th Meeting of the National Security Council'
+    publisher: Office of the Historian, US Department of State
+    date: '1962-10-20'
+    quote: The Attorney General told the President that this plan was supported by Mr. Bundy, General
+      Taylor, the Joint Chiefs of Staff, and with minor variations, by Secretary Dillon and Director McCone.
+    type: primary
+    accessed: '2026-10-21'
+  - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+      Document 34: Minutes of the 505th Meeting of the National Security Council'
+    publisher: Office of the Historian, US Department of State
+    date: '1962-10-20'
+    quote: In his view the probability was high that an air strike would lead inevitably to an invasion.
+    type: primary
+    accessed: '2026-10-21'
+- option: 'Blockade plus an ultimatum: air attack if the missiles were not dismantled within 72 hours'
+  note: McCone's position at the meeting.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+    title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+      Document 34: Minutes of the 505th Meeting of the National Security Council'
+    publisher: Office of the Historian, US Department of State
+    date: '1962-10-20'
+    quote: He argued that we should institute the blockade and tell the Russians that if the missiles
+      were not dismantled within seventy-two hours, the United States would destroy the missiles by air
+      attack.
+    type: primary
+    accessed: '2026-10-21'
+- option: Air strike followed by an invasion of Cuba
+  note: Favoured by some advisers, including all the Joint Chiefs, according to the Office of the Historian.
+  sources:
+  - &id001
+    url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+    archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+    title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+    publisher: Office of the Historian, US Department of State
+    quote: Some advisers—including all the Joint Chiefs of Staff—argued for an air strike to destroy the
+      missiles, followed by a U.S. invasion of Cuba; others favored stern warnings to Cuba and the Soviet
+      Union.
+    type: scholarly
+    accessed: '2026-10-21'
+- option: Stern warnings to Cuba and the Soviet Union only
+  sources:
+  - *id001
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 34: Minutes of the 505th Meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-20'
+  quote: The first twenty minutes were spent in the presentation and discussion of photographic intelligence
+    establishing the presence in Cuba of Soviet intermediate-range and medium-range missiles, mobile missile
+    launchers and missile sites.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 34: Minutes of the 505th Meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-20'
+  quote: The President said he was ready to go ahead with the blockade and to take actions necessary to
+    put us in a position to undertake an air strike on the missiles and missile sites by Monday or Tuesday.
+  type: primary
+  accessed: '2026-10-21'
+- *id001
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The President decided upon a middle course. On October 22, he ordered a naval “quarantine” of
+    Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'Date: the NSC minutes record the President''s choice on 20 October; the order and public announcement
+    were on 22 October (us-naval-quarantine-of-cuba-1962).'
+  - wikidata none.

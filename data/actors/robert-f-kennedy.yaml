@@ -1,0 +1,23 @@
+id: robert-f-kennedy
+title: Robert F. Kennedy
+actor_type: person
+summary: American politician and lawyer (1925–1968).
+threads:
+- cuba
+- usru
+regions:
+- americas
+importance: 3
+wikidata: Q25310
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q25310.json
+  title: Robert F. Kennedy
+  publisher: Wikidata
+  quote: American politician and lawyer (1925–1968)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.
