@@ -1,0 +1,104 @@
+id: rusk-oral-demarche-to-dobrynin-1968
+title: Rusk warns Dobrynin against a pretext
+summary: On 22 July 1968 Secretary of State Dean Rusk told Soviet Ambassador Anatoly Dobrynin, orally and without
+  a written note, that Soviet press charges of US involvement in Czechoslovakia were untrue, and asked whether
+  they might be a pretext for future action against Czechoslovakia. Eugene Rostow had proposed a written aide-mémoire
+  and a NATO ministerial meeting; Ambassador Llewellyn Thompson had advised against any appeal to the Soviets.
+occurred:
+  start: '1968-07-22'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- dean-rusk
+- anatoly-dobrynin
+- charles-e-bohlen
+- united-states
+- soviet-union
+importance: 2
+wikidata: none
+decided_by:
+- dean-rusk
+alternatives:
+- option: A written aide-mémoire and a NATO ministerial meeting
+  note: Eugene Rostow's proposal of 20 July.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+    archive_url: https://web.archive.org/web/20251006223640/https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+    title: 'FRUS 1964–1968, vol. XVII, doc. 67: Memorandum from Under Secretary Rostow to Secretary Rusk, "Deterrent
+      action with regard to Czechoslovakia"'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-07-20'
+    quote: with an aide-mémoire protesting the Soviet press charges that we are fomenting counter-revolution
+      in Czechoslovakia.
+    type: primary
+    accessed: '2026-10-21'
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+    archive_url: https://web.archive.org/web/20251006223640/https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+    title: 'FRUS 1964–1968, vol. XVII, doc. 67: Memorandum from Under Secretary Rostow to Secretary Rusk, "Deterrent
+      action with regard to Czechoslovakia"'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-07-20'
+    quote: And we should have a NATO meeting at the ministerial or near ministerial level within a week.
+    type: primary
+    accessed: '2026-10-21'
+- option: No appeal to the Soviets
+  note: Ambassador Thompson's advice from Moscow on 22 July.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d69
+    archive_url: https://web.archive.org/web/20250926112230/https://history.state.gov/historicaldocuments/frus1964-68v17/d69
+    title: 'FRUS 1964–1968, vol. XVII, doc. 69: Telegram from the Embassy in the Soviet Union (Thompson)'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-07-22'
+    quote: Any appeal to the Soviets would necessarily reveal weakness of our position by what we would not
+      and could not say.
+    type: primary
+    accessed: '2026-10-21'
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d69
+    archive_url: https://web.archive.org/web/20250926112230/https://history.state.gov/historicaldocuments/frus1964-68v17/d69
+    title: 'FRUS 1964–1968, vol. XVII, doc. 69: Telegram from the Embassy in the Soviet Union (Thompson)'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-07-22'
+    quote: I believe that on balance such appeal would strengthen the hands of the hardliners rather than those
+      who oppose intervention.
+    type: primary
+    accessed: '2026-10-21'
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  archive_url: https://web.archive.org/web/20260929130850/https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  title: 'FRUS 1964–1968, vol. XVII, doc. 70: Memorandum of conversation, Rusk and Dobrynin, "Czechoslovakian
+    Situation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-22'
+  quote: He said he had no paper to give the Ambassador but would merely make an oral statement.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  archive_url: https://web.archive.org/web/20260929130850/https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  title: 'FRUS 1964–1968, vol. XVII, doc. 70: Memorandum of conversation, Rusk and Dobrynin, "Czechoslovakian
+    Situation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-22'
+  quote: He wished to state emphatically that there was absolutely no truth in this allegation.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  archive_url: https://web.archive.org/web/20260929130850/https://history.state.gov/historicaldocuments/frus1964-68v17/d70
+  title: 'FRUS 1964–1968, vol. XVII, doc. 70: Memorandum of conversation, Rusk and Dobrynin, "Czechoslovakian
+    Situation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-22'
+  quote: We therefore were entitled to wonder what particular purpose was being achieved in their dissemination
+    and whether or not this might be a pretext to lay a basis for some future action against Czechoslovakia.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,21 @@
+id: charles-e-bohlen
+title: Charles E. Bohlen
+actor_type: person
+summary: American diplomat (1904–1974).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q776165
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q776165.json
+  title: Charles E. Bohlen
+  publisher: Wikidata
+  quote: American diplomat (1904–1974)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

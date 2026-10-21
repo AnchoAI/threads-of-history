@@ -1,0 +1,52 @@
+id: helms-warns-johnson-of-emergency-politburo-meeting-1968
+title: Helms links an emergency Politburo meeting to invasion
+summary: On 20 August 1968, hours before the invasion, CIA Director Richard Helms and his analysts concluded
+  that an urgent Politburo meeting in Moscow, together with the military alert in Central Europe, pointed to
+  an invasion of Czechoslovakia; according to the CIA's later history, President Johnson replied that the meeting
+  was about the United States.
+occurred:
+  start: '1968-08-20'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- richard-helms
+- lyndon-b-johnson
+- cia
+- united-states
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: warsaw-pact-invasion-of-czechoslovakia-1968
+wikidata: none
+sources:
+- url: https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  archive_url: https://web.archive.org/web/20250330210206/https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  title: 'Strategic Warning and the Role of Intelligence: Lessons Learned from the 1968 Soviet Invasion of
+    Czechoslovakia'
+  publisher: Central Intelligence Agency, Historical Collections Division
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-20'
+  quote: This was what their big meeting was about today.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: unverified
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents).
+  - 'Unverified because the account of the Helms–Johnson exchange is only in the CIA booklet PDF, which src.py
+    cannot read. Extracted text (pages 10–11): "Clarke, Lehman, and Helms agreed that, taken together with
+    the military alert in Central Europe, the emergency Politburo meeting was a sure indicator something was
+    about to happen, most probably the invasion of Czechoslovakia." and "Remarkably, LBJ rejected that conclusion,
+    saying, ''Dick, that Moscow meeting is to talk about us.''" The FRUS quote (Helms at the NSC meeting that
+    night) is checked.'

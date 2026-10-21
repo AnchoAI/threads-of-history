@@ -1,0 +1,21 @@
+id: rostow-memo-risk-of-soviet-intervention-rising-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: rostow-memo-risk-of-soviet-intervention-rising-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: The memo warned that the risk of Soviet intervention was rising.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+  archive_url: https://web.archive.org/web/20251006223640/https://history.state.gov/historicaldocuments/frus1964-68v17/d67
+  title: 'FRUS 1964–1968, vol. XVII, doc. 67: Memorandum from Under Secretary Rostow to Secretary Rusk, "Deterrent
+    action with regard to Czechoslovakia"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-20'
+  quote: The possibility of Russian military intervention in Czechoslovakia is a matter of basic concern to
+    the United States. Ambassador Thompson and others think the risk is increasing.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

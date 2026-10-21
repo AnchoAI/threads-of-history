@@ -1,0 +1,21 @@
+id: anatoly-dobrynin
+title: Anatoly Dobrynin
+actor_type: person
+summary: Soviet Russian diplomat and statesman (1919-2010).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 2
+wikidata: Q487723
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q487723.json
+  title: Anatoly Dobrynin
+  publisher: Wikidata
+  quote: Soviet Russian diplomat and statesman (1919-2010)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,113 @@
+id: soviet-politburo-decides-to-invade-czechoslovakia-1968
+title: Soviet Politburo decides to invade Czechoslovakia
+summary: At its meeting of 16–17 August 1968 the Soviet Politburo unanimously resolved to "provide help to
+  the Communist Party and people of Czechoslovakia through military force". On 18 August Brezhnev told the
+  leaders of Bulgaria, East Germany, Hungary and Poland that the intervention would go ahead on the night of
+  20 August.
+occurred:
+  start: '1968-08-16'
+  end: '1968-08-17'
+  precision: day
+known:
+  by:
+  - party: Soviet embassy in Washington
+    actor: anatoly-dobrynin
+    when:
+      start: '1968-08-20'
+      precision: day
+    sources:
+    - url: https://history.state.gov/historicaldocuments/frus1964-68v14/d290
+      archive_url: https://web.archive.org/web/20250928083029/https://history.state.gov/historicaldocuments/frus1964-68v14/d290
+      title: 'FRUS 1964–1968, vol. XIV, doc. 290: Telegram from Rostow to President Johnson (Rusk–Dobrynin
+        conversation of August 23)'
+      publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+      date: '1968-08-24'
+      quote: He indicated he had received word of the change in Soviet policy only a short time before he had
+        informed the President about it.
+      type: primary
+      accessed: '2026-10-21'
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- communist-party-of-the-soviet-union
+- leonid-brezhnev
+- soviet-union
+importance: 4
+wikidata: none
+decided_by:
+- communist-party-of-the-soviet-union
+- leonid-brezhnev
+alternatives:
+- option: Keep to the Čierna compromise
+  note: At Čierna nad Tisou at the start of August, Brezhnev had chosen compromise.
+  sources:
+  - url: https://en.wikipedia.org/wiki/Prague_Spring
+    archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+    title: Prague Spring
+    publisher: Wikipedia
+    quote: Brezhnev decided on compromise.
+    type: reference
+    accessed: '2026-10-21'
+- option: Wait until the Slovak party congress on 26 August
+  sources:
+  - url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+    archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+    title: Warsaw Pact invasion of Czechoslovakia
+    publisher: Wikipedia
+    quote: The USSR leadership was even considering waiting until the 26 August Slovak Party Congress, but
+      the Czechoslovak conspirators "specifically requested the night of the 20th".
+    type: reference
+    accessed: '2026-10-21'
+- option: Co-opt Dubček as the face of a Soviet-backed settlement
+  note: Reynolds argues Brezhnev pursued this through Kádár and a 13 August phone call to Dubček.
+  sources:
+  - url: https://hungarianreview.com/?p=2170
+    title: Invasion 1968 – The Intentions of Intervention and the Shadow of 1956 – Part I (David A. J. Reynolds)
+    publisher: Hungarian Review
+    date: '2018-11-13'
+    quote: Through Kádár, therefore, Brezhnev was still attempting to make Dubcek the Kádár of 1968
+    type: news
+    accessed: '2026-10-21'
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: the 16 to 17 August Soviet Politburo meeting unanimously passed a resolution to "provide help to the
+    Communist Party and people of Czechoslovakia through military force".
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: At an 18 August Warsaw Pact meeting, Brezhnev announced that the intervention would go ahead on the
+    night of 20 August, and asked for "fraternal support", which the national leaders of Bulgaria, East Germany,
+    Hungary, and Poland duly offered.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v14/d290
+  archive_url: https://web.archive.org/web/20250928083029/https://history.state.gov/historicaldocuments/frus1964-68v14/d290
+  title: 'FRUS 1964–1968, vol. XIV, doc. 290: Telegram from Rostow to President Johnson (Rusk–Dobrynin conversation
+    of August 23)'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-24'
+  quote: He had personally thought that a solution to the Czech problem had been found, but something must
+    have happened to change the situation.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The CIA history booklet (Strategic Warning and the Role of Intelligence) dates the decision to 18 August
+    ("When the Soviets did decide on 18 August to intervene..."); Wikipedia gives the 16–17 August Politburo
+    meeting and the 18 August meeting of the Warsaw Five. The Politburo transcripts (Navrátil, The Prague Spring
+    1968, National Security Archive reader) should be quoted directly once a reachable copy is found; the Wilson
+    Center archive timed out.
+  - 'Wikidata: no item for the decision was found; set to none.'

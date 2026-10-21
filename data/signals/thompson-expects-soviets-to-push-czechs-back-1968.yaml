@@ -1,0 +1,61 @@
+id: thompson-expects-soviets-to-push-czechs-back-1968
+title: 'Thompson: Soviets will go to great lengths to push the Czechs back'
+summary: In a 2 August 1968 cable from Moscow, after the Čierna talks, Ambassador Llewellyn Thompson judged
+  that the Soviets would "go to great lengths to push the Czechs back to something close to the pre-January
+  situation" and said he was pessimistic in the short run, while noting the Soviet leaders' tendency to "postpone,
+  compromise or muddle through".
+occurred:
+  start: '1968-08-02'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- llewellyn-thompson
+- united-states
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: warsaw-pact-invasion-of-czechoslovakia-1968
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  archive_url: https://web.archive.org/web/20250928030219/https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  title: 'FRUS 1964–1968, vol. XVII, doc. 76: Telegram from the Embassy in the Soviet Union, "Czechoslovakia-Soviet
+    relations: the long range view"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-02'
+  quote: it is my view that the Soviets will go to great lengths to push the Czechs back to something close
+    to the pre-January situation.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  archive_url: https://web.archive.org/web/20250928030219/https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  title: 'FRUS 1964–1968, vol. XVII, doc. 76: Telegram from the Embassy in the Soviet Union, "Czechoslovakia-Soviet
+    relations: the long range view"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-02'
+  quote: I must confess that in the short run I am pessimistic that the two sides can find and maintain the
+    right combination which will reconcile their conflicting needs and objectives.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  archive_url: https://web.archive.org/web/20250928030219/https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  title: 'FRUS 1964–1968, vol. XVII, doc. 76: Telegram from the Embassy in the Soviet Union, "Czechoslovakia-Soviet
+    relations: the long range view"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-02'
+  quote: Their tendency has been to postpone, compromise or muddle through.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Thompson did not predict invasion as such; outcome is confirmed because the Soviets did force a return
+    towards the pre-January order. source_credibility is an editorial judgement.

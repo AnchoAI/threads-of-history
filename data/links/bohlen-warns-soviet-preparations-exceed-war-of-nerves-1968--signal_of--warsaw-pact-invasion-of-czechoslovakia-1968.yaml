@@ -1,0 +1,20 @@
+id: bohlen-warns-soviet-preparations-exceed-war-of-nerves-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: bohlen-warns-soviet-preparations-exceed-war-of-nerves-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: Bohlen read the Soviet military preparations as possibly preparing a move into Czechoslovakia.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d73
+  archive_url: https://web.archive.org/web/20250929210408/https://history.state.gov/historicaldocuments/frus1964-68v17/d73
+  title: 'FRUS 1964–1968, vol. XVII, doc. 73: Memorandum from Bohlen to Secretary Rusk, "Situation in Czechoslovakia"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-26'
+  quote: it could be that in addition to making final preparation for a move into Czechoslovakia the Soviets
+    are preparing for any eventuality which might arise.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

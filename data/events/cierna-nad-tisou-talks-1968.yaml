@@ -1,0 +1,75 @@
+id: cierna-nad-tisou-talks-1968
+title: Čierna nad Tisou talks
+summary: 'From 29 July to 1 August 1968 almost the full Soviet Politburo met the Czechoslovak leadership at
+  Čierna nad Tisou, near the Soviet border. Brezhnev decided on compromise: the Czechoslovak delegates reaffirmed
+  loyalty to the Warsaw Pact and promised to curb "anti-socialist" tendencies and control the press, and the
+  Soviets agreed to withdraw troops left in the country after the June manoeuvres.'
+occurred:
+  start: '1968-07-29'
+  end: '1968-08-01'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- leonid-brezhnev
+- alexander-dubcek
+- communist-party-of-the-soviet-union
+- soviet-union
+- czechoslovakia
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: The Soviet Union agreed to bilateral talks with Czechoslovakia from 29 July to 1 August at Čierna
+    nad Tisou, near the Soviet border.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: The Soviets were represented by almost the full Politburo that met for the first time outside the
+    territory of the Soviet Union
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Brezhnev decided on compromise. The KSČ delegates reaffirmed their loyalty to the Warsaw Pact and
+    promised to curb "anti-socialist" tendencies, prevent the revival of the Czechoslovak Social Democratic
+    Party and control the press more effectively.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: The Soviets agreed to withdraw their armed forces still in Czechoslovakia after manoeuvres in June
+    and permit the 9 September Party Congress.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  archive_url: https://web.archive.org/web/20250928030219/https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  title: 'FRUS 1964–1968, vol. XVII, doc. 76: Telegram from the Embassy in the Soviet Union, "Czechoslovakia-Soviet
+    relations: the long range view"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-02'
+  quote: In view of the paucity of hard information, it is impossible to judge what actually happened at Cierna
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - No Wikidata item for the talks themselves was found (Q212590 is the town); wikidata is set to none.
+  - A FRUS footnote to document 76 gives the dates as "July 25–August 1"; Wikipedia and the CIA timeline say
+    the talks began on 29 July. A reviewer should check this against a primary source.
