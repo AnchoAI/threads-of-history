@@ -1,0 +1,55 @@
+id: kennedy-warns-against-offensive-weapons-in-cuba-1962
+title: Kennedy warns against offensive weapons in Cuba
+summary: 'A White House statement on 4 September 1962 said there was no evidence of Soviet combat forces,
+  bases or offensive weapons such as ground-to-ground missiles in Cuba, and warned: "Were it to be otherwise,
+  the gravest issues would arise."'
+occurred:
+  start: '1962-09-04'
+  precision: day
+threads:
+- cuba
+- usru
+regions:
+- americas
+actors:
+- john-f-kennedy
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  archive_url: https://web.archive.org/web/20250922034739/https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 411: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: On September 4, 1962, the White House released a statement by President Kennedy relating to the
+    flow of weapons from the Soviet Union to Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  archive_url: https://web.archive.org/web/20250922034739/https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 411: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: He added, however, that there was no evidence of organized Soviet combat forces in Cuba, nor
+    any evidence of military bases provided to the Soviet Union, nor the presence of weapons with an offensive
+    capability, such as ground-to-ground missiles. “Were it to be otherwise, the gravest issues would
+    arise.”
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: on September 4, 1962, President Kennedy issued a public warning against the introduction of offensive
+    weapons into Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - Full text is in the Department of State Bulletin, 24 September 1962, p. 450 (cited by FRUS); not fetched.
+  - No source found that states this warning caused a specific later step (e.g. the 11 September TASS
+    statement), so it has no links yet.

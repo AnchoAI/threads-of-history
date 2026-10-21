@@ -1,0 +1,95 @@
+id: refugee-reports-point-to-missiles-in-western-cuba-1962
+title: Refugee reports point to missiles in western Cuba
+summary: A US military briefing paper prepared for 28 September and used on 1 October 1962 combined unevaluated
+  refugee reports and the pattern of SA-2 sites. It noted a Soviet-controlled restricted area in Pinar
+  del Rio province, the greatest concentration of Soviet personnel in western Cuba, and a single unconfirmed
+  report of about 20 SS-4-type missiles seen near Havana on 12 September.
+occurred:
+  start: '1962-09-12'
+  end: '1962-10-01'
+  precision: day
+threads:
+- cuba
+- intel
+regions:
+- americas
+actors:
+- united-states
+importance: 2
+wikidata: none
+source_credibility: low
+outcome: confirmed
+resolves_to: u-2-photographs-soviet-missile-sites-in-cuba-1962
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: A note on the source text indicates that it was prepared initially for a briefing given on September
+    28 and that material from the paper was included in the briefing given the Secretary of Defense and
+    the Joint Chiefs of Staff on October 1.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: According to reports from refugees arriving in Miami, all Cubans have been evacuated from this
+    restricted area.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: So far, the pattern indicates that there is a definite correlation, but significantly the greatest
+    concentration of Soviet personnel, activity and camps is in the western end of the Island of Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: A single unevaluated report states that the Soviet “SS-4 Shyster” missile may have been delivered
+    to Cuba on or about 11 September.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: The source of this report stated that on 12 September he had personally seen some 20 such missiles
+    in the vicinity of Campo Libertad, a small airfield on the western edge of Havana.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: three medium-range ballistic missile sites were being developed near San Cristobal, in Pinar
+    del Rio province.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'Outcome confirmed is an editorial judgement: the paper pointed to Soviet missile activity in Pinar
+    del Rio, where the MRBM sites were photographed on 14 October; the single Campo Libertad sighting
+    itself was never confirmed in the sources found.'
+  - 'source_credibility low: the paper itself calls the refugee sources unevaluated.'
+  - No source found that says this paper led to the 14 October flight; a later CIA review of refugee reporting
+    (CIA reading room, NPIC summary) was not reachable.
+  - wikidata none.

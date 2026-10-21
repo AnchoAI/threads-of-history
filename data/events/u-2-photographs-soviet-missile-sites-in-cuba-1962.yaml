@@ -1,0 +1,127 @@
+id: u-2-photographs-soviet-missile-sites-in-cuba-1962
+title: U-2 photographs Soviet missile sites in Cuba
+summary: On 14 October 1962 a U-2 flown by Major Richard Heyser photographed western Cuba; analysts found
+  three medium-range ballistic missile sites under construction near San Cristobal, the first verified
+  evidence of Soviet offensive missiles in Cuba. Kennedy was told on the morning of 16 October and announced
+  the discovery on 22 October.
+occurred:
+  start: '1962-10-14'
+  precision: day
+known:
+  public:
+    start: '1962-10-22T19:00-04:00'
+    precision: hour
+    note: Kennedy's televised address announcing the discovery.
+  by:
+  - party: CIA and the President's national security adviser
+    actor: cia
+    when:
+      start: '1962-10-15T20:30-04:00'
+      precision: hour
+      note: Deputy DCI Carter reported the hard evidence to McGeorge Bundy, who chose not to tell the
+        President that night.
+    sources:
+    - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+      archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+      title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+        Document 16: Editorial Note'
+      publisher: Office of the Historian, US Department of State
+      quote: At 8:30 p.m. on October 15 CIA Deputy Director Carter reported to McGeorge Bundy the hard
+        evidence of the MRBM’s, but the President’s Special Assistant decided not to notify the President
+        that evening.
+      type: primary
+      accessed: '2026-10-21'
+  - party: President Kennedy
+    actor: john-f-kennedy
+    when:
+      start: '1962-10-16T08:45-04:00'
+      precision: hour
+    sources:
+    - &id001
+      url: https://history.state.gov/historicaldocuments/frus1961-63v11/d18
+      archive_url: https://web.archive.org/web/20260731070726/https://history.state.gov/historicaldocuments/frus1961-63v11/d18
+      title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+        Document 18: Transcript of a Meeting at the White House, October 16, 1962'
+      publisher: Office of the Historian, US Department of State
+      date: '1962-10-16'
+      quote: McGeorge Bundy had informed the President about the U-2 photographs of the missile sites
+        at 8:45 a.m. October 16, and Kennedy immediately called for a meeting of his principal advisers
+        at 11:45.
+      type: primary
+      accessed: '2026-10-21'
+  - party: Soviet government (formally told by the US)
+    actor: soviet-union
+    when:
+      start: '1962-10-22T18:00-04:00'
+      precision: hour
+      approximate: true
+      note: Kennedy's letter and the text of his speech were handed to Ambassador Dobrynin and delivered
+        to the Soviet Foreign Ministry about an hour before the address. When Soviet intelligence or commanders
+        in Cuba first suspected the discovery is not established here.
+    sources:
+    - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d44
+      archive_url: https://web.archive.org/web/20261001020755/https://history.state.gov/historicaldocuments/frus1961-63v11/d44
+      title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+        Document 44: Letter From President Kennedy to Chairman Khrushchev'
+      publisher: Office of the Historian, US Department of State
+      date: '1962-10-22'
+      quote: The message was delivered to the Foreign Ministry at about 6 p.m. Washington time.
+      type: primary
+      accessed: '2026-10-21'
+threads:
+- cuba
+- intel
+- nuclear
+regions:
+- americas
+actors:
+- cia
+- john-f-kennedy
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: On the morning of October 14, 1962, a U-2 aircraft, piloted by Air Force Major Richard D. Heyser,
+    flew a reconnaissance mission over the western part of Cuba, flying from south to north.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: three medium-range ballistic missile sites were being developed near San Cristobal, in Pinar
+    del Rio province.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: The 928 photographs obtained during the 6-minute flight over the island produced the first verified
+    evidence of the existence of Soviet offensive missile sites in Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- *id001
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: At 7:00 pm EDT on 22 October, Kennedy delivered a nationwide televised address on all of the
+    major networks announcing the discovery of the missiles.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'wikidata none: no separate Wikidata item found for the 14 October flight.'
+  - The Soviet "known.by" date is when Moscow was formally told; it is a lower bound on surprise, not
+    proof Moscow knew nothing earlier.

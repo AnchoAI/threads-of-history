@@ -1,0 +1,21 @@
+id: moscow-conference-acknowledges-jupiter-deal-1989--revealed--robert-kennedy-dobrynin-meeting-1962
+from: moscow-conference-acknowledges-jupiter-deal-1989
+to: robert-kennedy-dobrynin-meeting-1962
+type: revealed
+confidence: documented
+note: The secret Jupiter understanding was first officially acknowledged in Moscow in January 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The Kennedy-Khrushchev Pact was known to only nine US officials at the time of its creation in
+    October 1962 and was first officially acknowledged at a conference in Moscow in January 1989 by Soviet
+    Ambassador Anatoly Dobrynin and Kennedy's speechwriter Theodore Sorensen.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

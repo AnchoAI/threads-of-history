@@ -1,0 +1,103 @@
+id: snie-85-3-62-judges-soviet-missiles-in-cuba-unlikely-1962
+title: SNIE 85-3-62 judges Soviet missiles in Cuba unlikely
+summary: The US intelligence community's Special National Intelligence Estimate of 19 September 1962 judged
+  that Soviet medium and intermediate range missiles in Cuba would be incompatible with Soviet policy
+  as then estimated, and that the Soviets would almost certainly see that this would provoke a dangerous
+  US reaction. Missile sites were photographed under construction on 14 October.
+occurred:
+  start: '1962-09-19'
+  precision: day
+threads:
+- cuba
+- intel
+- nuclear
+regions:
+- americas
+actors:
+- cia
+- united-states
+importance: 3
+wikidata: none
+source_credibility: high
+outcome: 'false'
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  archive_url: https://web.archive.org/web/20260730160905/https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 433: Special National Intelligence Estimate 85-3-62, The Military Buildup in Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-19'
+  quote: The USSR could derive considerable military advantage from the establishment of Soviet medium
+    and intermediate range ballistic missiles in Cuba, or from the establishment of a Soviet submarine
+    base there.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  archive_url: https://web.archive.org/web/20260730160905/https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 433: Special National Intelligence Estimate 85-3-62, The Military Buildup in Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-19'
+  quote: Either development, however, would be incompatible with Soviet practice to date and with Soviet
+    policy as we presently estimate it.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  archive_url: https://web.archive.org/web/20260730160905/https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 433: Special National Intelligence Estimate 85-3-62, The Military Buildup in Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-19'
+  quote: However, they would almost certainly estimate that this could not be done without provoking a
+    dangerous US reaction.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  archive_url: https://web.archive.org/web/20260730160905/https://history.state.gov/historicaldocuments/frus1961-63v10/d433
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 433: Special National Intelligence Estimate 85-3-62, The Military Buildup in Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-19'
+  quote: All members of the USIB concurred with the estimate on September 19, except the representative
+    of the AEC, who abstained on the grounds that the topic was outside his jurisdiction.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62
+  archive_url: https://web.archive.org/web/20260207210904/https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62/
+  title: 'Cuban Missile Crisis: Revisiting Sherman Kent''s Defense of SNIE 85-3-62 (Michael Douglas Smith,
+    Studies in Intelligence 51:3)'
+  publisher: Center for the Study of Intelligence, CIA
+  quote: Special National Intelligence Estimate (SNIE) 85-3-62, published on 19 September 1962, that the
+    Soviets were unlikely to introduce strategic offensive weapons into Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62
+  archive_url: https://web.archive.org/web/20260207210904/https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62/
+  title: 'Cuban Missile Crisis: Revisiting Sherman Kent''s Defense of SNIE 85-3-62 (Michael Douglas Smith,
+    Studies in Intelligence 51:3)'
+  publisher: Center for the Study of Intelligence, CIA
+  quote: On one point there is no ambiguity, the estimate incorrectly concluded that the Soviets would
+    not place strategic weapons in Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: The 928 photographs obtained during the 6-minute flight over the island produced the first verified
+    evidence of the existence of Soviet offensive missile sites in Cuba.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'source_credibility high: a coordinated estimate concurred in by all USIB members except the AEC,
+    which abstained.'
+  - A matching recorded forecast (scenario) belongs to the intelligence-estimates benchmark batch (N);
+    not created here.
+  - Sherman Kent's own 1964 defence, "A Crucial Estimate Relived", is on cia.gov only as a PDF and was
+    not quoted.
+  - wikidata none.

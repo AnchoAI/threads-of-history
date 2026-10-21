@@ -1,0 +1,56 @@
+id: khrushchev-announces-withdrawal-of-missiles-from-cuba-1962
+title: Khrushchev announces the missiles will be withdrawn
+summary: On the morning of 28 October 1962 Khrushchev said in a message broadcast on Radio Moscow that
+  the Soviet government had ordered the weapons Kennedy called offensive to be dismantled, crated and
+  returned to the Soviet Union.
+occurred:
+  start: '1962-10-28'
+  precision: day
+threads:
+- cuba
+- usru
+- nuclear
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- nikita-khrushchev
+- soviet-union
+- john-f-kennedy
+importance: 3
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d102
+  archive_url: https://web.archive.org/web/20260314152117/https://history.state.gov/historicaldocuments/frus1961-63v11/d102
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 102: Message From Chairman Khrushchev to President Kennedy'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-28'
+  quote: the Soviet Government, in addition to earlier instructions on the discontinuation of further
+    work on weapons construction sites, has given a new order to dismantle the arms which you described
+    as offensive, and to crate and return them to the Soviet Union.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The next morning, October 28, Khrushchev issued a public statement that Soviet missiles would
+    be dismantled and removed from Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: In that broadcast at 9:00 am EST, on 28 October 1962, Khrushchev stated that "the Soviet government,
+    in addition to previously issued instructions on the cessation of further work at the building sites
+    for the weapons, has issued a new order on the dismantling of the weapons
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'wikidata none: no separate Wikidata item found.'

@@ -2,7 +2,7 @@ id: bay-of-pigs-invasion-1961
 title: Bay of Pigs
 summary: A CIA-backed invasion by Cuban exiles fails within days. Castro turns to Moscow for protection.
 occurred:
-  start: 1961-04
+  start: '1961-04'
   precision: month
 threads:
 - cuba
@@ -19,9 +19,57 @@ sources:
   title: Bay of Pigs Invasion
   publisher: Wikipedia
   type: reference
+- url: https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  archive_url: https://web.archive.org/web/20261011220120/https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  title: The Bay of Pigs Invasion and its Aftermath, April 1961–October 1962 (Milestones in the History
+    of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The CIA organized an operation in which it trained and funded a force of exiled counter-revolutionary
+    Cubans serving as the armed wing of the Democratic Revolutionary Front, known as Brigade 2506.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  archive_url: https://web.archive.org/web/20261011220120/https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  title: The Bay of Pigs Invasion and its Aftermath, April 1961–October 1962 (Milestones in the History
+    of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Components of Brigade 2506 landed at the Bay of Pigs on April 17, 1961 and were defeated within
+    2 days by Cuban armed forces under the direct command of Castro.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  archive_url: https://web.archive.org/web/20261011220120/https://history.state.gov/milestones/1961-1968/bay-of-pigs
+  title: The Bay of Pigs Invasion and its Aftermath, April 1961–October 1962 (Milestones in the History
+    of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The failed invasion strengthened the position of Castro’s administration, which proceeded to
+    openly proclaim its intention to adopt socialism and pursue closer ties with the Soviet Union.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: After the failed U.S. attempt to overthrow the Castro regime in Cuba with the Bay of Pigs invasion,
+    and while the Kennedy administration planned Operation Mongoose
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: in July 1962 Soviet premier Nikita Khrushchev reached a secret agreement with Cuban premier Fidel
+    Castro to place Soviet nuclear missiles in Cuba to deter any future invasion attempt.
+  type: scholarly
+  accessed: '2026-10-21'
 review:
   status: unverified
   notes:
   - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
     not been checked against any source.
   - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - 'Batch P1 added quoted sources from the Office of the Historian: landing on 17 April 1961, defeat
+    within 2 days, closer Cuban ties with the Soviet Union, and the July 1962 missile agreement meant
+    to deter another invasion. "Castro turns to Moscow for protection" is close to these but not stated
+    as such; kept unverified. Could be refined to 1961-04-17 to 1961-04-19 (day precision). Wikidata id:
+    Q191721.'
