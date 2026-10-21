@@ -1,0 +1,80 @@
+id: snie-30-3-56-israel-attacks-egypt-1956
+title: 'SNIE 30-3-56: Israel attacks Egypt early in the Suez crisis'
+summary: Days after Egypt nationalised the Suez Canal Company in July 1956, the US intelligence community judged
+  that Israel would not attack Egypt, at least during the early phases of the crisis. Israel invaded Egypt on 29
+  October 1956, three months later; whether that falls in the 'early phases' is open.
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- cia
+- israel
+- egypt
+importance: 2
+window:
+  start: '1956-07-31'
+  end: '1956-12-31'
+  precision: day
+probability: 0.3
+stated_as: We do not believe, however, that Israel will attack Egypt, at least during the early phases of this crisis.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''we believe that … not'' (Kent''s ''probably
+  not'' bracket) = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1956-07-31'
+resolves_by: '1956-12-31'
+resolution:
+  outcome: ambiguous
+  resolved_on: '1956-10-29'
+  note: Israel invaded Egypt on 29 October 1956; the estimate did not define how long the 'early phases' of the
+    crisis would last.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1955-57v16/d40
+  archive_url: https://web.archive.org/web/20251007075045/https://history.state.gov/historicaldocuments/frus1955-57v16/d40
+  title: 'Special National Intelligence Estimate SNIE 30-3-56: Nasser and the Middle East Situation'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-07-31'
+  quote: such shipments would almost certainly lead to violent anti-Western reactions throughout the Arab world.
+    We do not believe, however, that Israel
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1955-57v16/d40
+  archive_url: https://web.archive.org/web/20251007075045/https://history.state.gov/historicaldocuments/frus1955-57v16/d40
+  title: 'Special National Intelligence Estimate SNIE 30-3-56: Nasser and the Middle East Situation'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-07-31'
+  quote: will attack Egypt, at least during the early phases of this crisis. Nasser will probably feel it necessary
+    to avoid conflict with Israel while he is engaged in his contest with greater powers.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  archive_url: https://web.archive.org/web/20261011054035/https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  quote: Israel invaded on 29 October, with the primary objective of re-opening the Straits of Tiran and the Gulf
+    of Aqaba
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'Left ambiguous (not scored): ''the early phases of this crisis'' has no stated end. A reviewer could fix a
+    window and score it.'
+  - The sentence is split by a FRUS page marker ('[Page 81]') after 'Israel', so it is quoted in two parts.

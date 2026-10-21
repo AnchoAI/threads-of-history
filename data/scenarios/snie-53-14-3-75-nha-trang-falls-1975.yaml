@@ -1,0 +1,65 @@
+id: snie-53-14-3-75-nha-trang-falls-1975
+title: 'SNIE 53/14.3-75: Nha Trang falls'
+summary: On 27 March 1975 the US intelligence community judged that the lightly defended South Vietnamese military
+  headquarters at Nha Trang would probably fall. It fell on 1 April 1975.
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- cia
+- north-vietnam
+- south-vietnam
+importance: 2
+window:
+  start: '1975-03-27'
+  end: '1975-05-31'
+  precision: day
+probability: 0.75
+stated_as: Nha Trang, the military headquarters for the region, is lightly defended and probably will fall.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probably'' (Kent''s ''probable'' bracket)
+  = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1975-03-27'
+resolves_by: '1975-05-31'
+resolution:
+  outcome: happened
+  resolved_on: '1975-04-01'
+  event: spring-offensive-1975
+  note: Qui Nhon and Nha Trang fell on 1 April 1975 during the North Vietnamese spring offensive.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  archive_url: https://web.archive.org/web/20260123010532/https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  title: 'Special National Intelligence Estimate SNIE 53/14.3-75: Assessment of the Situation in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1975-03-27'
+  quote: Following is an assessment of the situation and an analysis of South Vietnam’s prospects for this dry season.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  archive_url: https://web.archive.org/web/20260123010532/https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  title: 'Special National Intelligence Estimate SNIE 53/14.3-75: Assessment of the Situation in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1975-03-27'
+  quote: Nha Trang, the military headquarters for the region, is lightly defended and probably will fall.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1975_spring_offensive
+  title: 1975 spring offensive
+  publisher: Wikipedia
+  quote: Quảng Ngãi on 24 March; Qui Nhơn and Nha Trang on 1 April; and Cam Ranh Bay on 3 April.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The estimate's horizon is 'this dry season'; its end is read here as 31 May 1975.

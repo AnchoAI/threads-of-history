@@ -1,0 +1,61 @@
+id: snie-21-91-82-soviet-intelligence-to-argentina-1982
+title: 'SNIE 21/91-82: The Soviet Union secretly gives Argentina information on British deployments'
+summary: On 9 April 1982 the US intelligence community judged that the Soviet Union would probably give Argentina
+  secret information on British military deployments. Reports conflict on whether Soviet surveillance data reached
+  Argentina and played a role.
+threads:
+- usru
+- intel
+regions:
+- americas
+- western-europe
+actors:
+- cia
+- soviet-union
+importance: 2
+window:
+  start: '1982-04-09'
+  end: '1982-06-20'
+  precision: day
+probability: 0.75
+stated_as: they probably will secretly provide Argentina with information on UK military deployments
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probably'' (Kent''s ''probable'' bracket)
+  = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1982-04-09'
+resolves_by: '1982-06-20'
+resolution:
+  outcome: ambiguous
+  resolved_on: '1982-06-20'
+  note: Sources report conflicting accounts of whether Soviet ocean-surveillance data reached Argentina.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d87
+  archive_url: https://web.archive.org/web/20260118084608/https://history.state.gov/historicaldocuments/frus1981-88v13/d87
+  title: 'Special National Intelligence Estimate SNIE 21/91-82: The Falkland Islands Crisis'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-04-09'
+  quote: The Soviets are unlikely to become directly involved militarily in the dispute, although they probably
+    will secretly provide Argentina with information on UK military deployments.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261016075136/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: Conflicting reports exist on whether Soviet ocean surveillance data might have played a role in the sinking
+    of HMS Sheffield and HMS Coventry.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'Ambiguous: a secret transfer is hard to resolve from open sources.'
