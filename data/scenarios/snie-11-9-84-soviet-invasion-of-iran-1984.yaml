@@ -1,0 +1,71 @@
+id: snie-11-9-84-soviet-invasion-of-iran-1984
+title: 'SNIE 11-9-84: Soviet invasion of Iran after an Iranian victory over Iraq'
+summary: In August 1984 the US intelligence community judged highly unlikely, within the estimate's time frame,
+  a chain in which an Iranian victory over Iraq led to a Soviet invasion of Iran. No Soviet invasion of Iran followed;
+  during the Iran–Iraq war the Soviet Union supplied Iraq with arms.
+threads:
+- usru
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- cia
+- soviet-union
+importance: 2
+window:
+  start: '1984-08-14'
+  end: '1984-12-31'
+  precision: day
+probability: 0.07
+stated_as: But we believe this course of events is highly unlikely in the time frame of this Estimate.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''highly unlikely'', read as the opposite of
+  ''highly likely'', which Kent lists under ''almost certain''; so ''almost certainly not'' = about 7%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1984-08-14'
+resolves_by: '1984-12-31'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1984-12-31'
+  note: The Soviet Union did not invade Iran; during the Iran–Iraq war it supplied Iraq with arms.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v04/d264
+  archive_url: https://web.archive.org/web/20251114230016/https://history.state.gov/historicaldocuments/frus1981-88v04/d264
+  title: 'Special National Intelligence Estimate SNIE 11-9-84: Soviet Policy Toward the United States in 1984'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1984-08-14'
+  quote: An Iranian victory over Iraq and Soviet reaction to it could lead to a Soviet invasion of Iran, and thereby
+    to a direct military confrontation with the United States. But we believe this course of events is highly unlikely
+    in the time frame of this Estimate.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Russia_relations
+  archive_url: https://web.archive.org/web/20261013134419/https://en.wikipedia.org/wiki/Iran%E2%80%93Russia_relations
+  title: Iran–Russia relations
+  publisher: Wikipedia
+  quote: During the Iran–Iraq War (1980-1988), however, it supplied Iraqi leader Saddam Hussein with large amounts
+    of conventional arms, ostensibly standing in opposition to the Iranian regime.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Almost certainly not 7% Give or take about 5%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Almost certain … highly likely vrtually certain all but certain highly probable
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''Highly unlikely'' is not on the part of Kent''s synonym list that could be read; it is mapped as the mirror
+    of ''highly likely''. A reviewer may prefer to skip it.'
+  - Evidence for the non-event is indirect.

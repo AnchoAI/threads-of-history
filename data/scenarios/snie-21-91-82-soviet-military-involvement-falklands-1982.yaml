@@ -1,0 +1,88 @@
+id: snie-21-91-82-soviet-military-involvement-falklands-1982
+title: 'SNIE 21/91-82: The Soviet Union becomes directly involved militarily in the Falklands conflict'
+summary: On 9 April 1982 the US intelligence community judged the Soviet Union unlikely to become directly involved
+  militarily in the Falklands dispute. The Soviet Union stayed out of the fighting, though it is reported to have
+  run clandestine logistics operations and launched surveillance satellites over the South Atlantic.
+threads:
+- usru
+- intel
+regions:
+- americas
+- western-europe
+actors:
+- cia
+- soviet-union
+- united-kingdom
+importance: 2
+window:
+  start: '1982-04-09'
+  end: '1982-06-20'
+  precision: day
+probability: 0.3
+stated_as: The Soviets are unlikely to become directly involved militarily in the dispute
+probability_basis: 'Sherman Kent''s words of estimative probability: ''unlikely'' (Kent''s ''probably not'' bracket)
+  = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1982-04-09'
+resolves_by: '1982-06-20'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1982-06-20'
+  note: The Soviet Union called for restraint and did not take part in the fighting; it is reported to have mounted
+    clandestine logistics operations and launched surveillance satellites.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d87
+  archive_url: https://web.archive.org/web/20260118084608/https://history.state.gov/historicaldocuments/frus1981-88v13/d87
+  title: 'Special National Intelligence Estimate SNIE 21/91-82: The Falkland Islands Crisis'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-04-09'
+  quote: The Soviets are unlikely to become directly involved militarily in the dispute, although they probably
+    will secretly provide Argentina with information on UK military deployments.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261016075136/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: The Soviet Union described the Falklands as "a disputed territory", recognising Argentina's ambitions over
+    the islands, and called for restraint on all sides.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261016075136/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: However, the Soviet Union mounted some clandestine logistics operations to assist the Argentines. Days
+    after the invasion by the Argentine forces, the Soviets launched additional intelligence satellites into low
+    Earth orbit covering the southern Atlantic Ocean.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261016075136/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: On 20 June the British retook the South Sandwich Islands, which involved accepting the surrender of the
+    Southern Thule Garrison at the Corbeta Uruguay base and declared hostilities over.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - Scored as did_not_happen on the reading that clandestine logistics and satellite surveillance are not 'direct
+    military involvement'. A reviewer should confirm that reading.

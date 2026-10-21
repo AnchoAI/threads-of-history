@@ -1,0 +1,50 @@
+id: snie-84-66-panama-civil-disturbances-1966
+title: 'SNIE 84-66: New civil disturbances in Panama'
+summary: In July 1966 the US intelligence community judged new civil disturbances in Panama probable over the next
+  six to twelve months. The sources checked so far do not settle whether they happened.
+threads:
+- intel
+regions:
+- americas
+actors:
+- cia
+importance: 2
+window:
+  start: '1966-07-14'
+  end: '1967-07-14'
+  precision: day
+probability: 0.75
+stated_as: New civil disturbances are probable over the next six to twelve months
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probable'' = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1966-07-14'
+resolves_by: '1967-07-14'
+resolution:
+  outcome: ambiguous
+  resolved_on: '1967-07-14'
+  note: No source found yet that records or rules out civil disturbances in Panama between July 1966 and July 1967.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v31/d430
+  archive_url: https://web.archive.org/web/20251001004808/https://history.state.gov/historicaldocuments/frus1964-68v31/d430
+  title: 'Special National Intelligence Estimate SNIE 84-66: Prospects for Stability in Panama'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1966-07-14'
+  quote: New civil disturbances are probable over the next six to twelve months; more likely than not they will
+    be precipitated by sudden, unpredictable incidents.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: unverified
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'Outcome unsourced: FRUS 1964–68 vol. XXXI search found nothing for the period. Check Panamanian press or later
+    FRUS/CIA reporting on student or urban unrest in 1966–67 (e.g. after the death of student Juan Navas, if that
+    is the right incident).'
