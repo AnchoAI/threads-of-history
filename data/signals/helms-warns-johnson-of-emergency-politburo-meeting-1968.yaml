@@ -32,6 +32,7 @@ sources:
   publisher: Central Intelligence Agency, Historical Collections Division
   type: scholarly
   accessed: '2026-10-21'
+  quote: Dick, that Moscow meeting is to talk about us
 - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
   archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
   title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
@@ -41,11 +42,11 @@ sources:
   type: primary
   accessed: '2026-10-21'
 review:
-  status: unverified
+  status: sourced
   notes:
   - Batch P2 (Czechoslovakia 1968, primary documents).
-  - 'Unverified because the account of the Helms–Johnson exchange is only in the CIA booklet PDF, which src.py
-    cannot read. Extracted text (pages 10–11): "Clarke, Lehman, and Helms agreed that, taken together with
+  - 'Sourced once the quote checker could read PDFs; the analysts'' conclusion is in the PDF but split across
+    its two-column layout, so only Johnson''s reply is quoted. Extracted text (pages 10–11): "Clarke, Lehman, and Helms agreed that, taken together with
     the military alert in Central Europe, the emergency Politburo meeting was a sure indicator something was
     about to happen, most probably the invasion of Czechoslovakia." and "Remarkably, LBJ rejected that conclusion,
     saying, ''Dick, that Moscow meeting is to talk about us.''" The FRUS quote (Helms at the NSC meeting that

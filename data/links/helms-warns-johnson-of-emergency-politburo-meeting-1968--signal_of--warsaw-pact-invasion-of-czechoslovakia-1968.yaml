@@ -20,9 +20,9 @@ sources:
   publisher: Central Intelligence Agency, Historical Collections Division
   type: scholarly
   accessed: '2026-10-21'
+  quote: Dick, that Moscow meeting is to talk about us
 review:
-  status: unverified
+  status: sourced
   notes:
   - Batch P2. The quoted source states the connection; no person has reviewed it yet.
-  - 'Unverified: the account of the warning is in a PDF the quote checker cannot read; see the notes on the
-    signal.'
+  - Sourced once the quote checker could read PDFs.

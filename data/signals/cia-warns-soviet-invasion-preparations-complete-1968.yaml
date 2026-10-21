@@ -29,12 +29,13 @@ sources:
   publisher: Central Intelligence Agency, Historical Collections Division
   type: scholarly
   accessed: '2026-10-21'
+  quote: the Soviet high command has in about two weeks' time completed military preparations sufficient for intervening
+    in Czechoslovakia if that is deemed necessary by the political leadership
 review:
-  status: unverified
+  status: sourced
   notes:
   - Batch P2 (Czechoslovakia 1968, primary documents).
-  - 'Unverified because the only source is a PDF that src.py cannot read, so no checked quote could be attached.
-    The text extracted with pdftxt.py from page 10 of the CIA booklet reads: "Three days later, CIA''s Office
+  - 'Sourced once the quote checker could read PDFs (the quote is from page 10 of the CIA booklet). The text extracted with pdftxt.py from page 10 of the CIA booklet reads: "Three days later, CIA''s Office
     of Strategic Research (OSR) warned, ''[i]t would appear the Soviet high command has in about two weeks''
     time completed military preparations sufficient for intervening in Czechoslovakia if that is deemed necessary
     by the political leadership.''" "Three days later" follows a report of 31 July, which gives about 3 August;

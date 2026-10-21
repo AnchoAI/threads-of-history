@@ -2,8 +2,8 @@
 
   python -m forecast.benchmark [--by "CIA"] [--out FILE]
 
-Every scenario in data/scenarios/ with a resolution of `happened` or `did_not_happen` is a scored
-forecast: its `probability` against what happened. Grouped by `forecast_by`, the report gives
+Every scenario in data/scenarios/ with a resolution of `happened` or `did_not_happen`, and not
+`unverified`, is a scored forecast: its `probability` against what happened. Grouped by `forecast_by`, the report gives
 the number of forecasts, the Brier score, the Brier score of a no-skill forecaster who always
 says the group's own hit rate (so a lower number than that means real skill), and a
 calibration table.
@@ -26,12 +26,15 @@ SCENARIOS = ROOT / "data" / "scenarios"
 SCORED = {"happened": True, "did_not_happen": False}
 
 
-def load(folder: Path = SCENARIOS):
+def load(folder: Path = SCENARIOS, include_unverified: bool = False):
+    """Resolved forecasts. Unverified ones (outcome not yet backed by a quoted source) are left out
+    unless include_unverified."""
     out = []
     for path in sorted(folder.glob("*.yaml")):
         d = yaml.safe_load(path.read_text(encoding="utf-8"))
         outcome = SCORED.get((d.get("resolution") or {}).get("outcome"))
-        if outcome is not None:
+        status = (d.get("review") or {}).get("status")
+        if outcome is not None and (status != "unverified" or include_unverified):
             out.append({"id": d["id"], "by": d["forecast_by"], "on": str(d["forecast_on"]),
                         "p": float(d["probability"]), "hit": outcome, "title": d.get("title", d["id"])})
     return out
@@ -80,9 +83,10 @@ def report(rows) -> str:
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--by", help="only forecasts whose forecast_by contains this text")
+    ap.add_argument("--include-unverified", action="store_true")
     ap.add_argument("--out")
     args = ap.parse_args(argv)
-    rows = [r for r in load() if not args.by or args.by.lower() in r["by"].lower()]
+    rows = [r for r in load(include_unverified=args.include_unverified) if not args.by or args.by.lower() in r["by"].lower()]
     if not rows:
         raise SystemExit("no resolved scenarios found in data/scenarios/")
     text = report(rows)
