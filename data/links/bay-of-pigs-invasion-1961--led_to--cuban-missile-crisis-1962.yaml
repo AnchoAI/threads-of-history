@@ -3,16 +3,17 @@ from: bay-of-pigs-invasion-1961
 to: cuban-missile-crisis-1962
 type: led_to
 confidence: documented
-note: Fear of another invasion is one reason Castro accepts Soviet missiles.
+note: After the failed invasion, Khrushchev and Castro agreed to place Soviet missiles in Cuba to deter another invasion.
 sources:
-- archive_url: "https://web.archive.org/web/20260925152247/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
-  url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
-  title: Cuban Missile Crisis
-  publisher: Wikipedia
-  type: reference
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962
+  publisher: U.S. Department of State, Office of the Historian
+  type: scholarly
+  quote: After the failed U.S. attempt to overthrow the Castro regime in Cuba with the Bay of Pigs invasion, and while
+    the Kennedy administration planned Operation Mongoose, in July 1962 Soviet premier Nikita Khrushchev reached a secret
+    agreement with Cuban premier Fidel Castro to place Soviet nuclear missiles in Cuba to deter any future invasion attempt.
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Ported from the prototype. The link and its note were written from Claude's own knowledge.
-  - 'Candidate source only: the Wikipedia article ''Cuban Missile Crisis''. Not yet checked that it makes
-    this claim.'
+  - Ported from the prototype; sourced in October 2026 from the Office of the Historian's milestone page.
