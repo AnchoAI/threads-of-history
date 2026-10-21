@@ -1,0 +1,64 @@
+id: laingen-warns-against-admitting-shah-1979
+title: Chargé Laingen warns that admitting the Shah could endanger the embassy
+summary: Through the summer and autumn of 1979 chargé d'affaires Bruce Laingen warned that admitting the Shah would
+  harm US interests and put the embassy staff at risk; in early October the embassy reported that admission, even
+  on humanitarian grounds, might provoke a severe disturbance. Militants seized the embassy on 4 November.
+occurred:
+  start: 1979-07
+  end: 1979-10
+  precision: month
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- bruce-laingen
+- cyrus-vance
+- united-states
+importance: 3
+source_credibility: high
+outcome: confirmed
+resolves_to: iran-hostage-crisis-1979
+wikidata: none
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Laingen’s reply tracked his earlier comments on the same issue, citing again potential harm to American
+    interests and peril to the embassy staff.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: with the power of the mullahs growing, admission of the shah, even on humanitarian grounds, might provoke
+    a severe disturbance.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Absent these two measures, Laingen argued, the risk of capture of the embassy and its personnel was high.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Apparently, the only information proffered on this subject was Bruce Laingen’s cable from July.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Daugherty dates Vance's query to 25 July 1979 and the "severe disturbance" reply to shortly after 28 September
+    1979; the cables themselves (FRUS 1977–1980 vol. X, not yet published) were not seen.

@@ -1,0 +1,20 @@
+id: cia-iran-intelligence-post-mortem-1979--revealed--cia-says-shah-may-lose-dynasty-1978
+from: cia-iran-intelligence-post-mortem-1979
+to: cia-says-shah-may-lose-dynasty-1978
+type: revealed
+confidence: documented
+note: The review quotes CIA's 9 November 1978 comment on a DIA paper.
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Thus on 9 November the CIA appended the following comments to a DIA paper considers that the Shah has delayed
+    so long in taking decisive action that he has reduced substantially his earlier good chance of preserving the
+    Pahlavi dynasty
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

@@ -1,0 +1,27 @@
+id: sullivan-advises-against-admitting-shah-1979--signal_of--iran-hostage-crisis-1979
+from: sullivan-advises-against-admitting-shah-1979
+to: iran-hostage-crisis-1979
+type: signal_of
+confidence: documented
+note: Sullivan warned that admitting the Shah threatened embassy security.
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: not only had they warned Washington over the previous summer of the various dangers associated with such
+    a decision
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: with the envoy advising that it was not a sound idea in terms either of embassy security or the improving
+    political relationship between the two countries
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

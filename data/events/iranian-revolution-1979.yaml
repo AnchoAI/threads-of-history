@@ -14,14 +14,45 @@ actors:
 - mohammad-reza-pahlavi
 importance: 4
 sources:
-- archive_url: "https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution"
-  url: https://en.wikipedia.org/wiki/Iranian_Revolution
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
   title: Iranian Revolution
   publisher: Wikipedia
+  quote: The revolution led to the replacement of the Imperial State of Iran by the Islamic Republic of Iran,
+    as the monarchical government of Shah Mohammad Reza Pahlavi was superseded by Ruhollah Khomeini
   type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: By 11 February, the monarchy was brought down and Khomeini assumed leadership
+  type: reference
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: Forty years ago today, February 11, 1979, Iran’s Islamic revolution culminated in the ascension to
+    power of Ayatollah Ruhollah Khomeini.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  archive_url: https://web.archive.org/web/20260929152443/https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  title: 'FRUS 1977–1980, Vol. XI, Part 1, Document 1: Brzezinski to Carter, "Takeover of Embassy Tehran",
+    4 November 1979'
+  publisher: Office of the Historian, US Department of State
+  date: '1979-11-04'
+  quote: According to reports from Embassy Tehran, an estimated 3,000 Iranian student demonstrators occupied
+    the Embassy this morning.
+  type: primary
+  accessed: '2026-10-21'
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Ported from the prototype. Title, date and summary were written from Claude's own knowledge and have
-    not been checked against any source.
-  - The only source is a Wikipedia reference article, with no quote or archive link yet.
+  - Ported from the prototype; sources and quotes added in the P3 (Iran 1978–79) batch. The month is the
+    revolution's culmination (11 February 1979); Wikipedia dates the revolution from 7 January 1978, so the
+    1978 events in this batch are linked with led_to rather than part_of. A reviewer may want a start date
+    in 1978.
+  - The Islamic Republic itself was approved by referendum in March 1979 (Wikipedia), after this event's month.

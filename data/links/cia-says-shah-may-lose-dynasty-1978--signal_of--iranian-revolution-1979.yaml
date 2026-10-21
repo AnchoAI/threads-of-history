@@ -1,0 +1,29 @@
+id: cia-says-shah-may-lose-dynasty-1978--signal_of--iranian-revolution-1979
+from: cia-says-shah-may-lose-dynasty-1978
+to: iranian-revolution-1979
+type: signal_of
+confidence: documented
+note: By early November CIA judged the Shah might fall.
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Thus on 9 November the CIA appended the following comments to a DIA paper considers that the Shah has delayed
+    so long in taking decisive action that he has reduced substantially his earlier good chance of preserving the
+    Pahlavi dynasty
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: We have ended our study in early November because by that time NFAC had concluded that the Shah might fall
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

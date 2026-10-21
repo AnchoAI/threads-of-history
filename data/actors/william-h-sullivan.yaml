@@ -1,0 +1,22 @@
+id: william-h-sullivan
+title: William H. Sullivan
+actor_type: person
+summary: American diplomat, US ambassador to Iran 1977–1979 (1922–2013).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q6614872
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q6614872.json
+  title: William H. Sullivan
+  publisher: Wikidata
+  quote: American diplomat (1922-2013)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.
+  - The office named in the summary comes from the sources on this batch's events (FRUS, Daugherty), not from the
+    Wikidata description.

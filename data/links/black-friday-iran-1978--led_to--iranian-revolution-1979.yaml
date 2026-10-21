@@ -1,0 +1,26 @@
+id: black-friday-iran-1978--led_to--iranian-revolution-1979
+from: black-friday-iran-1978
+to: iranian-revolution-1979
+type: led_to
+confidence: documented
+note: Black Friday ended hope of compromise and is seen as the point of no return.
+sources:
+- url: https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  archive_url: https://web.archive.org/web/20260704060949/https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  title: Black Friday (1978)
+  publisher: Wikipedia
+  quote: Black Friday is thought to have marked the point of no return for the revolution, and it led to the abolition
+    of Iran's monarchy less than five months later.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: The events of late August and early September as we now know constituted a major turning point
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

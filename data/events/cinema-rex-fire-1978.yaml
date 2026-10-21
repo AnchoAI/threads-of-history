@@ -1,0 +1,54 @@
+id: cinema-rex-fire-1978
+title: Cinema Rex fire in Abadan
+summary: On 19 August 1978 the Cinema Rex in Abadan was set ablaze, killing between 377 and 470 people. Street protesters
+  blamed the Shah's secret police, SAVAK; later findings attributed the arson to Islamist militants, though the
+  Islamic Republic still blames SAVAK.
+occurred:
+  start: '1978-08-19'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+actors:
+- iran
+importance: 3
+wikidata: Q123170
+sources:
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: 'The Cinema Rex fire (Persian: آتش‌سوزی سینما رکس آبادان, lit. ''Rex Abadan cinema fire'') occurred on
+    19 August 1978 when the Cinema Rex in Abadan, Iran, was set ablaze, killing between 377 and 470 people.'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: was perpetrated by the Shah's Savak secret service, according to street protesters
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: Later findings confirmed that the fire was ignited by Islamist militants on the side of the pro-Khomeyni
+    revolutionaries and not the Shah's regime.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: the Islamic Republic disregards these findings and holds the shah's secret police, SAVAK, responsible for
+    the crime.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Responsibility is disputed between the Islamic Republic's account and later scholarship; the summary reports
+    both.

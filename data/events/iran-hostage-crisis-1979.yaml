@@ -47,5 +47,25 @@ sources:
     their popular revolution.
   type: reference
   accessed: '2026-10-15'
+- url: https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  archive_url: https://web.archive.org/web/20260929152443/https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  title: 'FRUS 1977–1980, Vol. XI, Part 1, Document 1: Brzezinski to Carter, "Takeover of Embassy Tehran",
+    4 November 1979'
+  publisher: Office of the Historian, US Department of State
+  date: '1979-11-04'
+  quote: A Radio Tehran broadcast confirms that hostages have been taken and that the demonstrators are demanding
+    the extradition of the Shah.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  archive_url: https://web.archive.org/web/20260929152443/https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  title: 'FRUS 1977–1980, Vol. XI, Part 1, Document 1: Brzezinski to Carter, "Takeover of Embassy Tehran",
+    4 November 1979'
+  publisher: Office of the Historian, US Department of State
+  date: '1979-11-04'
+  quote: According to reports from Embassy Tehran, an estimated 3,000 Iranian student demonstrators occupied
+    the Embassy this morning.
+  type: primary
+  accessed: '2026-10-21'
 review:
   status: sourced
