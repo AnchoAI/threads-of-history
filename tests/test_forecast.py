@@ -193,3 +193,18 @@ def test_platt_scaling_fixes_overconfidence():
     y = rng.random(4000) < 1 / (1 + np.exp(-z / 3))
     a, b = _platt(z, y)
     assert 0.25 < a < 0.45 and abs(b) < 0.2
+
+
+def test_benchmark_scores_resolved_forecasts(tmp_path):
+    from forecast.benchmark import brier, load, no_skill
+    def write(id_, p, outcome, by="CIA"):
+        (tmp_path / f"{id_}.yaml").write_text(
+            f"id: {id_}\ntitle: {id_}\nforecast_by: {by}\nforecast_on: '1962-09-19'\nprobability: {p}\n"
+            f"resolution: {{outcome: {outcome}}}\n")
+    write("a", 0.9, "happened")
+    write("b", 0.3, "did_not_happen")
+    write("c", 0.5, "open")               # not scored yet
+    rows = load(tmp_path)
+    assert [r["id"] for r in rows] == ["a", "b"]
+    assert abs(brier(rows) - (0.01 + 0.09) / 2) < 1e-9
+    assert no_skill(rows) == 0.25

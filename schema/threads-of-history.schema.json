@@ -681,6 +681,16 @@
           "maximum": 1,
           "description": "Chance it happens, assuming every scenario in `given` happens."
         },
+        "stated_as": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The forecast's own words, when it gave words rather than a number (e.g. \"we believe it unlikely\"). Quote it exactly; the quote and its source go in sources."
+        },
+        "probability_basis": {
+          "type": "string",
+          "minLength": 1,
+          "description": "How `probability` was derived from `stated_as`, e.g. \"Sherman Kent's words of estimative probability: 'probably not' = about 30%\"."
+        },
         "given": {
           "allOf": [
             {
