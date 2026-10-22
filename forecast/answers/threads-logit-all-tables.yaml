@@ -1,0 +1,19 @@
+forecaster: 'Threads of History: logit, all tables'
+method: Country-year model from forecast/outcomes.py, trained only on years before the forecast year.
+  The other questions ask who starts a war, whether a third country intervenes in a war, whether a blockade
+  is lifted, or about a nuclear programme. Our outcomes are new conflicts in countries at peace, coups,
+  regime change and economic crises per country-year, so they don't fit; and the countries in several
+  questions were already at war, which our onset outcome excludes.
+answers:
+  snie-98-65-uruguay-military-coup-1965:
+    p: 0.0
+    mapping: 'Question: a military coup within a year from June 1965. Model: any coup attempt in calendar
+      1965.'
+  snie-63-6-54-diem-survives-hinh-crisis-1954:
+    p: 1.0
+    mapping: 'Question: Diem''s government survives to the end of 1954. Model: one minus the chance of
+      a successful coup in 1954.'
+  snie-63-1-60-diem-regime-collapses-1960:
+    p: 0.0
+    mapping: 'Question: Diem''s regime collapses or is overthrown within a year from August 1960. Model:
+      a successful coup in calendar 1960.'

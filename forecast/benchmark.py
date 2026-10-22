@@ -80,6 +80,37 @@ def report(rows) -> str:
     return "\n".join(lines) + "\n"
 
 
+ANSWERS = Path(__file__).resolve().parent / "answers"
+
+
+def load_answers(folder: Path = ANSWERS):
+    """Other forecasters' answers to the same questions: {forecaster: {question id: {"p", ...}}}."""
+    out = {}
+    for path in sorted(folder.glob("*.yaml")):
+        d = yaml.safe_load(path.read_text(encoding="utf-8"))
+        out[d["forecaster"]] = d["answers"]
+    return out
+
+
+def compare(rows, answers) -> str:
+    """Each forecaster against the original estimates on the questions both answered."""
+    by_id = {r["id"]: r for r in rows}
+    lines = ["# Same questions, other forecasters", "",
+             "Each forecaster is compared with the original estimates on the questions it answered. "
+             "\"Recalled\" counts the questions an AI model said it remembered the outcome of.", "",
+             "| forecaster | questions | its Brier | estimates' Brier, same questions | recalled |", "|---|---|---|---|---|"]
+    for name, a in answers.items():
+        common = [q for q in a if q in by_id]
+        if not common:
+            continue
+        mine = [{"p": float(a[q]["p"]), "hit": by_id[q]["hit"]} for q in common]
+        theirs = [by_id[q] for q in common]
+        recalled = sum(1 for q in common if a[q].get("recalls"))
+        lines.append(f"| {name} | {len(common)} | {brier(mine):.3f} | {brier(theirs):.3f} | "
+                     f"{recalled if any('recalls' in a[q] for q in common) else '–'} |")
+    return "\n".join(lines) + "\n"
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--by", help="only forecasts whose forecast_by contains this text")
@@ -90,6 +121,9 @@ def main(argv=None):
     if not rows:
         raise SystemExit("no resolved scenarios found in data/scenarios/")
     text = report(rows)
+    answers = load_answers()
+    if answers:
+        text += "\n" + compare(rows, answers)
     if args.out:
         Path(args.out).write_text(text, encoding="utf-8")
     print(text)
