@@ -1,0 +1,49 @@
+id: foreign-corrupt-practices-act-1977
+title: Foreign Corrupt Practices Act
+summary: Signed by President Jimmy Carter on 19 December 1977, the act makes it unlawful for US persons and companies
+  to pay foreign government officials to obtain or keep business. It followed SEC findings that more than 400 US
+  companies had paid bribes abroad.
+occurred:
+  start: '1977-12-19'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- jimmy-carter
+- united-states
+importance: 3
+wikidata: Q471295
+sources:
+- url: https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  archive_url: https://web.archive.org/web/20261012161010/https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  title: Foreign Corrupt Practices Act
+  publisher: Wikipedia
+  quote: The Act was signed into law by President Jimmy Carter on December 19, 1977.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.justice.gov/criminal/criminal-fraud/foreign-corrupt-practices-act
+  archive_url: https://web.archive.org/web/20261012012037/https://www.justice.gov/criminal/criminal-fraud/foreign-corrupt-practices-act
+  title: Foreign Corrupt Practices Act
+  publisher: U.S. Department of Justice, Criminal Division
+  quote: The Foreign Corrupt Practices Act of 1977, as amended, 15 U.S.C. §§ 78dd-1, et seq. ("FCPA"), was enacted
+    for the purpose of making it unlawful for certain classes of persons and entities to make payments to foreign
+    government officials to assist in obtaining or retaining business.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  archive_url: https://web.archive.org/web/20260926183634/https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  title: A Resource Guide to the U.S. Foreign Corrupt Practices Act, Second Edition
+  publisher: U.S. Department of Justice and U.S. Securities and Exchange Commission
+  date: '2020-07'
+  quote: Congress enacted the FCPA in 1977 after revelations of widespread global corruption in the wake of the
+    Watergate political scandal. SEC discovered that more than 400 U.S. companies had paid hundreds of millions
+    of dollars in bribes to foreign government officials to secure business overseas.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

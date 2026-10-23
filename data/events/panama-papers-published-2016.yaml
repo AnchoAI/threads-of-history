@@ -1,0 +1,58 @@
+id: panama-papers-published-2016
+title: Panama Papers published
+summary: From 3 April 2016 news outlets working with the International Consortium of Investigative Journalists publish
+  stories based on 11.5 million documents leaked from the Panamanian law firm Mossack Fonseca to Süddeutsche Zeitung.
+  Reporters found that some of the firm's shell companies were used for fraud, tax evasion and evading sanctions.
+occurred:
+  start: '2016-04-03'
+  precision: day
+threads:
+- scandals
+- media
+- econ-crises
+regions:
+- americas
+- western-europe
+- south-central-asia
+actors:
+- icij
+- mossack-fonseca
+importance: 3
+wikidata: Q23702848
+sources:
+- url: https://en.wikipedia.org/wiki/Panama_Papers
+  title: Panama Papers
+  publisher: Wikipedia
+  quote: 'The Panama Papers (Spanish: Papeles de Panamá) are 11.5 million leaked documents (2.6 terabytes of data)
+    published from April 3, 2016.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Panama_Papers
+  title: Panama Papers
+  publisher: Wikipedia
+  quote: '"John Doe", the whistleblower who leaked the documents to journalist Bastian Obermayer from the German
+    national newspaper Süddeutsche Zeitung (SZ), remains anonymous, apparently even to the journalists who worked
+    on the investigation.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Panama_Papers
+  title: Panama Papers
+  publisher: Wikipedia
+  quote: While offshore business entities are legal, reporters found that some of the Mossack Fonseca shell corporations
+    were used for illegal purposes, including fraud, tax evasion, and evading international sanctions.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Panama_Papers
+  title: Panama Papers
+  publisher: Wikipedia
+  quote: SZ asked the ICIJ for help because of the data involved.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Placed on econ-crises for lack of a finance or tax thread; a reviewer may prefer only scandals and media.
+  - In June 2024 a Panamanian judge acquitted the former Mossack Fonseca employees (Wikipedia, 'Panama Papers');
+    a later event could record this.

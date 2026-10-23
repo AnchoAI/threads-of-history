@@ -1,0 +1,30 @@
+id: abu-ghraib-photographs-published-2004--led_to--detainee-treatment-act-2005
+from: abu-ghraib-photographs-published-2004
+to: detainee-treatment-act-2005
+type: led_to
+confidence: documented
+note: Contemporary reports describe McCain's ban on mistreating detainees as a response to the Abu Ghraib photographs.
+sources:
+- url: https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  archive_url: https://web.archive.org/web/20251211205540/https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  title: US Senate votes to ban prison abuse
+  publisher: Al Jazeera
+  date: '2005-10-06'
+  quote: The bill was a response to the damaging 2004 prison abuse scandal that erupted following the publication
+    of pictures that showed US military personnel humiliating and abusing inmates at Iraq’s Abu Ghraib prison.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  archive_url: https://web.archive.org/web/20251211205540/https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  title: US Senate votes to ban prison abuse
+  publisher: Al Jazeera
+  date: '2005-10-06'
+  quote: They don’t like to see their image tarnished by allegations of misbehaviour such as Abu Ghraib and other
+    instances.”
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

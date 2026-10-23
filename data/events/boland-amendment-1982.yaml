@@ -1,0 +1,49 @@
+id: boland-amendment-1982
+title: Boland Amendments
+summary: Between 1982 and 1984 the US Congress passes a series of amendments limiting US government assistance to
+  the Contras fighting Nicaragua's Sandinista government; from October 1984 a total ban on such funding took effect.
+occurred:
+  start: '1982'
+  end: '1984'
+  precision: year
+threads:
+- usru
+- revolutions
+regions:
+- americas
+actors:
+- united-states
+- ronald-reagan
+importance: 2
+wikidata: Q891252
+sources:
+- url: https://en.wikipedia.org/wiki/Boland_Amendment
+  archive_url: https://web.archive.org/web/20260927224926/https://en.wikipedia.org/wiki/Boland_Amendment
+  title: Boland Amendment
+  publisher: Wikipedia
+  quote: 1982–84 US laws limiting support to Nicaraguan Contras
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  archive_url: https://web.archive.org/web/20261022220131/https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: Direct U.S. funding of the Contras insurgency was made illegal through the Boland Amendment, the name given
+    to three U.S. legislative amendments between 1982 and 1984 aimed at limiting U.S. government assistance to Contra
+    militants.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  archive_url: https://web.archive.org/web/20261022220131/https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: By 1984, funding for the Contras had run out; and, in October of that year, a total ban came into effect.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Boland article's lead says the amendments were passed 'between 1982 and 1986'; its infobox and the Iran–Contra
+    article say 1982–84. The span follows 1982–84.

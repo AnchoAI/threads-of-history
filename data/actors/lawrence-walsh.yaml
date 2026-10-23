@@ -1,0 +1,20 @@
+id: lawrence-walsh
+title: Lawrence Walsh
+actor_type: person
+summary: United States federal judge (1912-2014).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q521032
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q521032.json
+  title: Lawrence Walsh
+  publisher: Wikidata
+  quote: United States federal judge (1912-2014)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

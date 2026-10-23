@@ -1,0 +1,20 @@
+id: edward-l-doheny
+title: Edward L. Doheny
+actor_type: person
+summary: Irish American oil tycoon (1856–1935).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q5344002
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q5344002.json
+  title: Edward L. Doheny
+  publisher: Wikidata
+  quote: Irish American oil tycoon (1856–1935)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

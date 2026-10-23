@@ -1,0 +1,63 @@
+id: dutch-inquiry-report-on-prince-bernhard-1976
+title: Dutch inquiry reports on Prince Bernhard and Lockheed
+summary: On 26 August 1976 the Dutch government releases the report of the inquiry Prime Minister Joop den Uyl ordered
+  into Prince Bernhard's dealings with Lockheed, which had been reported to have paid him a $1.1 million bribe.
+  Bernhard resigned as Inspector-General of the armed forces and from other posts; in interviews published after
+  his death in 2004 he admitted taking the money.
+occurred:
+  start: '1976-08-26'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- prince-bernhard
+- lockheed-corporation
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  archive_url: https://web.archive.org/web/20260930054011/https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  title: Prince Bernhard of Lippe-Biesterfeld
+  publisher: Wikipedia
+  quote: Joop den Uyl, the Prime Minister of the Netherlands, ordered an inquiry into the Lockheed affair.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  archive_url: https://web.archive.org/web/20260930054011/https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  title: Prince Bernhard of Lippe-Biesterfeld
+  publisher: Wikipedia
+  quote: On 26 August 1976, a full report of Prince Bernhard's activities was released to a shocked Dutch public.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  archive_url: https://web.archive.org/web/20260930054011/https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  title: Prince Bernhard of Lippe-Biesterfeld
+  publisher: Wikipedia
+  quote: Scandal rocked the royal family in 1976 when the press reported that Prince Bernhard had accepted a US$1.1
+    million bribe from U.S. aircraft manufacturer Lockheed Corporation to influence the Dutch government's purchase
+    of fighter aircraft.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  archive_url: https://web.archive.org/web/20260930054011/https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld
+  title: Prince Bernhard of Lippe-Biesterfeld
+  publisher: Wikipedia
+  quote: Prince Bernhard resigned as Inspector-General of the Dutch Armed Forces.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: Prince Bernhard always denied the charges, but after his death on December 1, 2004, interviews were published
+    showing that he admitted taking the money.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The inquiry (the Donner commission) report itself was not fetched; dates and findings come from Wikipedia only.

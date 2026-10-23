@@ -1,0 +1,30 @@
+id: panama-papers-published-2016--led_to--gunnlaugsson-steps-down-2016
+from: panama-papers-published-2016
+to: gunnlaugsson-steps-down-2016
+type: led_to
+confidence: documented
+note: Gunnlaugsson stepped aside two days after the Panama Papers showed his undisclosed offshore company.
+sources:
+- url: https://www.theguardian.com/world/2016/apr/05/iceland-prime-minister-resigns-over-panama-papers-revelations
+  title: Iceland PM steps aside after protests over Panama Papers revelations
+  publisher: The Guardian
+  date: '2016-04-05'
+  quote: Iceland’s embattled prime minister, Sigmundur Davíð Gunnlaugsson, has become the first major casualty of
+    the Panama Papers, stepping aside from his office amid mounting public outrage that his family had sheltered
+    money offshore.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.icij.org/investigations/panama-papers/where-are-they-now-2023/
+  title: 'Panama Papers: where are they now?'
+  publisher: International Consortium of Investigative Journalists
+  date: '2023'
+  quote: One of the most immediate and visceral reactions to the Panama Papers came in Iceland, where then-Prime
+    Minister Sigmundur Davíð Gunnlaugsson resigned after documents revealed that he held an offshore company used
+    to shelter money — and hadn’t disclosed it.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

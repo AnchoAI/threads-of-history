@@ -1,0 +1,32 @@
+id: teapot-dome-scandal-1922--led_to--mcgrain-v-daugherty-1927
+from: teapot-dome-scandal-1922
+to: mcgrain-v-daugherty-1927
+type: led_to
+confidence: documented
+note: The Senate's Teapot Dome inquiry produced the contempt case in which the Supreme Court first held that Congress
+  can compel testimony.
+sources:
+- url: https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  archive_url: https://web.archive.org/web/20261011213037/https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  title: McGrain v. Daugherty
+  publisher: Wikipedia
+  quote: It was a challenge to Mally Daugherty's contempt conviction and arrest, which happened when he failed to
+    appear before a Senate committee investigating the failure of his brother, Attorney General Harry Daugherty,
+    to investigate the perpetrators of the Teapot Dome Scandal.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: The Revenue Act of 1924 gave the chairman of the United States House Committee on Ways and Means the power
+    to obtain the tax records of any taxpayer. The Federal Corrupt Practices Act, which regulates campaign finance,
+    was strengthened in 1925, and the Supreme Court's 1927 ruling in McGrain v. Daugherty explicitly established
+    that Congress had the power to compel testimony.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.
