@@ -4,9 +4,14 @@ import { trace, traceSpan } from "./chains.js";
 import { Timeline } from "./scene.js";
 import { TimeBar } from "./timebar.js";
 import { fromYear, toYear } from "./timescale.js";
-import { isKnown, knownParties, knownSince } from "./visibility.js";
+import { isKnown, knownParties, knownSince, span } from "./visibility.js";
+import { formatState, parseState } from "./urlstate.js";
 
 const $ = (id) => document.getElementById(id);
+const narrow = () => innerWidth <= 760;
+// Three paths offered on the start screen, by id; any others are listed under "All guided paths".
+const FEATURED = ["cuba-to-nord-stream", "opium-wars-to-hong-kong-2020", "great-schism-to-ukraine-church"];
+const SEEN_KEY = "threads-of-history:seen-start";
 
 async function start() {
   let data;
@@ -24,20 +29,28 @@ async function start() {
     return;
   }
 
+  const legend = $("legend"), detail = $("detail");
+  const threadIds = new Set(data.graph.threads.map((t) => t.id));
+  const parties = new Set(knownParties(data));
+
   let selected = null;
-  let tour = null, tourI = 0;
+  let tour = null, tourI = 0, beforeTour = null;
   const hidden = new Set();
   let mode = "threads";
+  let view = narrow() ? "list" : "2d";
   let expanded = new Set();
 
   let bar = null;
-  const legend = $("legend");
   const timeline = new Timeline($("stage"), $("labels"), data, {
+    view: "2d",
     onPick: (id) => select(id),
     onLaneClick: (domain) => toggleDomain(domain),
-    onWindow: () => bar?.draw(),
+    onWindow: () => { bar?.draw(); updateSubset(); renderList(); saveState(); },
     onBuild: () => updateLaneHint(),
-    leftInset: () => (legend.hidden || innerWidth <= 760 ? 8 : legend.getBoundingClientRect().right + 8),
+    leftInset: () => (legend.hidden || narrow() ? 8 : legend.getBoundingClientRect().right + 8),
+    rightInset: () => (detail.hidden || narrow() ? 16 : innerWidth - detail.getBoundingClientRect().left + 8),
+    topInset: () => $("topbar").getBoundingClientRect().bottom,
+    bottomInset: () => innerHeight - $("timebar").getBoundingClientRect().top,
   });
 
   // Open one domain into its threads (closing any other), or close it again.
@@ -70,7 +83,18 @@ async function start() {
     $("draft").hidden = false;
   }
 
+  // ---- filters panel: collapsible; its controls keep their state while it is closed
+  const filtersBtn = $("filtersBtn");
+  function setFilters(open) {
+    legend.hidden = !open;
+    filtersBtn.setAttribute("aria-expanded", String(open));
+    filtersBtn.classList.toggle("on", open);
+    timeline.resize();
+  }
+  filtersBtn.onclick = () => setFilters(legend.hidden);
+
   // ---- thread toggles, grouped by domain
+  const threadRows = new Map();
   for (const d of data.graph.domains) {
     const threads = data.graph.threads.filter((t) => t.domain === d.id && data.nodes.some((n) => n.threads.includes(t.id)));
     if (!threads.length) continue;
@@ -91,18 +115,25 @@ async function start() {
       row.innerHTML = `<span class="sw" style="background:${data.threadColor[t.id]}"></span>${esc(t.name)}`;
       const toggle = () => {
         hidden.has(t.id) ? hidden.delete(t.id) : hidden.add(t.id);
-        row.classList.toggle("off", hidden.has(t.id));
-        timeline.setHidden(hidden);
+        applyHidden();
       };
       row.onclick = toggle;
       row.onkeydown = (ev) => {
         if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); }
       };
+      threadRows.set(t.id, row);
       $("threadList").appendChild(row);
     }
   }
+  function applyHidden() {
+    for (const [id, row] of threadRows) row.classList.toggle("off", hidden.has(id));
+    timeline.setHidden(hidden);
+    updateStatus();
+    renderList();
+    saveState();
+  }
 
-  // ---- link legend (only types that appear in the data), plus contested
+  // ---- relationship legend (only types that appear in the data), plus contested
   const used = new Set(data.links.map((l) => l.type));
   $("linkLegend").innerHTML = Object.entries(LINK_TYPES)
     .filter(([type]) => used.has(type))
@@ -111,14 +142,14 @@ async function start() {
 
   // ---- lane arrangement
   const modeButtons = document.querySelectorAll(".seg button[data-mode]");
-  for (const b of modeButtons) {
-    b.onclick = () => {
-      modeButtons.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-      mode = b.dataset.mode;
-      rebuild();
-      if (selected) timeline.focus(selected);
-    };
+  function setMode(m) {
+    mode = m;
+    modeButtons.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.mode === m)));
+    rebuild();
+    if (selected) timeline.focus(selected);
+    saveState();
   }
+  for (const b of modeButtons) b.onclick = () => setMode(b.dataset.mode);
 
   // ---- time scale: compressed past or even time (only offered for long timelines)
   const timeButtons = document.querySelectorAll(".seg button[data-time]");
@@ -126,27 +157,28 @@ async function start() {
     x.setAttribute("aria-pressed", String((x.dataset.time === "compressed") === timeline.window.compressed)));
   $("timeScale").hidden = !timeline.window.compressed;
   syncTime();
-  for (const b of timeButtons) {
-    b.onclick = () => {
-      timeline.setCompressed(b.dataset.time === "compressed");
-      syncTime();
-      bar?.draw();
-      if (selected) timeline.focus(selected);
-    };
+  function setScale(compressed) {
+    timeline.setCompressed(compressed);
+    syncTime();
+    bar?.draw();
+    if (selected) timeline.focus(selected);
+    saveState();
   }
+  for (const b of timeButtons) b.onclick = () => setScale(b.dataset.time === "compressed");
 
-  // ---- 3D or 2D
+  // ---- 2D, 3D, or a plain list (the list is the fallback for small screens)
   const viewButtons = document.querySelectorAll(".seg button[data-view]");
-  for (const b of viewButtons) {
-    b.onclick = () => {
-      viewButtons.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-      timeline.setView(b.dataset.view);
-      $("hint").textContent = b.dataset.view === "2d"
-        ? "drag to pan · scroll to zoom the camera · zoom time with the strip below or + and − · click a node"
-        : "drag to orbit · scroll to zoom the camera · zoom time with the strip below or + and − · click a node";
-      if (selected) timeline.focus(selected);
-    };
+  function setView(v) {
+    view = v;
+    viewButtons.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.view === v)));
+    $("list").hidden = v !== "list";
+    document.body.classList.toggle("listview", v === "list");
+    if (v !== "list") timeline.setView(v);
+    renderList();
+    if (selected && v !== "list") timeline.focus(selected);
+    saveState();
   }
+  for (const b of viewButtons) b.onclick = () => setView(b.dataset.view);
 
   // ---- "knowable on": show only what was known by a date, to the public or to one party
   const knowOn = $("knowOn"), knowRange = $("knowRange"), knowDate = $("knowDate"), knowParty = $("knowParty");
@@ -154,8 +186,8 @@ async function start() {
   // step "any": a fixed day step drifts from the calendar over a long timeline.
   Object.assign(knowRange, { min: lo, max: hi, step: "any" });
   const iso = (t) => fromYear(t).toISOString().slice(0, 10);
-  Object.assign(knowDate, { min: iso(lo), max: iso(hi) });
-  for (const party of knownParties(data)) {
+  Object.assign(knowDate, { min: iso(Math.max(lo, 1)), max: iso(hi) });
+  for (const party of parties) {
     const o = document.createElement("option");
     o.value = party;
     o.textContent = `to ${party}`;
@@ -175,6 +207,7 @@ async function start() {
   function applyKnowable() {
     const k = knowable();
     $("knowControls").hidden = !k;
+    $("knowNote").hidden = !k;
     knowDate.value = iso(Number(knowRange.value));
     timeline.setKnowable(k);
     if (k) {
@@ -184,6 +217,9 @@ async function start() {
     // Drop a selection that was not yet known; otherwise refresh its panel without hindsight.
     if (selected && !isKnown(data.byId.get(selected), k)) select(null);
     else if (selected) select(selected, { fly: false });
+    updateStatus();
+    renderList();
+    saveState();
   }
 
   knowOn.addEventListener("change", () => {
@@ -203,33 +239,35 @@ async function start() {
   });
   knowParty.addEventListener("change", applyKnowable);
 
-  // ---- selection and detail panel
-  const detail = $("detail");
+  // ---- selection and the inspector
   function select(id, { fly = true } = {}) {
     selected = id && data.byId.has(id) && timeline.nodes.has(id) && isKnown(data.byId.get(id), knowable()) ? id : null;
     if (timeline.trace) timeline.trace = null;
     timeline.highlight(selected);
-    try {
-      history.replaceState(null, "", selected ? `#${selected}` : location.pathname + location.search);
-    } catch {
-      // Some embedded frames refuse URL changes; the viewer works without them.
+    const wasHidden = detail.hidden;
+    if (!selected) {
+      detail.hidden = true;
+    } else {
+      detail.innerHTML = renderDetail(data.byId.get(selected), data, { knowable: knowable() });
+      detail.hidden = false;
+      detail.scrollTop = 0;
+      detail.querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => select(b.dataset.go); });
+      $("closeD").onclick = () => select(null);
+      $("closeX").onclick = () => select(null);
+      detail.querySelectorAll("[data-trace]").forEach((b) => {
+        b.onclick = () => {
+          const t = trace(data, selected, b.dataset.trace, { knowable: knowable() });
+          timeline.setTrace({ ids: t.ids, links: t.links, span: traceSpan(data, t.ids) });
+        };
+      });
     }
-    if (!selected) { detail.hidden = true; return; }
-    detail.innerHTML = renderDetail(data.byId.get(selected), data, { knowable: knowable() });
-    detail.hidden = false;
-    detail.scrollTop = 0;
-    detail.querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => select(b.dataset.go); });
-    $("closeD").onclick = () => select(null);
-    detail.querySelectorAll("[data-trace]").forEach((b) => {
-      b.onclick = () => {
-        const t = trace(data, selected, b.dataset.trace, { knowable: knowable() });
-        timeline.setTrace({ ids: t.ids, links: t.links, span: traceSpan(data, t.ids) });
-      };
-    });
-    if (fly) timeline.focus(selected);
+    if (wasHidden !== detail.hidden) timeline.resize();  // the 2D view fits beside the inspector
+    if (selected && fly && view !== "list") timeline.focus(selected);
+    renderList();
+    saveState();
   }
 
-  $("resetBtn").onclick = () => { endTour(); select(null); timeline.reset(); };
+  $("resetBtn").onclick = () => { endTour({ restore: false }); select(null); timeline.reset(); };
 
   // ---- search
   const q = $("q"), results = $("results");
@@ -248,24 +286,86 @@ async function start() {
         results.appendChild(b);
       });
   });
+  q.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") { results.innerHTML = ""; q.value = ""; q.blur(); }
+  });
 
-  // ---- guided paths
-  const tourEl = $("tour");
+  // ---- what is shown: status line in the top bar, and a note when only some events are drawn
+  function updateStatus() {
+    const parts = [$("timebar").querySelector(".range")?.textContent || ""];
+    if (hidden.size) parts.push(`${hidden.size} thread${hidden.size === 1 ? "" : "s"} hidden`);
+    if (mode !== "threads") parts.push(`lanes by ${mode === "regions" ? "region" : "domain"}`);
+    const k = knowable();
+    if (k) parts.push(`knowable on ${k.label}`);
+    $("status").textContent = parts.filter(Boolean).join(" · ");
+  }
+  function inWindowItems() {
+    const { t0, t1 } = timeline.window;
+    const k = knowable();
+    return data.nodes.filter((n) => {
+      const [a, b] = span(n);
+      return a <= t1 && (Number.isFinite(b) ? b : a) >= t0 && isKnown(n, k) && !n.threads.every((t) => hidden.has(t));
+    });
+  }
+  function updateSubset() {
+    const shown = [...timeline.nodes.values()].filter((n) => n.show).length;
+    const all = inWindowItems().length;
+    $("subset").textContent = view === "list" ? `${all} events in this period`
+      : shown < all ? `Showing the ${shown} most important of ${all} events in this period; zoom in to see more`
+        : `${all} events in this period`;
+    updateStatus();
+  }
+
+  // ---- list view: the same events as a readable list (the fallback on small screens)
+  function renderList() {
+    if (view !== "list") return;
+    const items = inWindowItems().sort((a, b) => a.occurred.range[0] - b.occurred.range[0]);
+    const MAX = 400;
+    $("list").innerHTML = `<p class="note">${items.length} events in this period, oldest first${items.length > MAX ? `; the first ${MAX} are listed, so narrow the period to see the rest` : ""}.</p>` +
+      items.slice(0, MAX).map((n) => `<button class="li${n.id === selected ? " on" : ""}" data-go="${esc(n.id)}">
+        <span class="y">${esc(yearLabel(n))}</span><span><b>${esc(n.title)}</b><br><span class="note">${esc(n.summary)}</span></span></button>`).join("");
+    $("list").querySelectorAll("[data-go]").forEach((b) => { b.onclick = () => select(b.dataset.go, { fly: false }); });
+  }
+
+  // ---- guided paths and the start screen
+  const startEl = $("start");
   const nodeIds = new Set(data.nodes.map((n) => n.id));
-  for (const path of data.paths) {
-    const steps = path.steps.filter((id) => nodeIds.has(id));
-    if (steps.length < 2) continue;
+  const playable = data.paths.map((p) => ({ ...p, steps: p.steps.filter((id) => nodeIds.has(id)) })).filter((p) => p.steps.length >= 2);
+  for (const path of playable) {
     const b = document.createElement("button");
     b.textContent = `Play: ${path.title}`;
-    b.onclick = () => startTour(steps);
+    b.title = path.summary ?? "";
+    b.onclick = () => { closeStart(); startTour(path.steps); };
     $("tours").appendChild(b);
   }
+  const featured = FEATURED.map((id) => playable.find((p) => p.id === id)).filter(Boolean);
+  for (const p of playable) if (featured.length < 3 && !featured.includes(p)) featured.push(p);
+  $("featured").innerHTML = featured.map((p) => `<button class="path" data-path="${esc(p.id)}">
+    <b>${esc(p.title)}</b><span class="note">${p.summary ? `${esc(p.summary)} · ` : ""}${p.steps.length} steps</span></button>`).join("");
+  $("featured").querySelectorAll("[data-path]").forEach((b) => {
+    b.onclick = () => { closeStart(); startTour(playable.find((p) => p.id === b.dataset.path).steps); };
+  });
+  function openStart() { startEl.hidden = false; $("exploreBtn").focus(); }
+  function closeStart() {
+    startEl.hidden = true;
+    try { localStorage.setItem(SEEN_KEY, "1"); } catch { /* private mode: the start screen just shows again */ }
+  }
+  $("exploreBtn").onclick = closeStart;
+  $("pathsBtn").onclick = openStart;  // opening the list does not reset anything
+  startEl.addEventListener("click", (ev) => { if (ev.target === startEl) closeStart(); });
+
+  const tourEl = $("tour");
   function startTour(steps) {
-    // Guided paths tell the whole story, so they switch "knowable on" off.
+    // Remember the exploration, so ending the path puts it back.
+    if (!tour) {
+      beforeTour = { hidden: new Set(hidden), know: knowOn.checked ? Number(knowRange.value) : null,
+                     window: [timeline.window.t0, timeline.window.t1], selected };
+    }
+    // Guided paths tell the whole story, so they switch "knowable on" off and show every thread.
     if (knowOn.checked) { knowOn.checked = false; applyKnowable(); }
     hidden.clear();
-    document.querySelectorAll("#threadList .row").forEach((r) => r.classList.remove("off"));
-    timeline.setHidden(hidden);
+    applyHidden();
+    if (view === "list") setView(narrow() ? "list" : "2d");
     tour = steps;
     tourI = 0;
     tourEl.hidden = false;
@@ -277,12 +377,32 @@ async function start() {
     $("tTxt").textContent = `${tourI + 1} / ${tour.length} · ${yearLabel(item)} ${item.title}`;
     select(item.id);
   }
-  function endTour() { tour = null; tourEl.hidden = true; timeline.setPinned([]); }
+  function endTour({ restore = true } = {}) {
+    if (!tour) return;
+    tour = null;
+    tourEl.hidden = true;
+    timeline.setPinned([]);
+    if (restore && beforeTour) {
+      const b = beforeTour;
+      for (const t of b.hidden) hidden.add(t);
+      applyHidden();
+      if (b.know !== null) { knowOn.checked = true; knowRange.value = String(b.know); applyKnowable(); }
+      timeline.setWindow(...b.window);
+      timeline.settle();
+      select(b.selected, { fly: false });
+    }
+    beforeTour = null;
+  }
   $("tNext").onclick = () => { tourI = Math.min(tour.length - 1, tourI + 1); showTour(); };
   $("tPrev").onclick = () => { tourI = Math.max(0, tourI - 1); showTour(); };
-  $("tEnd").onclick = () => { endTour(); select(null); };
+  $("tEnd").onclick = () => endTour();
   addEventListener("keydown", (ev) => {
-    if (ev.target === q || ev.defaultPrevented) return;
+    if (ev.target === q || ev.defaultPrevented || ev.target.closest?.("input, select, textarea")) return;
+    if (ev.key === "Escape") {
+      if (!startEl.hidden) closeStart();
+      else if (selected) select(null);
+      return;
+    }
     if (tour) {
       if (ev.key === "ArrowRight") $("tNext").click();
       if (ev.key === "ArrowLeft") $("tPrev").click();
@@ -300,13 +420,71 @@ async function start() {
     timeline.settle();
   });
 
+  // ---- sharing: the URL holds the selection, time window, view, lanes, hidden threads and "knowable on"
+  let restoring = true, saveTimer = 0;
+  const DEFAULTS = { view: narrow() ? "list" : "2d", lanes: "threads", scale: "compressed" };
+  function currentState() {
+    const w = timeline.window;
+    const full = w.t0 <= w.limits[0] + 1e-6 && w.t1 >= w.limits[1] - 1e-6;
+    return {
+      item: selected, window: full ? null : [w.t0, w.t1], view, lanes: mode, hidden: [...hidden],
+      scale: timeline.window.compressed ? "compressed" : "even", knowable: knowOn.checked ? knowable() : null,
+    };
+  }
+  function saveState() {
+    if (restoring) return;
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => {
+      try {
+        history.replaceState(null, "", location.pathname + location.search + formatState(currentState(), DEFAULTS));
+      } catch {
+        // Some embedded frames refuse URL changes; the viewer works without them.
+      }
+    }, 150);
+  }
+  $("shareBtn").onclick = async () => {
+    const url = location.origin + location.pathname + location.search + formatState(currentState(), DEFAULTS);
+    let copied = false;
+    try { await navigator.clipboard.writeText(url); copied = true; } catch { /* no clipboard: show the link instead */ }
+    toast(copied ? "Link copied: it opens this view, including the selected event, period and filters."
+      : `Copy this link: ${url}`);
+  };
+  function toast(text) {
+    const t = $("toast");
+    t.textContent = text;
+    t.hidden = false;
+    clearTimeout(t.timer);
+    t.timer = setTimeout(() => { t.hidden = true; }, 5000);
+  }
+
   // ---- go
+  const state = parseState(location.hash, { items: nodeIds, threads: threadIds, parties, limits: timeline.window.limits });
+  if (state.lanes) mode = state.lanes;
+  modeButtons.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.mode === mode)));
+  for (const t of state.hidden ?? []) hidden.add(t);
+  for (const [id, row] of threadRows) row.classList.toggle("off", hidden.has(id));
+  if (state.scale) { timeline.setCompressed(state.scale === "compressed"); syncTime(); }
   rebuild();
+  if (hidden.size) timeline.setHidden(hidden);
   bar = new TimeBar($("timebar"), data, timeline);
+  setView(state.view ?? view);
+  if (state.knowable) {
+    knowOn.checked = true;
+    knowParty.value = state.knowable.party ?? "";
+    knowRange.value = String(state.knowable.t);
+    applyKnowable();
+  }
+  if (state.window) { timeline.setWindow(...state.window); timeline.settle(); }
   bar.draw();
   timeline.start();
-  const fromHash = decodeURIComponent(location.hash.slice(1));
-  if (fromHash) select(fromHash);
+  if (state.item) select(state.item, { fly: !state.window });
+  updateSubset();
+  restoring = false;
+  let seen = false;
+  try { seen = !!localStorage.getItem(SEEN_KEY); } catch { /* treat as not seen */ }
+  if (!location.hash && !seen && !location.search.includes("graph=")) openStart();
+  if (location.hash && !Object.keys(state).length) toast("That link's view could not be restored, so the full map is shown.");
+  addEventListener("resize", () => renderList());
   window.__viewer = { data, timeline, select };  // handy in the browser console and in tests
 }
 

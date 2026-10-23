@@ -161,3 +161,10 @@ test("fair share: a crowded stretch can't take every slot from quieter ones", as
   assert.ok([...labelled].some((id) => id.startsWith("quiet-")));
   assert.ok(SLICES >= 8);
 });
+
+test("dates in the first century are not read as 1900s", async () => {
+  const { fromYear, toYear } = await import("../src/timescale.js");
+  assert.equal(fromYear(0).getUTCFullYear(), 0);
+  assert.equal(fromYear(50.5).getUTCFullYear(), 50);
+  assert.ok(Math.abs(toYear(fromYear(12.25)) - 12.25) < 1e-6);
+});

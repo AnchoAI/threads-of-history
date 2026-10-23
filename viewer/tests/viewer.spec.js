@@ -11,7 +11,13 @@ async function open(page, hash = "") {
   });
   await page.goto("/" + hash);
   await expect(page.locator("#count")).toContainText("events");
+  // A first visit without a link shows the start screen; these tests explore freely.
+  if (await page.locator("#start").isVisible()) await page.click("#exploreBtn");
   return errors;
+}
+
+async function openFilters(page) {
+  if (await page.locator("#legend").isHidden()) await page.click("#filtersBtn");
 }
 
 async function graphCounts(page) {
@@ -27,12 +33,13 @@ test("loads the graph, draws a canvas and shows the draft banner", async ({ page
   expect(nodes).toBeGreaterThan(0);
   await expect(page.locator("#count")).toHaveText(`${nodes} events · ${links} links`);
   await expect(page.locator("#stage canvas")).toBeVisible();
-  await expect(page.locator("#draft")).toContainText("unverified");
   const lanes = await page.evaluate(() => window.__viewer.timeline.layout.lanes.length);
   await expect(page.locator(".lane")).toHaveCount(lanes);
   const paths = await page.evaluate(() => window.__viewer.data.paths.length);
   expect(paths).toBeGreaterThan(0);
   await expect(page.locator("#tours button")).toHaveCount(paths);
+  await openFilters(page);
+  await expect(page.locator("#draft")).toContainText("unverified");
   expect(errors).toEqual([]);
 });
 
@@ -47,7 +54,7 @@ test("search opens an item with its review status, sources and connections", asy
   await expect(detail).toContainText("Open questions");
   await expect(detail).toContainText("Known to US government");
   await expect(detail.locator("a", { hasText: "Cuban Missile Crisis" }).first()).toHaveAttribute("href", /wikipedia\.org/);
-  await expect(page).toHaveURL(/#cuban-missile-crisis-1962$/);
+  await expect(page).toHaveURL(/#e=cuban-missile-crisis-1962$/);
 
   // Following a connection moves the panel to the other item.
   await detail.locator(".lk", { hasText: "Moscow–Washington hotline" }).click();
@@ -73,6 +80,7 @@ test("clicking a node on the canvas selects it", async ({ page }) => {
 
 test("lanes can be arranged by thread, region or domain", async ({ page }) => {
   await open(page);
+  await openFilters(page);
   await expect(page.locator(".lane", { hasText: "Cuba" })).toHaveCount(1);
   await page.click('.seg button[data-mode="regions"]');
   await expect(page.locator(".lane", { hasText: "Americas" })).toHaveCount(1);
@@ -88,6 +96,7 @@ test("hiding a thread hides items that are only on that thread", async ({ page }
   const visible = () => page.evaluate(() =>
     window.__viewer.timeline.nodes.get("cuban-revolution-1959").mesh.visible);
   expect(await visible()).toBe(true);
+  await openFilters(page);
   await page.locator('#threadList .row[data-thread="cuba"]').click();
   await expect(page.locator('#threadList .row[data-thread="cuba"]')).toHaveClass(/off/);
   expect(await visible()).toBe(false);
@@ -95,6 +104,8 @@ test("hiding a thread hides items that are only on that thread", async ({ page }
 
 test("guided paths step with the arrow keys", async ({ page }) => {
   await open(page);
+  await page.click("#pathsBtn");
+  await page.locator("#allPaths summary").click();
   await page.locator("#tours button", { hasText: "Cuba → Nord Stream" }).click();
   await expect(page.locator("#tour")).toBeVisible();
   await expect(page.locator("#tTxt")).toContainText("1 / 12");
@@ -129,6 +140,7 @@ test.describe("with 40 threads (fake stress data)", () => {
     const errors = await open(page, STRESS);
     await expect(page.locator("#count")).toHaveText("407 events · 506 links");
     await expect(page.locator(".lane")).toHaveCount(6);
+    await openFilters(page);
     await expect(page.locator("#laneHint")).toBeVisible();
 
     // Open a domain from the legend: its threads get lanes, the rest stay collapsed.
@@ -225,6 +237,8 @@ test("selecting an item outside the window brings it into view", async ({ page }
 
 test("the 2D view stacks lanes as rows and still picks nodes", async ({ page }) => {
   await open(page);
+  await openFilters(page);
+  await page.click('.seg button[data-view="3d"]');
   await page.click('.seg button[data-view="2d"]');
   await expect(page.locator('.seg button[data-view="2d"]')).toHaveAttribute("aria-pressed", "true");
   const info = await page.evaluate(() => {
@@ -306,6 +320,8 @@ test("knowable on: search and guided paths respect it", async ({ page }) => {
   await expect(page.locator("#results button", { hasText: "Russia invades Ukraine" })).toHaveCount(0);
   await page.fill("#q", "");
   await expect(page.locator("#knowParty option", { hasText: "to US government" })).toHaveCount(1);
+  await page.click("#pathsBtn");
+  await page.locator("#allPaths summary").click();
   // Guided paths tell the whole story, so starting one switches the filter off.
   await page.locator("#tours button").first().click();
   await expect(page.locator("#knowOn")).not.toBeChecked();
@@ -323,4 +339,124 @@ test("why did this happen: causes chain back across items and show on the map", 
   // Clicking a cause selects it.
   await detail.locator(".chain .step", { hasText: "Russo-Japanese War" }).click();
   await expect(detail.locator("h2")).toHaveText(/Russo-Japanese War/);
+});
+
+// ---------------------------------------------------------------- layout, start screen, sharing
+
+test("a first visit offers guided paths or free exploration; the start screen does not reset anything", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator("#start")).toBeVisible();
+  await expect(page.locator("#featured .path")).toHaveCount(3);
+  await page.click("#exploreBtn");
+  await expect(page.locator("#start")).toBeHidden();
+  // Select something, reopen the paths list, close it again: the selection stays.
+  await page.evaluate(() => window.__viewer.select("cuban-revolution-1959"));
+  await page.click("#pathsBtn");
+  await expect(page.locator("#start")).toBeVisible();
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#detail h2")).toHaveText("Cuban Revolution");
+  // It is not shown again on the next visit.
+  await page.reload();
+  await expect(page.locator("#count")).toContainText("events");
+  await expect(page.locator("#start")).toBeHidden();
+});
+
+test("filters collapse and keep their state", async ({ page }) => {
+  await open(page);
+  await expect(page.locator("#legend")).toBeHidden();
+  await openFilters(page);
+  await page.locator('#threadList .row[data-thread="cuba"]').click();
+  await page.click("#filtersBtn");
+  await expect(page.locator("#legend")).toBeHidden();
+  await expect(page.locator("#status")).toContainText("1 thread hidden");
+  await page.click("#filtersBtn");
+  await expect(page.locator('#threadList .row[data-thread="cuba"]')).toHaveClass(/off/);
+});
+
+test("the view defaults to 2D and the inspector closes with its button or Escape", async ({ page }) => {
+  await open(page, "#cuban-revolution-1959");
+  await expect(page.locator('.seg button[data-view="2d"]')).toHaveAttribute("aria-pressed", "true");
+  expect(await page.evaluate(() => window.__viewer.timeline.view)).toBe("2d");
+  await expect(page.locator("#detail")).toBeVisible();
+  await page.click("#closeX");
+  await expect(page.locator("#detail")).toBeHidden();
+  await page.evaluate(() => window.__viewer.select("cuban-revolution-1959"));
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#detail")).toBeHidden();
+});
+
+test("a shared link restores the event, period, view, lanes, hidden threads and knowable-on date", async ({ page }) => {
+  await open(page);
+  await openFilters(page);
+  await page.click('.seg button[data-mode="regions"]');
+  await page.locator('#threadList .row[data-thread="cuba"]').click();
+  await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(1950, 1980); t.settle(); });
+  await page.evaluate(() => window.__viewer.select("cuban-missile-crisis-1962", { fly: false }));
+  await page.check("#knowOn");
+  await expect(page).toHaveURL(/#e=cuban-missile-crisis-1962/);
+  await expect(page).toHaveURL(/l=regions/);
+  await expect(page).toHaveURL(/h=cuba/);
+  await expect(page).toHaveURL(/k=1962/);
+  const url = page.url();
+
+  const fresh = await page.context().newPage();
+  await fresh.goto(url);
+  await expect(fresh.locator("#detail h2")).toHaveText("Cuban Missile Crisis");
+  await expect(fresh.locator("#knowOn")).toBeChecked();
+  const state = await fresh.evaluate(() => {
+    const t = window.__viewer.timeline;
+    return { mode: t.mode, t0: t.window.t0, t1: t.window.t1, hidden: [...t.hidden] };
+  });
+  expect(state.mode).toBe("regions");
+  expect(state.t0).toBeCloseTo(1950, 0);
+  expect(state.t1).toBeCloseTo(1980, 0);
+  expect(state.hidden).toEqual(["cuba"]);
+});
+
+test("an invalid or outdated link still opens the map", async ({ page }) => {
+  await open(page, "#e=no-such-event&t=abc&v=weird&h=nothing");
+  await expect(page.locator("#detail")).toBeHidden();
+  await expect(page.locator("#stage canvas")).toBeVisible();
+  await expect(page.locator("#toast")).toContainText("could not be restored");
+});
+
+test("the list view shows the same events and opens the inspector", async ({ page }) => {
+  await open(page);
+  await openFilters(page);
+  await page.click('.seg button[data-view="list"]');
+  await expect(page.locator("#list")).toBeVisible();
+  await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(1958, 1960); t.settle(); });
+  await page.locator("#list .li", { hasText: "Cuban Revolution" }).first().click();
+  await expect(page.locator("#detail h2")).toHaveText("Cuban Revolution");
+});
+
+test("ending a guided path puts the exploration back", async ({ page }) => {
+  await open(page);
+  await openFilters(page);
+  await page.locator('#threadList .row[data-thread="cuba"]').click();
+  await page.evaluate(() => { const t = window.__viewer.timeline; t.setWindow(1900, 1945); t.settle(); });
+  await page.click("#pathsBtn");
+  await page.locator("#featured .path").first().click();
+  await expect(page.locator("#tour")).toBeVisible();
+  await page.click("#tEnd");
+  await expect(page.locator('#threadList .row[data-thread="cuba"]')).toHaveClass(/off/);
+  const w = await page.evaluate(() => [window.__viewer.timeline.window.t0, window.__viewer.timeline.window.t1]);
+  expect(w[0]).toBeCloseTo(1900, 0);
+  expect(w[1]).toBeCloseTo(1945, 0);
+});
+
+test("knowable on explains its limits", async ({ page }) => {
+  await open(page);
+  await page.check("#knowOn");
+  await expect(page.locator("#knowNote")).toContainText("hindsight");
+});
+
+test("on a phone, the inspector is a bottom sheet and the list view is the default", async ({ browser }) => {
+  const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  await open(page, "#cuban-revolution-1959");
+  await expect(page.locator('.seg button[data-view="list"]')).toHaveAttribute("aria-pressed", "true");
+  const box = await page.locator("#detail").boundingBox();
+  expect(box.y + box.height).toBeGreaterThan(780);
+  expect(box.width).toBeGreaterThan(360);
+  await page.close();
 });

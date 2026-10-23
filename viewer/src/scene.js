@@ -18,20 +18,27 @@ import { chooseEras } from "./eras.js";
 import { chooseVisible, inWindow, parents, span } from "./visibility.js";
 
 const R = 26;          // 3D lane radius for up to 10 lanes; grows gently beyond that
-const ROW = 16;        // 2D gap between lanes
+const ROW = 16;        // 2D gap between lanes, at most
+const MIN_ROW = 7;     // and at least
 const BG = 0x0B0F14;
 const NEUTRAL_LANE = "#6B7686";
 const L2 = WORLD_LENGTH / 2;
 
 export class Timeline {
-  constructor(stage, labelsEl, data, { onPick, onLaneClick, onWindow, onBuild, leftInset } = {}) {
+  constructor(stage, labelsEl, data, { onPick, onLaneClick, onWindow, onBuild, leftInset, rightInset, topInset, bottomInset,
+    view = "3d" } = {}) {
     this.data = data;
     this.labelsEl = labelsEl;
     this.onPick = onPick ?? (() => {});
     this.onLaneClick = onLaneClick ?? (() => {});
     this.onWindow = onWindow ?? (() => {});
     this.onBuild = onBuild ?? (() => {});
+    this.row = ROW;  // 2D gap between lanes; shrinks so every lane fits between the top and bottom panels
     this.leftInset = leftInset ?? (() => 8);   // 2D lane names start right of this (px)
+    // Screen space taken by panels on the other sides (px); the 2D view fits between them.
+    this.rightInset = rightInset ?? (() => 16);
+    this.topInset = topInset ?? (() => 0);
+    this.bottomInset = bottomInset ?? (() => 0);
     this.mode = "threads";
     this.view = "3d";
     this.expanded = new Set();
@@ -76,7 +83,7 @@ export class Timeline {
 
     this.persp = new THREE.PerspectiveCamera(50, 1, 0.1, 3000);
     this.ortho = new THREE.OrthographicCamera(-1, 1, 1, -1, -2000, 2000);
-    this.#useView("3d");
+    this.#useView(view);
     this.#bindPointer();
     addEventListener("resize", () => this.resize());
     this.resize();
@@ -135,7 +142,7 @@ export class Timeline {
   #lanePositions(lanes) {
     const out = {};
     if (this.view === "2d") {
-      lanes.forEach((lane, i) => { out[lane.id] = new THREE.Vector3(0, ((lanes.length - 1) / 2 - i) * ROW, 0); });
+      lanes.forEach((lane, i) => { out[lane.id] = new THREE.Vector3(0, ((lanes.length - 1) / 2 - i) * this.row, 0); });
     } else {
       const radius = R * Math.max(1, Math.sqrt(lanes.length / 10));
       for (const lane of lanes) out[lane.id] = new THREE.Vector3(0, Math.sin(lane.angle) * radius, Math.cos(lane.angle) * radius);
@@ -175,6 +182,7 @@ export class Timeline {
     this.layout = computeLanes({ ...this.data, nodes: this.#windowItems() }, this.mode, this.expanded);
     const { lanes } = this.layout;
     this.laneKey = lanes.map((l) => l.id).join("|");
+    this.row = this.#fitRow(lanes.length);
     const lanePos = this.#lanePositions(lanes);
     const laneById = Object.fromEntries(lanes.map((l) => [l.id, l]));
 
@@ -331,7 +339,7 @@ export class Timeline {
       const x = this.x(tk.t);
       let mesh;
       if (this.view === "2d") {
-        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        const h = (this.layout?.lanes.length ?? 1) * this.row / 2 + this.row;
         mesh = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, -h, -1), new THREE.Vector3(x, h, -1)]),
           new THREE.LineBasicMaterial({ color: 0x55606e, transparent: true, opacity: tk.major ? 0.5 : 0.25 }));
       } else {
@@ -345,7 +353,7 @@ export class Timeline {
       el.className = "yr";
       el.textContent = tk.label;
       this.labelsEl.appendChild(el);
-      const h = this.view === "2d" ? -((this.layout?.lanes.length ?? 1) * ROW / 2 + ROW) : 0;
+      const h = this.view === "2d" ? -((this.layout?.lanes.length ?? 1) * this.row / 2 + this.row) : 0;
       this.tickObjs.push({ mesh, el, p: new THREE.Vector3(x, h, 0) });
     }
     // Era zones: faint bands for long, important events in view.
@@ -354,11 +362,11 @@ export class Timeline {
       const len = Math.max(x1 - x0, 0.5);
       let mesh, p;
       if (this.view === "2d") {
-        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        const h = (this.layout?.lanes.length ?? 1) * this.row / 2 + this.row;
         mesh = new THREE.Mesh(new THREE.PlaneGeometry(len, 2 * h),
           new THREE.MeshBasicMaterial({ color: 0xC9C2B2, transparent: true, opacity: 0.045, depthWrite: false }));
         mesh.position.set(x0 + len / 2, 0, -2 + e.depth * 0.1);
-        p = new THREE.Vector3(x0, h - ROW * 0.55 + e.row * ROW * 0.6, 0);  // in the gap above the top lane
+        p = new THREE.Vector3(x0, h - this.row * 0.55 + e.row * this.row * 0.6, 0);  // in the gap above the top lane
       } else {
         const radius = R * (0.42 - 0.12 * Math.min(e.depth, 2));
         mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, len, 32, 1, true),
@@ -380,7 +388,7 @@ export class Timeline {
       const accent = 0x8FD3FF;
       let mesh, p;
       if (this.view === "2d") {
-        const h = (this.layout?.lanes.length ?? 1) * ROW / 2 + ROW;
+        const h = (this.layout?.lanes.length ?? 1) * this.row / 2 + this.row;
         mesh = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(x, -h, -0.5), new THREE.Vector3(x, h, -0.5)]),
           new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: 0.9 }));
         p = new THREE.Vector3(x, h, 0);
@@ -548,18 +556,38 @@ export class Timeline {
     this.renderer.setSize(w, h);
     this.persp.aspect = w / h;
     this.persp.updateProjectionMatrix();
-    // In 2D, fit the whole window into the free area right of the legend.
+    // In 2D, fit the whole window into the free area between the panels.
     const inset = Math.min(this.leftInset(), w * 0.5);
-    const usable = w - inset - 16;
+    const usable = Math.max(w - inset - Math.min(this.rightInset(), w * 0.5), w * 0.3);
     const half = (WORLD_LENGTH * 1.04 / 2) * (w / usable);
     Object.assign(this.ortho, { left: -half, right: half, top: half * h / w, bottom: -half * h / w });
     this.ortho.updateProjectionMatrix();
     const perUnit = w / (2 * half);
     const cx = (w / 2 - (inset + usable / 2)) / perUnit;
+    const cy = (this.topInset() - this.bottomInset()) / 2 / perUnit;
+    // If the panels around the view changed size, the 2D lane spacing may need to change too.
+    const row = this.#fitRow(this.layout?.lanes.length ?? 0);
+    if (this.layout && this.view === "2d" && Math.abs(row - this.row) > 0.25 && !this.rebuilding) {
+      this.rebuilding = true;
+      this.build();
+      this.rebuilding = false;
+    }
     if (this.home && this.view === "2d") {
       this.home.pos.x = cx;
       this.home.tgt.x = cx;
+      this.home.pos.y = cy;
+      this.home.tgt.y = cy;
     }
+  }
+
+  // 2D lane spacing that fits every lane, plus room for ticks and era labels, into the free height
+  // between the top and bottom panels (at the ortho camera's scale, which depends only on width).
+  #fitRow(lanes) {
+    if (this.view !== "2d" || !lanes) return ROW;
+    const w = innerWidth, h = innerHeight;
+    const perUnit = (w / ((this.ortho.right - this.ortho.left) || 1)) * (this.ortho.zoom || 1);
+    const free = Math.max(h - this.topInset() - this.bottomInset() - 24, 120) / perUnit;
+    return Math.max(MIN_ROW, Math.min(ROW, free / (lanes + 2.5)));
   }
 
   #project(p, el, opacity) {

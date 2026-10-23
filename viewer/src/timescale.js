@@ -137,22 +137,30 @@ function yearLength(y) {
   return (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0 ? 366 : 365;
 }
 
+// Date.UTC reads years 0-99 as 1900-1999; this does not, so the timeline can start at year 0.
+function utc(y, m = 0, d = 1, h = 0) {
+  const dt = new Date(0);
+  dt.setUTCFullYear(y, m, d);
+  dt.setUTCHours(h, 0, 0, 0);
+  return dt.getTime();
+}
+
 export function toYear(d) {
-  const start = Date.UTC(d.getUTCFullYear(), 0, 1);
+  const start = utc(d.getUTCFullYear(), 0, 1);
   return d.getUTCFullYear() + (d.getTime() - start) / (yearLength(d.getUTCFullYear()) * 86400000);
 }
 
 export function fromYear(t) {
   const y = Math.floor(t);
-  return new Date(Math.round(Date.UTC(y, 0, 1) + (t - y) * yearLength(y) * 86400000));
+  return new Date(Math.round(utc(y, 0, 1) + (t - y) * yearLength(y) * 86400000));
 }
 
 function floorTo(d, n, unit) {
   const y = d.getUTCFullYear(), m = d.getUTCMonth(), day = d.getUTCDate();
-  if (unit === "year") return new Date(Date.UTC(Math.floor(y / n) * n, 0, 1));
-  if (unit === "month") return new Date(Date.UTC(y, Math.floor(m / n) * n, 1));
-  if (unit === "day") return new Date(Date.UTC(y, m, n === 7 ? day - ((day - 1) % 7) : day));
-  return new Date(Date.UTC(y, m, day, Math.floor(d.getUTCHours() / n) * n));
+  if (unit === "year") return new Date(utc(Math.floor(y / n) * n, 0, 1));
+  if (unit === "month") return new Date(utc(y, Math.floor(m / n) * n, 1));
+  if (unit === "day") return new Date(utc(y, m, n === 7 ? day - ((day - 1) % 7) : day));
+  return new Date(utc(y, m, day, Math.floor(d.getUTCHours() / n) * n));
 }
 
 function add(d, n, unit) {

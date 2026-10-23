@@ -12,17 +12,34 @@
 <body>
   <div id="stage"></div>
   <div id="labels"></div>
+  <div id="list" hidden aria-label="Events in this period"></div>
 
-  <aside class="panel" id="legend">
-    <h1>Threads of History</h1>
-    <p class="sub" id="count">Loading…</p>
+  <!-- Slim top bar: brand, search, the main controls and what is currently shown -->
+  <header class="panel" id="topbar">
+    <div class="brand">
+      <h1>Threads of History</h1>
+      <span class="sub" id="count">Loading…</span>
+    </div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search events…" autocomplete="off" aria-label="Search events">
+      <div id="results"></div>
+    </div>
+    <nav class="actions">
+      <button class="ghost" id="pathsBtn" aria-haspopup="dialog">Guided paths</button>
+      <button class="ghost" id="filtersBtn" aria-expanded="false" aria-controls="legend">Filters</button>
+      <button class="ghost" id="shareBtn">Share</button>
+    </nav>
+    <div class="status" id="status" aria-live="polite"></div>
+  </header>
+
+  <!-- Filters and display options, collapsible; their state is kept while closed -->
+  <aside class="panel" id="legend" hidden aria-label="Filters">
     <p class="draft" id="draft" hidden></p>
-    <input id="q" type="search" placeholder="Search events…" autocomplete="off" aria-label="Search events">
-    <div id="results"></div>
     <div class="h">View</div>
     <div class="seg" role="group" aria-label="View">
-      <button data-view="3d" aria-pressed="true">3D</button>
-      <button data-view="2d" aria-pressed="false">2D</button>
+      <button data-view="2d" aria-pressed="true">2D</button>
+      <button data-view="3d" aria-pressed="false">3D</button>
+      <button data-view="list" aria-pressed="false">List</button>
     </div>
     <div class="seg" role="group" aria-label="Time scale" id="timeScale">
       <button data-time="compressed" aria-pressed="true" title="Older centuries take less room, so the recent past stays readable">Compressed</button>
@@ -34,41 +51,65 @@
       <button data-mode="regions" aria-pressed="false">Region</button>
       <button data-mode="domains" aria-pressed="false">Domain</button>
     </div>
-    <div class="h">Knowable on</div>
-    <label class="toggle" for="knowOn"><input type="checkbox" id="knowOn"> Show only what was known by a date</label>
-    <div id="knowControls" hidden>
-      <input type="range" id="knowRange" aria-label="Knowable on date">
-      <div class="knowrow">
-        <input type="date" id="knowDate" aria-label="Knowable on date">
-        <select id="knowParty" aria-label="Known to">
-          <option value="">to the public</option>
-        </select>
-      </div>
-      <p class="note" id="knowCount" aria-live="polite"></p>
-    </div>
     <div class="h">Threads (click to hide)</div>
     <p class="note" id="laneHint" hidden>Too many threads to show at once, so each domain is one lane. Click a domain, here or on its lane, to open its threads.</p>
     <div id="threadList"></div>
-    <div class="h">Link types</div>
+    <div class="h">Relationships</div>
     <div id="linkLegend"></div>
+    <p class="note">Links are connections that a cited source states. They show contributing factors and influences, not complete or inevitable causes. Contested links record who argues each side.</p>
     <p class="note hide-sm">Time runs left to right. Each lane is a thread, region or domain. Items on several lanes sit closer to the spine. Moving dots show a link's direction.</p>
-    <div class="h">Guided paths</div>
-    <div class="btns tours" id="tours"></div>
     <div class="btns"><button class="ghost" id="resetBtn">Reset view</button></div>
   </aside>
 
-  <aside class="panel" id="detail" hidden></aside>
+  <!-- Inspector -->
+  <aside class="panel" id="detail" hidden aria-label="Selected event"></aside>
+
+  <!-- Guided path controls while a path is playing -->
   <div class="panel" id="tour" hidden>
     <button class="ghost" id="tPrev" aria-label="Previous">←</button>
     <span class="txt" id="tTxt"></span>
     <button class="ghost" id="tNext" aria-label="Next">→</button>
     <button class="ghost" id="tEnd">End</button>
   </div>
+
+  <!-- Bottom time navigator: the historical time window, and "knowable on" -->
   <div class="panel" id="timebar">
-    <div class="range" aria-live="polite"></div>
+    <div class="tbhead">
+      <span class="range" aria-live="polite"></span>
+      <span class="note" id="subset" aria-live="polite"></span>
+      <span class="note hide-sm" id="hint">Drag across the strip to choose a period · scroll on it to zoom time · double-click for everything</span>
+    </div>
     <canvas tabindex="0" aria-label="Time window. Drag to pick a period, scroll to zoom, double-click to show everything. Arrow keys move, plus and minus zoom."></canvas>
+    <div class="knowbar">
+      <label class="toggle" for="knowOn"><input type="checkbox" id="knowOn"> Knowable on</label>
+      <div id="knowControls" hidden>
+        <input type="range" id="knowRange" aria-label="Knowable on date">
+        <input type="date" id="knowDate" aria-label="Knowable on date">
+        <select id="knowParty" aria-label="Known to">
+          <option value="">to the public</option>
+        </select>
+        <span class="note" id="knowCount" aria-live="polite"></span>
+      </div>
+      <p class="note" id="knowNote" hidden>Hides events and connections that were not yet public (or known to the chosen party) on this date. Summaries were still written later, with hindsight, so this is not a full reconstruction of what people knew then.</p>
+    </div>
   </div>
-  <div id="hint">drag to orbit · scroll to zoom the camera · zoom time with the strip below or + and − · click a node</div>
+
+  <!-- Starting experience and the guided path list -->
+  <div id="start" hidden role="dialog" aria-modal="true" aria-labelledby="startTitle">
+    <div class="panel card">
+      <h2 id="startTitle">Threads of History</h2>
+      <p>A map of how historical events connect. Each link cites a source that states the connection; open any event to see its evidence and review status.</p>
+      <div class="h">Start with a guided path</div>
+      <div id="featured"></div>
+      <details id="allPaths">
+        <summary>All guided paths</summary>
+        <div class="btns tours" id="tours"></div>
+      </details>
+      <div class="btns"><button id="exploreBtn">Explore freely</button></div>
+    </div>
+  </div>
+
+  <div id="toast" class="panel" hidden role="status"></div>
   <div id="error" class="panel" hidden></div>
 
   <script type="module" src="/src/main.js"></script>

@@ -53,28 +53,38 @@ export function renderDetail(item, data, { knowable = null } = {}) {
   const chain = (t, dir, title) => t.tree.length ? `
     <div class="h">${title}</div>
     <div class="chain">${renderTree(t.tree, dir)}</div>
-    <button class="ghost trace" data-trace="${dir}">Show ${dir === "back" ? "causes" : "effects"} on the map (${t.ids.size - 1})</button>` : "";
+    <button class="ghost trace" data-trace="${dir}">${dir === "back" ? "Trace causes" : "Trace consequences"} on the map (${t.ids.size - 1})</button>` : "";
 
   const notes = item.review?.notes?.length
-    ? `<div class="h">Open questions</div><ul>${item.review.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>`
+    ? `<details class="more"><summary class="h">Open questions (${item.review.notes.length})</summary><ul>${item.review.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul></details>`
     : "";
+  const contested = links.filter((l) => l.confidence === "contested");
+  const positions = contested.filter((l) => l.positions?.length).map((l) => {
+    const o = other(l, item);
+    return `<li><b>${esc(o.title)}</b>: ${l.positions.map((p) =>
+      `${esc(p.claim)} <span class="note">(${esc((p.held_by ?? []).join(", "))})</span>`).join("; ")}</li>`;
+  }).join("");
 
   return `
-    <div class="kind">${esc(item.kind)}<span class="badge ${esc(status)}">${esc(STATUS_TEXT[status] ?? status)}</span></div>
+    <div class="dhead">
+      <div class="kind">${esc(item.kind)}<span class="badge ${esc(status)}">${esc(STATUS_TEXT[status] ?? status)}</span></div>
+      <button class="ghost x" id="closeX" aria-label="Close">×</button>
+    </div>
+    <h2>${esc(item.title)}</h2>
     <div class="date">${esc(formatSpan(item.occurred))}</div>
     ${knownDiffers ? `<div class="known">Became public: ${esc(formatSpan(known))}</div>` : ""}
     ${knownBy}
-    <h2>${esc(item.title)}</h2>
-    <div class="chips">${chips}</div>
     <p>${esc(item.summary)}</p>
-    ${actors ? `<div class="h">Actors</div><div class="chips">${actors}</div>` : ""}
+    <div class="chips">${chips}</div>
     <div class="h">Connections (${links.length})</div>
     ${linkHtml || (withheld ? "" : '<p class="note">None yet.</p>')}
+    ${withheld ? `<p class="note withheld">${withheld} more connection${withheld === 1 ? "" : "s"} not yet knowable on ${esc(knowable.label)}.</p>` : ""}
     ${chain(why, "back", "Why did this happen?")}
     ${chain(led, "forward", "What did it lead to?")}
-    ${withheld ? `<p class="note withheld">${withheld} more connection${withheld === 1 ? "" : "s"} not yet knowable on ${esc(knowable.label)}.</p>` : ""}
-    <div class="h">Sources</div>
-    ${renderSources(item.sources)}
+    ${why.tree.length || led.tree.length ? '<p class="note">Traced through sourced links: contributing factors and later developments, not a complete or inevitable chain of causes.</p>' : ""}
+    ${positions ? `<details class="more"><summary class="h">Contested interpretations (${contested.length})</summary><ul>${positions}</ul></details>` : ""}
+    ${actors ? `<div class="h">Actors</div><div class="chips">${actors}</div>` : ""}
+    <details class="more" open><summary class="h">Sources (${(item.sources ?? []).length})</summary>${renderSources(item.sources)}</details>
     ${notes}
     <div class="btns"><button class="ghost" id="closeD">Close</button></div>`;
 }
