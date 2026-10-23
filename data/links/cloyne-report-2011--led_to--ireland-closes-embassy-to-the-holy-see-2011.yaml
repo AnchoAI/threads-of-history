@@ -1,0 +1,59 @@
+id: cloyne-report-2011--led_to--ireland-closes-embassy-to-the-holy-see-2011
+from: cloyne-report-2011
+to: ireland-closes-embassy-to-the-holy-see-2011
+type: led_to
+confidence: contested
+note: Whether the Cloyne dispute, rather than budget cuts, led Ireland to close its Vatican embassy is
+  disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  title: Holy See–Ireland relations
+  publisher: Wikipedia
+  quote: Some believe it is more related to Ireland's reaction to Vatican handling of sexual abuse cases
+    in Ireland.
+  type: reference
+  accessed: '2026-10-23'
+positions:
+- claim: The closure was a reaction to the Vatican's handling of abuse cases, shortly after the Cloyne
+    Report and Kenny's speech; Vatican diplomatic circles read it as a snub.
+  held_by:
+  - Vatican diplomatic circles (as reported)
+  - Unnamed critics of the decision (reported as "Some believe")
+  sources:
+  - url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    title: Holy See–Ireland relations
+    publisher: Wikipedia
+    quote: When Ireland later closed its embassy to the Holy See, "the move was interpreted in Vatican
+      diplomatic circles as a snub by Ireland" in response to its perception that the Holy See was trying
+      to cover up and interfere in a report on clerical child abuse.
+    type: reference
+    accessed: '2026-10-23'
+  - url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    title: Holy See–Ireland relations
+    publisher: Wikipedia
+    quote: Shortly after the release of the Cloyne report on Church handling of abuse and shortly before
+      the closure of the embassy, Enda Kenny criticised the Vatican's approach to the sex abuse crisis
+      in the Dáil
+    type: reference
+    accessed: '2026-10-23'
+- claim: The closure was a cost-saving measure in the budget process.
+  held_by:
+  - Irish government (Eamon Gilmore, Minister for Foreign Affairs)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+    title: Holy See–Ireland relations
+    publisher: Wikipedia
+    quote: The Government decision in November 2011 to close our resident embassy to the Holy See was
+      taken with considerable reluctance as part of a necessary budget process to reduce costs.
+    type: reference
+    accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - The quoted sources are all from one Wikipedia article; the government's position is Gilmore's Dáil
+    answer of 17 April 2013 as quoted there. A reviewer may want the Dáil record and contemporary news
+    reports.

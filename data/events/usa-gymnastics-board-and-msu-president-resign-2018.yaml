@@ -1,0 +1,59 @@
+id: usa-gymnastics-board-and-msu-president-resign-2018
+title: USA Gymnastics board and Michigan State president resign
+wikidata: none
+summary: After Nassar's sentencing, the US Olympic Committee calls on the remaining USA Gymnastics board
+  members to resign or face decertification, and all do so by 31 January 2018. Michigan State president
+  Lou Anna Simon resigns on 24 January after the Michigan House calls for her removal.
+occurred:
+  start: '2018-01-22'
+  end: '2018-01-31'
+  precision: day
+threads:
+- scandals
+- sport
+regions:
+- americas
+actors:
+- usa-gymnastics
+- michigan-state-university
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: On January 22, 2018, three members of the USAG board of directors resigned.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: After Nassar's sentencing on January 24, 2018, the USOC published an open letter calling for
+    the resignations of the other members of the USAG board, lest the USOC decertify the USAG.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: All remaining USAG board members resigned on January 31.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: On January 24, 2018, the Michigan House of Representatives voted overwhelmingly for a non-binding
+    resolution sponsored by Rep. Adam Zemke that called for the university's board of trustees to fire
+    President Lou Anna Simon if she did not resign. Simon resigned later that day.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - Simon was later charged with lying to police; the charges were dismissed in 2020 (Wikipedia). Not
+    added here.
+  - 'Wikidata: no item found; set to none.'

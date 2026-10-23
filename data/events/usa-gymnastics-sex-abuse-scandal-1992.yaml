@@ -1,0 +1,104 @@
+id: usa-gymnastics-sex-abuse-scandal-1992
+title: Sexual abuse of gymnasts in USA Gymnastics
+wikidata: Q42531060
+summary: Coaches and other adults sexually abused young gymnasts between 1992 and 2016; the central figure
+  was Larry Nassar, national team doctor for USA Gymnastics and a Michigan State University physician,
+  whom more than 265 women said abused them under the pretence of medical treatment. USA Gymnastics reported
+  him to the FBI in July 2015, more than a year before the public knew.
+occurred:
+  start: '1992'
+  end: '2016'
+  precision: year
+known:
+  public:
+    start: '2016-09'
+    precision: month
+    note: The Indianapolis Star's reporting.
+  by:
+  - party: USA Gymnastics
+    actor: usa-gymnastics
+    when:
+      start: '2015-06-17'
+      precision: day
+      note: Coach Sarah Jantzi reported Nassar to USA Gymnastics officials.
+    sources:
+    - url: https://en.wikipedia.org/wiki/Larry_Nassar
+      archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+      title: Larry Nassar
+      publisher: Wikipedia
+      quote: Maggie Nichols and her coach, Sarah Jantzi, reported Nassar to USA Gymnastics officials on
+        June 17, 2015
+      type: reference
+      accessed: '2026-10-23'
+  - party: FBI Indianapolis Field Office
+    actor: federal-bureau-of-investigation
+    when:
+      start: '2015-07-28'
+      precision: day
+      note: USA Gymnastics president Steve Penny reported the allegations.
+    sources:
+    - url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+      archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+      title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations
+        of Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+      publisher: US Department of Justice, Office of the Inspector General
+      quote: The allegations reported to the Indianapolis Field Office on July 28, 2015, by USA Gymnastics
+      type: primary
+      accessed: '2026-10-23'
+  - party: Michigan State University (Title IX complaint)
+    actor: michigan-state-university
+    when:
+      start: '2014'
+      precision: year
+      note: A Title IX investigation found no policy violation.
+    sources:
+    - url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+      archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+      title: USA Gymnastics sex abuse scandal
+      publisher: Wikipedia
+      quote: MSU said that it first received a complaint against Nassar in 2014.
+      type: reference
+      accessed: '2026-10-23'
+threads:
+- scandals
+- sport
+regions:
+- americas
+actors:
+- larry-nassar
+- usa-gymnastics
+- michigan-state-university
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: Sexual abuse of young athletes by coaches and other adults (1992–2016)
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: A central figure was Larry Nassar, a longtime national-team doctor for USAG and osteopathic physician
+    in MSU's athletic department. More than 265 women said Nassar had sexually abused them under the pretense
+    of providing medical treatment
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: the general public was unaware of the scope of abuse and the efforts to cover it up until September
+    2016, when The Indianapolis Star became the first media outlet to report their eight-month investigation
+    of the abuse.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - Athletes say they complained about Nassar to Michigan State employees as early as 1997 (Wikipedia);
+    not added as a known.by entry because it is the athletes' account, not a finding.

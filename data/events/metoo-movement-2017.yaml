@@ -1,0 +1,67 @@
+id: metoo-movement-2017
+title: '#MeToo spreads on social media'
+wikidata: Q42133786
+summary: After the Weinstein reports, actress Alyssa Milano asks people who have been sexually harassed
+  or assaulted to reply "me too" on Twitter, a phrase activist Tarana Burke had used since 2006. Millions
+  use the hashtag within days, and allegations against powerful men follow in many industries and countries.
+occurred:
+  start: '2017-10-15'
+  precision: day
+threads:
+- rights
+- media
+- scandals
+regions:
+- americas
+- western-europe
+actors:
+- alyssa-milano
+- tarana-burke
+importance: 4
+sources:
+- url: https://en.wikipedia.org/wiki/Me_Too_movement
+  archive_url: https://web.archive.org/web/20261013050302/https://en.wikipedia.org/wiki/Me_Too_movement
+  title: MeToo movement
+  publisher: Wikipedia
+  quote: On October 15, 2017, American actress Alyssa Milano posted on Twitter encouraging women to use
+    the phrase "Me Too" in their social media posts to demonstrate the widespread prevalence of sexual
+    harassment and assault
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Me_Too_movement
+  archive_url: https://web.archive.org/web/20261013050302/https://en.wikipedia.org/wiki/Me_Too_movement
+  title: MeToo movement
+  publisher: Wikipedia
+  quote: The phrase "Me Too" was initially used in this context on social media around 2006, on Myspace,
+    by sexual assault survivor and activist Tarana Burke.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Me_Too_movement
+  archive_url: https://web.archive.org/web/20261013050302/https://en.wikipedia.org/wiki/Me_Too_movement
+  title: MeToo movement
+  publisher: Wikipedia
+  quote: the hashtag was used by more than 4.7 million people in 12 million posts during the first 24
+    hours on Facebook.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: The "Me Too" campaign spread to other countries and languages over social media in Africa, Asia,
+    Europe, Latin and North America.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: The scandal triggered many similar allegations against powerful men around the world, leading
+    to the ousting of many from their positions.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'

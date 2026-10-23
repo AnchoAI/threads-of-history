@@ -1,0 +1,22 @@
+id: tarana-burke
+title: Tarana Burke
+actor_type: person
+summary: American civil rights activist.
+threads:
+- rights
+regions:
+- americas
+importance: 2
+wikidata: Q43177774
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q43177774.json
+  title: Tarana Burke
+  publisher: Wikidata
+  quote: American civil rights activist
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

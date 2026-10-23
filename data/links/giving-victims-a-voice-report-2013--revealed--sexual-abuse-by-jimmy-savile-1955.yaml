@@ -1,0 +1,18 @@
+id: giving-victims-a-voice-report-2013--revealed--sexual-abuse-by-jimmy-savile-1955
+from: giving-victims-a-voice-report-2013
+to: sexual-abuse-by-jimmy-savile-1955
+type: revealed
+confidence: documented
+note: The report recorded the scale of Savile's offending over five decades.
+sources:
+- url: https://www.bbc.co.uk/news/uk-20981611
+  archive_url: https://web.archive.org/web/20260726204842/https://www.bbc.co.uk/news/uk-20981611
+  title: 'Jimmy Savile scandal: Report reveals decades of abuse'
+  publisher: BBC News
+  date: '2013-01-11'
+  quote: Adults and children, including a boy of eight, were abused by Jimmy Savile, a report detailing
+    allegations over 50 years, external has revealed.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced

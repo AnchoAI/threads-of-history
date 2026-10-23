@@ -1,0 +1,53 @@
+id: resignation-of-bernard-law-2002
+title: Cardinal Bernard Law resigns as Archbishop of Boston
+wikidata: none
+summary: Pope John Paul II accepts the resignation of Cardinal Bernard Law as Archbishop of Boston. Church
+  documents had shown that Law knew of abuse by dozens of priests and moved them between parishes instead
+  of reporting them; 58 priests had signed a letter urging him to resign.
+occurred:
+  start: '2002-12-13'
+  precision: day
+threads:
+- scandals
+- religion
+regions:
+- americas
+actors:
+- bernard-francis-law
+- catholic-church
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  archive_url: https://web.archive.org/web/20260814194935/https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  title: Bernard Francis Law
+  publisher: Wikipedia
+  quote: Law submitted his resignation as Archbishop of Boston to the Vatican, which Pope John Paul II
+    accepted on December 13, 2002.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  archive_url: https://web.archive.org/web/20260814194935/https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  title: Bernard Francis Law
+  publisher: Wikipedia
+  quote: Church documents demonstrate that Law had extensive knowledge of widespread child sexual abuse
+    committed by dozens of Catholic priests in the Boston Archdiocese over almost two decades; he failed
+    to report these crimes to the authorities, instead merely transferring the accused priests between
+    parishes.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  archive_url: https://web.archive.org/web/20260814194935/https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  title: Bernard Francis Law
+  publisher: Wikipedia
+  quote: A letter urging Law's resignation had been signed by 58 priests
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no separate item for the resignation was found; set to none.'
+  - The Massachusetts attorney general's 2003 report (cited on the Wikipedia page) said Law broke no law,
+    because priests were not required to report abuse until 2002; a reviewer may want that report as a
+    primary source.

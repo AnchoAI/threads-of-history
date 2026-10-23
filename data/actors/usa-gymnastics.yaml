@@ -1,0 +1,22 @@
+id: usa-gymnastics
+title: USA Gymnastics
+actor_type: organization
+summary: A national governing body for gymnastics in the United States.
+threads:
+- sport
+regions:
+- americas
+importance: 2
+wikidata: Q7865813
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7865813.json
+  title: USA Gymnastics
+  publisher: Wikidata
+  quote: A national governing body for gymnastics in the United States
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

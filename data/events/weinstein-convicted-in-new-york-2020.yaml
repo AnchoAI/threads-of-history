@@ -1,0 +1,59 @@
+id: weinstein-convicted-in-new-york-2020
+title: Harvey Weinstein convicted in New York
+wikidata: none
+summary: A Manhattan jury convicts Harvey Weinstein of a first-degree criminal sexual act and third-degree
+  rape, on the complaints of a former production assistant and a former actress, and acquits him of predatory
+  sexual assault. He is sentenced to 23 years in prison on 11 March 2020.
+occurred:
+  start: '2020-02-24'
+  precision: day
+threads:
+- scandals
+- film-tv
+regions:
+- americas
+actors:
+- harvey-weinstein
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: 'After deliberating for five days, a jury convicted Weinstein on February 24, 2020, of two of
+    five criminal charges: one count of criminal sexual assault in the first degree and one count of rape
+    in the third degree.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: The jury found him not guilty regarding predatory sexual assault, which could have led to a life
+    sentence.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: the charges themselves rested on the complaints of two women, a former production assistant and
+    a former actress, who gave the jury accounts from 2006 and 2013, respectively.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: his sentencing hearing on March 11, when he was sentenced to 23 years in prison.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Sources differ on the name of the first count: the Harvey Weinstein article says "criminal sexual
+    assault in the first degree", the cases article "a criminal sexual act in the first degree". The summary
+    follows the latter; check against the court record.'
+  - 'Wikidata: no item found for the trial; set to none.'

@@ -1,0 +1,60 @@
+id: safe-sport-act-2018
+title: Safe Sport Authorization Act signed
+wikidata: none
+summary: The Protecting Young Victims from Sexual Abuse and Safe Sport Authorization Act becomes law,
+  requiring the prompt reporting of sexual abuse of minors and amateur athletes to law enforcement and
+  setting up an independent body for athletes to report abuse.
+occurred:
+  start: '2018-02-14'
+  precision: day
+threads:
+- sport
+- rights
+- scandals
+regions:
+- americas
+actors:
+- donald-trump
+- united-states
+importance: 3
+sources:
+- url: https://www.govinfo.gov/content/pkg/PLAW-115publ126/html/PLAW-115publ126.htm
+  archive_url: https://web.archive.org/web/20260821222012/https://www.govinfo.gov/content/pkg/PLAW-115publ126/html/PLAW-115publ126.htm
+  title: Public Law 115-126 (Protecting Young Victims from Sexual Abuse and Safe Sport Authorization Act
+    of 2017)
+  publisher: US Government Publishing Office
+  date: '2018-02-14'
+  quote: An Act To prevent the sexual abuse of minors and amateur athletes by requiring the prompt reporting
+    of sexual abuse to law enforcement authorities, and for other purposes.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.govinfo.gov/content/pkg/PLAW-115publ126/html/PLAW-115publ126.htm
+  archive_url: https://web.archive.org/web/20260821222012/https://www.govinfo.gov/content/pkg/PLAW-115publ126/html/PLAW-115publ126.htm
+  title: Public Law 115-126 (Protecting Young Victims from Sexual Abuse and Safe Sport Authorization Act
+    of 2017)
+  publisher: US Government Publishing Office
+  date: '2018-02-14'
+  quote: Approved February 14, 2018.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: became law on February 14, 2018, when it was signed by President Donald Trump.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: the law directs the creation of a body to ensure that aspiring U.S. Olympic athletes can report
+    allegations of abuse to an independent and non-conflicted entity for investigation and resolution
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no item found via the English Wikipedia title; set to none.'

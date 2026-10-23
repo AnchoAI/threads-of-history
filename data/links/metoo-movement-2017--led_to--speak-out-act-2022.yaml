@@ -1,0 +1,27 @@
+id: metoo-movement-2017--led_to--speak-out-act-2022
+from: metoo-movement-2017
+to: speak-out-act-2022
+type: led_to
+confidence: documented
+note: 'The Speak Out Act was among the workplace changes pushed after #MeToo; limiting NDAs was one of
+  the movement''s main aims.'
+sources:
+- url: https://www.pbs.org/newshour/politics/biden-signs-law-curbing-nondisclosure-agreements-that-block-victims-of-sexual-harassment-from-speaking-out
+  archive_url: https://web.archive.org/web/20260730154106/https://www.pbs.org/newshour/politics/biden-signs-law-curbing-nondisclosure-agreements-that-block-victims-of-sexual-harassment-from-speaking-out
+  title: Biden signs law curbing nondisclosure agreements that block victims of sexual harassment from
+    speaking out
+  publisher: PBS NewsHour (Associated Press)
+  date: '2022-12-07'
+  quote: 'The new law, among the workplace changes pushed in the wake of the #MeToo movement, applies
+    to any nondisclosure agreements, also known as NDAs, signed before a dispute has occurred.'
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Speak_Out_Act
+  archive_url: https://web.archive.org/web/20260923033233/https://en.wikipedia.org/wiki/Speak_Out_Act
+  title: Speak Out Act
+  publisher: Wikipedia
+  quote: One of the MeToo movement's primary targets was the enactment of non-disclosure agreements
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

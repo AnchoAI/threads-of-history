@@ -1,0 +1,23 @@
+id: weinstein-convicted-in-new-york-2020--led_to--weinstein-new-york-conviction-overturned-2024
+from: weinstein-convicted-in-new-york-2020
+to: weinstein-new-york-conviction-overturned-2024
+type: led_to
+confidence: documented
+note: Weinstein appealed the 2020 conviction; the Court of Appeals overturned it.
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: His attorneys announced an appeal to the New York Court of Appeals.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: On April 25, 2024, the New York Court of Appeals overturned the convictions.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

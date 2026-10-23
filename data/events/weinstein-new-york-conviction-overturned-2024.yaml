@@ -1,0 +1,51 @@
+id: weinstein-new-york-conviction-overturned-2024
+title: New York Court of Appeals overturns Weinstein's conviction
+wikidata: none
+summary: New York's Court of Appeals overturns Harvey Weinstein's 2020 convictions, finding the trial
+  judge made "egregious errors" by admitting testimony about acts for which he was not charged, and orders
+  a retrial. He remains in prison on the California conviction.
+occurred:
+  start: '2024-04-25'
+  precision: day
+threads:
+- scandals
+- film-tv
+regions:
+- americas
+actors:
+- harvey-weinstein
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: On April 25, 2024, the New York Court of Appeals overturned the convictions. The Court of Appeals
+    said the trial judge had made "egregious errors" by admitting the testimony of other alleged victims
+    of Weinstein's about acts for which he was not charged
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: The Court of Appeals ordered a retrial of the rape allegations.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: Weinstein remained in prison because of the California conviction.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Later: at the 2025 retrial he was found guilty of one count of criminal sexual act on 11 June 2025
+    and not guilty of another; the rape count concerning Jessica Mann ended in mistrials and was dropped
+    in June 2026 (Wikipedia). Not added as separate items; a reviewer may want them.'
+  - The Court of Appeals decision (nycourts.gov) returned HTTP 403 from the sandbox.
+  - 'Wikidata: no item found; set to none.'

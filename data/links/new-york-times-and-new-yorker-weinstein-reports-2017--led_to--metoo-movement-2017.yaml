@@ -1,0 +1,25 @@
+id: new-york-times-and-new-yorker-weinstein-reports-2017--led_to--metoo-movement-2017
+from: new-york-times-and-new-yorker-weinstein-reports-2017
+to: metoo-movement-2017
+type: led_to
+confidence: documented
+note: 'The allegations against Weinstein set off the #MeToo campaign.'
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: 'The allegations sparked the #MeToo social media campaign and subsequent sexual abuse allegations
+    against many powerful figures worldwide'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Me_Too_movement
+  archive_url: https://web.archive.org/web/20261013050302/https://en.wikipedia.org/wiki/Me_Too_movement
+  title: MeToo movement
+  publisher: Wikipedia
+  quote: Following multiple exposures of sexual-abuse allegations against film producer Harvey Weinstein
+    in October 2017, the movement began to spread virally as a hashtag on social media.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
