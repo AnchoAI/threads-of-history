@@ -94,3 +94,7 @@
   name: Sport & politics
   domain: sports
   color: '#7FB7E6'
+- id: scandals
+  name: Scandals, cover-ups & investigations
+  domain: politics
+  color: '#D98E73'
