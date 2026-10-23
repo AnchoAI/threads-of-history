@@ -1,0 +1,50 @@
+id: jeffrey-epstein-charged-with-sex-trafficking-2019
+title: Jeffrey Epstein arrested and charged with sex trafficking of minors
+summary: FBI agents arrest Jeffrey Epstein at Teterboro Airport on 6 July 2019; on 8 July federal prosecutors in
+  the Southern District of New York charge him with one count of sex trafficking of minors and one of conspiracy,
+  for conduct between 2002 and 2005.
+occurred:
+  start: '2019-07-06'
+  end: '2019-07-08'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: On July 6, 2019, Epstein was arrested when he returned to the U.S. from France by the FBI-NYPD Crimes Against
+    Children Task Force at Teterboro Airport in New Jersey on charges of sex trafficking during the years 2002 to
+    2005.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: On July 8, prosecutors with the Public Corruption Unit of the Southern District of New York under Geoffrey
+    Berman charged him with sex trafficking and conspiracy to traffic minors for sex.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: 'July 6: Federal agents arrest Epstein. He is charged in the Southern District Court of New York with one
+    count of sex trafficking of minors and one count of conspiracy to commit sex trafficking of minors.'
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

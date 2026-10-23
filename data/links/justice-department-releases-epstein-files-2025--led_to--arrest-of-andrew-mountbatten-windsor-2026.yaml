@@ -1,0 +1,30 @@
+id: justice-department-releases-epstein-files-2025--led_to--arrest-of-andrew-mountbatten-windsor-2026
+from: justice-department-releases-epstein-files-2025
+to: arrest-of-andrew-mountbatten-windsor-2026
+type: led_to
+confidence: documented
+note: The police investigation followed documents in the released files about his time as trade envoy.
+sources:
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: It follows documents in recently released Epstein files that suggest Andrew passed on official government
+    documents to the late financier when he was a trade envoy.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: The release of millions of pages of Epstein files by the U.S. Department of Justice last month sparked
+    new scrutiny.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

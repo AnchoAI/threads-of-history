@@ -1,0 +1,51 @@
+id: mandelson-dismissed-as-ambassador-2025
+title: Peter Mandelson dismissed as UK ambassador to the US
+summary: Prime Minister Keir Starmer dismisses Peter Mandelson as British ambassador to the United States after
+  newly published emails show the extent of his friendship with Jeffrey Epstein after Epstein's 2008 conviction;
+  Starmer calls the emails "reprehensible".
+occurred:
+  start: '2025-09-11'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+- americas
+actors:
+- peter-mandelson
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Peter_Mandelson
+  archive_url: https://web.archive.org/web/20261019063246/https://en.wikipedia.org/wiki/Peter_Mandelson
+  title: Peter Mandelson
+  publisher: Wikipedia
+  quote: After Mandelson refused to resign, on 11 September 2025 Starmer dismissed him, describing the emails as
+    "reprehensible" and saying that Mandelson's responses to official questions had been unsatisfactory.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Peter_Mandelson
+  archive_url: https://web.archive.org/web/20261019063246/https://en.wikipedia.org/wiki/Peter_Mandelson
+  title: Peter Mandelson
+  publisher: Wikipedia
+  quote: The government stated that the newly published emails provided "materially different" information about
+    the extent of the relationship, particularly Mandelson's suggestion that Epstein's conviction had been wrongful.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/14/nx-s1-5714609/epstein-europe-fallout
+  archive_url: https://web.archive.org/web/20261003132115/https://www.npr.org/2026/02/14/nx-s1-5714609/epstein-europe-fallout
+  title: Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted
+  publisher: NPR
+  date: '2026-02-14'
+  quote: Peter Mandelson, a prominent Labour Party figure and Britain's ambassador to the U.S., was stripped of
+    his position in September
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The Wikidata item Q136756410 covers the wider Mandelson–Epstein scandal, not this dismissal, so it is not used
+    here.

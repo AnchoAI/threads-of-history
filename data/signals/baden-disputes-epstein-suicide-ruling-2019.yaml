@@ -1,0 +1,67 @@
+id: baden-disputes-epstein-suicide-ruling-2019
+title: Pathologist hired by Epstein estate questions suicide ruling
+summary: Michael Baden, a pathologist hired by Epstein's estate who observed the autopsy, says injuries including
+  a broken neck bone are "extremely unusual in suicidal hangings"; Epstein's lawyers say the evidence is more consistent
+  with murder. The FBI found no criminality, and the Justice Department's Inspector General found no evidence contradicting
+  that.
+occurred:
+  start: 2019-10
+  precision: month
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+source_credibility: low
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: Michael Baden, an independent pathologist hired by the Epstein estate, observed the autopsy.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: In October 2019, Baden said that Epstein had experienced a number of injuries—among them a broken bone
+    in his neck—that "are extremely unusual in suicidal hangings
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: Epstein's defense lawyers were not satisfied with the conclusion and said the evidence concerning Epstein's
+    death was "far more consistent" with murder.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: MCC New York staff engaged in significant misconduct and dereliction of their duties, we did not uncover
+    evidence contradicting the FBI’s determination regarding the absence of criminality
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: Multiple investigations have determined that Epstein's death was a suicide.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - 'outcome ''false'' rests on official findings: the FBI''s determination of no criminality and the Inspector
+    General''s 2023 report finding no evidence contradicting it. source_credibility ''low'' is an editorial judgement.'
+  - Baden is quoted via Wikipedia; a primary interview (60 Minutes / Fox, October 2019) was not fetched.

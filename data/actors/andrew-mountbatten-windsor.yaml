@@ -1,0 +1,22 @@
+id: andrew-mountbatten-windsor
+title: Andrew Mountbatten-Windsor
+actor_type: person
+summary: Third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh (born 1960).
+threads:
+- scandals
+regions:
+- western-europe
+importance: 2
+wikidata: Q153330
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q153330.json
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikidata
+  quote: third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh (born 1960)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

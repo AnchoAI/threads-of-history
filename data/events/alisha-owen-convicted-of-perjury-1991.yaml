@@ -1,0 +1,38 @@
+id: alisha-owen-convicted-of-perjury-1991
+title: Alisha Owen convicted of perjury
+summary: Alisha Owen, one of the Franklin accusers, is convicted of lying to the grand jury that investigated the
+  abuse allegations and is sentenced to 9 to 15 years in prison; she serves more than four years.
+occurred:
+  start: '1991'
+  precision: year
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: USA Today. August 9, 1991. p. 6A. Alisha Owen, convicted of lying to grand jury probing charges of sex
+    and drug abuse in failure of Omaha credit union, was sentenced to 9 to 15 years in prison.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.theamericanconservative.com/the-child-sex-trafficking-scandal-america-forgot/
+  archive_url: https://web.archive.org/web/20260419100727/https://www.theamericanconservative.com/the-child-sex-trafficking-scandal-america-forgot/
+  title: The Child Sex-Trafficking Scandal America Forgot (Hunter DeRensis)
+  publisher: The American Conservative
+  date: '2020-09-05'
+  quote: At twenty-one years old, Owens was convicted and served over four years in prison, two of which were in
+    solitary confinement.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: unverified
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The only dated source is a USA Today item (9 August 1991) as cited on Wikipedia; the article itself was not
+    fetched. The court (state or federal) and the exact verdict date are not confirmed.

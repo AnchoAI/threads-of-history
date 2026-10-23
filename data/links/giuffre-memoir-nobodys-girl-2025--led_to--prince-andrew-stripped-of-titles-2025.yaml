@@ -1,0 +1,23 @@
+id: giuffre-memoir-nobodys-girl-2025--led_to--prince-andrew-stripped-of-titles-2025
+from: giuffre-memoir-nobodys-girl-2025
+to: prince-andrew-stripped-of-titles-2025
+type: led_to
+confidence: documented
+note: AP reports that new emails and the memoir's allegations preceded the King's removal of Andrew's titles.
+sources:
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: After emails emerged showing Andrew remained in contact with Epstein longer than he previously claimed
+    and Giuffre's posthumous memoir brought new allegations, King Charles III in October stripped his brother of
+    his titles of prince and Duke of York and evicted him from his Royal Lodge mansion in Windsor.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The AP sentence names two triggers (new emails and the memoir); the emails are not modelled as an item.

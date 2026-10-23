@@ -1,0 +1,59 @@
+id: doj-inspector-general-report-on-epstein-custody-2023
+title: Inspector General reports on jail's handling of Jeffrey Epstein
+summary: The Justice Department's Inspector General, Michael Horowitz, reports numerous and serious failures by
+  Metropolitan Correctional Center staff that left Epstein unmonitored and alone in his cell before his death, including
+  falsified count slips and round sheets, and finds no evidence contradicting the FBI's determination that no crime
+  was involved.
+occurred:
+  start: '2023-06-27'
+  precision: day
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+wikidata: none
+sources:
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: Department of Justice (DOJ) Inspector General Michael E. Horowitz announced today the release of a report
+    of investigation
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: The DOJ OIG found numerous and serious failures by MCC New York staff constituting misconduct and dereliction
+    of their duties.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: MCC New York staff falsified count slips and round sheets to show that they had been performed when they
+    were not, leaving Epstein unobserved for hours before his death.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: we did not uncover evidence contradicting the FBI’s determination regarding the absence of criminality
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Date from the press release dated 27 June 2023 (source date).

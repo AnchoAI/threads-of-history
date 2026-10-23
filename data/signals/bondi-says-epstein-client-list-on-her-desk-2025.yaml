@@ -1,0 +1,54 @@
+id: bondi-says-epstein-client-list-on-her-desk-2025
+title: Bondi says Epstein "client list" is on her desk
+summary: Asked by Fox News whether the Justice Department would publish "the list of Jeffrey Epstein's clients",
+  Attorney General Pam Bondi says "It's sitting on my desk right now to review." In July the department and the
+  FBI said they had found no incriminating "client list".
+occurred:
+  start: '2025-02-21'
+  precision: day
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+source_credibility: medium
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: 'U.S. Attorney General Pam Bondi was asked on February 21, 2025, by Fox News journalist John Roberts whether
+    the Justice Department would publish "the list of Jeffrey Epstein''s clients", and Bondi replied: "It''s sitting
+    on my desk right now to review.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: On July 7, 2025, Bondi released a statement saying that the U.S. Department of Justice (DOJ) found "no
+    incriminating 'client list'", contradicting her February statement.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: When asked what Bondi had meant in February when she said Epstein material was "on her desk", White House
+    Press Secretary Karoline Leavitt said Bondi had been referring to "the entirety of
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - outcome 'false' rests on the Justice Department/FBI memo of July 2025, which found no incriminating client list;
+    the White House press secretary later gave a different reading of Bondi's remark (cut off in the fetched text).
+    Claims of a client list persist among critics of that memo.
+  - The fetched Wikipedia text breaks off after "the entirety of" (a link follows); what Leavitt said Bondi meant
+    is not quoted here.

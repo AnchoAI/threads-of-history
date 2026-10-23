@@ -1,0 +1,76 @@
+id: epstein-files-transparency-act-2025
+title: Epstein Files Transparency Act signed into law
+summary: After the House votes 427–1 and the Senate passes it by unanimous consent, President Donald Trump signs
+  the Epstein Files Transparency Act, requiring the Justice Department to publish its unclassified Epstein files
+  within 30 days, with exceptions for victims' identities, abuse material, classified information and active investigations.
+occurred:
+  start: '2025-11-19'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- donald-trump
+- united-states
+importance: 3
+wikidata: Q136787512
+sources:
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: Signed into law by President Donald Trump on November 19, 2025
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: The House of Representatives voted 427–1 to pass the act on November 18, 2025, with Republican representative
+    Clay Higgins of Louisiana casting the lone nay vote.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  archive_url: https://web.archive.org/web/20260910210730/https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  title: Newly released Epstein files include many already public documents
+  publisher: NPR
+  date: '2025-12-19'
+  quote: The Epstein Files Transparency Act gave Attorney General Pam Bondi 30 days to publish "all unclassified
+    records, documents, communications, and investigative materials" about Epstein
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  archive_url: https://web.archive.org/web/20260519092707/https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  title: What's next now that Trump has signed a bill releasing the Epstein files
+  publisher: NPR (Associated Press)
+  date: '2025-11-20'
+  quote: The bill's authors made sure to include that the Justice Department could withhold personally identifiable
+    information of victims, child sexual abuse materials and information deemed by the administration to be classified
+    for national defense or foreign policy.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  archive_url: https://web.archive.org/web/20260519092707/https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  title: What's next now that Trump has signed a bill releasing the Epstein files
+  publisher: NPR (Associated Press)
+  date: '2025-11-20'
+  quote: The bill also allows the Justice Department to withhold information that would jeopardize active investigations
+    or prosecutions.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  archive_url: https://web.archive.org/web/20260519092707/https://www.npr.org/2025/11/20/g-s1-98477/trump-signed-bill-releasing-epstein-files
+  title: What's next now that Trump has signed a bill releasing the Epstein files
+  publisher: NPR (Associated Press)
+  date: '2025-11-20'
+  quote: Both the House and Senate passed the bill this week with overwhelming margins after Trump reversed course
+    on his monthslong opposition to the bill and indicated he would sign it.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

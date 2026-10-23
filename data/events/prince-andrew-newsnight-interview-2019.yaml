@@ -1,0 +1,56 @@
+id: prince-andrew-newsnight-interview-2019
+title: Prince Andrew's Newsnight interview about Epstein
+summary: In a BBC Newsnight interview with Emily Maitlis, Prince Andrew discusses his friendship with Jeffrey Epstein
+  publicly for the first time and denies Virginia Giuffre's allegation; the interview is widely criticised.
+occurred:
+  start: 2019-11
+  precision: month
+threads:
+- scandals
+- media
+regions:
+- western-europe
+actors:
+- andrew-mountbatten-windsor
+- virginia-giuffre
+importance: 2
+wikidata: Q106013779
+sources:
+- url: https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  archive_url: https://web.archive.org/web/20261017154052/https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikipedia
+  quote: In November 2019, the BBC's Newsnight broadcast an interview of Andrew by presenter Emily Maitlis, in which
+    he discussed his friendship with Epstein publicly for the first time.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  archive_url: https://web.archive.org/web/20261017154052/https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikipedia
+  quote: In the interview, Andrew denied having sex with Giuffre on 10 March 2001, as she alleged
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: After Epstein was arrested again in 2019, Andrew gave a disastrous interview to the BBC's Newsnight program,
+    in which he tried to explain away his contacts with Epstein.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: It backfired — he was widely criticized for giving unbelievable explanations and failing to show empathy
+    for Epstein's victims.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

@@ -1,0 +1,44 @@
+id: house-oversight-releases-epstein-documents-2025
+title: House Oversight Committee releases Epstein documents
+summary: The US House Oversight Committee begins releasing batches of documents it received from the Justice Department
+  and, under subpoena, from Epstein's estate, including parts of his contact records, correspondence and photographs.
+occurred:
+  start: '2025-09-02'
+  precision: day
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: Beginning in September 2025, the House Oversight Committee released batches of documents it had received
+    from the Justice Department and, in response to a subpoena, from the Epstein estate.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: On September 2, the committee released 33,295 pages of Epstein files, though most of the information was
+    already publicly known or available.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: These releases included portions of Epstein's contact records, correspondence, and photographs.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
