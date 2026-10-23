@@ -1,0 +1,65 @@
+id: arrest-of-peter-mandelson-2026
+title: Peter Mandelson arrested
+summary: Police arrest Peter Mandelson, who resigned from the House of Lords earlier in February, on suspicion of
+  misconduct in public office for allegedly passing confidential government information to Epstein while Business
+  Secretary. He is released on bail and has not been charged.
+occurred:
+  start: '2026-02-23'
+  precision: day
+threads:
+- scandals
+- econ-crises
+regions:
+- western-europe
+actors:
+- peter-mandelson
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Peter_Mandelson
+  archive_url: https://web.archive.org/web/20261019063246/https://en.wikipedia.org/wiki/Peter_Mandelson
+  title: Peter Mandelson
+  publisher: Wikipedia
+  quote: On 23 February, Mandelson was arrested on suspicion of misconduct in public office by leaking confidential
+    emails to Epstein while he was Business Secretary.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Peter_Mandelson
+  archive_url: https://web.archive.org/web/20261019063246/https://en.wikipedia.org/wiki/Peter_Mandelson
+  title: Peter Mandelson
+  publisher: Wikipedia
+  quote: He was questioned in custody and later released on bail pending further investigation.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/23/nx-s1-5723950/former-u-k-ambassador-to-u-s-arrested-over-epstein-revelations
+  archive_url: https://web.archive.org/web/20260413025546/https://www.npr.org/2026/02/23/nx-s1-5723950/former-u-k-ambassador-to-u-s-arrested-over-epstein-revelations
+  title: Former U.K. ambassador to U.S. arrested over Epstein revelations
+  publisher: NPR
+  date: '2026-02-23'
+  quote: Peter Mandelson, former U.K. ambassador to the U.S., has been arrested on suspicion of misconduct in public
+    office. He's accused of passing government information to Jeffrey Epstein.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/14/nx-s1-5714609/epstein-europe-fallout
+  archive_url: https://web.archive.org/web/20261003132115/https://www.npr.org/2026/02/14/nx-s1-5714609/epstein-europe-fallout
+  title: Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted
+  publisher: NPR
+  date: '2026-02-14'
+  quote: was stripped of his position in September and resigned from the House of Lords earlier this month.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/23/nx-s1-5723950/former-u-k-ambassador-to-u-s-arrested-over-epstein-revelations
+  archive_url: https://web.archive.org/web/20260413025546/https://www.npr.org/2026/02/23/nx-s1-5723950/former-u-k-ambassador-to-u-s-arrested-over-epstein-revelations
+  title: Former U.K. ambassador to U.S. arrested over Epstein revelations
+  publisher: NPR
+  date: '2026-02-23'
+  quote: Now, neither of them has commented on those specific allegations, and neither has been charged.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Year from NPR's report of 23 February 2026. On the econ-crises thread because the alleged leaks concern the
+    2008 financial crisis and the 2010 euro bailout (Wikipedia).

@@ -1,0 +1,22 @@
+id: lawrence-e-king-jr
+title: Lawrence E. King Jr.
+actor_type: person
+summary: American banker politician.
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q133699183
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q133699183.json
+  title: Lawrence E. King Jr.
+  publisher: Wikidata
+  quote: American banker politician
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

@@ -1,0 +1,66 @@
+id: giuffre-sues-prince-andrew-2021
+title: Virginia Giuffre sues Prince Andrew
+summary: Virginia Giuffre sues Prince Andrew in federal court in New York, alleging that he sexually abused her
+  in the early 2000s after she was trafficked by Jeffrey Epstein at 16 and 17. Andrew denies the allegations; the
+  suit is settled in February 2022 without an admission of liability, so no court ruled on them.
+occurred:
+  start: '2021-08-09'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+- western-europe
+actors:
+- virginia-giuffre
+- andrew-mountbatten-windsor
+- jeffrey-epstein
+importance: 2
+source_credibility: medium
+outcome: unresolved
+wikidata: Q110588118
+sources:
+- url: https://en.wikipedia.org/wiki/Virginia_Giuffre
+  archive_url: https://web.archive.org/web/20261010071852/https://en.wikipedia.org/wiki/Virginia_Giuffre
+  title: Virginia Giuffre
+  publisher: Wikipedia
+  quote: On 9 August 2021, Giuffre filed a civil lawsuit in New York against Prince Andrew alleging that she was
+    forced to have several sexual encounters with him in the early 2000s after being trafficked by Epstein when
+    she was 16 and 17 years old.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre
+  archive_url: https://web.archive.org/web/20260930083044/https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre
+  title: Prince Andrew reaches a settlement with Virginia Giuffre in sexual abuse lawsuit
+  publisher: NPR
+  date: '2022-02-15'
+  quote: Andrew has strongly denied the allegations against him, stating that he did not participate in the sexual
+    exploitation of minors or witness such behavior.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  archive_url: https://web.archive.org/web/20261017154052/https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikipedia
+  quote: In February, the case was settled out of court, with Andrew making a donation to Giuffre's charity for
+    victims of abuse, without any admission of liability.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Virginia_Giuffre
+  archive_url: https://web.archive.org/web/20261010071852/https://en.wikipedia.org/wiki/Virginia_Giuffre
+  title: Virginia Giuffre
+  publisher: Wikipedia
+  quote: According to documents released in 2026 as part of the Epstein files, FBI investigators were unable to
+    substantiate Giuffre's allegation that Epstein "lent" girls out to other powerful men
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - 'outcome ''unresolved'': the case was settled without admission of liability and no court or official body ruled
+    on the allegation against Andrew. source_credibility ''medium'' is an editorial judgement.'
+  - A 2019 FBI memo released in 2026 (per Wikipedia) said investigators could not substantiate Giuffre's broader
+    'lent out' allegation; that memo itself was not fetched.

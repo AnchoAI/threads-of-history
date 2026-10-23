@@ -1,0 +1,58 @@
+id: palm-beach-police-investigate-epstein-2005
+title: Palm Beach police open an investigation into Jeffrey Epstein
+summary: Police in Palm Beach, Florida, open a criminal investigation into Jeffrey Epstein after a girl's parent
+  reports that he paid a 14-year-old to massage him; investigators identify dozens of girls aged 14 to 17 with similar
+  accounts. The police chief and lead detective later refer the case to the FBI.
+occurred:
+  start: 2005-03
+  precision: month
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+wikidata: none
+sources:
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: 'March: Police open a criminal investigation into Epstein in Palm Beach, Fla., after a 14-year-old girl''s
+    parents say he paid her for a massage.'
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: In 2005, police in Palm Beach, Florida, began investigating Epstein after a woman reported that her 14-year-old
+    stepdaughter had been paid by Epstein to strip and massage him.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: Investigators identified 36 girls between the ages of 14 and 17 with similar accounts of sexual abuse.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: But the Palm Beach Police Department's chief and lead detective then refer the case to a nearby FBI office,
+    saying the charge doesn't reflect "the totality of Epstein's conduct," according to the Justice Department's
+    review of the case.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - NPR's timeline gives 'March' under its 2005 heading; the year is in the Wikipedia quote.

@@ -1,0 +1,45 @@
+id: franklin-credit-union-shut-down-1988
+title: Franklin Community Federal Credit Union shut down
+summary: Federal regulators raid and close the Franklin Community Federal Credit Union in Omaha, Nebraska, managed
+  by Lawrence E. King Jr., after finding that tens of millions of dollars are missing.
+occurred:
+  start: '1988-11-04'
+  precision: day
+threads:
+- scandals
+- econ-crises
+regions:
+- americas
+actors:
+- lawrence-e-king-jr
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: On November 4, 1988, the National Credit Union Administration (NCUA) raided and shut down Franklin after
+    finding evidence that tens of millions of dollars were missing.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: According to lawsuits filed by the NCUA, about $34–40 million in funds were unaccounted for – one of the
+    largest credit-union failures in US history.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: He was the manager and treasurer of the Franklin Community Federal Credit Union (FCFCU)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

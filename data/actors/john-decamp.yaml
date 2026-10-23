@@ -1,0 +1,22 @@
+id: john-decamp
+title: John DeCamp
+actor_type: person
+summary: American politician (1941–2017).
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q3181336
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q3181336.json
+  title: John DeCamp
+  publisher: Wikidata
+  quote: American politician (1941–2017)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

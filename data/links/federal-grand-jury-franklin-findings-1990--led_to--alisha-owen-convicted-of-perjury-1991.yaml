@@ -1,0 +1,30 @@
+id: federal-grand-jury-franklin-findings-1990--led_to--alisha-owen-convicted-of-perjury-1991
+from: federal-grand-jury-franklin-findings-1990
+to: alisha-owen-convicted-of-perjury-1991
+type: led_to
+confidence: documented
+note: Owen was indicted for perjury and later convicted of lying to the grand jury.
+sources:
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: In September 1990, a federal grand jury also concluded that the abuse allegations were unfounded and indicted
+    21-year-old Alisha Owen, an alleged victim, on eight counts of perjury.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: USA Today. August 9, 1991. p. 6A. Alisha Owen, convicted of lying to grand jury probing charges of sex
+    and drug abuse in failure of Omaha credit union, was sentenced to 9 to 15 years in prison.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: unverified
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Unverified until it is confirmed which grand jury (county or federal) indicted Owen on the charges she was convicted
+    of.

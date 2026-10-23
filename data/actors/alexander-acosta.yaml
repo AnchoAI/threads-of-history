@@ -1,0 +1,22 @@
+id: alexander-acosta
+title: Alexander Acosta
+actor_type: person
+summary: American attorney and politician.
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q7273452
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7273452.json
+  title: Alexander Acosta
+  publisher: Wikidata
+  quote: American attorney and politician
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).
