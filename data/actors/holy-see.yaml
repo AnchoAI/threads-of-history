@@ -1,0 +1,22 @@
+id: holy-see
+title: Holy See
+actor_type: state
+summary: Jurisdiction of the Bishop of Rome and the sovereign entity presiding over Vatican City.
+threads:
+- religion
+regions:
+- western-europe
+importance: 2
+wikidata: Q159583
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q159583.json
+  title: Holy See
+  publisher: Wikidata
+  quote: jurisdiction of the Bishop of Rome and the sovereign entity presiding over Vatican City
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

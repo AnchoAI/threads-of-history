@@ -1,0 +1,57 @@
+id: itv-exposure-savile-allegations-2012
+title: ITV documentary airs allegations against Jimmy Savile
+summary: 'In the ITV documentary Exposure: The Other Side of Jimmy Savile, presented by former police
+  investigator Mark Williams-Thomas, several women say that Savile sexually abused them when they were
+  teenagers. Within days allegations had been made to 13 police forces.'
+occurred:
+  start: '2012-10-03'
+  precision: day
+threads:
+- scandals
+- media
+regions:
+- western-europe
+actors:
+- jimmy-savile
+- mark-williams-thomas
+importance: 3
+source_credibility: medium
+outcome: confirmed
+resolves_to: sexual-abuse-by-jimmy-savile-1955
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: 'An ITV documentary, Exposure: The Other Side of Jimmy Savile, was broadcast on 3 October 2012.
+    It was researched and presented by Mark Williams-Thomas, the former police investigator who had previously
+    been involved in the shelved Newsnight investigation.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: Several women interviewed by Exposure said that, as teenagers, they had been sexually abused
+    by Savile.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: By 11 October, allegations had been made against Savile to 13 British police forces
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Outcome confirmed: the Dame Janet Smith review (2016), an inquiry commissioned by the BBC, found
+    Savile abused 72 people in connection with his BBC work, and police and the NSPCC recorded 214 crimes
+    (2013). Savile was never tried.'
+  - source_credibility "medium" is an editorial judgement about the documentary at broadcast time.
+  - A BBC Newsnight investigation into the same allegations was dropped in December 2011; the Pollard
+    review (December 2012) called that decision "flawed". Not added as a separate item.
+  - 'Wikidata: the series Exposure is Q5421621; no item found for this episode, so wikidata is left unset.'

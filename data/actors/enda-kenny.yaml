@@ -1,0 +1,21 @@
+id: enda-kenny
+title: Enda Kenny
+actor_type: person
+summary: Irish politician (born 1951); Taoiseach 2011–2017.
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q57815
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q57815.json
+  title: Enda Kenny
+  publisher: Wikidata
+  quote: Irish poliitician (* 1951)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

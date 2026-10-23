@@ -1,0 +1,28 @@
+id: boston-globe-spotlight-investigation-2002--revealed--archdiocese-of-boston-reassigns-john-geoghan-1984
+from: boston-globe-spotlight-investigation-2002
+to: archdiocese-of-boston-reassigns-john-geoghan-1984
+type: revealed
+confidence: documented
+note: The Globe's investigation used court files and church records to show what the archdiocese knew
+  when it moved Geoghan to Weston.
+sources:
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: The Spotlight Team found evidence that one of Law’s top subordinates worried that Geoghan would
+    cause further scandal at St. Julia’s in Weston
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: Church records obtained by the Globe note that Geoghan was indeed medically cleared for the St.
+    Julia’s assignment - but not until he had been at the parish for a month.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced

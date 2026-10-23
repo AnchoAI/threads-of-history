@@ -1,0 +1,51 @@
+id: speak-out-act-2022
+title: Speak Out Act signed
+wikidata: Q115813708
+summary: President Joe Biden signs the Speak Out Act, which limits the enforceability of nondisclosure
+  and nondisparagement clauses, signed before a dispute arises, in cases of sexual assault and sexual
+  harassment.
+occurred:
+  start: '2022-12-07'
+  precision: day
+threads:
+- rights
+- scandals
+regions:
+- americas
+actors:
+- joe-biden
+- united-states
+importance: 3
+sources:
+- url: https://www.govinfo.gov/content/pkg/PLAW-117publ224/html/PLAW-117publ224.htm
+  archive_url: https://web.archive.org/web/20260721021401/https://www.govinfo.gov/content/pkg/PLAW-117publ224/html/PLAW-117publ224.htm
+  title: Public Law 117-224 (Speak Out Act)
+  publisher: US Government Publishing Office
+  date: '2022-12-07'
+  quote: An Act To limit the judicial enforceability of predispute nondisclosure and nondisparagement
+    contract clauses relating to disputes involving sexual assault and sexual harassment.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.govinfo.gov/content/pkg/PLAW-117publ224/html/PLAW-117publ224.htm
+  archive_url: https://web.archive.org/web/20260721021401/https://www.govinfo.gov/content/pkg/PLAW-117publ224/html/PLAW-117publ224.htm
+  title: Public Law 117-224 (Speak Out Act)
+  publisher: US Government Publishing Office
+  date: '2022-12-07'
+  quote: Approved December 7, 2022.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/politics/biden-signs-law-curbing-nondisclosure-agreements-that-block-victims-of-sexual-harassment-from-speaking-out
+  archive_url: https://web.archive.org/web/20260730154106/https://www.pbs.org/newshour/politics/biden-signs-law-curbing-nondisclosure-agreements-that-block-victims-of-sexual-harassment-from-speaking-out
+  title: Biden signs law curbing nondisclosure agreements that block victims of sexual harassment from
+    speaking out
+  publisher: PBS NewsHour (Associated Press)
+  date: '2022-12-07'
+  quote: President Joe Biden on Wednesday signed legislation curbing the use of confidentiality agreements
+    that block victims of sexual harassment from speaking publicly about misconduct in the workplace.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'

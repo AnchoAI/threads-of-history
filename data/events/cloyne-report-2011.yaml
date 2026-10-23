@@ -1,0 +1,60 @@
+id: cloyne-report-2011
+title: Cloyne Report and Enda Kenny's Dáil speech
+wikidata: none
+summary: A commission led by Judge Yvonne Murphy reports on how the Diocese of Cloyne handled abuse complaints
+  against 19 priests from 1996. A week later Taoiseach Enda Kenny tells the Dáil that the report exposed
+  "the dysfunction, disconnection and elitism" of the Vatican and that relations between church and state
+  "could not be the same again".
+occurred:
+  start: '2011-07-13'
+  end: '2011-07-20'
+  precision: day
+threads:
+- scandals
+- religion
+regions:
+- western-europe
+actors:
+- ireland
+- enda-kenny
+- catholic-church
+- holy-see
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Cloyne_Report
+  archive_url: https://web.archive.org/web/20250816131507/https://en.wikipedia.org/wiki/Cloyne_Report
+  title: Cloyne Report
+  publisher: Wikipedia
+  quote: Judge Murphy's Inquiry issued its report on 13 July 2011.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Cloyne_Report
+  archive_url: https://web.archive.org/web/20250816131507/https://en.wikipedia.org/wiki/Cloyne_Report
+  title: Cloyne Report
+  publisher: Wikipedia
+  quote: The inquiry was ordered to look at child protection practices in the diocese and how it dealt
+    with complaints against 19 priests made from 1996.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Cloyne_Report
+  archive_url: https://web.archive.org/web/20250816131507/https://en.wikipedia.org/wiki/Cloyne_Report
+  title: Cloyne Report
+  publisher: Wikipedia
+  quote: On 20 July 2011 Taoiseach Enda Kenny criticised the Vatican, deploring "the dysfunction, disconnection
+    and elitism that dominates the culture of the Vatican to this day"
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  title: Holy See–Ireland relations
+  publisher: Wikipedia
+  quote: he said that "the historic relationship between church and state in Ireland could not be the
+    same again.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no item found for the Cloyne Report via its English Wikipedia title; set to none.'

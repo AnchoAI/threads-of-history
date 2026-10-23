@@ -1,0 +1,18 @@
+id: boston-globe-spotlight-investigation-2002--led_to--resignation-of-bernard-law-2002
+from: boston-globe-spotlight-investigation-2002
+to: resignation-of-bernard-law-2002
+type: led_to
+confidence: documented
+note: Sources say the Globe's 2002 exposé of how Law handled abusive priests led to his resignation that
+  December.
+sources:
+- url: https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  archive_url: https://web.archive.org/web/20260814194935/https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  title: Bernard Francis Law
+  publisher: Wikipedia
+  quote: a 2002 exposé revealed that he covered up the serial rape of children by Catholic priests. This
+    led to his resignation as Archbishop of Boston in December of that year.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

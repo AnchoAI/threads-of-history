@@ -1,0 +1,28 @@
+id: itv-exposure-savile-allegations-2012--led_to--dame-janet-smith-review-2016
+from: itv-exposure-savile-allegations-2012
+to: dame-janet-smith-review-2016
+type: led_to
+confidence: documented
+note: The allegations that followed the documentary led to inquiries into practices at the BBC, including
+  the Smith review.
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: By 11 October, allegations had been made against Savile to 13 British police forces, which led
+    to the setting-up of inquiries into practices within both the BBC and the National Health Service
+    (NHS)
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: On 16 October the BBC appointed heads of two inquiries into events surrounding Savile. Former
+    High Court judge Dame Janet Smith, who led the inquiry into serial killer Harold Shipman, was to review
+    the culture and practices of the BBC during the time Savile worked there
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

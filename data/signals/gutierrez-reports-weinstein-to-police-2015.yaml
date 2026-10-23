@@ -1,0 +1,62 @@
+id: gutierrez-reports-weinstein-to-police-2015
+title: Ambra Battilana Gutierrez reports Harvey Weinstein to New York police
+summary: Model Ambra Battilana Gutierrez tells New York police that Harvey Weinstein groped her. In a
+  conversation recorded in a police sting, Weinstein admits groping her, but after two weeks the Manhattan
+  District Attorney's office decides not to file charges.
+occurred:
+  start: '2015-03'
+  precision: month
+threads:
+- scandals
+- film-tv
+regions:
+- americas
+actors:
+- harvey-weinstein
+importance: 2
+source_credibility: medium
+outcome: unresolved
+sources:
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: In March, 2015, Ambra Battilana Gutierrez, who was once a finalist in the Miss Italy contest,
+    met Harvey Weinstein at a reception
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: Instead of going to the show, Gutierrez went to the nearest police station and reported the assault.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: In an audio recording captured during a New York Police Department sting operation in 2015, Weinstein
+    admits to groping a Filipina-Italian model named Ambra Battilana Gutierrez
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: After two weeks of investigation, the D.A.’s office decided not to file charges.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Outcome unresolved: no charge or court finding. The New Yorker (2017) reports a recorded admission,
+    but also that Gutierrez later signed a non-disclosure agreement with an affidavit stating the acts
+    never happened. A reviewer should decide whether the recording counts as an admission (confirmed).'
+  - 'Wikidata: no separate item; wikidata left unset.'

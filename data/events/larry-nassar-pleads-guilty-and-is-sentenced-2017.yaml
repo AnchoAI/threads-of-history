@@ -1,0 +1,75 @@
+id: larry-nassar-pleads-guilty-and-is-sentenced-2017
+title: Larry Nassar pleads guilty and is sentenced
+wikidata: none
+summary: Larry Nassar pleads guilty to federal child pornography charges (July 2017) and to sexual assault
+  of minors in Ingham and Eaton counties, Michigan (November 2017). He is sentenced to 60 years in federal
+  prison and, on 24 January 2018, after more than 150 women gave impact statements, to 40 to 175 years
+  by Judge Rosemarie Aquilina.
+occurred:
+  start: '2017-07-11'
+  end: '2018-02-05'
+  precision: day
+threads:
+- scandals
+- sport
+regions:
+- americas
+actors:
+- larry-nassar
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Larry_Nassar
+  archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+  title: Larry Nassar
+  publisher: Wikipedia
+  quote: Nassar was sentenced to 60 years in federal prison on December 7, 2017, after pleading guilty
+    to possession of child pornography and tampering with evidence on July 11, 2017.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Larry_Nassar
+  archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+  title: Larry Nassar
+  publisher: Wikipedia
+  quote: On November 22, 2017, Nassar pleaded guilty in Ingham County Circuit Court to seven counts of
+    first-degree criminal sexual conduct with minors under the age of 16.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Larry_Nassar
+  archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+  title: Larry Nassar
+  publisher: Wikipedia
+  quote: He pleaded guilty to an additional three counts of first-degree criminal sexual conduct in Eaton
+    County on November 29.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: More than 150 women made impact statements during Nassar's week-long sentencing hearing before
+    the former doctor was sentenced on January 24, 2018, to state prison for 40 to 175 years.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Larry_Nassar
+  archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+  title: Larry Nassar
+  publisher: Wikipedia
+  quote: On January 24, 2018, Judge Rosemarie Aquilina of Ingham County sentenced Nassar
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Larry_Nassar
+  archive_url: https://web.archive.org/web/20260712062521/https://en.wikipedia.org/wiki/Larry_Nassar
+  title: Larry Nassar
+  publisher: Wikipedia
+  quote: On February 5, 2018, Judge Cunningham of Eaton County sentenced Nassar to a minimum of 40 to
+    a maximum of 125 years in prison
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - A Justice Department press release of 7 December 2017 on the federal sentence is cited by Wikipedia
+    and could be added as a primary source.
+  - 'Wikidata: no item found; set to none.'

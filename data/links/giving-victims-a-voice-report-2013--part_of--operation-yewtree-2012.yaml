@@ -1,0 +1,18 @@
+id: giving-victims-a-voice-report-2013--part_of--operation-yewtree-2012
+from: giving-victims-a-voice-report-2013
+to: operation-yewtree-2012
+type: part_of
+confidence: documented
+note: Giving Victims a Voice set out Operation Yewtree's findings on Savile.
+sources:
+- url: https://www.bbc.co.uk/news/uk-20981611
+  archive_url: https://web.archive.org/web/20260726204842/https://www.bbc.co.uk/news/uk-20981611
+  title: 'Jimmy Savile scandal: Report reveals decades of abuse'
+  publisher: BBC News
+  date: '2013-01-11'
+  quote: The Giving Victims a Voice report set out the findings of Operation Yewtree, which launched three
+    months ago to investigate the Savile abuse claims.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
