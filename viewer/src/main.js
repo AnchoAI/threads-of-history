@@ -4,7 +4,7 @@ import { trace, traceSpan } from "./chains.js";
 import { Timeline } from "./scene.js";
 import { TimeBar } from "./timebar.js";
 import { fromYear, toYear } from "./timescale.js";
-import { isKnown, knownParties } from "./visibility.js";
+import { isKnown, knownParties, knownSince } from "./visibility.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -188,8 +188,9 @@ async function start() {
 
   knowOn.addEventListener("change", () => {
     if (knowOn.checked) {
-      // Start from the selected item's date ("what was knowable then?"), else the window's end.
-      const start = selected ? data.byId.get(selected).occurred.range[0] : Math.min(timeline.window.t1, hi);
+      // Start from when the selected item became known ("what was knowable then?"), else the window's end.
+      // Its known date, not its occurred date: an item that became public later would hide itself.
+      const start = selected ? knownSince(data.byId.get(selected), knowParty.value || null) : Math.min(timeline.window.t1, hi);
       knowRange.value = String(start);
     }
     applyKnowable();

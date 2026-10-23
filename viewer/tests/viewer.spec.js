@@ -46,7 +46,7 @@ test("search opens an item with its review status, sources and connections", asy
   await expect(detail.locator(".badge")).toHaveText("Unverified");
   await expect(detail).toContainText("Open questions");
   await expect(detail).toContainText("Known to US government");
-  await expect(detail.locator("a", { hasText: "Cuban Missile Crisis" })).toHaveAttribute("href", /wikipedia\.org/);
+  await expect(detail.locator("a", { hasText: "Cuban Missile Crisis" }).first()).toHaveAttribute("href", /wikipedia\.org/);
   await expect(page).toHaveURL(/#cuban-missile-crisis-1962$/);
 
   // Following a connection moves the panel to the other item.

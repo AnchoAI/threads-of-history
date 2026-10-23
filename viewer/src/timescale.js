@@ -4,6 +4,7 @@
 
 export const WORLD_LENGTH = 450;          // world units the window always spans
 export const MIN_SPAN = 6 / (24 * 365.25); // six hours, in years
+export const TIMELINE_START = 0;          // the full timeline starts here even before data reaches back that far
 export const DEEP_SPAN = 300;              // with more years than this, the past is compressed by default
 
 const DAY = 1 / 365.25;
