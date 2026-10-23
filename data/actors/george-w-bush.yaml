@@ -1,0 +1,20 @@
+id: george-w-bush
+title: George W. Bush
+actor_type: person
+summary: 43rd President of the United States (2001–2009).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q207
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q207.json
+  title: George W. Bush
+  publisher: Wikidata
+  quote: 43rd President of the United States (2001–2009)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

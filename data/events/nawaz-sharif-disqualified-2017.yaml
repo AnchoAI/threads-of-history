@@ -1,0 +1,53 @@
+id: nawaz-sharif-disqualified-2017
+title: Pakistan's Supreme Court disqualifies Nawaz Sharif
+summary: On 28 July 2017 the Supreme Court of Pakistan unanimously disqualifies Prime Minister Nawaz Sharif, finding
+  that he had been dishonest, and refers the case to the anti-corruption authority to investigate his family's offshore
+  assets revealed by the Panama Papers. Sharif stood down and denied wrongdoing.
+occurred:
+  start: '2017-07-28'
+  precision: day
+threads:
+- scandals
+regions:
+- south-central-asia
+actors:
+- nawaz-sharif
+- pakistan
+importance: 3
+wikidata: none
+sources:
+- url: https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  archive_url: https://web.archive.org/web/20260828044403/https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  title: Pakistan PM Disqualified Over Panama Papers Links
+  publisher: International Consortium of Investigative Journalists
+  date: '2017-07-28'
+  quote: The Supreme Court of Pakistan has voted unanimously to disqualify Nawaz Sharif from the prime ministership
+    and has referred his case to the country’s top anti-corruption authority for an investigation into his family’s
+    offshore assets, as revealed in the Panama Papers.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Nawaz_Sharif
+  archive_url: https://web.archive.org/web/20261001101240/https://en.wikipedia.org/wiki/Nawaz_Sharif
+  title: Nawaz Sharif
+  publisher: Wikipedia
+  quote: The court announced its decision on 28 July 2017 and disqualified Nawaz from holding public office, finding
+    that he had been dishonest; Nawaz then stood down as Prime Minister.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  archive_url: https://web.archive.org/web/20260828044403/https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  title: Pakistan PM Disqualified Over Panama Papers Links
+  publisher: International Consortium of Investigative Journalists
+  date: '2017-07-28'
+  quote: Though Sharif has continued to deny any wrongdoing, the report was damning, accusing the family of building
+    wealth beyond its means and accusing Mariam of submitting fake documents and misleading the Supreme Court.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - ICIJ is a party to the Panama Papers reporting; the Wikipedia article on Sharif is a second, independent-of-ICIJ
+    source for the date and finding.
+  - Later outcomes (his 2018 sentence, the lifetime ban) are not entered.

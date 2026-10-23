@@ -1,0 +1,20 @@
+id: caspar-weinberger
+title: Caspar Weinberger
+actor_type: person
+summary: American politician (1917-2006).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q434142
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q434142.json
+  title: Caspar Weinberger
+  publisher: Wikidata
+  quote: American politician (1917-2006)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

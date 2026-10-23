@@ -1,0 +1,30 @@
+id: panama-papers-published-2016--led_to--icelandic-parliamentary-election-2016
+from: panama-papers-published-2016
+to: icelandic-parliamentary-election-2016
+type: led_to
+confidence: documented
+note: Protests after the Panama Papers revelations led the governing coalition to bring Iceland's election forward
+  to October 2016.
+sources:
+- url: https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  archive_url: https://web.archive.org/web/20260930062537/https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  title: 2016 Icelandic parliamentary election
+  publisher: Wikipedia
+  quote: In early April 2016, following revelations in the Panama Papers, leaks from law firm Mossack Fonseca about
+    the financial dealings of then Prime Minister Sigmundur Davíð Gunnlaugsson (Progressive Party) and his wife,
+    there were calls for an early election from the opposition, who planned to present him with a motion of no confidence.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  archive_url: https://web.archive.org/web/20260930062537/https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  title: 2016 Icelandic parliamentary election
+  publisher: Wikipedia
+  quote: They were due to be held on or before 27 April 2017, but following the 2016 Icelandic anti-government protests,
+    the ruling coalition announced that early elections would be held "in autumn".
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

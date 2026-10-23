@@ -1,0 +1,68 @@
+id: bush-pardons-iran-contra-defendants-1992
+title: George H. W. Bush pardons Iran–Contra defendants
+summary: On 24 December 1992 President George H. W. Bush pardons former Defense Secretary Caspar Weinberger, less
+  than two weeks before his trial on charges including perjury and false statements, and the CIA officials Duane
+  Clarridge, Clair George and Alan Fiers. Independent Counsel Walsh wrote that the Weinberger pardon pre-empted
+  a trial at which the defence meant to call Bush as a witness.
+occurred:
+  start: '1992-12-24'
+  precision: day
+threads:
+- scandals
+- intel
+regions:
+- americas
+actors:
+- george-h-w-bush
+- caspar-weinberger
+- lawrence-walsh
+- cia
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Weinberger's notes provided key evidence supporting the charges against him, including perjury and false
+    statements in connection with his testimony regarding the arms sales
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: He was pardoned less than two weeks before trial by President Bush on December 24, 1992.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Clarridge was awaiting trial on seven counts of perjury and false statements when he, George and Fiers
+    were pardoned by President Bush.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Bush's pardon of Weinberger on December 24, 1992 pre-empted a trial in which defense counsel indicated
+    that they intended to call Bush as a witness.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: unverified
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Walsh's executive summary does not give the date of the CIA officials' pardons; the summary assumes the same
+    day. Wikipedia says all the remaining defendants were pardoned 'in the final days' of Bush's presidency. A reviewer
+    should confirm the date for Clarridge, George and Fiers.
+  - Robert McFarlane and Elliott Abrams were also pardoned (per other sources) but are not named in the fetched
+    text, so they are left out.
