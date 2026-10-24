@@ -1,0 +1,80 @@
+id: u-2-incident-1960
+title: U-2 incident
+summary: On 1 May 1960 a CIA U-2 spy plane flown by Francis Gary Powers was shot down over Sverdlovsk.
+  The US first claimed a NASA weather aircraft had gone missing, but had to admit the spying mission after
+  Khrushchev revealed on 7 May that Powers was alive and captured; the Paris summit two weeks later collapsed.
+  Powers was exchanged for Soviet intelligence officer Rudolf Abel in February 1962.
+occurred:
+  start: '1960-05-01'
+  precision: day
+known:
+  public:
+    start: '1960-05-07'
+    precision: day
+    note: The shootdown was announced earlier, but the US described the flight as a NASA weather mission
+      until Khrushchev revealed on 7 May that the pilot was alive.
+threads:
+- usru
+- intel
+regions:
+- russia-eastern-europe
+- south-central-asia
+actors:
+- francis-gary-powers
+- dwight-d-eisenhower
+- nikita-khrushchev
+- cia
+- united-states
+- soviet-union
+importance: 3
+wikidata: Q748379
+sources:
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: On 1 May 1960, a United States U-2 spy plane, having taken off from Peshawar in Pakistan, was
+    shot down by the Soviet Air Defence Forces in Sverdlovsk, Russia.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: flown by American Central Intelligence Agency pilot Francis Gary Powers
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: Initially, American authorities claimed the incident involved the loss of a civilian weather
+    research aircraft operated by NASA, but were forced to admit the mission's true purpose a few days
+    later after the Soviet government produced the captured pilot
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1953-1960/u2-incident
+  title: U-2 Overflights and the Capture of Francis Gary Powers, 1960
+  publisher: Office of the Historian, US Department of State
+  quote: On May 7, however, Khrushchev revealed that Powers was alive and uninjured, and clearly had not
+    blacked out from oxygen deprivation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: As a result of the spy plane incident and the attempted cover-up, the Four Power Paris Summit
+    was not completed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1960_U-2_incident
+  archive_url: https://web.archive.org/web/20261004114344/https://en.wikipedia.org/wiki/1960_U-2_incident
+  title: 1960 U-2 incident
+  publisher: Wikipedia
+  quote: he was released two years later, in February 1962, in a prisoner exchange for Soviet intelligence
+    officer Rudolf Abel
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

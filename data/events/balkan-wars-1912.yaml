@@ -1,0 +1,53 @@
+id: balkan-wars-1912
+title: Balkan Wars
+summary: Two wars in 1912 and 1913. In the first, Greece, Serbia, Montenegro and Bulgaria defeated the Ottoman Empire,
+  which lost most of its European territory; in the second, Bulgaria fought its former allies and Romania.
+occurred:
+  start: '1912-10-08'
+  end: '1913-08-10'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- russia-eastern-europe
+actors:
+- ottoman-empire
+- kingdom-of-serbia
+importance: 3
+wikidata: Q165725
+sources:
+- url: https://en.wikipedia.org/wiki/Balkan_Wars
+  archive_url: https://web.archive.org/web/20260930181949/https://en.wikipedia.org/wiki/Balkan_Wars
+  title: Balkan Wars
+  publisher: Wikipedia
+  quote: In the First Balkan War, the four Balkan states of Greece, Serbia, Montenegro and Bulgaria declared war
+    upon the Ottoman Empire and defeated it
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Balkan_Wars
+  archive_url: https://web.archive.org/web/20260930181949/https://en.wikipedia.org/wiki/Balkan_Wars
+  title: Balkan Wars
+  publisher: Wikipedia
+  quote: In the Second Balkan War, Bulgaria fought against the other four combatants of the first war. It also faced
+    an attack from Romania from the north. The Ottoman Empire lost the bulk of its territory in Europe.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://encyclopedia.1914-1918-online.net/article/balkan-wars-1912-1913/?version=1.0
+  title: Balkan Wars 1912-1913 (Richard C. Hall)
+  publisher: 1914-1918-online. International Encyclopedia of the First World War
+  date: '2014-10-08'
+  quote: Montenegro began the First Balkan War on 8 October 1912.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Balkan_Wars
+  archive_url: https://web.archive.org/web/20260930181949/https://en.wikipedia.org/wiki/Balkan_Wars
+  title: Balkan Wars
+  publisher: Wikipedia
+  quote: 8 October 1912 – 10 August 1913
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

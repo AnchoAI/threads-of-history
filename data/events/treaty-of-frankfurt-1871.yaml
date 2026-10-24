@@ -1,0 +1,34 @@
+id: treaty-of-frankfurt-1871
+title: 'Treaty of Frankfurt: Germany annexes Alsace-Lorraine'
+summary: The treaty ending the Franco-Prussian War gives Germany a large war indemnity and most of Alsace
+  and part of Lorraine. The loss bred a French desire for revenge, known as revanchism.
+occurred:
+  start: '1871-05-10'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- german-empire
+- france
+importance: 4
+wikidata: Q158021
+sources:
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: the Treaty of Frankfurt was signed on 10 May 1871, giving Germany billions of francs in war indemnity,
+    as well as most of Alsace and parts of Lorraine
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Revanchism
+  title: Revanchism
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003065320/https://en.wikipedia.org/wiki/Revanchism
+  quote: The term revanchism originated in 1870s France in the aftermath of the Franco-Prussian War among
+    nationalists who wanted to avenge the French defeat and reclaim the lost territories of Alsace-Lorraine.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

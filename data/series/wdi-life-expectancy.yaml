@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-life-expectancy
+title: Life expectancy at birth (World Bank)
+summary: Life expectancy at birth indicates the number of years a newborn infant would live if prevailing
+  patterns of mortality at the time of its birth were to stay the same throughout its life.
+occurred:
+  start: '1960'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: years
+dataset: world-bank-wdi
+indicator: SP.DYN.LE00.IN
+table: tables/wdi-life-expectancy.csv
+sources:
+- url: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+  title: Life expectancy at birth, total (years)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

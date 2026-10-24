@@ -1,0 +1,25 @@
+id: tiananmen-square-protests-1989--led_to--patriotic-education-campaign-1991
+from: tiananmen-square-protests-1989
+to: patriotic-education-campaign-1991
+type: led_to
+confidence: documented
+note: The party launched patriotic education to counter the anti-party sentiment of the 1989 movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: The Chinese Communist Party, feeling increasingly threatened by the movement and the increasingly
+    drastic lengths to which protesters would go in order to advocate political reform, sought to institute
+    the patriotic education campaign to combat the rising wave of anti-Party sentiment associated with the
+    movement.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Patriotic_Education_Campaign
+  title: Patriotic education in China
+  publisher: Wikipedia
+  quote: Following the legitimacy crisis suffered by the CCP in 1989, the patriotic education campaign was
+    instituted to reorient the party's ideological position and foster a new wave of Chinese Nationalism.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

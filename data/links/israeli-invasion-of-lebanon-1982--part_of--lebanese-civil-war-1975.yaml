@@ -1,0 +1,16 @@
+id: israeli-invasion-of-lebanon-1982--part_of--lebanese-civil-war-1975
+from: israeli-invasion-of-lebanon-1982
+to: lebanese-civil-war-1975
+type: part_of
+confidence: documented
+note: The 1982 invasion was part of the Lebanese Civil War.
+sources:
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: Part of the Palestinian insurgency in South Lebanon, the Lebanese Civil War, and the Israeli–Lebanese
+    conflict
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

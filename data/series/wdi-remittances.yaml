@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-remittances
+title: Personal remittances received (% of GDP) (World Bank)
+summary: Personal remittances comprise personal transfers and compensation of employees. Personal transfers
+  consist of all current transfers in cash or in kind made or received by resident households to or from
+  nonresident households. Personal transfers thus include all current transfers between resident and nonresident
+  individuals. Compensation of employees refers to the income of border, seasonal, and...
+occurred:
+  start: '1970'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: BX.TRF.PWKR.DT.GD.ZS
+table: tables/wdi-remittances.csv
+sources:
+- url: https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS
+  title: Personal remittances, received (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

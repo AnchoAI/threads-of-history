@@ -1,0 +1,21 @@
+id: british-empire
+title: British Empire
+actor_type: state
+summary: Overseas possessions of England and later the United Kingdom (1607–1997).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q8680
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8680.json
+  title: British Empire
+  publisher: Wikidata
+  quote: overseas possessions of England and later the United Kingdom (1607–1997)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,47 @@
+id: east-german-rock-musicians-resolution-1989
+title: East German rock musicians' resolution
+summary: On 18 September 1989 more than 50 East German rock musicians and singer-songwriters meet in East Berlin
+  and sign a resolution calling for political reform. They read it out at concerts, and the state responds
+  by banning or cancelling their performances.
+occurred:
+  start: '1989-09-18'
+  precision: day
+threads:
+- music
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- east-germany
+importance: 2
+wikidata: none
+sources:
+- url: https://revolution89.de/ru/revoljucija/the-crumbling-system/artists-protest
+  archive_url: https://web.archive.org/web/20240803153252/https://revolution89.de/ru/revoljucija/the-crumbling-system/artists-protest
+  title: Artists protest
+  publisher: Robert Havemann Society (revolution89.de)
+  quote: Rock musicians and singer-songwriters in particular were the driving force behind this declaration
+    dated 18 September 1989, calling for political reforms.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://revolution89.de/ru/revoljucija/the-crumbling-system/artists-protest
+  archive_url: https://web.archive.org/web/20240803153252/https://revolution89.de/ru/revoljucija/the-crumbling-system/artists-protest
+  title: Artists protest
+  publisher: Robert Havemann Society (revolution89.de)
+  quote: The musicians read the protest resolution aloud at their concerts, to which the state reacted by banning
+    or calling off the performances.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  archive_url: https://web.archive.org/web/20251030135301/https://de.wikipedia.org/wiki/Resolution_von_Rockmusikern_und_Liedermachern
+  title: Resolution von Rockmusikern und Liedermachern
+  publisher: Wikipedia (German)
+  quote: September 1989 trafen sich über 50 bekannte Unterhaltungsmusiker der DDR im Maxim-Gorki-Klub im Ost-Berliner
+    Stadtteil Weißensee, um eine Resolution zur Lage der DDR zu verfassen und zu unterzeichnen.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - No English Wikipedia article or Wikidata id was checked for the resolution; the German article is "Resolution
+    von Rockmusikern und Liedermachern".

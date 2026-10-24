@@ -1,0 +1,90 @@
+id: profumo-affair-1961
+title: Profumo affair
+summary: John Profumo, Secretary of State for War in Harold Macmillan's Conservative government, had an affair with
+  the 19-year-old model Christine Keeler beginning in 1961. He denied it in the House of Commons in March 1963 and
+  resigned in June after admitting he had lied; reports that Keeler may also have been involved with the Soviet
+  naval attaché Yevgeny Ivanov raised security concerns.
+occurred:
+  start: '1961-07'
+  end: '1963-09'
+  precision: month
+  note: From the Cliveden weekend of July 1961 to Lord Denning's report of September 1963.
+known:
+  public:
+    start: '1963-03'
+    precision: month
+    note: Rumours raised in the Commons on 21 March 1963; Profumo's denial on 22 March.
+  by:
+  - party: MI5
+    when:
+      start: '1961-07-12'
+      precision: day
+    sources:
+    - url: https://en.wikipedia.org/wiki/Profumo_affair
+      archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+      title: Profumo affair
+      publisher: Wikipedia
+      quote: On 12 July 1961, Ward reported on the weekend's events to MI5. He told Woods that Ivanov and Profumo
+        had met and that the latter had shown considerable interest in Keeler.
+      type: reference
+      accessed: '2026-10-23'
+threads:
+- scandals
+- intel
+regions:
+- western-europe
+actors:
+- john-profumo
+- christine-keeler
+- harold-macmillan
+- united-kingdom
+importance: 3
+wikidata: Q1401251
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: John Profumo, the 46-year-old Secretary of State for War in Harold Macmillan's Conservative government,
+    had an extramarital affair with then 19-year-old model Christine Keeler beginning in 1961.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: Profumo denied the affair in a statement to the House of Commons in 1963; weeks later, a police investigation
+    proved that he had lied.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: When the Profumo affair was revealed, public interest was heightened by reports that Keeler may have been
+    simultaneously involved with Captain Yevgeny Ivanov, a Soviet naval attaché, thereby creating a possible national
+    security risk.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: During the weekend of 8–9 July 1961, Keeler was among several guests of Ward at the Spring Cottage at Cliveden.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: Published on 26 September 1963, it concluded that there had been no security leaks in the Profumo affair
+    and that the security services and government ministers had acted appropriately.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - known.by records that MI5 heard of Profumo's interest in Keeler from Stephen Ward in July 1961, as the Wikipedia
+    article states; it does not say MI5 then knew of an affair.

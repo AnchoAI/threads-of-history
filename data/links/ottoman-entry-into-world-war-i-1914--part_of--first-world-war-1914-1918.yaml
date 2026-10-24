@@ -1,0 +1,18 @@
+id: ottoman-entry-into-world-war-i-1914--part_of--first-world-war-1914-1918
+from: ottoman-entry-into-world-war-i-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The Ottoman Empire joined the war on the side of the Central Powers.
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman_entry_into_World_War_I
+  title: Ottoman entry into World War I
+  publisher: Wikipedia
+  quote: The Ottoman Empire's entry into World War I began on 29 October 1914
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

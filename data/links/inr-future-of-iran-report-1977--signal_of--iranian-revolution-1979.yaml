@@ -1,0 +1,26 @@
+id: inr-future-of-iran-report-1977--signal_of--iranian-revolution-1979
+from: inr-future-of-iran-report-1977
+to: iranian-revolution-1979
+type: signal_of
+confidence: documented
+note: A reassuring forecast of the Shah's stability two years before his fall.
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: This report written two years before the Shah’s ignominious exile from his homeland
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: Western intelligence was wildly off the mark in forecasting some of the big-ticket issues, such as the
+    stability of the Shah’s regime
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

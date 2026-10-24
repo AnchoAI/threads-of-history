@@ -1,0 +1,70 @@
+id: hiv-aids-epidemic-1981
+title: HIV/AIDS epidemic
+summary: The worldwide epidemic of HIV/AIDS, first recognised by the US CDC in 1981. The WHO estimates it has claimed
+  44.2 million lives; about 41 million people were living with HIV at the end of 2025, and transmission continues
+  in all countries. The disease has also been a source of discrimination against the people who have it.
+occurred:
+  start: '1981-06-05'
+  ongoing: true
+  precision: day
+threads:
+- industry
+- rights
+regions:
+- americas
+- sub-saharan-africa
+- western-europe
+actors: []
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/HIV/AIDS
+  archive_url: https://web.archive.org/web/20261018220728/https://en.wikipedia.org/wiki/HIV/AIDS
+  title: HIV/AIDS
+  publisher: Wikipedia
+  quote: AIDS was first recognized by the U.S. Centers for Disease Control and Prevention (CDC) in 1981 and its
+    cause—HIV infection—was identified in the early part of the decade.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  archive_url: https://web.archive.org/web/20261015031234/https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: This edition of the MMWR marks the first official reporting of what will later become known as the AIDS
+    (Acquired Immunodeficiency Syndrome) epidemic.
+  type: primary
+  accessed: '2026-10-20'
+- url: https://www.who.int/news-room/fact-sheets/detail/hiv-aids
+  archive_url: https://web.archive.org/web/20261017044432/https://www.who.int/news-room/fact-sheets/detail/hiv-aids
+  title: HIV and AIDS (fact sheet)
+  publisher: World Health Organization
+  quote: HIV remains a major global public health issue, having claimed an estimated 44.2 million lives to date.
+    Transmission is ongoing in all countries globally.
+  type: primary
+  accessed: '2026-10-20'
+- url: https://www.who.int/news-room/fact-sheets/detail/hiv-aids
+  archive_url: https://web.archive.org/web/20261017044432/https://www.who.int/news-room/fact-sheets/detail/hiv-aids
+  title: HIV and AIDS (fact sheet)
+  publisher: World Health Organization
+  quote: There were an estimated 41.0 million people living with HIV at the end of 2025, 64% of whom are in the
+    WHO African Region.
+  type: primary
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/HIV/AIDS
+  archive_url: https://web.archive.org/web/20261018220728/https://en.wikipedia.org/wiki/HIV/AIDS
+  title: HIV/AIDS
+  publisher: Wikipedia
+  quote: Recognized worldwide in the early 1980s, HIV/AIDS has had a large impact on society, both as an illness
+    and as a source of discrimination.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - The start date is the first official report (CDC MMWR, 5 June 1981), the same day as the existing item first-aids-cases-reported-1981,
+    which is linked to this one with part_of. The virus spread among humans for decades before that.
+  - Wikidata Q3077789 (HIV/AIDS pandemic) is already used by first-aids-cases-reported-1981, so this span event
+    carries no Wikidata id. A person should decide which of the two items should hold it.
+  - The project has no health thread; the item sits on industry (science domain) and rights.

@@ -1,0 +1,21 @@
+id: henry-cabot-lodge
+title: Henry Cabot Lodge
+actor_type: person
+summary: American statesman (1850–1924).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q174037
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q174037.json
+  title: Henry Cabot Lodge
+  publisher: Wikidata
+  quote: American statesman (1850–1924)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

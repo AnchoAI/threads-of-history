@@ -1,0 +1,35 @@
+id: great-depression-1929--led_to--bretton-woods-conference-1944
+from: great-depression-1929
+to: bretton-woods-conference-1944
+type: led_to
+confidence: documented
+note: Allied planners drew the lesson that the Depression-era tariffs and competitive devaluations had
+  destabilised the world, and built postwar economic institutions to prevent a repeat.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The policies adopted by governments to combat the Great Depression—high tariffs, competitive
+    currency devaluations, discriminatory trading blocs—helped destabilize the international environment
+    without improving the economic situation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: This experience led leaders throughout the anti-Axis United Nations alliance to conclude that
+    economic cooperation was the only way to achieve both peace and prosperity, at home and abroad.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The lessons drawn by U.S. policymakers from the interwar period informed their approach to the
+    postwar global economy.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

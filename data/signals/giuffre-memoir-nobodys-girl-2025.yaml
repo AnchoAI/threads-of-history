@@ -1,0 +1,64 @@
+id: giuffre-memoir-nobodys-girl-2025
+title: Virginia Giuffre's memoir Nobody's Girl published
+summary: Virginia Giuffre's memoir Nobody's Girl, published after her death in April 2025, repeats her account that
+  she was trafficked by Epstein to powerful men, including Prince Andrew, who has consistently denied her accusations.
+occurred:
+  start: 2025-10
+  precision: month
+threads:
+- scandals
+- rights
+regions:
+- americas
+- western-europe
+actors:
+- virginia-giuffre
+- andrew-mountbatten-windsor
+- jeffrey-epstein
+- ghislaine-maxwell
+importance: 2
+source_credibility: medium
+outcome: unresolved
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Virginia_Giuffre
+  archive_url: https://web.archive.org/web/20261010071852/https://en.wikipedia.org/wiki/Virginia_Giuffre
+  title: Virginia Giuffre
+  publisher: Wikipedia
+  quote: Giuffre died by suicide in April 2025. Her memoir, Nobody's Girl, was published posthumously in October
+    2025.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  archive_url: https://web.archive.org/web/20260823111432/https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  title: Virginia Giuffre's book breaks the silence — and spares no one
+  publisher: NPR
+  date: '2025-10-20'
+  quote: Her name was Virginia Roberts Giuffre, one of the most public accusers of abuse by Epstein and the many
+    powerful men Giuffre says she was trafficked to in the early 2000s.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  archive_url: https://web.archive.org/web/20260823111432/https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  title: Virginia Giuffre's book breaks the silence — and spares no one
+  publisher: NPR
+  date: '2025-10-20'
+  quote: In Nobody's Girl, Giuffre says she first met Prince Andrew in 2001 and that he guessed correctly she was
+    then 17 years old.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  archive_url: https://web.archive.org/web/20260823111432/https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  title: Virginia Giuffre's book breaks the silence — and spares no one
+  publisher: NPR
+  date: '2025-10-20'
+  quote: Prince Andrew has consistently denied Giuffre's accusations.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - 'outcome ''unresolved'': no court or official body has ruled on the memoir''s allegations against Andrew. Wikidata
+    search found no item for the memoir.'

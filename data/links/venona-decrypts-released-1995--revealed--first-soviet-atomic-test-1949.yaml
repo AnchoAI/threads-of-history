@@ -1,0 +1,24 @@
+id: venona-decrypts-released-1995--revealed--first-soviet-atomic-test-1949
+from: venona-decrypts-released-1995
+to: first-soviet-atomic-test-1949
+type: revealed
+confidence: documented
+note: Venona showed that Soviet espionage had supported the Soviet bomb project.
+sources:
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: Some of the espionage was undertaken to support the Soviet atomic bomb project.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: it was not until 1995 that the bipartisan Commission on Government Secrecy, with Senator Moynihan
+    as chairman, released Venona project materials
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

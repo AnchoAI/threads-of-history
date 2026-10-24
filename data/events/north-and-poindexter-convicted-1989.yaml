@@ -1,0 +1,64 @@
+id: north-and-poindexter-convicted-1989
+title: Oliver North and John Poindexter convicted
+summary: A jury convicts Oliver North in May 1989 of altering and destroying documents, accepting an illegal gratuity
+  and aiding the obstruction of Congress, and John Poindexter in April 1990 of conspiracy, false statements, destroying
+  records and obstructing Congress. Both convictions were reversed on appeal because of their immunized testimony
+  to Congress.
+occurred:
+  start: '1989-05'
+  end: '1991-11'
+  precision: month
+  note: From North's conviction to the reversal of Poindexter's.
+threads:
+- scandals
+regions:
+- americas
+actors:
+- oliver-north
+- john-poindexter
+- lawrence-walsh
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: North was tried and convicted by a jury in May 1989 of altering and destroying documents, accepting an
+    illegal gratuity and aiding and abetting in the obstruction of Congress.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: His conviction was reversed on appeal in July 1990 and charges against North were subsequently dismissed
+    in September 1991 on the ground that trial witnesses were tainted by North's nationally televised, immunized
+    testimony before Congress.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Poindexter in April 1990 was convicted by a jury on five felony counts of conspiracy, false statements,
+    destruction and removal of records and obstruction of Congress.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The Court of Appeals reversed his conviction in November 1991 on the immunized testimony issue.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

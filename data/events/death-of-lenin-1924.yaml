@@ -1,0 +1,41 @@
+id: death-of-lenin-1924
+title: Death of Lenin
+summary: Vladimir Lenin, leader of the October Revolution and first leader of the Soviet Union, died at
+  Gorki aged 53 and was given a state funeral; a power struggle over his succession followed.
+occurred:
+  start: '1924-01-21'
+  precision: day
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- vladimir-lenin
+- joseph-stalin
+- soviet-union
+importance: 3
+wikidata: Q16609395
+sources:
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Vladimir_Lenin
+  archive_url: https://web.archive.org/web/20260910235710/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Vladimir_Lenin
+  title: Death and state funeral of Vladimir Lenin
+  publisher: Wikipedia
+  quote: On Monday, 21 January 1924, at 18:50 EET, Vladimir Lenin, leader of the October Revolution and
+    the first leader and founder of the Soviet Union, died in Gorki aged 53 after falling into a coma.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Vladimir_Lenin
+  archive_url: https://web.archive.org/web/20260910235710/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Vladimir_Lenin
+  title: Death and state funeral of Vladimir Lenin
+  publisher: Wikipedia
+  quote: Lenin was given a state funeral and then buried in a specially erected mausoleum on 27 January.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Joseph_Stalin
+  title: Joseph Stalin
+  publisher: Wikipedia
+  quote: In the wake of Lenin's death, a power struggle emerged to become his successor
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

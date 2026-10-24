@@ -1,0 +1,26 @@
+id: sputnik-1-1957--led_to--nasa-founded-1958
+from: sputnik-1-1957
+to: nasa-founded-1958
+type: led_to
+confidence: documented
+note: NASA was created in response to Sputnik and other early Soviet space successes.
+sources:
+- url: https://www.nasa.gov/history/
+  archive_url: https://web.archive.org/web/20261012071804/https://www.nasa.gov/history/
+  title: NASA History
+  publisher: NASA
+  quote: Forged in response to early Soviet space achievements, NASA was built on the National Advisory
+    Committee for Aeronautics (NACA)
+  type: primary
+  accessed: '2026-10-15'
+- url: https://amp.tvo.org/article/excerpt-kai-fu-lees-ai-superpowers-china-silicon-valley-and-the-new-world-order
+  title: 'Excerpt: Kai-Fu Lee''s AI Superpowers'
+  publisher: TVO
+  quote: It triggered the creation of the National Aeronautics and Space Administration, fuelled major
+    government subsidies for math and science education, and effectively launched the space race.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

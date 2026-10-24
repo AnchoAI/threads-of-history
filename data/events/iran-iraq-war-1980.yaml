@@ -1,0 +1,38 @@
+id: iran-iraq-war-1980
+title: Iran–Iraq War
+summary: Iraq under Saddam Hussein invaded revolutionary Iran. The war lasted eight years, killed hundreds of thousands,
+  and ended when Iran accepted a UN-brokered ceasefire in August 1988.
+occurred:
+  start: '1980-09-22'
+  end: '1988-08-20'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- iraq
+- iran
+- saddam-hussein
+- ruhollah-khomeini
+importance: 4
+wikidata: Q82664
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: The Iran–Iraq War began on 22 September 1980, when Iraq under Saddam Hussein invaded Iran, and it ended
+    on 20 August 1988, when Iran accepted the UN-brokered ceasefire.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: Iraq triggered the Iran–Iraq War which lasted for eight years and killed hundreds of thousands.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

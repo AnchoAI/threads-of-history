@@ -1,0 +1,41 @@
+id: handover-of-hong-kong-1997
+title: Handover of Hong Kong
+summary: At midnight on 30 June 1997 Hong Kong passed from British to Chinese sovereignty, ending 156
+  years of British rule that dated back to the First Opium War. It became China's first special administrative
+  region.
+occurred:
+  start: '1997-07-01'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- peoples-republic-of-china
+importance: 4
+wikidata: Q15251
+sources:
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: at midnight following the evening of 30 June 1997, the entire dependent territory of Hong Kong
+    officially reverted to Chinese sovereignty, ending British rule there 156 years after it began.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: This event ended 156 years of British rule, dating back to the capture of Hong Kong Island in
+    1841 during the First Opium War.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: Hong Kong became China's first special administrative region
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

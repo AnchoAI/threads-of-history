@@ -1,0 +1,22 @@
+id: byzantine-empire
+title: Byzantine Empire
+actor_type: state
+summary: Roman Empire during Late Antiquity and the Middle Ages.
+threads: []
+regions:
+- russia-eastern-europe
+- middle-east-north-africa
+importance: 3
+wikidata: Q12544
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q12544.json
+  title: Byzantine Empire
+  publisher: Wikidata
+  quote: Roman Empire during Late Antiquity and the Middle Ages
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

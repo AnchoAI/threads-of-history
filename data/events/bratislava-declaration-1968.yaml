@@ -1,0 +1,55 @@
+id: bratislava-declaration-1968
+title: Bratislava Declaration
+summary: On 3 August 1968 the communist parties of Bulgaria, Hungary, East Germany, Poland, the USSR and Czechoslovakia
+  met in Bratislava and signed a declaration of loyalty to Marxism–Leninism and struggle against "anti-socialist"
+  forces. The US Embassy in Prague read its clause on the common duty to defend socialist achievements as a
+  possible future justification for intervention.
+occurred:
+  start: '1968-08-03'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- communist-party-of-the-soviet-union
+- soviet-union
+- czechoslovakia
+- east-germany
+importance: 3
+wikidata: Q16824210
+sources:
+- url: https://en.wikipedia.org/wiki/Bratislava_Declaration
+  archive_url: https://web.archive.org/web/20251225071036/https://en.wikipedia.org/wiki/Bratislava_Declaration
+  title: Bratislava Declaration
+  publisher: Wikipedia
+  quote: The Bratislava Declaration was the result of the conference held in Bratislava on 3 August 1968 by
+    the representatives of the Communist and Worker's parties of Bulgaria, Hungary, East Germany, Poland, the
+    USSR, and Czechoslovakia.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Bratislava_Declaration
+  archive_url: https://web.archive.org/web/20251225071036/https://en.wikipedia.org/wiki/Bratislava_Declaration
+  title: Bratislava Declaration
+  publisher: Wikipedia
+  quote: It affirmed an unshakable fidelity to Marxism–Leninism and proletarian internationalism, and declared
+    an implacable struggle against "bourgeois" ideology and all "anti-socialist" forces.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  archive_url: https://web.archive.org/web/20260518141104/https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  title: 'FRUS 1964–1968, vol. XVII, doc. 77: Telegram from the Embassy in Czechoslovakia, "Assessment of Czech-Soviet
+    confrontation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-04'
+  quote: International obligation of all to defend socialist achievements, which provides possible future justification
+    for intervention in Czechoslovakia or demands for tighter CSCP control
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

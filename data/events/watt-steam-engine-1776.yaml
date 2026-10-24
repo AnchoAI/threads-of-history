@@ -1,0 +1,49 @@
+id: watt-steam-engine-1776
+title: Watt steam engine introduced
+summary: James Watt's steam engine, with its separate condenser, goes into commercial use in 1776; from 1781 a rotary
+  version could drive factory machinery anywhere, not only where there was water power.
+occurred:
+  start: '1776'
+  precision: year
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- james-watt
+importance: 4
+wikidata: Q3099902
+sources:
+- url: https://en.wikipedia.org/wiki/Watt_steam_engine
+  title: Watt steam engine
+  publisher: Wikipedia
+  quote: The new design was introduced commercially in 1776, with the first example sold to the Carron Company ironworks
+    near Falkirk in Scotland.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Watt_steam_engine
+  title: Watt steam engine
+  publisher: Wikipedia
+  quote: The separate condenser showed dramatic potential for improvements on the Newcomen engine
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Watt_steam_engine
+  title: Watt steam engine
+  publisher: Wikipedia
+  quote: Watt continued working to improve the engine, and in 1781 introduced a system using a sun and planet gear
+    to turn the linear motion of the engines into rotary motion.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Watt_steam_engine
+  title: Watt steam engine
+  publisher: Wikipedia
+  quote: This was a key moment in the industrial revolution, since power sources could now be located anywhere instead
+    of, as previously, needing a suitable water source and topography.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q3099902 is the engine design; there is no separate item for its introduction.

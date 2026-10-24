@@ -1,0 +1,67 @@
+id: congo-crisis-1960
+title: Congo Crisis
+summary: Days after the Congo's independence from Belgium on 30 June 1960, an army mutiny and the Belgian-backed
+  secessions of Katanga and South Kasai begin five years of civil wars that were also a Cold War proxy
+  conflict. Around 100,000 people are believed to have died; the crisis ended with Joseph-Désiré Mobutu
+  ruling the whole country.
+occurred:
+  start: '1960-07-05'
+  end: '1965-11-25'
+  precision: day
+threads:
+- empire
+- usru
+regions:
+- sub-saharan-africa
+actors:
+- patrice-lumumba
+- mobutu-sese-seko
+- united-nations
+- cia
+importance: 4
+wikidata: Q1773926
+sources:
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: 5 July 1960 – 25 November 1965
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: this led to the country's independence on 30 June 1960.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: In the first week of July 1960, a mutiny broke out in the army and violence erupted between black
+    and white civilians. Belgium sent troops to protect fleeing white citizens. Katanga and South Kasai
+    seceded with Belgian support.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: Constituting a series of civil wars, the Congo Crisis was also a proxy conflict in the Cold War,
+    in which the Soviet Union and the United States supported opposing factions. Around 100,000 people
+    are believed to have been killed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: ended, unofficially, with the entire country under the rule of Joseph-Désiré Mobutu
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

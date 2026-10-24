@@ -1,0 +1,18 @@
+id: hamas-takeover-of-gaza-2007--led_to--blockade-of-the-gaza-strip-2007
+from: hamas-takeover-of-gaza-2007
+to: blockade-of-the-gaza-strip-2007
+type: led_to
+confidence: documented
+note: Israel imposed the blockade after Hamas seized Gaza.
+sources:
+- url: https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261011121055/https://en.wikipedia.org/wiki/Blockade_of_the_Gaza_Strip
+  title: Blockade of the Gaza Strip
+  publisher: Wikipedia
+  quote: In 2007, after Hamas seized control of the Gaza Strip, Israel imposed an indefinite blockade of Gaza
+    that remains in place, on the grounds that Fatah and Palestinian Authority forces had fled the Strip and
+    were no longer able to provide security on the Palestinian side.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

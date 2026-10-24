@@ -1,0 +1,25 @@
+id: treaty-of-rome-1957--led_to--maastricht-treaty-1992
+from: treaty-of-rome-1957
+to: maastricht-treaty-1992
+type: led_to
+confidence: documented
+note: Maastricht built the European Union on the communities founded by the Treaties of Paris and Rome.
+sources:
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: Title I, Common Provisions, establishes the European Union (EU) on the foundation of the three,
+    already partially merged, European Communities
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Maastricht_Treaty
+  archive_url: https://web.archive.org/web/20261013165338/https://en.wikipedia.org/wiki/Maastricht_Treaty
+  title: Maastricht Treaty
+  publisher: Wikipedia
+  quote: It amends the EEC's Treaty of Rome constitution, renaming it the European Community to reflect
+    the Union's broader ambition.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

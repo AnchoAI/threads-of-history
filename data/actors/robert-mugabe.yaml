@@ -1,0 +1,21 @@
+id: robert-mugabe
+title: Robert Mugabe
+actor_type: person
+summary: 2nd President of Zimbabwe from 1987 to 2017.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q10707
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q10707.json
+  title: Robert Mugabe
+  publisher: Wikidata
+  quote: 2nd President of Zimbabwe from 1987 to 2017
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

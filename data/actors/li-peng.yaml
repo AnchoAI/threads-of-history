@@ -1,0 +1,22 @@
+id: li-peng
+title: Li Peng
+actor_type: person
+summary: 4th Premier of the People's Republic of China (1928–2019).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q18301
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q18301.json
+  title: Li Peng
+  publisher: Wikidata
+  quote: 4th Premier of the People's Republic of China (1928–2019)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

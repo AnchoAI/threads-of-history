@@ -1,0 +1,23 @@
+id: bolsheviks
+title: Bolsheviks
+actor_type: group
+summary: Faction of the Marxist Russian Social Democratic Labour Party; a major faction in the Russian
+  Civil War.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q83372
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q83372.json
+  title: Bolsheviks
+  publisher: Wikidata
+  quote: faction of the Marxist Russian Social Democratic Labour Party; a major faction in the Russian
+    Civil War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

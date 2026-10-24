@@ -1,0 +1,43 @@
+id: fall-of-saigon-1975
+title: Fall of Saigon
+summary: North Vietnamese forces captured Saigon, the capital of South Vietnam, on 30 April 1975, after the
+  evacuation of most US personnel and tens of thousands of South Vietnamese. It ended the Vietnam War; Vietnam
+  was formally reunified in 1976.
+occurred:
+  start: '1975-04-30'
+  precision: day
+threads:
+- usru
+regions:
+- south-east-asia
+actors:
+- north-vietnam
+- south-vietnam
+- united-states
+importance: 4
+wikidata: Q482456
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  archive_url: https://web.archive.org/web/20260928170605/https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: Saigon, the capital of South Vietnam, was captured by North Vietnam on 30 April 1975. This caused
+    the evacuation of thousands of civilians and U.S. personnel, and ended the Vietnam War. The aftermath ushered
+    in a transition period under the Provisional Revolutionary Government of the Republic of South Vietnam
+    until the formal reunification in 1976.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  archive_url: https://web.archive.org/web/20260928170605/https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: The capture of the city was preceded by Operation Frequent Wind, the evacuation of almost all American
+    civilian and military personnel in Saigon, along with tens of thousands of South Vietnamese civilians who
+    had been associated with the government.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

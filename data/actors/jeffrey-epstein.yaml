@@ -1,0 +1,22 @@
+id: jeffrey-epstein
+title: Jeffrey Epstein
+actor_type: person
+summary: American sex offender and financier (1953–2019).
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q2904131
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2904131.json
+  title: Jeffrey Epstein
+  publisher: Wikidata
+  quote: American sex offender and financier (1953–2019)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

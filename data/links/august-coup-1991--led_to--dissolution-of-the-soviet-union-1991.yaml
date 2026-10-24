@@ -1,0 +1,28 @@
+id: august-coup-1991--led_to--dissolution-of-the-soviet-union-1991
+from: august-coup-1991
+to: dissolution-of-the-soviet-union-1991
+type: led_to
+confidence: documented
+note: The failed coup led to the collapse of the Communist Party and the dissolution of the USSR four
+  months later.
+sources:
+- url: https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  archive_url: https://web.archive.org/web/20261013234320/https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  title: 1991 Soviet coup attempt
+  publisher: Wikipedia
+  quote: The failed coup led to both the immediate collapse of the CPSU and the dissolution of the USSR
+    four months later.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: the turmoil caused the central government in Moscow to lose influence, ultimately leading many
+    republics to declare independence in the following days and months
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

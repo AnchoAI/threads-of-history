@@ -1,0 +1,25 @@
+id: austria-hungary-declares-war-on-serbia-1914--part_of--first-world-war-1914-1918
+from: austria-hungary-declares-war-on-serbia-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Austria-Hungary's declaration of war on Serbia on 28 July 1914 is the date given for the war's start.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: World War I, or the First World War (28 July 1914 – 11 November 1918)
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: Austria-Hungary blamed Serbia and declared war on 28 July
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

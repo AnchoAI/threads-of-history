@@ -1,0 +1,21 @@
+id: george-f-kennan
+title: George F. Kennan
+actor_type: person
+summary: American advisor, diplomat, political scientist and historian (1904-2005).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q156058
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q156058.json
+  title: George F. Kennan
+  publisher: Wikidata
+  quote: American advisor, diplomat, political scientist and historian (1904-2005)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

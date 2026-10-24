@@ -1,0 +1,21 @@
+id: francisco-franco
+title: Francisco Franco
+actor_type: person
+summary: Spanish general and dictator (1892-1975).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q29179
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q29179.json
+  title: Francisco Franco
+  publisher: Wikidata
+  quote: Spanish general and dictator (1892-1975)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

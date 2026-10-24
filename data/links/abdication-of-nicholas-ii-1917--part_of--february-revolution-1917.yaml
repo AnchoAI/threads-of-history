@@ -1,0 +1,22 @@
+id: abdication-of-nicholas-ii-1917--part_of--february-revolution-1917
+from: abdication-of-nicholas-ii-1917
+to: february-revolution-1917
+type: part_of
+confidence: documented
+note: The abdication came during the February Revolution and ended Romanov rule.
+sources:
+- url: https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II
+  title: Abdication of Nicholas II
+  publisher: Wikipedia
+  quote: in the midst of World War I and the February Revolution
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: Three days later, Nicholas II, stranded on his train in the city of Pskov after failing to reach
+    the capital, was forced to abdicate, ending Romanov dynastic rule.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

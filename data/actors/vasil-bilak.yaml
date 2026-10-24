@@ -1,0 +1,23 @@
+id: vasil-bilak
+title: Vasil Biľak
+actor_type: person
+summary: Czechoslovak member of Slovak National Council, member of Czechoslovak parliament, member of Czechoslovak
+  national parliament and Russian nation politician (1917-2014).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 2
+wikidata: Q1420607
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1420607.json
+  title: Vasil Biľak
+  publisher: Wikidata
+  quote: Czechoslovak member of Slovak National Council, member of Czechoslovak parliament, member of Czechoslovak
+    national parliament and Russian nation politician (1917-2014)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

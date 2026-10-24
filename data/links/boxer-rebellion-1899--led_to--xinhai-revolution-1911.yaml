@@ -1,0 +1,24 @@
+id: boxer-rebellion-1899--led_to--xinhai-revolution-1911
+from: boxer-rebellion-1899
+to: xinhai-revolution-1911
+type: led_to
+confidence: documented
+note: The Qing court's handling of the rebellion weakened its credibility and control.
+sources:
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: The Qing dynasty's handling of the Boxer Rebellion further weakened both their credibility and
+    control over China, and led to the Late Qing reforms, and to a greater extent the Xinhai Revolution.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: As China's perilous situation deepened after the Boxer Rebellion and student movements among
+    those studying in Japan developed, the tide of anti-Manchu revolution rose ever higher and became
+    difficult to contain.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

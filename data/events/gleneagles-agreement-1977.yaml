@@ -1,0 +1,40 @@
+id: gleneagles-agreement-1977
+title: Gleneagles Agreement
+summary: In 1977 Commonwealth heads of government unanimously agreed, as part of their support for the campaign
+  against apartheid, to discourage sporting contact and competition with South Africa.
+occurred:
+  start: '1977'
+  precision: year
+threads:
+- sport
+- rights
+regions:
+- western-europe
+- sub-saharan-africa
+actors:
+- united-kingdom
+importance: 2
+wikidata: Q1530952
+sources:
+- url: https://en.wikipedia.org/wiki/Gleneagles_Agreement
+  archive_url: https://web.archive.org/web/20260922004452/https://en.wikipedia.org/wiki/Gleneagles_Agreement
+  title: Gleneagles Agreement
+  publisher: Wikipedia
+  quote: In the Gleneagles Agreement, in 1977, Commonwealth presidents and prime ministers agreed, as part of their
+    support for the international campaign against apartheid, to discourage contact and competition between their
+    sportsmen and sporting organisations, teams, or individuals from South Africa.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Gleneagles_Agreement
+  archive_url: https://web.archive.org/web/20260922004452/https://en.wikipedia.org/wiki/Gleneagles_Agreement
+  title: Gleneagles Agreement
+  publisher: Wikipedia
+  quote: The agreement was unanimously approved by the Commonwealth of Nations at a meeting at Gleneagles, Perthshire,
+    Scotland.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

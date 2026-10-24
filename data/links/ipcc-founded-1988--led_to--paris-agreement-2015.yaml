@@ -1,0 +1,25 @@
+id: ipcc-founded-1988--led_to--paris-agreement-2015
+from: ipcc-founded-1988
+to: paris-agreement-2015
+type: led_to
+confidence: documented
+note: The IPCC's Fifth Assessment Report provided the scientific input into the Paris Agreement.
+sources:
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: The Fifth Assessment Report (AR5) was finalized between 2013 and 2014. It provided the scientific input
+    into the Paris Agreement.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: The Fourth Assessment Report (AR4) (2007) laid the ground work for a post-Kyoto agreement, focusing on
+    limiting warming to 2°C.
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

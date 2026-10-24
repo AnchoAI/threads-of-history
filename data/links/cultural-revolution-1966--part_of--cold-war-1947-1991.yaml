@@ -1,0 +1,21 @@
+id: cultural-revolution-1966--part_of--cold-war-1947-1991
+from: cultural-revolution-1966
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The source places the Cultural Revolution within the Cold War in Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261015184409/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Part of the history of China (1949–1976), the Sino-Soviet split, and the Cold War in Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The source also lists the Sino-Soviet split as a parent; the Cold War was chosen because the Cultural Revolution
+    is the larger event.

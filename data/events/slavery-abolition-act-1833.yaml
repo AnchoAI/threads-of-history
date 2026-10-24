@@ -1,0 +1,56 @@
+id: slavery-abolition-act-1833
+title: Britain abolishes slavery in its empire
+summary: 'The Slavery Abolition Act 1833 abolishes slavery in the British Empire by compensated emancipation: the
+  government pays slave owners £20 million. It excluded territories such as British India.'
+occurred:
+  start: '1833-08-28'
+  precision: day
+threads:
+- rights
+- empire
+regions:
+- western-europe
+- americas
+- sub-saharan-africa
+actors:
+- united-kingdom
+- british-empire
+importance: 4
+wikidata: Q487420
+sources:
+- url: https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  archive_url: https://web.archive.org/web/20261002040950/https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  title: Slavery Abolition Act 1833
+  publisher: Wikipedia
+  quote: was an act of the Parliament of the United Kingdom which abolished slavery in the British Empire by way
+    of compensated emancipation
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  archive_url: https://web.archive.org/web/20261002040950/https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  title: Slavery Abolition Act 1833
+  publisher: Wikipedia
+  quote: 28 August 1833
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  archive_url: https://web.archive.org/web/20261002040950/https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833
+  title: Slavery Abolition Act 1833
+  publisher: Wikipedia
+  quote: The act explicitly excluded territories like British India
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Atlantic_slave_trade
+  archive_url: https://web.archive.org/web/20261011192348/https://en.wikipedia.org/wiki/Atlantic_slave_trade
+  title: Atlantic slave trade
+  publisher: Wikipedia
+  quote: The British Government created the Slave Compensation Commission to administer the distribution of £20
+    million in compensation
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Dated to royal assent (28 August 1833). Emancipation took effect on 1 August 1834.

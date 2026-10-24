@@ -1,0 +1,52 @@
+id: ireland-closes-embassy-to-the-holy-see-2011
+title: Ireland closes its embassy to the Holy See
+wikidata: none
+summary: Irish foreign minister Eamon Gilmore announces that Ireland will close its embassy to the Holy
+  See, along with its embassy in Tehran and an office in East Timor, with the ambassador to reside in
+  Ireland. The government cited costs; others linked the move to the dispute over the Vatican's handling
+  of abuse cases.
+occurred:
+  start: '2011-11-03'
+  precision: day
+threads:
+- religion
+- scandals
+regions:
+- western-europe
+actors:
+- ireland
+- holy-see
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  title: Holy See–Ireland relations
+  publisher: Wikipedia
+  quote: On 3 November 2011 the Irish Tániste and Minister of Foreign Affairs, Eamon Gilmore announced
+    that Ireland would close its embassy in the Vatican, along with the embassy in Tehran and a representative
+    office in East-Timor, and that the Irish ambassador to the Holy See would reside not in Rome but in
+    Ireland.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  title: Holy See–Ireland relations
+  publisher: Wikipedia
+  quote: Some believe it is more related to Ireland's reaction to Vatican handling of sexual abuse cases
+    in Ireland.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  archive_url: https://web.archive.org/web/20260908205804/https://en.wikipedia.org/wiki/Holy_See%E2%80%93Ireland_relations
+  title: Holy See–Ireland relations
+  publisher: Wikipedia
+  quote: taken with considerable reluctance as part of a necessary budget process to reduce costs.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - A resident ambassador was reappointed in 2014 (Wikipedia); not added as a separate item.
+  - 'Wikidata: no item found for the closure; set to none.'

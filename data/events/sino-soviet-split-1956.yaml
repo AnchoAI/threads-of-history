@@ -1,0 +1,63 @@
+id: sino-soviet-split-1956
+title: Sino-Soviet split
+summary: The gradual breakdown of relations between the People's Republic of China and the Soviet Union, beginning
+  in 1956 after Khrushchev's denunciation of Stalin and driven by divergent readings of Marxism–Leninism. It
+  turned the Cold War from a bipolar into a tripolar contest; Gorbachev normalised relations in 1989.
+occurred:
+  start: '1956'
+  end: '1989'
+  precision: year
+threads:
+- china
+- usru
+regions:
+- east-asia
+- russia-eastern-europe
+actors:
+- peoples-republic-of-china
+- soviet-union
+- mao-zedong
+- nikita-khrushchev
+- chinese-communist-party
+importance: 4
+wikidata: Q506079
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: The Sino-Soviet split was the gradual worsening of relations between the People’s Republic of China
+    and the Union of Soviet Socialist Republics (USSR) during the Cold War. This was primarily caused by divergences
+    that arose from their different interpretations and practical applications of Marxism–Leninism
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: In early 1956, Sino-Soviet relations began deteriorating, following Khrushchev's de-Stalinization
+    of the USSR
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: In the Western world, the Sino-Soviet split transformed the bi-polar cold war into a tri-polar cold
+    war.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: Soviet leader Mikhail Gorbachev normalized USSR's relation with the PRC in 1989.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Wikipedia infobox dates the split 1961–1989; the start year 1956 follows the article's statement that
+    relations began deteriorating in early 1956.

@@ -1,0 +1,48 @@
+id: weinstein-fired-by-the-weinstein-company-2017
+title: Harvey Weinstein fired by The Weinstein Company
+wikidata: none
+summary: Harvey Weinstein is fired from The Weinstein Company after the allegations are published; he
+  is also expelled from the Academy of Motion Picture Arts and Sciences that month. The company later
+  filed for bankruptcy and was shut down in July 2018.
+occurred:
+  start: '2017-10-08'
+  precision: day
+threads:
+- scandals
+- film-tv
+regions:
+- americas
+actors:
+- harvey-weinstein
+- the-weinstein-company
+importance: 2
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: On October 8, 2017, Harvey Weinstein was fired from TWC after a list of sexual abuse charges
+    was released to the press.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: In October 2017, following sexual abuse allegations dating back to the late 1970s, Weinstein
+    was dismissed from his company and expelled from the Academy of Motion Picture Arts and Sciences.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein
+  archive_url: https://web.archive.org/web/20261006171350/https://en.wikipedia.org/wiki/Harvey_Weinstein
+  title: Harvey Weinstein
+  publisher: Wikipedia
+  quote: The company was shut down on July 16, 2018
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no item found for the dismissal; set to none.'

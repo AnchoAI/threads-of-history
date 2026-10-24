@@ -1,0 +1,23 @@
+id: great-leap-forward-1958--led_to--cultural-revolution-1966
+from: great-leap-forward-1958
+to: cultural-revolution-1966
+type: led_to
+confidence: documented
+note: Mao lost power and prestige after the Great Leap's failure, which led him to launch the Cultural Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: Mao losing some power and prestige following the Great Leap Forward, during the Seven Thousand Cadres
+    Conference in 1962, which led him to launch the Cultural Revolution in 1966.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: In addition, according to historian Philipp Brigham, the failures of the Great Leap Forward significantly
+    contributed to the Cultural Revolution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

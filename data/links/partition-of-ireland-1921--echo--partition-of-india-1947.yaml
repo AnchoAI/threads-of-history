@@ -1,0 +1,19 @@
+id: partition-of-ireland-1921--echo--partition-of-india-1947
+from: partition-of-ireland-1921
+to: partition-of-india-1947
+type: echo
+confidence: documented
+note: A historian describes the Irish partition as a test run for the partition of India.
+sources:
+- url: https://en.wikipedia.org/wiki/Divide_and_rule
+  title: Divide and rule
+  publisher: Wikipedia
+  quote: The Stanford historian Priya Satia claims that the partition of Ireland was in ways a patch-test
+    for the partition of India in 1947.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the long-arc batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-private-credit
+title: Domestic credit to private sector (% of GDP) (World Bank)
+summary: Domestic credit to private sector refers to financial resources provided to the private sector
+  by financial corporations, such as through loans, purchases of nonequity securities, and trade credits
+  and other accounts receivable, that establish a claim for repayment. For some countries these claims
+  include credit to public enterprises. The financial corporations include monetary authorities and...
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: FS.AST.PRVT.GD.ZS
+table: tables/wdi-private-credit.csv
+sources:
+- url: https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS
+  title: Domestic credit to private sector (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

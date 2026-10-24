@@ -1,0 +1,32 @@
+id: robert-kennedy-dobrynin-meeting-1962--led_to--khrushchev-announces-withdrawal-of-missiles-from-cuba-1962
+from: robert-kennedy-dobrynin-meeting-1962
+to: khrushchev-announces-withdrawal-of-missiles-from-cuba-1962
+type: led_to
+confidence: documented
+note: According to Wikipedia, on hearing the threats relayed through Dobrynin, Khrushchev drafted his
+  acceptance and had it broadcast.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: when Khrushchev heard of Kennedy's threats as relayed by Robert Kennedy to Soviet Ambassador
+    Dobrynin, he immediately drafted his acceptance of Kennedy's latest terms from his dacha without involving
+    the Politburo
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The next morning, October 28, Khrushchev issued a public statement that Soviet missiles would
+    be dismantled and removed from Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - The causal claim rests on Wikipedia; Dobrynin's cable and Soviet records (Wilson Center) could not
+    be reached.

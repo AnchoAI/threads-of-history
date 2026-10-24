@@ -1,0 +1,58 @@
+id: bengal-famine-1943
+title: Bengal famine of 1943
+summary: Famine in Bengal during the Second World War kills an estimated 800,000 to 3.8 million people.
+  Historians disagree over how far crop shortfall, or wartime policy, inflation and hoarding, caused it.
+occurred:
+  start: '1943'
+  end: '1944'
+  precision: year
+threads:
+- empire
+- econ-crises
+- ww2
+regions:
+- south-central-asia
+actors:
+- british-raj
+- winston-churchill
+importance: 4
+wikidata: Q522837
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: An estimated 800,000–3.8 million people died, in the Bengal region
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: Period 1943–1944
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: Whether the famine resulted from crop shortfall or failure of land distribution has been much
+    debated.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: Sen noted that Bengal should have had enough resources to feed its population, but mass deaths
+    occurred due to a combination of wartime inflation, speculative buying, and panic hoarding.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Churchill is listed as an actor because his War Cabinet rejected or reduced requests for food imports
+    (same source, section 'Refusal of imports'). How far that caused deaths is part of the contested debate.
+  - Death toll estimates vary widely; the source gives 800,000–3.8 million for Bengal alone. A scholarly
+    source (e.g. Sen 1981, Ó Gráda 2009) should be added.

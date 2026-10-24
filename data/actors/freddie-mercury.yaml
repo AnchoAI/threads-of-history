@@ -1,0 +1,20 @@
+id: freddie-mercury
+title: Freddie Mercury
+actor_type: person
+summary: British singer and songwriter, frontman of the rock band Queen (1946–1991).
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q15869
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q15869.json
+  title: Freddie Mercury
+  publisher: Wikidata
+  quote: British singer, songwriter and musician, frontman of the rock band Queen (1946–1991)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

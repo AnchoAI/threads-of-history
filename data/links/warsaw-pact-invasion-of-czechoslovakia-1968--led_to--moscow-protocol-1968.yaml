@@ -1,0 +1,20 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968--led_to--moscow-protocol-1968
+from: warsaw-pact-invasion-of-czechoslovakia-1968
+to: moscow-protocol-1968
+type: led_to
+confidence: documented
+note: Dubček, arrested in the invasion, was taken to Moscow, where the leadership signed the Moscow Protocol.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Dubček, who had been arrested on the night of 20 August, was taken to Moscow for negotiations. There,
+    under heavy psychological pressure from Soviet politicians, Dubček and all the highest-ranked leaders but
+    František Kriegel signed the Moscow Protocol.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

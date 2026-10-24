@@ -1,0 +1,23 @@
+id: wael-ghonim
+title: Wael Ghonim
+actor_type: person
+summary: Egyptian activist and engineer.
+threads:
+- media
+- mideast
+regions:
+- middle-east-north-africa
+importance: 2
+wikidata: Q312823
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q312823.json
+  title: Wael Ghonim
+  publisher: Wikidata
+  quote: Egyptian activist and engineer
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

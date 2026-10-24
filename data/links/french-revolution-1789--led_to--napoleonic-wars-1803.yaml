@@ -1,0 +1,18 @@
+id: french-revolution-1789--led_to--napoleonic-wars-1803
+from: french-revolution-1789
+to: napoleonic-wars-1803
+type: led_to
+confidence: documented
+note: The Napoleonic Wars grew out of political forces released by the French Revolution and the Revolutionary
+  Wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: The wars originated in political forces arising from the French Revolution (1789–1799) and French
+    Revolutionary Wars (1792–1802)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

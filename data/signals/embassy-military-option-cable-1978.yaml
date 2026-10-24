@@ -1,0 +1,61 @@
+id: embassy-military-option-cable-1978
+title: 'Embassy Tehran: "A military takeover is feasible but at heavy long-term cost"'
+summary: On 2 November 1978 Ambassador William Sullivan reported that almost everybody expected the Shah to order
+  a military takeover if disorders continued, that the Shah had named a military government as one of his options,
+  and that a takeover was feasible but at heavy long-term cost. The Shah appointed a military government four days
+  later.
+occurred:
+  start: '1978-11-02'
+  precision: day
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- william-h-sullivan
+- mohammad-reza-pahlavi
+- united-states
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: military-government-appointed-in-iran-1978
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18194/ocr
+  archive_url: https://web.archive.org/web/20260515173801/https://nsarchive.gwu.edu/media/18194/ocr
+  title: 'US Embassy Tehran (Sullivan) telegram, "Looking Ahead: The Military Option", 2 November 1978 (transcription)'
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-02'
+  quote: A military takeover is feasible but at heavy long-term cost for US interests as well as for Iran
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18194/ocr
+  archive_url: https://web.archive.org/web/20260515173801/https://nsarchive.gwu.edu/media/18194/ocr
+  title: 'US Embassy Tehran (Sullivan) telegram, "Looking Ahead: The Military Option", 2 November 1978 (transcription)'
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-02'
+  quote: Almost everybody agrees a military takeover will be ordered by the Shah eventually if the disorders continue
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18194/ocr
+  archive_url: https://web.archive.org/web/20260515173801/https://nsarchive.gwu.edu/media/18194/ocr
+  title: 'US Embassy Tehran (Sullivan) telegram, "Looking Ahead: The Military Option", 2 November 1978 (transcription)'
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-02'
+  quote: The Shah himself toldthe ambassador that one of his options would be a military government
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: On 6 November, the Shah dismissed Sharif-Emami from the post of prime minister, appointing a military government
+    in its place.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - The transcription is from a poorly legible copy; the last three pages are illegible.

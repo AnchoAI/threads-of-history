@@ -1,0 +1,71 @@
+id: russian-apartment-bombings-1999
+title: Russian apartment bombings
+summary: Bombs destroy four apartment blocks in Buynaksk, Moscow and Volgodonsk between 4 and 16 September
+  1999, killing more than 300 people. A Russian court ruled that Islamist warlords ordered the attacks;
+  a number of historians and journalists argue they were a false-flag operation by Russian security services,
+  pointing among other things to FSB agents caught planting a device in Ryazan, which the FSB called a
+  drill.
+occurred:
+  start: '1999-09-04'
+  end: '1999-09-16'
+  precision: day
+threads:
+- russia
+- intel
+regions:
+- russia-eastern-europe
+actors:
+- russia
+- vladimir-putin
+importance: 3
+wikidata: Q967844
+sources:
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: In September 1999, a series of explosions hit four apartment blocks in the Russian cities of
+    Buynaksk, Moscow, and Volgodonsk, killing more than 300
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: 4–16 September 1999
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: All bombings, the court ruled, were ordered by Islamist warlords Ibn Al-Khattab and Abu Omar
+    al-Saif, who have been killed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: A number of historians and investigative journalists have instead called the bombings a false
+    flag attack perpetrated by Russian state security services
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: Three Russian Federal Security Service (FSB) agents who had planted the devices at Ryazan were
+    arrested by the local police.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: FSB director Nikolai Patrushev announced that the incident in Ryazan had been an anti-terror
+    drill
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Responsibility for the bombings is disputed; the summary attributes both the court ruling and the
+    false-flag argument. A reviewer may want stronger non-Wikipedia sources (e.g. David Satter, the court
+    records) for both sides.

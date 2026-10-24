@@ -1,0 +1,21 @@
+id: tipper-gore
+title: Tipper Gore
+actor_type: person
+summary: Second Lady of the United States from 1993 to 2001.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q241609
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q241609.json
+  title: Tipper Gore
+  publisher: Wikidata
+  quote: Second Lady of the United States from 1993 to 2001
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

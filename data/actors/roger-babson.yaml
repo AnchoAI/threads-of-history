@@ -1,0 +1,21 @@
+id: roger-babson
+title: Roger Babson
+actor_type: person
+summary: American entrepreneur and business theorist (1875–1967).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q2161599
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2161599.json
+  title: Roger Babson
+  publisher: Wikidata
+  quote: American entrepreneur and business theorist (1875–1967)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

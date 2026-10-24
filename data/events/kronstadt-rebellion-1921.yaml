@@ -1,0 +1,52 @@
+id: kronstadt-rebellion-1921
+title: Kronstadt rebellion
+summary: Sailors at the Kronstadt naval fortress rose against the Soviet government they had helped install,
+  demanding free elections to the soviets and free speech. The Bolsheviks suppressed the revolt on 18
+  March.
+occurred:
+  start: '1921-03-01'
+  end: '1921-03-18'
+  precision: day
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- leon-trotsky
+- vladimir-lenin
+importance: 3
+wikidata: Q208300
+sources:
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: Date 1–18 March 1921
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: For sixteen days in March 1921, rebels in Kronstadt's naval fortress rose in opposition to the
+    Soviet government which they had helped to consolidate.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: the Bolsheviks raided the island several times and suppressed the revolt on 18 March after shooting
+    and imprisoning several thousand rebels
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: Commanders and leaders Stepan Petrichenko Vladimir Lenin Leon Trotsky
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'The demands in the summary (free elections, free speech) are from the fifteen-point resolution quoted
+    on the same page: "immediately to hold new elections by secret ballot" and "To establish freedom of
+    speech and press".'

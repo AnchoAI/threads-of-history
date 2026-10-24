@@ -1,0 +1,69 @@
+id: migrated-archives-disclosed-2011
+title: Britain discloses the 'migrated archives'
+summary: During the Mau Mau veterans' lawsuit, the Foreign Office admits it holds files removed from former
+  colonies at independence, later put at about 20,000 files from 41 territories, and on 5 May 2011 Foreign
+  Secretary William Hague says they will be released. The Kenya files detailed British abuses during the
+  Mau Mau rebellion.
+occurred:
+  start: '2011-05-05'
+  precision: day
+threads:
+- empire
+- rights
+- intel
+regions:
+- sub-saharan-africa
+- western-europe
+actors:
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Migrated_archives
+  archive_url: https://web.archive.org/web/20251018020946/https://en.wikipedia.org/wiki/Migrated_archives
+  title: Migrated archives
+  publisher: Wikipedia
+  quote: a collection of about 20,000 files and other records created by the governments of 41 British
+    colonial dependencies, removed to the UK at independence
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Migrated_archives
+  archive_url: https://web.archive.org/web/20251018020946/https://en.wikipedia.org/wiki/Migrated_archives
+  title: Migrated archives
+  publisher: Wikipedia
+  quote: The Foreign and Commonwealth Office (FCO) was finally forced to admit the existence of the 'migrated
+    archives' in 2011 during the course of the 'Mau Mau litigation'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Migrated_archives
+  archive_url: https://web.archive.org/web/20251018020946/https://en.wikipedia.org/wiki/Migrated_archives
+  title: Migrated archives
+  publisher: Wikipedia
+  quote: Foreign Secretary William Hague announced in the House of Commons on 5 May 2011 that he intended
+    "to release every part of every paper of interest subject only to legal exemptions".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Migrated_archives
+  archive_url: https://web.archive.org/web/20251018020946/https://en.wikipedia.org/wiki/Migrated_archives
+  title: Migrated archives
+  publisher: Wikipedia
+  quote: That year it admitted that it held about 8,000 files and bound volumes from 37 former British
+    dependencies, a figure later revised to 20,000 from 41 former colonies and territories.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: The files, known as migrated archives, provided details of British human rights abuses (torture,
+    rape, execution) in Kenya during the Mau Mau rebellion
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the 2011 disclosure was found.'
+  - Dated to Hague's announcement; the FCO's admission came earlier in 2011 (after legal advice of 22
+    March 2011, per the same article).

@@ -1,0 +1,21 @@
+id: charles-g-dawes
+title: Charles G. Dawes
+actor_type: person
+summary: Vice president of the United States from 1925 to 1929.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q184565
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q184565.json
+  title: Charles G. Dawes
+  publisher: Wikidata
+  quote: vice president of the United States from 1925 to 1929
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

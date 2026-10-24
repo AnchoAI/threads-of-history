@@ -1,0 +1,23 @@
+id: mexican-constitution-1917--part_of--mexican-revolution-1910
+from: mexican-constitution-1917
+to: mexican-revolution-1910
+type: part_of
+confidence: documented
+note: The constitution was drafted during the revolution by the victorious Constitutionalist faction.
+sources:
+- url: https://en.wikipedia.org/wiki/Constitution_of_Mexico
+  title: Constitution of Mexico
+  publisher: Wikipedia
+  quote: by a constituent convention during the Mexican Revolution
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: Mexican Constitution of 1917 enacted.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

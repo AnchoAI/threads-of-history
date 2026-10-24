@@ -1,0 +1,23 @@
+id: mukden-incident-1931--led_to--lytton-report-1932
+from: mukden-incident-1931
+to: lytton-report-1932
+type: led_to
+confidence: documented
+note: The League sent the Lytton Commission to evaluate the incident.
+sources:
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: refers to the findings of the Lytton Commission, entrusted in 1931 by the League of Nations in
+    an attempt to evaluate the Mukden Incident
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261001231436/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: appealed to the League of Nations, on September 19.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

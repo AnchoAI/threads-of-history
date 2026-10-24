@@ -1,0 +1,22 @@
+id: world-trade-organization
+title: World Trade Organization
+actor_type: organization
+summary: Intergovernmental organization that intends to supervise and liberalize international trade.
+threads:
+- econ-crises
+regions:
+- western-europe
+importance: 3
+wikidata: Q7825
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7825.json
+  title: World Trade Organization
+  publisher: Wikidata
+  quote: intergovernmental organization that intends to supervise and liberalize international trade
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

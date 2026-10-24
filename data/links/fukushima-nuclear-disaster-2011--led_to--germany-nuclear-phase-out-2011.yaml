@@ -1,0 +1,28 @@
+id: fukushima-nuclear-disaster-2011--led_to--germany-nuclear-phase-out-2011
+from: fukushima-nuclear-disaster-2011
+to: germany-nuclear-phase-out-2011
+type: led_to
+confidence: documented
+note: Germany's decision to close all its reactors followed directly from Fukushima and the protests it
+  set off.
+sources:
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: After the March 2011 Fukushima nuclear disaster and subsequent anti-nuclear protests, the government
+    announced that it would close all of its nuclear power plants by 2022.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: On 14 March 2011, in response to the renewed concern about the use of nuclear energy raised by
+    the Fukushima incident in the German public
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

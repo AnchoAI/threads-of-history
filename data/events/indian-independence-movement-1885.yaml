@@ -1,0 +1,59 @@
+id: indian-independence-movement-1885
+title: Indian independence movement
+summary: A series of political efforts from the mid-1880s to 1947 to end British colonial rule in the Indian subcontinent.
+  It grew from early reform demands into mass campaigns such as the Non-cooperation, Civil Disobedience and Quit
+  India movements, and culminated in the Indian Independence Act 1947.
+occurred:
+  start: '1885'
+  end: '1947'
+  precision: year
+  approximate: true
+  note: The source says "mid-1880s"; 1885 is the founding of the Indian National Congress, which it calls the first
+    nationalist movement.
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- indian-national-congress
+- mahatma-gandhi
+- british-raj
+importance: 4
+wikidata: Q12444025
+sources:
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: The Indian independence movement was a series of political efforts from the mid-1880s to 1947 that took
+    place in the Indian subcontinent with the aim of ending British colonial rule.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: The first nationalistic movement took root when the Indian National Congress (INC) was formed in 1885.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: evolved into the Non-cooperation Movement (1919–1922), which demanded non-cooperation with colonial authorities.
+    Momentum grew steadily through the Civil Disobedience Movement (1929–1931)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: It culminated in the Indian Independence Act 1947
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'
+  - Wikidata dates the movement from 1857; the Wikipedia lead used here says the mid-1880s.

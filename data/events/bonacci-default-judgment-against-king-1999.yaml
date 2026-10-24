@@ -1,0 +1,48 @@
+id: bonacci-default-judgment-against-king-1999
+title: Paul Bonacci wins default judgment against Lawrence King
+summary: A federal judge awards Paul Bonacci, one of the Franklin accusers, a $1 million default judgment against
+  Lawrence E. King Jr., who did not respond to or appear in the case; the money was never paid.
+occurred:
+  start: '1999'
+  precision: year
+threads:
+- scandals
+regions:
+- americas
+actors:
+- lawrence-e-king-jr
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: King did not respond or appear in the case, and in default the judge awarded Bonacci a $1 million judgment
+    in 1999, although this money was never paid.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: Paul Bonacci (one of his accusers) filed a civil lawsuit against him in federal court, seeking damages
+    for alleged sexual abuse.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.theamericanconservative.com/the-child-sex-trafficking-scandal-america-forgot/
+  archive_url: https://web.archive.org/web/20260419100727/https://www.theamericanconservative.com/the-child-sex-trafficking-scandal-america-forgot/
+  title: The Child Sex-Trafficking Scandal America Forgot (Hunter DeRensis)
+  publisher: The American Conservative
+  date: '2020-09-05'
+  quote: Bonacci later sued King in civil court for damages done and was awarded $1 million—which was never paid.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Sources disagree on when the suit was filed (1991 per CNN as quoted on Wikipedia's Franklin article; 1999 per
+    the King article); the 1999 judgment date is consistent. A default judgment is not a finding after a contested
+    trial.

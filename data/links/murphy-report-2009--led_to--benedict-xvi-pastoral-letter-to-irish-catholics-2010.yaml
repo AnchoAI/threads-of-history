@@ -1,0 +1,32 @@
+id: murphy-report-2009--led_to--benedict-xvi-pastoral-letter-to-irish-catholics-2010
+from: murphy-report-2009
+to: benedict-xvi-pastoral-letter-to-irish-catholics-2010
+type: led_to
+confidence: documented
+note: The Holy See responded to the Murphy Report by announcing a pastoral letter to Irish Catholics.
+sources:
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: The Holy See takes very seriously the central issues raised by the Report
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: The Holy Father (i.e., the Pope) intends to address a Pastoral Letter to the faithful of Ireland
+    in which he will clearly indicate the initiatives that are to be taken in response to the situation.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  archive_url: https://web.archive.org/web/20260924015545/https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  title: Catholic Church sexual abuse cases in Ireland
+  publisher: Wikipedia
+  quote: After the pressure gathered from the Ryan and Murphy Reports and the resignation of bishops,
+    Pope Benedict XVI summoned all of the Irish Bishops to the Vatican in January 2010.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

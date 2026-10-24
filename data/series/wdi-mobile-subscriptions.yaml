@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-mobile-subscriptions
+title: Mobile subscriptions (per 100 people) (World Bank)
+summary: Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service
+  that provide access to the PSTN using cellular technology. The indicator includes (and is split into)
+  the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been
+  used during the last three months). The indicator applies to all mobile cellular subscriptions that...
+occurred:
+  start: '1960'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: per 100 people
+dataset: world-bank-wdi
+indicator: IT.CEL.SETS.P2
+table: tables/wdi-mobile-subscriptions.csv
+sources:
+- url: https://data.worldbank.org/indicator/IT.CEL.SETS.P2
+  title: Mobile cellular subscriptions (per 100 people)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

@@ -1,0 +1,51 @@
+id: no-missile-gap-found-1961
+title: Satellite photos show there is no missile gap
+summary: In January 1961 the new Defense Secretary Robert McNamara and his deputy examined Corona satellite
+  photographs and found no large Soviet ICBM deployment; in February McNamara said there was no evidence
+  of a large-scale Soviet ICBM effort. A September 1961 National Intelligence Estimate concluded that
+  the USSR had no more than 25 ICBMs.
+occurred:
+  start: '1961-01'
+  end: '1961-09'
+  precision: month
+threads:
+- usru
+- intel
+- nuclear
+regions:
+- americas
+actors:
+- robert-mcnamara
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: In January 1961, McNamara, the new secretary of defense, and Roswell Gilpatric, a new deputy
+    secretary, who strongly believed in the existence of a missile gap, personally examined photographs
+    taken by Corona satellites.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: In February, McNamara stated that there was no evidence of a large-scale Soviet effort to build
+    ICBMs.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: by September 1961, a National Intelligence Estimate concluded that the USSR had no more than
+    25 ICBMs and would not possess more in the near future
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': no item found for this finding.'

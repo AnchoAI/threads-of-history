@@ -1,0 +1,42 @@
+id: good-friday-agreement-1998
+title: Good Friday Agreement
+summary: A pair of agreements signed on 10 April 1998 that ended most of the violence of the Troubles
+  and set up power-sharing government in Northern Ireland. Voters across Ireland approved it in two referendums
+  on 22 May 1998.
+occurred:
+  start: '1998-04-10'
+  precision: day
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- united-kingdom
+- ireland
+importance: 4
+wikidata: Q208958
+sources:
+- url: https://en.wikipedia.org/wiki/Good_Friday_Agreement
+  title: Good Friday Agreement
+  publisher: Wikipedia
+  quote: is a pair of agreements signed on 10 April (Good Friday) 1998 that ended most of the violence
+    of the Troubles, an ethnic and national conflict in Northern Ireland since the late 1960s.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Good_Friday_Agreement
+  title: Good Friday Agreement
+  publisher: Wikipedia
+  quote: The Agreement was approved by voters across the island of Ireland in two referendums held on
+    22 May 1998.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Partition_of_Ireland
+  archive_url: https://web.archive.org/web/20261011195640/https://en.wikipedia.org/wiki/Partition_of_Ireland
+  title: Partition of Ireland
+  publisher: Wikipedia
+  quote: Under the 1998 Good Friday Agreement, the Irish and British governments and the main political
+    parties agreed to a power-sharing government in Northern Ireland
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

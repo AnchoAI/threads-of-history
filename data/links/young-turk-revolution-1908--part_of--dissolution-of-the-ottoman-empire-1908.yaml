@@ -1,0 +1,26 @@
+id: young-turk-revolution-1908--part_of--dissolution-of-the-ottoman-empire-1908
+from: young-turk-revolution-1908
+to: dissolution-of-the-ottoman-empire-1908
+type: part_of
+confidence: documented
+note: The dissolution period begins with the Young Turk Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  archive_url: https://web.archive.org/web/20260918125808/https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  title: Young Turk Revolution
+  publisher: Wikipedia
+  quote: Part of the collapse of the Ottoman Empire
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: beginning with the Young Turk Revolution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

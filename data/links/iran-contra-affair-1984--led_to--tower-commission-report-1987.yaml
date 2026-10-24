@@ -1,0 +1,20 @@
+id: iran-contra-affair-1984--led_to--tower-commission-report-1987
+from: iran-contra-affair-1984
+to: tower-commission-report-1987
+type: led_to
+confidence: documented
+note: Reagan set up the Tower Commission in response to the affair.
+sources:
+- url: https://en.wikipedia.org/wiki/Tower_Commission
+  archive_url: https://web.archive.org/web/20260928210737/https://en.wikipedia.org/wiki/Tower_Commission
+  title: Tower Commission
+  publisher: Wikipedia
+  quote: The Tower Commission was a United States presidential commission established on December 1, 1986, by President
+    Ronald Reagan in response to the Iran–Contra affair
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

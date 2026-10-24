@@ -1,0 +1,42 @@
+id: negotiations-to-end-apartheid-1990
+title: Negotiations to end apartheid
+summary: F. W. de Klerk's government unbans the ANC and releases Nelson Mandela, opening bilateral and
+  multi-party negotiations that produce an interim constitution in 1993 and South Africa's first non-racial
+  elections in 1994.
+occurred:
+  start: '1990'
+  end: '1993'
+  precision: year
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- nelson-mandela
+- african-national-congress
+importance: 4
+wikidata: Q3346991
+sources:
+- url: https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  archive_url: https://web.archive.org/web/20260920213835/https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  title: Negotiations to end apartheid in South Africa
+  publisher: Wikipedia
+  quote: The apartheid system in South Africa was ended through a series of bilateral and multi-party
+    negotiations between 1990 and 1993. The negotiations culminated in the passage of a new interim Constitution
+    in 1993
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  archive_url: https://web.archive.org/web/20260920213835/https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  title: Negotiations to end apartheid in South Africa
+  publisher: Wikipedia
+  quote: the process accelerated in 1990, when the government of F. W. de Klerk took a number of unilateral
+    steps towards reform, including releasing Nelson Mandela from prison and unbanning the ANC and other
+    political organisations.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

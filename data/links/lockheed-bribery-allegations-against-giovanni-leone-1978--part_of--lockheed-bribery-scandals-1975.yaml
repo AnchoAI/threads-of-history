@@ -1,0 +1,20 @@
+id: lockheed-bribery-allegations-against-giovanni-leone-1978--part_of--lockheed-bribery-scandals-1975
+from: lockheed-bribery-allegations-against-giovanni-leone-1978
+to: lockheed-bribery-scandals-1975
+type: part_of
+confidence: documented
+note: The accusations against Leone were part of the Italian branch of the Lockheed scandals.
+sources:
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The Italian branch of the Lockheed scandal involved the bribery of Christian Democrat and Socialist politicians
+    to favor the purchase by the Italian Air Force of C-130 Hercules transport planes.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

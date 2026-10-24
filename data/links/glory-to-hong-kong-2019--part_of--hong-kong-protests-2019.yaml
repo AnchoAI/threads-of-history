@@ -1,0 +1,24 @@
+id: glory-to-hong-kong-2019--part_of--hong-kong-protests-2019
+from: glory-to-hong-kong-2019
+to: hong-kong-protests-2019
+type: part_of
+confidence: documented
+note: The song was written within the protest movement and adopted as its anthem.
+sources:
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: Song of the 2019–2020 Hong Kong protests
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: '"Glory to Hong Kong", according to the composer, was created "to boost protesters'' morale and unite
+    people".'
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

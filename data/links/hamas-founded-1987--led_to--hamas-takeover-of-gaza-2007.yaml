@@ -1,0 +1,20 @@
+id: hamas-founded-1987--led_to--hamas-takeover-of-gaza-2007
+from: hamas-founded-1987
+to: hamas-takeover-of-gaza-2007
+type: led_to
+confidence: documented
+note: Hamas, after winning the 2006 election, fought Fatah for control of Gaza.
+sources:
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: In the 2007 Battle of Gaza, Hamas seized control of the Gaza Strip from rival Palestinian faction
+    Fatah.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: unverified
+  notes:
+  - This states what Hamas did rather than that its founding caused the takeover; it is the organisational
+    thread rather than a cause. A reviewer may prefer to replace it with a link from the 2006 election once
+    that event exists.

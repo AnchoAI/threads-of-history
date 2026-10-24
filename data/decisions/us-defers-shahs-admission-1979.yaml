@@ -1,0 +1,98 @@
+id: us-defers-shahs-admission-1979
+title: Washington tells the Shah his admission now faces 'serious complications'
+summary: On 23 February 1979, after the brief embassy takeover, the Special Coordination Committee decided to tell
+  the Shah that the US invitation stood but there were now serious complications; Vance recommended denial and Brzezinski
+  reluctantly concurred. The Shah went to the Bahamas and later Mexico.
+occurred:
+  start: '1979-02-23'
+  precision: day
+threads:
+- mideast
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- united-states
+- cyrus-vance
+- zbigniew-brzezinski
+- mohammad-reza-pahlavi
+importance: 2
+wikidata: none
+decided_by:
+- united-states
+- cyrus-vance
+- zbigniew-brzezinski
+alternatives:
+- option: Admit the Shah under the standing invitation
+  note: The invitation was still officially open, and Brzezinski argued for it on principle.
+  sources:
+  - url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+    archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+    title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+    publisher: American Diplomacy (William J. Daugherty)
+    date: 2003-04
+    quote: Brzezinski personally “felt strongly that at stake were [America’s] traditional commitment to asylum
+      and our loyalty to a friend.
+    type: scholarly
+    accessed: '2026-10-21'
+- option: Deny entry for the time being
+  note: Chosen, on Vance's recommendation.
+  sources:
+  - url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+    archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+    title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+    publisher: American Diplomacy (William J. Daugherty)
+    date: 2003-04
+    quote: In the end, whether one was for or against the shah’s admission in principle, prudence dictated a denial
+      at this time.
+    type: scholarly
+    accessed: '2026-10-21'
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: At a meeting of the Special Coordinating Committee (SCC — the highest level policy and crisis management
+    group in the Carter White House) on 23 February the decision was made to inform the shah that, while the invitation
+    was still officially open, there were now serious complications.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: National Security Advisor Brzezinski concurred with reluctance while feeling a “personal repugnance.”
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Vance, despite his own belief that the decision was the only wise one, described his recommendation to
+    deny entry as “one of the most distasteful I ever had to make….”
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: he traveled to the Bahamas on 30 March
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Mexico, where he arrived on 10 June 1979
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Single secondary source (Daugherty, a former CIA officer and hostage, drawing on memoirs). The SCC record should
+    be checked in FRUS 1977–1980 vol. X when published.

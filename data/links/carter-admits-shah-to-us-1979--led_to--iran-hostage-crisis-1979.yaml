@@ -1,0 +1,28 @@
+id: carter-admits-shah-to-us-1979--led_to--iran-hostage-crisis-1979
+from: carter-admits-shah-to-us-1979
+to: iran-hostage-crisis-1979
+type: led_to
+confidence: documented
+note: Militants seized the embassy after the Shah's admission and demanded his extradition.
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: taken captive when Iranian militants, reacting to the news that the shah had been admitted to the United
+    States, overran the embassy
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  archive_url: https://web.archive.org/web/20260929152443/https://history.state.gov/historicaldocuments/frus1977-80v11p1/d1
+  title: 'FRUS 1977–1980, Vol. XI, Part 1, Document 1: Brzezinski to Carter, "Takeover of Embassy Tehran", 4 November
+    1979'
+  publisher: Office of the Historian, US Department of State
+  date: '1979-11-04'
+  quote: A Radio Tehran broadcast confirms that hostages have been taken and that the demonstrators are demanding
+    the extradition of the Shah.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

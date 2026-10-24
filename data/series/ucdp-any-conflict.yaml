@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: ucdp-any-conflict
+title: State-based armed conflict (UCDP/PRIO)
+summary: Country-years with at least one state-based armed conflict (25 or more battle deaths) on the
+  country's territory.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: 1 = yes
+dataset: ucdp-prio-armed-conflict
+indicator: any-conflict
+table: tables/ucdp-any-conflict.csv
+sources:
+- url: https://ucdp.uu.se/downloads/
+  title: UCDP Dataset Download Center
+  publisher: Uppsala Conflict Data Program
+  type: primary

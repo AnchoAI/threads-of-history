@@ -1,0 +1,36 @@
+id: assassination-of-yitzhak-rabin-1995
+title: Assassination of Yitzhak Rabin
+summary: Israeli Prime Minister Yitzhak Rabin was shot dead on 4 November 1995 at the end of a Tel Aviv rally
+  supporting the Oslo Accords. The assassin, Yigal Amir, was a far-right Israeli ultranationalist who opposed
+  the accords.
+occurred:
+  start: '1995-11-04'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- yitzhak-rabin
+- yigal-amir
+- israel
+importance: 4
+wikidata: Q2608162
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin
+  title: Assassination of Yitzhak Rabin
+  publisher: Wikipedia
+  quote: Yitzhak Rabin, the prime minister of Israel, was assassinated on 4 November 1995 at 21:30, at the
+    end of a rally in support of the Oslo Accords at Kings of Israel Square in Tel Aviv.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin
+  title: Assassination of Yitzhak Rabin
+  publisher: Wikipedia
+  quote: The assailant was Yigal Amir, an Israeli law student and far-right ultranationalist who radically
+    opposed the Oslo Accords and Rabin's peace initiative more broadly.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

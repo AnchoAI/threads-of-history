@@ -1,0 +1,29 @@
+id: mps-raise-profumo-rumours-in-commons-1963--signal_of--profumo-affair-1961
+from: mps-raise-profumo-rumours-in-commons-1963
+to: profumo-affair-1961
+type: signal_of
+confidence: documented
+note: The Commons rumours of March 1963 concerned Profumo's relationship with Keeler, which he denied and later
+  admitted.
+sources:
+- url: https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  archive_url: https://web.archive.org/web/20250926083634/https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  title: Personal Statement (John Profumo), House of Commons, 22 March 1963
+  publisher: Hansard (UK Parliament)
+  date: '1963-03-22'
+  quote: I understand that my name has been connected with the rumours about the disappearance of Miss Keeler.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: Profumo denied the affair in a statement to the House of Commons in 1963; weeks later, a police investigation
+    proved that he had lied.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

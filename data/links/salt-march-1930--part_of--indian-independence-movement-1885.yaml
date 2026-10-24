@@ -1,0 +1,28 @@
+id: salt-march-1930--part_of--indian-independence-movement-1885
+from: salt-march-1930
+to: indian-independence-movement-1885
+type: part_of
+confidence: documented
+note: The Salt March inaugurated the Civil Disobedience Movement, a phase of the independence movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Salt_March
+  archive_url: https://web.archive.org/web/20261008080050/https://en.wikipedia.org/wiki/Salt_March
+  title: Salt March
+  publisher: Wikipedia
+  quote: the Civil Disobedience Movement needed a strong inauguration that would inspire more people to follow Gandhi's
+    example.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: Momentum grew steadily through the Civil Disobedience Movement (1929–1931) that called for active disobedience
+    to the colonial government
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

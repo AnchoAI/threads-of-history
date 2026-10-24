@@ -1,0 +1,25 @@
+id: treaty-of-frankfurt-1871--led_to--treaty-of-versailles-1919
+from: treaty-of-frankfurt-1871
+to: treaty-of-versailles-1919
+type: led_to
+confidence: documented
+note: French revanchism over the lost provinces shaped the Versailles treaty, which returned Alsace-Lorraine
+  to France by rescinding the 1871 cession.
+sources:
+- url: https://en.wikipedia.org/wiki/Revanchism
+  title: Revanchism
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003065320/https://en.wikipedia.org/wiki/Revanchism
+  quote: French revanchism influenced the Treaty of Versailles of 1919 following the end of World War
+    I, which restored Alsace-Lorraine to France and extracted reparations from the defeated Germany.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+  title: Treaty of Versailles
+  publisher: Wikipedia
+  quote: The treaty restored the provinces of Alsace-Lorraine to France by rescinding the treaties of
+    Versailles and Frankfurt of 1871 as they pertained to this issue.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,23 @@
+id: larry-nassar
+title: Larry Nassar
+actor_type: person
+summary: American serial child sexual abuser and physician.
+threads:
+- scandals
+- sport
+regions:
+- americas
+importance: 2
+wikidata: Q47467705
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q47467705.json
+  title: Larry Nassar
+  publisher: Wikidata
+  quote: American serial child sexual abuser and physician
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

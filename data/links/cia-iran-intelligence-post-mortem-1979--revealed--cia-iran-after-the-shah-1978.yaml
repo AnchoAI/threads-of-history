@@ -1,0 +1,18 @@
+id: cia-iran-intelligence-post-mortem-1979--revealed--cia-iran-after-the-shah-1978
+from: cia-iran-intelligence-post-mortem-1979
+to: cia-iran-after-the-shah-1978
+type: revealed
+confidence: documented
+note: The internal review recorded the "not prerevolutionary" judgment and its use.
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Three sentences in its preface said Iran is not in a revolutionary or even a 'prerevolutionary' situation
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

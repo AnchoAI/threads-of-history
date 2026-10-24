@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-resource-rents
+title: Total natural resources rents (% of GDP) (World Bank)
+summary: Total natural resources rents are the sum of oil rents, natural gas rents, coal rents (hard and
+  soft), mineral rents, and forest rents.
+occurred:
+  start: '1970'
+  end: '2021'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: NY.GDP.TOTL.RT.ZS
+table: tables/wdi-resource-rents.csv
+sources:
+- url: https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS
+  title: Total natural resources rents (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

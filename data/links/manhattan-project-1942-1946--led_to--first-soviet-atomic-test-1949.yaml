@@ -1,0 +1,35 @@
+id: manhattan-project-1942-1946--led_to--first-soviet-atomic-test-1949
+from: manhattan-project-1942-1946
+to: first-soviet-atomic-test-1949
+type: led_to
+confidence: documented
+note: Espionage gave the Soviets extensive intelligence on the Fat Man design, on which their first bomb
+  was roughly based.
+sources:
+- url: https://en.wikipedia.org/wiki/RDS-1
+  title: RDS-1
+  publisher: Wikipedia
+  quote: It was roughly based on the American design, Fat Man, and the United States assigned it the code-name
+    Joe-1, in reference to Joseph Stalin.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/RDS-1
+  title: RDS-1
+  publisher: Wikipedia
+  quote: the Soviets having received extensive intelligence on the design of the Fat Man bomb during World
+    War II, which was discovered in the espionage case of Julius and Ethel Rosenberg and during the Venona
+    project.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: Despite the Manhattan Project's own emphasis on security, Soviet atomic spies penetrated the
+    program.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The existing target event first-soviet-atomic-test-1949 is still unverified; this link assumes it
+    is RDS-1 (29 August 1949), which matches its title.

@@ -1,0 +1,88 @@
+id: new-york-times-and-new-yorker-weinstein-reports-2017
+title: New York Times and New Yorker report allegations against Harvey Weinstein
+wikidata: Q41832063
+summary: The New York Times (Jodi Kantor and Megan Twohey, 5 October) reports that Harvey Weinstein had
+  for three decades been accused of sexual harassment and had reached eight settlements; The New Yorker
+  (Ronan Farrow, 10 October) reports thirteen women who say he harassed or assaulted them, three of whom
+  say he raped them. Weinstein denied any non-consensual sex.
+occurred:
+  start: '2017-10-05'
+  end: '2017-10-10'
+  precision: day
+threads:
+- scandals
+- film-tv
+- media
+regions:
+- americas
+actors:
+- harvey-weinstein
+- the-new-york-times
+- the-new-yorker
+- ronan-farrow
+importance: 4
+source_credibility: high
+outcome: unresolved
+sources:
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: Substantial allegations of sexual misconduct by Weinstein were first reported by The New York
+    Times journalists Jodi Kantor and Megan Twohey on October 5, 2017.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: The story accused Weinstein of three decades of sexually harassing and paying eight settlements
+    to actresses and female production assistants, temps, and other employees who worked at Miramax and
+    TWC.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: In the course of a ten-month investigation, thirteen women interviewed said that, between the
+    nineteen-nineties and 2015, Weinstein sexually harassed or assaulted them.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: Three of the women—among them Argento and a former aspiring actress named Lucia Evans—told me
+    that Weinstein had raped them
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  archive_url: https://web.archive.org/web/20261012081838/https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories
+  title: 'From Aggressive Overtures to Sexual Assault: Harvey Weinstein''s Accusers Tell Their Stories'
+  publisher: The New Yorker (Ronan Farrow)
+  date: '2017-10-10'
+  quote: Any allegations of non-consensual sex are unequivocally denied by Mr. Weinstein.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  archive_url: https://web.archive.org/web/20261012084845/https://en.wikipedia.org/wiki/Harvey_Weinstein_sexual_abuse_cases
+  title: Harvey Weinstein sexual abuse cases
+  publisher: Wikipedia
+  quote: The New York Times and The New Yorker were awarded the 2018 Pulitzer Prize for Public Service
+    for their coverage of Weinstein.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Outcome unresolved for the specific allegations in these two articles: Weinstein''s criminal convictions
+    (New York 2020, overturned 2024, partly re-convicted 2025; Los Angeles 2022) rest on complaints by
+    other women. A count based on Lucia Evans''s allegation in the New Yorker article was later dropped
+    (not sourced here). A reviewer may prefer "confirmed" given the later convictions for similar conduct.'
+  - The New York Times article itself returned HTTP 403; its content is quoted from Wikipedia.
+  - Wikidata Q41832063 is "Harvey Weinstein sexual abuse cases" (the allegations as a whole); near match.

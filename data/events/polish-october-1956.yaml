@@ -1,0 +1,56 @@
+id: polish-october-1956
+title: Polish October
+summary: In October 1956 Władysław Gomułka was appointed First Secretary of Poland's ruling party, ending
+  Stalinism in Poland, after the Secret Speech, the death of Bolesław Bierut and the Poznań protests had
+  weakened the Stalinist faction. After brief, tense negotiations the Soviets let Gomułka stay in power
+  and gave Poland greater autonomy in exchange for its loyalty.
+occurred:
+  start: '1956-10-19'
+  end: '1956-10-22'
+  precision: day
+  note: Main phase; the period of change ran from October to December 1956.
+threads:
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- wladyslaw-gomulka
+- nikita-khrushchev
+- soviet-union
+importance: 3
+wikidata: Q1547540
+sources:
+- url: https://en.wikipedia.org/wiki/Polish_October
+  archive_url: https://web.archive.org/web/20261010234959/https://en.wikipedia.org/wiki/Polish_October
+  title: Polish October
+  publisher: Wikipedia
+  quote: 'Main phase: 19 – 22 October 1956'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polish_October
+  archive_url: https://web.archive.org/web/20261010234959/https://en.wikipedia.org/wiki/Polish_October
+  title: Polish October
+  publisher: Wikipedia
+  quote: Władysław Gomułka was appointed First Secretary of the ruling Polish United Workers' Party (PZPR)
+    marking the end of Stalinism in Poland.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polish_October
+  archive_url: https://web.archive.org/web/20261010234959/https://en.wikipedia.org/wiki/Polish_October
+  title: Polish October
+  publisher: Wikipedia
+  quote: The hardline Stalinist faction of the PZPR was weakened in 1956 from the Secret Speech by Soviet
+    leader Nikita Khrushchev in February, the death of Polish leader Bolesław Bierut in March, and the
+    violent protests in Poznań in June.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polish_October
+  archive_url: https://web.archive.org/web/20261010234959/https://en.wikipedia.org/wiki/Polish_October
+  title: Polish October
+  publisher: Wikipedia
+  quote: The Soviets gave permission for Gomułka to stay in power and greater autonomy to Poland in exchange
+    for maintaining its loyalty to Moscow.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

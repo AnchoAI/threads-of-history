@@ -1,0 +1,17 @@
+id: diet-of-worms-1521--part_of--protestant-reformation-1517
+from: diet-of-worms-1521
+to: protestant-reformation-1517
+type: part_of
+confidence: documented
+note: The Edict of Worms is described as the first overt schism of the Reformation.
+sources:
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: Although the Reformation is usually considered to have begun in 1517, this edict is the first
+    overt schism associated with it.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

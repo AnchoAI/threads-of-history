@@ -1,0 +1,96 @@
+id: volcker-shock-1979
+title: 'Volcker shock: the Fed targets bank reserves to break inflation'
+summary: On 6 October 1979, after an unscheduled meeting, Federal Reserve chairman Paul Volcker announced
+  that the Fed would manage the volume of bank reserves instead of the day-to-day federal funds rate,
+  accepting wider swings in interest rates to rein in inflation. The federal funds rate hit a record 20
+  percent in late 1980 and the policy pushed the economy into a severe recession; Volcker is widely credited
+  with ending the high inflation.
+occurred:
+  start: '1979-10-06'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- paul-volcker
+- federal-reserve
+importance: 4
+decided_by:
+- federal-reserve
+- paul-volcker
+alternatives:
+- option: 'Gradualism: bring inflation down slowly through fine-tuned changes in the federal funds rate'
+  note: The prevailing strategy before October 1979.
+  sources:
+  - url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+    archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+    title: Volcker's Announcement of Anti-Inflation Measures
+    publisher: Federal Reserve History (Bill Medley)
+    quote: The prevailing strategy of gradualism had been to bring the inflation rate down slowly over
+      time through fine-tuned adjustments in the federal funds rate.
+    type: scholarly
+    accessed: '2026-10-15'
+- option: Cut interest rates once unemployment reached 7 percent
+  note: What a Treasury official expected the Fed would be forced to do, in September 1979.
+  sources:
+  - url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+    archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+    title: Volcker's Announcement of Anti-Inflation Measures
+    publisher: Federal Reserve History (Bill Medley)
+    quote: An unnamed Treasury official told the Wall Street Journal in September that the Fed would be
+      forced to cut interest rates once unemployment hit 7 percent
+    type: scholarly
+    accessed: '2026-10-15'
+wikidata: none
+sources:
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: During a rare press conference on the evening of October 6, 1979, the Saturday before Columbus
+    Day, Volcker announced the results of an unscheduled FOMC meeting held earlier that day.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: Volcker explained the FOMC would shift its focus to managing the volume of bank reserves in the
+    system instead of trying to manage the day-to-day level of the federal funds rate
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: It was an approach that would lead to more fluctuation in rates and, Volcker hoped, rein in inflation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: As a result of the new focus and the restrictive targets set for the money supply, the federal
+    funds rate reached a record high of 20 percent in late 1980.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: Meanwhile, the new policy was also pushing the economy into a severe recession
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Volcker_shock
+  title: Paul Volcker
+  publisher: Wikipedia
+  quote: Volcker was widely credited with having ended the high levels of inflation seen in the United
+    States throughout the 1970s and early 1980s, with measures known as the "Volcker shock".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Wikipedia''s ''Volcker shock'' redirects to the article on Paul Volcker (Q349785),
+    used by the actor paul-volcker.'

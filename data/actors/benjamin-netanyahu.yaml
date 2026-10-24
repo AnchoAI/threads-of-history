@@ -1,0 +1,21 @@
+id: benjamin-netanyahu
+title: Benjamin Netanyahu
+actor_type: person
+summary: Prime Minister of Israel (born 1949), (1996–1999; 2009–2021; 2022–present).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q43723
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q43723.json
+  title: Benjamin Netanyahu
+  publisher: Wikidata
+  quote: Prime Minister of Israel (born 1949), (1996–1999; 2009–2021; 2022–present)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

@@ -1,0 +1,22 @@
+id: franz-ferdinand
+title: Archduke Franz Ferdinand of Austria
+actor_type: person
+summary: Heir presumptive to the throne of Austria-Hungary (1863–1914).
+threads:
+- ww1
+regions:
+- russia-eastern-europe
+- western-europe
+importance: 3
+wikidata: Q43063
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q43063.json
+  title: Archduke Franz Ferdinand of Austria
+  publisher: Wikidata
+  quote: heir presumptive to the throne of Austria-Hungary (1863–1914)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

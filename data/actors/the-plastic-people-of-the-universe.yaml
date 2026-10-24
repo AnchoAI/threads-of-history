@@ -1,0 +1,21 @@
+id: the-plastic-people-of-the-universe
+title: The Plastic People of the Universe
+actor_type: group
+summary: Czech rock group.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 2
+wikidata: Q1478653
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1478653.json
+  title: The Plastic People of the Universe
+  publisher: Wikidata
+  quote: Czech rock group
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,26 @@
+id: crusades-1095--echo--september-11-attacks-2001
+from: crusades-1095
+to: september-11-attacks-2001
+type: echo
+confidence: documented
+note: 'Both sides reached for crusade language after 9/11: Bush called the war on terror a ''crusade'', and jihadists
+  call their enemies ''crusaders''.'
+sources:
+- url: https://en.wikipedia.org/wiki/Crusading_movement
+  title: Crusading movement
+  publisher: Wikipedia
+  quote: After 9/11, President George W. Bush controversially called the war on terror a "crusade". Muslim fundamentalists
+    often label adversaries as "crusaders"
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Crusading_movement
+  title: Crusading movement
+  publisher: Wikipedia
+  quote: Such a broad use of the term can be found in Osama bin Laden's Declaration of the World Islamic Front for
+    Jihad Against Jews and Crusaders
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

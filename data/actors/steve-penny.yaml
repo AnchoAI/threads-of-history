@@ -1,0 +1,22 @@
+id: steve-penny
+title: Steve Penny
+actor_type: person
+summary: American businessman and sports administrator.
+threads:
+- sport
+regions:
+- americas
+importance: 2
+wikidata: Q10374194
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q10374194.json
+  title: Steve Penny
+  publisher: Wikidata
+  quote: American businessman and sports administrator
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

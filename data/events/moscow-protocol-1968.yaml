@@ -1,0 +1,59 @@
+id: moscow-protocol-1968
+title: Moscow Protocol
+summary: After the invasion, Czechoslovak leaders including Svoboda, Dubček, Černík and Smrkovský negotiated
+  in Moscow from 23 to 26 August 1968 and signed a protocol promising to protect socialism, restrain critical
+  media and reject UN Security Council involvement; only František Kriegel refused to sign.
+occurred:
+  start: '1968-08-23'
+  end: '1968-08-26'
+  precision: day
+threads:
+- usru
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- alexander-dubcek
+- leonid-brezhnev
+- soviet-union
+- czechoslovakia
+importance: 3
+wikidata: Q3131080
+sources:
+- url: https://en.wikipedia.org/wiki/Moscow_Protocol
+  archive_url: https://web.archive.org/web/20260913155314/https://en.wikipedia.org/wiki/Moscow_Protocol
+  title: Moscow Protocol
+  publisher: Wikipedia
+  quote: The negotiations took place from 23 to 26 August 1968.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Moscow_Protocol
+  archive_url: https://web.archive.org/web/20260913155314/https://en.wikipedia.org/wiki/Moscow_Protocol
+  title: Moscow Protocol
+  publisher: Wikipedia
+  quote: The main signatories were President Ludvík Svoboda, First Secretary of the Central Committee of the
+    Communist Party of Czechoslovakia Alexander Dubček, Prime Minister Oldřich Černík, Chairman of the National
+    Assembly Josef Smrkovský
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Moscow_Protocol
+  archive_url: https://web.archive.org/web/20260913155314/https://en.wikipedia.org/wiki/Moscow_Protocol
+  title: Moscow Protocol
+  publisher: Wikipedia
+  quote: The only person present at the negotiations who declined to sign was František Kriegel.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Moscow_Protocol
+  archive_url: https://web.archive.org/web/20260913155314/https://en.wikipedia.org/wiki/Moscow_Protocol
+  title: Moscow Protocol
+  publisher: Wikipedia
+  quote: promises to protect socialism in Czechoslovakia, to act upon the promises made in the Bratislava Declaration,
+    to denounce the 14th Party Congress and its resolutions, to restrain critical Czechoslovak media, and to
+    reject any interference in the Eastern Bloc by the United Nations Security Council
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

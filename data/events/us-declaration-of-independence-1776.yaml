@@ -1,0 +1,33 @@
+id: us-declaration-of-independence-1776
+title: US Declaration of Independence
+summary: The Second Continental Congress, meeting in Philadelphia, unanimously adopts the Declaration
+  of Independence, the founding document of the United States.
+occurred:
+  start: '1776-07-04'
+  precision: day
+threads:
+- revolutions
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q127912
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  title: United States Declaration of Independence
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261007042119/https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  quote: On July 4, 1776, it was adopted unanimously by the Second Continental Congress, who were convened
+    at the Pennsylvania State House, later renamed Independence Hall, in Philadelphia.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  title: United States Declaration of Independence
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261007042119/https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+  quote: is the founding document of the United States
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

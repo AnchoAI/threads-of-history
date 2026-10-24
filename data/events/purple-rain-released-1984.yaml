@@ -1,0 +1,35 @@
+id: purple-rain-released-1984
+title: Prince releases Purple Rain
+summary: Prince releases the album Purple Rain on 25 June 1984. Complaints about the lyrics of its track "Darling
+  Nikki" from Tipper Gore and the Parents Music Resource Center contribute to the introduction of Parental
+  Advisory stickers.
+occurred:
+  start: '1984-06-25'
+  precision: day
+threads:
+- music
+regions:
+- americas
+actors:
+- prince-musician
+importance: 2
+wikidata: Q253004
+sources:
+- url: https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  archive_url: https://web.archive.org/web/20261010042914/https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  title: Purple Rain (album)
+  publisher: Wikipedia
+  quote: It was released on June 25, 1984, through Warner Bros.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  archive_url: https://web.archive.org/web/20261010042914/https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  title: Purple Rain (album)
+  publisher: Wikipedia
+  quote: The risqué lyrics of "Darling Nikki" also raised complaints from Tipper Gore and the Parents Music
+    Resource Center and contributed to the implementation of Parental Advisory stickers and imprints on album
+    covers.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

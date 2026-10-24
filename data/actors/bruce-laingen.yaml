@@ -1,0 +1,22 @@
+id: bruce-laingen
+title: Bruce Laingen
+actor_type: person
+summary: United States diplomat, chargé d'affaires in Tehran in 1979 (1922–2019).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q4977822
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q4977822.json
+  title: Bruce Laingen
+  publisher: Wikidata
+  quote: United States diplomat (1922-2019)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.
+  - The office named in the summary comes from the sources on this batch's events (FRUS, Daugherty), not from the
+    Wikidata description.

@@ -1,0 +1,46 @@
+id: opana-radar-detects-japanese-aircraft-1941
+title: Opana radar detects incoming aircraft
+summary: As the first wave of Japanese aircraft approaches Oahu on the morning of 7 December 1941, a US
+  Army radar at Opana Point detects it. The duty officer at the Intercept Center presumes it is a scheduled
+  flight of B-17 bombers from California, and no alarm is raised.
+occurred:
+  start: '1941-12-07'
+  precision: day
+threads:
+- ww2
+- intel
+regions:
+- americas
+actors:
+- united-states
+- empire-of-japan
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: attack-on-pearl-harbor-1941
+sources:
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: As the first wave approached Oahu, it was detected by United States Army SCR-270 radar positioned
+    at Opana Point near the island's northern tip.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: presumed it was the scheduled arrival of six B-17 bombers from California.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: The first wave was detected by United States Army radar at 136 nautical miles (252 km), but was
+    misidentified as United States Army Air Forces bombers arriving from the American mainland.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - '''No alarm is raised'' summarises the misidentification; the source does not use those words. Hour
+    precision (the attack began at 7:48 a.m.) could be added.'

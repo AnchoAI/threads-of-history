@@ -1,0 +1,41 @@
+id: jallianwala-bagh-massacre-1919
+title: Jallianwala Bagh (Amritsar) massacre
+summary: In Amritsar, troops under Brigadier-General Reginald Dyer fire on a crowd gathered in the Jallianwala
+  Bagh, partly to protest the Rowlatt Act. Estimates of the dead range from 379 to 1,500 or more.
+occurred:
+  start: '1919-04-13'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- british-raj
+- reginald-dyer
+importance: 4
+wikidata: Q208855
+sources:
+- url: https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre
+  title: Jallianwala Bagh massacre
+  publisher: Wikipedia
+  quote: took place on 13 April 1919. A large crowd had gathered at the Jallianwala Bagh in Amritsar,
+    Punjab, British India, during the annual Baisakhi fair to protest against the Rowlatt Act
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre
+  title: Jallianwala Bagh massacre
+  publisher: Wikipedia
+  quote: Dyer ordered them to shoot at the crowd, continuing to fire even as the protestors tried to flee
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre
+  title: Jallianwala Bagh massacre
+  publisher: Wikipedia
+  quote: Estimates of those killed vary from 379 to 1,500 or more people
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

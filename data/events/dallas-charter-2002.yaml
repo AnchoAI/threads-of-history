@@ -1,0 +1,57 @@
+id: dallas-charter-2002
+title: US bishops adopt the Charter for the Protection of Children and Young People
+wikidata: none
+summary: Meeting in Dallas, the United States Conference of Catholic Bishops unanimously adopts the Charter
+  for the Protection of Children and Young People, a "zero tolerance" policy that requires dioceses facing
+  an allegation to alert the authorities, investigate and remove the accused from duty.
+occurred:
+  start: '2002-06'
+  precision: month
+threads:
+- scandals
+- religion
+regions:
+- americas
+actors:
+- united-states-conference-of-catholic-bishops
+- catholic-church
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: In June 2002, the USCCB unanimously promulgated a Charter for the Protection of Children and
+    Young People, sometimes referred to as the Dallas Charter.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: The thrust of the charter was the adoption of a "zero tolerance" policy for sexual abuse.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: They now require dioceses faced with an allegation to alert the authorities, conduct an investigation
+    and remove the accused from duty.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.usccb.org/offices/child-and-youth-protection/charter-protection-children-and-young-people
+  archive_url: https://web.archive.org/web/20260805213438/https://www.usccb.org/offices/child-and-youth-protection/charter-protection-children-and-young-people
+  title: Charter for the Protection of Children and Young People
+  publisher: United States Conference of Catholic Bishops
+  quote: In Dallas, 2002, at their Annual Meeting, the U.S. Conference of Catholic Bishops drafted a landmark
+    document in response to the crisis of sexual abuse of children in the Church.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no item found for the Charter (its English Wikipedia title redirects to the US abuse cases
+    article); set to none.'

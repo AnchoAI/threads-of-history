@@ -1,0 +1,19 @@
+id: perestroika-and-glasnost-1985--led_to--singing-revolution-1987
+from: perestroika-and-glasnost-1985
+to: singing-revolution-1987
+type: led_to
+confidence: documented
+note: Glasnost lifted limits on political freedom, which made it harder for Moscow to keep control of the Baltic
+  republics.
+sources:
+- url: https://en.wikipedia.org/wiki/Singing_Revolution
+  archive_url: https://web.archive.org/web/20261010042540/https://en.wikipedia.org/wiki/Singing_Revolution
+  title: Singing Revolution
+  publisher: Wikipedia
+  quote: Glasnost rescinded limitations on political freedoms in the Soviet Union, which led to problems for
+    the Soviet central government in retaining control over non-Russian areas, including the occupied Baltic
+    countries.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

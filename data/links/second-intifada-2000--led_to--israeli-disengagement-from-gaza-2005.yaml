@@ -1,0 +1,26 @@
+id: second-intifada-2000--led_to--israeli-disengagement-from-gaza-2005
+from: second-intifada-2000
+to: israeli-disengagement-from-gaza-2005
+type: led_to
+confidence: documented
+note: Israeli sources cite the cost of fighting militants during and after the intifada as a main reason for
+  leaving Gaza.
+sources:
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: In 2005, following the Second Intifada (2000–05), Israel withdrew its forces from the Gaza Strip
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: 'Israeli officials, historians, and legal analysts cited several motives behind the country''s decision
+    to withdraw from the territory, with the two most significant factors being: the unsustainable cost of
+    persistent and intensive fighting with Hamas and other Palestinian militant organizations'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

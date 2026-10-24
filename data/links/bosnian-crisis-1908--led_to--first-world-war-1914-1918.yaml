@@ -1,0 +1,20 @@
+id: bosnian-crisis-1908--led_to--first-world-war-1914-1918
+from: bosnian-crisis-1908
+to: first-world-war-1914-1918
+type: led_to
+confidence: documented
+note: The annexation crisis permanently damaged Austria-Hungary's relations with Serbia, Italy and Russia and helped
+  lay the ground for the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_Crisis
+  archive_url: https://web.archive.org/web/20261002061723/https://en.wikipedia.org/wiki/Bosnian_Crisis
+  title: Bosnian Crisis
+  publisher: Wikipedia
+  quote: it permanently damaged relations between Austria-Hungary and its neighbors, especially Serbia, Italy and
+    Russia, and in the long term helped lay the grounds for World War I.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

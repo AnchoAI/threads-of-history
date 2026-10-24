@@ -1,0 +1,80 @@
+id: snie-100-4-59-prc-attempts-to-seize-quemoy-1959
+title: 'SNIE 100-4-59: China tries to seize Quemoy or cut off its supply'
+summary: In March 1959 the US intelligence community judged that over the next year the Chinese Communists would
+  not try to seize Quemoy (Kinmen) or make an all-out effort to stop its resupply. Neither happened; the informal
+  shelling arrangement of October 1958 continued until 1979.
+threads:
+- china
+- intel
+regions:
+- east-asia
+actors:
+- cia
+- peoples-republic-of-china
+- taiwan
+importance: 2
+window:
+  start: '1959-03-13'
+  end: '1960-03-13'
+  precision: day
+probability: 0.3
+stated_as: We believe that they will not attempt to seize Chinmen or undertake an all-out effort to prevent its
+  resupply.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''we believe that … not'' / ''unlikely'' (Kent''s
+  ''probably not'' bracket) = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1959-03-13'
+resolves_by: '1960-03-13'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1960-03-13'
+  note: No such attempt was made; the informal shelling arrangement of October 1958 continued until 1979.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1958-60v19/d272
+  archive_url: https://web.archive.org/web/20260310062216/https://history.state.gov/historicaldocuments/frus1958-60v19/d272
+  title: 'Special National Intelligence Estimate SNIE 100-4-59: Chinese Communist Intentions and Probable Courses
+    of Action in the Taiwan Strait Area'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1959-03-13'
+  quote: To assess Communist China’s capabilities, intentions, and probable courses of action with respect to the
+    Taiwan Strait area over the next year.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1958-60v19/d272
+  archive_url: https://web.archive.org/web/20260310062216/https://history.state.gov/historicaldocuments/frus1958-60v19/d272
+  title: 'Special National Intelligence Estimate SNIE 100-4-59: Chinese Communist Intentions and Probable Courses
+    of Action in the Taiwan Strait Area'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1959-03-13'
+  quote: We believe that they will not attempt to seize Chinmen or undertake an all-out effort to prevent its resupply.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: This strange informal arrangement continued until the normalization of diplomatic relations between the
+    United States and the Communist People's Republic of China in 1979.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'Evidence for the non-event is indirect: the source describes the shelling arrangement continuing to 1979, which
+    implies no seizure or blockade in 1959–60.'

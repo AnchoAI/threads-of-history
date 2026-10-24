@@ -1,0 +1,56 @@
+id: radio-free-europe-first-broadcast-1950
+title: Radio Free Europe begins broadcasting
+summary: Radio Free Europe, a US-funded station, makes its first broadcast to Czechoslovakia on 4 July 1950 from
+  Lampertheim, West Germany. It publicised anti-Soviet protests and nationalist movements, and Soviet authorities
+  jammed its signals.
+occurred:
+  start: '1950-07-04'
+  precision: day
+threads:
+- media
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- radio-free-europe-radio-liberty
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  archive_url: https://web.archive.org/web/20261013133406/https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikipedia
+  quote: In January 1950, the NCFE obtained a transmitter base at Lampertheim, West Germany, and on 4 July of the
+    same year RFE completed its first broadcast aimed at Czechoslovakia.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  archive_url: https://web.archive.org/web/20261013133406/https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikipedia
+  quote: Unlike government-censored programs, RFE publicized anti-Soviet protests and nationalist movements.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  archive_url: https://web.archive.org/web/20261013133406/https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikipedia
+  quote: Soviet authorities jammed their signals
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  archive_url: https://web.archive.org/web/20261013133406/https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikipedia
+  quote: Radio Free Europe/Radio Liberty (RFE/RL) is an American state-funded media organization
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB (film, television, press and the internet). Summary and dates checked against the quoted sources; no
+    person has reviewed them yet.
+  - Wikidata Q485500 is the broadcaster itself and sits on the actor radio-free-europe-radio-liberty; no item for
+    the first broadcast was found, so wikidata is set to "none"; a person should confirm with a full Wikidata search.

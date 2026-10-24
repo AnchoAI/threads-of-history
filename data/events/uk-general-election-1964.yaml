@@ -1,0 +1,38 @@
+id: uk-general-election-1964
+title: 1964 UK general election
+summary: On 15 October 1964 the Conservatives under Alec Douglas-Home narrowly lose to Harold Wilson's Labour Party,
+  which wins a majority of four seats and ends thirteen years in opposition.
+occurred:
+  start: '1964-10-15'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- united-kingdom
+importance: 3
+wikidata: Q220208
+sources:
+- url: https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  archive_url: https://web.archive.org/web/20261005215446/https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  title: 1964 United Kingdom general election
+  publisher: Wikipedia
+  quote: A general election was held in the United Kingdom on Thursday, 15 October 1964.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  archive_url: https://web.archive.org/web/20261005215446/https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  title: 1964 United Kingdom general election
+  publisher: Wikipedia
+  quote: It resulted in the Conservatives, led by Prime Minister Alec Douglas-Home, narrowly losing to the Labour
+    Party, led by Harold Wilson; Labour secured a parliamentary majority of four seats and ended its thirteen years
+    in opposition since the 1951 election.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Placed on the scandals thread only because no British-politics thread exists; it is a consequence, not a scandal.

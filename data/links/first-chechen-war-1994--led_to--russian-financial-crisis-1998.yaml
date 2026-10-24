@@ -1,0 +1,25 @@
+id: first-chechen-war-1994--led_to--russian-financial-crisis-1998
+from: first-chechen-war-1994
+to: russian-financial-crisis-1998
+type: led_to
+confidence: documented
+note: The cost of the first Chechen war is named among the causes of the 1998 crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/1998_Russian_financial_crisis
+  archive_url: https://web.archive.org/web/20261009122313/https://en.wikipedia.org/wiki/1998_Russian_financial_crisis
+  title: 1998 Russian financial crisis
+  publisher: Wikipedia
+  quote: The economic cost of the first war in Chechnya took a significant toll on the Russian economy.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1998_Russian_financial_crisis
+  archive_url: https://web.archive.org/web/20261009122313/https://en.wikipedia.org/wiki/1998_Russian_financial_crisis
+  title: 1998 Russian financial crisis
+  publisher: Wikipedia
+  quote: causing budget deficits close to 10% of their GDP
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

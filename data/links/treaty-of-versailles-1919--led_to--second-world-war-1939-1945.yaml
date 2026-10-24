@@ -1,0 +1,42 @@
+id: treaty-of-versailles-1919--led_to--second-world-war-1939-1945
+from: treaty-of-versailles-1919
+to: second-world-war-1939-1945
+type: led_to
+confidence: contested
+note: Whether the treaty's terms helped bring about the Nazi rise and the Second World War is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+  title: Treaty of Versailles
+  publisher: Wikipedia
+  quote: Historians are split on the impact of the treaty.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: Resentment of the treaty powered the rise of the Nazi Party and, eventually, the war.
+  held_by:
+  - Historians cited in the Wikipedia article on the treaty
+  sources:
+  - url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+    title: Treaty of Versailles
+    publisher: Wikipedia
+    quote: Bitter resentment of the treaty powered the rise of the Nazi Party, and eventually the outbreak
+      of a Second World War.
+    type: reference
+    accessed: '2026-10-03'
+- claim: The treaty's terms did not prevent German democracy or aid the Nazi rise.
+  held_by:
+  - Jürgen Tampke
+  sources:
+  - url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+    title: Treaty of Versailles
+    publisher: Wikipedia
+    quote: the German-born Australian historian Jürgen Tampke argued that it was "a perfidious distortion
+      of history" to argue that the terms prevented the growth of democracy in Germany and aided the growth
+      of the Nazi Party
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

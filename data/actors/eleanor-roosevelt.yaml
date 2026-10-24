@@ -1,0 +1,22 @@
+id: eleanor-roosevelt
+title: Eleanor Roosevelt
+actor_type: person
+summary: American diplomat and activist, First Lady of the United States from 1933 to 1945 (1884–1962).
+threads:
+- revolutions
+regions:
+- americas
+importance: 3
+wikidata: Q83396
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q83396.json
+  title: Eleanor Roosevelt
+  publisher: Wikidata
+  quote: American diplomat and activist, First Lady of the United States from 1933 to 1945 (1884–1962)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

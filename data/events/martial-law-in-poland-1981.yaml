@@ -1,0 +1,53 @@
+id: martial-law-in-poland-1981
+title: Martial law in Poland
+summary: General Wojciech Jaruzelski declares martial law on 13 December 1981 to counter the opposition,
+  above all Solidarity, suspending the union and imprisoning its leaders. Martial law lasted until 22
+  July 1983 and left Solidarity largely on the sidelines until the late 1980s.
+occurred:
+  start: '1981-12-13'
+  end: '1983-07-22'
+  precision: day
+threads:
+- revolutions
+- rights
+regions:
+- russia-eastern-europe
+actors:
+- solidarity
+- lech-walesa
+importance: 3
+wikidata: Q718605
+sources:
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Poland
+  title: Martial law in Poland
+  publisher: Wikipedia
+  quote: 'Martial law in Poland (Polish: Stan wojenny w Polsce) was in effect between 13 December 1981
+    and 22 July 1983.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Poland
+  title: Martial law in Poland
+  publisher: Wikipedia
+  quote: in an attempt to counter political opposition, in particular the Solidarity movement
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: on 13 December 1981, Polish prime minister Wojciech Jaruzelski started a crackdown on Solidarity
+    by declaring martial law in Poland, suspending the union, and temporarily imprisoning all of its leaders.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Poland
+  title: Martial law in Poland
+  publisher: Wikipedia
+  quote: Martial law succeeded in marginalising the Solidarity movement, which would largely remain on
+    the sidelines until the late 1980s.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

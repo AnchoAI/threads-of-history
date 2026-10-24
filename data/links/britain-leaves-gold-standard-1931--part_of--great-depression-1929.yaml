@@ -1,0 +1,17 @@
+id: britain-leaves-gold-standard-1931--part_of--great-depression-1929
+from: britain-leaves-gold-standard-1931
+to: great-depression-1929
+type: part_of
+confidence: documented
+note: Every major currency left the gold standard during the Depression.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: Every major currency left the gold standard during the Great Depression. The UK was the first
+    to do so.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

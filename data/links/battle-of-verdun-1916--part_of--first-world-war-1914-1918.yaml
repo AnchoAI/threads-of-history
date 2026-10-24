@@ -1,0 +1,17 @@
+id: battle-of-verdun-1916--part_of--first-world-war-1914-1918
+from: battle-of-verdun-1916
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Battle of Verdun was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Verdun
+  title: Battle of Verdun
+  publisher: Wikipedia
+  quote: The battle was the longest of the First World War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

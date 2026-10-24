@@ -1,0 +1,52 @@
+id: protestant-reformation-1517--led_to--thirty-years-war-1618
+from: protestant-reformation-1517
+to: thirty-years-war-1618
+type: led_to
+confidence: contested
+note: Religious conflict from the Reformation underlay the war, but historians weigh it against dynastic
+  and great-power rivalry.
+sources:
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: Its causes derived from religious conflict within the Holy Roman Empire, sparked by the 16th-century
+    Reformation.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Religious conflict sparked by the Reformation was an important cause of the war.
+  held_by:
+  - Wikipedia, "Thirty Years' War"
+  sources:
+  - url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+    title: Thirty Years' War
+    publisher: Wikipedia
+    quote: Combined with disagreements over the limits of imperial authority, religion was thus an important
+      factor in starting the war.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Reformation
+    title: Reformation
+    publisher: Wikipedia
+    quote: The Thirty Years' War began in 1618 and brought a drastic territorial and demographic decline
+      when the House of Habsburg introduced counter-reformational measures throughout their vast possessions
+      in Central Europe.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The war's scope and length came mainly from external rivalries, above all France against the
+    Habsburgs and the Dutch Revolt.
+  held_by:
+  - Wikipedia, "Thirty Years' War"
+  sources:
+  - url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+    title: Thirty Years' War
+    publisher: Wikipedia
+    quote: However, its scope and extent were largely the consequence of external drivers such as the
+      French–Habsburg rivalry and the Dutch Revolt.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Both positions are stated in the same Wikipedia article; a reviewer could attribute them to named
+    historians (e.g. Peter H. Wilson).

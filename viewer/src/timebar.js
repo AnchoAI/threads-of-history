@@ -23,13 +23,11 @@ export class TimeBar {
 
   // time <-> x within the canvas, across the full limits
   #tx(t) {
-    const [lo, hi] = this.win.limits;
-    return ((t - lo) / (hi - lo)) * this.canvas.clientWidth;
+    return this.win.share(t) * this.canvas.clientWidth;
   }
 
   #xt(x) {
-    const [lo, hi] = this.win.limits;
-    return lo + (x / this.canvas.clientWidth) * (hi - lo);
+    return this.win.fromShare(x / this.canvas.clientWidth);
   }
 
   draw() {
@@ -49,7 +47,7 @@ export class TimeBar {
     const bins = Math.max(20, Math.floor(w / 4));
     const counts = new Array(bins).fill(0);
     const [lo, hi] = this.win.limits;
-    for (const t of this.starts) counts[Math.min(bins - 1, Math.floor(((t - lo) / (hi - lo)) * bins))]++;
+    for (const t of this.starts) counts[Math.max(0, Math.min(bins - 1, Math.floor(this.win.share(t) * bins)))]++;
     const max = Math.max(...counts, 1);
     g.fillStyle = muted;
     g.globalAlpha = 0.55;
@@ -70,13 +68,31 @@ export class TimeBar {
     g.lineWidth = 1.5;
     g.strokeRect(x0 + 0.75, 0.75, x1 - x0 - 1.5, h - 1.5);
 
-    // Decade marks.
+    // The "knowable on" date, when the slider is on.
+    const k = this.timeline.knowable;
+    if (k) {
+      const xk = this.#tx(k.t);
+      g.strokeStyle = css.getPropertyValue("--known").trim() || "#8FD3FF";
+      g.lineWidth = 2;
+      g.beginPath();
+      g.moveTo(xk, 0);
+      g.lineTo(xk, h);
+      g.stroke();
+    }
+
+    // Year marks: round years first, then finer ones wherever there is room.
     g.fillStyle = ink;
     g.globalAlpha = 0.5;
     g.font = "10px 'IBM Plex Mono', ui-monospace, monospace";
-    const step = (hi - lo) > 80 ? 20 : 10;
-    for (let y = Math.ceil(lo / step) * step; y < hi; y += step) {
-      g.fillText(String(y), this.#tx(y) + 2, 10);
+    const kept = [];
+    for (const step of [500, 100, 50, 20, 10, 5]) {
+      if ((hi - lo) / step > 400) continue;
+      for (let y = Math.ceil(lo / step) * step; y < hi; y += step) {
+        const x = this.#tx(y);
+        if (x > w - 28 || kept.some((k) => Math.abs(k - x) < 44)) continue;
+        kept.push(x);
+        g.fillText(String(y), x + 2, 10);
+      }
     }
     g.globalAlpha = 1;
     this.label.textContent = describe(this.win);

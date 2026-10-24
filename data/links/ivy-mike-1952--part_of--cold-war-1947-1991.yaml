@@ -1,0 +1,18 @@
+id: ivy-mike-1952--part_of--cold-war-1947-1991
+from: ivy-mike-1952
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The first US hydrogen bomb test was a key point in the Cold War nuclear arms race.
+sources:
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  title: Ivy Mike
+  publisher: Wikipedia
+  quote: The test was a key point in the nuclear arms race between the US and Soviet Union during the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

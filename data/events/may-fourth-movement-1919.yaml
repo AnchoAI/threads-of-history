@@ -1,0 +1,42 @@
+id: may-fourth-movement-1919
+title: May Fourth Movement
+summary: Students protest in Beijing against the Paris Peace Conference decision to let Japan keep the
+  former German territories in Shandong. Under pressure, China's delegation refuses to sign the Treaty
+  of Versailles.
+occurred:
+  start: '1919-05-04'
+  precision: day
+threads:
+- china
+- ww1
+regions:
+- east-asia
+actors:
+- republic-of-china-1912-1949
+- empire-of-japan
+importance: 4
+wikidata: Q279790
+sources:
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: Students gathered in front of Tiananmen to protest the Chinese government's weak response to
+    the Treaty of Versailles decision to allow the Empire of Japan to retain territories in Shandong that
+    had been surrendered by the German Empire after the Siege of Tsingtao in 1914.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: Under the pressure, the Chinese delegation refused to sign the Treaty of Versailles.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: The May Fourth Movement was a Chinese cultural and anti-imperialist political movement which
+    grew out of student protests in Beijing on May 4, 1919.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

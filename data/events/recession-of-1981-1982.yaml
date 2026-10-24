@@ -1,0 +1,46 @@
+id: recession-of-1981-1982
+title: US recession of 1981–1982
+summary: A US recession from July 1981 to November 1982, triggered by the tight monetary policy used to
+  fight inflation. Unemployment reached nearly 11 percent, the highest since the Second World War, while
+  inflation fell to 5 percent by October 1982.
+occurred:
+  start: 1981-07
+  end: 1982-11
+  precision: month
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- united-states
+- federal-reserve
+importance: 3
+wikidata: Q5326572
+sources:
+- url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  archive_url: https://web.archive.org/web/20261014074435/https://www.federalreservehistory.org/essays/recession-of-1981-82
+  title: Recession of 1981-82
+  publisher: Federal Reserve History (Tim Sablik)
+  quote: Lasting from July 1981 to November 1982, this economic downturn was triggered by tight monetary
+    policy in an effort to fight mounting inflation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  archive_url: https://web.archive.org/web/20261014074435/https://www.federalreservehistory.org/essays/recession-of-1981-82
+  title: Recession of 1981-82
+  publisher: Federal Reserve History (Tim Sablik)
+  quote: the nearly 11 percent unemployment rate reached late in 1982 remains the apex of the post-World
+    War II era
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  archive_url: https://web.archive.org/web/20261014074435/https://www.federalreservehistory.org/essays/recession-of-1981-82
+  title: Recession of 1981-82
+  publisher: Federal Reserve History (Tim Sablik)
+  quote: By October 1982, inflation had fallen to 5 percent and long-run interest rates began to decline.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The wikidata item is 'early 1980s recession in the United States', which may also cover the 1980 recession.

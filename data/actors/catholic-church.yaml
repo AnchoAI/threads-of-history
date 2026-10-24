@@ -1,0 +1,23 @@
+id: catholic-church
+title: Catholic Church
+actor_type: organization
+summary: Largest Christian Church, made up of 24 autonomous Churches in communion with the Pope, part
+  of the Latin Church aka Latin Christianity a.k.a. western Christianity.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q9592
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9592.json
+  title: Catholic Church
+  publisher: Wikidata
+  quote: largest Christian Church, made up of 24 autonomous Churches in communion with the Pope, part
+    of the Latin Church aka Latin Christianity a.k.a. western Christianity
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

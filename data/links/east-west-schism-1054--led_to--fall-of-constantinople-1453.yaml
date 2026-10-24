@@ -1,0 +1,53 @@
+id: east-west-schism-1054--led_to--fall-of-constantinople-1453
+from: east-west-schism-1054
+to: fall-of-constantinople-1453
+type: led_to
+confidence: contested
+note: Whether the split between the churches cost Byzantium Western help in 1453 is a matter of interpretation;
+  Western weakness is also cited.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+  title: Fall of Constantinople
+  publisher: Wikipedia
+  quote: Byzantine Emperor Constantine XI swiftly understood Mehmed's true intentions and turned to Western
+    Europe for help; but now the price of centuries of war and enmity between the eastern and western
+    churches had to be paid.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Centuries of enmity between the churches since 1054 left Constantinople with little Western help
+    against the Ottomans.
+  held_by:
+  - Wikipedia, "Fall of Constantinople" (narrative account)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+    title: Fall of Constantinople
+    publisher: Wikipedia
+    quote: Since the mutual excommunications of 1054, the Pope in Rome was committed to establishing authority
+      over the eastern church.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+    title: Fall of Constantinople
+    publisher: Wikipedia
+    quote: but now the price of centuries of war and enmity between the eastern and western churches had
+      to be paid.
+    type: reference
+    accessed: '2026-10-14'
+- claim: Western rulers could not have helped much anyway, being weakened by their own wars.
+  held_by:
+  - Wikipedia, "Fall of Constantinople" (narrative account)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+    title: Fall of Constantinople
+    publisher: Wikipedia
+    quote: Furthermore, these Western rulers did not have the wherewithal to contribute to the effort,
+      especially in light of the weakened state of France and England from the Hundred Years' War, Spain's
+      involvement in the Reconquista
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Both positions come from the same Wikipedia narrative; a reviewer could replace the held_by with named
+    historians (e.g. from the article's cited works).

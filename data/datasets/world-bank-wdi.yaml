@@ -1,0 +1,45 @@
+id: world-bank-wdi
+title: World Development Indicators
+publisher: The World Bank
+url: https://datatopics.worldbank.org/world-development-indicators/
+download_url: https://api.worldbank.org/v2/sources/2
+version: live (database last updated 2026-10-08); each import records its query date
+license:
+  name: CC BY 4.0 with World Bank additional terms
+  url: https://www.worldbank.org/ext/en/legal/terms-conditions/datasets
+  redistribution: allowed
+  attribution: 'The World Bank: World Development Indicators: <data source>. For infant mortality (SP.DYN.IMRT.IN)
+    the data source is the UN Inter-agency Group for Child Mortality Estimation. Any sub-licence must pass the same
+    attribution requirement on.'
+citation: 'The World Bank: World Development Indicators: UN Inter-agency Group for Child Mortality Estimation (indicator
+  SP.DYN.IMRT.IN, Mortality rate, infant (per 1,000 live births)).'
+unit_of_analysis: country-year
+coverage:
+  start: '1960'
+  precision: year
+  ongoing: true
+  note: The WDI API returns rows for 1960 to 2025 for SP.DYN.IMRT.IN (queried 2026-10-18 for the world aggregate,
+    whose first non-empty value is 1990). Country series start at different years.
+importer: tools/importers/wdi.py
+notes:
+- 'Licence, quoted from the World Bank dataset terms (https://www.worldbank.org/ext/en/legal/terms-conditions/datasets):
+  "Unless specifically labeled otherwise, these Datasets are provided to you under a Creative Commons Attribution 4.0
+  International License (CC BY 4.0), with the additional terms below."'
+- 'Additional term on the same page: "You agree to provide attribution to The World Bank and its data providers in
+  the following format: The World Bank: Dataset name: Data source (if known)." It also requires passing that requirement
+  on in any sub-licence. The citation above follows that format; the World Bank prints no fixed citation.'
+- 'Third-party exception, same page: "Some datasets and indicators are provided by third parties, and may not be redistributed
+  or reused without the consent of the original data provider". Check each indicator''s License_Type before importing
+  it. For infant mortality, the series metadata (https://api.worldbank.org/v2/sources/2/series/SP.DYN.IMRT.IN/metadata?format=json)
+  says "id":"License_Type","value":"CC BY-4.0".'
+- 'Version: the API lists WDI with "lastupdated":"2026-10-08","name":"World Development Indicators" (https://api.worldbank.org/v2/sources/2?format=json).
+  WDI is revised continuously, so the importer must pin the query date.'
+- 'Vintages: the World Bank API also serves "WDI Database Archives" (source 57), with 142 versions starting {"id":"198904","value":"1989
+  Apr"} (https://api.worldbank.org/v2/sources/57/version?format=json). That gives figures as published at each edition,
+  which suits the "knowable on" rule. The archives'' licence was not checked separately.'
+- 'Share-alike: no, but the additional term means tables from WDI cannot be relicensed as CC0 without the attribution
+  requirement; they can sit in a CC0 or CC BY project only with that credit line attached.'
+review:
+  status: sourced
+  notes:
+  - Licence checked word for word against the World Bank dataset terms and the indicator metadata on 2026-10-18.

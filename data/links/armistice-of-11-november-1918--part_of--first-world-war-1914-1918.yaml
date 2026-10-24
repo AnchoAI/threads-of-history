@@ -1,0 +1,17 @@
+id: armistice-of-11-november-1918--part_of--first-world-war-1914-1918
+from: armistice-of-11-november-1918
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Armistice of 11 November 1918 was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Armistice_of_11_November_1918
+  title: Armistice of 11 November 1918
+  publisher: Wikipedia
+  quote: was the armistice that ended fighting on land, at sea, and in the air in World War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

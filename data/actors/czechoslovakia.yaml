@@ -1,0 +1,21 @@
+id: czechoslovakia
+title: Czechoslovakia
+actor_type: state
+summary: Country in Central Europe (1918–1992).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q33946
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q33946.json
+  title: Czechoslovakia
+  publisher: Wikidata
+  quote: country in Central Europe (1918–1992)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

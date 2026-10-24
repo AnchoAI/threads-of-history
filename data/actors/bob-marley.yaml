@@ -1,0 +1,21 @@
+id: bob-marley
+title: Bob Marley
+actor_type: person
+summary: Jamaican reggae musician (1945–1981).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q409
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q409.json
+  title: Bob Marley
+  publisher: Wikidata
+  quote: Jamaican reggae musician (1945–1981)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,45 @@
+id: revolutions-of-1848
+title: Revolutions of 1848
+summary: A wave of revolutions across Europe, the most widespread in its history, that opposed absolute
+  monarchy and sought nation states founded on constitutions and popular sovereignty. Most were quickly
+  suppressed.
+occurred:
+  start: '1848-01-12'
+  end: '1849-10-04'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+- russia-eastern-europe
+actors: []
+importance: 4
+wikidata: Q3588
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: 12 January 1848 – 4 October 1849
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: They remain the most widespread revolutionary wave in European history to date.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: generally opposed conservative systems, such as absolute monarchy and feudalism, and sought to
+    establish nation states, founded on constitutionalism and popular sovereignty
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: Many of the revolutions were quickly suppressed
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

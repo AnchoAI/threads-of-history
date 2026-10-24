@@ -1,0 +1,39 @@
+id: thirteenth-amendment-1865
+title: Thirteenth Amendment abolishes slavery in the US
+summary: The Thirteenth Amendment makes slavery and involuntary servitude illegal in the United States, except as
+  punishment for a crime. It was ratified on 6 December 1865, the first of three Reconstruction Amendments.
+occurred:
+  start: '1865-12-06'
+  precision: day
+threads:
+- rights
+regions:
+- americas
+actors:
+- united-states
+- abraham-lincoln
+importance: 4
+wikidata: Q175613
+sources:
+- url: https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  archive_url: https://web.archive.org/web/20261010140343/https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  title: Thirteenth Amendment to the United States Constitution
+  publisher: Wikipedia
+  quote: made slavery and involuntary servitude illegal, except as punishment for a crime. The amendment was passed
+    by the Senate on April 8, 1864, by the House of Representatives on January 31, 1865, and ratified by the required
+    27 of the then 36 states on December 6, 1865
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  archive_url: https://web.archive.org/web/20261010140343/https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  title: Thirteenth Amendment to the United States Constitution
+  publisher: Wikipedia
+  quote: It was the first of the three Reconstruction Amendments adopted following the American Civil War.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Dated to ratification; it was proclaimed on 18 December 1865.

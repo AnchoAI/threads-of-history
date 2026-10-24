@@ -1,0 +1,74 @@
+id: prince-andrew-stripped-of-titles-2025
+title: King Charles III removes Andrew's titles
+summary: King Charles III begins a formal process to remove the style, titles and honours of his brother, who is
+  to be known as Andrew Mountbatten Windsor, and serves notice to surrender his Royal Lodge lease. Andrew has long
+  denied any wrongdoing over his links to Epstein.
+occurred:
+  start: '2025-10-30'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- andrew-mountbatten-windsor
+importance: 3
+wikidata: none
+sources:
+- url: https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  archive_url: https://web.archive.org/web/20261003050234/https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  title: A statement from Buckingham Palace
+  publisher: The Royal Household
+  date: '2025-10-30'
+  quote: His Majesty has today initiated a formal process to remove the Style, Titles and Honours of Prince Andrew.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  archive_url: https://web.archive.org/web/20261003050234/https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  title: A statement from Buckingham Palace
+  publisher: The Royal Household
+  date: '2025-10-30'
+  quote: Prince Andrew will now be known as Andrew Mountbatten Windsor.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  archive_url: https://web.archive.org/web/20261003050234/https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  title: A statement from Buckingham Palace
+  publisher: The Royal Household
+  date: '2025-10-30'
+  quote: Formal notice has now been served to surrender the lease and he will move to alternative private accommodation.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  archive_url: https://web.archive.org/web/20261003050234/https://www.royal.uk/news-and-activity/2025-10-30/a-statement-from-buckingham-palace
+  title: A statement from Buckingham Palace
+  publisher: The Royal Household
+  date: '2025-10-30'
+  quote: These censures are deemed necessary, notwithstanding the fact that he continues
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: King Charles III in October stripped his brother of his titles of prince and Duke of York and evicted him
+    from his Royal Lodge mansion in Windsor.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: He has long denied any wrongdoing over his Epstein links.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The fetched palace statement breaks off after 'he continues'; the rest of that sentence is not in the fetched
+    text, so Andrew's denial is cited from AP/PBS.
+  - Earlier in October 2025 Andrew said he would stop using the title Duke of York (NPR); not modelled separately.

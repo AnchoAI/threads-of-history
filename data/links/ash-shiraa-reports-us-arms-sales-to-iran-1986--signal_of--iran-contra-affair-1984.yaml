@@ -1,0 +1,20 @@
+id: ash-shiraa-reports-us-arms-sales-to-iran-1986--signal_of--iran-contra-affair-1984
+from: ash-shiraa-reports-us-arms-sales-to-iran-1986
+to: iran-contra-affair-1984
+type: signal_of
+confidence: documented
+note: Ash-Shiraa's report was the first public account of the US arms sales to Iran.
+sources:
+- url: https://en.wikipedia.org/wiki/Ash-Shiraa
+  archive_url: https://web.archive.org/web/20260626192137/https://en.wikipedia.org/wiki/Ash-Shiraa
+  title: Ash-Shiraa
+  publisher: Wikipedia
+  quote: The magazine was the first to break the news that the United States had been secretly selling weapons to
+    Iran, a scandal that eventually grew into the Iran-Contra Affair.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

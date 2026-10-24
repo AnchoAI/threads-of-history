@@ -1,0 +1,29 @@
+id: migrated-archives-disclosed-2011--revealed--mau-mau-uprising-1952
+from: migrated-archives-disclosed-2011
+to: mau-mau-uprising-1952
+type: revealed
+confidence: documented
+note: Colonial files hidden for decades documented British abuses in Kenya.
+sources:
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: a large amount of what was stated to be formerly lost Foreign Office archival material was finally
+    brought to light, while yet more was discovered to be missing. The files, known as migrated archives,
+    provided details of British human rights abuses (torture, rape, execution) in Kenya during the Mau
+    Mau rebellion
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Migrated_archives
+  archive_url: https://web.archive.org/web/20251018020946/https://en.wikipedia.org/wiki/Migrated_archives
+  title: Migrated archives
+  publisher: Wikipedia
+  quote: They revealed, among other things, minutes of British War Councils where policies on interrogation
+    and "screening" were devised
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

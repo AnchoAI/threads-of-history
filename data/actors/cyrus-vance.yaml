@@ -1,0 +1,20 @@
+id: cyrus-vance
+title: Cyrus Vance
+actor_type: person
+summary: United States Secretary of State from 1977 to 1980 (1917–2002).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q296661
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q296661.json
+  title: Cyrus Vance
+  publisher: Wikidata
+  quote: United States Secretary of State from 1977 to 1980 (1917–2002)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

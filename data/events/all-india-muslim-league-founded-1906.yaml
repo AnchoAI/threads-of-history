@@ -1,0 +1,44 @@
+id: all-india-muslim-league-founded-1906
+title: All-India Muslim League founded
+summary: The All-India Muslim League is founded at a conference in Dacca as a political party to advocate
+  for Muslim interests in British India.
+occurred:
+  start: '1906-12-30'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- all-india-muslim-league
+- british-raj
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/All-India_Muslim_League
+  title: All-India Muslim League
+  publisher: Wikipedia
+  quote: In December 1906, following the successful Simla Deputation in October, the All-India Muslim
+    League was founded in the 20th session of the All-India Muhammadan Educational Conference in Dacca
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/All-India_Muslim_League
+  title: All-India Muslim League
+  publisher: Wikipedia
+  quote: the annual meeting of the All-India Muhammadan Educational Conference was held in Dhaka from
+    27 December until 30 December 1906
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/All-India_Muslim_League
+  title: All-India Muslim League
+  publisher: Wikipedia
+  quote: was a political party in British India active between 1906 and 1947 that advocated for Muslim
+    interests
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Wikidata has no separate item for the founding; Q223898 (the party) is on the actor all-india-muslim-league.
+    The founding is dated to the last day of the Dacca conference (30 December 1906).

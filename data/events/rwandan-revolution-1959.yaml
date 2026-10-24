@@ -1,0 +1,62 @@
+id: rwandan-revolution-1959
+title: Rwandan Revolution
+summary: Hutu activists kill Tutsi after rumours that a Hutu sub-chief had been killed, beginning a revolution,
+  backed by the Belgian administration, that drove many Tutsi into exile in neighbouring countries.
+occurred:
+  start: '1959'
+  end: '1962'
+  precision: year
+threads:
+- empire
+- rights
+regions:
+- sub-saharan-africa
+actors: []
+importance: 3
+wikidata: Q4162685
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: Hutu activists responded by killing Tutsis, both the elite and ordinary civilians, marking the
+    beginning of the Rwandan Revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: On 1 November 1959 Dominique Mbonyumutwa, a Hutu sub-chief, was attacked close to his home
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: by this stage the Hutu had full backing from the Belgian administration who wanted to overturn
+    the Tutsi domination.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: 'As the revolution progressed, Tutsis began leaving the country to escape the Hutu purges, settling
+    in the four neighbouring countries: Burundi, Uganda, Tanzania and Zaire.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: most recently from the Rwandan Hutu Revolution from 1959 to 1962
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata's description dates the revolution 1959–1961; the quoted source gives 1959 to 1962. Check
+    the end date.

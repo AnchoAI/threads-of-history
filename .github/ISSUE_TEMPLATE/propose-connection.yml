@@ -1,0 +1,66 @@
+name: Propose a connection
+description: A sourced connection between two events, to add to the map.
+title: "Connection: "
+labels: ["proposal", "connection"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The source must itself state the connection. Two events being related, or one following the other, is not enough. See CONTRIBUTING.md.
+  - type: input
+    id: from
+    attributes:
+      label: From (the earlier event's id or name)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Kind of connection
+      options:
+        - led_to (contributed to)
+        - influenced (shaped attitudes or behaviour)
+        - part_of (was part of)
+        - revealed (a later disclosure revealed it)
+        - echo (a parallel, not a cause)
+        - signal_of (a warning or report about it)
+    validations:
+      required: true
+  - type: input
+    id: to
+    attributes:
+      label: To (the later event's id or name)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source link
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Quote that states the connection (word for word)
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Do serious sources disagree?
+      options:
+        - "No: documented"
+        - "Yes: contested (add the other side below)"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Other side, other sources, notes
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Licence
+      options:
+        - label: I agree to release this contribution under CC0 (see CONTRIBUTING.md).
+          required: true

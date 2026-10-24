@@ -1,0 +1,24 @@
+id: reconstruction-era-1865--led_to--jim-crow-laws-1870
+from: reconstruction-era-1865
+to: jim-crow-laws-1870
+type: led_to
+confidence: documented
+note: The end of Reconstruction in 1877 withdrew federal troops from the South, and the white "Redeemer" governments
+  that took power legislated Jim Crow segregation.
+sources:
+- url: https://en.wikipedia.org/wiki/Jim_Crow_laws
+  archive_url: https://web.archive.org/web/20261009111038/https://en.wikipedia.org/wiki/Jim_Crow_laws
+  title: Jim Crow laws
+  publisher: Wikipedia
+  quote: The Compromise of 1877 to gain Southern support in the presidential election resulted in the government
+    withdrawing the last of the federal troops from the South. White Democrats had regained political power in every
+    Southern state. These Southern, white, "Redeemer" governments legislated Jim Crow laws, officially segregating
+    the country's population.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - Strictly, the cause is the end of Reconstruction (the Compromise of 1877), not Reconstruction itself; segregation
+    laws also began during the 1870s.

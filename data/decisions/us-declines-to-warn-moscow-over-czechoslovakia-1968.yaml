@@ -1,0 +1,120 @@
+id: us-declines-to-warn-moscow-over-czechoslovakia-1968
+title: Washington declines to warn Moscow over Czechoslovakia
+summary: After Soviet troop manoeuvres near the Czechoslovak border in early May 1968, Under Secretary Eugene
+  Rostow urged a private deterrent signal to the Soviets and NATO military preparations. Under Secretary Katzenbach
+  and Secretary Rusk disagreed, and the State Department told its NATO mission to avoid anything with the "appearance
+  of unusual concern".
+occurred:
+  start: '1968-05-10'
+  end: '1968-05-11'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- dean-rusk
+- eugene-v-rostow
+- united-states
+- nato
+importance: 2
+wikidata: none
+decided_by:
+- dean-rusk
+- united-states
+alternatives:
+- option: Give the Soviets a private signal of concern
+  note: 'Eugene Rostow''s recommendation: the President and Rusk to see Ambassador Dobrynin and ask what the
+    troop reports meant.'
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+      threats to Czechoslovakia"'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-05-10'
+    quote: I conclude that it would be a serious mistake not to give the Soviets a private signal of concern
+      about troop movements near Czechoslovakia.
+    type: primary
+    accessed: '2026-10-21'
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+      threats to Czechoslovakia"'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-05-10'
+    quote: that the President and you see Dobrynin together, preferably today
+    type: primary
+    accessed: '2026-10-21'
+- option: Prepare NATO military demonstrations
+  note: Also proposed by Eugene Rostow.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+    title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+      threats to Czechoslovakia"'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-05-10'
+    quote: military side examine these problems intensively, and be prepared to go on an alert or to make other
+      appropriate demonstrations which might be warranted
+    type: primary
+    accessed: '2026-10-21'
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+    threats to Czechoslovakia"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-05-10'
+  quote: Soviet forces stationed in Poland had carried out troop maneuvers near the border with Czechoslovakia
+    at the beginning of May.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+    threats to Czechoslovakia"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-05-10'
+  quote: 'In a May 11 note attached to the source text, Under Secretary Katzenbach commented: "I disagree strongly
+    with both the analysis and the recommendations.'
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  archive_url: https://web.archive.org/web/20260310193955/https://history.state.gov/historicaldocuments/frus1964-68v17/d60
+  title: 'FRUS 1964–1968, vol. XVII, doc. 60: Memorandum from Under Secretary Rostow to Secretary Rusk, "Soviet
+    threats to Czechoslovakia"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-05-10'
+  quote: 'Rusk wrote on Katzenbach’s note: “So do I. DR”'
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d62
+  archive_url: https://web.archive.org/web/20260312203040/https://history.state.gov/historicaldocuments/frus1964-68v17/d62
+  title: 'FRUS 1964–1968, vol. XVII, doc. 62: Telegram from the Department of State to the Mission to NATO'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-05-11'
+  quote: We believe anything that has appearance of unusual concern, for example, special NAC session should
+    be avoided due to visibility.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d61
+  archive_url: https://web.archive.org/web/20260306045025/https://history.state.gov/historicaldocuments/frus1964-68v17/d61
+  title: 'FRUS 1964–1968, vol. XVII, doc. 61: Telegram from the Embassy in Germany, Bonn'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-05-10'
+  quote: the Department of State responded that it would seek to avoid any military provocation by U.S. forces
+    within Germany and was restraining the content of broadcasts in an effort to avoid any pretext for Soviet
+    military action in Czechoslovakia
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Katzenbach has no actor file; he is named in the summary only. Dates are those of the Rostow memorandum
+    (10 May) and the Katzenbach note and NATO telegram (11 May).

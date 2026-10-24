@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-child-mortality
+title: Under-5 mortality rate (World Bank)
+summary: Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching
+  age five, if subject to age-specific mortality rates of the specified year.
+occurred:
+  start: '1960'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: per 1,000 live births
+dataset: world-bank-wdi
+indicator: SH.DYN.MORT
+table: tables/wdi-child-mortality.csv
+sources:
+- url: https://data.worldbank.org/indicator/SH.DYN.MORT
+  title: Mortality rate, under-5 (per 1,000 live births)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

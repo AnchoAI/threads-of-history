@@ -1,0 +1,61 @@
+id: yemeni-civil-war-2014
+title: Yemeni civil war
+summary: The war began in September 2014 when Houthi forces took over Sanaa; a Saudi-led coalition intervened
+  in March 2015 on the side of the Hadi government. The UN estimated more than 377,000 direct and indirect
+  deaths by 2021. The US and Saudi Arabia accuse Iran of arming the Houthis; the Houthis and Iran deny any
+  military affiliation.
+occurred:
+  start: 2014-09
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- houthis
+- saudi-arabia
+- iran
+- yemen
+importance: 4
+wikidata: Q19686631
+sources:
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: The civil war began in September 2014 when Houthi forces took over the capital city Sanaa, which was
+    followed by a rapid Houthi takeover of the government.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: Saudi Arabian-led coalition forces intervene from 26 March 2015, backing the Hadi-led government
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: Overall 377,000+ direct and indirect deaths (150,000+ people killed in violence) (2014–2021) (UN)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: The United States, Saudi Arabia, the UAE and various Western commentators have accused various IRGC
+    networks of assisting Houthis through arms supplies, military training, logistics, strategic co-ordination
+    and media support.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: While the Houthis and the Iranian government have denied any military affiliation
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

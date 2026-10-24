@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: vdem-hos-tenure
+title: Years the head of state has been in office (V-Dem)
+summary: Years the head of state has been in office, derived from V-Dem variable v2exnamhos (consecutive
+  years with the same name).
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: years
+dataset: v-dem
+indicator: v2exnamhos
+table: tables/vdem-hos-tenure.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

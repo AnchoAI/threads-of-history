@@ -1,0 +1,20 @@
+id: denning-report-1963--part_of--profumo-affair-1961
+from: denning-report-1963
+to: profumo-affair-1961
+type: part_of
+confidence: documented
+note: Lord Denning's inquiry was the official investigation of the affair.
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: An inquiry into the Profumo affair by a senior judge, Lord Denning, assisted by a senior civil servant,
+    T. A. Critchley, concluded that there had been no breaches of security arising from the Ivanov connection.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

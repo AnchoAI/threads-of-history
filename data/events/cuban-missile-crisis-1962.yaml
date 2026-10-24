@@ -1,18 +1,47 @@
 id: cuban-missile-crisis-1962
 title: Cuban Missile Crisis
+wikidata: Q128160
 summary: Soviet missiles are found in Cuba, 90 miles from Florida. Thirteen days later they are withdrawn;
   the US quietly agrees to pull its Jupiter missiles from Turkey.
 occurred:
-  start: 1962-10
+  start: '1962-10'
   precision: month
 known:
+  public:
+    start: '1962-10-22T19:00-04:00'
+    precision: hour
+    note: Kennedy's televised address announcing the discovery of the missiles.
   by:
   - party: US government
     actor: united-states
     when:
-      start: 1962-10
-      precision: month
-      note: U-2 photographs showed the missile sites some days before the public announcement.
+      start: '1962-10-15T20:30-04:00'
+      precision: hour
+      note: U-2 photographs of 14 October showed the missile sites; CIA reported the evidence to McGeorge
+        Bundy on the evening of 15 October and the President was told at 8:45 a.m. on 16 October, a week
+        before the public announcement.
+    sources:
+    - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+      archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+      title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+        Document 16: Editorial Note'
+      publisher: Office of the Historian, US Department of State
+      quote: At 8:30 p.m. on October 15 CIA Deputy Director Carter reported to McGeorge Bundy the hard
+        evidence of the MRBM’s, but the President’s Special Assistant decided not to notify the President
+        that evening.
+      type: primary
+      accessed: '2026-10-21'
+    - url: https://history.state.gov/historicaldocuments/frus1961-63v11/d18
+      archive_url: https://web.archive.org/web/20260731070726/https://history.state.gov/historicaldocuments/frus1961-63v11/d18
+      title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+        Document 18: Transcript of a Meeting at the White House, October 16, 1962'
+      publisher: Office of the Historian, US Department of State
+      date: '1962-10-16'
+      quote: McGeorge Bundy had informed the President about the U-2 photographs of the missile sites
+        at 8:45 a.m. October 16, and Kennedy immediately called for a meeting of his principal advisers
+        at 11:45.
+      type: primary
+      accessed: '2026-10-21'
 threads:
 - cuba
 - nuclear
@@ -28,11 +57,76 @@ actors:
 - soviet-union
 importance: 5
 sources:
-- archive_url: "https://web.archive.org/web/20260925152247/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+- archive_url: https://web.archive.org/web/20260925152247/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
   url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
   title: Cuban Missile Crisis
   publisher: Wikipedia
   type: reference
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The crisis lasted from 16 to 28 October 1962.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Despite the warning, on October 14 a U.S. U–2 aircraft took several pictures clearly showing
+    sites for medium-range and intermediate-range ballistic nuclear missiles (MRBMs and IRBMs) under construction
+    in Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: These images were processed and presented to the White House the next day, thus precipitating
+    the onset of the Cuban Missile Crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: At 7:00 pm EDT on 22 October, Kennedy delivered a nationwide televised address on all of the
+    major networks announcing the discovery of the missiles.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Attorney General Robert Kennedy then met secretly with Soviet Ambassador to the United States,
+    Anatoly Dobrynin, and indicated that the United States was planning to remove the Jupiter missiles
+    from Turkey anyway, and that it would do so soon, but this could not be part of any public resolution
+    of the missile crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The compromise embarrassed Khrushchev and the Soviet Union because the withdrawal of US missiles
+    from Italy and Turkey was a secret deal between Kennedy and Khrushchev
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The next morning, October 28, Khrushchev issued a public statement that Soviet missiles would
+    be dismantled and removed from Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: U.S. Jupiter missiles were removed from Turkey in April 1963.
+  type: scholarly
+  accessed: '2026-10-21'
 review:
   status: unverified
   notes:
@@ -42,3 +136,10 @@ review:
   - 'Refine to day precision: missiles photographed, US announcement, and withdrawal agreement.'
   - The Jupiter missile part of the deal was secret at the time and became public much later. Model it
     as its own item with a known date.
+  - 'Batch P1 added quoted sources (Office of the Historian, FRUS, Wikipedia) and refined known.by to
+    the hour from FRUS. Still unquoted: "90 miles from Florida". Kept unverified until a person rewrites
+    the summary or a quote is added.'
+  - 'Sources give the crisis as 16 to 28 October 1962 (Wikipedia); occurred was left at month precision
+    because this batch may not change dates. Wikidata id: Q128160 (not added for the same reason).'
+  - 'The secret Jupiter assurance is now its own item: robert-kennedy-dobrynin-meeting-1962 (known publicly
+    from January 1989).'

@@ -1,0 +1,55 @@
+id: sputnik-1-1957
+title: Sputnik 1, the first artificial satellite
+summary: The Soviet Union launches Sputnik 1, the first artificial Earth satellite, on an R-7 rocket designed
+  as an intercontinental ballistic missile. The launch shocked the United States and set off the "Sputnik
+  crisis".
+occurred:
+  start: '1957-10-04'
+  precision: day
+threads:
+- usru
+- industry
+- nuclear
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- nikita-khrushchev
+importance: 5
+wikidata: Q80811
+sources:
+- url: https://en.wikipedia.org/wiki/Sputnik_1
+  archive_url: https://web.archive.org/web/20261013003213/https://en.wikipedia.org/wiki/Sputnik_1
+  title: Sputnik 1
+  publisher: Wikipedia
+  quote: was the first artificial Earth satellite. It was launched into an elliptical low Earth orbit
+    by the Soviet Union on 4 October 1957 as part of the Soviet space program.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sputnik_1
+  archive_url: https://web.archive.org/web/20261013003213/https://en.wikipedia.org/wiki/Sputnik_1
+  title: Sputnik 1
+  publisher: Wikipedia
+  quote: The R-7 rocket was initially designed as an intercontinental ballistic missile (ICBM) by OKB-1.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sputnik_1
+  archive_url: https://web.archive.org/web/20261013003213/https://en.wikipedia.org/wiki/Sputnik_1
+  title: Sputnik 1
+  publisher: Wikipedia
+  quote: The satellite's success was unanticipated by the United States. This precipitated the American
+    Sputnik crisis and triggered the start of the Space Race.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1953-1960/sputnik
+  title: Sputnik, 1957
+  publisher: Office of the Historian, U.S. Department of State
+  quote: The successful launch came as a shock to experts and citizens in the United States, who had hoped
+    that the United States would accomplish this scientific advancement first.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,19 @@
+id: yalta-conference-1945--part_of--second-world-war-1939-1945
+from: yalta-conference-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Yalta was a Second World War meeting of the Allied leaders.
+sources:
+- url: https://en.wikipedia.org/wiki/Yalta_Conference
+  title: Yalta Conference
+  publisher: Wikipedia
+  quote: was the World War II meeting of the heads of government of the United States, the United Kingdom, and the
+    Soviet Union
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

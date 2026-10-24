@@ -1,0 +1,73 @@
+id: gramm-leach-bliley-act-1999--led_to--global-financial-crisis-2008
+from: gramm-leach-bliley-act-1999
+to: global-financial-crisis-2008
+type: led_to
+confidence: contested
+note: Whether partly repealing Glass–Steagall contributed to the crisis is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: Some analysts say that this repeal directly contributed to the severity of the crisis, while
+    others downplay its impact
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+  title: Gramm–Leach–Bliley Act
+  publisher: Wikipedia
+  quote: The act is often cited as a cause of the 2007 subprime mortgage financial crisis "even by some
+    of its onetime supporters."
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: By letting commercial and investment banks combine, the act spread a high-risk culture and created
+    financial supermarkets too big to fail.
+  held_by:
+  - Joseph Stiglitz
+  - Barack Obama
+  sources:
+  - url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    title: Gramm–Leach–Bliley Act
+    publisher: Wikipedia
+    quote: Economist Joseph Stiglitz has also argued that the Act increased risk-taking leading up to
+      the crisis
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    title: Gramm–Leach–Bliley Act
+    publisher: Wikipedia
+    quote: Former President Barack Obama has stated that GLBA led to deregulation that, among other things,
+      allowed for the creation of giant financial supermarkets that could own investment banks, commercial
+      banks and insurance firms
+    type: reference
+    accessed: '2026-10-15'
+- claim: 'The act did not cause the crisis: investment banks could already hold the assets at its centre,
+    and the act may even have softened it.'
+  held_by:
+  - Mark A. Calabria (Cato Institute)
+  - Bill Clinton
+  - Brad DeLong
+  - Tyler Cowen
+  sources:
+  - url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    title: Gramm–Leach–Bliley Act
+    publisher: Wikipedia
+    quote: Calabria claimed that, prior to the passage of GLBA in 1999, investment banks were already
+      capable of holding and trading the very financial assets claimed to be the cause of the mortgage
+      crisis
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    archive_url: https://web.archive.org/web/20260924075253/https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act
+    title: Gramm–Leach–Bliley Act
+    publisher: Wikipedia
+    quote: Bill Clinton, as well as economists Brad DeLong and Tyler Cowen have all argued that the Gramm–Leach–Bliley
+      Act softened the impact of the crisis.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced

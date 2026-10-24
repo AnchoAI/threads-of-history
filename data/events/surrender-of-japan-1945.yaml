@@ -1,0 +1,44 @@
+id: surrender-of-japan-1945
+title: Surrender of Japan
+summary: Emperor Hirohito announces Japan's surrender in a radio broadcast on 15 August 1945, and the
+  surrender is formally signed aboard USS Missouri on 2 September, ending the Second World War. The role
+  of the atomic bombings in the decision is debated.
+occurred:
+  start: '1945-08-15'
+  end: '1945-09-02'
+  precision: day
+threads:
+- ww2
+- nuclear
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- hirohito
+- united-states
+importance: 4
+wikidata: Q6540361
+sources:
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: The surrender of the Empire of Japan in World War II was announced by Emperor Hirohito on 15
+    August and formally signed on 2 September 1945, ending the war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: The role of the atomic bombings in Japan's unconditional surrender, and the ethics of the two
+    attacks, is debated.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: Japanese foreign affairs minister Mamoru Shigemitsu signs the Japanese Instrument of Surrender
+    on board USS Missouri, 2 September 1945
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

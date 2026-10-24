@@ -1,0 +1,62 @@
+id: plantation-of-ulster-1609--led_to--partition-of-ireland-1921
+from: plantation-of-ulster-1609
+to: partition-of-ireland-1921
+type: led_to
+confidence: contested
+note: One reading makes the plantation a long-term cause of partition; another stresses natural migration
+  from Scotland over the plantation itself.
+sources:
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: This argument therefore sees the Plantation as one of the long-term causes of the Partition of
+    Ireland in 1921
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The plantation created a Protestant, British concentration in the north-east and was a long-term
+    cause of partition.
+  held_by:
+  - Wikipedia, "Plantation of Ulster" (one interpretation)
+  - Richard English
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: According to one interpretation, it created a society segregated between native Catholics and
+      settler Protestants in Ulster and created a Protestant and British concentration in north-east Ireland.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: yet the Plantation did produce a large British/English interest in Ireland, a significant body
+      of Irish Protestants who were tied through religion and politics to English power.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The north-east's distinct culture came more from continuous migration from Scotland than from
+    the plantation itself.
+  held_by:
+  - A. T. Q. Stewart
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: Therefore, it is also argued that the Plantation itself was less important in the distinctiveness
+      of the north-east of Ireland than natural population flow between Ulster and Scotland.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: The densest Protestant settlement took place in the eastern counties of Antrim and Down, which
+      were not part of the Plantation
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced

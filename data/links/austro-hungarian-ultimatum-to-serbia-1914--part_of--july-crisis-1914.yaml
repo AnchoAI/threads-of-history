@@ -1,0 +1,27 @@
+id: austro-hungarian-ultimatum-to-serbia-1914--part_of--july-crisis-1914
+from: austro-hungarian-ultimatum-to-serbia-1914
+to: july-crisis-1914
+type: part_of
+confidence: documented
+note: The ultimatum is one of the escalations the source narrates as the July Crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  archive_url: https://web.archive.org/web/20260914040129/https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: The July Crisis was a series of interrelated diplomatic and military escalations among the major powers
+    of Europe in mid-1914
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  archive_url: https://web.archive.org/web/20260914040129/https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: Austria-Hungary made its ultimatum to Serbia on 23 July
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

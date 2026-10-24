@@ -1,0 +1,22 @@
+id: left-and-right-in-the-national-assembly-1789--part_of--french-revolution-1789
+from: left-and-right-in-the-national-assembly-1789
+to: french-revolution-1789
+type: part_of
+confidence: documented
+note: The terms "left" and "right" were coined from the seating in the revolutionary National Assembly.
+sources:
+- url: https://en.wikipedia.org/wiki/Left%E2%80%93right_political_spectrum
+  title: Left–right political spectrum
+  publisher: Wikipedia
+  quote: The terms "left" and "right" first appeared during the French Revolution of 1789
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Right-wing_politics
+  title: Right-wing politics
+  publisher: Wikipedia
+  quote: The political terms Left and Right were first used in the 18th century, during the French Revolution,
+    referencing the seating arrangement of the new National Assembly.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,24 @@
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Event or connection
+      description: Its name, or its id from the viewer's link.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing
+      description: A wrong date, a quote that doesn't support its claim, a better source, a missing perspective.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your source
+      description: A link, and the sentence from it that shows the correction.
+    validations:
+      required: true

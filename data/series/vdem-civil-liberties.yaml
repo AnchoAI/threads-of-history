@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: vdem-civil-liberties
+title: Civil liberties index (V-Dem)
+summary: How far civil liberties are respected, from 0 to 1.
+occurred:
+  start: '1900'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: index (0-1)
+dataset: v-dem
+indicator: v2x_civlib
+table: tables/vdem-civil-liberties.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

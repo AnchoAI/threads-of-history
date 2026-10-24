@@ -1,0 +1,50 @@
+id: tokyo-tribunal-judgment-1948
+title: Tokyo Tribunal judgment
+summary: The International Military Tribunal for the Far East reads its judgment. It holds that the Mukden
+  Incident of 1931 was planned and executed by the Japanese and treats the war against China as having
+  begun that night.
+occurred:
+  start: '1948-11-04'
+  end: '1948-11-12'
+  precision: day
+threads:
+- china
+- ww2
+- intel
+regions:
+- east-asia
+actors:
+- empire-of-japan
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/International_Military_Tribunal_for_the_Far_East
+  archive_url: https://web.archive.org/web/20261002201857/https://en.wikipedia.org/wiki/International_Military_Tribunal_for_the_Far_East
+  title: International Military Tribunal for the Far East
+  publisher: Wikipedia
+  quote: The reading of the judgement and the sentences lasted from November 4 to 12, 1948.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-5.html
+  title: 'Judgment of the International Military Tribunal for the Far East, Chapter V: Japanese Aggression
+    Against China'
+  publisher: HyperWar Foundation (transcription of the IMTFE judgment)
+  quote: so-called "Incident" of 18 September 1931 was planned and executed by the Japanese.
+  type: primary
+  accessed: '2026-10-03'
+  date: 1948-11
+- url: https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-5.html
+  title: 'Judgment of the International Military Tribunal for the Far East, Chapter V: Japanese Aggression
+    Against China'
+  publisher: HyperWar Foundation (transcription of the IMTFE judgment)
+  quote: The war which Japan waged against China, and which the Japanese leaders falsely described as
+    the "China Incident" or the "China Affair", began on the night of 18 September 1931
+  type: primary
+  accessed: '2026-10-03'
+  date: 1948-11
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: this item is the judgment only; the tribunal as a whole is Q133539310 ("post–World
+    War II war crimes trials"). If the WWII batch adds a Tokyo trials event, this should become part_of
+    it or be merged.'

@@ -1,0 +1,66 @@
+id: nicaraguan-revolution-1961
+title: Nicaraguan Revolution
+summary: Opposition to the Somoza dictatorship, led from 1961 by the Sandinista National Liberation Front,
+  overthrows the regime in 1978–79; the Sandinista government then fights the US-backed Contras until
+  the Sandinistas lose the 1990 election. It made Nicaragua a major Cold War proxy battleground.
+occurred:
+  start: '1961'
+  end: '1990'
+  precision: year
+threads:
+- revolutions
+- usru
+regions:
+- americas
+actors:
+- sandinista-national-liberation-front
+- united-states
+- ronald-reagan
+importance: 3
+wikidata: Q1463516
+sources:
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: was an armed conflict that took place in the Central American country of Nicaragua between 1961
+    and 1990.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: It began with rising opposition to the Somoza dictatorship in the 1960s and 1970s, the overthrow
+    of the dictatorship in 1978–1979, and fighting between the new government and the Contras from 1981
+    to 1990. The revolution revealed the country as one of the major proxy war battlegrounds of the Cold
+    War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: In 1961, Carlos Fonseca Amador, Silvio Mayorga, and Tomás Borge Martínez formed the Sandinista
+    National Liberation Front (FSLN)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: the Contras, a newly-formed resistance movement supported by the U.S.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  archive_url: https://web.archive.org/web/20260922041754/https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: A second election in 1990 resulted in the election of the UNO, which the Sandinistas lost.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

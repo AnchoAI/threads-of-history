@@ -1,0 +1,26 @@
+id: itv-exposure-savile-allegations-2012--signal_of--sexual-abuse-by-jimmy-savile-1955
+from: itv-exposure-savile-allegations-2012
+to: sexual-abuse-by-jimmy-savile-1955
+type: signal_of
+confidence: documented
+note: The documentary's allegations were later borne out by the police/NSPCC report and the BBC's Smith
+  review.
+sources:
+- url: https://www.bbc.co.uk/news/uk-20981611
+  archive_url: https://web.archive.org/web/20260726204842/https://www.bbc.co.uk/news/uk-20981611
+  title: 'Jimmy Savile scandal: Report reveals decades of abuse'
+  publisher: BBC News
+  date: '2013-01-11'
+  quote: died aged 84 in October 2011 - a year before the allegations were broadcast in an ITV documentary.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: The Dame Janet Smith review identified 72 victims of Savile - including eight who were raped
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced

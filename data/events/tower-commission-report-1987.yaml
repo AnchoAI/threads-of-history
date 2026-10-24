@@ -1,0 +1,63 @@
+id: tower-commission-report-1987
+title: Tower Commission report
+summary: On 26 February 1987 President Reagan receives the report of the Special Review Board he had appointed on
+  1 December 1986 in response to the Iran–Contra affair, made up of John Tower, Edmund Muskie and Brent Scowcroft.
+  The report held Reagan accountable for a lax managerial style and aloofness from policy detail.
+occurred:
+  start: '1987-02-26'
+  precision: day
+threads:
+- scandals
+- intel
+regions:
+- americas
+actors:
+- ronald-reagan
+- united-states
+importance: 2
+wikidata: Q7829657
+sources:
+- url: https://www.presidency.ucsb.edu/documents/remarks-receiving-the-final-report-the-presidents-special-review-board-the-national
+  archive_url: https://web.archive.org/web/20251216070207/https://www.presidency.ucsb.edu/documents/remarks-receiving-the-final-report-the-presidents-special-review-board-the-national
+  title: Remarks on Receiving the Final Report of the President's Special Review Board on the National Security
+    Council
+  publisher: The American Presidency Project (UC Santa Barbara)
+  date: '1987-02-26'
+  quote: Remarks on Receiving the Final Report of the President's Special Review Board on the National Security
+    Council
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.presidency.ucsb.edu/documents/remarks-receiving-the-final-report-the-presidents-special-review-board-the-national
+  archive_url: https://web.archive.org/web/20251216070207/https://www.presidency.ucsb.edu/documents/remarks-receiving-the-final-report-the-presidents-special-review-board-the-national
+  title: Remarks on Receiving the Final Report of the President's Special Review Board on the National Security
+    Council
+  publisher: The American Presidency Project (UC Santa Barbara)
+  date: '1987-02-26'
+  quote: On behalf of myself and the American people, I want to extend my thanks to Senator Tower, Secretary Muskie,
+    and General Scowcroft.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Tower_Commission
+  archive_url: https://web.archive.org/web/20260928210737/https://en.wikipedia.org/wiki/Tower_Commission
+  title: Tower Commission
+  publisher: Wikipedia
+  quote: The Tower Commission was a United States presidential commission established on December 1, 1986, by President
+    Ronald Reagan in response to the Iran–Contra affair
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Tower_Commission
+  archive_url: https://web.archive.org/web/20260928210737/https://en.wikipedia.org/wiki/Tower_Commission
+  title: Tower Commission
+  publisher: Wikipedia
+  quote: Issued on February 26, 1987, the commission's report "held Reagan accountable for a lax managerial style
+    and aloofness from policy detail."
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Wikipedia's infobox gives 27 February 1987 as the publication date; the American Presidency Project dates Reagan's
+    remarks on receiving the report to 26 February 1987, which is used here.
+  - Wikidata Q7829657 is the commission, not its report.

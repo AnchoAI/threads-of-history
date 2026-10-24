@@ -1,0 +1,98 @@
+id: soviet-declaration-of-war-on-japan-1945--led_to--surrender-of-japan-1945
+from: soviet-declaration-of-war-on-japan-1945
+to: surrender-of-japan-1945
+type: led_to
+confidence: contested
+note: Historians disagree on whether the Soviet entry into the war or the atomic bombings was the main
+  cause of Japan's surrender.
+sources:
+- url: https://en.wikipedia.org/wiki/Debate_over_the_atomic_bombings_of_Hiroshima_and_Nagasaki
+  title: Debate over the atomic bombings of Hiroshima and Nagasaki
+  publisher: Wikipedia
+  quote: Another argument is that it was the Soviet declaration of war in the days between the bombings
+    that caused the surrender.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: Now that the Soviet Union has entered the war against us, to continue the war under the present
+    internal and external conditions would be only to increase needlessly the ravages of war finally to
+    the point of endangering the very foundation of the Empire's existence.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: 'The Soviet declaration of war and invasion of Manchuria, not the atomic bombs, was the main
+    reason Japan surrendered: it ended Japan''s hope of Soviet mediation and its plan for a decisive battle.'
+  held_by:
+  - Tsuyoshi Hasegawa
+  - Ward Wilson
+  - Robert Pape
+  sources:
+  - url: https://en.wikipedia.org/wiki/Debate_over_the_atomic_bombings_of_Hiroshima_and_Nagasaki
+    title: Debate over the atomic bombings of Hiroshima and Nagasaki
+    publisher: Wikipedia
+    quote: Historian Tsuyoshi Hasegawa wrote the atomic bombings themselves were not the principal reason
+      for Japan's capitulation.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Debate_over_the_atomic_bombings_of_Hiroshima_and_Nagasaki
+    title: Debate over the atomic bombings of Hiroshima and Nagasaki
+    publisher: Wikipedia
+    quote: In the US, Robert Pape and Tsuyoshi Hasegawa have particularly advanced this view, which some
+      have found convincing, but others have criticized it.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/
+    archive_url: https://web.archive.org/web/20260913224543/https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/
+    title: The Bomb Didn't Beat Japan … Stalin Did
+    publisher: Foreign Policy (Ward Wilson)
+    date: '2013-05-30'
+    quote: The Soviet invasion was strategically decisive—it foreclosed both of Japan’s options—while
+      the bombing of Hiroshima (which foreclosed neither) was not.
+    type: news
+    accessed: '2026-10-03'
+- claim: The atomic bombings were decisive, above all through their effect on the emperor, whose personal
+    decision ended the war.
+  held_by:
+  - Sadao Asada
+  sources:
+  - url: https://en.wikipedia.org/wiki/Debate_over_the_atomic_bombings_of_Hiroshima_and_Nagasaki
+    title: Debate over the atomic bombings of Hiroshima and Nagasaki
+    publisher: Wikipedia
+    quote: The Japanese historian Sadao Asada argues that the ultimate decision to surrender was a personal
+      decision by the emperor, who was influenced by the atomic bombings.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Hirohito_surrender_broadcast
+    archive_url: https://web.archive.org/web/20260930215953/https://en.wikipedia.org/wiki/Hirohito_surrender_broadcast
+    title: Hirohito surrender broadcast
+    publisher: Wikipedia
+    quote: Following the Hiroshima bombing on August 6, and the Soviet declaration of war and Nagasaki
+      bombing on August 9, the Emperor's speech was broadcast at noon Japan Standard Time on August 15,
+      1945, and referred to the atomic bombs as a reason for the surrender.
+    type: reference
+    accessed: '2026-10-03'
+- claim: Both shocks together persuaded Japan's leaders to accept surrender; Hirohito cited the bomb to
+    the public and the Soviet entry to the military.
+  held_by:
+  - Wikipedia, 'World War II' (summary of the general account)
+  sources:
+  - url: https://en.wikipedia.org/wiki/World_War_II
+    title: World War II
+    publisher: Wikipedia
+    quote: These two events persuaded previously adamant Imperial Army leaders to accept surrender terms.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+    title: Surrender of Japan
+    publisher: Wikipedia
+    quote: When addressing the military, he did not mention the "new and most cruel bomb" but rather said
+      that "the Soviet Union has entered the war against us, [and] to continue the war ... would [endanger]
+      the very foundation of the Empire's existence."
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Same debate as the atomic-bombings link; the positions are shared.

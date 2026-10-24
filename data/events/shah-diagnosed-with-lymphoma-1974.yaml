@@ -1,0 +1,83 @@
+id: shah-diagnosed-with-lymphoma-1974
+title: The Shah's secret lymphoma
+summary: In 1974 French doctors diagnosed the Shah with a mild form of lymphoma, which he kept a state secret. A
+  1977 State Department report described him as in fine health; Washington learned of the cancer in October 1979,
+  days before admitting him for treatment.
+occurred:
+  start: '1974'
+  precision: year
+known:
+  public:
+    start: 1979-10
+    precision: month
+    note: Became public when the Shah was admitted to New York for treatment.
+  by:
+  - party: US government
+    actor: united-states
+    when:
+      start: '1979-10-16'
+      end: '1979-10-20'
+      precision: day
+      approximate: true
+      note: 'Accounts differ: Hamilton Jordan says State was told on 16 October; Vance wrote that he first learned
+        of the lymphoma on 20 October.'
+    sources:
+    - url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+      archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+      title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+      publisher: American Diplomacy (William J. Daugherty)
+      date: 2003-04
+      quote: According to White House senior advisor Hamilton Jordan, the State Department was told on Tuesday the
+        16th that the shah had suffered from cancer for a decade and was now in “critical condition.”
+      type: scholarly
+      accessed: '2026-10-21'
+    - url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+      archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+      title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+      publisher: American Diplomacy (William J. Daugherty)
+      date: 2003-04
+      quote: it was “two days later,” on 20 October, that he was first informed of the lymphoma
+      type: scholarly
+      accessed: '2026-10-21'
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- mohammad-reza-pahlavi
+importance: 2
+wikidata: none
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: In 1974 the shah had been diagnosed with mild form of lymphoma (cancer of the lymph glands) by French doctors,
+    but, regarding the illness as a state secret, the shah informed no one, not even his twin sister, Ashraf.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: the authors’ flat assertion that the monarch is “in fine health” was simply wrong
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: Unbeknownst to the Americans (or most anyone else) the Shah had lymphatic cancer, which would eventually
+    kill him in July 1980.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - 'known.public is approximate: the illness was reported around the Shah''s admission on 22 October 1979; Daugherty
+    mentions it "became known" on 28 October in another context. Needs a dated press source.'

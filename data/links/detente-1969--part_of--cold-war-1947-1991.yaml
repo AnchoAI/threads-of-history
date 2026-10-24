@@ -1,0 +1,20 @@
+id: detente-1969--part_of--cold-war-1947-1991
+from: detente-1969
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: Détente was a period within the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: The term is often used to refer to a period of general easing of geopolitical tensions between the Soviet
+    Union and the United States during the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

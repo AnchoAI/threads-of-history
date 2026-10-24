@@ -1,0 +1,44 @@
+id: apollo-11-moon-landing-1969
+title: 'Apollo 11: first humans on the Moon'
+summary: NASA astronauts Neil Armstrong and Buzz Aldrin land on the Moon while Michael Collins stays in
+  lunar orbit, meeting the goal Kennedy set in 1961. About 650 million people watched on television.
+occurred:
+  start: '1969-07-20'
+  precision: day
+threads:
+- usru
+- industry
+regions:
+- americas
+actors:
+- nasa
+- united-states
+importance: 5
+wikidata: Q43653
+sources:
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: Kennedy's goal was accomplished on the Apollo 11 mission, when astronauts Neil Armstrong and
+    Buzz Aldrin landed their Apollo Lunar Module (LM) on July 20, 1969, and walked on the lunar surface,
+    while Michael Collins remained in lunar orbit
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: Approximately 650 million people worldwide watched this first landing on television.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.nasa.gov/mission/apollo-11/
+  title: Apollo 11
+  publisher: NASA
+  quote: 'The primary objective of Apollo 11 was to complete a national goal set by President John F.
+    Kennedy on May 25, 1961: perform a crewed lunar landing and return to Earth.'
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,18 @@
+id: cambodian-genocide-1975--part_of--cold-war-1947-1991
+from: cambodian-genocide-1975
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The genocide is part of the Cold War in Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: Part of the Cold War in Asia and the aftermath of the Cambodian Civil War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,24 @@
+id: berlin-airlift-1948--part_of--berlin-blockade-1948
+from: berlin-airlift-1948
+to: berlin-blockade-1948
+type: part_of
+confidence: documented
+note: The airlift was the Western response to the blockade.
+sources:
+- url: https://history.state.gov/milestones/1945-1952/berlin-airlift
+  archive_url: https://web.archive.org/web/20261002035656/https://history.state.gov/milestones/1945-1952/berlin-airlift
+  title: The Berlin Airlift, 1948–1949
+  publisher: Office of the Historian, US Department of State
+  quote: The United States and United Kingdom responded by airlifting food and fuel to Berlin from Allied
+    airbases in western Germany.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: The Western Allies organised the Berlin Airlift
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

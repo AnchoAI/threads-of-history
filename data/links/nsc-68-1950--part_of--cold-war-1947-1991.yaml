@@ -1,0 +1,19 @@
+id: nsc-68-1950--part_of--cold-war-1947-1991
+from: nsc-68-1950
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: One of the most important US policy statements of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: It was one of the most important American policy statements of the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

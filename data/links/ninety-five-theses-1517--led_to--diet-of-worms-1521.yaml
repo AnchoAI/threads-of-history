@@ -1,0 +1,26 @@
+id: ninety-five-theses-1517--led_to--diet-of-worms-1521
+from: ninety-five-theses-1517
+to: diet-of-worms-1521
+type: led_to
+confidence: documented
+note: The Theses brought Luther to the authorities' attention; condemned by the Pope and excommunicated,
+  he was summoned to Worms.
+sources:
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: Pope Leo X issued the Papal bull Exsurge Domine ("Arise, O Lord"), outlining 41 purported errors
+    found in Martin Luther's Ninety-five Theses and other writings
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: Luther first attracted the attention of ecclesiastical authorities after the publication of his
+    95 Theses (written 1517) in 1518.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

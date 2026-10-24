@@ -1,0 +1,40 @@
+id: constitution-of-japan-1947
+title: Constitution of Japan
+summary: Drafted mainly by US officials during the Allied occupation, the constitution was adopted on 3 November
+  1946 and took effect on 3 May 1947. Under Article 9 Japan renounces war as a sovereign right.
+occurred:
+  start: '1947-05-03'
+  precision: day
+  note: Adopted 3 November 1946; in force 3 May 1947.
+threads:
+- ww2
+regions:
+- east-asia
+actors:
+- japan
+- douglas-macarthur
+- united-states
+- hirohito
+importance: 4
+wikidata: Q237082
+sources:
+- url: https://en.wikipedia.org/wiki/Constitution_of_Japan
+  title: Constitution of Japan
+  publisher: Wikipedia
+  quote: Written primarily by American civilian officials during the occupation of Japan after World War II,
+    it was adopted on 3 November 1946 and came into effect on 3 May 1947, succeeding the Meiji Constitution
+    of 1889.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Constitution_of_Japan
+  title: Constitution of Japan
+  publisher: Wikipedia
+  quote: Under Article 9, "the Japanese people forever renounce war as a sovereign right of the nation and
+    the threat or use of force as means of settling international disputes".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

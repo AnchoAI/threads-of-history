@@ -1,0 +1,46 @@
+id: china-next-generation-ai-plan-2017
+title: China's Next Generation AI Development Plan
+summary: China's State Council issues a plan describing AI as a strategic technology and setting the goal
+  of China becoming the leading country in AI research and application by 2030.
+occurred:
+  start: '2017-07-20'
+  precision: day
+threads:
+- industry
+- china
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+- chinese-communist-party
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+  title: Artificial intelligence industry in China
+  publisher: Wikipedia
+  quote: The State Council of China issued "A Next Generation Artificial Intelligence Development Plan"
+    (State Council Document No. 35) on 20 July 2017.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+  title: Artificial intelligence industry in China
+  publisher: Wikipedia
+  quote: Specifically, the plan described AI as a strategic technology that has become a "focus of international
+    competition".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_China
+  title: Artificial intelligence industry in China
+  publisher: Wikipedia
+  quote: It set the goal of China becoming the preeminent country for AI research and application by 2030.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Some secondary reports date the State Council document to 8 July 2017 (issued 20 July); check against
+    the document itself.
+  - No Wikidata item for the plan was found; 'none' is set.

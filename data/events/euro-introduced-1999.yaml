@@ -1,0 +1,52 @@
+id: euro-introduced-1999
+title: The euro is launched
+summary: The euro was launched on 1 January 1999, first as an accounting currency for financial markets;
+  euro notes and coins replaced national currencies such as the Deutsche Mark on 1 January 2002. Monetary
+  policy for the euro is set by the European Central Bank.
+occurred:
+  start: '1999-01-01'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- european-central-bank
+- european-union
+importance: 4
+wikidata: none
+sources:
+- url: https://www.ecb.europa.eu/euro/intro/html/index.en.html
+  archive_url: https://web.archive.org/web/20261008130607/https://www.ecb.europa.eu/euro/intro/html/index.en.html
+  title: Introduction to the euro
+  publisher: European Central Bank
+  quote: The euro was launched on 1 January 1999, when it became the currency of more than 300 million
+    people in Europe.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro
+  archive_url: https://web.archive.org/web/20261011131115/https://en.wikipedia.org/wiki/Euro
+  title: Euro
+  publisher: Wikipedia
+  quote: The euro was introduced to world financial markets as an accounting currency on 1 January 1999
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.ecb.europa.eu/euro/intro/html/index.en.html
+  archive_url: https://web.archive.org/web/20261008130607/https://www.ecb.europa.eu/euro/intro/html/index.en.html
+  title: Introduction to the euro
+  publisher: European Central Bank
+  quote: Euro cash was not introduced until 1 January 2002, when it replaced, at fixed conversion rates,
+    the banknotes and coins of the national currencies like the Belgian franc and the Deutsche Mark.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro
+  archive_url: https://web.archive.org/web/20261011131115/https://en.wikipedia.org/wiki/Euro
+  title: Euro
+  publisher: Wikipedia
+  quote: As an independent central bank, the ECB has sole authority to set monetary policy.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Q4916 is the currency, not its launch.'

@@ -1,0 +1,20 @@
+id: quit-india-movement-1942--part_of--indian-independence-movement-1885
+from: quit-india-movement-1942
+to: indian-independence-movement-1885
+type: part_of
+confidence: documented
+note: The Quit India Movement was the culmination of the independence movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Indian_independence_movement
+  archive_url: https://web.archive.org/web/20261008062335/https://en.wikipedia.org/wiki/Indian_independence_movement
+  title: Indian independence movement
+  publisher: Wikipedia
+  quote: culminated in the Quit India Movement (1942), which categorically demanded the end of British colonial
+    presence in India
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

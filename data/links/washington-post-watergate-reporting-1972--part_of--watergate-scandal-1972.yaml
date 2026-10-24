@@ -1,0 +1,19 @@
+id: washington-post-watergate-reporting-1972--part_of--watergate-scandal-1972
+from: washington-post-watergate-reporting-1972
+to: watergate-scandal-1972
+type: part_of
+confidence: documented
+note: The Post's reporting was part of how the scandal was exposed.
+sources:
+- url: https://en.wikipedia.org/wiki/Watergate_scandal
+  archive_url: https://web.archive.org/web/20261020024909/https://en.wikipedia.org/wiki/Watergate_scandal
+  title: Watergate scandal
+  publisher: Wikipedia
+  quote: After the arrests, investigators and reporters like The Washington Post's Bob Woodward and Carl Bernstein—guided
+    by the source "Deep Throat"—exposed a White House political espionage program illegally funded by donor contributions.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,19 @@
+id: russian-intervention-in-syria-2015--part_of--syrian-civil-war-2011
+from: russian-intervention-in-syria-2015
+to: syrian-civil-war-2011
+type: part_of
+confidence: documented
+note: The Russian intervention is part of the foreign involvement in the Syrian civil war.
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
+  archive_url: https://web.archive.org/web/20261012164805/https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war
+  title: Russian intervention in the Syrian civil war
+  publisher: Wikipedia
+  quote: Part of the foreign involvement in the Syrian civil war
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,20 @@
+id: antonio-taguba
+title: Antonio Taguba
+actor_type: person
+summary: United States Army general.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q603007
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q603007.json
+  title: Antonio Taguba
+  publisher: Wikidata
+  quote: United States Army general
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

@@ -1,0 +1,50 @@
+id: johnson-advisers-judge-czech-crisis-subsided-1968
+title: Johnson's advisers judge the Czech crisis has subsided
+summary: 'At President Johnson''s lunch with his foreign policy advisers on 24 July 1968, Walt Rostow said
+  he did not think the Soviets would move militarily against the Czechs, and Secretary Rusk said: "We saw the
+  Czech situation as nearly over. The real crisis has subsided."'
+occurred:
+  start: '1968-07-24'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- dean-rusk
+- lyndon-b-johnson
+- richard-helms
+- united-states
+importance: 2
+source_credibility: medium
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  archive_url: https://web.archive.org/web/20250928074311/https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  title: 'FRUS 1964–1968, vol. XVII, doc. 72: Notes of the President''s meeting with his foreign policy advisers
+    at lunch'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-24'
+  quote: 'Mr. Rostow: The Soviets will not move militarily against them, I do not think.'
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  archive_url: https://web.archive.org/web/20250928074311/https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  title: 'FRUS 1964–1968, vol. XVII, doc. 72: Notes of the President''s meeting with his foreign policy advisers
+    at lunch'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-24'
+  quote: 'Secretary Rusk: We saw the Czech situation as nearly over. The real crisis has subsided.'
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'A wrong reassurance: the Warsaw Pact invaded four weeks later, so outcome is false. CIA Director Helms
+    attended the lunch; the notes record no view from him on Czechoslovakia.'

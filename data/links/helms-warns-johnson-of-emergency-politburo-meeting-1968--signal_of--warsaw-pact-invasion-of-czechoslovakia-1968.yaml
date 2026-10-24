@@ -1,0 +1,28 @@
+id: helms-warns-johnson-of-emergency-politburo-meeting-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: helms-warns-johnson-of-emergency-politburo-meeting-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: Helms read the emergency Politburo meeting as a sign of the coming invasion.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-20'
+  quote: This was what their big meeting was about today.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  archive_url: https://web.archive.org/web/20250330210206/https://www.cia.gov/static/Strategic-Warning-and-The-Role-of-Intelligence.pdf
+  title: 'Strategic Warning and the Role of Intelligence: Lessons Learned from the 1968 Soviet Invasion of
+    Czechoslovakia'
+  publisher: Central Intelligence Agency, Historical Collections Division
+  type: scholarly
+  accessed: '2026-10-21'
+  quote: Dick, that Moscow meeting is to talk about us
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.
+  - Sourced once the quote checker could read PDFs.

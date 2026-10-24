@@ -1,0 +1,21 @@
+id: yuri-gagarin
+title: Yuri Gagarin
+actor_type: person
+summary: Soviet pilot and cosmonaut, first human in space (1934–1968).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q7327
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7327.json
+  title: Yuri Gagarin
+  publisher: Wikidata
+  quote: Soviet pilot and cosmonaut, first human in space (1934–1968)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

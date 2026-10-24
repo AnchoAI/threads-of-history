@@ -1,0 +1,42 @@
+id: imf-weo-vintages
+title: IMF World Economic Outlook database, historical vintages
+publisher: International Monetary Fund, Research Department
+url: https://data.imf.org/en/datasets/IMF.RES:WEO
+download_url: https://data.imf.org/-/media/iData/External-Storage/Documents/D2AC2BB4C12C4A8CB2B6DAF1159263EB/en/WEOhistorical.xlsx
+version: October 2026 (current vintage); historical forecasts from April 1990
+license:
+  name: IMF Copyright and Usage terms (not read)
+  url: https://www.imf.org/external/terms.htm
+  redistribution: unknown
+  attribution: The WEO FAQ asks users to "cite the publication/database accordingly".
+citation: International Monetary Fund. World Economic Outlook Database, <month year> vintage. Washington, DC.
+unit_of_analysis: country-year
+coverage:
+  start: '1980'
+  precision: year
+  ongoing: true
+  note: 'Dataset page: "Data are available from 1980 to the present, and projections for most data series are provided
+    for the next five years." Each vintage is published in April and October.'
+importer: tools/importers/imf_weo_vintages.py
+notes:
+- 'Licence not confirmed. The WEO FAQ (https://data.imf.org/en/Datasets/WEO/Frequently-Asked-Questions) says: "You
+  are welcome to use WEO data for written work as long as you cite the publication/database accordingly." and points
+  to the IMF copyright terms. Those pages (https://www.imf.org/external/terms.htm and https://www.imf.org/en/about/copyright-and-terms)
+  returned HTTP 403 (Akamai "Access Denied") to this sandbox, and the Wayback Machine returned HTTP 429, so the terms
+  could not be read. The site footer reads "© 2026 INTERNATIONAL MONETARY FUND. ALL RIGHTS RESERVED." Permission for
+  "written work" is not the same as permission to republish the figures as a dataset.'
+- 'Vintages are available. FAQ: "As part of the efforts to enhance transparency, historical forecasts from the April
+  1990 WEO for select key indicators are compiled into one Excel file. For all other indicators, they may be found
+  in the archived WEO databases web pages dating back to the April 1999 WEO." The dataset page links the Excel file
+  (WEOhistorical.xlsx, "WEO Historical Forecasts Database") and a "WEO Vintages" page (https://data.imf.org/en/Datasets/WEO/Dataset-Vintages,
+  a JavaScript page that returned no readable list).'
+- 'Why it matters: each vintage gives figures and forecasts as first published, which is what the "knowable on" rule
+  and backtesting need. It also gives a ready-made baseline forecast to score against.'
+- 'Citation: no recommended citation was found on the pages that opened. The citation above is a placeholder in our
+  own words; replace it with the IMF''s form once the terms page can be read.'
+- 'Unit: country-year per vintage (each value is keyed by country, year and publication date).'
+review:
+  status: unverified
+  notes:
+  - Licence and citation not confirmed (IMF terms page unreachable). Do not import until a person reads https://www.imf.org/external/terms.htm
+    and confirms whether republishing WEO figures is allowed.

@@ -1,0 +1,49 @@
+id: quit-india-movement-1942--led_to--bengal-famine-1943
+from: quit-india-movement-1942
+to: bengal-famine-1943
+type: led_to
+confidence: contested
+note: Some historians argue that the unrest of the Quit India movement made the War Cabinet less willing
+  to send famine relief.
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: The historians Christopher Bayly and Tim Harper believe it reduced the British War Cabinet's
+    willingness to provide famine aid at a time when supplies were also needed for the war effort.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: The violence of the Quit India movement hardened British opinion and reduced the War Cabinet's
+    willingness to send famine aid.
+  held_by:
+  - Christopher Bayly
+  - Tim Harper
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: The historians Christopher Bayly and Tim Harper believe it reduced the British War Cabinet's
+      willingness to provide famine aid at a time when supplies were also needed for the war effort.
+    type: reference
+    accessed: '2026-10-03'
+- claim: The refusals of food imports are usually explained by a shortage of shipping during the war,
+    not by the unrest.
+  held_by:
+  - the explanation generally offered at the time, according to the Wikipedia summary
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: The explanation generally offered for the refusals included insufficient shipping, particularly
+      in light of Allied plans to invade Normandy.
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The second position is only the generally offered explanation for the refusals, as summarised
+    by Wikipedia; a named scholar who rejects the Bayly and Harper link would make it stronger.

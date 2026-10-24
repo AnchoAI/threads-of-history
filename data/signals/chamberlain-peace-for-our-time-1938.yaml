@@ -1,0 +1,51 @@
+id: chamberlain-peace-for-our-time-1938
+title: Chamberlain's "peace for our time"
+summary: Returning from Munich on 30 September 1938, Neville Chamberlain gave his "peace for our time"
+  speech, and Hitler said the Sudetenland was his last territorial claim. In March 1939 Germany occupied
+  the rest of the Czech lands, and Britain and France declared war on Germany on 3 September 1939.
+occurred:
+  start: '1938-09-30'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- neville-chamberlain
+- united-kingdom
+importance: 2
+source_credibility: medium
+outcome: 'false'
+wikidata: Q2945549
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: On 30 September, upon his return to Britain, Chamberlain delivered his controversial "peace for
+    our time" speech to crowds in London.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: Hitler announced that it was his last territorial claim in Northern Europe.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: Hitler reneged on his promise to respect the integrity of Czechoslovakia by occupying the remainder
+    of the country
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: In accordance with the defence pact, Britain and France declared war on Germany on 3 September.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - A false reassurance rather than a warning; outcome 'false' means the predicted peace did not hold.

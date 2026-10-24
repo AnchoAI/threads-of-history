@@ -1,0 +1,56 @@
+id: first-saudi-state-1744
+title: First Saudi state (Emirate of Diriyah)
+summary: The Al Saud and their Wahhabi allies expanded from Diriyah over most of present-day Saudi Arabia, sacking
+  Karbala in 1802 and taking Mecca in 1803, until the Ottoman viceroy of Egypt destroyed the state in 1818.
+occurred:
+  start: '1744'
+  end: '1818'
+  precision: year
+  note: In 2022 the Saudi government designated 1727 as the state's official beginning.
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- muhammad-bin-saud
+- muhammad-ibn-abd-al-wahhab
+importance: 4
+wikidata: Q146871
+sources:
+- url: https://en.wikipedia.org/wiki/Emirate_of_Diriyah
+  archive_url: https://web.archive.org/web/20261002225307/https://en.wikipedia.org/wiki/Emirate_of_Diriyah
+  title: First Saudi state (Emirate of Diriyah)
+  publisher: Wikipedia
+  quote: was a polity that existed on the Arabian Peninsula between 1744 and 1818
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: The Emirate of Diriyah established in the area around Riyadh rapidly expanded and briefly controlled most
+    of the present-day territory of Saudi Arabia, sacking Karbala in 1802, and capturing Mecca in 1803.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: In 1818, it was destroyed by the Ottoman viceroy of Egypt, Mohammed Ali Pasha.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Emirate_of_Diriyah
+  archive_url: https://web.archive.org/web/20261002225307/https://en.wikipedia.org/wiki/Emirate_of_Diriyah
+  title: First Saudi state (Emirate of Diriyah)
+  publisher: Wikipedia
+  quote: In 2022, the Saudi government designated 1727, the year Muhammad I assumed leadership of the Sheikhdom
+    of Diriyah, as the official beginning of the first Saudi state.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.
+  - 'Start date: Wikipedia gives 1744 (the pact); the Saudi government and Wikidata (Q146871) use 1727. 1744 is
+    used here so the pact can lead to the state.'

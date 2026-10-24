@@ -1,0 +1,25 @@
+id: german-embassy-warning-to-lusitania-passengers-1915--signal_of--sinking-of-the-lusitania-1915
+from: german-embassy-warning-to-lusitania-passengers-1915
+to: sinking-of-the-lusitania-1915
+type: signal_of
+confidence: documented
+note: The embassy's warning appeared the day before the Lusitania sailed; the ship was sunk a week later.
+sources:
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: The juxtaposition was a coincidence, but the warning led to some agitation in the press, annoyance from
+    the American government, and worried the ship's passengers and crew.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: The passengers had been notified before departing New York of the general danger of voyaging into the area
+    in a British ship, but the attack itself came without warning.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

@@ -1,0 +1,74 @@
+id: magna-carta-1215--led_to--english-bill-of-rights-1689
+from: magna-carta-1215
+to: english-bill-of-rights-1689
+type: led_to
+confidence: contested
+note: Seventeenth-century lawyers and Whigs read Magna Carta as the foundation of English liberties, a
+  lineage the Bill of Rights is placed in; historians dispute that reading of the 1215 charter.
+sources:
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: It has a primary place in a wider national historical narrative of documents which established
+    the rights of Parliament and set out universal civil liberties, starting with Magna Carta in 1215.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Magna_Carta
+  title: Magna Carta
+  publisher: Wikipedia
+  quote: jurists such as Sir Edward Coke invoked Magna Carta extensively in the early 17th century, arguing
+    against the divine right of kings
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The Glorious Revolution and its Bill of Rights reclaimed ancient English liberties rooted in
+    Magna Carta; the Bill stands in a line of rights documents that starts in 1215.
+  held_by:
+  - Whig writers and jurists of the 17th century, e.g. Sir Edward Coke and Henry Care
+  - British Library (as quoted in Wikipedia, Bill of Rights 1689)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Magna_Carta
+    title: Magna Carta
+    publisher: Wikipedia
+    quote: In the Whig interpretation of history, the Glorious Revolution was an example of reclaiming
+      ancient liberties.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Magna_Carta
+    title: Magna Carta
+    publisher: Wikipedia
+    quote: the Whigs believed England's constitution to be a social contract, based on documents such
+      as Magna Carta, the Petition of Right, and the Bill of Rights
+    type: reference
+    accessed: '2026-10-14'
+- claim: The 1215 charter was a feudal settlement between the king and his barons; the idea that it guaranteed
+    universal rights was a later myth, so the line from Magna Carta to the Bill of Rights runs through
+    a misreading.
+  held_by:
+  - Victorian historians
+  - Most modern historians, e.g. Ralph Turner and Claire Breay (as summarised in Wikipedia, Magna Carta)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Magna_Carta
+    title: Magna Carta
+    publisher: Wikipedia
+    quote: Research by Victorian historians showed that the original 1215 charter had concerned the medieval
+      relationship between the monarch and the barons, and not ordinary subjects.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Magna_Carta
+    title: Magna Carta
+    publisher: Wikipedia
+    quote: Modern historians regard this narrative as fundamentally incorrect, and many refer to it as
+      a "myth".
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://www.archives.gov/exhibits/featured-documents/magna-carta/legacy.html
+    title: Magna Carta and Its American Legacy
+    publisher: U.S. National Archives
+    quote: The Charter was a feudal document and meant to protect the rights and property of the few powerful
+      families that topped the rigidly structured feudal system.
+    type: primary
+    accessed: '2026-10-14'
+review:
+  status: sourced

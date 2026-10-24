@@ -1,0 +1,21 @@
+id: salvador-allende
+title: Salvador Allende
+actor_type: person
+summary: 28th president of Chile (1908–1973).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q440
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q440.json
+  title: Salvador Allende
+  publisher: Wikidata
+  quote: 28th president of Chile (1908–1973
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

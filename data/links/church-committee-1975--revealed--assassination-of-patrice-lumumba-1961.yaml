@@ -1,0 +1,28 @@
+id: church-committee-1975--revealed--assassination-of-patrice-lumumba-1961
+from: church-committee-1975
+to: assassination-of-patrice-lumumba-1961
+type: revealed
+confidence: documented
+note: The Senate inquiry exposed CIA plots to kill Lumumba, while finding the CIA was not directly involved
+  in his murder.
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: The 1975 Church Committee found that while the CIA had conspired to kill Lumumba, it was not
+    directly involved in the murder.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: 'declassified CIA cables quoted or mentioned in the Church report discuss two specific CIA plots
+    to murder Lumumba: the poison plot and a shooting plot.'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

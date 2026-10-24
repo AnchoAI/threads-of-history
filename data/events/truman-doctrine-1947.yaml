@@ -1,0 +1,61 @@
+id: truman-doctrine-1947
+title: Truman Doctrine
+summary: On 12 March 1947, after Britain said it would stop aiding the Greek government, Truman asked
+  Congress to aid Greece and Turkey, saying US policy must be "to support free peoples who are resisting
+  attempted subjugation by armed minorities or by outside pressures." Congress approved $400 million in
+  May 1947. Historians often date the start of the Cold War from the speech.
+occurred:
+  start: '1947-03-12'
+  precision: day
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- middle-east-north-africa
+actors:
+- harry-truman
+- united-states
+importance: 4
+wikidata: Q171375
+sources:
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: The Truman Doctrine arose from a speech delivered by President Truman before a joint session
+    of Congress on March 12, 1947.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: The immediate cause for the speech was a recent announcement by the British Government that,
+    as of March 31, it would no longer provide military and economic assistance to the Greek Government
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: Truman told Congress that "it must be the policy of the United States to support free peoples
+    who are resisting attempted subjugation by armed minorities or by outside pressures."
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: In May 1947, two months after Truman's request, a large majority of Congress approved $400 million
+    in military and economic aid to Greece and Turkey.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: Historians often use Truman's speech to Congress on March 12, 1947, to date the start of the
+    Cold War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

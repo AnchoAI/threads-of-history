@@ -1,0 +1,15 @@
+id: soviet-declaration-of-war-on-japan-1945--part_of--second-world-war-1939-1945
+from: soviet-declaration-of-war-on-japan-1945
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War
+  title: Soviet–Japanese War
+  publisher: Wikipedia
+  quote: The Soviet–Japanese War was a campaign of the Second World War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

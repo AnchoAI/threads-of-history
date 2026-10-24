@@ -1,0 +1,78 @@
+id: long-telegram-1946
+title: Kennan's "Long Telegram"
+summary: On 22 February 1946 George F. Kennan, a US diplomat in Moscow, sent Washington a classified analysis
+  of Soviet conduct of a little over 5,000 words; it circulated widely, reaching President Truman. Kennan's
+  ideas reached the public anonymously in the July 1947 "X Article" in Foreign Affairs, which brought
+  the term "containment" into wide use.
+occurred:
+  start: '1946-02-22'
+  precision: day
+threads:
+- usru
+- intel
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- george-f-kennan
+- harry-truman
+- united-states
+- soviet-union
+importance: 3
+wikidata: Q4162638
+sources:
+- url: https://en.wikipedia.org/wiki/Long_Telegram
+  archive_url: https://web.archive.org/web/20260908233126/https://en.wikipedia.org/wiki/Long_telegram
+  title: Long Telegram
+  publisher: Wikipedia
+  quote: Kennan probably wrote rough drafts of a message before dictating a final version to his secretary,
+    Dorothy Hessman, on February 22, 1946.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Long_Telegram
+  archive_url: https://web.archive.org/web/20260908233126/https://en.wikipedia.org/wiki/Long_telegram
+  title: Long Telegram
+  publisher: Wikipedia
+  quote: at a little over 5,000 words, it was the longest diplomatic telegram sent in the history of the
+    State Department
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Long_Telegram
+  archive_url: https://web.archive.org/web/20260908233126/https://en.wikipedia.org/wiki/Long_telegram
+  title: Long Telegram
+  publisher: Wikipedia
+  quote: Secretary of the Navy James Forrestal (left) was largely responsible for the spread of the "long
+    telegram", extending its readership to US President Harry S. Truman (right), amongst others.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Long_Telegram
+  archive_url: https://web.archive.org/web/20260908233126/https://en.wikipedia.org/wiki/Long_telegram
+  title: Long Telegram
+  publisher: Wikipedia
+  quote: published under the pseudonym "X" in the July 1947 issue of Foreign Affairs magazine. It introduced
+    the term "containment" to widespread use
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Long_Telegram
+  archive_url: https://web.archive.org/web/20260908233126/https://en.wikipedia.org/wiki/Long_telegram
+  title: Long Telegram
+  publisher: Wikipedia
+  quote: It expanded on ideas expressed by Kennan in a confidential February 1946 telegram
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/kennan
+  title: Kennan and Containment, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: Kennan’s ideas, which became the basis of the Truman administration’s foreign policy, first came
+    to public attention in 1947 in the form of an anonymous contribution to the journal Foreign Affairs,
+    the so-called “X-Article.”
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The telegram was classified, but its ideas became public in the July 1947 X Article; the date the
+    telegram's own text was first published is not sourced, so no known.public date is set.
+  - The Wikipedia URL Long_Telegram now redirects to the X Article page; the quotes come from that page.
+  - The source says a copy leaked to Soviet intelligence and Stalin read it, without a date; it could
+    become a known.by entry once dated.

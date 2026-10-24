@@ -1,0 +1,66 @@
+id: first-chechen-war-1994
+title: First Chechen War
+summary: Russian forces enter Chechnya on 11 December 1994 against the secessionist government of Dzhokhar
+  Dudayev, which had taken control during the dissolution of the Soviet Union. Thousands of civilians
+  are killed; the war ends with the Khasavyurt Accord of 31 August 1996, which provides for the withdrawal
+  of all federal forces.
+occurred:
+  start: '1994-12-11'
+  end: '1996-08-31'
+  precision: day
+threads:
+- russia
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- boris-yeltsin
+- dzhokhar-dudayev
+- russia
+importance: 3
+wikidata: Q29269
+sources:
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: On 11 December 1994, five days after Dudayev and Russian Minister of Defense Gen. Pavel Grachev
+    of Russia had agreed to "avoid the further use of force", Russian forces entered the republic
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: During the dissolution of the Soviet Union in late 1991, Chechnya came under the control of a
+    secessionist regime led by Dzhokhar Dudayev.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: Thousands of Chechen civilians were killed in aerial bombings and urban warfare
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: leading to the signing of the Khasavyurt Accord on 31 August 1996
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  archive_url: https://web.archive.org/web/20261009122824/https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: The agreement stipulated the withdrawal of all federal forces from Chechnya by 31 December 1996
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The 'russia' thread is named 'Russian Revolution & Soviet state'; it is used here for the post-Soviet
+    Russian state as no better thread exists.

@@ -1,0 +1,18 @@
+id: death-of-diana-1997--influenced--ottawa-treaty-1997
+from: death-of-diana-1997
+to: ottawa-treaty-1997
+type: influenced
+confidence: documented
+note: Her death weeks before the treaty conference brought world attention to the landmine cause.
+sources:
+- url: https://en.wikipedia.org/wiki/Ottawa_Treaty
+  archive_url: https://web.archive.org/web/20261007185654/https://en.wikipedia.org/wiki/Ottawa_Treaty
+  title: Ottawa Treaty
+  publisher: Wikipedia
+  quote: Her death a few weeks later propelled the cause on the world stage and, as reported by Time magazine in
+    their September 1997 edition, "After her death, the treaty... took on the luster of a humanitarian memorial
+    to Diana and her cause."
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

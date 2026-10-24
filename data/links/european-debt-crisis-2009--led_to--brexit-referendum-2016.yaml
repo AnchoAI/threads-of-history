@@ -1,0 +1,26 @@
+id: european-debt-crisis-2009--led_to--brexit-referendum-2016
+from: european-debt-crisis-2009
+to: brexit-referendum-2016
+type: led_to
+confidence: documented
+note: The handling of the eurozone crisis fed Euroscepticism in the UK, one of several factors behind
+  the vote.
+sources:
+- url: https://en.wikipedia.org/wiki/Brexit
+  title: Brexit
+  publisher: Wikipedia
+  quote: Perceptions of EU leadership during major crises significantly contributed to Euroscepticism
+    in the UK.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Brexit
+  title: Brexit
+  publisher: Wikipedia
+  quote: During the eurozone debt crisis, strict austerity measures were imposed as a condition for bailouts,
+    with EU member states, including the UK, asked to contribute to bailout plans.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The source links the crisis to Euroscepticism rather than to the referendum result directly.

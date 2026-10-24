@@ -1,0 +1,54 @@
+id: the-holocaust-1933-1945
+title: The Holocaust
+summary: The systematic, state-sponsored persecution and murder of six million European Jews by the Nazi
+  German regime and its allies and collaborators. The US Holocaust Memorial Museum dates it from Hitler's
+  coming to power in January 1933 to Germany's defeat in May 1945; the mass murder itself was carried
+  out between 1941 and 1945.
+occurred:
+  start: 1933-01
+  end: 1945-05
+  precision: month
+threads:
+- ww2
+- interwar
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- nazi-germany
+- adolf-hitler
+importance: 5
+wikidata: Q2763
+sources:
+- url: https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust
+  title: Introduction to the Holocaust
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Holocaust was the systematic, state-sponsored persecution and murder of six million European
+    Jews by the Nazi German regime and its allies and collaborators.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust
+  title: Introduction to the Holocaust
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Holocaust era began in January 1933 when Adolf Hitler and the Nazi Party came to power in
+    Germany.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust
+  title: Introduction to the Holocaust
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: It ended in May 1945, when the Allied Powers defeated Nazi Germany in World War II.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust
+  title: Introduction to the Holocaust
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Nazi German regime implemented this genocide between 1941 and 1945.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Umbrella item. It starts before the Second World War, so it is not part_of second-world-war-1939-1945.
+    Sub-events (mass shootings after June 1941, deportations, killing centres) could be added as part_of
+    items in a later batch.

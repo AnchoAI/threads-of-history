@@ -1,0 +1,30 @@
+id: bush-pardons-iran-contra-defendants-1992--part_of--iran-contra-affair-1984
+from: bush-pardons-iran-contra-defendants-1992
+to: iran-contra-affair-1984
+type: part_of
+confidence: documented
+note: The pardons ended the remaining Iran–Contra prosecutions.
+sources:
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Bush's pardon of Weinberger on December 24, 1992 pre-empted a trial in which defense counsel indicated
+    that they intended to call Bush as a witness.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: Clarridge was awaiting trial on seven counts of perjury and false statements when he, George and Fiers
+    were pardoned by President Bush.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

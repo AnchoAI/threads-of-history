@@ -1,0 +1,24 @@
+id: second-world-war-1939-1945--led_to--universal-declaration-of-human-rights-1948
+from: second-world-war-1939-1945
+to: universal-declaration-of-human-rights-1948
+type: led_to
+confidence: documented
+note: The Declaration was drafted in response to the atrocities of the Second World War.
+sources:
+- url: https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  title: History of the Declaration
+  publisher: United Nations
+  archive_url: https://web.archive.org/web/20260820115936/https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  quote: was the result of the experience of the Second World War
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  title: History of the Declaration
+  publisher: United Nations
+  archive_url: https://web.archive.org/web/20260820115936/https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  quote: the international community vowed to never again allow atrocities like those of that conflict
+    to happen again
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced

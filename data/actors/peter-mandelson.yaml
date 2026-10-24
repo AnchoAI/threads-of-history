@@ -1,0 +1,22 @@
+id: peter-mandelson
+title: Peter Mandelson
+actor_type: person
+summary: British politician and life peer (born 1953).
+threads:
+- scandals
+regions:
+- western-europe
+importance: 2
+wikidata: Q310046
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q310046.json
+  title: Peter Mandelson
+  publisher: Wikidata
+  quote: British politician and life peer (born 1953)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

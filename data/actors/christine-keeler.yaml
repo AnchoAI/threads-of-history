@@ -1,0 +1,20 @@
+id: christine-keeler
+title: Christine Keeler
+actor_type: person
+summary: English model and showgirl (1942–2017).
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q176222
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q176222.json
+  title: Christine Keeler
+  publisher: Wikidata
+  quote: English model and showgirl (1942–2017)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

@@ -1,0 +1,37 @@
+id: taiwan-under-japanese-rule-1895
+title: Taiwan under Japanese rule
+summary: Taiwan and the Penghu Islands were ruled by Japan from 1895, when the Treaty of Shimonoseki ceded
+  them, until 1945; after Japan surrendered, the territory was placed under the control of the Republic
+  of China.
+occurred:
+  start: '1895'
+  end: '1945'
+  precision: year
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- republic-of-china-1912-1949
+importance: 4
+wikidata: Q137816
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki
+  title: Treaty of Shimonoseki
+  publisher: Wikipedia
+  quote: Therefore, Taiwan was under Japanese rule from 1895 to 1945, until the end of World War II by
+    the surrender of Japan.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule
+  title: Taiwan under Japanese rule
+  publisher: Wikipedia
+  quote: Japanese administrative rule of Taiwan ended in October 1945, after Japan surrendered to end
+    World War II in August of that year and the territory was placed under the control of the Republic
+    of China (ROC)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

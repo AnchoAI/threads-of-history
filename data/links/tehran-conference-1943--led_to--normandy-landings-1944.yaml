@@ -1,0 +1,25 @@
+id: tehran-conference-1943--led_to--normandy-landings-1944
+from: tehran-conference-1943
+to: normandy-landings-1944
+type: led_to
+confidence: documented
+note: At Tehran the British and Americans committed to the invasion of northern France by May 1944.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/tehran-conf
+  title: The Tehran Conference, 1943
+  publisher: US Department of State, Office of the Historian
+  quote: Roosevelt, Churchill, and Stalin engaged in discussions concerning the terms under which the
+    British and Americans finally committed to launching Operation Overlord, an invasion of northern France,
+    to be executed by May of 1944.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Normandy_landings
+  archive_url: https://web.archive.org/web/20261001084328/https://en.wikipedia.org/wiki/Normandy_landings
+  title: Normandy landings
+  publisher: Wikipedia
+  quote: At the Tehran Conference in November 1943, Roosevelt and Churchill promised Stalin that they
+    would open the long-delayed second front in May 1944.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

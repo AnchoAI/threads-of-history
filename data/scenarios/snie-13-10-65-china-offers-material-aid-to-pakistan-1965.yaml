@@ -1,0 +1,65 @@
+id: snie-13-10-65-china-offers-material-aid-to-pakistan-1965
+title: 'SNIE 13-10-65: China offers material aid to Pakistan'
+summary: On 16 September 1965 the US intelligence community judged that China would probably offer Pakistan material
+  aid during the Indo-Pakistani war, though it could deliver little. China did offer military aid, which Pakistan
+  rejected.
+threads:
+- china
+- intel
+regions:
+- south-central-asia
+- east-asia
+actors:
+- cia
+- peoples-republic-of-china
+- pakistan
+importance: 2
+window:
+  start: '1965-09-16'
+  end: '1965-09-23'
+  precision: day
+probability: 0.75
+stated_as: China will probably offer material aid
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probably'' (Kent''s ''probable'' bracket)
+  = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1965-09-16'
+resolves_by: '1965-09-23'
+resolution:
+  outcome: happened
+  resolved_on: '1965-09-23'
+  event: indo-pakistani-war-of-1965-1965
+  note: China offered Pakistan military aid, which Pakistan rejected.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v25/d205
+  archive_url: https://web.archive.org/web/20250922200623/https://history.state.gov/historicaldocuments/frus1964-68v25/d205
+  title: 'Special National Intelligence Estimate SNIE 13-10-65: Prospects of Chinese Communist Involvement in the
+    Indo-Pakistan War'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1965-09-16'
+  quote: In addition to propaganda, political support, and military gestures, China will probably offer material
+    aid, but it probably cannot deliver more than token amounts.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  archive_url: https://web.archive.org/web/20260930060754/https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  title: Indo-Pakistani war of 1965
+  publisher: Wikipedia
+  quote: Ultimately, Pakistan rejected Chinese offers of military aid, recognising that accepting it would only
+    result in further alienating Pakistan internationally.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The source does not date the offers; resolved_on is set to the end of the war. Check that the offers fell within
+    16–23 September 1965.

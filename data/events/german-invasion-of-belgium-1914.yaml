@@ -1,0 +1,48 @@
+id: german-invasion-of-belgium-1914
+title: German invasion of Belgium
+summary: Germany declared war on neutral Belgium and invaded it on 4 August 1914, as part of an attack on France.
+  The campaign lasted until 31 October 1914.
+occurred:
+  start: '1914-08-04'
+  end: '1914-10-31'
+  precision: day
+threads:
+- ww1
+regions:
+- western-europe
+actors:
+- german-empire
+importance: 4
+wikidata: Q792340
+sources:
+- url: https://en.wikipedia.org/wiki/German_invasion_of_Belgium_(1914)
+  title: German invasion of Belgium (1914)
+  publisher: Wikipedia
+  quote: The German government declared war on Belgium on 4 August; German troops crossed the border and began the
+    Battle of Liège.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/German_invasion_of_Belgium_(1914)
+  title: German invasion of Belgium (1914)
+  publisher: Wikipedia
+  quote: Date 4 August – 31 October
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+  archive_url: https://web.archive.org/web/20260903144441/https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+  title: British entry into World War I
+  publisher: Wikipedia
+  quote: Germany, as part of a massive attack on France, invaded northern France through Belgium early on the morning
+    of 4 August.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/German_invasion_of_Belgium_(1914)
+  title: German invasion of Belgium (1914)
+  publisher: Wikipedia
+  quote: On 24 July, the Belgian government had announced that if war came it would uphold its neutrality.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

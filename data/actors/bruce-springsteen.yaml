@@ -1,0 +1,21 @@
+id: bruce-springsteen
+title: Bruce Springsteen
+actor_type: person
+summary: American rock singer (born 1949).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q1225
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1225.json
+  title: Bruce Springsteen
+  publisher: Wikidata
+  quote: American rock singer (born 1949)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

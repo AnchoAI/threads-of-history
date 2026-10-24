@@ -1,0 +1,42 @@
+id: decolonisation-of-africa-1950
+title: Decolonisation of Africa
+summary: From the mid-1950s to 1976, colonial governments formed during the Scramble for Africa collapse and give
+  way to sovereign states, often amid violence and revolt, as in the Algerian War and the Congo Crisis.
+occurred:
+  start: '1950'
+  end: '1976'
+  precision: decade
+threads:
+- empire
+regions:
+- sub-saharan-africa
+- middle-east-north-africa
+actors:
+- united-kingdom
+- france
+importance: 5
+wikidata: Q1146918
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: The decolonisation of Africa was a series of political developments in Africa between the mid-1950s to
+    1976, during the Cold War. Colonial governments formed during the Scramble for Africa collapsed, giving way
+    to sovereign states in a process characterised by violence, political upheaval, civil unrest, and organised
+    revolts.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Major events during the decolonisation of Africa include the Mau Mau rebellion, the Algerian War, the Congo
+    Crisis
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Start given as the 1950s (decade precision) because the source says "mid-1950s"; Libya's independence on 24
+    December 1951 appears in the same article's table.

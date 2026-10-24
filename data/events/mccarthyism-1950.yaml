@@ -1,0 +1,66 @@
+id: mccarthyism-1950
+title: McCarthyism
+summary: A campaign of accusations and investigations of alleged communist and Soviet influence in US
+  institutions in the late 1940s and 1950s, named after Senator Joseph McCarthy, whose role began publicly
+  with a speech in Wheeling, West Virginia, on 9 February 1950. Congress held 109 investigations between
+  1949 and 1954; McCarthy lost popularity after several accusations were found false and was censured
+  by the Senate.
+occurred:
+  start: '1950-02-09'
+  precision: day
+  note: McCarthy's Wheeling speech; the wider Second Red Scare began before it.
+threads:
+- usru
+- intel
+regions:
+- americas
+actors:
+- joseph-mccarthy
+- united-states
+importance: 3
+wikidata: Q207066
+sources:
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: McCarthyism is a political practice defined by the accusation and investigation of left-wing
+    individuals of communist and Soviet influence on American institutions and of Soviet espionage in
+    the United States during the late 1940s through the 1950s
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: McCarthy's involvement in these issues began publicly with a speech he made on Lincoln Day, February
+    9, 1950, to the Republican Women's Club of Wheeling, West Virginia.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: Between 1949 and 1954, a total of 109 investigations were carried out by these and other committees
+    of Congress.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: gradually lost his public popularity after several of his accusations were found to be false
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: In less than a year, McCarthy was censured by the Senate, and his position as a prominent force
+    in anti-communism was essentially ended.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No end date: the censure (December 1954) is not dated in the quoted text.'

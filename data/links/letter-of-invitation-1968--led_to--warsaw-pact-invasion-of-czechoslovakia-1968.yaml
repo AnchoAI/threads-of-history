@@ -1,0 +1,26 @@
+id: letter-of-invitation-1968--led_to--warsaw-pact-invasion-of-czechoslovakia-1968
+from: letter-of-invitation-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: The invitation letters were meant to legitimise the intervention.
+sources:
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: two undated letters that had played the key role in the political scenario of the intervention of
+    five Soviet Bloc states against the Czechoslovak pro-reform movement in 1968
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: were intended to help legalise the occupation of Czechoslovakia by Warsaw Pact armies
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

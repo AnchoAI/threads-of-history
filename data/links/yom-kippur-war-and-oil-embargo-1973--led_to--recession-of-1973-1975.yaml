@@ -1,0 +1,85 @@
+id: yom-kippur-war-and-oil-embargo-1973--led_to--recession-of-1973-1975
+from: yom-kippur-war-and-oil-embargo-1973
+to: recession-of-1973-1975
+type: led_to
+confidence: contested
+note: The 1973 oil crisis is listed among the causes of the 1970s stagflation; how much it mattered, as
+  against monetary policy, is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: Among the causes were the 1973 oil crisis, the deficits of the Vietnam War, and the fall of the
+    Bretton Woods system after the Nixon shock.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: While economists debate the relative importance of the factors that motivated and perpetuated
+    inflation for more than a decade, there is little debate about its source.
+  type: scholarly
+  accessed: '2026-10-15'
+positions:
+- claim: The oil shock and other supply-side forces beyond the central bank's control drove the inflation
+    of the 1970s; tighter money would have raised unemployment without curing it.
+  held_by:
+  - Arthur Burns (Federal Reserve chairman 1970–1978)
+  sources:
+  - url: https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+    archive_url: https://web.archive.org/web/20260823165631/https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+    title: Oil Shock of 1973-74
+    publisher: Federal Reserve History (Michael Corbett)
+    quote: Fed Chairman Burns argued in 1979 that the inflation appeared to be the result of a plethora
+      of forces
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+    archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+    title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+    publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+    quote: Burns believed that tightening monetary policy and the increase in unemployment that accompanied
+      it would be ineffective against the inflation then occurring, because it stemmed from forces beyond
+      the control of the Fed, such as labor unions, food and energy shortages, and OPEC's control of oil
+      prices.
+    type: scholarly
+    accessed: '2026-10-15'
+- claim: Federal Reserve policy was the source of the inflation; the oil embargo was one complicating
+    factor, and an accommodating Fed let higher oil prices feed into general inflation.
+  held_by:
+  - Michael Bryan (Federal Reserve History, 'The Great Inflation')
+  - Michael Corbett (Federal Reserve History, 'Oil Shock of 1973-74')
+  sources:
+  - url: https://www.federalreservehistory.org/essays/great-inflation
+    archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+    title: The Great Inflation
+    publisher: Federal Reserve History (Michael Bryan)
+    quote: The origins of the Great Inflation were policies that allowed for an excessive growth in the
+      supply of money—Federal Reserve policies.
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://www.federalreservehistory.org/essays/great-inflation
+    archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+    title: The Great Inflation
+    publisher: Federal Reserve History (Michael Bryan)
+    quote: the Federal Reserve accommodated large and rising fiscal imbalances and leaned against the
+      headwinds produced by energy costs. These policies accelerated the expansion of the money supply
+      and raised overall prices without reducing unemployment.
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+    archive_url: https://web.archive.org/web/20260823165631/https://www.federalreservehistory.org/essays/oil-shock-of-1973-74
+    title: Oil Shock of 1973-74
+    publisher: Federal Reserve History (Michael Corbett)
+    quote: The oil embargo of 1973 was just one of many complicating factors that led U.S. policymakers
+      to overestimate our national potential and to underestimate their own role in the broad inflation
+      that occurred throughout the 1970s.
+    type: scholarly
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The debate is framed in the sources around inflation (the 'Great Inflation'); the link points to the
+    1973–75 recession because the Great Inflation item starts in 1965, before the embargo.

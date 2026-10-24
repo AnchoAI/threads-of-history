@@ -1,0 +1,85 @@
+id: pfiab-war-scare-report-declassified-2015--revealed--able-archer-83-war-scare-1983
+from: pfiab-war-scare-report-declassified-2015
+to: able-archer-83-war-scare-1983
+type: revealed
+confidence: contested
+note: The declassified 1990 PFIAB report concluded that the Soviets were genuinely worried by Able Archer;
+  how dangerous the episode was remains disputed.
+sources:
+- url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+  title: The 1983 War Scare Declassified and For Real
+  publisher: National Security Archive
+  date: '2015-10-24'
+  quote: There is little doubt in our minds that the Soviets were genuinely worried by Able Archer
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Some scholars have argued that Able Archer 83 was one of the times when the world has come closest
+    to nuclear war since the Cuban Missile Crisis in 1962.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: 'The report shows the danger was real: some Soviet forces prepared to pre-empt or counter a NATO
+    strike, and the US had put relations on a ''hair trigger''.'
+  held_by:
+  - President's Foreign Intelligence Advisory Board (1990 report)
+  - National Security Archive
+  sources:
+  - url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+    archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+    title: The 1983 War Scare Declassified and For Real
+    publisher: National Security Archive
+    date: '2015-10-24'
+    quote: it appears that at least some Soviet forces were preparing to preempt or counterattack a NATO
+      strike launched under cover of Abler Archer
+    type: primary
+    accessed: '2026-10-15'
+  - url: https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+    archive_url: https://web.archive.org/web/20260823192748/https://nsarchive2.gwu.edu/nukevault/ebb533-The-Able-Archer-War-Scare-Declassified-PFIAB-Report-Released/
+    title: The 1983 War Scare Declassified and For Real
+    publisher: National Security Archive
+    date: '2015-10-24'
+    quote: This newly declassified PFIAB document, however, provides the strongest evidence to date that
+      the danger of the War Scare was real
+    type: primary
+    accessed: '2026-10-15'
+- claim: 'The danger has been overstated: Eastern bloc archives and the lack of a Soviet response suggest
+    Moscow did not see the exercise as an imminent threat.'
+  held_by:
+  - Simon Miles
+  - Fritz W. Ermarth
+  - Mark Kramer
+  - Gordon Barrass
+  sources:
+  - url: https://ssp.mit.edu/events/2019/the-war-scare-that-wasn-t
+    archive_url: https://web.archive.org/web/20260417184507/https://ssp.mit.edu/events/2019/the-war-scare-that-wasn-t
+    title: 'The War Scare That Wasn''t: Able Archer 83 and the Myths of the Second Cold War (seminar abstract)'
+    publisher: MIT Security Studies Program (Simon Miles)
+    date: '2019-10-23'
+    quote: This paper overturns this narrative using new, international evidence from the political, military,
+      and intelligence archives of the Eastern bloc.
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Able_Archer_83
+    title: Able Archer 83
+    publisher: Wikipedia
+    quote: to conclude that the Soviet Union did not see Able Archer 83 as posing an immediate threat
+      to the Soviet Union
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Able_Archer_83
+    title: Able Archer 83
+    publisher: Wikipedia
+    quote: have argued that those present in the USSR at the time were not of the belief that tensions
+      rose to the point that the Soviets prepared for a nuclear attack
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - Mark Kramer and Gordon Barrass are named as sceptics in the Wikipedia passage quoted (spelled 'Barras'
+    there).

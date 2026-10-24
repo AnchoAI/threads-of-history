@@ -1,0 +1,18 @@
+id: draft-nie-on-iran-1978--signal_of--iranian-revolution-1979
+from: draft-nie-on-iran-1978
+to: iranian-revolution-1979
+type: signal_of
+confidence: documented
+note: The draft estimate allowed that the dynasty might not survive the coming months.
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: It paints a gloomy picture of the Shah’s chances and at least allows for the possibility that the Pahlavi
+    “dynasty” may not survive the next several months without major concessions.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

@@ -1,0 +1,38 @@
+id: robert-kennedy-dobrynin-meeting-1962--led_to--jupiter-missiles-removed-from-turkey-and-italy-1963
+from: robert-kennedy-dobrynin-meeting-1962
+to: jupiter-missiles-removed-from-turkey-and-italy-1963
+type: led_to
+confidence: documented
+note: The secret understanding reached through Robert Kennedy and Dobrynin was that the US would remove
+  its missiles from Italy and Turkey, which it did in April 1963.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The Kennedy-Khrushchev Pact was known to only nine US officials at the time of its creation in
+    October 1962 and was first officially acknowledged at a conference in Moscow in January 1989 by Soviet
+    Ambassador Anatoly Dobrynin and Kennedy's speechwriter Theodore Sorensen.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The outcome of the Kennedy-Khrushchev Pact was that the US would remove their rockets from Italy
+    and Turkey
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: Under an operation code-named Operation Pot Pie, the removal of the Jupiters from Italy and Turkey
+    began on 1 April, and was completed by 24 April 1963.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

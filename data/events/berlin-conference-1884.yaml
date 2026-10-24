@@ -1,0 +1,67 @@
+id: berlin-conference-1884
+title: Berlin Conference
+summary: Fourteen countries, convened by Otto von Bismarck at the request of Leopold II of Belgium, agree the General
+  Act of Berlin regulating European colonisation and trade in Africa. No African rulers were invited. How far it
+  drew Africa's borders is debated.
+occurred:
+  start: '1884-11-15'
+  end: '1885-02-26'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+- western-europe
+actors:
+- otto-von-bismarck
+- leopold-ii-of-belgium
+- german-empire
+- united-kingdom
+- france
+importance: 4
+wikidata: Q13582
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: The conference of fourteen countries was organised by Otto von Bismarck, the first chancellor of Germany,
+    at the request of Leopold II of Belgium
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: It met on 15 November 1884 and, after an adjournment, concluded on 26 February 1885 with the signing of
+    the General Act.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: an agreement regulating European colonisation and trade in Africa during the New Imperialism period
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: Despite the far-reaching consequences of the Berlin Conference, no African rulers were invited to participate.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Berlin_Conference
+  archive_url: https://web.archive.org/web/20261005170145/https://en.wikipedia.org/wiki/Berlin_Conference
+  title: Berlin Conference
+  publisher: Wikipedia
+  quote: A 2024 study found that the only borders set at the conference were those of the Congo region (which were
+    subsequently revised), and that most of Africa's borders did not take their final form until over two decades
+    later.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

@@ -1,0 +1,19 @@
+id: molotov-ribbentrop-pact-1939--led_to--soviet-invasion-of-poland-1939
+from: molotov-ribbentrop-pact-1939
+to: soviet-invasion-of-poland-1939
+type: led_to
+confidence: documented
+note: The Red Army invaded eastern Poland in accordance with the pact's secret protocol.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: On 17 September 1939 the Soviet Red Army invaded the Kresy regions in accordance with the secret
+    protocol.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

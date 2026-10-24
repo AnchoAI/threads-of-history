@@ -1,0 +1,54 @@
+id: miami-herald-perversion-of-justice-2018
+title: Miami Herald's "Perversion of Justice" series on Jeffrey Epstein
+summary: The Miami Herald publishes Julie K. Brown's three-part investigation of Jeffrey Epstein and of Alexander
+  Acosta's role in his plea deal; Brown identified 80 victims and located about 60 of them. The series renews public
+  interest in the case.
+occurred:
+  start: '2018-11-28'
+  precision: day
+threads:
+- scandals
+- media
+- rights
+regions:
+- americas
+actors:
+- julie-k-brown
+- alexander-acosta
+- jeffrey-epstein
+importance: 3
+wikidata: none
+sources:
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: 'Nov. 28: The Miami Herald publishes a series of investigative reports into Epstein and the role of then-U.S.
+    Attorney Acosta in Epstein''s plea deal.'
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: The reports spark intense interest in Epstein's actions, including the notion that powerful people might
+    have known about or been involved in his illegal actions.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: In November 2018, Julie Brown published a three-part series in the Miami Herald, after she identified 80
+    victims and located about 60 of them.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The Herald pages themselves did not load from the sandbox; the series is described from NPR and Wikipedia. The
+    title "Perversion of Justice" is the series name used by the Herald; no fetched page quotes it.

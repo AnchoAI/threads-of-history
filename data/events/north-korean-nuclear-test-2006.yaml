@@ -1,0 +1,41 @@
+id: north-korean-nuclear-test-2006
+title: North Korea's first nuclear test
+summary: On 9 October 2006 North Korea tested a plutonium-based device underground, its first nuclear test;
+  the yield is generally estimated at under one kiloton. It made North Korea the eighth country to test nuclear
+  weapons openly.
+occurred:
+  start: '2006-10-09'
+  precision: day
+threads:
+- nuclear
+regions:
+- east-asia
+actors:
+- north-korea
+importance: 3
+wikidata: Q499060
+sources:
+- url: https://en.wikipedia.org/wiki/2006_North_Korean_nuclear_test
+  archive_url: https://web.archive.org/web/20260924001345/https://en.wikipedia.org/wiki/2006_North_Korean_nuclear_test
+  title: 2006 North Korean nuclear test
+  publisher: Wikipedia
+  quote: On 9 October 2006, North Korea performed its first nuclear test, detonating a plutonium-based device
+    underground. The test made North Korea the tenth country to develop and the eighth to openly test nuclear
+    weapons.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2006_North_Korean_nuclear_test
+  archive_url: https://web.archive.org/web/20260924001345/https://en.wikipedia.org/wiki/2006_North_Korean_nuclear_test
+  title: 2006 North Korean nuclear test
+  publisher: Wikipedia
+  quote: The blast is generally estimated to have had an explosive force of less than one kiloton, and some
+    radioactive output was detected.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Yield estimates in the source vary widely (from about 0.5 to 15 kilotons); the lead's 'less than one kiloton'
+    is used.

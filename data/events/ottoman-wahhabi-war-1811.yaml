@@ -1,0 +1,39 @@
+id: ottoman-wahhabi-war-1811
+title: Ottoman–Wahhabi war
+summary: Ottoman and Egyptian forces fought the first Saudi state from 1811. In 1818 they took its capital, Diriyah,
+  razed it, and ended the state.
+occurred:
+  start: '1811'
+  end: '1818'
+  precision: year
+threads:
+- religion
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+importance: 3
+wikidata: Q1809288
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman%E2%80%93Wahhabi_war
+  archive_url: https://web.archive.org/web/20260830083124/https://en.wikipedia.org/wiki/Ottoman%E2%80%93Wahhabi_war
+  title: Ottoman–Wahhabi war
+  publisher: Wikipedia
+  quote: The Ottoman–Wahhabi war, or Wahhabi war, was fought from early 1811 until 1818 between the Ottoman Empire,
+    its vassal the Eyalet of Egypt, and the Wahhabis’ Emirate of Diriyah (later known as the first Saudi state),
+    resulting in the destruction of the latter.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ottoman%E2%80%93Wahhabi_war
+  archive_url: https://web.archive.org/web/20260830083124/https://en.wikipedia.org/wiki/Ottoman%E2%80%93Wahhabi_war
+  title: Ottoman–Wahhabi war
+  publisher: Wikipedia
+  quote: However, the city would be razed to ground by order of Ibrahim Pasha.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

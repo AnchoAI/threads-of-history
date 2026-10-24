@@ -27,8 +27,13 @@ sys.path.insert(0, str(ROOT / "tools"))
 from validate import DATE, ISO3, date_parts  # noqa: E402
 
 
-def write_table(name: str, rows: list[tuple[str, str, float] | tuple[str, str, float, str]]) -> Path:
-    """Write data/tables/<name>.csv. Rows are (iso3, at, value[, published]).
+PRIVATE = CACHE / "private-tables"  # outside git: datasets whose licence doesn't allow redistribution yet
+
+
+def write_table(name: str, rows: list[tuple[str, str, float] | tuple[str, str, float, str]], private: bool = False,
+                digits: int | None = None) -> Path:
+    """Write data/tables/<name>.csv (or .cache/private-tables/ if private). Rows are (iso3, at, value[, published]).
+    digits rounds values, to keep large tables small.
 
     Drops missing values (None or NaN), refuses bad codes and dates, and
     sorts by entity then date so reruns are byte-identical.
@@ -42,11 +47,12 @@ def write_table(name: str, rows: list[tuple[str, str, float] | tuple[str, str, f
             raise ValueError(f"{name}: {entity!r} is not an ISO3 code")
         if not DATE.match(at):
             raise ValueError(f"{name}: {at!r} is not a date")
-        clean.append((entity, at, _fmt(float(value)), *row[3:]))
+        value = round(float(value), digits) if digits is not None else float(value)
+        clean.append((entity, at, _fmt(value), *row[3:]))
     clean.sort(key=lambda r: (r[0], date_parts(r[1])))
     has_published = any(len(r) > 3 for r in clean)
 
-    path = DATA / "tables" / f"{name}.csv"
+    path = (PRIVATE if private else DATA / "tables") / f"{name}.csv"
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, lineterminator="\n")

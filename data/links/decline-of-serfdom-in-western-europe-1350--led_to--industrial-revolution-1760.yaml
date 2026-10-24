@@ -1,0 +1,57 @@
+id: decline-of-serfdom-in-western-europe-1350--led_to--industrial-revolution-1760
+from: decline-of-serfdom-in-western-europe-1350
+to: industrial-revolution-1760
+type: led_to
+confidence: contested
+note: Some historians see industrialisation as an outgrowth of the end of feudalism and the agrarian class relations
+  that replaced it; others explain the Industrial Revolution by 18th-century conditions such as high wages and cheap
+  energy.
+sources:
+- url: https://en.wikipedia.org/wiki/Industrial_Revolution
+  title: Industrial Revolution
+  publisher: Wikipedia
+  quote: Some historians believe the Industrial Revolution was an outgrowth of social and institutional changes
+    brought by the end of feudalism in Britain after the English Civil War in the 17th century, although feudalism
+    began to break down after the Black Death of the mid 14th century.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The end of feudalism, and the agrarian class relations that replaced it, opened the path to capitalism
+    and so to industrialisation.
+  held_by:
+  - Robert Brenner
+  - historians cited in the Wikipedia article 'Industrial Revolution'
+  sources:
+  - url: https://en.wikipedia.org/wiki/Brenner_debate
+    title: Brenner debate
+    publisher: Wikipedia
+    quote: By arguing that agrarian class struggle in the late Middle Ages not only destroyed feudalism but also
+      created a direct path to capitalism
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Industrial_Revolution
+    title: Industrial Revolution
+    publisher: Wikipedia
+    quote: Some historians believe the Industrial Revolution was an outgrowth of social and institutional changes
+      brought by the end of feudalism in Britain after the English Civil War in the 17th century
+    type: reference
+    accessed: '2026-10-14'
+- claim: 'The Industrial Revolution is better explained by conditions in 18th-century Britain: high wages, cheap
+    capital and very cheap energy made mechanisation profitable.'
+  held_by:
+  - Robert C. Allen
+  sources:
+  - url: https://en.wikipedia.org/wiki/Industrial_Revolution
+    title: Industrial Revolution
+    publisher: Wikipedia
+    quote: Bob Allen has argued that high wages, cheap capital and very cheap energy in Britain made it the ideal
+      place for the industrial revolution.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'Contested: each position is attributed to the scholars named in its quoted source.'
+  - The 'Industrial Revolution' article ties industrialisation mainly to the end of feudalism after the 17th-century
+    English Civil War, with the Black Death only as the start of feudalism's breakdown. A reviewer may judge this
+    link too long-range.

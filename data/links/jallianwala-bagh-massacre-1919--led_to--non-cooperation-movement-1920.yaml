@@ -1,0 +1,25 @@
+id: jallianwala-bagh-massacre-1919--led_to--non-cooperation-movement-1920
+from: jallianwala-bagh-massacre-1919
+to: non-cooperation-movement-1920
+type: led_to
+confidence: documented
+note: Anger at the massacre and at the inquiry that followed fed into the non-cooperation movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre
+  title: Jallianwala Bagh massacre
+  publisher: Wikipedia
+  quote: The ineffective inquiry, together with the initial accolades for Dyer, fuelled great widespread
+    anger against the British among the Indian populace, leading to the non-cooperation movement of 1920–22.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: In response to the Jallianwala Bagh massacre and other violence in Punjab, the movement sought
+    to secure Swaraj, independence for India.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

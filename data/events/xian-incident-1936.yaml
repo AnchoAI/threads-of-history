@@ -1,0 +1,47 @@
+id: xian-incident-1936
+title: Xi'an Incident
+summary: Generals Zhang Xueliang and Yang Hucheng seize Chiang Kai-shek in Xi'an and demand that he end
+  the civil war and ally with the Communists against Japan. Chiang is released on 25 December; the crisis
+  leads to the Second United Front.
+occurred:
+  start: '1936-12-12'
+  end: '1936-12-26'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- zhang-xueliang
+- chiang-kai-shek
+- kuomintang
+- chinese-communist-party
+importance: 4
+wikidata: Q244941
+sources:
+- url: https://en.wikipedia.org/wiki/Xi%27an_Incident
+  archive_url: https://web.archive.org/web/20260922021959/https://en.wikipedia.org/wiki/Xi%27an_Incident
+  title: Xi'an Incident
+  publisher: Wikipedia
+  quote: The Xi'an Incident was a Chinese political crisis that lasted from 12 to 26 December 1936.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Xi%27an_Incident
+  archive_url: https://web.archive.org/web/20260922021959/https://en.wikipedia.org/wiki/Xi%27an_Incident
+  title: Xi'an Incident
+  publisher: Wikipedia
+  quote: Generals Zhang Xueliang and Yang Hucheng seized Chiang Kai-shek in Xi'an, demanding the Nationalist
+    government end the Chinese Civil War and ally with the Chinese Communist Party (CCP) against Japanese
+    expansionism, resulting in the Second United Front.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Xi%27an_Incident
+  archive_url: https://web.archive.org/web/20260922021959/https://en.wikipedia.org/wiki/Xi%27an_Incident
+  title: Xi'an Incident
+  publisher: Wikipedia
+  quote: On 25 December, Zhang released Chiang and accompanied him to Nanjing, where Chiang immediately
+    had him arrested; Zhang remained under house arrest until 1990.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

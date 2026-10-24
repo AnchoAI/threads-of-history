@@ -1,0 +1,48 @@
+id: anglo-russian-convention-1907
+title: Anglo-Russian Convention
+summary: A treaty between the United Kingdom and the Russian Empire dividing spheres of influence in Persia, Afghanistan
+  and Tibet. It became a component of the Triple Entente.
+occurred:
+  start: '1907-08-31'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- russia-eastern-europe
+- south-central-asia
+- middle-east-north-africa
+actors:
+- united-kingdom
+- russian-empire
+importance: 3
+wikidata: Q2996241
+sources:
+- url: https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  archive_url: https://web.archive.org/web/20260919112526/https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  title: Anglo-Russian Convention
+  publisher: Wikipedia
+  quote: was a treaty signed between United Kingdom and the Russian Empire on 31 August 1907 in Saint Petersburg
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  archive_url: https://web.archive.org/web/20260919112526/https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  title: Anglo-Russian Convention
+  publisher: Wikipedia
+  quote: The Anglo-Russian Convention formalized the spheres of influence of the Russian Empire and the British
+    Empire in Persia, Afghanistan and Tibet.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  archive_url: https://web.archive.org/web/20260919112526/https://en.wikipedia.org/wiki/Anglo-Russian_Convention
+  title: Anglo-Russian Convention
+  publisher: Wikipedia
+  quote: This agreement would eventually form a component of the Triple Entente.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - 'Date: the article body gives 31 August 1907 (New Style); its infobox gives 18 August 1907, which is the same
+    day in the Old Style calendar used in Russia. 31 August is used here.'

@@ -1,0 +1,73 @@
+id: snie-90-91-3-82-ecuador-attacks-peru-1982
+title: 'SNIE 90/91-3-82: Ecuador acts militarily against Peru'
+summary: In August 1982 the US intelligence community judged Ecuador not likely to act militarily against Peru in
+  the next year or so. Ecuador and Peru fought in 1981 and next in 1995.
+threads:
+- intel
+regions:
+- americas
+actors:
+- cia
+importance: 2
+window:
+  start: '1982-08-10'
+  end: '1983-08-10'
+  precision: day
+probability: 0.3
+stated_as: Ecuador is not likely to act militarily against Peru
+probability_basis: 'Sherman Kent''s words of estimative probability: ''not likely'' (Kent''s ''probably not'' bracket,
+  with ''unlikely'') = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1982-08-10'
+resolves_by: '1983-08-10'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1983-08-10'
+  note: After the Paquisha War of 1981 the two countries next fought in the Cenepa War of 1995.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d382
+  archive_url: https://web.archive.org/web/20251224163539/https://history.state.gov/historicaldocuments/frus1981-88v13/d382
+  title: 'Special National Intelligence Estimate SNIE 90/91-3-82: Implications of the Falklands Conflict for Territorial
+    Disputes in Latin America'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-08-10'
+  quote: Argentina, however, is not likely to initiate military action during the period of this Estimate—the next
+    year or so—and probably will continue the delaying tactics that have thus far frustrated papal mediation.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d382
+  archive_url: https://web.archive.org/web/20251224163539/https://history.state.gov/historicaldocuments/frus1981-88v13/d382
+  title: 'Special National Intelligence Estimate SNIE 90/91-3-82: Implications of the Falklands Conflict for Territorial
+    Disputes in Latin America'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-08-10'
+  quote: Ecuador is not likely to act militarily against Peru, even if Peru were engaged in combat with Chile.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute
+  archive_url: https://web.archive.org/web/20260907064715/https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute
+  title: Ecuadorian–Peruvian territorial dispute
+  publisher: Wikipedia
+  quote: 'the two countries went to war on two more occasions: the Paquisha War in 1981, and the Cenepa War in 1995.'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'Evidence for the non-event is indirect: the source lists the wars of 1981 and 1995 and none between.'

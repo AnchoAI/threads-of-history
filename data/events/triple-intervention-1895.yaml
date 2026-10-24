@@ -1,0 +1,36 @@
+id: triple-intervention-1895
+title: Triple Intervention
+summary: On 23 April 1895 Russia, Germany and France forced Japan to give up the Liaodong Peninsula, which
+  China had ceded to it at Shimonoseki, in exchange for a larger indemnity.
+occurred:
+  start: '1895-04-23'
+  precision: day
+threads:
+- empire
+- russia
+regions:
+- east-asia
+actors:
+- russian-empire
+- german-empire
+- france
+- empire-of-japan
+importance: 4
+wikidata: Q696874
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Russia persuaded Germany and France to join in applying diplomatic pressure on Japan, which resulted
+    in the Triple Intervention of 23 April 1895.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Russia, Germany and France in a few days made the Triple Intervention, however, and forced Japan
+    to give up the Liaodong Peninsula in exchange for another 30 million taels of silver
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

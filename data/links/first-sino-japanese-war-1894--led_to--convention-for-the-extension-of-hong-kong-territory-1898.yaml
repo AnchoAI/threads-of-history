@@ -1,0 +1,36 @@
+id: first-sino-japanese-war-1894--led_to--convention-for-the-extension-of-hong-kong-territory-1898
+from: first-sino-japanese-war-1894
+to: convention-for-the-extension-of-hong-kong-territory-1898
+type: led_to
+confidence: documented
+note: China's defeat set off the scramble for concessions, in which Britain leased the New Territories.
+sources:
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: in the wake of China's defeat in the First Sino-Japanese War (1894–1895), the German government
+    forced the Qing Empire into a 99-year lease of the Kiautschou Bay concession
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: This initiated the event known as the "scramble for concessions"
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: As a result, the Convention for the Extension of Hong Kong Territory was signed on 9 June 1898
+    in Beijing (Peking).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Qingdao was acquired by Germany, Guangzhouwan by France, and Weihaiwei and the New Territories
+    by Britain.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

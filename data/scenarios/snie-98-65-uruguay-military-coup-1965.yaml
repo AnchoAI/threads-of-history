@@ -1,0 +1,76 @@
+id: snie-98-65-uruguay-military-coup-1965
+title: 'SNIE 98-65: Military coup in Uruguay'
+summary: In June 1965 the US intelligence community judged it almost certain that no military coup in Uruguay was
+  imminent. Uruguay held a general election in 1966; the coup came on 27 June 1973.
+threads:
+- intel
+regions:
+- americas
+actors:
+- cia
+importance: 2
+window:
+  start: '1965-06-17'
+  end: '1966-06-17'
+  precision: day
+probability: 0.07
+stated_as: We consider it almost certain that no such move is now imminent.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''almost certain'' that it will not happen
+  = ''almost certainly not'', about 7%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1965-06-17'
+resolves_by: '1966-06-17'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1966-06-17'
+  note: No coup took place; Uruguay held a general election in 1966, and the coup came on 27 June 1973.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v31/d464
+  archive_url: https://web.archive.org/web/20260122143256/https://history.state.gov/historicaldocuments/frus1964-68v31/d464
+  title: 'Special National Intelligence Estimate SNIE 98-65: The Situation in Uruguay'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1965-06-17'
+  quote: To assess the economic and political situation in Uruguay, the potentialities for extremist subversion,
+    and the involvement of Brazil and Argentina, over the next year or so.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v31/d464
+  archive_url: https://web.archive.org/web/20260122143256/https://history.state.gov/historicaldocuments/frus1964-68v31/d464
+  title: 'Special National Intelligence Estimate SNIE 98-65: The Situation in Uruguay'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1965-06-17'
+  quote: In Uruguay there is already some apprehension of a military coup to alter the political system. We consider
+    it almost certain that no such move is now imminent.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/History_of_Uruguay
+  archive_url: https://web.archive.org/web/20260903040611/https://en.wikipedia.org/wiki/History_of_Uruguay
+  title: History of Uruguay
+  publisher: Wikipedia
+  quote: In the 1966 election, Óscar Diego Gestido was elected president, which meant the return of the Colorado
+    Party to the Estévez Palace.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1973_Uruguayan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20260927222314/https://en.wikipedia.org/wiki/1973_Uruguayan_coup_d%27%C3%A9tat
+  title: 1973 Uruguayan coup d'état
+  publisher: Wikipedia
+  quote: The 1973 Uruguayan coup d'état took place in Uruguay on 27 June 1973 and marked the beginning of the civic-military
+    dictatorship which lasted until 1985.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Almost certainly not 7% Give or take about 5%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''Now imminent'' is narrower than the estimate''s horizon of ''the next year or so''; the window uses the horizon.
+    The outcome is the same either way.'
+  - Evidence for the non-event is indirect (an ordinary election in 1966, the coup in 1973).

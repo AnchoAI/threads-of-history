@@ -1,0 +1,38 @@
+id: british-entry-into-world-war-i-1914
+title: Britain declares war on Germany
+summary: The United Kingdom and the British Empire entered the war on 4 August 1914, when King George V declared
+  war after an ultimatum to Germany over Belgian neutrality expired.
+occurred:
+  start: '1914-08-04'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- western-europe
+actors:
+- united-kingdom
+- german-empire
+importance: 4
+wikidata: Q60794097
+sources:
+- url: https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+  archive_url: https://web.archive.org/web/20260903144441/https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+  title: British entry into World War I
+  publisher: Wikipedia
+  quote: The United Kingdom and the British Empire entered World War I on 4 August 1914, when King George V declared
+    war after the expiry of an ultimatum to the German Empire.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: demanding a commitment by midnight that evening (within five hours) to go no further with Germany's violation
+    of Belgian neutrality.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - Wikidata Q60794097 is 'British entry into World War I' (the context and reasons), the closest match.

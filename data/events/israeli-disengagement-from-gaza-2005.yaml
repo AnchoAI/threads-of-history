@@ -1,0 +1,61 @@
+id: israeli-disengagement-from-gaza-2005
+title: Israeli disengagement from Gaza
+summary: In August–September 2005 Israel unilaterally withdrew its forces and over 8,000 settlers from the
+  Gaza Strip and dismantled its 21 settlements there, under a plan proposed by Ariel Sharon. Because of the
+  later blockade, the UN, the ICJ and many others still regard Gaza as occupied.
+occurred:
+  start: '2005-08-15'
+  end: '2005-09-12'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- ariel-sharon
+- israel
+importance: 3
+wikidata: Q196122
+sources:
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: In 2005, following the Second Intifada (2000–05), Israel withdrew its forces from the Gaza Strip and
+    dismantled and evacuated the 21 settlements it built there during its occupation of the territory (1967–2005).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: On August 15, the evacuation commenced under the orders of Maj.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: By September 12, all Israeli residential buildings in the territory had been demolished and the 8,000+
+    Israeli settlers who inhabited them had been removed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: The disengagement was executed unilaterally by Israel and without coordination with the Palestinian
+    National Authority (PNA).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  archive_url: https://web.archive.org/web/20261007231548/https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip
+  title: Israeli disengagement from the Gaza Strip
+  publisher: Wikipedia
+  quote: Due to the Israeli blockade, the Gaza Strip has continued to be regarded by the United Nations, many
+    other international humanitarian and legal organizations, and most academic commentators as being under
+    Israeli occupation, as affirmed by the 2024 International Court of Justice advisory opinion.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

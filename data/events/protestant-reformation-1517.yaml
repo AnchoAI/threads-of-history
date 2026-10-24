@@ -1,0 +1,51 @@
+id: protestant-reformation-1517
+title: The Protestant Reformation
+summary: A period of religious movements in Western Christianity, usually dated from Luther's Ninety-five
+  Theses in 1517, that split Protestant churches from the Catholic Church. Its end date is disputed; 1648
+  is commonly used.
+occurred:
+  start: '1517'
+  end: '1648'
+  precision: year
+threads:
+- religion
+- revolutions
+regions:
+- western-europe
+actors:
+- martin-luther
+- catholic-church
+- holy-roman-empire
+importance: 5
+wikidata: Q12562
+sources:
+- url: https://en.wikipedia.org/wiki/Reformation
+  title: Reformation
+  publisher: Wikipedia
+  quote: The Reformation is usually dated from Martin Luther's publication of the Ninety-five Theses in
+    1517, which gave birth to Lutheranism.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Reformation
+  title: Reformation
+  publisher: Wikipedia
+  quote: The end of the Reformation era is disputed among modern scholars.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Reformation
+  title: Reformation
+  publisher: Wikipedia
+  quote: Approximations of the Reformation & the Counter-Reformation at the commonly-used end year of
+    1648
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  archive_url: https://web.archive.org/web/20261013011131/https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: The indulgence controversy set off by the Theses was the beginning of the Reformation, a schism
+    in the Roman Catholic Church which initiated profound and lasting social and political change in Europe.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

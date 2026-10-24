@@ -1,0 +1,21 @@
+id: nspcc
+title: National Society for the Prevention of Cruelty to Children
+actor_type: organization
+summary: British organization (NSPCC).
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q3403284
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q3403284.json
+  title: National Society for the Prevention of Cruelty to Children
+  publisher: Wikidata
+  quote: British organization
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

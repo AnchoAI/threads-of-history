@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-current-account
+title: Current account balance (% of GDP) (World Bank)
+summary: Balance of current transactions (transactions in goods and services, earned income and transfer
+  income) between residents and non-residents. The term current account balance is used in the external
+  accounts and is expressed from the perspective of resident units. The term current external balance
+  is used in the national accounts and is expressed from the perspective of the non-resident units, and...
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: BN.CAB.XOKA.GD.ZS
+table: tables/wdi-current-account.csv
+sources:
+- url: https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS
+  title: Current account balance (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

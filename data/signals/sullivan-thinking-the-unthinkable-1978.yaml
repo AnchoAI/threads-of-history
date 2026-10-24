@@ -1,0 +1,72 @@
+id: sullivan-thinking-the-unthinkable-1978
+title: 'Sullivan cable: "Thinking the Unthinkable"'
+summary: On 9 November 1978 Ambassador William Sullivan cabled that the Shah's authority had shrunk, that an accommodation
+  with the religious opposition would require the Shah to leave in favour of an Islamic Republic, and that Washington
+  needed to "think the unthinkable" in case the Shah abdicated. He said it was not the embassy's prediction.
+occurred:
+  start: '1978-11-09'
+  precision: day
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- william-h-sullivan
+- mohammad-reza-pahlavi
+- ruhollah-khomeini
+- united-states
+importance: 3
+source_credibility: high
+outcome: confirmed
+resolves_to: shah-leaves-iran-1979
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18195/ocr
+  archive_url: https://web.archive.org/web/20240709105408/https://nsarchive.gwu.edu/media/18195/ocr
+  title: US Embassy Tehran (Sullivan) cable, "Thinking the Unthinkable", 9 November 1978 (transcription)
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-09'
+  quote: First the authority of the Shah has considerably shrunk
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18195/ocr
+  archive_url: https://web.archive.org/web/20240709105408/https://nsarchive.gwu.edu/media/18195/ocr
+  title: US Embassy Tehran (Sullivan) cable, "Thinking the Unthinkable", 9 November 1978 (transcription)
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-09'
+  quote: it must be assumed that a pre- condition for an accommodation would be the acceptance of his insistence
+    that the shah must leave and the monarchy be dis-established in favor of an Islamic Republic
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18195/ocr
+  archive_url: https://web.archive.org/web/20240709105408/https://nsarchive.gwu.edu/media/18195/ocr
+  title: US Embassy Tehran (Sullivan) cable, "Thinking the Unthinkable", 9 November 1978 (transcription)
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-09'
+  quote: However if it should fail and if the Shah should abdicate we need to think the unthinkable at this time
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18195/ocr
+  archive_url: https://web.archive.org/web/20240709105408/https://nsarchive.gwu.edu/media/18195/ocr
+  title: US Embassy Tehran (Sullivan) cable, "Thinking the Unthinkable", 9 November 1978 (transcription)
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-09'
+  quote: Therefore it should not RPT not be interpreted as this Embassy s prediction of future events
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: the cable is credited with having a significant influence on U.S. policy
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Outcome "confirmed" because the Shah left and Khomeini returned to lead an Islamic Republic; other parts of
+    the scenario (the armed forces staying intact under younger officers) are not assessed here. A reviewer may
+    prefer to model the scenario as a scenario item.

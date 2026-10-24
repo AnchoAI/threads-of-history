@@ -1,0 +1,22 @@
+id: the-washington-post
+title: The Washington Post
+actor_type: organization
+summary: Daily broadsheet newspaper in Washington, D.C..
+threads:
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q166032
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q166032.json
+  title: The Washington Post
+  publisher: Wikidata
+  quote: daily broadsheet newspaper in Washington, D.C.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

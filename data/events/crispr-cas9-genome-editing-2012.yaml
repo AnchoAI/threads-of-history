@@ -1,0 +1,44 @@
+id: crispr-cas9-genome-editing-2012
+title: CRISPR/Cas9 genome editing discovered
+summary: Emmanuelle Charpentier and Jennifer Doudna show that the bacterial CRISPR/Cas9 system can be
+  reprogrammed to cut any DNA at a chosen site, making precise gene editing fast and cheap. They won the
+  2020 Nobel Prize in Chemistry.
+occurred:
+  start: '2012'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+actors: []
+importance: 4
+wikidata: Q17310682
+sources:
+- url: https://www.nobelprize.org/prizes/chemistry/2020/press-release/
+  title: 'Press release: The Nobel Prize in Chemistry 2020'
+  publisher: Nobel Prize Outreach
+  quote: Since Charpentier and Doudna discovered the CRISPR/Cas9 genetic scissors in 2012 their use has
+    exploded.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.nobelprize.org/prizes/chemistry/2020/press-release/
+  title: 'Press release: The Nobel Prize in Chemistry 2020'
+  publisher: Nobel Prize Outreach
+  quote: Charpentier and Doudna proved that they could be controlled so that they can cut any DNA molecule
+    at a predetermined site.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.nobelprize.org/prizes/chemistry/2020/press-release/
+  title: 'Press release: The Nobel Prize in Chemistry 2020'
+  publisher: Nobel Prize Outreach
+  quote: Using the CRISPR/Cas9 genetic scissors, it is now possible to change the code of life over the
+    course of a few weeks.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata Q17310682 is the CRISPR-Cas method itself.

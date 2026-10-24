@@ -1,0 +1,19 @@
+id: murphy-report-2009--led_to--cloyne-report-2011
+from: murphy-report-2009
+to: cloyne-report-2011
+type: led_to
+confidence: documented
+note: After the Murphy Report, the same commission team was reappointed to investigate the Diocese of
+  Cloyne.
+sources:
+- url: https://en.wikipedia.org/wiki/Cloyne_Report
+  archive_url: https://web.archive.org/web/20250816131507/https://en.wikipedia.org/wiki/Cloyne_Report
+  title: Cloyne Report
+  publisher: Wikipedia
+  quote: Due to the success of the 2009 Murphy Report, a judicial inquiry into the sexual abuse scandal
+    in the Catholic archdiocese of Dublin, the same team was reappointed to investigate allegations surrounding
+    the diocese of Cloyne.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

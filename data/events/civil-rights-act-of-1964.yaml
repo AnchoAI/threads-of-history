@@ -1,0 +1,45 @@
+id: civil-rights-act-of-1964
+title: Civil Rights Act of 1964
+summary: The US outlaws discrimination based on race, color, religion, sex and national origin, including segregation
+  in schools and public accommodations. President Lyndon B. Johnson signs it on 2 July 1964 after a 72-day Senate
+  filibuster.
+occurred:
+  start: '1964-07-02'
+  precision: day
+threads:
+- rights
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q585962
+sources:
+- url: https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  archive_url: https://web.archive.org/web/20260926070639/https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  title: Civil Rights Act of 1964
+  publisher: Wikipedia
+  quote: is a landmark civil rights and labor law in the United States that outlaws discrimination based on race,
+    color, religion, sex, and national origin. It prohibits unequal application of voter registration requirements,
+    racial segregation in schools and public accommodations, and employment discrimination.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  archive_url: https://web.archive.org/web/20260926070639/https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  title: Civil Rights Act of 1964
+  publisher: Wikipedia
+  quote: Signed into law by President Lyndon B. Johnson on July 2, 1964
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  archive_url: https://web.archive.org/web/20260926070639/https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964
+  title: Civil Rights Act of 1964
+  publisher: Wikipedia
+  quote: after a 72-day filibuster, it passed the United States Senate on June 19, 1964
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

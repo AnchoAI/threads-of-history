@@ -1,0 +1,59 @@
+id: august-revolution-1945
+title: August Revolution and Vietnamese declaration of independence
+summary: As Japan surrenders, the Viet Minh leads an uprising that takes power in Vietnam; Emperor Bảo
+  Đại abdicates, and on 2 September Ho Chi Minh declares the Democratic Republic of Vietnam in Hanoi.
+occurred:
+  start: '1945-08-16'
+  end: '1945-09-02'
+  precision: day
+threads:
+- empire
+- ww2
+regions:
+- south-east-asia
+actors:
+- viet-minh
+- ho-chi-minh
+importance: 4
+wikidata: Q769960
+sources:
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: was a revolution led by the Viet Minh against the Japanese occupation of Vietnam and the Empire
+    of Vietnam from 16 to 30 August 1945
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: The Japanese army in Vietnam generally adopted a non-interventionist stance to the revolution
+    as they de facto surrendered to the Allies in World War II.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: The Nguyen dynasty with its government of Tran Trong Kim collapsed when emperor Bao Dai abdicated
+    in Hue on 30 August 1945.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Proclamation_of_Independence_of_the_Democratic_Republic_of_Vietnam
+  archive_url: https://web.archive.org/web/20260908152306/https://en.wikipedia.org/wiki/Proclamation_of_Independence_of_the_Democratic_Republic_of_Vietnam
+  title: Proclamation of Independence of the Democratic Republic of Vietnam
+  publisher: Wikipedia
+  quote: On 2 September 1945, Ho Chi Minh read the Declaration of Independence during a public meeting
+    in front of thousands of people at what is now Ba Đình Square.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - The uprising (16–30 August) and the declaration (2 September) are one item here; split the declaration
+    out if finer detail is needed.
+  - 'Sources disagree on the abdication date: the August Revolution article says 30 August, the Proclamation
+    article 25 August. Check against a scholarly source.'

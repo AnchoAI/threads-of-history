@@ -1,0 +1,57 @@
+id: german-invasion-of-belgium-1914--led_to--british-entry-into-world-war-i-1914
+from: german-invasion-of-belgium-1914
+to: british-entry-into-world-war-i-1914
+type: led_to
+confidence: contested
+note: Britain gave the invasion of Belgium as its reason for war; historians disagree on whether it was the real
+  cause.
+sources:
+- url: https://en.wikipedia.org/wiki/German_invasion_of_Belgium_(1914)
+  title: German invasion of Belgium (1914)
+  publisher: Wikipedia
+  quote: The German invasion of Belgium on 4 August 1914, in violation of Article VII of the Treaty of London was
+    the casus belli, the reason given by the British government, for declaring war on Germany.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: The violation of Belgian neutrality turned the British cabinet towards war and was the cause of Britain's
+    entry.
+  held_by:
+  - David Lloyd George (August 1914)
+  - The British government's stated reason for war
+  sources:
+  - url: https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    archive_url: https://web.archive.org/web/20260903144441/https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    title: British entry into World War I
+    publisher: Wikipedia
+    quote: '"Up until last Sunday only two members of the Cabinet had been in favour of our intervention in the
+      war, but the violation of Belgian territory had completely altered the situation"'
+    type: reference
+    accessed: '2026-10-03'
+- claim: Britain went to war mainly to prevent a French defeat; Belgium was the public justification rather than
+    the real motive.
+  held_by:
+  - Annika Mombauer
+  - Most historians, as summarised by Mombauer
+  sources:
+  - url: https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    archive_url: https://web.archive.org/web/20260903144441/https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    title: British entry into World War I
+    publisher: Wikipedia
+    quote: The official explanation focused on protecting Belgium as a neutral country; the main reason, however,
+      was to prevent a French defeat that would have left Germany in control of Western Europe.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    archive_url: https://web.archive.org/web/20260903144441/https://en.wikipedia.org/wiki/British_entry_into_World_War_I
+    title: British entry into World War I
+    publisher: Wikipedia
+    quote: Few historians would still maintain that the 'rape of Belgium' was the real motive for Britain's declaration
+      of war on Germany.
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Both positions are quoted from the Wikipedia article 'British entry into World War I', which cites Lloyd George
+    (via C. P. Scott's diary) and Annika Mombauer. Checking the underlying books would strengthen this.

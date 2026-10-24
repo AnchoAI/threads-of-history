@@ -1,0 +1,17 @@
+id: declaration-of-the-rights-of-man-1789--part_of--french-revolution-1789
+from: declaration-of-the-rights-of-man-1789
+to: french-revolution-1789
+type: part_of
+confidence: documented
+note: The Declaration was adopted by the National Constituent Assembly during the French Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  title: Declaration of the Rights of Man and of the Citizen
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261003071817/https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen
+  quote: was adopted on 26 August 1789 by the National Constituent Assembly, during the period of the
+    French Revolution
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

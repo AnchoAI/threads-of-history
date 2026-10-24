@@ -1,0 +1,43 @@
+id: napoleonic-wars-1803
+title: Napoleonic Wars
+summary: Wars between Napoleon's France and shifting European coalitions, from Britain's declaration of
+  war in May 1803 to 1815, which gave France a period of domination over continental Europe.
+occurred:
+  start: '1803-05-18'
+  end: '1815-11-20'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- napoleon
+- france
+- united-kingdom
+importance: 4
+wikidata: Q78994
+sources:
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: 18 May 1803 – 20 November 1815
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: The first stage of the wars broke out when Britain declared war on France on 18 May 1803.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: produced a period of French domination over continental Europe
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

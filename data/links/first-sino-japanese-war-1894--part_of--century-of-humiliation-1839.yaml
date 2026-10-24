@@ -1,0 +1,24 @@
+id: first-sino-japanese-war-1894--part_of--century-of-humiliation-1839
+from: first-sino-japanese-war-1894
+to: century-of-humiliation-1839
+type: part_of
+confidence: documented
+note: The defeat by Japan is counted in the "century of humiliation", and the term itself arose after
+  it.
+sources:
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: The characterization of the period as a "humiliation" arose with an atmosphere of Chinese nationalism
+    following China's defeat in the First Sino-Japanese War of 1894–1895
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: Chinese historians widely include China's subjugation to foreign powers as part of the "century
+    of humiliation."
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

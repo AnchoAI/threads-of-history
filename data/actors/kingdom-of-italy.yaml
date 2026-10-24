@@ -1,0 +1,22 @@
+id: kingdom-of-italy
+title: Kingdom of Italy
+actor_type: state
+summary: Kingdom in Southern Europe from 1861 to 1946.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q172579
+sources:
+- archive_url: https://web.archive.org/web/20251118123055/https://www.wikidata.org/wiki/Special:EntityData/Q172579.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q172579.json
+  title: Kingdom of Italy
+  publisher: Wikidata
+  quote: kingdom in Southern Europe from 1861 to 1946
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

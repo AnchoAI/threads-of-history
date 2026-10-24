@@ -1,0 +1,18 @@
+id: bosnian-war-1992--part_of--yugoslav-wars-1991
+from: bosnian-war-1992
+to: yugoslav-wars-1991
+type: part_of
+confidence: documented
+note: The Bosnian War was one of the Yugoslav Wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Dayton_Agreement
+  title: Dayton Agreement
+  publisher: Wikipedia
+  quote: is the peace agreement ending the three-and-a-half-year-long Bosnian War, an armed conflict part
+    of the larger Yugoslav Wars
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

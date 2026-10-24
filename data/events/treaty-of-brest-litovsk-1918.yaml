@@ -1,0 +1,37 @@
+id: treaty-of-brest-litovsk-1918
+title: Treaty of Brest-Litovsk
+summary: Soviet Russia signed a separate peace with the Central Powers and left the First World War, giving
+  up control of Ukraine, Poland, Belarus, Lithuania, Latvia, Estonia, Kars and Batum.
+occurred:
+  start: '1918-03-03'
+  precision: day
+threads:
+- russia
+- ww1
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- german-empire
+- austria-hungary
+- ottoman-empire
+importance: 4
+wikidata: Q122371
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk
+  title: Treaty of Brest-Litovsk
+  publisher: Wikipedia
+  quote: The Treaty of Brest-Litovsk was a separate peace treaty signed on 3 March 1918 between Russia
+    and the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria), by which Russia
+    withdrew from World War I.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk
+  title: Treaty of Brest-Litovsk
+  publisher: Wikipedia
+  quote: Under the terms of the treaty, Russia lost control of Ukraine, Poland, Belarus, Lithuania, Latvia,
+    Estonia, and its Caucasian province of Kars and Batum.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

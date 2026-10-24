@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-refugees-origin
+title: UNHCR refugees by country of origin (World Bank)
+summary: Refugees under the mandate of the Office of the United Nations High Commissioner for Refugees
+  (UNHCR) include individuals recognized under the 1951 Convention relating to the Status of Refugees,
+  its 1967 Protocol, the 1969 Organization of African Unity (OAU) Convention Governing the Specific Aspects
+  of Refugee Problems in Africa, the refugee definition contained in the 1984 Cartagena Declaration...
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: people
+dataset: world-bank-wdi
+indicator: SM.POP.RHCR.EO
+table: tables/wdi-refugees-origin.csv
+sources:
+- url: https://data.worldbank.org/indicator/SM.POP.RHCR.EO
+  title: Refugees under the mandate of the UNHCR by country or territory of origin
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

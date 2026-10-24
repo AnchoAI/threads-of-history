@@ -1,0 +1,64 @@
+id: ball-report-on-iranian-crisis-1978
+title: 'George Ball report: the Shah "irreparably damaged"; open a channel to Khomeini'
+summary: In a report to President Carter dated 12 December 1978, George Ball judged that the time for action could
+  be measured in days and urged a disavowable channel to Khomeini. The National Security Archive says he predicted
+  the Shah could not survive in his present role and that the report had virtually no impact.
+occurred:
+  start: '1978-12-12'
+  precision: day
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- george-ball
+- jimmy-carter
+- mohammad-reza-pahlavi
+- ruhollah-khomeini
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: shah-leaves-iran-1979
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18197/ocr
+  archive_url: https://web.archive.org/web/20250620003400/https://nsarchive.gwu.edu/media/18197/ocr
+  title: George Ball, "Issues and Implications of the Iranian Crisis", report to President Carter, 12 December 1978
+    (OCR text)
+  publisher: George Ball, via the National Security Archive
+  date: '1978-12-12'
+  quote: But the time for action can be measured in days delay will mean a resumption of turbulence
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18197/ocr
+  archive_url: https://web.archive.org/web/20250620003400/https://nsarchive.gwu.edu/media/18197/ocr
+  title: George Ball, "Issues and Implications of the Iranian Crisis", report to President Carter, 12 December 1978
+    (OCR text)
+  publisher: George Ball, via the National Security Archive
+  date: '1978-12-12'
+  quote: Thus we urgently need to open a disavowable channel of communications with him
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: Ball predicted the Shah could not survive in his present role.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: The memo ultimately had virtually no impact.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - The title phrase "irreparably damaged" is garbled in the OCR ("irreparably damaged by recent events" with stray
+    characters) and is not quoted; it should be checked against the PDF.

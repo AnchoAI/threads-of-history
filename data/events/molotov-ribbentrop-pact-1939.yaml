@@ -1,0 +1,58 @@
+id: molotov-ribbentrop-pact-1939
+title: Molotov–Ribbentrop Pact
+summary: Non-aggression pact between Nazi Germany and the Soviet Union, signed in Moscow by Vyacheslav
+  Molotov and Joachim von Ribbentrop on 24 August 1939 and backdated to 23 August. Its public terms were
+  published the next day; a secret protocol divided Eastern Europe into spheres of influence. A week later
+  Germany invaded Poland.
+occurred:
+  start: '1939-08-23'
+  precision: day
+threads:
+- interwar
+- ww2
+regions:
+- russia-eastern-europe
+- western-europe
+actors:
+- vyacheslav-molotov
+- joachim-von-ribbentrop
+- joseph-stalin
+- adolf-hitler
+- soviet-union
+- nazi-germany
+importance: 4
+wikidata: Q130796
+sources:
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: The pact was signed in Moscow on 24 August 1939 (backdated 23 August 1939) by Soviet Premier
+    and Foreign Minister Vyacheslav Molotov and German Foreign Minister Joachim von Ribbentrop.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: On 24 August, Pravda and Izvestia carried news of the pact's public portions
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: with a secret protocol establishing Soviet and German spheres of influence across Eastern Europe
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: A week after signing the pact, on 1 September 1939, Germany invaded Poland.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Dated to the official (backdated) date of 23 August; the signing took place on 24 August.

@@ -1,0 +1,20 @@
+id: rock-hudson
+title: Rock Hudson
+actor_type: person
+summary: American film actor (1925–1985).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q184378
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q184378.json
+  title: Rock Hudson
+  publisher: Wikidata
+  quote: American actor (1925–1985)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

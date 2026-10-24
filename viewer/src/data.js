@@ -5,7 +5,8 @@
 export const NODE_KINDS = new Set(["event", "signal", "decision"]);
 
 export const LINK_TYPES = {
-  led_to:    { label: "Led to",                        color: "#E6E1D6", out: "Led to",         in: "Came from" },
+  led_to:    { label: "Contributed to (a source says so)", color: "#E6E1D6", out: "Contributed to", in: "Contributing factor" },
+  influenced: { label: "Influenced (shaped attitudes)", color: "#C7A6FF", out: "Influenced",    in: "Influenced by" },
   revealed:  { label: "Revealed later (points back)",  color: "#FF7AD9", out: "Sheds light on", in: "Revealed by" },
   echo:      { label: "Echo / parallel",               color: "#8FD3FF", out: "Echoes",         in: "Echoed by" },
   signal_of: { label: "Signal of",                     color: "#F0D264", out: "Signal of",      in: "Signalled by" },

@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-gdp-deflator-inflation
+title: Inflation, GDP deflator (World Bank)
+summary: Inflation as measured by the annual growth rate of the GDP implicit deflator shows the rate of
+  price change in the economy as a whole. The GDP implicit deflator is the ratio of GDP in current local
+  currency to GDP in constant local currency.
+occurred:
+  start: '1961'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% per year'
+dataset: world-bank-wdi
+indicator: NY.GDP.DEFL.KD.ZG
+table: tables/wdi-gdp-deflator-inflation.csv
+sources:
+- url: https://data.worldbank.org/indicator/NY.GDP.DEFL.KD.ZG
+  title: Inflation, GDP deflator (annual %)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

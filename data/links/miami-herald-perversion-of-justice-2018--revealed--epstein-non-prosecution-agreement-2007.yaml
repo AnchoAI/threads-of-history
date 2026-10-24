@@ -1,0 +1,32 @@
+id: miami-herald-perversion-of-justice-2018--revealed--epstein-non-prosecution-agreement-2007
+from: miami-herald-perversion-of-justice-2018
+to: epstein-non-prosecution-agreement-2007
+type: revealed
+confidence: documented
+note: The Herald's series detailed Acosta's handling of the case and the plea deal, which it called the "deal of
+  a lifetime".
+sources:
+- url: https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy
+  archive_url: https://web.archive.org/web/20260330203916/https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy
+  title: Alexander Acosta Steps Down As Labor Secretary Amid Epstein Controversy
+  publisher: NPR
+  date: '2019-07-12'
+  quote: The Miami Herald detailed Acosta's handling of the Epstein case, and the account has drawn condemnations
+    from victims' advocates and others.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: Brown argued that Epstein had not faced justice due to a plea deal, which she described as a "deal of a
+    lifetime".
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - The agreement itself had been unsealed in 2009; the Herald disclosed how it was negotiated and its effect on
+    victims.

@@ -1,0 +1,21 @@
+id: ian-smith
+title: Ian Smith
+actor_type: person
+summary: Prime Minister of Rhodesia (1919–2007).
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q313424
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q313424.json
+  title: Ian Smith
+  publisher: Wikidata
+  quote: Prime Minister of Rhodesia (1919–2007)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

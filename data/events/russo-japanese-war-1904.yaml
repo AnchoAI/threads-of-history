@@ -1,0 +1,50 @@
+id: russo-japanese-war-1904
+title: Russo-Japanese War
+summary: Russia and Japan fight over rival ambitions in Manchuria and Korea. Japan opens the war with
+  a surprise attack on the Russian fleet at Port Arthur, wins on land and sea, and emerges as a great
+  power.
+occurred:
+  start: '1904-02-08'
+  end: '1905-09-05'
+  precision: day
+threads:
+- china
+- russia
+- empire
+regions:
+- east-asia
+- russia-eastern-europe
+actors:
+- russian-empire
+- empire-of-japan
+- nicholas-ii
+- korean-empire
+- qing-dynasty
+importance: 4
+wikidata: Q159950
+sources:
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: The Russo-Japanese War (8 February 1904 – 5 September 1905) was fought between the Russian Empire
+    and the Empire of Japan over rival imperial ambitions in Manchuria and the Korean Empire.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: After negotiations broke down, Japan opened hostilities in a surprise attack on the Russian Pacific
+    Fleet at Port Arthur
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: with the Empire of Japan emerging as a great power
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Wikipedia gives 8 February 1904 as the start date and also dates the surprise attack to 9 February
+    [O.S. 27 January] 1904; the difference is not explained in the source.

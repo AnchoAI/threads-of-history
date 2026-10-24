@@ -1,0 +1,48 @@
+id: arrest-of-the-gang-of-four-1976
+title: Arrest of the Gang of Four
+summary: On 6 October 1976, shortly after Mao's death, Hua Guofeng had the Gang of Four (Jiang Qing, Zhang
+  Chunqiao, Yao Wenyuan and Wang Hongwen) arrested in a bloodless coup. The event is usually taken to mark
+  the end of the Cultural Revolution.
+occurred:
+  start: '1976-10-06'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- gang-of-four
+- hua-guofeng
+- chinese-communist-party
+importance: 3
+wikidata: Q11072441
+sources:
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: On October 6, 1976, shortly after Mao's death, the Gang was removed from power in a bloodless coup
+    d'état, the "Smashing the Gang of Four," organized by CCP Chairman Hua Guofeng. This event is usually considered
+    to mark the end of the Cultural Revolution
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: The other members were Zhang Chunqiao, Yao Wenyuan, and Wang Hongwen.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: The gang's leading figure was Jiang Qing (the wife of Mao Zedong).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Wikidata calls this the Huairentang incident (Q11072441).

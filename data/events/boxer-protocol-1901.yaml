@@ -1,0 +1,41 @@
+id: boxer-protocol-1901
+title: Boxer Protocol
+summary: The Qing government and the powers that had intervened against the Boxers sign a protocol in
+  Beijing. It provides for the execution of officials who backed the Boxers, foreign troops in Beijing,
+  and an indemnity of 450 million taels of silver.
+occurred:
+  start: '1901-09-07'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- empire-of-japan
+- russian-empire
+- united-kingdom
+- united-states
+- german-empire
+- france
+importance: 3
+wikidata: Q672556
+sources:
+- url: https://en.wikipedia.org/wiki/Boxer_Protocol
+  archive_url: https://web.archive.org/web/20260918192355/https://en.wikipedia.org/wiki/Boxer_Protocol
+  title: Boxer Protocol
+  publisher: Wikipedia
+  quote: The Boxer Protocol was signed on September 7, 1901, in the Spanish Legation in Beijing.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: The Boxer Protocol of 7 September 1901 provided for the execution of government officials who
+    had supported the Boxers, for foreign troops to be stationed in Beijing, and for 450 million taels
+    of silver
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

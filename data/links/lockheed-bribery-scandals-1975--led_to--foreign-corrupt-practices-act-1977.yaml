@@ -1,0 +1,38 @@
+id: lockheed-bribery-scandals-1975--led_to--foreign-corrupt-practices-act-1977
+from: lockheed-bribery-scandals-1975
+to: foreign-corrupt-practices-act-1977
+type: led_to
+confidence: documented
+note: The Lockheed revelations were among the foreign-bribery disclosures that led Congress to pass the FCPA.
+sources:
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The scandal also played a part in the formulation of the Foreign Corrupt Practices Act which President
+    Jimmy Carter signed into law on December 19, 1977, which made it illegal for American persons and entities to
+    bribe foreign government officials.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  archive_url: https://web.archive.org/web/20261012161010/https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  title: Foreign Corrupt Practices Act
+  publisher: Wikipedia
+  quote: Among the major examples of such practices were the Lockheed bribery scandals, in which officials of aerospace
+    company Lockheed paid foreign officials in several countries to favor their company's products, and the Bananagate
+    scandal, in which Chiquita Brands bribed the president of Honduras for more favorable government policies.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  archive_url: https://web.archive.org/web/20261012161010/https://en.wikipedia.org/wiki/Foreign_Corrupt_Practices_Act
+  title: Foreign Corrupt Practices Act
+  publisher: Wikipedia
+  quote: In response to these high-profile revelations, Congress enacted the FCPA to bring a halt to the bribery
+    of foreign officials and to restore public confidence in the integrity of the American business system.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

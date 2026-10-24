@@ -1,0 +1,18 @@
+id: ethiopian-famine-1983--led_to--live-aid-1985
+from: ethiopian-famine-1983
+to: live-aid-1985
+type: led_to
+confidence: documented
+note: Media coverage of the famine led to Live Aid, which was organised to raise funds for famine relief.
+sources:
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: Media activity in the West, along with the size of the crisis, led to the "Do They Know It's Christmas?"
+    charity single and the July 1985 concert Live Aid, which elevated the international profile of the famine and
+    helped secure international aid.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
