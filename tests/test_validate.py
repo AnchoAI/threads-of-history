@@ -352,3 +352,9 @@ def test_influence_can_land_on_something_under_way(tmp_path):
         d["events"][0]["occurred"]["end"] = "2022-06"   # the buildup lasts past the invasion's start
         d["links"].append(link("invasion-2022", "influenced", "buildup-2021"))
     assert run(tmp_path, with_changes(change)).errors == []
+
+
+def test_credits_are_up_to_date():
+    import subprocess, sys
+    r = subprocess.run([sys.executable, str(ROOT / "tools" / "credits.py"), "--check"], capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout

@@ -1,6 +1,6 @@
 # Licences of the imported tables
 
-The tables in `data/tables/` come from external datasets, and each keeps its source's licence. They are not covered by whatever licence the rest of this project's data ends up under. Full details, citations and quoted licence text are in `data/datasets/`.
+The tables in `data/tables/` come from external datasets, and each keeps its source's licence. They are not covered by the project's CC0 dedication (`LICENSE`); `CREDITS.md` lists how to credit each one. Full details, citations and quoted licence text are in `data/datasets/`.
 
 | Tables | Dataset | Licence | Credit |
 |---|---|---|---|
