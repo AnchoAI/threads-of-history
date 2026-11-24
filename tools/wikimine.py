@@ -24,6 +24,7 @@ import datetime as dt
 import gzip
 import hashlib
 import html
+import http.client
 import json
 import random
 import re
@@ -231,7 +232,8 @@ def class_rows(name: str, cls: str, minimum: int, lo: int, hi: int) -> list[dict
     """One class in one window; a window that times out is split in two."""
     try:
         rows = sparql(EVENT_QUERY % {"cls": cls, "lo": lo, "hi": hi, "min": minimum}, tries=2)
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError,
+            http.client.HTTPException, ConnectionError) as e:
         if hi - lo <= 1:
             print(f"  {name} {lo}: gave up ({e})", file=sys.stderr)
             return []
