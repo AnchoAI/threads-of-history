@@ -211,6 +211,15 @@ SELECT ?e ?p ?o WHERE {
 }"""
 RELATIONS = {"P361": "part_of", "P828": "has_cause", "P1542": "has_effect"}
 
+# Events already in data/ that the class queries miss (Wikidata files them under other classes).
+SEED_QUERY = """
+SELECT ?e ?article ?end ?sitelinks WHERE {
+  VALUES ?e { %s }
+  ?article schema:about ?e ; schema:isPartOf <https://en.wikipedia.org/> .
+  ?e wikibase:sitelinks ?sitelinks .
+  OPTIONAL { ?e wdt:P582 ?end . }
+}"""
+
 
 def sparql(query: str, tries: int = 6) -> list[dict]:
     body = get(SPARQL, {"query": query, "format": "json"}, accept="application/sparql-results+json", tries=tries)
@@ -275,6 +284,22 @@ def cmd_events(args) -> None:
             if name not in e["classes"]:
                 e["classes"].append(name)
         print(f"{name}: {got} new events ({len(events)} in all)", file=sys.stderr)
+    # Our own events, so links touching them are found even when no class query returns them.
+    ours = {}
+    for f in (args.root / "data" / "events").glob("*.yaml"):
+        d = yaml.safe_load(f.read_text(encoding="utf-8"))
+        q = str(d.get("wikidata", ""))
+        if q.startswith("Q") and q not in events and not args.classes:
+            ours[q] = str((d.get("occurred") or {}).get("start", ""))
+    seeded = sorted(ours)
+    for i in range(0, len(seeded), 100):
+        for r in sparql(SEED_QUERY % " ".join("wd:" + q for q in seeded[i:i + 100])):
+            qid = r["e"]["value"].rsplit("/", 1)[1]
+            title = norm_title(urllib.parse.unquote(r["article"]["value"].rsplit("/wiki/", 1)[1]))
+            e = events.setdefault(qid, {"qid": qid, "title": title, "start": ours[qid],
+                                        "end": r["end"]["value"][:10] if "end" in r else None,
+                                        "sitelinks": int(r["sitelinks"]["value"]), "classes": ["in data"]})
+    print(f"in data: {sum('in data' in e['classes'] for e in events.values())} events added from data/events", file=sys.stderr)
     # Wikidata's own part of / has cause / has effect statements among these events.
     qids = sorted(events)
     for i in range(0, len(qids), 200):
