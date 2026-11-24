@@ -81,7 +81,7 @@ CLASSES = {
     "aviation accident": ("Q744913", 5), "shipwreck": ("Q852190", 5), "space mission": ("Q2133344", 10),
     "expedition": ("Q2401485", 5),
     # culture and sport
-    "Olympic Games": ("Q5389", 0),
+    "Summer Olympic Games": ("Q159821", 0), "Winter Olympic Games": ("Q82414", 0),
 }
 
 
