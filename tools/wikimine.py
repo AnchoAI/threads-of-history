@@ -48,15 +48,40 @@ SPARQL = "https://query.wikidata.org/sparql"
 REST = "https://en.wikipedia.org/api/rest_v1/page/html/"
 ACTION = "https://en.wikipedia.org/w/api.php"
 
-# Wikidata classes whose instances (and instances of their subclasses) count as events.
+# Wikidata classes whose instances (and instances of their subclasses) count as events, each with
+# the fewest language editions an article needs (0 for none): noisy classes such as elections and
+# court cases have thousands of minor members. Every id was checked against its Wikidata label.
 CLASSES = {
-    "war": "Q198", "armed conflict": "Q350604", "battle": "Q178561", "siege": "Q188055",
-    "military operation": "Q645883", "revolution": "Q10931", "coup d'etat": "Q45382",
-    "rebellion": "Q124734", "riot": "Q124757", "protest": "Q273120", "massacre": "Q3199915",
-    "genocide": "Q41397", "assassination": "Q3882219", "terrorist attack": "Q2223653",
-    "treaty": "Q131569", "pandemic": "Q12184", "epidemic": "Q44512", "famine": "Q168247",
-    "financial crisis": "Q114380", "scandal": "Q1150958", "political crisis": "Q3002772",
-    "diplomatic crisis": "Q1371150", "independence declaration": "Q1464916", "referendum": "Q43109",
+    # conflict
+    "war": ("Q198", 0), "armed conflict": ("Q350604", 0), "battle": ("Q178561", 0), "siege": ("Q188055", 0),
+    "military operation": ("Q645883", 0), "military campaign": ("Q831663", 0), "offensive": ("Q2001676", 0),
+    "invasion": ("Q467011", 0), "military occupation": ("Q188686", 0), "annexation": ("Q194465", 0),
+    "ceasefire": ("Q208383", 0), "insurgency": ("Q1323212", 0), "nuclear weapons testing": ("Q210112", 3),
+    # political violence and unrest
+    "revolution": ("Q10931", 0), "coup d'etat": ("Q45382", 0), "rebellion": ("Q124734", 0), "riot": ("Q124757", 0),
+    "protest": ("Q273120", 0), "massacre": ("Q3199915", 0), "genocide": ("Q41397", 0),
+    "assassination": ("Q3882219", 0), "assassination attempt": ("Q88178910", 0),
+    "terrorist attack": ("Q2223653", 0), "bomb attack": ("Q891854", 0), "mass shooting": ("Q21480300", 0),
+    "hostage taking": ("Q1371150", 0), "aircraft hijacking": ("Q898712", 0), "cyberattack": ("Q4071928", 0),
+    # politics and law
+    "treaty": ("Q131569", 0), "peace conference": ("Q7157512", 0), "summit": ("Q1072326", 0),
+    "political crisis": ("Q3002772", 0), "international crisis": ("Q5791104", 0),
+    "declaration of independence": ("Q1464916", 0), "referendum": ("Q43109", 3), "public election": ("Q40231", 10),
+    "statute": ("Q820655", 5), "legislation": ("Q49371", 5), "legal case": ("Q2334719", 5), "trial": ("Q8016240", 5),
+    "resignation": ("Q796919", 0), "political scandal": ("Q934744", 0), "state funeral": ("Q1052001", 3),
+    # society
+    "social movement": ("Q49773", 0), "strike": ("Q49776", 3), "general strike": ("Q49775", 0),
+    "boycott": ("Q179366", 0), "civil disobedience": ("Q47217", 0),
+    # economy
+    "financial crisis": ("Q114380", 0), "economic crisis": ("Q290178", 0), "recession": ("Q176494", 0),
+    "stock market crash": ("Q1020018", 0), "oil crisis": ("Q123193388", 0), "famine": ("Q168247", 0),
+    # health, disasters, science
+    "pandemic": ("Q12184", 0), "epidemic": ("Q44512", 0), "natural disaster": ("Q8065", 5),
+    "disaster": ("Q3839081", 5), "earthquake": ("Q7944", 5), "flood": ("Q8068", 5), "tropical cyclone": ("Q8092", 10),
+    "aviation accident": ("Q744913", 5), "shipwreck": ("Q852190", 5), "space mission": ("Q2133344", 10),
+    "expedition": ("Q2401485", 5),
+    # culture and sport
+    "Olympic Games": ("Q5389", 0),
 }
 
 
@@ -167,7 +192,7 @@ SELECT ?e ?article ?label ?start ?point ?end ?sitelinks WHERE {
   OPTIONAL { ?e wdt:P582 ?end }
   ?e wikibase:sitelinks ?sitelinks .
   BIND(COALESCE(?start, ?point) AS ?s)
-  FILTER(BOUND(?s) && YEAR(?s) >= %(lo)d && YEAR(?s) < %(hi)d)
+  FILTER(BOUND(?s) && YEAR(?s) >= %(lo)d && YEAR(?s) < %(hi)d && ?sitelinks >= %(min)d)
 }"""
 
 RELATION_QUERY = """
@@ -179,43 +204,68 @@ SELECT ?e ?p ?o WHERE {
 RELATIONS = {"P361": "part_of", "P828": "has_cause", "P1542": "has_effect"}
 
 
-def sparql(query: str) -> list[dict]:
-    body = get(SPARQL, {"query": query, "format": "json"}, accept="application/sparql-results+json")
+def sparql(query: str, tries: int = 6) -> list[dict]:
+    body = get(SPARQL, {"query": query, "format": "json"}, accept="application/sparql-results+json", tries=tries)
     return json.loads(body)["results"]["bindings"]
+
+
+def spans(start: int, end: int, step: int):
+    """Query windows: wide where history is sparse in Wikidata, `step` years from 1900."""
+    edges = [(1500, 250), (1800, 100), (1900, 25), (10 ** 4, step)]
+    lo = start
+    while lo < end:
+        width = next(w for limit, w in edges if lo < limit)
+        hi = min(lo + width, end, next(limit for limit, _ in edges if lo < limit))
+        yield lo, hi
+        lo = hi
+
+
+def class_rows(name: str, cls: str, minimum: int, lo: int, hi: int) -> list[dict]:
+    """One class in one window; a window that times out is split in two."""
+    try:
+        rows = sparql(EVENT_QUERY % {"cls": cls, "lo": lo, "hi": hi, "min": minimum}, tries=2)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        if hi - lo <= 1:
+            print(f"  {name} {lo}: gave up ({e})", file=sys.stderr)
+            return []
+        mid = (lo + hi) // 2
+        print(f"  {name} {lo}-{hi}: {e}; splitting", file=sys.stderr)
+        return class_rows(name, cls, minimum, lo, mid) + class_rows(name, cls, minimum, mid, hi)
+    time.sleep(1)
+    return rows
 
 
 def cmd_events(args) -> None:
     events: dict[str, dict] = {}
-    step = args.step
-    for name, cls in CLASSES.items():
+    for name, (cls, minimum) in CLASSES.items():
         if args.classes and name not in args.classes:
             continue
+        # Each class is cached, so an interrupted run picks up where it stopped.
+        cache = CACHE / "events" / f"{cls}-{minimum}-{args.start}-{args.end}.json"
+        if cache.exists():
+            rows = json.loads(cache.read_text())
+        else:
+            rows = [r for lo, hi in spans(args.start, args.end, args.step) for r in class_rows(name, cls, minimum, lo, hi)]
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text(json.dumps(rows))
         got = 0
-        for lo in range(args.start, args.end, step):
-            hi = min(lo + step, args.end)
-            try:
-                rows = sparql(EVENT_QUERY % {"cls": cls, "lo": lo, "hi": hi})
-            except urllib.error.HTTPError as e:
-                print(f"  {name} {lo}-{hi}: {e} (try a smaller --step)", file=sys.stderr)
-                continue
-            for r in rows:
-                qid = r["e"]["value"].rsplit("/", 1)[1]
-                start = (r.get("start") or r.get("point"))["value"][:10]
-                end = r["end"]["value"][:10] if "end" in r else None
-                e = events.get(qid)
-                if e is None:
-                    events[qid] = e = {"qid": qid, "title": norm_title(r["label"]["value"]), "start": start,
-                                       "end": end, "sitelinks": int(r["sitelinks"]["value"]), "classes": []}
-                    got += 1
-                else:   # several dates on one item: keep the earliest start and the latest end
-                    if (year(start) or 0) < (year(e["start"]) or 0):
-                        e["start"] = start
-                    if end and (not e["end"] or (year(end) or 0) > (year(e["end"]) or 0)):
-                        e["end"] = end
-                if name not in e["classes"]:
-                    e["classes"].append(name)
-            time.sleep(1)
-        print(f"{name}: {got} new events", file=sys.stderr)
+        for r in rows:
+            qid = r["e"]["value"].rsplit("/", 1)[1]
+            start = (r.get("start") or r.get("point"))["value"][:10]
+            end = r["end"]["value"][:10] if "end" in r else None
+            e = events.get(qid)
+            if e is None:
+                events[qid] = e = {"qid": qid, "title": norm_title(r["label"]["value"]), "start": start,
+                                   "end": end, "sitelinks": int(r["sitelinks"]["value"]), "classes": []}
+                got += 1
+            else:   # several dates on one item: keep the earliest start and the latest end
+                if (year(start) or 0) < (year(e["start"]) or 0):
+                    e["start"] = start
+                if end and (not e["end"] or (year(end) or 0) > (year(e["end"]) or 0)):
+                    e["end"] = end
+            if name not in e["classes"]:
+                e["classes"].append(name)
+        print(f"{name}: {got} new events ({len(events)} in all)", file=sys.stderr)
     # Wikidata's own part of / has cause / has effect statements among these events.
     qids = sorted(events)
     for i in range(0, len(qids), 200):
@@ -227,6 +277,10 @@ def cmd_events(args) -> None:
         time.sleep(1)
     n = write_jsonl(args.out / "events.jsonl", sorted(events.values(), key=lambda e: -e["sitelinks"]))
     print(f"wrote {n} events to {rel(args.out / 'events.jsonl')}")
+    ours = {str(yaml.safe_load(f.read_text(encoding="utf-8")).get("wikidata", "")) for f in (args.root / "data" / "events").glob("*.yaml")}
+    ours = {q for q in ours if q.startswith("Q")}
+    found = ours & set(events)
+    print(f"recall: {len(found)} of the {len(ours)} events in data/events with a Wikidata id are among them")
 
 
 # --- 2a. fetch: articles from the REST API (fine for a few thousand) -----------------------------
@@ -254,28 +308,53 @@ def cmd_fetch(args) -> None:
             time.sleep(args.delay)
             if (i + 1) % 100 == 0:
                 print(f"  {i + 1}/{len(missing)} fetched", file=sys.stderr)
-    else:   # wikitext, 50 articles per request
-        for i in range(0, len(missing), 50):
-            batch = [e["title"] for e in missing[i:i + 50]]
-            d = json.loads(get(ACTION, {"action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main",
-                                        "titles": "|".join(batch), "format": "json", "formatversion": 2}))
-            q = d.get("query", {})
-            back = {x["to"]: x["from"] for x in q.get("normalized", [])}
-            for page in q.get("pages", []):
-                if "revisions" in page:
-                    title = back.get(page["title"], page["title"])
-                    save(page_cache(title, kind), page["revisions"][0]["slots"]["main"]["content"].encode("utf-8"))
-            time.sleep(args.delay)
-            print(f"  {min(i + 50, len(missing))}/{len(missing)} fetched", file=sys.stderr)
+    else:   # wikitext, 50 articles per request; pages left out of a big batch are retried in smaller ones
+        for size in (50, 10, 1):
+            missing = [e for e in missing if not page_cache(e["title"], kind).exists()]
+            for i in range(0, len(missing), size):
+                batch = [e["title"] for e in missing[i:i + size]]
+                try:
+                    d = json.loads(get(ACTION, {"action": "query", "prop": "revisions", "rvprop": "content",
+                                                "rvslots": "main", "titles": "|".join(batch), "format": "json",
+                                                "formatversion": 2}))
+                except Exception as err:
+                    print(f"  batch at {batch[0]!r}: {err}", file=sys.stderr)
+                    continue
+                q = d.get("query", {})
+                back = {x["to"]: x["from"] for x in q.get("normalized", [])}
+                for page in q.get("pages", []):
+                    if "revisions" in page:
+                        title = back.get(page["title"], page["title"])
+                        save(page_cache(title, kind), page["revisions"][0]["slots"]["main"]["content"].encode("utf-8"))
+                time.sleep(args.delay)
+                if (i // size) % 20 == 0:
+                    print(f"  {min(i + size, len(missing))}/{len(missing)} fetched ({size} per request)", file=sys.stderr)
+        missing = [e for e in events if not page_cache(e["title"], kind).exists()]
+    jobs = [(e["title"], e["qid"], str(page_cache(e["title"], kind)), args.html) for e in events]
     rows = []
-    for e in events:
-        path = page_cache(e["title"], kind)
-        if path.exists():
-            text = gzip.decompress(path.read_bytes()).decode("utf-8")
-            for s in (html_sentences(text) if args.html else wikitext_sentences(text)):
-                rows.append({"article": e["title"], "qid": e["qid"], **s})
+    if args.workers > 1:
+        from multiprocessing import Pool
+        with Pool(args.workers) as pool:
+            for i, got in enumerate(pool.imap(_parse_job, jobs, chunksize=20)):
+                rows += got
+                if (i + 1) % 2000 == 0:
+                    print(f"  {i + 1}/{len(jobs)} parsed", file=sys.stderr)
+    else:
+        for job in jobs:
+            rows += _parse_job(job)
     n = write_jsonl(args.out / "sentences.jsonl", rows)
-    print(f"{len(events)} articles ({len(missing)} fetched now, the rest cached): {n} sentences with links")
+    print(f"{len(events)} articles ({len(missing)} could not be fetched): {n} sentences with a connecting phrase or infobox link")
+
+
+def _parse_job(job) -> list[dict]:
+    title, qid, path, html_page = job
+    if not Path(path).exists():
+        return []
+    try:
+        return page_rows(title, qid, gzip.decompress(Path(path).read_bytes()).decode("utf-8"), html_page=html_page)
+    except Exception as err:   # one malformed page shouldn't stop a run of tens of thousands
+        print(f"  {title}: {err}", file=sys.stderr)
+        return []
 
 
 def save(path: Path, body: bytes) -> None:
@@ -395,7 +474,7 @@ def _dump_job(job):
         if title not in titles or page.find("redirect") is not None:
             continue
         text = page.findtext("revision/text") or ""
-        out.append((title, list(wikitext_sentences(text))))
+        out.append((title, page_rows(title, "", text)))
     return out
 
 
@@ -423,7 +502,7 @@ def _collect(results, by_title, total):
     rows = []
     for i, pages in enumerate(results):
         for title, sents in pages:
-            rows += [{"article": title, "qid": by_title[title]["qid"], **s} for s in sents]
+            rows += [dict(s, qid=by_title[title]["qid"]) for s in sents]
         if (i + 1) % 500 == 0:
             print(f"  {i + 1}/{total} streams", file=sys.stderr)
     return rows
@@ -508,6 +587,49 @@ WRAPPERS = {"nowrap": 0, "nobr": 0, "small": 0, "big": 0, "nobold": 0, "noitalic
             "interlanguage link": 0, "vanchor": 0, "lang": 1, "transl": -1, "transliteration": -1, "linktext": 0}
 
 
+INFOBOX_PARTOF = ("partof", "part_of", "part of")
+
+
+def wikitext_infobox(text: str) -> list[dict]:
+    """The infobox's "Part of" field as a row like a sentence: "Part of the Western Front of World War I"."""
+    import mwparserfromhell as mw
+    from mwparserfromhell.nodes import Text, Wikilink
+    out = []
+    for t in mw.parse(text).filter_templates(recursive=False):
+        if not str(t.name).strip().lower().startswith("infobox"):
+            continue
+        for p in t.params:
+            if str(p.name).strip().lower() not in INFOBOX_PARTOF:
+                continue
+            buf, links = ["Part of "], []
+            for n in p.value.nodes:
+                if isinstance(n, Text):
+                    buf.append(str(n.value))
+                elif isinstance(n, Wikilink):
+                    target = str(n.title).strip()
+                    label = n.text.strip_code() if n.text is not None else target.split("#")[0]
+                    start = sum(map(len, buf))
+                    buf.append(label)
+                    if ":" not in target.lstrip(":").split(" ")[0][:-1]:
+                        links.append([start, start + len(label), norm_title(target)])
+                elif str(n).strip().lower().startswith("<br"):
+                    buf.append("; ")
+                else:
+                    buf.append(mw.parse(str(n)).strip_code())
+            line = re.sub(r"\s+", " ", "".join(buf))
+            if links and len(line) <= 300:
+                out.append({"section": "Infobox", "text": line.strip(), "links": links, "infobox": True})
+    return out
+
+
+def page_rows(title: str, qid: str, text: str, html_page: bool = False) -> list[dict]:
+    """Every sentence with links in one article, plus its infobox "Part of" field."""
+    rows = list(html_sentences(text)) if html_page else wikitext_sentences(text) + wikitext_infobox(text)
+    # Only rows that can yield a candidate are kept; the raw page stays in the cache.
+    return [{"article": title, "qid": qid, **r} for r in rows
+            if r.get("infobox") or any(rx.search(r["text"]) for rx, _, _ in CUE_RE)]
+
+
 def _paragraphs(text: str, links):
     """Group rendered wikitext into paragraphs (runs of plain lines), dropping list and markup lines."""
     groups, cur, pos = [], [], 0
@@ -580,6 +702,7 @@ NEGATION = re.compile(r"\b(?:not|never|no|nor|neither|denied|deny|rather than)\b
 HEDGE = re.compile(r"\b(?:may have|might have|could have|possibly|perhaps|arguably|allegedly|reportedly|"
                    r"some (?:historians|scholars|observers|analysts)|it (?:has been|is) (?:argued|claimed|suggested|believed)|"
                    r"is (?:believed|thought|said)|according to some|disputed|controversial|speculat\w+)\b", re.I)
+LIST_JOIN = re.compile(r"^\s*(?:,|,? and|,? or)\s+(?:the\s+)?$")
 NEAR = 90      # characters between the phrase and the linked event it points at
 
 
@@ -649,6 +772,9 @@ def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
     links = sorted((a, b, link_qid.get(t)) for a, b, t in row["links"])
     if not any(q and q != me for _, _, q in links):
         return []
+    if row.get("infobox"):   # the infobox's "Part of" field: the article's event is part of each linked event
+        return [{"from": me, "to": q, "type": "part_of", "cue": "infobox: part of", "hedged": False, "subject": "article"}
+                for q in dict.fromkeys(q for _, _, q in links if q and q != me)]
     out = []
     for rx, kind, direction in CUE_RE:
         for m in rx.finditer(text):
@@ -659,8 +785,14 @@ def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
             after = [l for l in links if l[0] >= m.end()]
             if not after or after[0][0] > m.end() + reach or ";" in text[m.end():after[0][0]]:
                 continue
-            target = after[0][2]
-            if not target or target == me:
+            # "led to [A] and [B]", "led to [A], [B] and [C]": every link in the list is an object.
+            objects = [after[0]]
+            for l in after[1:]:
+                if not LIST_JOIN.match(text[objects[-1][1]:l[0]]):
+                    break
+                objects.append(l)
+            targets = [l[2] for l in objects if l[2] and l[2] != me]
+            if not targets or not after[0][2]:
                 continue
             before = [l for l in links if l[1] <= m.start() and l[1] >= m.start() - NEAR - 30 and ";" not in text[l[1]:m.start()]]
             if before and before[-1][2] and before[-1][2] != me:
@@ -669,11 +801,12 @@ def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
                 other, subject = me, "article"
             else:
                 other, subject = me, "unclear"
-            if other == target:
-                continue
-            a, b = (other, target) if direction == "forward" else (target, other)
-            out.append({"from": a, "to": b, "type": kind, "cue": m.group(0).lower(),
-                        "hedged": bool(HEDGE.search(text)), "subject": subject})
+            for target in targets:
+                if other == target:
+                    continue
+                a, b = (other, target) if direction == "forward" else (target, other)
+                out.append({"from": a, "to": b, "type": kind, "cue": m.group(0).lower(),
+                            "hedged": bool(HEDGE.search(text)), "subject": subject})
     return out
 
 
@@ -701,7 +834,7 @@ def cmd_extract(args) -> None:
     rows = list(read_jsonl(args.out / "sentences.jsonl"))
     titles = {e["title"]: q for q, e in events.items()}
     cue_rows = [dict(r, classes=events[r["qid"]]["classes"]) for r in rows
-                if r["qid"] in events and any(rx.search(r["text"]) for rx, _, _ in CUE_RE)]
+                if r["qid"] in events and (r.get("infobox") or any(rx.search(r["text"]) for rx, _, _ in CUE_RE))]
     link_qid = resolve_links(cue_rows, titles, args.offline)
     pairs: dict[tuple, dict] = {}
     for r in cue_rows:
@@ -1002,6 +1135,7 @@ def main(argv=None) -> None:
     p.add_argument("--min-sitelinks", type=int, default=0)
     p.add_argument("--delay", type=float, default=0.5, help="seconds between requests")
     p.add_argument("--html", action="store_true", help="rendered HTML, one request per article (slower, better quotes)")
+    p.add_argument("--workers", type=int, default=4, help="processes for parsing")
     p.set_defaults(fn=cmd_fetch)
 
     p = sub.add_parser("dump", help="read the articles from a downloaded multistream dump")

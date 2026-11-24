@@ -1,14 +1,14 @@
 # Mining Wikipedia for links
 
-`tools/wikimine.py` finds sentences in Wikipedia's event articles that state a connection to another event ("led to", "in response to", "part of") and turns them into proposed links. Each proposal quotes the sentence and cites the article, so it can be checked against the page. Everything lands in `staging/wikimine/` (gitignored), marked `unverified`. Nothing goes into `data/` until a person has checked it.
+`tools/wikimine.py` finds sentences in Wikipedia's event articles that state a connection to another event ("led to", "in response to", "part of") and turns them into proposed links. Each proposal quotes the sentence and cites the article, so it can be checked against the page. Everything lands in `staging/wikimine/`, marked `unverified`. `events.jsonl` and `candidates.jsonl` are committed (short quotes with links to their articles); the rest is rebuilt locally. Nothing goes into `data/` until a person has checked it.
 
 ## Steps
 
 | Step | Command | What it does | Output |
 |---|---|---|---|
-| 1 | `events` | Asks Wikidata for wars, battles, revolutions, coups, treaties, protests, massacres, pandemics and the like (24 classes) with a date and an English article, plus Wikidata's own "part of", "has cause" and "has effect" statements between them | `events.jsonl` |
-| 2 | `fetch` or `dump` | Gets those articles, either from the API (good up to a few thousand) or from a downloaded dump (all of them), and keeps the sentences that contain links | `sentences.jsonl` |
-| 3 | `extract` | Keeps sentences where a connecting phrase sits next to a link to another event, works out the direction from the phrase, follows redirects, checks the dates and compares with Wikidata | `candidates.jsonl` |
+| 1 | `events` | Asks Wikidata for wars, battles, revolutions, coups, treaties, elections, laws, disasters, strikes, crises, pandemics and the like (about 70 classes, each with a minimum number of language editions for noisy ones such as elections) with a date and an English article, plus Wikidata's own "part of", "has cause" and "has effect" statements between them | `events.jsonl` |
+| 2 | `fetch` or `dump` | Gets those articles, from the API (50 per request) or from a downloaded dump, and keeps the sentences that have a connecting phrase, plus the infobox "Part of" field | `sentences.jsonl` |
+| 3 | `extract` | Keeps sentences where a connecting phrase sits next to a link to another event (all of them for "led to A and B"), and the infobox's "Part of" field, works out the direction from the phrase, follows redirects, checks the dates and compares with Wikidata | `candidates.jsonl` |
 | 4 | `classify` (optional) | Claude reads each sentence and says whether it really states the link, its type and direction. Needs an Anthropic API key | `classified.jsonl` |
 | 5 | `sample` | Picks 100 at random into a checklist for a person; `sample --score FILE` gives the precision | `sample-DATE.md` |
 | 6 | `write` | Writes YAML link files, plus stub files for events not yet in `data/` | `links/`, `events/` |
@@ -24,20 +24,20 @@ python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\
 pip install -r requirements.txt mwparserfromhell
 ```
 
-### A pilot (an hour or so, no download)
+### Everything through the API (recommended; no download)
 
 ```bash
-python tools/wikimine.py events --from 1900                  # ~15–30 min, all 24 classes
-python tools/wikimine.py fetch --limit 3000                  # the 3,000 events with the most language versions
+python tools/wikimine.py events --from 500                   # an hour or more; each class is cached, so rerun after an interruption
+python tools/wikimine.py fetch                               # every event article, 50 per request (add --limit 3000 for a quick pilot)
 python tools/wikimine.py extract
 python tools/wikimine.py sample --n 100
 ```
 
 Open `staging/wikimine/sample-<date>.md`, tick one box per item, then run `python tools/wikimine.py sample --score staging/wikimine/sample-<date>.md`.
 
-### Everything (an evening)
+### Or from a downloaded dump
 
-Download the current English dump and its index from <https://dumps.wikimedia.org/enwiki/latest/>, about 27 GB in total:
+This reads the same articles from a local copy instead of the API. Download the current English dump and its index from <https://dumps.wikimedia.org/enwiki/latest/>, about 27 GB in total:
 
 ```bash
 mkdir -p ~/wikidumps && cd ~/wikidumps

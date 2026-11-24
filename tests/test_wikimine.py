@@ -154,3 +154,24 @@ def test_article_subject():
     assert not wm.article_is_subject("The war on land ", "Battle of Heligoland Bight", ["battle"])
     assert not wm.article_is_subject("These weaknesses ", "World War I", ["war"])
     assert not wm.article_is_subject("The conflict ", "Treaty of Poti", ["treaty"])
+
+
+def test_infobox_part_of():
+    pytest.importorskip("mwparserfromhell")
+    text = ("{{Infobox military conflict\n| conflict = Battle of the Somme\n"
+            "| partof = the [[Western Front (World War I)|Western Front]] of [[World War I]]\n| date = 1916\n}}\n"
+            "The '''Battle of the Somme''' was a battle.")
+    rows = wm.wikitext_infobox(text)
+    assert rows[0]["text"] == "Part of the Western Front of World War I"
+    assert [t for _, _, t in rows[0]["links"]] == ["Western Front (World War I)", "World War I"]
+    q = {"World War I": "Q3"}
+    r = dict(rows[0], qid="Q1", article="Battle of the Somme")
+    assert [(c["from"], c["to"], c["type"]) for c in wm.sentence_candidates(r, q)] == [("Q1", "Q3", "part_of")]
+
+
+def test_list_of_objects():
+    q = {"Treaty of Versailles": "Q4", "World War I": "Q3", "October Revolution": "Q6"}
+    r = row("The war led to the October Revolution and the Treaty of Versailles.", "Q3",
+            [("October Revolution", "October Revolution"), ("Treaty of Versailles", "Treaty of Versailles")])
+    r["classes"] = ["war"]
+    assert {(c["from"], c["to"]) for c in wm.sentence_candidates(r, q)} == {("Q3", "Q6"), ("Q3", "Q4")}
