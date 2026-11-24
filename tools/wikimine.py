@@ -81,7 +81,11 @@ CLASSES = {
     "aviation accident": ("Q744913", 5), "shipwreck": ("Q852190", 5), "space mission": ("Q2133344", 10),
     "expedition": ("Q2401485", 5),
     # culture and sport
-    "Summer Olympic Games": ("Q159821", 0), "Winter Olympic Games": ("Q82414", 0),
+    "Summer Olympic Games": ("Q159821", 0), "Winter Olympic Games": ("Q82414", 0), "benefit concert": ("Q1850936", 0),
+    # broad classes, where events that fit none of the above often sit
+    "historical event": ("Q13418847", 5), "revolutionary wave": ("Q1886460", 0), "demonstration": ("Q175331", 0),
+    "reform": ("Q900406", 3), "public policy": ("Q546113", 5), "constitution": ("Q7755", 3),
+    "Act of Congress": ("Q476068", 3), "UK Act of Parliament": ("Q105774620", 3), "human spaceflight": ("Q752783", 3),
 }
 
 
@@ -184,14 +188,17 @@ def known_pairs(root: Path = ROOT) -> set:
 # --- 1. events: the skeleton from Wikidata -------------------------------------------------------
 
 EVENT_QUERY = """
-SELECT ?e ?article ?label ?start ?point ?end ?sitelinks WHERE {
+SELECT ?e ?article ?label ?start ?point ?inception ?published ?launched ?end ?sitelinks WHERE {
   ?e wdt:P31/wdt:P279* wd:%(cls)s .
   ?article schema:about ?e ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?label .
   OPTIONAL { ?e wdt:P580 ?start }
   OPTIONAL { ?e wdt:P585 ?point }
   OPTIONAL { ?e wdt:P582 ?end }
+  OPTIONAL { ?e wdt:P571 ?inception }
+  OPTIONAL { ?e wdt:P577 ?published }
+  OPTIONAL { ?e wdt:P619 ?launched }
   ?e wikibase:sitelinks ?sitelinks .
-  BIND(COALESCE(?start, ?point) AS ?s)
+  BIND(COALESCE(?start, ?point, ?inception, ?published, ?launched) AS ?s)
   FILTER(BOUND(?s) && YEAR(?s) >= %(lo)d && YEAR(?s) < %(hi)d && ?sitelinks >= %(min)d)
 }"""
 
@@ -241,7 +248,7 @@ def cmd_events(args) -> None:
         if args.classes and name not in args.classes:
             continue
         # Each class is cached, so an interrupted run picks up where it stopped.
-        cache = CACHE / "events" / f"{cls}-{minimum}-{args.start}-{args.end}.json"
+        cache = CACHE / "events" / f"v2-{cls}-{minimum}-{args.start}-{args.end}.json"   # v2: more date properties
         if cache.exists():
             rows = json.loads(cache.read_text())
         else:
@@ -251,7 +258,7 @@ def cmd_events(args) -> None:
         got = 0
         for r in rows:
             qid = r["e"]["value"].rsplit("/", 1)[1]
-            start = (r.get("start") or r.get("point"))["value"][:10]
+            start = next(r[k] for k in ("start", "point", "inception", "published", "launched") if k in r)["value"][:10]
             end = r["end"]["value"][:10] if "end" in r else None
             e = events.get(qid)
             if e is None:
