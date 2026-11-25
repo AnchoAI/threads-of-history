@@ -1,0 +1,23 @@
+id: doj-opr-report-on-epstein-plea-deal-2020--revealed--epstein-non-prosecution-agreement-2007
+from: doj-opr-report-on-epstein-plea-deal-2020
+to: epstein-non-prosecution-agreement-2007
+type: revealed
+confidence: documented
+note: The Office of Professional Responsibility's review examined how the agreement was made and how victims were
+  treated.
+sources:
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: The Office of Professional Responsibility's investigation, which lasted more than a year, focused on the
+    role of President Trump's former labor secretary, Alexander Acosta, and other attorneys involved in crafting
+    Epstein's nonprosecution agreement.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

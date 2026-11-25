@@ -1,0 +1,22 @@
+id: federal-bureau-of-investigation
+title: Federal Bureau of Investigation
+actor_type: organization
+summary: U.S. federal law enforcement agency.
+threads:
+- intel
+regions:
+- americas
+importance: 2
+wikidata: Q8333
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8333.json
+  title: Federal Bureau of Investigation
+  publisher: Wikidata
+  quote: U.S. federal law enforcement agency
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

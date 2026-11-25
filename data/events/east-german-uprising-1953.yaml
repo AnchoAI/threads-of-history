@@ -1,0 +1,55 @@
+id: east-german-uprising-1953
+title: East German uprising of 1953
+summary: On 16 June 1953 construction workers in East Berlin struck against raised work quotas; the next
+  day protests against the government and the ruling SED spread to about 700 localities and over a million
+  people, and Soviet tanks were sent in to put them down. Estimates of the dead range from 55 to more
+  than 125.
+occurred:
+  start: '1953-06-16'
+  end: '1953-06-17'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- east-germany
+- walter-ulbricht
+- soviet-union
+importance: 3
+wikidata: Q157682
+sources:
+- url: https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  title: East German uprising of 1953
+  publisher: Wikipedia
+  quote: It began with strike action by construction workers in East Berlin on 16 June against work quotas
+    during the Sovietization process in East Germany.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  title: East German uprising of 1953
+  publisher: Wikipedia
+  quote: Demonstrations in East Berlin turned into a widespread uprising against the Government of East
+    Germany and the ruling Socialist Unity Party the next day, involving over one million people in about
+    700 localities across the country.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  title: East German uprising of 1953
+  publisher: Wikipedia
+  quote: Then, suddenly, Soviet military vehicles appeared, followed by tanks, to repel what appeared
+    to be an imminent takeover.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  title: East German uprising of 1953
+  publisher: Wikipedia
+  quote: 55–125+ killed
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The death toll comes from the article's infobox; other parts of the project's sources (the Hungarian
+    Revolution article) give 84 dead.

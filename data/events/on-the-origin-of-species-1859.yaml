@@ -1,0 +1,45 @@
+id: on-the-origin-of-species-1859
+title: Darwin's On the Origin of Species published
+summary: Charles Darwin publishes On the Origin of Species, introducing the theory that populations evolve over
+  generations through natural selection; it is considered the foundation of evolutionary biology.
+occurred:
+  start: '1859-11-24'
+  precision: day
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- charles-darwin
+importance: 4
+wikidata: Q20124
+sources:
+- url: https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  archive_url: https://web.archive.org/web/20261010183226/https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  title: On the Origin of Species
+  publisher: Wikipedia
+  quote: It was published on 24 November 1859.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  archive_url: https://web.archive.org/web/20261010183226/https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  title: On the Origin of Species
+  publisher: Wikipedia
+  quote: is a work of scientific literature by the English naturalist Charles Darwin that is considered to be the
+    foundation of evolutionary biology.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  archive_url: https://web.archive.org/web/20261010183226/https://en.wikipedia.org/wiki/On_the_Origin_of_Species
+  title: On the Origin of Species
+  publisher: Wikipedia
+  quote: Darwin's book introduced the scientific theory that populations evolve over the course of generations through
+    a process of natural selection
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q20124 is the book itself.

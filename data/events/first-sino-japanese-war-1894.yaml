@@ -1,0 +1,42 @@
+id: first-sino-japanese-war-1894
+title: First Sino-Japanese War
+summary: Japan and Qing China fought from July 1894 to April 1895, chiefly over influence in Korea. Japan
+  won, and the Treaty of Shimonoseki forced China to pay a large indemnity and cede Taiwan.
+occurred:
+  start: '1894-07-25'
+  end: '1895-04-17'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- qing-dynasty
+- li-hongzhang
+importance: 4
+wikidata: Q178687
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: 25 July 1894 – 17 April 1895
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: In the late 19th century, Korea remained one of the Qing tributary states, while Japan viewed
+    it as a target of imperial expansion.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: The war concluded with the Treaty of Shimonoseki on 17 April, which required the Qing to pay
+    a massive indemnity and to cede the island of Taiwan to Japan.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

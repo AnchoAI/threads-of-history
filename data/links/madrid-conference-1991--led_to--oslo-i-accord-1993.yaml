@@ -1,0 +1,23 @@
+id: madrid-conference-1991--led_to--oslo-i-accord-1993
+from: madrid-conference-1991
+to: oslo-i-accord-1993
+type: led_to
+confidence: documented
+note: Oslo was an outgrowth of the bilateral talks begun at Madrid.
+sources:
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: The bilateral Israeli–Palestinian negotiations eventually led to the exchange of letters and the subsequent
+    signing of the Oslo I Accord, on the lawn of the White House on 13 September 1993.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: Negotiations concerning the agreement, an outgrowth of the Madrid Conference of 1991
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

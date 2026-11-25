@@ -1,0 +1,21 @@
+id: chinese-communist-party
+title: Chinese Communist Party
+actor_type: organization
+summary: Founding and ruling party of the People's Republic of China.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q17427
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q17427.json
+  title: Chinese Communist Party
+  publisher: Wikidata
+  quote: founding and ruling party of the People's Republic of China
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

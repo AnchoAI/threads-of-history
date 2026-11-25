@@ -1,0 +1,45 @@
+id: japanese-economic-miracle-1955
+title: Japanese economic miracle
+summary: A period of rapid economic growth in postwar Japan, generally dated from 1955 to the 1973 oil crisis,
+  during which Japan completed its industrialisation; nominal GDP rose from about $91 billion in 1965 to $1.065
+  trillion in 1980.
+occurred:
+  start: '1955'
+  end: '1973'
+  precision: year
+threads:
+- econ-crises
+- industry
+regions:
+- east-asia
+actors:
+- japan
+importance: 4
+wikidata: Q1059474
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_economic_miracle
+  title: Japanese economic miracle
+  publisher: Wikipedia
+  quote: It generally refers to the period from 1955, around which time the per capita gross national income
+    of the country recovered to pre-war levels, and to the onset of the 1973 oil crisis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Japanese_economic_miracle
+  title: Japanese economic miracle
+  publisher: Wikipedia
+  quote: During the time of reconstruction and before the 1973 oil crisis, Japan managed to complete its industrialization
+    process
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Japanese_economic_miracle
+  title: Japanese economic miracle
+  publisher: Wikipedia
+  quote: In 1965, Japan's nominal GDP was estimated at just over $91 billion. Fifteen years later, in 1980,
+    the nominal GDP had soared to a record $1.065 trillion.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

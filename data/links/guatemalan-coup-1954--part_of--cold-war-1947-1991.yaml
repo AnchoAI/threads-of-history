@@ -1,0 +1,18 @@
+id: guatemalan-coup-1954--part_of--cold-war-1947-1991
+from: guatemalan-coup-1954
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The coup is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: Part of the Guatemalan Revolution and the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

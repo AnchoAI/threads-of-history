@@ -1,0 +1,27 @@
+id: embassy-military-option-cable-1978--signal_of--military-government-appointed-in-iran-1978
+from: embassy-military-option-cable-1978
+to: military-government-appointed-in-iran-1978
+type: signal_of
+confidence: documented
+note: The embassy reported the Shah was weighing a military government four days before he appointed one.
+sources:
+- url: https://nsarchive.gwu.edu/media/18194/ocr
+  archive_url: https://web.archive.org/web/20260515173801/https://nsarchive.gwu.edu/media/18194/ocr
+  title: 'US Embassy Tehran (Sullivan) telegram, "Looking Ahead: The Military Option", 2 November 1978 (transcription)'
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-02'
+  quote: The Shah himself toldthe ambassador that one of his options would be a military government
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: We believe that the military government appointed by the Shah on 6 November may succeed in the near term
+    in restoring economic activity and a modicum of public security
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

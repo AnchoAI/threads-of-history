@@ -1,0 +1,17 @@
+id: treaty-of-shimonoseki-1895--led_to--taiwan-under-japanese-rule-1895
+from: treaty-of-shimonoseki-1895
+to: taiwan-under-japanese-rule-1895
+type: led_to
+confidence: documented
+note: The treaty ceded Taiwan and Penghu, beginning fifty years of Japanese rule.
+sources:
+- url: https://en.wikipedia.org/wiki/Legal_status_of_Taiwan
+  title: Political status of Taiwan
+  publisher: Wikipedia
+  quote: Taiwan along with the Penghu islands were ceded to Japan under the terms of the Treaty of Shimonoseki
+    after Japan’s victory over the Qing dynasty at the First Sino-Japanese War in 1895, which began 50-year
+    Japanese rule over Taiwan.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

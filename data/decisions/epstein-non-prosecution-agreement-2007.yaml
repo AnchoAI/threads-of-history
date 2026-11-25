@@ -1,0 +1,112 @@
+id: epstein-non-prosecution-agreement-2007
+title: Federal prosecutors give Jeffrey Epstein a non-prosecution agreement
+summary: The US Attorney's Office for the Southern District of Florida, led by Alexander Acosta, agrees not to charge
+  Jeffrey Epstein federally if he pleads guilty to two state charges, serves a jail term and registers as a sex
+  offender. The agreement grants immunity to Epstein, four co-conspirators and "any potential co-conspirators",
+  and was filed under seal without the victims being told.
+occurred:
+  start: '2007'
+  precision: year
+known:
+  public:
+    start: 2009-09
+    precision: month
+    note: The agreement was filed under seal; two years after it was signed, a Florida judge ordered it made public
+      in response to lawsuits from victims and news outlets.
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- alexander-acosta
+- jeffrey-epstein
+importance: 3
+decided_by:
+- alexander-acosta
+alternatives:
+- option: File the draft federal indictment (60 counts) prepared by an assistant US attorney in May 2007
+  sources:
+  - url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+    archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+    title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+    publisher: NPR
+    date: '2025-07-25'
+    quote: 'May: An assistant U.S. attorney — who has been working with two FBI agents to find more victims — submits
+      a draft indictment outlining 60 criminal counts against Epstein, along with a memo summarizing the evidence
+      assembled against him.'
+    type: news
+    accessed: '2026-10-23'
+- option: Leave the case to the state, where Epstein faced a single solicitation charge
+  sources:
+  - url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+    archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+    title: Jeffrey Epstein
+    publisher: Wikipedia
+    quote: Acosta was unhappy with the prospect that the case might return to the state level, where Epstein would
+      receive only prostitution charges, and no prison sentence without registering as a sex offender.
+    type: reference
+    accessed: '2026-10-23'
+wikidata: none
+sources:
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: The U.S. Attorney's Office offers to end its investigation if Epstein pleads guilty to two state charges
+    and agrees to accept a prison term, register as a sexual offender, and set up a way for his victims to obtain
+    monetary damages.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: The much-criticized deal includes a controversial nonprosecution agreement, or NPA, in which the federal
+    prosecutor's office grants immunity to Epstein, four co-conspirators, and "any potential co-conspirators," the
+    Justice Department says.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: Prosecutors agree not to tell Epstein's victims about the NPA, which is filed under seal.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: Ultimately, U.S. attorney Alexander Acosta signed off on a deal that allowed Epstein to avoid federal prosecution
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: Epstein's October 2007 non-prosecution agreement
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: 'September: Two years after the nonprosecution deal was signed, a Florida judge orders that the document
+    giving Epstein federal immunity should be made public, in response to lawsuits from Epstein''s victims and news
+    outlets.'
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - 'Date kept at year precision: Wikipedia''s heading says October 2007; the exact signing date was not found in
+    a fetched source.'
+  - 'known.public: NPR places the unsealing order under its 2009 heading (''two years after'' the 2007 deal); month
+    from that entry.'

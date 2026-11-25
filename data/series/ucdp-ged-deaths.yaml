@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: ucdp-ged-deaths
+title: Deaths from organized violence (UCDP GED)
+summary: Best estimate of deaths from state-based, non-state and one-sided violence on the country's territory.
+occurred:
+  start: '1989'
+  end: '2025'
+  precision: year
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: deaths
+dataset: ucdp-ged
+indicator: deaths
+table: tables/ucdp-ged-deaths.csv
+sources:
+- url: https://ucdp.uu.se/downloads/
+  title: UCDP Dataset Download Center
+  publisher: Uppsala Conflict Data Program
+  type: primary

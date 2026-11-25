@@ -1,0 +1,40 @@
+id: battle-of-dien-bien-phu-1954
+title: Battle of Dien Bien Phu
+summary: The Viet Minh besieged and overran the French garrison at Dien Bien Phu between 13 March and 7 May
+  1954. The defeat shocked France and led to the withdrawal of French forces from Indochina agreed at Geneva.
+occurred:
+  start: '1954-03-13'
+  end: '1954-05-07'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+actors:
+- france
+- viet-minh
+importance: 4
+wikidata: Q604897
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  archive_url: https://web.archive.org/web/20261005171559/https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  title: Battle of Dien Bien Phu
+  publisher: Wikipedia
+  quote: The Battle of Điện Biên Phủ was a defeat of the French Union forces by the Viet Minh forces in the
+    First Indochina War. It took place between 13 March and 7 May 1954.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  archive_url: https://web.archive.org/web/20261005171559/https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  title: Battle of Dien Bien Phu
+  publisher: Wikipedia
+  quote: the defeat at Điện Biên Phủ brought a profound psychological shock to France. It led to a gradual
+    withdrawal of French forces from all of Indochina (with the exception of Laos). This was agreed in the
+    1954 Geneva Accords signed ten weeks after the battle.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

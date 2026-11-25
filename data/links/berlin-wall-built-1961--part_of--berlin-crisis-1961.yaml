@@ -1,0 +1,17 @@
+id: berlin-wall-built-1961--part_of--berlin-crisis-1961
+from: berlin-wall-built-1961
+to: berlin-crisis-1961
+type: part_of
+confidence: documented
+note: The Wall was the crisis's main outcome.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: The crisis culminated in the city's de facto partition by the East German erection of the Berlin
+    Wall.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

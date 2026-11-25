@@ -1,0 +1,17 @@
+id: berlin-blockade-1948--led_to--west-germany-joins-nato-1955
+from: berlin-blockade-1948
+to: west-germany-joins-nato-1955
+type: led_to
+confidence: documented
+note: The blockade helped draw West Germany into NATO's orbit.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: It played a major role in aligning West Berlin with the United States and Britain as the major
+    protecting powers, and in drawing West Germany into the NATO orbit several years later in 1955.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

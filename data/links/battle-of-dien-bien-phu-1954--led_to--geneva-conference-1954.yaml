@@ -1,0 +1,24 @@
+id: battle-of-dien-bien-phu-1954--led_to--geneva-conference-1954
+from: battle-of-dien-bien-phu-1954
+to: geneva-conference-1954
+type: led_to
+confidence: documented
+note: The defeat led to the French withdrawal agreed in the Geneva Accords.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  archive_url: https://web.archive.org/web/20261005171559/https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu
+  title: Battle of Dien Bien Phu
+  publisher: Wikipedia
+  quote: It led to a gradual withdrawal of French forces from all of Indochina (with the exception of Laos).
+    This was agreed in the 1954 Geneva Accords signed ten weeks after the battle.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Geneva_Conference
+  title: 1954 Geneva Conference
+  publisher: Wikipedia
+  quote: The Viet Minh had achieved their decisive victory over the French Union forces at Dien Bien Phu the
+    previous day.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

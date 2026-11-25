@@ -1,0 +1,21 @@
+id: dna-double-helix-1953--led_to--human-genome-project-1990
+from: dna-double-helix-1953
+to: human-genome-project-1990
+type: led_to
+confidence: documented
+note: Advances stemming from the double helix led to gene sequencing; Watson himself directed the Human
+  Genome Project at the NIH.
+sources:
+- url: https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  archive_url: https://web.archive.org/web/20260930181426/https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid'
+  publisher: Wikipedia
+  quote: Other advances in molecular biology stemming from the discovery of the DNA double helix eventually
+    led to ways to sequence genes. James Watson directed the Human Genome Project at the National Institutes
+    of Health.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

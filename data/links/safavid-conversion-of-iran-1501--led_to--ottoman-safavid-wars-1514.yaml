@@ -1,0 +1,24 @@
+id: safavid-conversion-of-iran-1501--led_to--ottoman-safavid-wars-1514
+from: safavid-conversion-of-iran-1501
+to: ottoman-safavid-wars-1514
+type: led_to
+confidence: documented
+note: Imposing Shia Islam in Iran set the Safavids against their Sunni neighbours, above all the Ottomans.
+sources:
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: This process led to hostilities with Iran's Sunni-majority neighbours, most notably the Ottoman Empire.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: The Sunni Ottomans in the west and the Sunni Uzbek tribes in the east were especially angered by the Safavid
+    support of Shia Islam.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

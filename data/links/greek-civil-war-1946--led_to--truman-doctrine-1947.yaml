@@ -1,0 +1,26 @@
+id: greek-civil-war-1946--led_to--truman-doctrine-1947
+from: greek-civil-war-1946
+to: truman-doctrine-1947
+type: led_to
+confidence: documented
+note: Britain's withdrawal of support from the Greek government in the civil war was the immediate cause
+  of Truman's speech.
+sources:
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: The immediate cause for the speech was a recent announcement by the British Government that,
+    as of March 31, it would no longer provide military and economic assistance to the Greek Government
+    in its civil war against the Greek Communist Party.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: By late 1946, Britain informed the U.S. that due to its own declining economy, it could no longer
+    continue to provide military and economic support to the Greek government.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

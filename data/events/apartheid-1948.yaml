@@ -1,0 +1,37 @@
+id: apartheid-1948
+title: Apartheid
+summary: After the National Party wins the 1948 election, South Africa institutes apartheid, a system of institutionalised
+  racial segregation and white minority rule that lasts until 1994.
+occurred:
+  start: '1948'
+  end: '1994'
+  precision: year
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors: []
+importance: 4
+wikidata: Q11409
+sources:
+- url: https://en.wikipedia.org/wiki/Apartheid
+  title: Apartheid
+  publisher: Wikipedia
+  quote: was a system of institutionalised racial segregation that existed in South Africa and South West Africa
+    (now Namibia) from 1948 to 1994
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/1994_South_African_general_election
+  archive_url: https://web.archive.org/web/20260925063747/https://en.wikipedia.org/wiki/1994_South_African_general_election
+  title: 1994 South African general election
+  publisher: Wikipedia
+  quote: In 1948, the newly elected National Party government in South Africa began to institute apartheid, an institutionalized
+    system of racial segregation that placed sociopolitical dominance in the hands of the European-descended white
+    minority.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

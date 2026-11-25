@@ -1,0 +1,71 @@
+id: fulton-speech-1946
+title: Churchill's "Iron Curtain" speech
+summary: On 5 March 1946 at Westminster College in Fulton, Missouri, Winston Churchill, then Leader of
+  the Opposition, said that an "iron curtain" had descended across Europe, leaving the capitals of Central
+  and Eastern Europe in what he called the Soviet sphere. Some consider the speech the start of the Cold
+  War; Stalin answered in Pravda, accusing Churchill of warmongering.
+occurred:
+  start: '1946-03-05'
+  precision: day
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+actors:
+- winston-churchill
+- joseph-stalin
+- united-kingdom
+- soviet-union
+importance: 3
+wikidata: Q2102143
+sources:
+- url: https://en.wikipedia.org/wiki/Fulton_Speech
+  archive_url: https://web.archive.org/web/20261012030841/https://en.wikipedia.org/wiki/Fulton_Speech
+  title: Fulton Speech
+  publisher: Wikipedia
+  quote: was a 46-minute lecture delivered by Winston Churchill on March 5, 1946, at Westminster College
+    in Fulton, Missouri, United States, to an audience of 1,500 listeners
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fulton_Speech
+  archive_url: https://web.archive.org/web/20261012030841/https://en.wikipedia.org/wiki/Fulton_Speech
+  title: Fulton Speech
+  publisher: Wikipedia
+  quote: It has been considered by some as signalling the beginning of the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fulton_Speech
+  archive_url: https://web.archive.org/web/20261012030841/https://en.wikipedia.org/wiki/Fulton_Speech
+  title: Fulton Speech
+  publisher: Wikipedia
+  quote: after the defeat of the Conservative Party in the July 5, 1945, election, he was the Leader of
+    the Opposition
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fulton_Speech
+  archive_url: https://web.archive.org/web/20261012030841/https://en.wikipedia.org/wiki/Fulton_Speech
+  title: Fulton Speech
+  publisher: Wikipedia
+  quote: From Stettin in the Baltic to Trieste in the Adriatic, an Iron Curtain has descended across the
+    Continent.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fulton_Speech
+  archive_url: https://web.archive.org/web/20261012030841/https://en.wikipedia.org/wiki/Fulton_Speech
+  title: Fulton Speech
+  publisher: Wikipedia
+  quote: all these famous cities and the populations around them lie in what I must call the Soviet sphere
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iron_Curtain
+  archive_url: https://web.archive.org/web/20260930050331/https://en.wikipedia.org/wiki/Iron_Curtain
+  title: Iron Curtain
+  publisher: Wikipedia
+  quote: Stalin took note of Churchill's speech and responded in Pravda in mid-March 1946. He accused
+    Churchill of warmongering
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,53 @@
+id: bengal-denial-policies-1942
+title: British "denial" policies in Bengal
+summary: Expecting a Japanese invasion, the authorities order surplus rice removed or destroyed in coastal
+  Bengal districts and confiscate about 45,000 rural boats.
+occurred:
+  start: 1942-03
+  end: 1942-05
+  precision: month
+threads:
+- empire
+- ww2
+regions:
+- south-central-asia
+actors:
+- british-raj
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: John Herbert, the governor of Bengal, issued an urgent directive in late March 1942 immediately
+    requiring stocks of paddy (unmilled rice) deemed surplus, and other food items, to be removed or destroyed
+    in these districts.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: a "boat denial" policy, was designed to deny Bengali transport to any invading Japanese army
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: Implemented on 1 May after an initial registration period
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: the Army confiscated approximately 45,000 rural boats
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

@@ -4,3 +4,11 @@ __pycache__/
 .venv/
 *.pyc
 .cache/
+# Wikipedia mining: events.jsonl and candidates.jsonl are committed; the rest is rebuilt locally.
+staging/wikimine/sentences.jsonl
+staging/wikimine/classified.jsonl
+staging/wikimine/classify-batches.json
+staging/wikimine/links/
+staging/wikimine/events/
+staging/wikimine/sample-*.md
+staging/wikimine/sample-*.json

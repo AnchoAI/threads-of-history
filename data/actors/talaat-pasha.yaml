@@ -1,0 +1,21 @@
+id: talaat-pasha
+title: Talaat Pasha
+summary: Turkish Ottoman politician (1874–1921).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q315888
+actor_type: person
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q315888.json
+  title: Talaat Pasha
+  publisher: Wikidata
+  quote: Turkish Ottoman politician (1874–1921)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity data (via SPARQL). Role in specific events
+    is sourced on those events.

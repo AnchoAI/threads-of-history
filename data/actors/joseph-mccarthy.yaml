@@ -1,0 +1,21 @@
+id: joseph-mccarthy
+title: Joseph McCarthy
+actor_type: person
+summary: American politician (1908–1957).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q189197
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q189197.json
+  title: Joseph McCarthy
+  publisher: Wikidata
+  quote: American politician (1908–1957)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

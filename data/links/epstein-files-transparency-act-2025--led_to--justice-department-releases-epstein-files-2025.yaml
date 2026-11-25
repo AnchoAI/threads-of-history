@@ -1,0 +1,29 @@
+id: epstein-files-transparency-act-2025--led_to--justice-department-releases-epstein-files-2025
+from: epstein-files-transparency-act-2025
+to: justice-department-releases-epstein-files-2025
+type: led_to
+confidence: documented
+note: The act legally required the Justice Department to publish the files.
+sources:
+- url: https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  archive_url: https://web.archive.org/web/20260910210730/https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  title: Newly released Epstein files include many already public documents
+  publisher: NPR
+  date: '2025-12-19'
+  quote: Rep. Ro Khanna, D-Calif., who co-sponsored the Epstein Files Transparency Act, which legally required the
+    files be released, expressed disappointment with the contents
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: On December 19, the U.S. Department of Justice released the first batch of Epstein files, violating U.S.
+    law in failing to release all the files by that day.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

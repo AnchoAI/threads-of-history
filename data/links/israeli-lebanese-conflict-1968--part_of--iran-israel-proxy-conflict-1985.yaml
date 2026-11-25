@@ -1,0 +1,18 @@
+id: israeli-lebanese-conflict-1968--part_of--iran-israel-proxy-conflict-1985
+from: israeli-lebanese-conflict-1968
+to: iran-israel-proxy-conflict-1985
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Israeli–Lebanese conflict lists it as part of Iran–Israel proxy conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Lebanese_conflict
+  title: Israeli–Lebanese conflict
+  publisher: Wikipedia
+  quote: Part of the Arab–Israeli conflict and the Iran–Israel proxy conflict
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

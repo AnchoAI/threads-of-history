@@ -1,0 +1,18 @@
+id: battle-of-britain-1940--part_of--western-front-1939
+from: battle-of-britain-1940
+to: western-front-1939
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Battle of Britain lists it as part of Western Front (World War II).
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Britain
+  title: Battle of Britain
+  publisher: Wikipedia
+  quote: Part of the Western Front of World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

@@ -1,0 +1,17 @@
+id: live-aid-1985--influenced--nelson-mandela-70th-birthday-tribute-1988
+from: live-aid-1985
+to: nelson-mandela-70th-birthday-tribute-1988
+type: influenced
+confidence: documented
+note: The Guardian names Live Aid's example as one of the things that led to the Mandela birthday concert.
+sources:
+- url: https://www.theguardian.com/music/2013/dec/06/nelson-mandela-protest-song-special-aka
+  title: 'Nelson Mandela: the triumph of the protest song'
+  publisher: The Guardian
+  date: '2013-12-06'
+  quote: All this activity, and the inspiring example of Live Aid, led to 1988's 70th birthday concert for Mandela
+    at Wembley Arena
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,24 @@
+id: arpa-founded-1958--led_to--arpanet-1969
+from: arpa-founded-1958
+to: arpanet-1969
+type: led_to
+confidence: documented
+note: ARPA started and funded the ARPANET.
+sources:
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: The ARPANET was established by the Advanced Research Projects Agency (now DARPA) of the United
+    States Department of Defense.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: Bob Taylor initiated the ARPANET project in 1966 to enable resource sharing between remote computers.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

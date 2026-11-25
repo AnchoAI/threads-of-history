@@ -1,0 +1,33 @@
+id: siege-of-paris-1870
+title: Siege of Paris (1870–1871)
+summary: The siege of Paris from 19 September 1870 to 28 January 1871, which ended with the city's capture by forces
+  of the North German Confederation led by Prussia. It was the culmination of the Franco-Prussian War.
+occurred:
+  start: '1870-09-19'
+  end: '1871-01-28'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+importance: 3
+wikidata: Q690489
+sources:
+- url: https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)
+  title: Siege of Paris (1870–1871)
+  publisher: Wikipedia
+  quote: took place from 19 September 1870 to 28 January 1871 and ended in the capture of the city by forces of
+    the various states of the North German Confederation, led by the Kingdom of Prussia.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)
+  title: Siege of Paris (1870–1871)
+  publisher: Wikipedia
+  quote: The siege was the culmination of the Franco-Prussian War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

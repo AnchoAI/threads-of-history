@@ -1,0 +1,29 @@
+id: u-2-photographs-soviet-missile-sites-in-cuba-1962--part_of--cuban-missile-crisis-1962
+from: u-2-photographs-soviet-missile-sites-in-cuba-1962
+to: cuban-missile-crisis-1962
+type: part_of
+confidence: documented
+note: The photographs, shown to the White House the next day, began the crisis.
+sources:
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Despite the warning, on October 14 a U.S. U–2 aircraft took several pictures clearly showing
+    sites for medium-range and intermediate-range ballistic nuclear missiles (MRBMs and IRBMs) under construction
+    in Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: These images were processed and presented to the White House the next day, thus precipitating
+    the onset of the Cuban Missile Crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

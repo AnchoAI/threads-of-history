@@ -1,0 +1,45 @@
+id: czechoslovak-coup-1948
+title: Communist coup in Czechoslovakia
+summary: 'In February 1948 the Communist Party of Czechoslovakia, with Soviet backing, took undisputed
+  control of the government: after non-Communist ministers resigned, President Beneš, fearing civil war
+  and Soviet intervention, accepted a Communist-dominated government on 25 February. The coup alarmed
+  Western countries and began four decades of Communist rule.'
+occurred:
+  start: '1948-02-25'
+  precision: day
+threads:
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+importance: 3
+wikidata: Q1137957
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d%27%C3%A9tat
+  title: 1948 Czechoslovak coup d'état
+  publisher: Wikipedia
+  quote: the Communist Party of Czechoslovakia (KSČ), with Soviet backing, assumed undisputed control
+    over the government of Czechoslovakia through a coup d'état. It marked the beginning of four decades
+    of the party's rule in the country.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d%27%C3%A9tat
+  title: 1948 Czechoslovak coup d'état
+  publisher: Wikipedia
+  quote: On 25 February 1948, Beneš, fearful of civil war and Soviet intervention, capitulated. He accepted
+    the resignations of the non-Communist ministers and appointed a new government in accordance with
+    KSČ demands.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d%27%C3%A9tat
+  title: 1948 Czechoslovak coup d'état
+  publisher: Wikipedia
+  quote: The event alarmed Western countries
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Starts with the climax on 25 February 1948; the crisis began earlier that month when twelve non-Communist
+    ministers resigned.

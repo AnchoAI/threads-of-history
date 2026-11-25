@@ -1,0 +1,50 @@
+id: philippine-american-war-1899
+title: Philippine–American War
+summary: Fighting breaks out between Philippine nationalists and the United States, which had annexed
+  the islands from Spain. The US declared the war over on 4 July 1902; at least 200,000 Filipino civilians
+  died, mostly from famine and disease.
+occurred:
+  start: '1899-02-04'
+  end: '1902-07-04'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+actors:
+- united-states
+- emilio-aguinaldo
+importance: 3
+wikidata: Q214456
+sources:
+- url: https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War
+  title: Philippine–American War
+  publisher: Wikipedia
+  quote: following the United States' annexation of the former Spanish colony of the Philippine Islands
+    under the terms of the December 1898 Treaty of Paris
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War
+  title: Philippine–American War
+  publisher: Wikipedia
+  quote: tensions escalated until fighting commenced on February 4, 1899
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War
+  title: Philippine–American War
+  publisher: Wikipedia
+  quote: the war was officially declared over by the US on July 4, 1902
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War
+  title: Philippine–American War
+  publisher: Wikipedia
+  quote: The war resulted in at least 200,000 Filipino civilian deaths, mostly from famine and diseases
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Starts before 1900 at its real date. Some groups fought on until 1913; the end date here is the US
+    declaration.

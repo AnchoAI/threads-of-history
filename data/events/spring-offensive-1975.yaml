@@ -1,0 +1,40 @@
+id: spring-offensive-1975
+title: North Vietnam's 1975 spring offensive
+summary: The final North Vietnamese campaign of the Vietnam War, from December 1974 to 30 April 1975, which ended
+  in the capitulation of South Vietnam. Coastal cities including Nha Trang fell in early April 1975.
+occurred:
+  start: '1974-12-13'
+  end: '1975-04-30'
+  precision: day
+threads:
+- usru
+regions:
+- south-east-asia
+actors:
+- north-vietnam
+- south-vietnam
+importance: 3
+wikidata: Q4821674
+sources:
+- url: https://en.wikipedia.org/wiki/1975_spring_offensive
+  title: 1975 spring offensive
+  publisher: Wikipedia
+  quote: was the final North Vietnamese campaign of the Vietnam War that led to the capitulation of South Vietnam.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1975_spring_offensive
+  title: 1975 spring offensive
+  publisher: Wikipedia
+  quote: 13 December 1974 – 30 April 1975
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1975_spring_offensive
+  title: 1975 spring offensive
+  publisher: Wikipedia
+  quote: Quảng Ngãi on 24 March; Qui Nhơn and Nha Trang on 1 April; and Cam Ranh Bay on 3 April.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - 'Batch N: added so that the Nha Trang forecast (SNIE 53/14.3-75) can point to an event.'

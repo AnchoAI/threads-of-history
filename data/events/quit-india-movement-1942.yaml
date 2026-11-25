@@ -1,0 +1,51 @@
+id: quit-india-movement-1942
+title: Quit India Movement
+summary: Gandhi launches a mass campaign demanding an end to British rule in India. Almost the entire
+  Congress leadership was imprisoned within hours, and over 100,000 people were arrested.
+occurred:
+  start: '1942-08-08'
+  precision: day
+threads:
+- empire
+- ww2
+regions:
+- south-central-asia
+actors:
+- mahatma-gandhi
+- indian-national-congress
+- british-raj
+importance: 4
+wikidata: Q1992677
+sources:
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: launched at the Bombay session of the All India Congress Committee by Mahatma Gandhi on 8 August
+    1942, during World War II, demanding an end to British rule in India
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: Almost the entire leadership of the Indian National Congress was imprisoned without trial within
+    hours of Gandhi's speech.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: Over 100,000 arrests were made
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: The movement ended in 1945 with the release of all jailed nationalists.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - The movement ended in 1945 (quoted), but no end day was found, so occurred has no end; add one when
+    a source gives it.

@@ -1,0 +1,22 @@
+id: deng-xiaoping
+title: Deng Xiaoping
+actor_type: person
+summary: Chinese politician and paramount leader from 1978 to 1989.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q16977
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q16977.json
+  title: Deng Xiaoping
+  publisher: Wikidata
+  quote: Chinese politician and paramount leader from 1978 to 1989
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

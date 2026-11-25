@@ -1,0 +1,77 @@
+id: german-blank-cheque-1914--led_to--first-world-war-1914-1918
+from: german-blank-cheque-1914
+to: first-world-war-1914-1918
+type: led_to
+confidence: contested
+note: Historians disagree on whether German leaders used the crisis to start a war deliberately or took a risk on
+  a local war that none of the powers wanted to become general.
+sources:
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: This so-called "blank cheque" of German support up to and including war was to be the main determining
+    factor in Austro-Hungarian policy in July 1914.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: German leaders deliberately planned to start the war to pursue expansionist aims, and Germany bears the
+    main responsibility.
+  held_by:
+  - Fritz Fischer, Griff nach der Weltmacht (1961)
+  - the 'Fischer thesis', the orthodoxy by the 1970s
+  sources:
+  - url: https://encyclopedia.1914-1918-online.net/article/the-historiography-of-the-origins-of-the-first-world-war/
+    title: The Historiography of the Origins of the First World War (William Mulligan)
+    publisher: 1914-1918-online. International Encyclopedia of the First World War
+    date: '2016-11-30'
+    quote: Fritz Fischer’s (1909-1999) thesis about German plans to initiate a war and then to pursue expansionist
+      war aims hardly came as a surprise to historians outside the Federal Republic.
+    type: scholarly
+    accessed: '2026-10-03'
+  - url: https://encyclopedia.1914-1918-online.net/article/the-historiography-of-the-origins-of-the-first-world-war/
+    title: The Historiography of the Origins of the First World War (William Mulligan)
+    publisher: 1914-1918-online. International Encyclopedia of the First World War
+    date: '2016-11-30'
+    quote: By the 1970s, Fischer’s thesis had become the new orthodoxy.
+    type: scholarly
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Fritz_Fischer_(historian)
+    title: Fritz Fischer (historian)
+    publisher: Wikipedia
+    quote: In the early 1960s Fischer advanced the thesis that responsibility for the outbreak of the war rested
+      solely on Imperial Germany.
+    type: reference
+    accessed: '2026-10-03'
+- claim: Germany and Austria-Hungary sought a local war against Serbia and knowingly risked a wider one, but no
+    single power sought the general war; responsibility was shared.
+  held_by:
+  - Christopher Clark, The Sleepwalkers (2012)
+  - Gerhard Ritter and other critics of Fischer
+  sources:
+  - url: https://en.wikipedia.org/wiki/The_Sleepwalkers:_How_Europe_Went_to_War_in_1914
+    title: 'The Sleepwalkers: How Europe Went to War in 1914'
+    publisher: Wikipedia
+    quote: Clark argues that the Germanic powers sought a localised war to punish Serbia, but in doing so knowingly
+      risked war with Russia.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/The_Sleepwalkers:_How_Europe_Went_to_War_in_1914
+    title: 'The Sleepwalkers: How Europe Went to War in 1914'
+    publisher: Wikipedia
+    quote: Clark concludes that while all the continental powers risked a general war, none sought that war.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://encyclopedia.1914-1918-online.net/article/the-historiography-of-the-origins-of-the-first-world-war/
+    title: The Historiography of the Origins of the First World War (William Mulligan)
+    publisher: 1914-1918-online. International Encyclopedia of the First World War
+    date: '2016-11-30'
+    quote: For some, Clark’s thesis of shared responsibility between the belligerents for the outbreak of war will
+      give succour to those who want to cast aside Germany’s role in two world wars
+    type: scholarly
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The link stands for the wider debate on German responsibility (the Fischer controversy). Positions are summarised
+    from William Mulligan's historiography article on 1914-1918-online and Wikipedia; the books themselves were
+    not consulted.

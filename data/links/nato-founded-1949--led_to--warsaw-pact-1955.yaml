@@ -1,0 +1,17 @@
+id: nato-founded-1949--led_to--warsaw-pact-1955
+from: nato-founded-1949
+to: warsaw-pact-1955
+type: led_to
+confidence: documented
+note: The Warsaw Pact was set up as a counterweight to NATO.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact
+  archive_url: https://web.archive.org/web/20261014135427/https://en.wikipedia.org/wiki/Warsaw_Pact
+  title: Warsaw Pact
+  publisher: Wikipedia
+  quote: Dominated by the Soviet Union, the Warsaw Pact was established as a balance of power or counterweight
+    to the North Atlantic Treaty Organization (NATO) and the Western Bloc.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

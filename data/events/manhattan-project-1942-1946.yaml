@@ -1,0 +1,80 @@
+id: manhattan-project-1942-1946
+title: Manhattan Project
+summary: The secret US-led programme, directed from 1942 to 1946 by General Leslie Groves, that built
+  the first nuclear weapons, tested at Trinity and used on Hiroshima and Nagasaki. Its existence was kept
+  secret until after the Hiroshima bombing, although Soviet spies penetrated it.
+occurred:
+  start: '1942'
+  end: '1946'
+  precision: year
+known:
+  public:
+    start: 1945-08
+    precision: month
+    note: The project became famous after the bombing of Hiroshima (6 August 1945); the Smyth Report was
+      released to the public on 12 August 1945.
+  by:
+  - party: Soviet intelligence
+    actor: soviet-union
+    when:
+      start: '1942'
+      end: 1945-07
+      precision: year
+      approximate: true
+      note: Soviet spies penetrated the project during the war; the exact date Moscow first learned of
+        it is not given in the sources used.
+    sources:
+    - url: https://en.wikipedia.org/wiki/Manhattan_Project
+      title: Manhattan Project
+      publisher: Wikipedia
+      quote: Despite the Manhattan Project's own emphasis on security, Soviet atomic spies penetrated
+        the program.
+      type: reference
+      accessed: '2026-10-03'
+threads:
+- nuclear
+- ww2
+- intel
+regions:
+- americas
+actors:
+- united-states
+- franklin-d-roosevelt
+- harry-truman
+- united-kingdom
+importance: 4
+wikidata: Q127050
+sources:
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: From 1942 to 1946, the project was directed by Major General Leslie Groves of the U.S.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: The Manhattan Project operated under a mandate of "absolute secrecy" from Roosevelt, meaning
+    that the very existence of the project itself was to be kept secret.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: The Manhattan Project became instantly famous after the bombing of Hiroshima and the partial
+    lifting of its secrecy.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: Despite the Manhattan Project's own emphasis on security, Soviet atomic spies penetrated the
+    program.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: unverified
+  notes:
+  - The known.by entry for Soviet intelligence has a guessed window (1942 to July 1945). The sources say
+    Soviet spies penetrated the programme and kept Stalin informed before Potsdam, but give no date for
+    first knowledge. Needs a source with a date before this can be sourced.

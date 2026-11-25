@@ -1,0 +1,56 @@
+id: detainee-treatment-act-2005
+title: Detainee Treatment Act
+summary: After the Senate passed Senator John McCain's amendment 90 to 9 in October 2005 despite White House opposition,
+  President George W. Bush signs the Detainee Treatment Act on 30 December 2005. It prohibits cruel, inhuman or
+  degrading treatment of any prisoner of the US government and limits military interrogations to the techniques
+  in the Army Field Manual.
+occurred:
+  start: '2005-12-30'
+  precision: day
+threads:
+- rights
+- intel
+regions:
+- americas
+actors:
+- john-mccain
+- george-w-bush
+- united-states
+importance: 3
+wikidata: Q3024760
+sources:
+- url: https://en.wikipedia.org/wiki/Detainee_Treatment_Act_of_2005
+  title: Detainee Treatment Act
+  publisher: Wikipedia
+  quote: President Bush signed the bill into law on December 30, 2005.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Detainee_Treatment_Act_of_2005
+  title: Detainee Treatment Act
+  publisher: Wikipedia
+  quote: Prohibiting "cruel, inhuman, or degrading treatment or punishment" of any prisoner of the U.S. government,
+    including prisoners at Guantanamo Bay.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Detainee_Treatment_Act_of_2005
+  title: Detainee Treatment Act
+  publisher: Wikipedia
+  quote: The amendment prohibits inhumane treatment of prisoners, including prisoners at Guantanamo Bay, by confining
+    interrogations to the techniques in FM 34-52 Intelligence Interrogation.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  archive_url: https://web.archive.org/web/20251211205540/https://www.aljazeera.com/news/2005/10/6/us-senate-votes-to-ban-prison-abuse
+  title: US Senate votes to ban prison abuse
+  publisher: Al Jazeera
+  date: '2005-10-06'
+  quote: The US Senate has explicitly barred US soldiers from torturing or maltreating prisoners in a measure outlining
+    strict military interrogation guidelines that passed overwhelmingly by 90 votes to nine despite White House
+    opposition.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

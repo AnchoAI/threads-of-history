@@ -1,0 +1,21 @@
+id: dean-rusk
+title: Dean Rusk
+actor_type: person
+summary: United States Secretary of State (1909-1994).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q313258
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q313258.json
+  title: Dean Rusk
+  publisher: Wikidata
+  quote: United States Secretary of State (1909-1994)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

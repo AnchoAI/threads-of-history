@@ -1,0 +1,32 @@
+id: dissolution-of-the-soviet-union-1991--led_to--autocephaly-of-the-orthodox-church-of-ukraine-2018
+from: dissolution-of-the-soviet-union-1991
+to: autocephaly-of-the-orthodox-church-of-ukraine-2018
+type: led_to
+confidence: documented
+note: After Ukraine became independent, its church asked Moscow for autocephaly in 1992; when refused,
+  the Kyiv Patriarchate formed, one of the two churches that merged into the OCU in 2018.
+sources:
+- url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+  title: Autocephaly of the Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: In January 1992, after Ukraine gained its independence from the Soviet Union following the latter's
+    dissolution, Metropolitan of Kyiv Filaret of the UOC-MP convened an assembly at the Kyiv Pechersk
+    Lavra that adopted a request for autocephaly to the Moscow Patriarch.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+  title: Autocephaly of the Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: The Ukrainian Orthodox Church – Kyiv Patriarchate (UOC-KP), led by Patriarch Filaret of Kyiv,
+    an independent church which was founded in July 1992.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Orthodox_Church_of_Ukraine
+  title: Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: The unification council united the Ukrainian Orthodox Church – Kyiv Patriarchate and the Ukrainian
+    Autocephalous Orthodox Church into the OCU.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

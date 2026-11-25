@@ -1,0 +1,21 @@
+id: lech-walesa
+title: Lech Wałęsa
+actor_type: person
+summary: Polish trade union leader; President of Poland from 1990 to 1995 (born 1943).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q444
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q444.json
+  title: Lech Wałęsa
+  publisher: Wikidata
+  quote: President of Poland from 1990 to 1995 (born 1943)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

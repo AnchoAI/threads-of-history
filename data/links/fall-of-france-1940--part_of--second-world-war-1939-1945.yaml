@@ -1,0 +1,15 @@
+id: fall-of-france-1940--part_of--second-world-war-1939-1945
+from: fall-of-france-1940
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_France
+  title: Battle of France
+  publisher: Wikipedia
+  quote: Part of the Western Front of the Second World War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

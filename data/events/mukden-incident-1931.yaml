@@ -1,0 +1,61 @@
+id: mukden-incident-1931
+title: Mukden Incident
+summary: A Japanese officer sets off a small charge by a Japanese-owned railway near Mukden. The army
+  blames Chinese dissidents and invades Manchuria. Some suspected a Japanese plot at the time; the Tokyo
+  Tribunal later held that it was planned and executed by the Japanese.
+occurred:
+  start: '1931-09-18'
+  precision: day
+threads:
+- china
+- interwar
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- kwantung-army
+- republic-of-china-1912-1949
+- zhang-xueliang
+importance: 4
+wikidata: Q242099
+sources:
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261001231436/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: On September 18, 1931, Lieutenant Suemori Kawamoto of the Independent Garrison Unit [ja] of the
+    29th Japanese Infantry Regiment [ja] detonated a small quantity of dynamite close to a railway line
+    owned by Japan's South Manchuria Railway near Mukden (now Shenyang).
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261001231436/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: The Imperial Japanese Army accused Chinese dissidents of the act and responded with a full invasion
+    that led to the occupation of Manchuria, in which Japan established its puppet state of Manchukuo
+    five months later.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1921-1936/mukden-incident
+  title: The Mukden Incident of 1931 and the Stimson Doctrine
+  publisher: Office of the Historian, US Department of State
+  quote: However, others speculated that the bomb may have been planted by mid-level officers in the Japanese
+    Army to provide a pretext for the subsequent military action.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.ibiblio.org/hyperwar/PTO/IMTFE/IMTFE-5.html
+  title: 'Judgment of the International Military Tribunal for the Far East, Chapter V: Japanese Aggression
+    Against China'
+  publisher: HyperWar Foundation (transcription of the IMTFE judgment)
+  quote: so-called "Incident" of 18 September 1931 was planned and executed by the Japanese.
+  type: primary
+  accessed: '2026-10-03'
+  date: 1948-11
+review:
+  status: sourced
+  notes:
+  - The staging was hidden at the time and alleged by others; the explosion itself was public, so no known
+    block is set. The later finding is modelled as the revealed link from tokyo-tribunal-judgment-1948.
+  - A source dating when Japanese participants first admitted the plot (for example postwar testimony)
+    would allow an earlier revealed item.

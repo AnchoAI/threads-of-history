@@ -1,0 +1,27 @@
+id: cia-iran-after-the-shah-1978--signal_of--iranian-revolution-1979
+from: cia-iran-after-the-shah-1978
+to: iranian-revolution-1979
+type: signal_of
+confidence: documented
+note: 'A wrong reassurance: CIA judged Iran not even prerevolutionary months before the Shah fell.'
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Three sentences in its preface said Iran is not in a revolutionary or even a 'prerevolutionary' situation
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: NFAC failed to anticipate the course of events in Iran from late 1977 to late 1978
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

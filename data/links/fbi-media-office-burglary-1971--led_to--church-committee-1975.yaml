@@ -1,0 +1,24 @@
+id: fbi-media-office-burglary-1971--led_to--church-committee-1975
+from: fbi-media-office-burglary-1971
+to: church-committee-1975
+type: led_to
+confidence: documented
+note: The stolen documents exposed COINTELPRO, which the source says led in part to the Senate's Church Committee.
+sources:
+- url: https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  archive_url: https://web.archive.org/web/20260929143855/https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  title: Citizens' Commission to Investigate the FBI
+  publisher: Wikipedia
+  quote: The documents revealed the FBI's secret COINTELPRO operation, resulting in creation by the United States
+    Senate of the Church Committee and the cessation of COINTELPRO.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  archive_url: https://web.archive.org/web/20260929143855/https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI
+  title: Citizens' Commission to Investigate the FBI
+  publisher: Wikipedia
+  quote: The COINTEL memos led, in part, to the creation of the Church Committee
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

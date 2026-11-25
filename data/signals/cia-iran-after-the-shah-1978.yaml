@@ -1,0 +1,67 @@
+id: cia-iran-after-the-shah-1978
+title: 'CIA: Iran "is not in a revolutionary or even a prerevolutionary situation"'
+summary: The CIA paper "Iran After the Shah" (August 1978), completed in early summer, said in its preface that
+  Iran was not in a revolutionary or even a prerevolutionary situation and that dissatisfaction did not at present
+  threaten the government. CIA's own 1979 review found that NFAC failed to anticipate the course of events.
+occurred:
+  start: 1978-08
+  precision: month
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- cia
+- mohammad-reza-pahlavi
+importance: 3
+source_credibility: high
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: The other Iran After the Shah August 1978 was an assessment of the prospects for an orderly suscession
+    to the Shah under certain specified assumptions
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Three sentences in its preface said Iran is not in a revolutionary or even a 'prerevolutionary' situation
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: There is dissatisfaction with the Shah's tight control of the political process but this does not at present
+    threaten the government
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: NFAC failed to anticipate the course of events in Iran from late 1977 to late 1978
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Quoted from the CIA's own post-mortem (Devlin and Jervis, June 1979), not from the August 1978 paper itself,
+    which was not found online. The OCR text has typos ("suscession"), kept as they appear.
+  - The review says these sentences were "widely quoted in the press and attributed to the prospective NIE"; the
+    press date was not found, so no known.public is set.

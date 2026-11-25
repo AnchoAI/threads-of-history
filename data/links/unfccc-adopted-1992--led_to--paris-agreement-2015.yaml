@@ -1,0 +1,27 @@
+id: unfccc-adopted-1992--led_to--paris-agreement-2015
+from: unfccc-adopted-1992
+to: paris-agreement-2015
+type: led_to
+confidence: documented
+note: The Paris Agreement was negotiated by the parties to the UNFCCC, as a separate instrument under the convention.
+sources:
+- url: https://en.wikipedia.org/wiki/Kyoto_Protocol
+  archive_url: https://web.archive.org/web/20261011074230/https://en.wikipedia.org/wiki/Kyoto_Protocol
+  title: Kyoto Protocol
+  publisher: Wikipedia
+  quote: This resulted in the 2015 adoption of the Paris Agreement, which is a separate instrument under the UNFCCC
+    rather than an amendment of the Kyoto Protocol.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Agreement
+  archive_url: https://web.archive.org/web/20261010211626/https://en.wikipedia.org/wiki/Paris_Agreement
+  title: Paris Agreement
+  publisher: Wikipedia
+  quote: The Paris Agreement was negotiated by 196 parties at the 2015 United Nations Climate Change Conference
+    near Paris, France.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

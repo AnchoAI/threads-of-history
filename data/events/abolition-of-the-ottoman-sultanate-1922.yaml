@@ -1,0 +1,49 @@
+id: abolition-of-the-ottoman-sultanate-1922
+title: Abolition of the Ottoman sultanate
+summary: In the late stages of the War of Independence, the Grand National Assembly in Ankara separated
+  the caliphate from the sultanate and abolished the monarchy, ending the Ottoman Empire. The last sultan,
+  Mehmed VI, left Constantinople on 17 November.
+occurred:
+  start: '1922-11-01'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- grand-national-assembly-of-turkey
+- mehmed-vi
+- ottoman-empire
+importance: 4
+wikidata: Q3809270
+sources:
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate
+  archive_url: https://web.archive.org/web/20260927004942/https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate
+  title: Abolition of the Ottoman sultanate
+  publisher: Wikipedia
+  quote: The Grand National Assembly of Turkey abolished the monarchy on 1 November 1922 and ended the
+    Ottoman Empire
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate
+  archive_url: https://web.archive.org/web/20260927004942/https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate
+  title: Abolition of the Ottoman sultanate
+  publisher: Wikipedia
+  quote: The last sultan, Mehmed VI, departed the Ottoman capital, Constantinople (now Istanbul), on 17
+    November 1922 aboard HMS Malaya.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate
+  title: Abolition of the Caliphate
+  publisher: Wikipedia
+  quote: In the end stages of the Turkish War of Independence, the Grand National Assembly in Ankara voted
+    to separate the caliphate from the sultanate and abolished the latter on 1 November 1922.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Wikidata Q3809270 has the English label "abolition of the Ottoman caliphate" but the description "Abolition
+    of the monarchy in Turkey" and is linked from the enwiki sultanate article. The label looks wrong
+    on Wikidata; check.

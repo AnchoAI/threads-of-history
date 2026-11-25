@@ -1,0 +1,56 @@
+id: death-of-jeffrey-epstein-2019
+title: Death of Jeffrey Epstein
+summary: Jeffrey Epstein is found dead in his cell at the Metropolitan Correctional Center in Manhattan while awaiting
+  trial. On 16 August New York City's chief medical examiner rules the death a suicide by hanging, and the federal
+  charges against him are dismissed.
+occurred:
+  start: '2019-08-10'
+  precision: day
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 3
+wikidata: Q66744666
+sources:
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: 'Aug. 10: Epstein is found dead in the Metropolitan Correctional Center, the federal detention facility
+    where he was being held in Manhattan.'
+  type: news
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: Epstein died by suicide on August 10, 2019 while in BOP custody.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: On August 16, 2019, Barbara Sampson, the Chief Medical Examiner of the City of New York, ruled Epstein's
+    death a suicide by hanging.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  archive_url: https://web.archive.org/web/20260823111432/https://www.npr.org/2025/10/20/nx-s1-5514834/epstein-accuser-virginia-roberts-giuffre-nobodys-girl-memoir
+  title: Virginia Giuffre's book breaks the silence — and spares no one
+  publisher: NPR
+  date: '2025-10-20'
+  quote: His 2019 federal sex-trafficking charges were dismissed after his death by suicide while awaiting trial
+    in New York.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

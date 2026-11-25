@@ -1,5 +1,7 @@
 // The detail panel for a selected item. Everything from the data is escaped.
 import { LINK_TYPES, esc, formatSpan, safeUrl, yearLabel } from "./data.js";
+import { isKnown } from "./visibility.js";
+import { trace } from "./chains.js";
 
 const STATUS_TEXT = {
   unverified: "Unverified",
@@ -7,7 +9,9 @@ const STATUS_TEXT = {
   reviewed: "Reviewed",
 };
 
-export function renderDetail(item, data) {
+// knowable: when the "knowable on" slider is on, connections to items not yet known are
+// left out, so the panel does not leak hindsight.
+export function renderDetail(item, data, { knowable = null } = {}) {
   const threads = Object.fromEntries(data.graph.threads.map((t) => [t.id, t]));
   const regions = Object.fromEntries(data.graph.regions.map((r) => [r.id, r]));
   const status = item.review?.status ?? "unverified";
@@ -30,8 +34,10 @@ export function renderDetail(item, data) {
     .filter(Boolean)
     .map((a) => `<span class="chip rg" title="${esc(a.summary)}">${esc(a.title)}</span>`).join("");
 
-  const links = [...data.linksOf.get(item.id)].sort((p, q) =>
+  const allLinks = data.linksOf.get(item.id);
+  const links = allLinks.filter((l) => isKnown(other(l, item), knowable)).sort((p, q) =>
     other(p, item).occurred.range[0] - other(q, item).occurred.range[0]);
+  const withheld = allLinks.length - links.length;
   const linkHtml = links.map((l) => {
     const o = other(l, item);
     const t = LINK_TYPES[l.type] ?? { color: "#E6E1D6", out: l.type, in: l.type };
@@ -42,25 +48,53 @@ export function renderDetail(item, data) {
       <b>${esc(o.title)}</b><br>${esc(l.note)}</button>`;
   }).join("");
 
+  const why = trace(data, item.id, "back", { knowable });
+  const led = trace(data, item.id, "forward", { knowable });
+  const chain = (t, dir, title) => t.tree.length ? `
+    <div class="h">${title}</div>
+    <div class="chain">${renderTree(t.tree, dir)}</div>
+    <button class="ghost trace" data-trace="${dir}">${dir === "back" ? "Trace causes" : "Trace consequences"} on the map (${t.ids.size - 1})</button>` : "";
+
   const notes = item.review?.notes?.length
-    ? `<div class="h">Open questions</div><ul>${item.review.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>`
+    ? `<details class="more"><summary class="h">Open questions (${item.review.notes.length})</summary><ul>${item.review.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul></details>`
     : "";
+  const contested = links.filter((l) => l.confidence === "contested");
+  const positions = contested.filter((l) => l.positions?.length).map((l) => {
+    const o = other(l, item);
+    return `<li><b>${esc(o.title)}</b>: ${l.positions.map((p) =>
+      `${esc(p.claim)} <span class="note">(${esc((p.held_by ?? []).join(", "))})</span>`).join("; ")}</li>`;
+  }).join("");
 
   return `
-    <div class="kind">${esc(item.kind)}<span class="badge ${esc(status)}">${esc(STATUS_TEXT[status] ?? status)}</span></div>
+    <div class="dhead">
+      <div class="kind">${esc(item.kind)}<span class="badge ${esc(status)}">${esc(STATUS_TEXT[status] ?? status)}</span></div>
+      <button class="ghost x" id="closeX" aria-label="Close">×</button>
+    </div>
+    <h2>${esc(item.title)}</h2>
     <div class="date">${esc(formatSpan(item.occurred))}</div>
     ${knownDiffers ? `<div class="known">Became public: ${esc(formatSpan(known))}</div>` : ""}
     ${knownBy}
-    <h2>${esc(item.title)}</h2>
-    <div class="chips">${chips}</div>
     <p>${esc(item.summary)}</p>
-    ${actors ? `<div class="h">Actors</div><div class="chips">${actors}</div>` : ""}
+    <div class="chips">${chips}</div>
     <div class="h">Connections (${links.length})</div>
-    ${linkHtml || '<p class="note">None yet.</p>'}
-    <div class="h">Sources</div>
-    ${renderSources(item.sources)}
+    ${linkHtml || (withheld ? "" : '<p class="note">None yet.</p>')}
+    ${withheld ? `<p class="note withheld">${withheld} more connection${withheld === 1 ? "" : "s"} not yet knowable on ${esc(knowable.label)}.</p>` : ""}
+    ${chain(why, "back", "Why did this happen?")}
+    ${chain(led, "forward", "What did it lead to?")}
+    ${why.tree.length || led.tree.length ? '<p class="note">Traced through sourced links: contributing factors and later developments, not a complete or inevitable chain of causes.</p>' : ""}
+    ${positions ? `<details class="more"><summary class="h">Contested interpretations (${contested.length})</summary><ul>${positions}</ul></details>` : ""}
+    ${actors ? `<div class="h">Actors</div><div class="chips">${actors}</div>` : ""}
+    <details class="more" open><summary class="h">Sources (${(item.sources ?? []).length})</summary>${renderSources(item.sources)}</details>
     ${notes}
     <div class="btns"><button class="ghost" id="closeD">Close</button></div>`;
+}
+
+// Nested causes (or effects), each a button that selects it.
+function renderTree(nodes, dir) {
+  return `<ul>${nodes.map((n) => `<li>
+    <button class="step" data-go="${esc(n.item.id)}" title="${esc(n.link.note)}">
+      <span class="t">${esc(yearLabel(n.item))}${n.contested ? " · contested" : ""}</span> ${esc(n.item.title)}</button>
+    ${n.children.length ? renderTree(n.children, dir) : ""}</li>`).join("")}</ul>`;
 }
 
 function other(link, item) {

@@ -1,0 +1,21 @@
+id: printing-press-1440--led_to--scientific-revolution-1543
+from: printing-press-1440
+to: scientific-revolution-1543
+type: led_to
+confidence: documented
+note: Printing spread information quickly across Europe and contributed to the Scientific Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Printing_press
+  archive_url: https://web.archive.org/web/20261012072057/https://en.wikipedia.org/wiki/Printing_press
+  title: Printing press
+  publisher: Wikipedia
+  quote: The spread of printing brought about an era of mass communication in European society, allowing
+    information to quickly spread across Europe and contributing to the Reformation and the Scientific
+    Revolution.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the long-arc batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

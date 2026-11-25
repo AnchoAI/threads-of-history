@@ -1,0 +1,19 @@
+id: abolition-of-the-caliphate-1924--part_of--ottoman-caliphate-1517
+from: abolition-of-the-caliphate-1924
+to: ottoman-caliphate-1517
+type: part_of
+confidence: documented
+note: The abolition was the end of the Ottoman Caliphate.
+sources:
+- url: https://en.wikipedia.org/wiki/Caliphate
+  archive_url: https://web.archive.org/web/20261009002745/https://en.wikipedia.org/wiki/Caliphate
+  title: Caliphate
+  publisher: Wikipedia
+  quote: the rulers of the Ottoman Empire claimed caliphal authority from 1517 until the Ottoman Caliphate was formally
+    abolished as part of the 1924 secularisation of Turkey.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

@@ -1,0 +1,17 @@
+id: tet-offensive-1968--part_of--vietnam-war-1955
+from: tet-offensive-1968
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: Tet was one of the largest campaigns of the Vietnam War.
+sources:
+- url: https://en.wikipedia.org/wiki/Tet_Offensive
+  archive_url: https://web.archive.org/web/20261006014047/https://en.wikipedia.org/wiki/Tet_Offensive
+  title: Tet Offensive
+  publisher: Wikipedia
+  quote: The Tet Offensive was both a major escalation and one of the largest military campaigns of the Vietnam
+    War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

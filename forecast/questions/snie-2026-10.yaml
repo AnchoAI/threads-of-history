@@ -1,0 +1,91 @@
+# Questions put to models and AI models, from the scored intelligence estimates in data/scenarios/.
+# Each has the date it was asked ("as_of"), the question with real names ("named"), and the same
+# question with names hidden and only background the estimate itself gave ("masked"). The masked
+# version reduces, but cannot remove, an AI model's memory of how things turned out: the gap between
+# its named and masked scores is a rough measure of that hindsight.
+#
+# Written from each estimate's own wording and summary as it stood on the date, without the outcome.
+- id: snie-100-11-58-prc-assaults-major-offshore-islands-1958
+  as_of: '1958-09-16'
+  named: Communist China has been shelling and blockading the Nationalist-held offshore islands of Quemoy and Matsu since late August 1958, and the US Seventh Fleet is escorting resupply convoys. Will Communist China launch an assault on one or more of the major offshore islands before 31 December 1958?
+  masked: Country A has been shelling and blockading small islands held by its rival, Country B, just off A's coast, for about three weeks. A superpower allied with B is escorting B's resupply convoys but has not committed to defending the islands themselves. Will Country A launch an amphibious assault on one or more of the main islands within the next three and a half months?
+- id: snie-100-11-58-prc-calls-off-quemoy-interdiction-1958
+  as_of: '1958-09-16'
+  named: Communist China has been shelling and blockading Quemoy since late August 1958 to cut off its supply, while the US escorts Nationalist convoys. Will Communist China call off or substantially relax its interdiction of supplies to Quemoy before 31 December 1958?
+  masked: Country A has been shelling and blockading a small island held by its rival, Country B, just off A's coast, for about three weeks, trying to cut off its supply. A superpower allied with B is escorting B's resupply convoys. Will Country A call off or substantially relax the blockade within the next three and a half months?
+- id: snie-100-4-59-prc-attempts-to-seize-quemoy-1959
+  as_of: '1959-03-13'
+  named: After the 1958 Taiwan Strait crisis, Communist China shells Quemoy on a reduced, intermittent basis. Will Communist China try to seize Quemoy, or make an all-out effort to stop its resupply, before 13 March 1960?
+  masked: Six months after a crisis over small islands held by Country B off Country A's coast, A still shells them on a reduced, intermittent basis; B's superpower ally backs B. Will Country A try to seize the main island, or make an all-out effort to stop its resupply, within the next year?
+- id: snie-100-4-59-prc-moves-against-matsu-1959
+  as_of: '1959-03-13'
+  named: After the 1958 Taiwan Strait crisis, Communist China shells the offshore islands intermittently. Will Communist China try to seize the Matsu islands, or make an all-out effort to stop their resupply, before 13 March 1960?
+  masked: Six months after a crisis over small islands held by Country B off Country A's coast, A still shells them intermittently; B's superpower ally backs B. Will Country A try to seize a second, smaller group of these islands, or make an all-out effort to stop their resupply, within the next year?
+- id: snie-11-9-84-soviet-invasion-of-iran-1984
+  as_of: '1984-08-14'
+  named: The Iran–Iraq war is in its fourth year and the Soviet Union is at war in Afghanistan. Will the Soviet Union invade Iran before 31 December 1984?
+  masked: Country C has been at war with its neighbour for four years. A superpower on C's northern border, already fighting a war in another neighbouring country, is hostile to C's revolutionary government. Will the superpower invade Country C within the next four and a half months?
+- id: snie-11-9-84-soviet-military-action-against-pakistan-1984
+  as_of: '1984-08-14'
+  named: The Soviet Union is fighting in Afghanistan, and Afghan insurgents operate from bases in Pakistan; Soviet aircraft have made cross-border raids. Will the Soviet Union take large-scale military action against Pakistan before 31 December 1984?
+  masked: A superpower is fighting an insurgency in Country D; the insurgents operate from bases in neighbouring Country E, and the superpower's aircraft have made limited cross-border raids into E. Will the superpower take large-scale military action against Country E within the next four and a half months?
+- id: snie-13-10-65-china-enters-indo-pakistani-war-1965
+  as_of: '1965-09-16'
+  named: India and Pakistan are at war over Kashmir, and China, Pakistan's friend and India's rival since their 1962 border war, has issued an ultimatum to India. Will China become directly involved militarily, on a large scale, in the war before 23 September 1965?
+  masked: Countries F and G are at war. Country H, friendly with G and hostile to F since a border war with F three years ago, has issued F an ultimatum. Will Country H become directly involved militarily, on a large scale, within the next week?
+- id: snie-13-10-65-china-offers-material-aid-to-pakistan-1965
+  as_of: '1965-09-16'
+  named: India and Pakistan are at war over Kashmir; China backs Pakistan diplomatically and has issued an ultimatum to India. Will China offer Pakistan material (military or economic) aid before 23 September 1965?
+  masked: Countries F and G are at war. Country H, friendly with G and hostile to F, backs G diplomatically and has issued F an ultimatum. Will Country H offer G material (military or economic) aid within the next week?
+- id: snie-21-91-82-soviet-military-involvement-falklands-1982
+  as_of: '1982-04-09'
+  named: Argentina has seized the Falkland Islands and a British task force is sailing south. Will the Soviet Union become directly involved militarily in the conflict before 20 June 1982?
+  masked: Country J has seized islands held by distant Country K, and K's naval task force is sailing to retake them. A superpower opposed to K's alliance has good relations with J. Will the superpower become directly involved militarily in the conflict within the next ten weeks?
+- id: snie-30-5-56-anglo-french-intervention-via-other-crisis-1956
+  as_of: '1956-09-19'
+  named: Egypt has nationalised the Suez Canal Company, Britain and France are considering force against Nasser, and Arab–Israeli tension is high. Will Britain and France intervene militarily against Egypt, using another regional crisis such as an Arab–Israeli conflict as the occasion, before 14 November 1956?
+  masked: Country L has nationalised a waterway vital to two European powers, which are openly considering force against L's leader; L is also in a tense standoff with a neighbour. Will the two powers intervene militarily against L, using another regional conflict (such as one with that neighbour) as the occasion, within the next eight weeks?
+- id: snie-30-56-egypt-initiates-war-with-israel-1956
+  as_of: '1956-02-28'
+  named: Egypt has begun receiving large quantities of Soviet-bloc arms and there are frequent border clashes with Israel. Will Egypt deliberately start a war with Israel before 28 February 1957?
+  masked: Country L has begun receiving large quantities of arms from a superpower's bloc and has frequent border clashes with its neighbour M. Will Country L deliberately start a war with Country M within the next year?
+- id: snie-31-32-65-indo-pakistani-hostilities-renewed-1965
+  as_of: '1965-12-07'
+  named: A UN-brokered ceasefire ended the India–Pakistan war in September 1965, but it is shaky and troops have not withdrawn. Will major hostilities between India and Pakistan resume before 7 June 1966?
+  masked: A UN-brokered ceasefire ended a short war between Countries F and G three months ago, but it is shaky and troops have not withdrawn. Will major hostilities resume within the next six months?
+- id: snie-53-14-3-75-nha-trang-falls-1975
+  as_of: '1975-03-27'
+  named: North Vietnam's offensive has overrun much of South Vietnam's Central Highlands and the north; Hue has fallen and Da Nang is threatened. Will Nha Trang, the lightly defended military headquarters for the region, fall before 31 May 1975?
+  masked: An offensive by Country N has overrun the north and the central highlands of Country P; P's second city is threatened. Will a lightly defended regional military headquarters further south fall within the next two months?
+- id: snie-53-14-3-75-saigon-government-defeated-by-early-1976
+  as_of: '1975-03-27'
+  named: North Vietnam's offensive has overrun much of South Vietnam's Central Highlands and the north, and the US Congress is refusing more military aid. Will South Vietnam's government be defeated by 31 March 1976?
+  masked: An offensive by Country N has overrun the north and the central highlands of Country P; P's former superpower ally is refusing more military aid. Will Country P's government be defeated within the next year?
+- id: snie-53-14-3-75-saigon-government-survives-dry-season-1975
+  as_of: '1975-03-27'
+  named: North Vietnam's offensive has overrun much of South Vietnam's Central Highlands and the north, and the US Congress is refusing more military aid. The dry (campaigning) season runs to about the end of May. Will South Vietnam's government survive until 31 May 1975?
+  masked: An offensive by Country N has overrun the north and the central highlands of Country P; P's former superpower ally is refusing more military aid. The campaigning season ends in about two months. Will Country P's government survive until then?
+- id: snie-63-1-60-diem-regime-collapses-1960
+  as_of: '1960-08-23'
+  named: South Vietnam's President Ngo Dinh Diem faces a growing Communist insurgency and rising discontent among non-Communist elites and the army over his authoritarian rule. Will Diem's regime collapse or be overthrown before 23 August 1961?
+  masked: The authoritarian president of Country Q faces a growing insurgency and rising discontent among elites and the army. Will his regime collapse or be overthrown within the next year?
+- id: snie-63-6-54-diem-survives-hinh-crisis-1954
+  as_of: '1954-09-15'
+  named: Two months after the Geneva Accords, South Vietnam's new prime minister Ngo Dinh Diem is openly defied by his army chief of staff, General Nguyen Van Hinh. Will Diem's government survive the crisis (still be in office) on 31 December 1954?
+  masked: Two months after an international settlement that divided Country Q, its new prime minister is openly defied by his own army chief of staff. Will the prime minister's government survive the crisis and still be in office in three and a half months?
+- id: snie-90-91-3-82-argentina-attacks-chile-1982
+  as_of: '1982-08-10'
+  named: Two months after its defeat in the Falklands, Argentina's military government still disputes the Beagle Channel islands with Chile; papal mediation is under way. Will Argentina start military action against Chile before 10 August 1983?
+  masked: Two months after losing a war against a distant power, Country J's military government still disputes islands with its neighbour R; mediation by a neutral religious authority is under way. Will Country J start military action against Country R within the next year?
+- id: snie-90-91-3-82-ecuador-attacks-peru-1982
+  as_of: '1982-08-10'
+  named: Ecuador and Peru fought a brief border war in 1981 over a disputed Amazon border. Will Ecuador act militarily against Peru before 10 August 1983?
+  masked: Countries S and T fought a brief border war over a disputed jungle border a year and a half ago, which S lost. Will Country S act militarily against Country T within the next year?
+- id: snie-91-2-82-argentina-diverts-reactor-fuel-1982
+  as_of: '1982-09-08'
+  named: Argentina's military government runs an advanced civilian nuclear programme outside full international safeguards and has just lost the Falklands war. Will Argentina divert fuel from its power reactors, clandestinely or openly, to get a nuclear explosive capability before the end of 1989?
+  masked: Country J's military government, which has just lost a war, runs an advanced civilian nuclear programme outside full international safeguards. Will Country J divert fuel from its power reactors to get a nuclear explosive capability within the next seven years?
+- id: snie-98-65-uruguay-military-coup-1965
+  as_of: '1965-06-17'
+  named: Uruguay faces economic stagnation, high inflation and labour unrest under its collegiate executive, and there is talk of military discontent. Will Uruguay's military carry out a coup before 17 June 1966?
+  masked: Country U, a long-standing civilian democracy, faces economic stagnation, high inflation and labour unrest, and there is talk of military discontent. Will its military carry out a coup within the next year?

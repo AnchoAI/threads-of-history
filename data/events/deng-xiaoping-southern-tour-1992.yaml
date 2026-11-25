@@ -1,0 +1,42 @@
+id: deng-xiaoping-southern-tour-1992
+title: Deng Xiaoping's southern tour
+summary: From 18 January to 21 February 1992 Deng Xiaoping, holding no formal office, toured Shenzhen, Zhuhai,
+  Guangzhou and Shanghai. His remarks revived reform and opening up, which had stalled after the 1989 crackdown.
+occurred:
+  start: '1992-01-18'
+  end: '1992-02-21'
+  precision: day
+threads:
+- china
+- econ-crises
+regions:
+- east-asia
+actors:
+- deng-xiaoping
+- chinese-communist-party
+importance: 4
+wikidata: Q1799880
+sources:
+- url: https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  archive_url: https://web.archive.org/web/20261012092231/https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  title: Deng Xiaoping's southern tour
+  publisher: Wikipedia
+  quote: was the tour of Deng Xiaoping, the third paramount leader of China, in southern China, including in
+    Shenzhen, Zhuhai, Guangzhou and Shanghai, from 18 January to 21 February 1992. The talks and remarks made
+    by Deng during the tour resumed and reinforced the implementation of his reform and opening up program
+    in mainland China
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  archive_url: https://web.archive.org/web/20261012092231/https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  title: Deng Xiaoping's southern tour
+  publisher: Wikipedia
+  quote: At the time of the tour, Deng held no formal position in the Party or the government, having resigned
+    as Chairman of the Central Military Commission in November 1989.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

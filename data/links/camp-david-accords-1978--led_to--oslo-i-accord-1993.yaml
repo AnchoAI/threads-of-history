@@ -1,0 +1,17 @@
+id: camp-david-accords-1978--led_to--oslo-i-accord-1993
+from: camp-david-accords-1978
+to: oslo-i-accord-1993
+type: led_to
+confidence: documented
+note: The Oslo Accords were modelled on Camp David's interim-autonomy framework.
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_Accords
+  archive_url: https://web.archive.org/web/20261010073604/https://en.wikipedia.org/wiki/Oslo_Accords
+  title: Oslo Accords
+  publisher: Wikipedia
+  quote: The Oslo Accords are based on the 1978 Camp David Accords and show therefore considerable similarity
+    with those Accords.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

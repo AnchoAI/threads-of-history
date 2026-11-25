@@ -1,0 +1,18 @@
+id: soviet-invasion-of-poland-1939--part_of--second-world-war-1939-1945
+from: soviet-invasion-of-poland-1939
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Soviet invasion of Poland lists it as part of World War II.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: Part of the invasion of Poland in World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

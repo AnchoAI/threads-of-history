@@ -1,0 +1,27 @@
+id: emancipation-proclamation-1863--part_of--american-civil-war-1861
+from: emancipation-proclamation-1863
+to: american-civil-war-1861
+type: part_of
+confidence: documented
+note: Lincoln issued the proclamation as a war measure, making abolition a Union war goal.
+sources:
+- url: https://en.wikipedia.org/wiki/American_Civil_War
+  archive_url: https://web.archive.org/web/20261014184155/https://en.wikipedia.org/wiki/American_Civil_War
+  title: American Civil War
+  publisher: Wikipedia
+  quote: The abolition of slavery became a Union war goal on January 1, 1863, when Lincoln issued the Emancipation
+    Proclamation
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Emancipation_Proclamation
+  archive_url: https://web.archive.org/web/20261011190159/https://en.wikipedia.org/wiki/Emancipation_Proclamation
+  title: Emancipation Proclamation
+  publisher: Wikipedia
+  quote: Lincoln used his powers as Commander-in-Chief of the Army and Navy to issue the Proclamation "as a necessary
+    war measure."
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

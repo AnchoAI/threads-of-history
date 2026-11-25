@@ -1,0 +1,46 @@
+id: band-aid-single-1984
+title: Band Aid releases "Do They Know It's Christmas?"
+summary: After seeing a BBC report on the Ethiopian famine, Bob Geldof organised the charity supergroup Band Aid,
+  whose single "Do They Know It's Christmas?", released on 3 December 1984, raised £8 million for famine relief
+  within a year.
+occurred:
+  start: '1984-12-03'
+  precision: day
+threads:
+- music
+- celebrity-activism
+regions:
+- western-europe
+- sub-saharan-africa
+actors:
+- bob-geldof
+importance: 2
+wikidata: Q1188494
+sources:
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: Buerk's news piece on the BBC was seen by Irish singer Bob Geldof, who quickly organised the charity supergroup
+    Band Aid
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: Their single, "Do They Know It's Christmas?", was released on 3 December 1984
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  archive_url: https://web.archive.org/web/20261015083756/https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia
+  title: 1983–1985 famine in Ethiopia
+  publisher: Wikipedia
+  quote: It raised £8 million for famine relief within twelve months of its release.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,21 @@
+id: parents-music-resource-center
+title: Parents Music Resource Center
+actor_type: organization
+summary: Defunct American political pressure group.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q1591480
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1591480.json
+  title: Parents Music Resource Center
+  publisher: Wikidata
+  quote: defunct American political pressure group
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

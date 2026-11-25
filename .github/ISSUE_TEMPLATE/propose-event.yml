@@ -1,0 +1,52 @@
+name: Propose an event
+description: An event, signal or decision to add to the map, with a source.
+title: "Event: "
+labels: ["proposal", "event"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: When it happened
+      description: As precise as the source allows (1962, 1962-10, 1962-10-22).
+    validations:
+      required: true
+  - type: input
+    id: known
+    attributes:
+      label: When it became public, if later
+  - type: textarea
+    id: summary
+    attributes:
+      label: Neutral one- or two-sentence summary
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source link
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Quote supporting the date and summary (word for word)
+    validations:
+      required: true
+  - type: textarea
+    id: connections
+    attributes:
+      label: How it connects to events already on the map, with sources
+      description: An event earns its place through sourced connections.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Licence
+      options:
+        - label: I agree to release this contribution under CC0 (see CONTRIBUTING.md).
+          required: true

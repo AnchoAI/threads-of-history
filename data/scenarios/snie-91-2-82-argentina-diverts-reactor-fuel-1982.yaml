@@ -1,0 +1,80 @@
+id: snie-91-2-82-argentina-diverts-reactor-fuel-1982
+title: 'SNIE 91-2-82: Argentina diverts fuel from its power reactors for explosives'
+summary: In September 1982 the US intelligence community judged it unlikely that Argentina would divert fuel from
+  its power reactors, clandestinely or openly, to get a nuclear explosive capability. Argentina's weapons programme
+  was abandoned after the return of democracy in December 1983.
+threads:
+- nuclear
+- intel
+regions:
+- americas
+actors:
+- cia
+importance: 2
+window:
+  start: '1982-09-08'
+  end: '1989-12-31'
+  precision: day
+probability: 0.3
+stated_as: We judge pursuit of this option to be unlikely
+probability_basis: 'Sherman Kent''s words of estimative probability: ''unlikely'' (Kent''s ''probably not'' bracket)
+  = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1982-09-08'
+resolves_by: '1989-12-31'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1989-12-31'
+  note: No diversion is recorded in the sources found; the weapons programme was abandoned after December 1983.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d391
+  archive_url: https://web.archive.org/web/20260109134022/https://history.state.gov/historicaldocuments/frus1981-88v13/d391
+  title: 'Special National Intelligence Estimate SNIE 91-2-82: Argentina''s Nuclear Policies in Light of the Falklands
+    Defeat'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-09-08'
+  quote: As a third alternative, Argentina could choose to divert fuel from operating power reactors, either clandestinely
+    or in open violation of safeguards, and thereby acquire a nuclear explosive capability in four to five years.
+    We judge pursuit of this option to be unlikely
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1981-88v13/d391
+  archive_url: https://web.archive.org/web/20260109134022/https://history.state.gov/historicaldocuments/frus1981-88v13/d391
+  title: 'Special National Intelligence Estimate SNIE 91-2-82: Argentina''s Nuclear Policies in Light of the Falklands
+    Defeat'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1982-09-08'
+  quote: We judge, nevertheless, that unfavorable economic prospects and political turmoil will not prevent the
+    Argentine Government from achieving the technical capability to make nuclear explosives before the end of this
+    decade.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Argentina_and_weapons_of_mass_destruction
+  archive_url: https://web.archive.org/web/20260927061015/https://en.wikipedia.org/wiki/Argentina_and_weapons_of_mass_destruction
+  title: Argentina and weapons of mass destruction
+  publisher: Wikipedia
+  quote: The program was abandoned, however, shortly after the return of democracy on December 10, 1983.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The estimate gives no window for this judgment; the window uses the estimate's horizon of 'the end of this decade'.
+  - Evidence for the non-event is indirect (the programme was abandoned); no source says outright that no fuel was
+    diverted.

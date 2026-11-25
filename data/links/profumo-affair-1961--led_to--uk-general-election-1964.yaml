@@ -1,0 +1,31 @@
+id: profumo-affair-1961--led_to--uk-general-election-1964
+from: profumo-affair-1961
+to: uk-general-election-1964
+type: led_to
+confidence: documented
+note: Sources say the affair damaged the Macmillan government's credibility and contributed to the Conservative
+  defeat in 1964.
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: The fallout contributed to the Conservative government's defeat by the Labour Party in the 1964 general
+    election.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  archive_url: https://web.archive.org/web/20261005215446/https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election
+  title: 1964 United Kingdom general election
+  publisher: Wikipedia
+  quote: It was for a while thought likely that the Conservatives would win the scheduled 1964 general election,
+    albeit with a reduced majority, but the emergence of the Profumo affair in March 1963 and Macmillan's handling
+    of the matter all but destroyed the credibility of his government.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.
+  - The sources say the affair 'contributed' to the defeat; it was one cause among others.

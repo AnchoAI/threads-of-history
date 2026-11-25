@@ -1,0 +1,22 @@
+id: franco-prussian-war-1870--led_to--treaty-of-frankfurt-1871
+from: franco-prussian-war-1870
+to: treaty-of-frankfurt-1871
+type: led_to
+confidence: documented
+note: The Treaty of Frankfurt ended the war and transferred Alsace and part of Lorraine to Germany.
+sources:
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: Following an armistice with France, the Treaty of Frankfurt was signed on 10 May 1871
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Alsace%E2%80%93Lorraine
+  title: Alsace–Lorraine
+  publisher: Wikipedia
+  quote: It was annexed by the German Empire following its victory in the Franco-Prussian War and formally
+    ceded by France under the Treaty of Frankfurt (1871).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

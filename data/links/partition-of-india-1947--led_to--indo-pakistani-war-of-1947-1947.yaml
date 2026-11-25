@@ -1,0 +1,35 @@
+id: partition-of-india-1947--led_to--indo-pakistani-war-of-1947-1947
+from: partition-of-india-1947
+to: indo-pakistani-war-of-1947-1947
+type: led_to
+confidence: documented
+note: The end of British paramountcy at partition left Kashmir's accession unresolved; the war followed
+  weeks later.
+sources:
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: Part of the India–Pakistan wars, Kashmir conflict and aftermath of the partition of India
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: With the independence of the Dominions, the British Paramountcy over the princely states came
+    to an end. The rulers of the states were advised to join one of the two dominions by executing an
+    Instrument of Accession.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Kashmir_conflict
+  title: Kashmir conflict
+  publisher: Wikipedia
+  quote: After the partition of India and a rebellion in the western districts of the state, Pakistani
+    tribal militias invaded Kashmir, leading the Hindu ruler of Jammu and Kashmir to join India.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

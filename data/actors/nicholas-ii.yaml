@@ -1,0 +1,21 @@
+id: nicholas-ii
+title: Nicholas II of Russia
+actor_type: person
+summary: 14th and last Emperor of Russia (1894–1917).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q40787
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q40787.json
+  title: Nicholas II of Russia
+  publisher: Wikidata
+  quote: 14th and last Emperor of Russia (1894–1917)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

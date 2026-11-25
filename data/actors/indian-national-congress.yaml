@@ -1,0 +1,21 @@
+id: indian-national-congress
+title: Indian National Congress
+actor_type: organization
+summary: Political party in India, founded 1885.
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q10225
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q10225.json
+  title: Indian National Congress
+  publisher: Wikidata
+  quote: centrist-liberal political party in India
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

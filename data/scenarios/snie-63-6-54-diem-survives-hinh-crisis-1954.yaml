@@ -1,0 +1,70 @@
+id: snie-63-6-54-diem-survives-hinh-crisis-1954
+title: 'SNIE 63-6-54: Diem government survives the Hinh crisis'
+summary: In September 1954 the US intelligence community judged that Ngo Dinh Diem's government in South Vietnam
+  would probably survive the insubordination of his army chief of staff, General Nguyen Van Hinh. Hinh was replaced
+  and returned to France in November 1954.
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- cia
+- south-vietnam
+importance: 2
+window:
+  start: '1954-09-15'
+  end: '1954-12-31'
+  precision: day
+probability: 0.75
+stated_as: Diem’s government will probably survive the present crisis of Hinh’s insubordination
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probably'' (Kent''s ''probable'' bracket)
+  = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1954-09-15'
+resolves_by: '1954-12-31'
+resolution:
+  outcome: happened
+  resolved_on: '1954-11-29'
+  event: hinh-replaced-as-army-chief-1954
+  note: Hinh was replaced as chief of staff by General Le Van Ty and returned to France in November 1954; Diem stayed
+    in office.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1952-54v13p2/d1181
+  archive_url: https://web.archive.org/web/20250930084724/https://history.state.gov/historicaldocuments/frus1952-54v13p2/d1181
+  title: 'Special National Intelligence Estimate SNIE 63-6-54: Current Trends in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1954-09-15'
+  quote: Although Diem’s government will probably survive the present crisis of Hinh’s insubordination, and may
+    achieve greater strength and popular support, it will continue to be threatened by Vietminh activity, and hampered
+    by French indecision.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  archive_url: https://web.archive.org/web/20260424032708/https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  title: Nguyễn Văn Hinh
+  publisher: Wikipedia
+  quote: Hinh was replaced by General Lê Văn Tỵ as appointed Chief of the nascent Joint General Staff.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  archive_url: https://web.archive.org/web/20260424032708/https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  title: Nguyễn Văn Hinh
+  publisher: Wikipedia
+  quote: Hinh returned to France in November 1954, re-entering the air force with his former rank of lieutenant
+    colonel.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - 'The estimate gives no explicit window; ''the present crisis'' is read here as running to the end of 1954. Hinh''s
+    term as chief of staff ended on 29 November 1954 (Wikipedia infobox: ''March 1952 – 29 November 1954'').'

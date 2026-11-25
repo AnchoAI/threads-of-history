@@ -1,0 +1,19 @@
+id: february-revolution-1917--part_of--russian-revolution-1917
+from: february-revolution-1917
+to: russian-revolution-1917
+type: part_of
+confidence: documented
+note: The February Revolution is part of the Russian Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/February_Revolution
+  archive_url: https://web.archive.org/web/20261009122808/https://en.wikipedia.org/wiki/February_Revolution
+  title: February Revolution
+  publisher: Wikipedia
+  quote: Part of the Russian Revolution and the Revolutions of 1917–1923
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

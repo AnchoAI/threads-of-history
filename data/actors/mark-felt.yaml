@@ -1,0 +1,22 @@
+id: mark-felt
+title: Mark Felt
+actor_type: person
+summary: Whistleblower who exposed the Watergate scandal (1913-2008).
+threads:
+- intel
+regions:
+- americas
+importance: 2
+wikidata: Q348122
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q348122.json
+  title: Mark Felt
+  publisher: Wikidata
+  quote: Whistleblower who exposed the Watergate scandal (1913-2008)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

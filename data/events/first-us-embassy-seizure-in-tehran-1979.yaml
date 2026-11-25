@@ -1,0 +1,41 @@
+id: first-us-embassy-seizure-in-tehran-1979
+title: Militants briefly seize the US embassy in Tehran
+summary: On 14 February 1979 revolutionary militants stormed the US embassy in Tehran and held its staff for several
+  hours, which led some officials in Washington to reconsider hosting the Shah.
+occurred:
+  start: '1979-02-14'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- united-states
+- iran
+importance: 2
+wikidata: none
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: revolutionary militants stormed the United States embassy in Tehran on 14 February, holding the mission
+    personnel hostage for several hours
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: Specifically, the short-lived takeover of the American embassy the previous St. Valentine’s Day had some
+    senior officials in Washington reconsidering the wisdom of hosting the shah.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Only one source; a primary account (FRUS vol. X, forthcoming) or a second history would strengthen it.

@@ -1,0 +1,22 @@
+id: virginia-giuffre
+title: Virginia Roberts Giuffre
+actor_type: person
+summary: Advocate for sex trafficking victims (1983–2025).
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q78473599
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q78473599.json
+  title: Virginia Roberts Giuffre
+  publisher: Wikidata
+  quote: advocate for sex trafficking victims (1983–2025)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

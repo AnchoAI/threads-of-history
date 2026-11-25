@@ -1,0 +1,48 @@
+id: iphone-2007
+title: Apple releases the iPhone
+summary: Apple announces the iPhone in January 2007 and releases it in the US in June. Its large multi-touch
+  screen and full web browser set the pattern that most later smartphones followed.
+occurred:
+  start: '2007-06-29'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- apple-inc
+importance: 4
+wikidata: Q621427
+sources:
+- url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+  archive_url: https://web.archive.org/web/20261012023203/https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+  title: iPhone (1st generation)
+  publisher: Wikipedia
+  quote: it was officially announced on January 9, 2007, and was released in the United States on June
+    29, 2007.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+  archive_url: https://web.archive.org/web/20261012023203/https://en.wikipedia.org/wiki/IPhone_(1st_generation)
+  title: iPhone (1st generation)
+  publisher: Wikipedia
+  quote: the iPhone was the first large-touchscreen phone with multi-touch and with full mobile rendering
+    of websites, features which have now become virtually universal in smartphones.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Smartphone
+  archive_url: https://web.archive.org/web/20261012050049/https://en.wikipedia.org/wiki/Smartphone
+  title: Smartphone
+  publisher: Wikipedia
+  quote: Following the rising popularity of the iPhone in the late 2000s, the majority of smartphones
+    have featured thin, slate-like form factors with large, capacitive touch screens with support for
+    multi-touch gestures rather than physical keyboards.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'No source found that states the iPhone led to a specific later event in this dataset, so it has no
+    links yet. Candidate: the growth of mobile social media.'

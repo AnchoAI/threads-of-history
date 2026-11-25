@@ -1,0 +1,23 @@
+id: french-revolution-1789--led_to--revolutions-of-1848
+from: french-revolution-1789
+to: revolutions-of-1848
+type: led_to
+confidence: documented
+note: The 1848 revolutions are traced partly to the French Revolution's political legacy and to the repressive
+  order built in reaction to it.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: the political legacy of the French Revolution
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1848
+  title: Revolutions of 1848
+  publisher: Wikipedia
+  quote: the repressive political environment established in reaction to the French Revolution, and the
+    spread of ideologies opposed to repressive governments, including liberalism, radicalism, and nationalism
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-internet-users
+title: Internet users (% of population) (World Bank)
+summary: Internet users are individuals who have used the Internet (from any location) in the last 3 months.
+  The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital
+  TV etc.
+occurred:
+  start: '1990'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: IT.NET.USER.ZS
+table: tables/wdi-internet-users.csv
+sources:
+- url: https://data.worldbank.org/indicator/IT.NET.USER.ZS
+  title: Individuals using the Internet (% of population)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

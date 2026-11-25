@@ -1,0 +1,33 @@
+id: plastic-people-trial-1976--led_to--charter-77-1977
+from: plastic-people-trial-1976
+to: charter-77-1977
+type: led_to
+confidence: documented
+note: The arrest and trial of the band helped prompt the dissidents who drafted Charter 77.
+sources:
+- url: https://www.readex.com/blog/velvet-underground-velvet-revolution-charter-77s-redemption-human-rights-czechoslovakia
+  title: 'From the Velvet Underground to the Velvet Revolution: Charter 77''s Redemption of Human Rights in
+    Czechoslovakia'
+  publisher: Readex
+  quote: The discussions and relationships ensuing from the trial and conviction of the Plastic People of the
+    Universe led to the drafting of Charter 77
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261015140204/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: Motivated in part by the arrest of members of the rock band the Plastic People of the Universe, the
+    text of Charter 77 was prepared in 1976.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  archive_url: https://web.archive.org/web/20260719094345/https://en.wikipedia.org/wiki/The_Plastic_People_of_the_Universe
+  title: The Plastic People of the Universe
+  publisher: Wikipedia
+  quote: It was partly in response to the arrests and prosecutions that playwright Václav Havel and others
+    wrote Charter 77.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,60 @@
+id: cambridge-analytica-data-harvesting-2013--led_to--brexit-referendum-2016
+from: cambridge-analytica-data-harvesting-2013
+to: brexit-referendum-2016
+type: led_to
+confidence: contested
+note: Cambridge Analytica was accused of helping the Leave side with harvested Facebook data; the UK's
+  official investigation found it was not involved beyond initial enquiries.
+sources:
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: Cambridge Analytica was also widely accused of interfering with the Brexit referendum, although
+    the official investigation recognised that the company was not involved "beyond some initial enquiries"
+    and that "no significant breaches" took place.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: Cambridge Analytica supplied Leave.EU with datasets built from Facebook data.
+  held_by:
+  - Brittany Kaiser (former Cambridge Analytica employee)
+  - Carole Cadwalladr (The Observer)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+    title: Facebook–Cambridge Analytica data scandal
+    publisher: Wikipedia
+    quote: Brittany Kaiser declared that the datasets that Leave.EU used to create databases were provided
+      by Cambridge Analytica.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+    title: Facebook–Cambridge Analytica data scandal
+    publisher: Wikipedia
+    quote: He had been an anonymous source for an article in 2017 in The Observer by Cadwalladr, headlined
+      "The Great British Brexit Robbery".
+    type: reference
+    accessed: '2026-10-15'
+- claim: Cambridge Analytica was not involved in the referendum beyond some initial enquiries.
+  held_by:
+  - The UK Information Commissioner's Office investigation
+  - Arron Banks (Leave.EU co-founder)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+    title: Facebook–Cambridge Analytica data scandal
+    publisher: Wikipedia
+    quote: the official investigation recognised that the company was not involved "beyond some initial
+      enquiries" and that "no significant breaches" took place.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+    title: Facebook–Cambridge Analytica data scandal
+    publisher: Wikipedia
+    quote: Although Arron Banks, co-founder of Leave.EU, denied any involvement with the company
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The ICO's own October 2020 letter to Parliament should be added as a primary source for the second
+    position.

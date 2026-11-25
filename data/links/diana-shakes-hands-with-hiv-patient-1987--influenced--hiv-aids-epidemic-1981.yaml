@@ -1,0 +1,28 @@
+id: diana-shakes-hands-with-hiv-patient-1987--influenced--hiv-aids-epidemic-1981
+from: diana-shakes-hands-with-hiv-patient-1987
+to: hiv-aids-epidemic-1981
+type: influenced
+confidence: documented
+note: PinkNews and the Terrence Higgins Trust credit the handshake with reducing stigma and changing perceptions
+  of HIV.
+sources:
+- url: https://www.thepinknews.com/2022/07/05/princess-diana-aids-handshake-bren-gosling/
+  archive_url: https://web.archive.org/web/20260920202147/https://www.thepinknews.com/2022/07/05/princess-diana-aids-handshake-bren-gosling/
+  title: True story of Princess Diana's groundbreaking AIDS visit
+  publisher: PinkNews
+  quote: With one small, simple act, she helped shatter some of the stigma facing those with HIV and AIDS.
+  type: news
+  accessed: '2026-10-20'
+- url: https://thepinknews.com/2022/08/31/princess-diana-hiv-aids/
+  archive_url: https://web.archive.org/web/20260328175819/https://www.thepinknews.com/2022/08/31/princess-diana-hiv-aids/
+  title: Princess Diana changed how the world saw HIV and AIDS with one simple but profound gesture
+  publisher: PinkNews
+  quote: With handshakes and hugs, Princess Diana helped change perceptions of HIV and quieten some of the hysteria
+    raging during the early days of the epidemic.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The second quote is from Fraser Wilson of the Terrence Higgins Trust, speaking to PinkNews. Both sources are
+    advocacy-adjacent; a scholarly or survey source would be stronger.

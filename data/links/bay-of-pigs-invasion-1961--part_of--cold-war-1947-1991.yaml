@@ -1,0 +1,19 @@
+id: bay-of-pigs-invasion-1961--part_of--cold-war-1947-1991
+from: bay-of-pigs-invasion-1961
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Bay of Pigs invasion is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion
+  archive_url: https://web.archive.org/web/20261015055902/https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion
+  title: Bay of Pigs Invasion
+  publisher: Wikipedia
+  quote: Part of the Cold War and the Consolidation of the Cuban Revolution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

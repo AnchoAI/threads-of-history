@@ -1,0 +1,60 @@
+id: plantation-of-ulster-1609--led_to--the-troubles-1968
+from: plantation-of-ulster-1609
+to: the-troubles-1968
+type: led_to
+confidence: contested
+note: The plantation is said to have caused centuries of sectarian animosity that spilled into conflict,
+  most recently the Troubles; its importance against later migration is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: It also resulted in many of the native Irish nobility losing their land and led to centuries
+    of ethnic and sectarian animosity, which at times spilled into conflict, notably in the Irish Rebellion
+    of 1641 and, more recently, the Troubles.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The plantation began the sectarian divide behind the Troubles.
+  held_by:
+  - Wikipedia, "Plantation of Ulster"
+  - Wikipedia, "The Troubles" (background section)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: led to centuries of ethnic and sectarian animosity, which at times spilled into conflict, notably
+      in the Irish Rebellion of 1641 and, more recently, the Troubles.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: The Plantation of Ulster is also widely seen as the origin of mutually antagonistic Catholic/Irish
+      and Protestant/British identities in Ulster.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/The_Troubles
+    title: The Troubles
+    publisher: Wikipedia
+    quote: this resulted in conflict between the native Catholics and the "planters"
+    type: reference
+    accessed: '2026-10-14'
+- claim: The plantation mattered less than the continuous flow of settlers from Scotland in shaping the
+    north-east.
+  held_by:
+  - A. T. Q. Stewart
+  sources:
+  - url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+    title: Plantation of Ulster
+    publisher: Wikipedia
+    quote: Therefore, it is also argued that the Plantation itself was less important in the distinctiveness
+      of the north-east of Ireland than natural population flow between Ulster and Scotland.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,21 @@
+id: jonas-salk
+title: Jonas Salk
+actor_type: person
+summary: Jewish-American inventor of the polio vaccine (1914–1995).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q200101
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q200101.json
+  title: Jonas Salk
+  publisher: Wikidata
+  quote: Jewish-American inventor of polio vaccine (1914–1995)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

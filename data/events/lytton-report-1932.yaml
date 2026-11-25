@@ -1,0 +1,46 @@
+id: lytton-report-1932
+title: Lytton Report
+summary: A League of Nations commission under the Earl of Lytton reports that Japan's operations after
+  the Mukden Incident were not legitimate self-defence and refuses to recognise Manchukuo. It does not
+  say who set off the explosion.
+occurred:
+  start: '1932-10-02'
+  precision: day
+threads:
+- china
+- interwar
+regions:
+- east-asia
+- western-europe
+actors:
+- league-of-nations
+- empire-of-japan
+- republic-of-china-1912-1949
+importance: 3
+wikidata: Q700443
+sources:
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: even before the official announcement of the findings of the Lytton Report on October 2, 1932,
+    was made public
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261001231436/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: On October 2, the Lytton Report was published and rejected the Japanese claim that the Manchurian
+    invasion and occupation was an act of self-defense, although it did not assert that the Japanese had
+    perpetrated the initial bombing of the railroad.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: It stated that the Empire of Japan must withdraw from Manchuria, recognized Chinese sovereignty
+    of Manchuria, and refused to recognize the Japanese puppet state of Manchukuo.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,20 @@
+id: dissolution-of-the-soviet-union-1991--led_to--deng-xiaoping-southern-tour-1992
+from: dissolution-of-the-soviet-union-1991
+to: deng-xiaoping-southern-tour-1992
+type: led_to
+confidence: documented
+note: The Soviet collapse strengthened CCP conservatives, forcing Deng to rally support for reform outside
+  Beijing.
+sources:
+- url: https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  archive_url: https://web.archive.org/web/20261012092231/https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  title: Deng Xiaoping's southern tour
+  publisher: Wikipedia
+  quote: The dissolution of the Soviet Union in December 1991 had further strengthened conservative leaders
+    within the CCP, such as Chen Yun, who argued that market-oriented reforms risked destabilizing Communist
+    Party rule in the same way that liberalization had contributed to the Soviet collapse. This political environment
+    forced Deng to build support for his reform agenda outside of Beijing
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

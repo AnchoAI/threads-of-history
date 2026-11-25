@@ -1,0 +1,25 @@
+id: gulf-of-tonkin-resolution-1964--part_of--vietnam-war-1955
+from: gulf-of-tonkin-resolution-1964
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: The resolution became the legal basis for the US prosecution of the war.
+sources:
+- url: https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  archive_url: https://web.archive.org/web/20261009212431/https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  title: 'U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964'
+  publisher: US Department of State, Office of the Historian
+  quote: This resolution became the legal basis for the Johnson and Nixon Administrations prosecution of the
+    Vietnam War.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: The resolution served as Johnson's legal justification for deploying US conventional forces to South
+    Vietnam and the commencement of open warfare against North Vietnam in early 1965.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

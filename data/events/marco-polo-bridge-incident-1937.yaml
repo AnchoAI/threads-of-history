@@ -1,0 +1,49 @@
+id: marco-polo-bridge-incident-1937
+title: Marco Polo Bridge Incident
+summary: Chinese and Japanese troops clash near the Marco Polo (Lugou) Bridge outside Beijing after Japan
+  demands to search Wanping for a soldier who had in fact returned. The exact cause remains unknown; the
+  clash is generally regarded as the start of the Second Sino-Japanese War.
+occurred:
+  start: '1937-07-07'
+  end: '1937-07-09'
+  precision: day
+threads:
+- china
+- ww2
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- republic-of-china-1912-1949
+importance: 4
+wikidata: Q219230
+sources:
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: The Marco Polo Bridge incident, also known as the Lugou Bridge incident or the July 7 incident,
+    was a three-day battle that began on 7 July 1937 in the district of Beijing between the 29th Army
+    of the National Revolutionary Army of the Republic of China and the Imperial Japanese Army.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: However, the missing Japanese soldier had already returned to his lines.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: The exact cause of this incident remains unknown.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident
+  title: Marco Polo Bridge incident
+  publisher: Wikipedia
+  quote: The Marco Polo Bridge incident is generally regarded as the start of the Second Sino-Japanese
+    War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,49 @@
+id: young-turk-revolution-1908
+title: Young Turk Revolution
+summary: Revolutionaries of the Committee of Union and Progress forced Sultan Abdul Hamid II to restore
+  the constitution and recall parliament, opening the Second Constitutional Era.
+occurred:
+  start: '1908-07-03'
+  end: '1908-07-24'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- committee-of-union-and-progress
+- ottoman-empire
+importance: 4
+wikidata: Q4298662
+sources:
+- url: https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  title: Young Turk Revolution
+  publisher: Wikipedia
+  quote: On 3 July Major Ahmed Niyazi began the revolution by raiding the Resne (Resen) garrison cache
+    of money, arms, and ammunition
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  title: Young Turk Revolution
+  publisher: Wikipedia
+  quote: Under pressure of being deposed, on the night of 23–24 July 1908, Abdul Hamid II issued the İrade-i
+    Hürriyet, reinstating the Constitution and calling an election to great jubilation.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  title: Young Turk Revolution
+  publisher: Wikipedia
+  quote: forced Sultan Abdul Hamid II to restore the Constitution, recall the parliament, and schedule
+    an election
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Young_Turk_Revolution
+  title: Young Turk Revolution
+  publisher: Wikipedia
+  quote: Thus began the Second Constitutional Era which lasted from 1908–1912
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,93 @@
+id: first-nato-eastward-enlargement-1999--led_to--russia-annexes-crimea-2014
+from: first-nato-eastward-enlargement-1999
+to: russia-annexes-crimea-2014
+type: led_to
+confidence: contested
+note: Whether NATO's eastward enlargement caused Russia's 2014 seizure of Crimea is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  title: Enlargement of NATO
+  publisher: Wikipedia
+  quote: This impression was later used by him as part of his justification for Russia's 2014 actions
+    in Ukraine and the Russian invasion of Ukraine in 2022.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: NATO enlargement was the root of the crisis; the West bears most of the responsibility for Russia's
+    move on Crimea.
+  held_by:
+  - John Mearsheimer
+  sources:
+  - url: https://www.foreignaffairs.com/articles/russia-fsu/2014-08-18/why-ukraine-crisis-west-s-fault
+    title: Why the Ukraine Crisis Is the West's Fault
+    publisher: Foreign Affairs (John J. Mearsheimer)
+    date: '2014-08-18'
+    quote: The taproot of the trouble is NATO enlargement, the central element of a larger strategy to
+      move Ukraine out of Russia's orbit and integrate it into the West.
+    type: scholarly
+    accessed: '2026-10-15'
+  - url: https://www.foreignaffairs.com/articles/russia-fsu/2014-08-18/why-ukraine-crisis-west-s-fault
+    title: Why the Ukraine Crisis Is the West's Fault
+    publisher: Foreign Affairs (John J. Mearsheimer)
+    date: '2014-08-18'
+    quote: 'But this account is wrong: the United States and its European allies share most of the responsibility
+      for the crisis.'
+    type: scholarly
+    accessed: '2026-10-15'
+- claim: The Russian government said the West had deceived Russia over NATO's expansion and that Ukraine
+    joining NATO would threaten Crimea and southern Russia.
+  held_by:
+  - Vladimir Putin (Russian government)
+  sources:
+  - url: http://en.kremlin.ru/events/president/news/20603
+    archive_url: https://web.archive.org/web/20261011222720/http://en.kremlin.ru/events/president/news/20603
+    title: Address by President of the Russian Federation
+    publisher: President of Russia (kremlin.ru)
+    date: '2014-03-18'
+    quote: This happened with NATO's expansion to the East, as well as the deployment of military infrastructure
+      at our borders.
+    type: primary
+    accessed: '2026-10-15'
+  - url: http://en.kremlin.ru/events/president/news/20603
+    archive_url: https://web.archive.org/web/20261011222720/http://en.kremlin.ru/events/president/news/20603
+    title: Address by President of the Russian Federation
+    publisher: President of Russia (kremlin.ru)
+    date: '2014-03-18'
+    quote: It would have meant that NATO's navy would be right there in this city of Russia's military
+      glory, and this would create not an illusory but a perfectly real threat to the whole of southern
+      Russia.
+    type: primary
+    accessed: '2026-10-15'
+- claim: 'Enlargement does not explain the annexation: Putin earlier said Ukraine in NATO would not concern
+    Russia, Ukraine dropped its neutrality only after Russia invaded, and Russian neo-imperialism is the
+    main driver.'
+  held_by:
+  - Michael McFaul
+  - Robert Person
+  sources:
+  - url: https://en.wikipedia.org/wiki/John_Mearsheimer
+    title: John Mearsheimer
+    publisher: Wikipedia
+    quote: They point to Putin's statements in the early 2000s, when he said Ukraine in NATO would not
+      concern Russia.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/John_Mearsheimer
+    title: John Mearsheimer
+    publisher: Wikipedia
+    quote: They also wrote that Ukraine's parliament only revoked its neutral status in late 2014, "after
+      Russia had invaded Crimea and the Donbas".
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/John_Mearsheimer
+    title: John Mearsheimer
+    publisher: Wikipedia
+    quote: In their view, Putin's actions are more driven by Russian neo-imperialism.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - The Kremlin address is Putin's Crimea speech of 18 March 2014 (publication date shown on kremlin.ru).

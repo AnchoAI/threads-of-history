@@ -1,0 +1,51 @@
+id: safavid-conversion-of-iran-1501
+title: Safavids make Iran Shia
+summary: From 1501 the Safavid shah Ismail I made Twelver Shia Islam the state religion and imposed forced conversion
+  on Iran's largely Sunni population. As a result, Shia Islam remains dominant in Iran today.
+occurred:
+  start: '1501'
+  precision: year
+  note: The conversion campaign continued for much of the Safavid period; 1501 is Ismail I's proclamation.
+threads:
+- religion
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- safavid-iran
+- ismail-i
+importance: 4
+wikidata: Q1448990
+sources:
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: In 1501, he proclaimed himself the King of Kings and the creator of a new Shia state
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: the Safavid dynasty initiated a campaign of forced conversion against the Iranian populace, seeking to
+    replace Sunni Islam
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: As a direct result of the Safavid conversion campaign, Shi'a Islam remains dominant among the populations
+    of Iran and Azerbaijan.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  archive_url: https://web.archive.org/web/20261003080840/https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  title: Shia–Sunni relations
+  publisher: Wikipedia
+  quote: In Iran, an officially Shia country since 1501
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

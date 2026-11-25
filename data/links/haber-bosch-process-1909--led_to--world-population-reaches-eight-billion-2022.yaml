@@ -1,0 +1,33 @@
+id: haber-bosch-process-1909--led_to--world-population-reaches-eight-billion-2022
+from: haber-bosch-process-1909
+to: world-population-reaches-eight-billion-2022
+type: led_to
+confidence: documented
+note: Synthetic nitrogen fertilizer from the Haber–Bosch process is estimated to support about half of today's population;
+  Smil calls it the 'detonator of the population explosion'.
+sources:
+- url: https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed
+  title: How many people does synthetic fertilizer feed?
+  publisher: Our World in Data
+  quote: In fact, it's estimated that nitrogen fertilizer now supports approximately half of the global population.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed
+  title: How many people does synthetic fertilizer feed?
+  publisher: Our World in Data
+  quote: As a result, the Haber-Bosch process will likely have enabled the lives of around 4 billion people today.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Haber_process
+  archive_url: https://web.archive.org/web/20261005215044/https://en.wikipedia.org/wiki/Haber_process
+  title: Haber process
+  publisher: Wikipedia
+  quote: Thus, the Haber process serves as the "detonator of the population explosion", enabling the global population
+    to increase from 1.6 billion in 1900 to 7.7 billion by November 2018.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.
+  - A contributing cause among others (breeding, herbicides and pesticides are also named in the Haber process article).

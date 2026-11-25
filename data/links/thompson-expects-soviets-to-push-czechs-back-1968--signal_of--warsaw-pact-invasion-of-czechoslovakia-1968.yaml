@@ -1,0 +1,21 @@
+id: thompson-expects-soviets-to-push-czechs-back-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: thompson-expects-soviets-to-push-czechs-back-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: Thompson expected the Soviets to force the Czechs back, as the invasion did.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  archive_url: https://web.archive.org/web/20250928030219/https://history.state.gov/historicaldocuments/frus1964-68v17/d76
+  title: 'FRUS 1964–1968, vol. XVII, doc. 76: Telegram from the Embassy in the Soviet Union, "Czechoslovakia-Soviet
+    relations: the long range view"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-02'
+  quote: it is my view that the Soviets will go to great lengths to push the Czechs back to something close
+    to the pre-January situation.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

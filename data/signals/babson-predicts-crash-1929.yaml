@@ -1,0 +1,50 @@
+id: babson-predicts-crash-1929
+title: Roger Babson predicts a crash
+summary: On 5 September 1929 the financial forecaster Roger Babson told the Annual National Business Conference
+  that "sooner or later a crash is coming, and it may be terrific"; prices then fell sharply in what was
+  called the Babson Break. He said he was repeating a warning he had made in each of the two previous
+  years.
+occurred:
+  start: '1929-09-05'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- roger-babson
+- united-states
+importance: 2
+source_credibility: medium
+outcome: confirmed
+resolves_to: wall-street-crash-1929
+wikidata: none
+sources:
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: a prediction on September 5 at the Annual National Business Conference by rival financial prognosticator,
+    Roger Babson, that "sooner or later a crash is coming, and it may be terrific."
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+  title: Stock Market Crash of 1929
+  publisher: Federal Reserve History (Gary Richardson et al.)
+  quote: Babson's comment was followed by a sharp decline in stock-market prices known as the Babson break.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: I repeat what I said at this time last year, and the year before, that sooner or later a crash
+    is coming
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The 'two previous years' claim is Babson's own, quoted in a 1929 newspaper cited by Wikipedia; it
+    shows how a repeated warning can look prescient in hindsight.

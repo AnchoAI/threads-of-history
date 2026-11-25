@@ -1,0 +1,33 @@
+id: world-population-reaches-eight-billion-2022
+title: World population reaches eight billion
+summary: The United Nations designates 15 November 2022 as the approximate day the world's population reached eight
+  billion people.
+occurred:
+  start: '2022-11-15'
+  precision: day
+  approximate: true
+  note: A UN projection, not a counted date.
+threads:
+- industry
+regions:
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+actors:
+- united-nations
+importance: 3
+wikidata: Q114496074
+sources:
+- url: https://en.wikipedia.org/wiki/Day_of_Eight_Billion
+  archive_url: https://web.archive.org/web/20261002054630/https://en.wikipedia.org/wiki/Day_of_Eight_Billion
+  title: Day of Eight Billion
+  publisher: Wikipedia
+  quote: The Day of Eight Billion, marked on 15 November 2022, was designated by the United Nations as the approximate
+    day when the world population reached eight billion people.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

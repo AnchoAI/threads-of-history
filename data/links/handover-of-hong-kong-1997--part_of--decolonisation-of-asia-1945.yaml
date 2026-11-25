@@ -1,0 +1,18 @@
+id: handover-of-hong-kong-1997--part_of--decolonisation-of-asia-1945
+from: handover-of-hong-kong-1997
+to: decolonisation-of-asia-1945
+type: part_of
+confidence: documented
+note: The handover of Hong Kong is part of the decolonisation of Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: Part of the decolonisation of Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

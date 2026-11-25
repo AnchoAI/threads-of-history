@@ -1,0 +1,35 @@
+id: industrial-revolution-1760--led_to--industrial-era-rise-in-atmospheric-co2-1760
+from: industrial-revolution-1760
+to: industrial-era-rise-in-atmospheric-co2-1760
+type: led_to
+confidence: documented
+note: Burning fossil fuels since the Industrial Revolution has raised greenhouse-gas concentrations; the IPCC calls
+  the human cause unequivocal.
+sources:
+- url: https://en.wikipedia.org/wiki/Climate_change
+  title: Climate change
+  publisher: Wikipedia
+  quote: Human activity since the Industrial Revolution, mainly extracting and burning fossil fuels (coal, oil,
+    and natural gas), has increased the amount of greenhouse gases in the atmosphere.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Climate_change
+  title: Climate change
+  publisher: Wikipedia
+  quote: The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal,
+    oil and natural gas) burning since the Industrial Revolution.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/
+  title: 'AR6 Synthesis Report: Summary for Policymakers'
+  publisher: Intergovernmental Panel on Climate Change
+  date: '2023'
+  quote: Observed increases in well-mixed GHG concentrations since around 1750 are unequivocally caused by GHG emissions
+    from human activities over this period.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.
+  - Both items are dated to about 1760; the link runs from the cause to the ongoing rise it started.

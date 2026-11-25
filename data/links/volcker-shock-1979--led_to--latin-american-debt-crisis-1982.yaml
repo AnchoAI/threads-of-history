@@ -1,0 +1,41 @@
+id: volcker-shock-1979--led_to--latin-american-debt-crisis-1982
+from: volcker-shock-1979
+to: latin-american-debt-crisis-1982
+type: led_to
+confidence: documented
+note: Tight money in the US and Europe raised interest rates worldwide and made Latin American debts unsustainable.
+sources:
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: By late in the decade, however, the priority of the industrialized world was lowering inflation,
+    which led to a tightening of monetary policy in the United States and Europe.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: Nominal interest rates rose globally, and in 1981 the world economy entered a recession.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: The Latin American countries soon found their debt burdens unsustainable
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Latin_American_debt_crisis
+  title: Latin American debt crisis
+  publisher: Wikipedia
+  quote: Debt service (interest payments and the repayment of principal) grew even faster as global interest
+    rates surged, reaching $66 billion in 1982, up from $12 billion in 1975.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The Federal Reserve History essay speaks of tightening in the US and Europe together, not of the Volcker
+    measures alone.

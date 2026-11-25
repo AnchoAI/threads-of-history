@@ -1,0 +1,55 @@
+id: kristallnacht-1938
+title: Kristallnacht
+summary: A state-sponsored pogrom against Jews across Nazi Germany, including Austria and the Sudetenland,
+  on 9–10 November 1938, which the regime presented as a response to the shooting of German diplomat Ernst
+  vom Rath in Paris. Nazis burned more than 1,400 synagogues and vandalised thousands of Jewish businesses,
+  and some 30,000 Jewish men were sent to concentration camps.
+occurred:
+  start: '1938-11-09'
+  end: '1938-11-10'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- nazi-germany
+importance: 4
+wikidata: Q36756
+sources:
+- url: https://encyclopedia.ushmm.org/content/en/article/kristallnacht
+  title: Kristallnacht
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: It took place on November 9 and 10, 1938 throughout Germany, which by then included both Austria
+    and the Sudetenland region of Czechoslovakia.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/kristallnacht
+  title: Kristallnacht
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: In reality, this was state-sponsored vandalism, arson, and terror.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/kristallnacht
+  title: Kristallnacht
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: The Nazi regime chose to use the shooting as an excuse to launch an anti-Jewish riot.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/kristallnacht
+  title: Kristallnacht
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: During Kristallnacht, Nazis burned more than 1,400 synagogues, vandalized thousands of Jewish-owned
+    businesses
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Kristallnacht
+  title: Kristallnacht
+  publisher: Wikipedia
+  quote: 30,000 Jewish men were arrested and incarcerated in concentration camps
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - There is no Holocaust or antisemitism thread yet; filed under interwar only.

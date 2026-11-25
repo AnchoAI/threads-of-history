@@ -1,0 +1,50 @@
+id: newtons-principia-1687
+title: Newton's Principia published
+summary: Isaac Newton publishes the Principia, which defines the law of universal gravitation and sets out the first
+  unified set of scientific laws.
+occurred:
+  start: '1687-07-05'
+  precision: day
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- isaac-newton
+importance: 4
+wikidata: Q205921
+sources:
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: The Principia was published on 5 July 1687 with encouragement and financial help from Halley.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: Isaac Newton's Principia developed the first set of unified scientific laws.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: He used the Latin word gravitas (weight) for the effect that would become known as gravity and defined
+    the law of universal gravitation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica
+  archive_url: https://web.archive.org/web/20261012072851/https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica
+  title: Philosophiæ Naturalis Principia Mathematica
+  publisher: Wikipedia
+  quote: The complete work, published by Halley at his own financial risk, appeared in July 1687.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

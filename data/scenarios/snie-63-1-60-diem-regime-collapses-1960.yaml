@@ -1,0 +1,91 @@
+id: snie-63-1-60-diem-regime-collapses-1960
+title: 'SNIE 63.1-60: Diem''s regime collapses within a year'
+summary: In August 1960 the US intelligence community judged that unchecked adverse trends would in time bring down
+  Ngo Dinh Diem's regime in South Vietnam, but did not expect this within the estimate's period of about a year.
+  Diem survived a coup attempt in November 1960 and was overthrown in November 1963.
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- cia
+- south-vietnam
+importance: 2
+window:
+  start: '1960-08-23'
+  end: '1961-08-23'
+  precision: day
+probability: 0.3
+stated_as: We do not anticipate that this will occur within the period of this estimate.
+probability_basis: 'Sherman Kent''s words of estimative probability: ''we do not anticipate'' read as ''we expect
+  … not'', which Kent places with ''we believe'' (so ''we believe that … not'', the ''probably not'' bracket) =
+  about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1960-08-23'
+resolves_by: '1961-08-23'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1961-08-23'
+  note: A coup attempt on 11 November 1960 failed; Diem was deposed on 1 November 1963.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1958-60v01/d185
+  archive_url: https://web.archive.org/web/20251023050547/https://history.state.gov/historicaldocuments/frus1958-60v01/d185
+  title: 'Special National Intelligence Estimate SNIE 63.1-60: Short-Term Trends in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1960-08-23'
+  quote: To assess political and security problems and probable trends in South Vietnam over the next year or so.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1958-60v01/d185
+  archive_url: https://web.archive.org/web/20251023050547/https://history.state.gov/historicaldocuments/frus1958-60v01/d185
+  title: 'Special National Intelligence Estimate SNIE 63.1-60: Short-Term Trends in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1960-08-23'
+  quote: if they remain unchecked, they will almost certainly in time cause the collapse of Diem’s regime. We do
+    not anticipate that this will occur within the period of this estimate.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1960_South_Vietnamese_coup_attempt
+  archive_url: https://web.archive.org/web/20261016050413/https://en.wikipedia.org/wiki/1960_South_Vietnamese_coup_attempt
+  title: 1960 South Vietnamese coup attempt
+  publisher: Wikipedia
+  quote: On 11 November 1960, a failed coup attempt against President Ngô Đình Diệm of South Vietnam
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/1963_South_Vietnamese_coup
+  archive_url: https://web.archive.org/web/20260906151720/https://en.wikipedia.org/wiki/1963_South_Vietnamese_coup
+  title: 1963 South Vietnamese coup
+  publisher: Wikipedia
+  quote: On November 1, 1963, President Ngô Đình Diệm and the Personalist Labor Revolutionary Party of the Republic
+    of Vietnam (South Vietnam) were deposed
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: '"we think," "we expect," and "we judge" are part way in.14 If they make it all the way I trust they will
+    be used and understood in the "probably"/ "we believe" bracket.'
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''We do not anticipate'' is not on Kent''s list; it is mapped as the negative of ''we expect'', which Kent
+    says belongs in the ''probably''/''we believe'' bracket. A reviewer may prefer to drop this judgment.'

@@ -1,0 +1,127 @@
+id: iran-contra-affair-1984
+title: Iran–Contra affair
+summary: 'Two secret Reagan administration operations coordinated by National Security Council staff: arms sales
+  to Iran in 1985–86, despite an embargo, to obtain the release of American hostages in the Middle East, and secret
+  support for the Nicaraguan Contras while Congress prohibited it. Some proceeds of the arms sales were diverted
+  to the Contras; Independent Counsel Lawrence Walsh concluded that high-ranking officials violated laws and executive
+  orders.'
+occurred:
+  start: '1984-10'
+  end: '1986-11'
+  precision: month
+  note: Contra support during the October 1984 to October 1986 ban; Iran arms sales 1985–86; exposed in October–November
+    1986.
+known:
+  public:
+    start: '1986-11-03'
+    precision: day
+    note: Ash-Shiraa's report of the arms sales; the diversion to the Contras was announced by Attorney General
+      Meese on 25 November 1986.
+  by:
+  - party: President Reagan and senior officials
+    actor: ronald-reagan
+    when:
+      start: '1985'
+      precision: year
+    sources:
+    - url: https://irp.fas.org/offdocs/walsh/execsum.htm
+      archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+      title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+      publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+      date: '1993-08-04'
+      quote: the Iran operations were carried out with the knowledge of, among others, President Ronald Reagan,
+        Vice President George Bush, Secretary of State George P. Shultz, Secretary of Defense Caspar W. Weinberger,
+        Director of Central Intelligence William J. Casey, and national security advisers Robert C. McFarlane and
+        John M. Poindexter
+      type: primary
+      accessed: '2026-10-23'
+threads:
+- scandals
+- intel
+- mideast
+- usru
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- ronald-reagan
+- oliver-north
+- john-poindexter
+- caspar-weinberger
+- lawrence-walsh
+- hezbollah
+- iran
+- united-states
+importance: 3
+wikidata: Q273659
+sources:
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The Iran/contra affair concerned two secret Reagan Administration policies whose operations were coordinated
+    by National Security Council staff.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The Iran operation involved efforts in 1985 and 1986 to obtain the release of Americans held hostage in
+    the Middle East through the sale of U.S. weapons to Iran, despite an embargo on such sales.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The contra operations from 1984 through most of 1986 involved the secret governmental support of contra
+    military and paramilitary activities in Nicaragua, despite congressional prohibition of this support.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The Iran and contra operations were merged when funds generated from the sale of weapons to Iran were diverted
+    to support the contra effort in Nicaragua.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: The investigations and prosecutions have shown that high-ranking Administration officials violated laws
+    and executive orders in the Iran/contra matter.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: an October 1984 to October 1986 prohibition on such aid
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  archive_url: https://web.archive.org/web/20261022220131/https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: The administration's justification for the arms shipments was that they were part of an attempt to free
+    seven U.S. hostages being held in Lebanon by Hezbollah, an Islamist paramilitary group connected to Iran's Islamic
+    Revolutionary Guard Corps.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'Actors'' roles are stated in the Walsh report: Reagan and others knew of the Iran operations; North ran the
+    contra-resupply network; North and Poindexter were convicted (later reversed); Weinberger was charged and pardoned.'
+  - The id uses 1984, the start of the secret contra support Walsh describes; Wikipedia dates the affair 1985–1987.

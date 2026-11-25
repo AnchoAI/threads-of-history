@@ -1,0 +1,41 @@
+id: wto-founded-1995
+title: World Trade Organization established
+summary: The World Trade Organization was established on 1 January 1995 under the 1994 Marrakesh Agreement
+  that concluded GATT's Uruguay Round. It succeeded the GATT and extended trade rules into new areas such
+  as services and intellectual property.
+occurred:
+  start: '1995-01-01'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- world-trade-organization
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/World_Trade_Organization
+  title: World Trade Organization
+  publisher: Wikipedia
+  quote: Established on 1 January 1995, pursuant to the 1994 Marrakesh Agreement, it succeeded the General
+    Agreement on Tariffs and Trade (GATT), which was created in 1948.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/World_Trade_Organization
+  title: World Trade Organization
+  publisher: Wikipedia
+  quote: the Uruguay Round talks aimed to extend the trading system into several new areas, notably trade
+    in services and intellectual property
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade
+  title: General Agreement on Tariffs and Trade
+  publisher: Wikipedia
+  quote: The round led to the creation of WTO
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Q7825 is the organisation, used by the actor world-trade-organization.'

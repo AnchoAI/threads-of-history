@@ -1,0 +1,18 @@
+id: august-coup-1991--part_of--cold-war-1947-1991
+from: august-coup-1991
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on 1991 Soviet coup attempt lists it as part of Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  title: 1991 Soviet coup attempt
+  publisher: Wikipedia
+  quote: Part of the end of the Cold War, the Revolutions of 1989,; and later, the dissolution of the Soviet Union
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

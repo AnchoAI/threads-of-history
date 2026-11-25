@@ -1,0 +1,82 @@
+id: tass-denies-need-for-soviet-missiles-in-cuba-1962
+title: TASS statement denies need for Soviet missile bases in Cuba
+summary: A Soviet government statement issued through TASS on 11 September 1962 warned that a US attack
+  on Cuba or on Soviet ships bound for it would mean war, stressed that the weapons sent were defensive,
+  and said the Soviet Union had no need or intention to put offensive nuclear missiles in Cuba.
+occurred:
+  start: '1962-09-11'
+  precision: day
+threads:
+- cuba
+- usru
+- nuclear
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- soviet-union
+- nikita-khrushchev
+importance: 2
+wikidata: none
+source_credibility: low
+outcome: 'false'
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d422
+  archive_url: https://web.archive.org/web/20250930004101/https://history.state.gov/historicaldocuments/frus1961-63v10/d422
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 422: Memorandum Prepared in the Office of Current Intelligence, CIA: Soviet Statement on
+    Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-12'
+  quote: In a statement issued on September 11 through the Soviet news agency TASS, the Soviet Union warned
+    that any attack by the United States on Cuba or upon Soviet ships bound for Cuba would lead to war
+    between the United States and the Soviet Union.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d422
+  archive_url: https://web.archive.org/web/20250930004101/https://history.state.gov/historicaldocuments/frus1961-63v10/d422
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 422: Memorandum Prepared in the Office of Current Intelligence, CIA: Soviet Statement on
+    Cuba'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-09-12'
+  quote: It stresses the defensive nature of Soviet military equipment being furnished the Cubans and
+    implicitly denies any Soviet intention to establish military bases in Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: 'On 11 September, the Telegraph Agency of the Soviet Union (TASS: Telegrafnoe Agentstvo Sovetskogo
+    Soyuza) announced that the Soviet Union had no need or intention to introduce offensive nuclear missiles
+    into Cuba.'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The Soviets continued the Maskirovka program to conceal their actions in Cuba. They repeatedly
+    denied that the weapons being brought into Cuba were offensive in nature.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Operation_Anadyr
+  archive_url: https://web.archive.org/web/20261014173224/https://en.wikipedia.org/wiki/Operation_Anadyr
+  title: Operation Anadyr
+  publisher: Wikipedia
+  quote: 'Operation Anadyr (Russian: Анадырь) was the code name used by the Soviet Union for its Cold
+    War secret operation in 1962 of deploying ballistic missiles, medium-range bombers, and a division
+    of mechanized infantry to Cuba'
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'source_credibility low is an editorial judgement: an official statement issued while the secret deployment
+    was under way.'
+  - The statement text was reprinted in The New York Times, 12 September 1962, p. 16 (cited by FRUS);
+    not fetched.
+  - wikidata none.

@@ -1,0 +1,22 @@
+id: gang-of-four
+title: Gang of Four
+actor_type: group
+summary: Chinese political faction (Jiang Qing, Zhang Chunqiao, Yao Wenyuan and Wang Hongwen).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q196341
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q196341.json
+  title: Gang of Four
+  publisher: Wikidata
+  quote: Chinese political faction
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,38 @@
+id: government-of-india-act-1858
+title: British Crown takes over India (start of the Raj)
+summary: The Government of India Act 1858 liquidates the East India Company and transfers its rule over India to
+  the British Crown. The Raj lasts until the partition of India in August 1947.
+occurred:
+  start: '1858-08-02'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- united-kingdom
+- east-india-company
+- british-raj
+importance: 4
+wikidata: Q1359529
+sources:
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  archive_url: https://web.archive.org/web/20260818101913/https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  title: Government of India Act 1858
+  publisher: Wikipedia
+  quote: was an act of the Parliament of the United Kingdom passed on 2 August 1858. Its provisions called for the
+    liquidation of the East India Company
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  archive_url: https://web.archive.org/web/20260818101913/https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  title: Government of India Act 1858
+  publisher: Wikipedia
+  quote: The era of the new British Raj would last until the Partition of India in August 1947
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

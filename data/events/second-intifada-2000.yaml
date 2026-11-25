@@ -1,0 +1,78 @@
+id: second-intifada-2000
+title: Second Intifada
+summary: A Palestinian uprising and Israeli military response from September 2000 to the 2005 Sharm el-Sheikh
+  summit, marked by suicide bombings and military operations. The source gives 2,739–3,168 Palestinians killed
+  by Israeli troops and 644–773 Israeli civilians and 215–301 Israeli troops killed by Palestinians.
+occurred:
+  start: '2000-09-28'
+  end: '2005-02-08'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- yasser-arafat
+- ariel-sharon
+- israel
+- palestine-liberation-organization
+- hamas
+importance: 4
+wikidata: Q49106
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: An uptick in violent incidents started in September 2000, after Israeli politician Ariel Sharon made
+    a provocative visit to the Temple Mount; the visit itself was peaceful, but, as anticipated, sparked protests
+    and riots that Israeli police put down with rubber bullets, live ammunition, and tear gas.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: On 28 September, Israeli opposition leader Ariel Sharon and a Likud party delegation guarded by hundreds
+    of Israeli riot police visited the Temple Mount
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: This violence, which included shootings, suicide bombings, and military operations, continued until
+    the Sharm el-Sheikh Summit of 2005, which ended hostilities.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: Some consider 8 February 2005 to be the official end of the Second Intifada, although sporadic violence
+    still continued outside PA control or condonation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: 2,739–3,168 Palestinians killed by Israeli troops;
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: 644–773 Israeli civilians killed by Palestinians;
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: 215–301 Israeli troops killed by Palestinians
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

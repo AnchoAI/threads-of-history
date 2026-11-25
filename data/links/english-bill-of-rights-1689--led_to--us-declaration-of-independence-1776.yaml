@@ -1,0 +1,25 @@
+id: english-bill-of-rights-1689--led_to--us-declaration-of-independence-1776
+from: english-bill-of-rights-1689
+to: us-declaration-of-independence-1776
+type: led_to
+confidence: documented
+note: The Bill of Rights shaped the 1776 Virginia Declaration of Rights, which in turn influenced the
+  Declaration of Independence.
+sources:
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: The Bill of Rights directly influenced the 1776 Virginia Declaration of Rights, which in turn
+    influenced the Declaration of Independence.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.archives.gov/exhibits/featured-documents/magna-carta/legacy.html
+  title: Magna Carta and Its American Legacy
+  publisher: U.S. National Archives
+  quote: many incorporated liberties guaranteed by Magna Carta and the 1689 English Bill of Rights directly
+    into their own statutes
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced

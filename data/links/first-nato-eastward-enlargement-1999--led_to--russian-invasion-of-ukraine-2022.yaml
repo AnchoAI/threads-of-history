@@ -1,0 +1,97 @@
+id: first-nato-eastward-enlargement-1999--led_to--russian-invasion-of-ukraine-2022
+from: first-nato-eastward-enlargement-1999
+to: russian-invasion-of-ukraine-2022
+type: led_to
+confidence: contested
+note: Whether NATO's eastward enlargement provoked Russia's 2022 invasion of Ukraine is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  title: Enlargement of NATO
+  publisher: Wikipedia
+  quote: Russia invaded Ukraine in 2022 after Russian president Vladimir Putin said that NATO military
+    infrastructure was being built up inside Ukraine and that Ukraine's potential membership was a threat.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: NATO and EU expansion, and Western efforts to bring Ukraine into the West, provoked the war;
+    the West is largely to blame.
+  held_by:
+  - John Mearsheimer
+  sources:
+  - url: https://en.wikipedia.org/wiki/John_Mearsheimer
+    title: John Mearsheimer
+    publisher: Wikipedia
+    quote: Mearsheimer again blamed the invasion on "NATO expansion, EU expansion", and attempts to "turn
+      Ukraine into a pro-American liberal democracy"
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://www.foreignaffairs.com/articles/russia-fsu/2014-08-18/why-ukraine-crisis-west-s-fault
+    title: Why the Ukraine Crisis Is the West's Fault
+    publisher: Foreign Affairs (John J. Mearsheimer)
+    date: '2014-08-18'
+    quote: The taproot of the trouble is NATO enlargement, the central element of a larger strategy to
+      move Ukraine out of Russia's orbit and integrate it into the West.
+    type: scholarly
+    accessed: '2026-10-15'
+- claim: The Russian government presented NATO's expansion and its infrastructure near Russia's borders
+    as a threat that justified its actions.
+  held_by:
+  - Vladimir Putin (Russian government)
+  sources:
+  - url: http://en.kremlin.ru/events/president/news/20603
+    archive_url: https://web.archive.org/web/20261011222720/http://en.kremlin.ru/events/president/news/20603
+    title: Address by President of the Russian Federation
+    publisher: President of Russia (kremlin.ru)
+    date: '2014-03-18'
+    quote: This happened with NATO's expansion to the East, as well as the deployment of military infrastructure
+      at our borders.
+    type: primary
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    title: Enlargement of NATO
+    publisher: Wikipedia
+    quote: This impression was later used by him as part of his justification for Russia's 2014 actions
+      in Ukraine and the Russian invasion of Ukraine in 2022.
+    type: reference
+    accessed: '2026-10-15'
+- claim: 'Enlargement is not a legitimate security cause: Eastern Europeans sought NATO membership to
+    protect themselves from Russia, and Putin objects to NATO because it limits his power over Russia''s
+    neighbours.'
+  held_by:
+  - Filip Kostelka
+  - Peter Dickinson
+  - Michael McFaul
+  - Robert Person
+  sources:
+  - url: https://en.wikipedia.org/wiki/John_Mearsheimer
+    title: John Mearsheimer
+    publisher: Wikipedia
+    quote: Political scientist Filip Kostelka said Mearsheimer "ignores the fact that Ukrainians – like
+      other Eastern Europeans – have been actively seeking NATO membership to protect themselves from
+      the Russian threat.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    title: Enlargement of NATO
+    publisher: Wikipedia
+    quote: Peter Dickinson of the Atlantic Council wrote that Putin's "dislike of NATO enlargement is
+      real enough, but it has nothing to do with legitimate national security concerns.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+    title: Enlargement of NATO
+    publisher: Wikipedia
+    quote: In his speech announcing the invasion, Putin falsely claimed that NATO military infrastructure
+      was being built up inside Ukraine
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - The Kremlin quote is from Putin's March 2014 Crimea address, used here for the Russian government's
+    general position on NATO expansion; his February 2022 speech would be a closer source.

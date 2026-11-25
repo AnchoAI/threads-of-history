@@ -1,0 +1,21 @@
+# Events from the map used to check the model: for each, the country (ISO3) where the
+# fighting happened, as UCDP locates it, and the year it started. The check stands at
+# the start of that year, knowing only what was known then.
+- {event: nigerian-civil-war-1967, iso: NGA, year: 1967}
+- {event: bangladesh-liberation-war-1971, iso: PAK, year: 1971}
+- {event: lebanese-civil-war-1975, iso: LBN, year: 1975}
+- {event: soviet-invasion-of-afghanistan-1979, iso: AFG, year: 1979}
+- {event: iranian-revolution-1979, iso: IRN, year: 1979}
+- {event: iran-iraq-war-1980, iso: IRQ, year: 1980}
+- {event: yugoslav-wars-1991, iso: SRB, year: 1991}
+- {event: rwandan-genocide-1994, iso: RWA, year: 1994}
+- {event: first-chechen-war-1994, iso: RUS, year: 1994}
+- {event: first-congo-war-1996, iso: COD, year: 1996}
+- {event: kosovo-war-1998, iso: SRB, year: 1998}
+- {event: second-chechen-war-1999, iso: RUS, year: 1999}
+- {event: us-led-war-in-afghanistan-2001, iso: AFG, year: 2001}
+- {event: iraqi-civil-war-2006, iso: IRQ, year: 2006}
+- {event: syrian-civil-war-2011, iso: SYR, year: 2011}
+- {event: russia-annexes-crimea-2014, iso: UKR, year: 2014}
+- {event: yemeni-civil-war-2014, iso: YEM, year: 2014}
+- {event: russian-invasion-of-ukraine-2022, iso: UKR, year: 2022}

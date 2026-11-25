@@ -1,0 +1,70 @@
+id: u-2-shot-down-over-cuba-1962
+title: U-2 shot down over Cuba
+summary: On 27 October 1962 a US U-2 flown by Major Rudolf Anderson was shot down over Banes, Cuba, by
+  a Soviet SA-2 missile, and Anderson was killed. According to Wikipedia's account, two Soviet generals
+  in Havana ordered the launch after failing to reach their commander.
+occurred:
+  start: '1962-10-27'
+  precision: day
+threads:
+- cuba
+- usru
+regions:
+- americas
+actors:
+- rudolf-anderson
+- soviet-union
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: That same day a U.S. U–2 reconnaissance jet was shot down over Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: A few hours into his mission, at approximately 12:00 pm EDT, he was shot down over Banes, Cuba,
+    by one of two Soviet-supplied S-75 Dvina (NATO designation SA-2 Guideline) surface-to-air missiles
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The aircraft crashed, and Anderson was killed.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: Before giving this order, they attempted to obtain authorization from their superior officer
+    Army General Issa Pliyev (Commander of all Soviet forces in Cuba during Operation Anadyr), but after
+    finding that Pliyev was unreachable (possibly due to illness) they decided to authorize the shoot-down
+    themselves.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  archive_url: https://web.archive.org/web/20250929063335/https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 96: Memorandum From Attorney General Kennedy to Secretary of State Rusk'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-30'
+  quote: Further, I explained to him that in the last two hours we had found that our planes flying over
+    Cuba had been fired upon and that one of our U-2’s had been shot down and the pilot killed.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - Who authorised the launch rests on Wikipedia; a Soviet-side primary or scholarly source should be
+    added.
+  - 'wikidata none: no separate Wikidata item found for the shootdown.'

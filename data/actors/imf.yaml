@@ -1,0 +1,22 @@
+id: imf
+title: International Monetary Fund
+actor_type: organization
+summary: International financial institution.
+threads:
+- econ-crises
+regions:
+- americas
+importance: 3
+wikidata: Q7804
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7804.json
+  title: International Monetary Fund
+  publisher: Wikidata
+  quote: international financial institution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

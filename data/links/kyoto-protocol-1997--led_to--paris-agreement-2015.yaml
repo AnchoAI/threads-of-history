@@ -1,0 +1,26 @@
+id: kyoto-protocol-1997--led_to--paris-agreement-2015
+from: kyoto-protocol-1997
+to: paris-agreement-2015
+type: led_to
+confidence: documented
+note: Negotiations on what should follow Kyoto's second commitment period resulted in the Paris Agreement, which
+  replaced it.
+sources:
+- url: https://en.wikipedia.org/wiki/Kyoto_Protocol
+  archive_url: https://web.archive.org/web/20261011074230/https://en.wikipedia.org/wiki/Kyoto_Protocol
+  title: Kyoto Protocol
+  publisher: Wikipedia
+  quote: Negotiations were held in the framework of the yearly UNFCCC Climate Change Conferences on measures to
+    be taken after the second commitment period ended in 2020. This resulted in the 2015 adoption of the Paris Agreement
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Climate_change
+  title: Climate change
+  publisher: Wikipedia
+  quote: The agreement replaced the Kyoto Protocol.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

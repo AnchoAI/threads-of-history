@@ -1,0 +1,19 @@
+id: german-reunification-1990--part_of--revolutions-of-1989
+from: german-reunification-1990
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: Reunification is part of the revolutions of 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: Part of the revolutions of 1989 and the end of the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

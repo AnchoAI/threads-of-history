@@ -1,0 +1,22 @@
+id: ronan-farrow
+title: Ronan Farrow
+actor_type: person
+summary: American journalist.
+threads:
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q7365461
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7365461.json
+  title: Ronan Farrow
+  publisher: Wikidata
+  quote: American journalist
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

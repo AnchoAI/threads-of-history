@@ -1,0 +1,70 @@
+id: venona-decrypts-released-1995
+title: Venona decrypts made public
+summary: In 1995 the US Commission on Government Secrecy, chaired by Senator Daniel Patrick Moynihan,
+  released material from the Venona project, a secret US programme (1943–1980) that decrypted about 3,000
+  wartime Soviet intelligence messages. The decrypts named Soviet sources including Klaus Fuchs and Julius
+  and Ethel Rosenberg; some identifications, notably Alger Hiss's, are disputed.
+occurred:
+  start: '1995'
+  precision: year
+threads:
+- intel
+- usru
+regions:
+- americas
+actors:
+- united-states
+- soviet-union
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: it was not until 1995 that the bipartisan Commission on Government Secrecy, with Senator Moynihan
+    as chairman, released Venona project materials
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: that ran from February 1, 1943, until October 1, 1980
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: the Signal Intelligence Service decrypted and translated approximately 3,000 messages
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: Identities soon emerged of American, Canadian, Australian, and British spies in service to the
+    Soviet government, including Klaus Fuchs, Alan Nunn May, and Donald Maclean.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: Among those identified are Julius and Ethel Rosenberg, Alger Hiss, Harry Dexter White
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: In some cases, notably Hiss, the matching of a Venona cryptonym to an individual is disputed.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': Q696328 is the Venona project itself, not its 1995 release.'
+  - The project itself (1943–1980) could become its own item with known.by soviet-union (the source says
+    Bill Weisband revealed it to the Soviets in 1945) and known.public 1995.

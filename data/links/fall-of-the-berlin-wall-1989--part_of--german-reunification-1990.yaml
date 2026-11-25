@@ -1,0 +1,25 @@
+id: fall-of-the-berlin-wall-1989--part_of--german-reunification-1990
+from: fall-of-the-berlin-wall-1989
+to: german-reunification-1990
+type: part_of
+confidence: documented
+note: Reunification is dated from the fall of the Wall.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: Part of the Revolutions of 1989 and German reunification
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/German_reunification
+  archive_url: https://web.archive.org/web/20261013165728/https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: which began on 9 November 1989 and culminated on 3 October 1990
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

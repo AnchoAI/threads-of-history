@@ -1,0 +1,62 @@
+id: gdansk-agreement-1980
+title: Gdańsk Agreement and the birth of Solidarity
+summary: A strike at the Lenin Shipyard in Gdańsk that began on 14 August 1980 ends with an agreement
+  on 31 August between the Polish government and strike leader Lech Wałęsa. It led to the creation of
+  Solidarity, the first independent trade union in the Eastern Bloc, which came to claim over 10 million
+  members.
+occurred:
+  start: '1980-08-14'
+  end: '1980-08-31'
+  precision: day
+threads:
+- revolutions
+- rights
+regions:
+- russia-eastern-europe
+actors:
+- lech-walesa
+- solidarity
+importance: 4
+wikidata: Q765885
+sources:
+- url: https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  archive_url: https://web.archive.org/web/20260826200819/https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  title: Gdańsk Agreement
+  publisher: Wikipedia
+  quote: On 14 August workers at the Lenin Shipyard in Gdańsk went on strike
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  archive_url: https://web.archive.org/web/20260826200819/https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  title: Gdańsk Agreement
+  publisher: Wikipedia
+  quote: an agreement was formalized on 31 August
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  archive_url: https://web.archive.org/web/20260826200819/https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  title: Gdańsk Agreement
+  publisher: Wikipedia
+  quote: signed in late August 1980 by government representative Mieczysław Jagielski and strike leader
+    Lech Wałęsa, led to the creation of the trade union Solidarity
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  archive_url: https://web.archive.org/web/20260826200819/https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  title: Gdańsk Agreement
+  publisher: Wikipedia
+  quote: ultimately claiming over 10 million members nationwide
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: Solidarity, the first and only independent trade union in the Eastern Bloc
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,56 @@
+id: us-covert-action-in-chile-1970--led_to--chilean-coup-1973
+from: us-covert-action-in-chile-1970
+to: chilean-coup-1973
+type: led_to
+confidence: contested
+note: How far US pressure contributed to the coup is disputed among historians and in official US reviews.
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: The Nixon administration, which had played a role in creating favorable conditions for the coup,
+    promptly recognized the junta government
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: US actions helped create the conditions that led to the coup.
+  held_by:
+  - Peter Winn (historian)
+  sources:
+  - url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+    title: 1973 Chilean coup d'état
+    publisher: Wikipedia
+    quote: Historian Peter Winn found extensive evidence of United States complicity in events that helped
+      in part to create the conditions that led to the coup.
+    type: reference
+    accessed: '2026-10-15'
+- claim: There is no documentary evidence that the US actively coordinated or carried out the coup, though
+    Nixon wanted Allende's government to fail.
+  held_by:
+  - Sebastián Hurtado Torres (historian)
+  sources:
+  - url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+    title: 1973 Chilean coup d'état
+    publisher: Wikipedia
+    quote: According to historian Sebastián Hurtado Torres, there is no documentary evidence to support
+      that the United States government acted actively in the coordination and execution of the coup actions
+      by the Chilean Armed Forces.
+    type: reference
+    accessed: '2026-10-15'
+- claim: The CIA did not instigate the coup but knew of the plotting and probably appeared to condone
+    it.
+  held_by:
+  - US Intelligence Community (Hinchey Report, 2000)
+  sources:
+  - url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+    title: 1973 Chilean coup d'état
+    publisher: Wikipedia
+    quote: Although CIA did not instigate the coup that ended Allende's government on 11 September 1973,
+      it was aware of coup-plotting by the military, had ongoing intelligence collection relationships
+      with some plotters
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

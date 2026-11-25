@@ -1,0 +1,21 @@
+id: balkan-wars-1912--part_of--dissolution-of-the-ottoman-empire-1908
+from: balkan-wars-1912
+to: dissolution-of-the-ottoman-empire-1908
+type: part_of
+confidence: documented
+note: The Balkan Wars were among the defeats that characterised the dissolution period.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: Additionally, this period was characterised by continuing military failures by the empire. Despite military
+    reforms, the Ottoman Army met with disastrous defeat in the Italo-Turkish War (1911–1912) and the Balkan Wars
+    (1912–1913)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

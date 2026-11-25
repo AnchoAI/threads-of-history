@@ -1,0 +1,37 @@
+id: second-saudi-state-1824
+title: Second Saudi state (Emirate of Nejd)
+summary: Turki bin Abdullah, a grandson of Muhammad bin Saud, retook Riyadh in 1824 and restored Saudi rule in Najd.
+  The state lasted until its defeat at the Battle of Mulayda in 1891.
+occurred:
+  start: '1824'
+  end: '1891'
+  precision: year
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+actors: []
+importance: 3
+wikidata: Q146862
+sources:
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: This period is generally considered to have begun with Turki ibn Abdallah's capture of Riyadh in 1824,
+    which he designated as the new capital. The Second Saudi state endured until its defeat at the Battle of Mulayda
+    in 1891.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Emirate_of_Nejd
+  archive_url: https://web.archive.org/web/20260420063326/https://en.wikipedia.org/wiki/Emirate_of_Nejd
+  title: Second Saudi state (Emirate of Nejd)
+  publisher: Wikipedia
+  quote: Turki bin Abdullah, a grandson of the first Saudi imam Muhammad bin Saud
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

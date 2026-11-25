@@ -1,0 +1,31 @@
+id: north-and-poindexter-convicted-1989--part_of--iran-contra-affair-1984
+from: north-and-poindexter-convicted-1989
+to: iran-contra-affair-1984
+type: part_of
+confidence: documented
+note: The North and Poindexter trials were the Independent Counsel's main prosecutions over the affair.
+sources:
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: by the Grand Jury March 16, 1988, against Poindexter, North, Secord, and Hakim.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: North was tried and convicted by a jury in May 1989 of altering and destroying documents, accepting an
+    illegal gratuity and aiding and abetting in the obstruction of Congress.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.
+  - part_of here means the prosecutions belong to the affair's history; the sub-event starts after the affair's
+    operations ended.

@@ -1,0 +1,30 @@
+id: miami-herald-perversion-of-justice-2018--led_to--resignation-of-alexander-acosta-2019
+from: miami-herald-perversion-of-justice-2018
+to: resignation-of-alexander-acosta-2019
+type: led_to
+confidence: documented
+note: After the series, Acosta faced public scrutiny and calls to resign as Labor Secretary.
+sources:
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: Acosta faced heavy public scrutiny and calls to resign during his time as labor secretary following the
+    release of the story.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: Though he maintained his actions at the time were appropriate, Acosta resigned from his post as secretary
+    in July 2019 after months of scrutiny.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

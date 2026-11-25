@@ -1,0 +1,23 @@
+id: russian-apartment-bombings-1999--led_to--second-chechen-war-1999
+from: russian-apartment-bombings-1999
+to: second-chechen-war-1999
+type: led_to
+confidence: documented
+note: The bombings, together with the Dagestan incursion, triggered the Second Chechen War.
+sources:
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: The bombings, together with the 1999 war of Dagestan, triggered the Second Chechen War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: After the apartment bombings, Putin approved a more ambitious campaign to subdue all of Chechnya.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

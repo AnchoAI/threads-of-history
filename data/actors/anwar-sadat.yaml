@@ -1,0 +1,21 @@
+id: anwar-sadat
+title: Anwar Sadat
+actor_type: person
+summary: President of Egypt from 1970 to 1981.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q42013
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q42013.json
+  title: Anwar Sadat
+  publisher: Wikidata
+  quote: President of Egypt from 1970 to 1981
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

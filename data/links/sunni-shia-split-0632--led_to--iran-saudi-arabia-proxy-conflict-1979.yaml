@@ -1,0 +1,54 @@
+id: sunni-shia-split-0632--led_to--iran-saudi-arabia-proxy-conflict-1979
+from: sunni-shia-split-0632
+to: iran-saudi-arabia-proxy-conflict-1979
+type: led_to
+confidence: contested
+note: Iran and Saudi Arabia each claim to lead one branch of Islam; whether their rivalry is sectarian at root or
+  a power struggle that uses sect is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+  title: Iran–Saudi Arabia proxy conflict
+  publisher: Wikipedia
+  quote: Iran sees itself as the leading Shia Muslim power, while Saudi Arabia is the leading Sunni Muslim power
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Islam's fourteen-centuries-old schism is one key to the rivalry, though not the whole explanation.
+  held_by:
+  - Robert McMahon and Mohammed Aly Sergie (Council on Foreign Relations, 2014)
+  sources:
+  - url: https://www.cfr.org/sunni-shia-divide/
+    title: The Sunni-Shia Divide
+    publisher: Council on Foreign Relations (Robert McMahon, Mohammed Aly Sergie)
+    date: '2014-07-15'
+    quote: Islam’s schism, simmering for fourteen centuries, doesn’t explain all the political, economic, and geostrategic
+      factors involved in these conflicts, but it has become one prism by which to understand the underlying tensions.
+    type: scholarly
+    accessed: '2026-10-14'
+- claim: The rivalry is a political and economic power struggle; both states exploit sectarianism rather than being
+    driven by it.
+  held_by:
+  - F. Gregory Gause III (Brookings, 2014)
+  - Wikipedia, 'Iran–Saudi Arabia proxy conflict'
+  sources:
+  - url: https://www.brookings.edu/articles/beyond-sectarianism-the-new-middle-east-cold-war/
+    archive_url: https://web.archive.org/web/20260918184901/https://www.brookings.edu/articles/beyond-sectarianism-the-new-middle-east-cold-war/
+    title: 'Beyond Sectarianism: The New Middle East Cold War'
+    publisher: Brookings Institution (F. Gregory Gause III)
+    quote: In a new Analysis Paper, F. Gregory Gause, III frames Middle East politics in terms of a new, regional
+      cold war in which Iran and Saudi Arabia compete for power and influence.
+    type: scholarly
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Iran%E2%80%93Saudi_Arabia_proxy_conflict
+    title: Iran–Saudi Arabia proxy conflict
+    publisher: Wikipedia
+    quote: As of 2017, the rivalry is primarily a political and economic struggle exacerbated by religious differences,
+      and sectarianism in the region is exploited by both countries for geopolitical purposes as part of a larger
+      conflict.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Each position is quoted from a source that holds it. The link is contested because the weight of a centuries-old
+    religious divide, against modern politics, is debated.

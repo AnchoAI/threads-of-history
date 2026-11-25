@@ -1,0 +1,66 @@
+id: free-nelson-mandela-song-1984
+title: '"Free Nelson Mandela" released'
+summary: The Special AKA release "Nelson Mandela", also known as "Free Nelson Mandela", written by Jerry Dammers
+  about the imprisoned ANC leader. It reaches number nine in the UK; banned in South Africa, it is played there
+  at football matches and ANC rallies.
+occurred:
+  start: '1984-03-08'
+  precision: day
+threads:
+- music
+- celebrity-activism
+- rights
+regions:
+- western-europe
+- sub-saharan-africa
+actors:
+- jerry-dammers
+- nelson-mandela
+importance: 2
+wikidata: Q1453403
+sources:
+- url: https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  archive_url: https://web.archive.org/web/20260929014928/https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  title: Free Nelson Mandela
+  publisher: Wikipedia
+  quote: is a song written by British musician Jerry Dammers, and performed by the band the Special A.K.A. with
+    a lead vocal by Stan Campbell. It was first released on the single "Nelson Mandela"/"Break Down the Door" in
+    1984.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  archive_url: https://web.archive.org/web/20260929014928/https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  title: Free Nelson Mandela
+  publisher: Wikipedia
+  quote: 8 March 1984
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  archive_url: https://web.archive.org/web/20260929014928/https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  title: Free Nelson Mandela
+  publisher: Wikipedia
+  quote: The song peaked at number nine on the UK Singles Chart and was immensely popular in Africa.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  archive_url: https://web.archive.org/web/20260929014928/https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  title: Free Nelson Mandela
+  publisher: Wikipedia
+  quote: it got back into South Africa and was played at sporting events and ANC rallies. It became an anthem.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.theguardian.com/music/2013/dec/06/nelson-mandela-protest-song-special-aka
+  title: 'Nelson Mandela: the triumph of the protest song'
+  publisher: The Guardian
+  date: '2013-12-06'
+  quote: Dammers came home from Alexandra Palace in July 1983 with an armful of leaflets and an idea for a song.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - The release date 8 March 1984 is from the Wikipedia infobox. The ban in South Africa and play at football matches
+    is Dammers's own account (quoted in the Wikipedia article from The Guardian); the summary keeps to the sourced
+    'sporting events and ANC rallies' wording.

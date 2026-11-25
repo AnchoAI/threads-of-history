@@ -1,0 +1,64 @@
+id: mps-raise-profumo-rumours-in-commons-1963
+title: MPs raise rumours about a minister and Christine Keeler in the Commons
+summary: On 21 March 1963, under parliamentary privilege, George Wigg asked the Home Secretary to deny rumours connecting
+  'a minister' to Christine Keeler, Mandy Rice-Davies and the Edgecombe shooting. The next day John Profumo told
+  the House there had been 'no impropriety whatsoever' in his acquaintance with Keeler; on 4 June he admitted that
+  he had lied.
+occurred:
+  start: '1963-03-21'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- george-wigg
+- john-profumo
+- christine-keeler
+importance: 2
+source_credibility: medium
+outcome: confirmed
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: During a House of Commons debate, Wigg used parliamentary privilege to ask the Home Secretary to categorically
+    deny the truth of rumours connecting "a minister" to Keeler, Rice-Davies and the Edgecombe shooting.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  archive_url: https://web.archive.org/web/20250926083634/https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  title: Personal Statement (John Profumo), House of Commons, 22 March 1963
+  publisher: Hansard (UK Parliament)
+  date: '1963-03-22'
+  quote: spoke of rumours connecting a Minister with a Miss Keeler and a recent trial at the Central Criminal court.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  archive_url: https://web.archive.org/web/20250926083634/https://api.parliament.uk/historic-hansard/commons/1963/mar/22/personal-statement
+  title: Personal Statement (John Profumo), House of Commons, 22 March 1963
+  publisher: Hansard (UK Parliament)
+  date: '1963-03-22'
+  quote: There was no impropriety whatsoever in my acquaintanceship with Miss Keeler.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: On Tuesday 4 June, Profumo confessed the truth to Bligh, confirming that he had lied, resigned from the
+    government, and applied for the office of steward of the Chiltern Hundreds in order to give up his House of
+    Commons seat.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'Outcome ''confirmed'': Profumo admitted on 4 June 1963 that his denial was false.'
+  - Hansard's 22 March statement says the rumours were raised the night before by Wigg, Richard Crossman and Barbara
+    Castle; only Wigg is listed as an actor.
+  - source_credibility 'medium' is an editorial judgement.

@@ -1,0 +1,22 @@
+id: rachael-denhollander
+title: Rachael Denhollander
+actor_type: person
+summary: US gymnast.
+threads:
+- sport
+regions:
+- americas
+importance: 2
+wikidata: Q52587237
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q52587237.json
+  title: Rachael Denhollander
+  publisher: Wikidata
+  quote: US gymnast
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

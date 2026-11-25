@@ -1,0 +1,18 @@
+id: abolition-of-the-caliphate-1924--echo--isis-declares-caliphate-2014
+from: abolition-of-the-caliphate-1924
+to: isis-declares-caliphate-2014
+type: echo
+confidence: documented
+note: ISIL claimed in 2014 to have re-established the caliphate abolished in 1924; few Muslims acknowledged
+  the claim.
+sources:
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate
+  title: Abolition of the Caliphate
+  publisher: Wikipedia
+  quote: the Islamic State of Iraq and the Levant (1999–present, declaration of caliphate in 2014) declared
+    that they had re-established the Caliphate, although these claims received little acknowledgment from
+    other Muslims
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

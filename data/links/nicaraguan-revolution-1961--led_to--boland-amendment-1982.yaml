@@ -1,0 +1,23 @@
+id: nicaraguan-revolution-1961--led_to--boland-amendment-1982
+from: nicaraguan-revolution-1961
+to: boland-amendment-1982
+type: led_to
+confidence: documented
+note: Reports of abuses by the US-backed Contras, who fought the Sandinista government, led Congress to cut off
+  their funding.
+sources:
+- url: https://en.wikipedia.org/wiki/Boland_Amendment
+  archive_url: https://web.archive.org/web/20260927224926/https://en.wikipedia.org/wiki/Boland_Amendment
+  title: Boland Amendment
+  publisher: Wikipedia
+  quote: Public knowledge of routine human rights abuses committed by the Contra rebels led to the passage of the
+    Boland Amendment by Congress, which cut off any appropriated funding for the Contras that would be used for
+    the purpose of overthrowing the Nicaraguan government.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.
+  - The cause is the Contra war, which the existing nicaraguan-revolution-1961 item covers (it runs to 1990).

@@ -1,0 +1,21 @@
+id: llewellyn-thompson
+title: Llewellyn Thompson
+actor_type: person
+summary: American diplomat (1904–1972).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q941379
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q941379.json
+  title: Llewellyn Thompson
+  publisher: Wikidata
+  quote: American diplomat (1904–1972)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

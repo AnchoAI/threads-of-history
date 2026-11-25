@@ -1,0 +1,44 @@
+id: october-revolution-1917
+title: October Revolution
+summary: Lenin's Bolsheviks overthrew the Provisional Government in an insurrection in Petrograd and took
+  the Winter Palace. Soviet accounts presented it as a workers' revolution; Western observers called it
+  a coup.
+occurred:
+  start: '1917-11-07'
+  precision: day
+  note: 'The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date
+    is recorded here. Old Style: 25 October 1917.'
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- bolsheviks
+- vladimir-lenin
+- russian-provisional-government
+importance: 5
+wikidata: Q42976
+sources:
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: It was led by Vladimir Lenin's Bolsheviks as part of the broader Russian Revolution of 1917–1923.
+    It began through an insurrection in Petrograd (now Saint Petersburg) on 7 November 1917 [O.S. 25 October].
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: they captured the Winter Palace — the seat of the Provisional government located in Petrograd,
+    then capital of Russia
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: The victorious Soviet Union viewed it as a validation of its ideology and the triumph of the
+    working class over capitalism. On the other hand, Western observers saw it as a totalitarian coup
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

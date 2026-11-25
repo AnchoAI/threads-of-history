@@ -1,0 +1,45 @@
+id: giovanni-leone-resigns-1978
+title: Italian President Giovanni Leone resigns
+summary: On 15 June 1978, after months of controversy over Lockheed bribery allegations, Giovanni Leone resigns
+  as President of Italy, the first Italian president to resign because of a scandal.
+occurred:
+  start: '1978-06-15'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- giovanni-leone
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Giovanni_Leone
+  archive_url: https://web.archive.org/web/20261009104336/https://en.wikipedia.org/wiki/Giovanni_Leone
+  title: Giovanni Leone
+  publisher: Wikipedia
+  quote: Leone was the first Italian president to resign because of a scandal.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Giovanni_Leone
+  archive_url: https://web.archive.org/web/20261009104336/https://en.wikipedia.org/wiki/Giovanni_Leone
+  title: Giovanni Leone
+  publisher: Wikipedia
+  quote: In June 1978, after months of polemics, Leone resigned as President of the Republic.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The allegations of bribery were supported by political magazine L'Espresso, and targeted former Cabinet
+    ministers Luigi Gui and Mario Tanassi, the former Prime Minister Mariano Rumor and President Giovanni Leone,
+    forcing him to resign on June 15, 1978.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - No separate Wikidata item for the resignation.

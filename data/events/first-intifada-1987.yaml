@@ -1,0 +1,64 @@
+id: first-intifada-1987
+title: First Intifada
+summary: A Palestinian uprising against Israeli occupation that began on 9 December 1987 in the Jabalia refugee
+  camp and lasted until 1991 or 1993. The source attributes at least 1,087 Palestinian deaths to the Israeli
+  army, about 160 Israeli deaths, and an estimated 822 Palestinians killed as alleged collaborators.
+occurred:
+  start: 1987-12
+  end: 1993-09
+  precision: month
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- palestine-liberation-organization
+- hamas
+importance: 4
+wikidata: Q49105
+sources:
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: The Intifada began on 9 December 1987 in the Jabalia refugee camp after an Israeli truck driver collided
+    with parked civilian vehicles, killing four Palestinian workers, three of whom were from the refugee camp.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: The uprising lasted from December 1987 until the Madrid Conference of 1991, though some date its conclusion
+    to 1993, the year the Oslo Accords were signed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Oslo_I_Accord
+  archive_url: https://web.archive.org/web/20260924055443/https://en.wikipedia.org/wiki/Oslo_I_Accord
+  title: Oslo I Accord
+  publisher: Wikipedia
+  quote: the Oslo Accords were subsequently officially signed at a public ceremony in Washington, D.C., on
+    13 September 1993
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: During the whole six-year intifada, the Israeli army killed at least 1,087 Palestinians, of which
+    240 were children.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: Among Israelis, 100 civilians and 60 Israeli soldiers were killed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: Intra-Palestinian violence was also a prominent feature of the Intifada, with widespread executions
+    of an estimated 822 Palestinians killed as alleged Israeli collaborators (1988–April 1994).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

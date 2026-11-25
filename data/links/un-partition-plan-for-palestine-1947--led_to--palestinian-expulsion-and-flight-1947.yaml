@@ -1,0 +1,18 @@
+id: un-partition-plan-for-palestine-1947--led_to--palestinian-expulsion-and-flight-1947
+from: un-partition-plan-for-palestine-1947
+to: palestinian-expulsion-and-flight-1947
+type: led_to
+confidence: documented
+note: The war that followed the partition vote led to the expulsion and flight of most Palestinians from what
+  became Israel.
+sources:
+- url: https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine
+  title: United Nations Partition Plan for Palestine
+  publisher: Wikipedia
+  quote: The plan was not implemented and a civil war quickly broke out in Palestine, eventually becoming a
+    larger regional war, and leading to the expulsion and flight of 85% of the Palestinians living in the areas
+    that became the State of Israel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,68 @@
+id: baker-not-one-inch-assurance-1990
+title: Baker's 'not one inch eastward' assurance
+summary: 'Meeting Gorbachev in Moscow on 9 February 1990 during the German unification talks, US Secretary
+  of State James Baker asks whether he would prefer a united Germany outside NATO or one tied to NATO
+  ''with assurances that NATO''s jurisdiction would not shift one inch eastward''. Whether such statements
+  amounted to a promise against NATO enlargement is disputed: the National Security Archive says later
+  Soviet and Russian complaints were founded in the records, while the historian Mark Kramer called the
+  pledge a ''myth''.'
+occurred:
+  start: '1990-02-09'
+  precision: day
+threads:
+- usru
+- ukraine
+regions:
+- russia-eastern-europe
+- western-europe
+actors:
+- james-baker
+- mikhail-gorbachev
+- nato
+- united-states
+- soviet-union
+importance: 3
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: U.S. Secretary of State James Baker's famous "not one inch eastward" assurance about NATO expansion
+    in his meeting with Soviet leader Mikhail Gorbachev on February 9, 1990
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: with assurances that NATO's jurisdiction would not shift one inch eastward from its present position?
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: subsequent Soviet and Russian complaints about being misled about NATO expansion were founded
+    in written contemporaneous memcons and telcons at the highest levels
+  type: primary
+  accessed: '2026-10-15'
+- url: https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early
+  title: 'NATO Expansion: What Gorbachev Heard'
+  publisher: National Security Archive
+  date: '2017-12-12'
+  quote: whose 2009 Washington Quarterly article argued that the "no-NATO-enlargement pledge" was a "myth"
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  archive_url: https://web.archive.org/web/20261001102306/https://en.wikipedia.org/wiki/Enlargement_of_NATO
+  title: Enlargement of NATO
+  publisher: Wikipedia
+  quote: Gorbachev later stated that NATO enlargement was "not discussed at all" in 1990
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

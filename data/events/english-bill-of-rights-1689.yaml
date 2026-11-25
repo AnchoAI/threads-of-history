@@ -1,0 +1,52 @@
+id: english-bill-of-rights-1689
+title: English Bill of Rights
+summary: An Act of the English Parliament, given royal assent in December 1689, that limits the monarch's
+  powers, sets out the rights of Parliament such as free elections, and lists individual rights including
+  the ban on cruel and unusual punishment.
+occurred:
+  start: '1689-12-16'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- kingdom-of-england
+importance: 4
+wikidata: Q219447
+sources:
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: The Declaration of Right was enacted in an Act of Parliament, the Bill of Rights 1689, which
+    received royal assent in December 1689.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: 16 December 1689
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: As well as setting limits on the powers of the monarch, it established the rights of Parliament,
+    including regular parliaments, free elections, and parliamentary privilege.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  title: Bill of Rights 1689
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082004/https://en.wikipedia.org/wiki/Bill_of_Rights_1689
+  quote: It also listed individual rights, including the prohibition of cruel and unusual punishment
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The day (16 December 1689) comes from the article infobox ("Royal assent"); the prose gives December
+    1689. The Act is officially dated 1688 under the Old Style calendar, as the same article notes.

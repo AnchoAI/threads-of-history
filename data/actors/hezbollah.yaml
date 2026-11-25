@@ -1,0 +1,21 @@
+id: hezbollah
+title: Hezbollah
+actor_type: organization
+summary: Iranian-backed Shia Islamist political party and terrorist organization in Lebanon.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q41053
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q41053.json
+  title: Hezbollah
+  publisher: Wikidata
+  quote: Iranian-backed Shia Islamist political party and terrorist organization in Lebanon
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

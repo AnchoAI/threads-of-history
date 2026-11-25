@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: maddison-population
+title: Population (Maddison Project)
+summary: Population in thousands, from the Maddison Project Database 2023.
+occurred:
+  start: '1900'
+  end: '2022'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: thousands
+dataset: maddison-project
+indicator: pop
+table: tables/maddison-population.csv
+sources:
+- url: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023
+  title: Maddison Project Database 2023
+  publisher: Groningen Growth and Development Centre
+  type: scholarly

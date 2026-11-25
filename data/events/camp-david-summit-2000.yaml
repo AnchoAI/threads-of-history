@@ -1,0 +1,64 @@
+id: camp-david-summit-2000
+title: 2000 Camp David Summit
+summary: Bill Clinton, Ehud Barak and Yasser Arafat met at Camp David from 11 to 25 July 2000 to try to end
+  the conflict; the summit ended without agreement, largely over Jerusalem. Clinton blamed Arafat; other participants
+  and observers, such as US negotiator Robert Malley, spread the blame more widely.
+occurred:
+  start: '2000-07-11'
+  end: '2000-07-25'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- yasser-arafat
+- ehud-barak
+- israel
+- palestine-liberation-organization
+- united-states
+importance: 3
+wikidata: Q1029825
+sources:
+- url: https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  archive_url: https://web.archive.org/web/20261009135403/https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  title: 2000 Camp David Summit
+  publisher: Wikipedia
+  quote: The summit took place between 11 and 25 July 2000 and was an effort to end the Israeli–Palestinian
+    conflict.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  archive_url: https://web.archive.org/web/20261009135403/https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  title: 2000 Camp David Summit
+  publisher: Wikipedia
+  quote: The summit ended without an agreement, largely due to irreconcilable differences between Israelis
+    and Palestinians on the status of Jerusalem.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  archive_url: https://web.archive.org/web/20261009135403/https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  title: 2000 Camp David Summit
+  publisher: Wikipedia
+  quote: Shortly after the conclusion of his presidency, Clinton assigned the blame for the failure of the
+    2000 Camp David Summit squarely on Yasser Arafat and the Palestinians.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  archive_url: https://web.archive.org/web/20261009135403/https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  title: 2000 Camp David Summit
+  publisher: Wikipedia
+  quote: Which party (parties) should be blamed for the lack of success of the Summit is hotly debated.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  archive_url: https://web.archive.org/web/20261009135403/https://en.wikipedia.org/wiki/2000_Camp_David_Summit
+  title: 2000 Camp David Summit
+  publisher: Wikipedia
+  quote: Robert Malley, part of the Clinton administration and present at the summit, wrote to dispel three
+    "myths" regarding the summit's failure.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

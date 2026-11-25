@@ -1,0 +1,42 @@
+id: taiping-rebellion-1850
+title: Taiping Rebellion
+summary: A rebellion led by Hong Xiuquan, who proclaimed himself the younger brother of Jesus Christ,
+  fought the Qing dynasty from 1850 to 1864. Estimates of the dead range from 20–30 million to 73–100
+  million.
+occurred:
+  start: 1850-12
+  end: 1864-08
+  precision: month
+threads:
+- china
+- religion
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- hong-xiuquan
+importance: 4
+wikidata: Q192408
+sources:
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: December 1850 – August 1864
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: The uprising was led by Hong Xiuquan, an ethnic Hakka who, after a series of visions, proclaimed
+    himself to be the younger brother of Jesus Christ.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: Estimates of the war's death toll range from 20–30 million, around 5–10% of the total Chinese
+    population at the time, to 73–100 million, around 25% of the population.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

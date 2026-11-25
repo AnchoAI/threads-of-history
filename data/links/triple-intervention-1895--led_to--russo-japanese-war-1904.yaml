@@ -1,0 +1,16 @@
+id: triple-intervention-1895--led_to--russo-japanese-war-1904
+from: triple-intervention-1895
+to: russo-japanese-war-1904
+type: led_to
+confidence: documented
+note: Japanese reaction against the intervention was one of the war's causes.
+sources:
+- url: https://en.wikipedia.org/wiki/Triple_Intervention
+  title: Triple Intervention
+  publisher: Wikipedia
+  quote: The reaction against the Triple Intervention was one of the causes of the Russo-Japanese War
+    of 1904–1905, in which Japan won the Russian lease on the peninsula.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

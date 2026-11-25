@@ -1,0 +1,25 @@
+id: yalta-conference-1945--led_to--soviet-declaration-of-war-on-japan-1945
+from: yalta-conference-1945
+to: soviet-declaration-of-war-on-japan-1945
+type: led_to
+confidence: documented
+note: The Soviet declaration of war followed the Yalta agreement to enter the Pacific war within three
+  months of Germany's defeat.
+sources:
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: Late on 8 August 1945, in accordance with the Yalta agreements, but in violation of the Soviet–Japanese
+    Neutrality Pact, the Soviet Union declared war on Japan
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: Between the two bombings, the Soviets, pursuant to the Yalta agreement, declared war on Japan,
+    invaded Japanese-held Manchuria and quickly defeated the Kwantung Army, which was the largest Japanese
+    fighting force.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,33 @@
+id: battle-of-karbala-0680--led_to--iranian-revolution-1979
+from: battle-of-karbala-0680
+to: iranian-revolution-1979
+type: led_to
+confidence: documented
+note: Revolutionaries recast Karbala as a model of resistance to tyranny; Khomeini cast the Shah as the Yazid of
+  his time.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: Karbala and Shia symbolism played a significant role in the Iranian Revolution.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: Ruhollah Khomeini labelled the Shah as the Yazid of his time.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20261014125015/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: It resisted westernization and saw Ayatollah Khomeini as following in the footsteps of the Shi'a Imam Husayn
+    ibn Ali, with the Shah playing the role of Husayn's foe, the hated tyrant Yazid I.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection itself. Karbala symbolism is one factor among several; the Iranian
+    Revolution article also names nationalist and populist causes.

@@ -1,0 +1,27 @@
+id: diriyah-pact-1744--led_to--saudi-arabia-proclaimed-1932
+from: diriyah-pact-1744
+to: saudi-arabia-proclaimed-1932
+type: led_to
+confidence: documented
+note: The Al Saud–Al ash-Sheikh power-sharing begun in 1744 remains the basis of Saudi dynastic rule.
+sources:
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: This alliance provided the ideological impetus to Saudi expansion and remains the basis of Saudi Arabian
+    dynastic rule today.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: began a dynastic alliance and power-sharing arrangement between their families which continues to the present
+    day in the Kingdom of Saudi Arabia
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

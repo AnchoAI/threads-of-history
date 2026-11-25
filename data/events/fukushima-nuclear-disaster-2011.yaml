@@ -1,0 +1,50 @@
+id: fukushima-nuclear-disaster-2011
+title: Fukushima Daiichi nuclear disaster
+summary: The Tōhoku earthquake and tsunami knock out power and cooling at the Fukushima Daiichi plant,
+  leading to three core meltdowns and radioactive releases. At least 164,000 people were displaced; it
+  was the worst nuclear accident since Chernobyl.
+occurred:
+  start: '2011-03-11'
+  precision: day
+threads:
+- industry
+- energy
+regions:
+- east-asia
+actors: []
+importance: 4
+wikidata: Q171178
+sources:
+- url: https://en.wikipedia.org/wiki/Fukushima_nuclear_accident
+  title: Fukushima nuclear accident
+  publisher: Wikipedia
+  quote: On 11 March 2011, a major nuclear accident started at the Fukushima Daiichi Nuclear Power Plant
+    in Ōkuma, Fukushima, Japan. The direct cause was the Tōhoku earthquake and tsunami
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power
+  title: Nuclear power
+  publisher: Wikipedia
+  quote: The Fukushima Daiichi Nuclear Power Plant suffered three core meltdowns due to failure of the
+    emergency cooling system for lack of electricity supply.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fukushima_nuclear_accident
+  title: Fukushima nuclear accident
+  publisher: Wikipedia
+  quote: Following the accident, at least 164,000 residents of the surrounding area were permanently or
+    temporarily displaced
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fukushima_nuclear_accident
+  title: Fukushima nuclear accident
+  publisher: Wikipedia
+  quote: It is regarded by the United Nations Scientific Committee on the Effects of Atomic Radiation
+    as the worst nuclear incident since the Chernobyl disaster.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

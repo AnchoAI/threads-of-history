@@ -1,0 +1,22 @@
+id: triple-intervention-1895--led_to--anglo-japanese-alliance-1902
+from: triple-intervention-1895
+to: anglo-japanese-alliance-1902
+type: led_to
+confidence: documented
+note: Japan sought a Western ally so that no coalition could force its hand again.
+sources:
+- url: https://en.wikipedia.org/wiki/Triple_Intervention
+  title: Triple Intervention
+  publisher: Wikipedia
+  quote: It led directly to the Anglo-Japanese Alliance of 1902 which was explicitly intended to shield
+    Japan from interference from other European great powers, and from Russia in particular.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Japan sought to prevent a repetition of the Triple Intervention, which deprived it of Port Arthur.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

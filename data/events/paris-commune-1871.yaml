@@ -1,0 +1,43 @@
+id: paris-commune-1871
+title: Paris Commune
+summary: A revolutionary government seizes power in Paris and holds parts of the city for ten weeks until
+  the French army crushes it. Marx and Engels described it as the first example of the dictatorship of
+  the proletariat.
+occurred:
+  start: '1871-03-18'
+  end: '1871-05-28'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- france
+importance: 4
+wikidata: Q133132
+sources:
+- url: https://en.wikipedia.org/wiki/Paris_Commune
+  title: Paris Commune
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261006123045/https://en.wikipedia.org/wiki/Paris_Commune
+  quote: a French revolutionary government that seized power in Paris on 18 March 1871 and controlled
+    parts of the city until 28 May 1871
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Commune
+  title: Paris Commune
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261006123045/https://en.wikipedia.org/wiki/Paris_Commune
+  quote: On 28 May, the regular army captured the remaining positions of the Commune
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Paris_Commune
+  title: Paris Commune
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261006123045/https://en.wikipedia.org/wiki/Paris_Commune
+  quote: Karl Marx and Friedrich Engels, who described the régime in Paris as the first example of the
+    dictatorship of the proletariat
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

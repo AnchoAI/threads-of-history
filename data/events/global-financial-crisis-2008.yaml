@@ -1,0 +1,68 @@
+id: global-financial-crisis-2008
+title: 2007–2008 global financial crisis
+summary: The collapse of the US housing bubble set off a financial crisis that began with the subprime
+  mortgage crisis in early 2007, peaked with the bankruptcy of Lehman Brothers in September 2008, and
+  spread worldwide through bank runs and a stock market crash. It deepened the Great Recession (December
+  2007 to June 2009 in the US); its causes are disputed, and the US inquiry commission split along party
+  lines.
+occurred:
+  start: '2007'
+  end: '2008'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+- federal-reserve
+- lehman-brothers
+importance: 5
+wikidata: Q896666
+sources:
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: The immediate cause of the crisis was the collapse of the 2000s U.S. housing bubble
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: The first phase was the subprime mortgage crisis, which began in early 2007
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: A liquidity crisis spread to global institutions by mid-2007 and climaxed with the bankruptcy
+    of Lehman Brothers in September 2008, which triggered a stock market crash and bank runs in several
+    countries.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: The crisis exacerbated the Great Recession, a global recession that began in late 2007, and contributed
+    to major crises in Iceland and the eurozone.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-recession-of-200709
+  archive_url: https://web.archive.org/web/20261014074607/https://www.federalreservehistory.org/essays/great-recession-of-200709
+  title: The Great Recession
+  publisher: Federal Reserve History (Robert Rich)
+  quote: The Great Recession began in December 2007 and ended in June 2009, which makes it the longest
+    recession since World War II.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission
+  archive_url: https://web.archive.org/web/20260831214303/https://en.wikipedia.org/wiki/Financial_Crisis_Inquiry_Commission
+  title: Financial Crisis Inquiry Commission
+  publisher: Wikipedia
+  quote: In voting on the adoption of the final report the commission was split evenly along partisan
+    lines
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

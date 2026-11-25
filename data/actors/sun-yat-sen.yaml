@@ -1,0 +1,22 @@
+id: sun-yat-sen
+title: Sun Yat-sen
+actor_type: person
+summary: Chinese politician, physician, and revolutionary (1866–1925).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q8573
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8573.json
+  title: Sun Yat-sen
+  publisher: Wikidata
+  quote: Chinese politician, physician, and revolutionary (1866–1925)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

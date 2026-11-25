@@ -1,0 +1,50 @@
+id: ipcc-founded-1988
+title: IPCC founded
+summary: The World Meteorological Organization and the UN Environment Programme set up the Intergovernmental Panel
+  on Climate Change to give governments regular scientific assessments of climate change; the UN General Assembly
+  endorsed it on 6 December 1988.
+occurred:
+  start: '1988'
+  precision: year
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- ipcc
+importance: 4
+wikidata: 'none'
+sources:
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: The Intergovernmental Panel on Climate Change (IPCC) was established in 1988 to provide policymakers with
+    regular scientific assessments on the current state of knowledge about climate change.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: The Intergovernmental Panel on Climate Change (IPCC) was established by the United Nations Environment
+    Programme (UNEP) and the World Meteorological Organization (WMO) in 1988.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: Its initial task, as outlined in UN General Assembly Resolution 43/53 of 6 December 1988
+  type: primary
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  archive_url: https://web.archive.org/web/20261011224149/https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  title: Intergovernmental Panel on Climate Change
+  publisher: Wikipedia
+  quote: The United Nations endorsed the creation of the IPCC in 1988.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q171183 (the IPCC) is used by the actor ipcc, so the founding event has 'none'.

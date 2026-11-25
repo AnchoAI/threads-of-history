@@ -1,0 +1,21 @@
+title: "[Contested] "
+labels: ["contested"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a connection that serious sources disagree about. The project records each side and who holds it; it does not pick a winner.
+  - type: input
+    id: link
+    attributes:
+      label: The connection
+      description: For example "Bucharest summit 2008 contributed to Russia's annexation of Crimea".
+    validations:
+      required: true
+  - type: textarea
+    id: positions
+    attributes:
+      label: The positions
+      description: For each side, the claim, who holds it, and a source with a quote.
+    validations:
+      required: true

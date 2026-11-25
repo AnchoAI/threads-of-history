@@ -1,0 +1,26 @@
+id: battle-of-karbala-0680--part_of--sunni-shia-split-0632
+from: battle-of-karbala-0680
+to: sunni-shia-split-0632
+type: part_of
+confidence: documented
+note: Karbala turned the pro-Alid political party into a separate religious sect.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: The Battle of Karbala gave the early political party of pro-Alids, which had not yet developed specific
+    theological doctrines and set of rituals, a distinct religious identity and helped transform and consolidate
+    it into a separate religious sect.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  archive_url: https://web.archive.org/web/20261003080840/https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  title: Shia–Sunni relations
+  publisher: Wikipedia
+  quote: Thus a political split became a far more deeper and a cause for further divergence.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

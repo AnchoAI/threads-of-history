@@ -1,0 +1,82 @@
+id: johnson-postpones-moscow-summit-announcement-1968
+title: Johnson withholds the Moscow summit announcement
+summary: On the evening of 20 August 1968, after Ambassador Dobrynin told him that Soviet troops had been ordered
+  into Czechoslovakia, President Johnson called an emergency National Security Council meeting, which decided
+  to tell Dobrynin that the United States would not announce the President's planned visit to Moscow and that
+  it had asked the UN Security Council to meet. General Wheeler said there was no military action the United
+  States could take.
+occurred:
+  start: '1968-08-20'
+  precision: day
+threads:
+- usru
+- nuclear
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- lyndon-b-johnson
+- dean-rusk
+- richard-helms
+- anatoly-dobrynin
+- united-states
+importance: 3
+wikidata: none
+decided_by:
+- lyndon-b-johnson
+- united-states
+alternatives:
+- option: Make the joint US–Soviet announcement on 21 August as planned
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d80
+    archive_url: https://web.archive.org/web/20260929130805/https://history.state.gov/historicaldocuments/frus1964-68v17/d80
+    title: 'FRUS 1964–1968, vol. XVII, doc. 80: Summary of meeting of the President with Ambassador Dobrynin'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-08-20'
+    quote: Mr. Rostow said that it had been our understanding that the joint announcement would be made at
+      10 o’clock tomorrow.
+    type: primary
+    accessed: '2026-10-21'
+- option: Military action
+  note: Ruled out by the Chairman of the Joint Chiefs of Staff.
+  sources:
+  - url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+    archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+    title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+    publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+    date: '1968-08-20'
+    quote: 'General Wheeler: There is no military action we can take. We do not have the forces to do it.'
+    type: primary
+    accessed: '2026-10-21'
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+  archive_url: https://web.archive.org/web/20260214215633/https://history.state.gov/historicaldocuments/frus1964-68v14/d289
+  title: 'FRUS 1964–1968, vol. XIV, doc. 289: Editorial note'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  quote: At 10:15 p.m. on August 20 the President convened an emergency meeting of the National Security Council,
+    at which a decision was made to inform Dobrynin that the U.S. Government would not announce the President’s
+    impending visit to Moscow.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  archive_url: https://web.archive.org/web/20260311053521/https://history.state.gov/historicaldocuments/frus1964-68v17/d81
+  title: 'FRUS 1964–1968, vol. XVII, doc. 81: Notes of emergency meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-20'
+  quote: 1. Call in Dobrynin. 2. Tell him we won’t make announcement. 3. Tell him we asked Council to meet.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d80
+  archive_url: https://web.archive.org/web/20260929130805/https://history.state.gov/historicaldocuments/frus1964-68v17/d80
+  title: 'FRUS 1964–1968, vol. XVII, doc. 80: Summary of meeting of the President with Ambassador Dobrynin'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-20'
+  quote: Accordingly, the Soviet military units received orders to enter the territory of Czechoslovakia.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'Wikidata: no item for the decision was found; set to none.'

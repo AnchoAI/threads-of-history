@@ -1,0 +1,25 @@
+id: germany-resumes-unrestricted-submarine-warfare-1917--led_to--us-entry-into-world-war-i-1917
+from: germany-resumes-unrestricted-submarine-warfare-1917
+to: us-entry-into-world-war-i-1917
+type: led_to
+confidence: documented
+note: Germany's resumption of submarine attacks was the primary motivation for Wilson's decision to go to war.
+sources:
+- url: https://history.state.gov/milestones/1914-1920/wwi
+  title: U.S. Entry into World War I, 1917
+  publisher: Office of the Historian, U.S. Department of State
+  quote: Germany’s resumption of submarine attacks on passenger and merchant ships in 1917 became the primary motivation
+    behind Wilson’s decision to lead the United States into World War I.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Unrestricted_submarine_warfare
+  title: Unrestricted submarine warfare
+  publisher: Wikipedia
+  quote: Germany's resumption of unrestricted submarine warfare in February 1917, together with the Zimmermann Telegram,
+    brought American entry into World War I on the British side.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

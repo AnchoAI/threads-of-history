@@ -1,0 +1,87 @@
+id: abu-ghraib-prisoner-abuse-2003
+title: Abu Ghraib prisoner abuse
+summary: Between October and December 2003 US soldiers of the 372nd Military Police Company and members of the US
+  intelligence community abuse detainees at Abu Ghraib prison in Iraq, according to an Army investigation by Major
+  General Antonio Taguba, which found 'numerous instances of sadistic, blatant, and wanton criminal abuses'.
+occurred:
+  start: '2003-10'
+  end: '2003-12'
+  precision: month
+known:
+  public:
+    start: '2004-04-28'
+    precision: day
+    note: CBS's 60 Minutes II broadcast of the photographs.
+  by:
+  - party: US Army command in Iraq
+    when:
+      start: '2004-01'
+      precision: month
+    sources:
+    - url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+      archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+      title: Abu Ghraib torture and prisoner abuse
+      publisher: Wikipedia
+      quote: The ICRC reports led to Lieutenant General Ricardo Sanchez, the commander of the Iraqi task force,
+        appointing Major General Antonio Taguba to investigate the allegations on January 1, 2004.
+      type: reference
+      accessed: '2026-10-23'
+    - url: https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+      archive_url: https://web.archive.org/web/20261013023102/https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+      title: Torture at Abu Ghraib
+      publisher: The New Yorker (Seymour M. Hersh)
+      date: '2004-05-10'
+      quote: Taguba and not meant for public release, was completed in late February.
+      type: news
+      accessed: '2026-10-23'
+threads:
+- scandals
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- united-states
+- iraq
+- charles-graner
+- antonio-taguba
+importance: 3
+wikidata: Q334720
+sources:
+- url: https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  archive_url: https://web.archive.org/web/20261013023102/https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  title: Torture at Abu Ghraib
+  publisher: The New Yorker (Seymour M. Hersh)
+  date: '2004-05-10'
+  quote: Specifically, Taguba found that between October and December of 2003 there were numerous instances of “sadistic,
+    blatant, and wanton criminal abuses” at Abu Ghraib.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  archive_url: https://web.archive.org/web/20261013023102/https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  title: Torture at Abu Ghraib
+  publisher: The New Yorker (Seymour M. Hersh)
+  date: '2004-05-10'
+  quote: This systematic and illegal abuse of detainees, Taguba reported, was perpetrated by soldiers of the 372nd
+    Military Police Company, and also by members of the American intelligence community.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: During the early stages of the Iraq War, members of the United States Army and the Central Intelligence
+    Agency committed a series of human rights violations and war crimes against detainees in Abu Ghraib prison in
+    Iraq.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Graner is listed as an actor because he was convicted over the abuse (see charles-graner-sentenced-2005); Taguba
+    as the investigating officer.
+  - The Army's knowledge before January 2004 (for example the ICRC reports and the Associated Press report of 1
+    November 2003 on abuses at US prisons in Iraq) could be added to known.by once dated primary sources are found.
+    Wikipedia's 'January 1, 2004' for Taguba's appointment is not checked against the report.

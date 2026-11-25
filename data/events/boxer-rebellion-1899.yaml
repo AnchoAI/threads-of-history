@@ -1,0 +1,55 @@
+id: boxer-rebellion-1899
+title: Boxer Rebellion
+summary: An anti-foreign, anti-Christian uprising in North China, which the Qing court came to back, besieged
+  the foreign legations in Beijing from June to August 1900. It was defeated by the Eight-Nation Alliance
+  and ended with the Boxer Protocol of 7 September 1901.
+occurred:
+  start: '1899-09-17'
+  end: '1901-09-07'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- empire-of-japan
+- russian-empire
+- united-kingdom
+- united-states
+- german-empire
+- france
+importance: 4
+wikidata: Q150229
+sources:
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: 17 September 1899 – 7 September 1901
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: It was defeated by the Eight-Nation Alliance of foreign powers.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: The Chinese army and Boxer irregulars besieged the Legation Quarter from 20 June to 14 August
+    1900.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Boxer_Rebellion
+  title: Boxer Rebellion
+  publisher: Wikipedia
+  quote: The Qing government came to view the Boxers as a means to help oppose foreign powers.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The 17 September 1899 start date is the infobox date on Wikipedia; the article body dates the movement's
+    naming to October 1899. A scholarly source for the start date would help.

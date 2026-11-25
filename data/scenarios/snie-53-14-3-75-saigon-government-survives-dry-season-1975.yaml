@@ -1,0 +1,75 @@
+id: snie-53-14-3-75-saigon-government-survives-dry-season-1975
+title: 'SNIE 53/14.3-75: South Vietnam''s government survives the dry season'
+summary: On 27 March 1975 the US intelligence community judged that the South Vietnamese government's military strength
+  in the south would enable it to survive the 1975 dry season. Saigon fell to North Vietnamese forces on 30 April
+  1975.
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- cia
+- north-vietnam
+- south-vietnam
+importance: 2
+window:
+  start: '1975-03-27'
+  end: '1975-05-31'
+  precision: day
+probability: 0.75
+stated_as: we believe that the GVN’s military strength in the southern part of the country will enable it to survive
+  the current dry season
+probability_basis: 'Sherman Kent''s words of estimative probability: ''we believe'' (Kent''s ''probable'' bracket)
+  = about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1975-03-27'
+resolves_by: '1975-05-31'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1975-04-30'
+  note: Saigon was captured by North Vietnam on 30 April 1975.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  archive_url: https://web.archive.org/web/20260123010532/https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  title: 'Special National Intelligence Estimate SNIE 53/14.3-75: Assessment of the Situation in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1975-03-27'
+  quote: Following is an assessment of the situation and an analysis of South Vietnam’s prospects for this dry season.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  archive_url: https://web.archive.org/web/20260123010532/https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  title: 'Special National Intelligence Estimate SNIE 53/14.3-75: Assessment of the Situation in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1975-03-27'
+  quote: Even if they do so, we believe that the GVN’s military strength in the southern part of the country will
+    enable it to survive the current dry season, although additional losses are certain.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  archive_url: https://web.archive.org/web/20261015184423/https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: Saigon, the capital of South Vietnam, was captured by North Vietnam on 30 April 1975.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probable … likely we believe We estimate
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The dry season's end is read here as 31 May 1975; the government fell well inside any reading.

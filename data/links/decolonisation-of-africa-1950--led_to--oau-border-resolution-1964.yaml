@@ -1,0 +1,26 @@
+id: decolonisation-of-africa-1950--led_to--oau-border-resolution-1964
+from: decolonisation-of-africa-1950
+to: oau-border-resolution-1964
+type: led_to
+confidence: documented
+note: The newly independent states agreed at the OAU in 1964 to keep the borders they had at independence.
+sources:
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: most African colonies gained independence during the Cold War, and decided to keep their colonial borders
+    in the Organisation of African Unity conference of 1964 due to fears of civil wars and regional instability
+  type: reference
+  accessed: '2026-10-14'
+- url: https://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  archive_url: https://web.archive.org/web/20260117070010/http://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  title: AHG/Res. 16(I) Border Disputes Among African States
+  publisher: Citizenship Rights in Africa Initiative (text of OAU resolution)
+  quote: Considering further that the borders of African States, on the day of their independence, constitute a
+    tangible reality;
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,31 @@
+id: epstein-non-prosecution-agreement-2007--led_to--epstein-pleads-guilty-to-state-charges-2008
+from: epstein-non-prosecution-agreement-2007
+to: epstein-pleads-guilty-to-state-charges-2008
+type: led_to
+confidence: documented
+note: The agreement ended the federal investigation in exchange for guilty pleas to two state charges.
+sources:
+- url: https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  archive_url: https://web.archive.org/web/20261014061143/https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case
+  title: 'Jeffrey Epstein files: Tracing the legal cases that led to sex-trafficking charges'
+  publisher: NPR
+  date: '2025-07-25'
+  quote: The U.S. Attorney's Office offers to end its investigation if Epstein pleads guilty to two state charges
+    and agrees to accept a prison term, register as a sexual offender, and set up a way for his victims to obtain
+    monetary damages.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: The deal allowed the wealthy hedge fund manager to avoid harsher federal penalties on allegations he abused
+    underage girls in return for pleading guilty to Florida state charges.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

@@ -1,0 +1,54 @@
+id: mongol-sack-of-baghdad-1258
+title: Mongol sack of Baghdad
+summary: A Mongol army under Hulegu took and sacked Baghdad, capital of the Abbasid Caliphate, and killed the caliph
+  al-Musta'sim. The city's fall ended the 500-year-old Abbasid Caliphate in Baghdad; a puppet line of Abbasid caliphs
+  continued in Mamluk Cairo.
+occurred:
+  start: '1258'
+  precision: year
+threads:
+- religion
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- hulegu-khan
+- abbasid-caliphate
+importance: 4
+wikidata: Q369560
+sources:
+- url: https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  archive_url: https://web.archive.org/web/20260916221247/https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  title: Siege of Baghdad
+  publisher: Wikipedia
+  quote: A large army commanded by Hulegu, a prince of the Mongol Empire, attacked the historic capital of the Abbasid
+    Caliphate
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  archive_url: https://web.archive.org/web/20260916221247/https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  title: Siege of Baghdad
+  publisher: Wikipedia
+  quote: Within a few weeks, Baghdad fell and was sacked by the Mongol army—al-Musta'sim was killed alongside hundreds
+    of thousands of his subjects.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  archive_url: https://web.archive.org/web/20260916221247/https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  title: Siege of Baghdad
+  publisher: Wikipedia
+  quote: The fall of Baghdad marked the end of the 500-year-old Abbasid Caliphate
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  archive_url: https://web.archive.org/web/20260916221247/https://en.wikipedia.org/wiki/Siege_of_Baghdad
+  title: Siege of Baghdad
+  publisher: Wikipedia
+  quote: where the Mamluks installed him as Al-Mustansir II, he and his descendants were puppets of the Mamluk state
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

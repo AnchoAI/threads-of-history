@@ -1,0 +1,16 @@
+id: indianapolis-star-reports-nassar-allegations-2016--signal_of--usa-gymnastics-sex-abuse-scandal-1992
+from: indianapolis-star-reports-nassar-allegations-2016
+to: usa-gymnastics-sex-abuse-scandal-1992
+type: signal_of
+confidence: documented
+note: The Star's reports were the first public account of the abuse.
+sources:
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: The breadth of the abuses was first revealed by The Indianapolis Star
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

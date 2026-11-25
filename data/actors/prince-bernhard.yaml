@@ -1,0 +1,20 @@
+id: prince-bernhard
+title: Prince Bernhard of Lippe-Biesterfeld
+actor_type: person
+summary: Husband of Queen Juliana of the Netherlands (1911-2004).
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q57304
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q57304.json
+  title: Prince Bernhard of Lippe-Biesterfeld
+  publisher: Wikidata
+  quote: husband of Queen Juliana of the Netherlands (1911-2004)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

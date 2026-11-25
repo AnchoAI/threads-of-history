@@ -1,0 +1,15 @@
+id: attack-on-pearl-harbor-1941--part_of--second-world-war-1939-1945
+from: attack-on-pearl-harbor-1941
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: A campaign of the Second World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: Part of the Asiatic-Pacific theater of World War II
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

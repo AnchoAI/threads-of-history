@@ -1,0 +1,21 @@
+id: jeffrey-epstein-charged-with-sex-trafficking-2019--led_to--resignation-of-alexander-acosta-2019
+from: jeffrey-epstein-charged-with-sex-trafficking-2019
+to: resignation-of-alexander-acosta-2019
+type: led_to
+confidence: documented
+note: Democratic leaders called for Acosta's removal after the New York charges.
+sources:
+- url: https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy
+  archive_url: https://web.archive.org/web/20260330203916/https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy
+  title: Alexander Acosta Steps Down As Labor Secretary Amid Epstein Controversy
+  publisher: NPR
+  date: '2019-07-12'
+  quote: Top Democrats in Congress had called for Acosta's removal in the wake of new charges against multimillionaire
+    Epstein by federal prosecutors in the Southern District of New York.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

@@ -1,0 +1,48 @@
+id: scientific-revolution-1543
+title: Scientific Revolution
+summary: The emergence of modern science in early modern Europe, usually dated from the 1543 works of Copernicus
+  and Vesalius (some historians prefer 1572) to Newton's Principia in 1687.
+occurred:
+  start: '1543'
+  end: '1687'
+  precision: year
+  approximate: true
+  note: Start dates of 1543 and 1572 are both proposed.
+threads:
+- industry
+regions:
+- western-europe
+actors:
+- isaac-newton
+importance: 5
+wikidata: Q214078
+sources:
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: While the period is frequently said to have begun in 1543 with the printings of De humani corporis fabrica
+    (On the Workings of the Human Body) by Andreas Vesalius and De Revolutionibus (On the Revolutions of the Heavenly
+    Spheres) by Nicolaus Copernicus, the SN 1572 supernova has also been suggested as its beginning.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: The period culminated with the publication of the Philosophiæ Naturalis Principia Mathematica in 1687 by
+    Isaac Newton.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: The Scientific Revolution is a convenient boundary between ancient thought and modern science.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

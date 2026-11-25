@@ -1,0 +1,23 @@
+id: sheikh-mujibur-rahman
+title: Sheikh Mujibur Rahman
+actor_type: person
+summary: President of the Provisional Government of Bangladesh and the 2nd Prime Minister and first President
+  of Bangladesh.
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q191375
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q191375.json
+  title: Sheikh Mujibur Rahman
+  publisher: Wikidata
+  quote: President of the Provisional Government of Bangladesh and the 2nd Prime Minister and first President
+    of Bangladesh
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

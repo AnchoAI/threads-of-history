@@ -1,0 +1,42 @@
+id: japanese-annexation-of-korea-1910
+title: Japan annexes Korea
+summary: Japan formally annexes the Korean Empire by a treaty signed on 22 August 1910 and proclaimed
+  on 29 August. South Korea holds that the treaty was void from the start, which Japan has contested.
+occurred:
+  start: '1910-08-22'
+  end: '1910-08-29'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- korean-empire
+importance: 4
+wikidata: Q495558
+sources:
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1910
+  title: Japan–Korea Treaty of 1910
+  publisher: Wikipedia
+  quote: 'The Japan–Korea Treaty of 1910, also known as the Japan–Korea Annexation Treaty (Korean: 한일병합조약),
+    was made by representatives of the Empire of Japan and the Korean Empire on 22 August 1910.'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1910
+  title: Japan–Korea Treaty of 1910
+  publisher: Wikipedia
+  quote: The treaty was proclaimed to the public (and became effective) on 29 August 1910, officially
+    starting the period of Japanese rule in Korea.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1910
+  title: Japan–Korea Treaty of 1910
+  publisher: Wikipedia
+  quote: The South Korean government held the position that the annexation treaty was null and void at
+    the time of signing, which the Japanese government contested.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,21 @@
+id: hussein-of-jordan
+title: Hussein of Jordan
+actor_type: person
+summary: King of Jordan from 1952 to 1999.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q146906
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q146906.json
+  title: Hussein of Jordan
+  publisher: Wikidata
+  quote: King of Jordan from 1952 to 1999
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

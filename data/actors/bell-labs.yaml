@@ -1,0 +1,21 @@
+id: bell-labs
+title: Bell Labs
+actor_type: organization
+summary: Research and scientific development company.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q217365
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q217365.json
+  title: Bell Labs
+  publisher: Wikidata
+  quote: research and scientific development company
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

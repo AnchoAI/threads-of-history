@@ -1,0 +1,21 @@
+id: mustafa-kemal-ataturk
+title: Mustafa Kemal Atatürk
+actor_type: person
+summary: Founding father of the Republic of Turkey (c. 1881–1938).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q5152
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q5152.json
+  title: Mustafa Kemal Atatürk
+  publisher: Wikidata
+  quote: founding father of the Republic of Turkey (c. 1881–1938)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

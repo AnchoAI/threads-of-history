@@ -1,0 +1,20 @@
+id: world-wide-web-1989--led_to--facebook-launched-2004
+from: world-wide-web-1989
+to: facebook-launched-2004
+type: led_to
+confidence: documented
+note: The interactive "Web 2.0" era brought social networking sites such as Facebook into existence.
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+  archive_url: https://web.archive.org/web/20261012072134/https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+  title: History of the World Wide Web
+  publisher: Wikipedia
+  quote: the Web attained greater ease of use and gained a sense of interactivity which ushered in a period
+    of rapid popularization. This new era also brought into existence social networking websites, such
+    as Friendster, MySpace, Facebook, and Twitter
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,75 @@
+id: venona-decrypts-released-1995--revealed--mccarthyism-1950
+from: venona-decrypts-released-1995
+to: mccarthyism-1950
+type: revealed
+confidence: contested
+note: The released decrypts showed real Soviet espionage; whether they vindicate McCarthy is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: it was not until 1995 that the bipartisan Commission on Government Secrecy, with Senator Moynihan
+    as chairman, released Venona project materials
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: Through declassified documents from Soviet archives and Venona project decryptions of coded Soviet
+    messages, the Soviet Union was found to have engaged in substantial espionage activities in the United
+    States during the 1940s.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: The Venona revelations partly vindicate McCarthyism.
+  held_by:
+  - Some contemporary commentators (as summarised by Wikipedia)
+  - Texas State Board of Education curriculum revision (2009)
+  sources:
+  - url: https://en.wikipedia.org/wiki/McCarthyism
+    archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+    title: McCarthyism
+    publisher: Wikipedia
+    quote: In the view of some contemporary commentators, the revelations from Venona and other archives
+      on espionage stand as at least a partial vindication of McCarthyism.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Venona_project
+    archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+    title: Venona project
+    publisher: Wikipedia
+    quote: Controversy arose in 2009 over the Texas State Board of Education's revision of their high
+      school history class curricula to suggest Venona evidence shows Senator Joseph McCarthy to have
+      been justified in his zeal
+    type: reference
+    accessed: '2026-10-15'
+- claim: Most people McCarthy accused do not appear in Venona, so it does not support his accusations.
+  held_by:
+  - Harvey Klehr
+  - John Earl Haynes
+  sources:
+  - url: https://en.wikipedia.org/wiki/Venona_project
+    archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+    title: Venona project
+    publisher: Wikipedia
+    quote: Critics of this textbook policy include history professor Harvey Klehr, who asserts most people
+      and organizations identified by McCarthy as possible Soviet assets or sympathizers, such as those
+      brought forward in the Army-McCarthy hearings or rival politicians in the Democratic Party, were
+      not mentioned in the Venona content
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/McCarthyism
+    archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+    title: McCarthyism
+    publisher: Wikipedia
+    quote: Of the 159 people who were identified on lists used or referenced by McCarthy, evidence only
+      substantially proved that nine of them had aided Soviet espionage efforts
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The 'nine of 159' figure is quoted from the McCarthyism article in a sentence that follows Haynes's
+    argument; attribution of that figure to Haynes specifically should be checked by a person.

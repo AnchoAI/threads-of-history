@@ -1,0 +1,23 @@
+id: great-leap-forward-1958--led_to--great-chinese-famine-1959
+from: great-leap-forward-1958
+to: great-chinese-famine-1959
+type: led_to
+confidence: documented
+note: The Great Leap Forward caused the 1959–1961 famine.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Leap_Forward
+  title: Great Leap Forward
+  publisher: Wikipedia
+  quote: The Great Leap Forward led to between 15 and 55 million deaths in mainland China during the 1959–1961
+    Great Chinese Famine it caused
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Great_Chinese_Famine
+  title: Great Chinese Famine
+  publisher: Wikipedia
+  quote: The major contributing factors in the famine were the policies of the Great Leap Forward (1958 to
+    1962) and people's communes
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

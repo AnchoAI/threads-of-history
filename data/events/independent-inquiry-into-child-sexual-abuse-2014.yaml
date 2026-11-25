@@ -1,0 +1,50 @@
+id: independent-inquiry-into-child-sexual-abuse-2014
+title: Independent Inquiry into Child Sexual Abuse announced
+wikidata: Q17514311
+summary: Home Secretary Theresa May announces an inquiry into how the country's institutions handled their
+  duty to protect children from sexual abuse. After two chairs stood down, it was reconstituted in February
+  2015 as a statutory inquiry under Justice Lowell Goddard.
+occurred:
+  start: '2014-07'
+  precision: month
+threads:
+- scandals
+- rights
+regions:
+- western-europe
+actors:
+- theresa-may
+- united-kingdom
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: An overarching panel inquiry was announced by the Home Secretary, Theresa May, in July 2014,
+    to examine how the country's institutions had handled their duty of care to protect children from
+    sexual abuse.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: In February 2015, the inquiry was reconfigured as a statutory inquiry under the Inquiries Act
+    2005 framework chaired by Justice Lowell Goddard.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: On 14 July it was announced that Baroness Butler-Sloss was standing down
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - A reviewer may want to add a primary source (the Home Secretary's statement of 7 July 2014).
+  - The inquiry published its final report in 2022 (not sourced here); not added.

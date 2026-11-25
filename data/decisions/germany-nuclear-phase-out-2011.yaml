@@ -1,0 +1,83 @@
+id: germany-nuclear-phase-out-2011
+title: Germany decides to close all its nuclear plants
+summary: After Fukushima and mass protests, Angela Merkel's government suspends its 2010 extension of
+  reactor lifetimes, shuts eight of 17 reactors and announces that all will close by 2022. The last three
+  closed in April 2023, while Germany's use of natural gas rose.
+occurred:
+  start: '2011-05-30'
+  precision: day
+threads:
+- energy
+- industry
+regions:
+- western-europe
+actors:
+- angela-merkel
+- germany
+importance: 3
+decided_by:
+- angela-merkel
+- germany
+alternatives:
+- option: Keep the 2010 extension of reactor lifetimes
+  note: The policy the Merkel government had passed in late 2010 and suspended after Fukushima.
+  sources:
+  - url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+    archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+    title: Nuclear power in Germany
+    publisher: Wikipedia
+    quote: The phase-out plan was initially delayed in late 2010, when during the chancellorship of centre-right
+      Angela Merkel, the coalition conservative-liberal government decreed a 12-year delay of the schedule.
+    type: reference
+    accessed: '2026-10-15'
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: On 30 May 2011, the German government announced a plan to shut down all nuclear reactors by 2022.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: On 14 March 2011, in response to the renewed concern about the use of nuclear energy raised by
+    the Fukushima incident in the German public and in light of upcoming elections in three German states,
+    Merkel declared a 3-month moratorium on the reactor lifespan extension passed in 2010.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: Eight of the seventeen operating reactors in Germany were permanently shut down following the
+    March 2011 Fukushima nuclear disaster.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: Three of these were switched off at the end of 2021, and the other three ceased operations by
+    April 2023.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  archive_url: https://web.archive.org/web/20260929205143/https://en.wikipedia.org/wiki/Nuclear_power_in_Germany
+  title: Nuclear power in Germany
+  publisher: Wikipedia
+  quote: Germany increased its use of fossil fuel energy by 7% over the period 2002–2022, with a massive
+    increase in usage of natural gas
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - No Wikidata item for the 2011 decision was found (Q1189820 is nuclear phase-out in general); 'none'
+    is set.
+  - 'Not linked to the Nord Stream items: sources found on whether the phase-out raised dependence on
+    Russian gas were opinion pieces or disagreed; this needs a person''s judgement and better sources.'

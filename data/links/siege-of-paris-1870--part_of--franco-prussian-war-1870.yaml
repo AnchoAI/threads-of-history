@@ -1,0 +1,18 @@
+id: siege-of-paris-1870--part_of--franco-prussian-war-1870
+from: siege-of-paris-1870
+to: franco-prussian-war-1870
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Siege of Paris (1870–1871) lists it as part of Franco-Prussian War.
+sources:
+- url: https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)
+  title: Siege of Paris (1870–1871)
+  publisher: Wikipedia
+  quote: Part of the Franco-Prussian War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

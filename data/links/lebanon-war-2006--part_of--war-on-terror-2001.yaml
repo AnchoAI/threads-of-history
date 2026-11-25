@@ -1,0 +1,23 @@
+id: lebanon-war-2006--part_of--war-on-terror-2001
+from: lebanon-war-2006
+to: war-on-terror-2001
+type: part_of
+confidence: documented
+note: The source infobox places the 2006 Lebanon War within the war on terror, among other conflicts.
+sources:
+- url: https://en.wikipedia.org/wiki/2006_Lebanon_War
+  archive_url: https://web.archive.org/web/20261006124109/https://en.wikipedia.org/wiki/2006_Lebanon_War
+  title: 2006 Lebanon War
+  publisher: Wikipedia
+  quote: Part of the Israeli–Lebanese conflict, Hezbollah–Israel conflict, the Iran–Israel proxy conflict and the
+    war on terror
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The same article notes that some consider the war the first round of the Iran–Israel proxy conflict rather than
+    a continuation of the Arab–Israeli conflict. None of the narrower conflicts the infobox names exists as an item
+    yet; a person should judge whether the war on terror is the right parent.

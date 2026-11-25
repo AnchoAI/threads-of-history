@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-metal-exports
+title: Ores and metals exports (% of merchandise exports) (World Bank)
+summary: Ores and metals comprise the commodities in SITC (Rev. 3) sections 27 (crude fertilizer, minerals
+  nes); 28 (metalliferous ores, scrap); and 68 (non-ferrous metals). Exports of services are services
+  provided by residents to non-residents. This indicator is expressed as a percentage of merchandise exports
+  which is comprised of goods whose economic ownership is changed between a resident and a...
+occurred:
+  start: '1962'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: TX.VAL.MMTL.ZS.UN
+table: tables/wdi-metal-exports.csv
+sources:
+- url: https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN
+  title: Ores and metals exports (% of merchandise exports)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

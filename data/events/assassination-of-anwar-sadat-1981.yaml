@@ -1,0 +1,54 @@
+id: assassination-of-anwar-sadat-1981
+title: Assassination of Anwar Sadat
+summary: Members of Egyptian Islamic Jihad killed President Sadat at a Cairo victory parade on 6 October 1981.
+  The source says the motive is debated but likely stemmed from opposition to his peace initiative with Israel;
+  it followed a crackdown in which Sadat had ordered mass arrests.
+occurred:
+  start: '1981-10-06'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- anwar-sadat
+- egyptian-islamic-jihad
+- egypt
+importance: 3
+wikidata: Q2756743
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: On 6 October 1981, Anwar Sadat, the 3rd president of Egypt, was assassinated during the annual victory
+    parade held in Cairo to celebrate the victory over Israel in the Yom Kippur War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: The assassination was undertaken by members of the Egyptian Islamic Jihad.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: Although the motive has been debated, Sadat's assassination likely stemmed from communist, socialist,
+    and Islamist groups opposed to Sadat's peace initiative with Israel and the United States relating to the
+    Camp David Accords.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: Following a failed military coup in June 1981, Sadat ordered a major crackdown that resulted in the
+    arrest of numerous opposition figures.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-aid
+title: Net official development assistance received (% of GNI) (World Bank)
+summary: Net official development assistance (ODA) consists of disbursements of loans made on concessional
+  terms (net of repayments of principal) and grants by official agencies of the members of the Development
+  Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic
+  development and welfare in countries and territories in the DAC list of ODA recipients. It...
+occurred:
+  start: '1960'
+  end: '2023'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GNI'
+dataset: world-bank-wdi
+indicator: DT.ODA.ODAT.GN.ZS
+table: tables/wdi-aid.csv
+sources:
+- url: https://data.worldbank.org/indicator/DT.ODA.ODAT.GN.ZS
+  title: Net ODA received (% of GNI)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

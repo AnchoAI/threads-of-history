@@ -1,0 +1,18 @@
+id: russian-apartment-bombings-1999--led_to--putin-succeeds-yeltsin-1999
+from: russian-apartment-bombings-1999
+to: putin-succeeds-yeltsin-1999
+type: led_to
+confidence: documented
+note: Putin's handling of the bombings boosted his popularity and helped him win the presidency.
+sources:
+- url: https://en.wikipedia.org/wiki/1999_Russian_apartment_bombings
+  title: 1999 Russian apartment bombings
+  publisher: Wikipedia
+  quote: The handling of the crisis by Vladimir Putin, who was prime minister at the time, boosted his
+    popularity greatly and helped him attain the presidency within a few months.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

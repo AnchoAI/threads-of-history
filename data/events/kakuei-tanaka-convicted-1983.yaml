@@ -1,0 +1,71 @@
+id: kakuei-tanaka-convicted-1983
+title: Kakuei Tanaka convicted in the Lockheed case
+summary: On 12 October 1983 the Tokyo District Court convicts former prime minister Kakuei Tanaka of receiving a
+  ¥500 million bribe from Lockheed while in office to persuade a domestic airline to buy Lockheed aircraft, and
+  sentences him to four years in prison. He had been arrested in July 1976 and remained free on appeal until his
+  death in 1993.
+occurred:
+  start: '1983-10-12'
+  precision: day
+threads:
+- scandals
+regions:
+- east-asia
+actors:
+- kakuei-tanaka
+- lockheed-corporation
+- japan
+importance: 3
+wikidata: none
+sources:
+- url: https://www.csmonitor.com/1983/1013/101320.html
+  archive_url: https://web.archive.org/web/20230611151916/https://www.csmonitor.com/1983/1013/101320.html
+  title: Japan's ruling party struggles to escape the shadow of a 'shogun'
+  publisher: The Christian Science Monitor
+  date: '1983-10-13'
+  quote: In a verdict widely expected after a seven-year trial, Tokyo District Court Wednesday imposed a four-year
+    jail sentence and a 500 million yen ($2 million) fine on a man who has remained immensely powerful throughout
+    a decade of scandal.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.csmonitor.com/1983/1013/101320.html
+  archive_url: https://web.archive.org/web/20230611151916/https://www.csmonitor.com/1983/1013/101320.html
+  title: Japan's ruling party struggles to escape the shadow of a 'shogun'
+  publisher: The Christian Science Monitor
+  date: '1983-10-13'
+  quote: Tanaka was convicted of receiving while prime minister a 500 million yen bribe from the Lockheed Corporation
+    to use his personal influence to persuade a domestic airline to buy Lockheed passenger aircraft.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  archive_url: https://web.archive.org/web/20261015141101/https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  title: Kakuei Tanaka
+  publisher: Wikipedia
+  quote: The Lockheed trial ended on 12 October 1983.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  archive_url: https://web.archive.org/web/20261015141101/https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  title: Kakuei Tanaka
+  publisher: Wikipedia
+  quote: Tanaka was arrested on 27 July 1976, initially on charges of violating Japanese foreign exchange restrictions
+    by not reporting the payment.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  archive_url: https://web.archive.org/web/20261015141101/https://en.wikipedia.org/wiki/Kakuei_Tanaka
+  title: Kakuei Tanaka
+  publisher: Wikipedia
+  quote: However, Tanaka remained free on appeal to the Supreme Court until his death in 1993.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'Sources differ on the charge: the Christian Science Monitor (13 October 1983) says Tanaka was convicted of
+    receiving a bribe, while the Wikipedia article ''Lockheed bribery scandals'' says he was found guilty of foreign
+    exchange violations ''but not on bribery''. The summary follows the contemporary report; a reviewer should check
+    the judgment.'
+  - No separate Wikidata item for the verdict.

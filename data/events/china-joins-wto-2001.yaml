@@ -1,0 +1,55 @@
+id: china-joins-wto-2001
+title: China joins the World Trade Organization
+summary: China became a member of the World Trade Organization on 11 December 2001, after negotiations
+  that began in 1986 and required major changes to its economy. Its membership has been contentious, with
+  large economic and political effects on other countries, sometimes called the 'China shock'.
+occurred:
+  start: '2001-12-11'
+  precision: day
+threads:
+- china
+- econ-crises
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+- world-trade-organization
+importance: 4
+wikidata: Q5099981
+sources:
+- url: https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  archive_url: https://web.archive.org/web/20260916103325/https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  title: China and the World Trade Organization
+  publisher: Wikipedia
+  quote: China became a member of the World Trade Organization (WTO) on 11 December 2001, after the agreement
+    of the Ministerial Conference of the WTO.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  archive_url: https://web.archive.org/web/20260916103325/https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  title: China and the World Trade Organization
+  publisher: Wikipedia
+  quote: The admission was preceded by a lengthy process of negotiations and required significant changes
+    to the Chinese economy.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  archive_url: https://web.archive.org/web/20260916103325/https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  title: China and the World Trade Organization
+  publisher: Wikipedia
+  quote: China gained observer status with GATT and from 1986, began to work toward joining that organisation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  archive_url: https://web.archive.org/web/20260916103325/https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization
+  title: China and the World Trade Organization
+  publisher: Wikipedia
+  quote: Its membership has been contentious, with substantial economic and political effects on other
+    countries (sometimes referred to as the China shock)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The Wikidata item Q5099981 is 'China and the World Trade Organization' (Chinese participation in the
+    WTO), not the accession alone.

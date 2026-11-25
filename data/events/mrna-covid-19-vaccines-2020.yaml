@@ -1,0 +1,47 @@
+id: mrna-covid-19-vaccines-2020
+title: First mRNA vaccines approved (COVID-19)
+summary: Two mRNA vaccines against COVID-19, developed at record speed after the pandemic began, are approved
+  in December 2020; the UK was the first country to authorise the Pfizer–BioNTech vaccine. They rested
+  on Katalin Karikó and Drew Weissman's work on modified mRNA, which won the 2023 Nobel Prize.
+occurred:
+  start: 2020-12
+  precision: month
+threads:
+- industry
+regions:
+- western-europe
+- americas
+actors: []
+importance: 4
+wikidata: Q97154240
+sources:
+- url: https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  archive_url: https://web.archive.org/web/20261002080754/https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  title: 'Press release: The Nobel Prize in Physiology or Medicine 2023'
+  publisher: Nobel Prize Outreach
+  quote: After the outbreak of the COVID-19 pandemic, two base-modified mRNA vaccines encoding the SARS-CoV-2
+    surface protein were developed at record speed. Protective effects of around 95% were reported, and
+    both vaccines were approved as early as December 2020.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  archive_url: https://web.archive.org/web/20261002080754/https://www.nobelprize.org/prizes/medicine/2023/press-release/
+  title: 'Press release: The Nobel Prize in Physiology or Medicine 2023'
+  publisher: Nobel Prize Outreach
+  quote: for their discoveries concerning nucleoside base modifications that enabled the development of
+    effective mRNA vaccines against COVID-19
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine
+  title: Pfizer–BioNTech COVID-19 vaccine
+  publisher: Wikipedia
+  quote: In December 2020, the United Kingdom was the first country to authorize its use on an emergency
+    basis.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata Q97154240 is the Pfizer–BioNTech vaccine, the first of the two mRNA vaccines approved.

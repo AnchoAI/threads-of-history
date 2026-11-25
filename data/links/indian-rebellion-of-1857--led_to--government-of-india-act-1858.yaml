@@ -1,0 +1,26 @@
+id: indian-rebellion-of-1857--led_to--government-of-india-act-1858
+from: indian-rebellion-of-1857
+to: government-of-india-act-1858
+type: led_to
+confidence: documented
+note: The rebellion led to the dissolution of the East India Company and the transfer of India to direct Crown rule.
+sources:
+- url: https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857
+  archive_url: https://web.archive.org/web/20261012082601/https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857
+  title: Indian Rebellion of 1857
+  publisher: Wikipedia
+  quote: It led to the dissolution of the East India Company and forced the British to reorganize the army, the
+    financial system, and the administration in India through passage of the Government of India Act 1858.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  archive_url: https://web.archive.org/web/20260818101913/https://en.wikipedia.org/wiki/Government_of_India_Act_1858
+  title: Government of India Act 1858
+  publisher: Wikipedia
+  quote: The Indian Rebellion of 1857 compelled the British government to pass the act.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

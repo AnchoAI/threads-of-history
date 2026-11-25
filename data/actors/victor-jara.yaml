@@ -1,0 +1,21 @@
+id: victor-jara
+title: Víctor Jara
+actor_type: person
+summary: Chilean teacher, theatre director, poet, singer-songwriter, and political activist (1932-1973).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q125133
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q125133.json
+  title: Víctor Jara
+  publisher: Wikidata
+  quote: Chilean teacher, theatre director, poet, singer-songwriter, and political activist (1932-1973)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

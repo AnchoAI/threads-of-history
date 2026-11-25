@@ -1,0 +1,96 @@
+id: snie-30-5-56-anglo-french-intervention-via-other-crisis-1956
+title: 'SNIE 30-5-56: Britain and France intervene against Nasser through another regional crisis'
+summary: In September 1956 the US intelligence community judged it possible but unlikely, over the following few
+  weeks, that another regional conflict such as the Arab-Israeli one would give Britain and France an occasion to
+  intervene militarily against Nasser. Israel invaded Egypt on 29 October and Britain and France attacked Egypt
+  on 31 October.
+threads:
+- mideast
+- empire
+- intel
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- cia
+- united-kingdom
+- france
+- egypt
+importance: 2
+window:
+  start: '1956-09-19'
+  end: '1956-11-14'
+  precision: day
+probability: 0.3
+stated_as: it is possible, but we believe unlikely during the period of this estimate
+probability_basis: 'Sherman Kent''s words of estimative probability: ''unlikely'' (Kent''s ''probably not'' bracket)
+  = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1956-09-19'
+resolves_by: '1956-11-14'
+resolution:
+  outcome: happened
+  resolved_on: '1956-10-31'
+  event: suez-crisis-1956
+  note: Under the Sèvres protocol Israel attacked Egypt on 29 October; Britain and France issued an ultimatum to
+    both sides and attacked Egypt on 31 October.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1955-57v16/d236
+  archive_url: https://web.archive.org/web/20260412223028/https://history.state.gov/historicaldocuments/frus1955-57v16/d236
+  title: 'Special National Intelligence Estimate SNIE 30-5-56: The Likelihood of a British-French Resort to Military
+    Action Against Egypt in the Suez Crisis'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-09-19'
+  quote: To estimate the likelihood and probable circumstances of a British–French resort to military action against
+    Egypt during the next few weeks.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1955-57v16/d236
+  archive_url: https://web.archive.org/web/20260412223028/https://history.state.gov/historicaldocuments/frus1955-57v16/d236
+  title: 'Special National Intelligence Estimate SNIE 30-5-56: The Likelihood of a British-French Resort to Military
+    Action Against Egypt in the Suez Crisis'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-09-19'
+  quote: Finally, it is possible, but we believe unlikely during the period of this estimate, that other situations
+    of friction in the area— the Arab-Israeli conflict, or Iraqi-Syrian relations for example— might develop in
+    such a way as to furnish an occasion for UK-French military intervention against Nasser.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  archive_url: https://web.archive.org/web/20261011054035/https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  quote: Under the terms of the Protocol, Israel would attack Egypt on 29 October. The British and French governments
+    would issue a joint appeal for both Egypt and Israel to cease firing
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  archive_url: https://web.archive.org/web/20261011054035/https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  quote: On 31 October, as planned, France and the UK launched their attacks against targets in Egypt.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''The next few weeks'' is read here as eight weeks (to 14 November 1956); the intervention came six weeks after
+    the estimate. A reviewer may prefer a shorter reading, which would change the outcome to did_not_happen.'
+  - The same estimate judged that, absent a new violent provocation, Britain and France would not use force while
+    the US opposed it; that judgment was conditional and is not recorded separately.

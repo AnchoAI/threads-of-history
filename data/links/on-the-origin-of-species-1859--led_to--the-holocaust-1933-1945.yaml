@@ -1,0 +1,87 @@
+id: on-the-origin-of-species-1859--led_to--the-holocaust-1933-1945
+from: on-the-origin-of-species-1859
+to: the-holocaust-1933-1945
+type: led_to
+confidence: contested
+note: Whether Darwinian ideas, through social Darwinism and eugenics, helped shape Nazi racial ideology is disputed;
+  historians of Darwinism such as Richards and Bowler reject blaming Darwin for Nazism.
+sources:
+- url: https://en.wikipedia.org/wiki/Social_Darwinism
+  title: Social Darwinism
+  publisher: Wikipedia
+  quote: The argument that Nazi ideology was strongly influenced by social Darwinist ideas is often found in historical
+    and social science literature.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+  archive_url: https://web.archive.org/web/20251207072551/https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+  title: From Darwin to Hitler
+  publisher: Wikipedia
+  quote: The work is controversial.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Darwinian ideas, carried through social Darwinism and eugenics, were central to the Nazi ideology that
+    produced the Holocaust.
+  held_by:
+  - Richard Weikart
+  - Hannah Arendt (social Darwinist ethics leading to racist ideology)
+  sources:
+  - url: https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    archive_url: https://web.archive.org/web/20251207072551/https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    title: From Darwin to Hitler
+    publisher: Wikipedia
+    quote: Weikart claims "Darwinian ideology is the core" of Nazism
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Social_Darwinism
+    title: Social Darwinism
+    publisher: Wikipedia
+    quote: For example, the philosopher and historian Hannah Arendt analysed the historical development via social
+      Darwinist ethics to racist ideology.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Social_Darwinism
+    title: Social Darwinism
+    publisher: Wikipedia
+    quote: Social Darwinism came to play a major role in the ideology of Nazism
+    type: reference
+    accessed: '2026-10-14'
+- claim: 'Darwin cannot be blamed for Nazism: Hitler was not a Darwinian, Nazi antisemitism had other roots, and
+    the ''struggle'' ideas attributed to Darwin were repudiated by him.'
+  held_by:
+  - Robert J. Richards
+  - Peter J. Bowler
+  - Jeff Schloss
+  sources:
+  - url: https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    archive_url: https://web.archive.org/web/20251207072551/https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    title: From Darwin to Hitler
+    publisher: Wikipedia
+    quote: It can only be a tendentious and dogmatically driven assessment that would condemn Darwin for the crimes
+      of the Nazis.
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    archive_url: https://web.archive.org/web/20251207072551/https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    title: From Darwin to Hitler
+    publisher: Wikipedia
+    quote: Weikart's book reflects a "simple blame game in which (for example) Darwin and Haeckel are accused of
+      paving the way for Nazism,"
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    archive_url: https://web.archive.org/web/20251207072551/https://en.wikipedia.org/wiki/From_Darwin_to_Hitler
+    title: From Darwin to Hitler
+    publisher: Wikipedia
+    quote: ideas that are attributed to Darwin (such as natural selection makes might right in social policy) were
+      actually not advocated but repudiated by Darwin and his immediate colleagues.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'Contested: each position is attributed to the scholars named in its quoted source.'
+  - 'A sensitive and partly ideological dispute: Weikart''s book was funded by the Discovery Institute, and academic
+    reviewers criticised it (see the From Darwin to Hitler article). A reviewer should consider whether to keep
+    this link or route it through a social Darwinism / eugenics item instead.'

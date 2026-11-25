@@ -1,0 +1,36 @@
+id: indonesian-national-party-founded-1927
+title: Indonesian National Party founded
+summary: Sukarno's study club in Bandung is reformed as the Indonesian National Association, renamed the
+  Indonesian National Party (PNI) in 1928, with the aim of independence for the archipelago.
+occurred:
+  start: '1927-07-04'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+actors:
+- sukarno
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Party
+  title: Indonesian National Party
+  publisher: Wikipedia
+  quote: The study club was later reformed on 4 July 1927 into a movement called the Indonesian National
+    Association. In May 1928, the name was changed to the Indonesian National Party. The organization's
+    aim was economic and political independence for the Indonesian archipelago.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Indonesian_National_Party
+  title: Indonesian National Party
+  publisher: Wikipedia
+  quote: Sukarno, then a young engineer studying at the Bandung Technical College, founded the Algemeene
+    Studie Club
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'wikidata is none: Q1965221 is the party, not its founding.'

@@ -1,0 +1,80 @@
+id: palestinian-expulsion-and-flight-1947
+title: Palestinian exodus (Nakba)
+summary: 'During the 1947–49 Palestine war more than 700,000 Palestinian Arabs, about half of Mandatory Palestine''s
+  Arab population, were expelled or fled; Palestinians call this part of the Nakba. Its causes are disputed:
+  most scholarship cited by the source sees expulsions, violence and fear as primary, while historians such
+  as Efraim Karsh argue most left of their own accord or under Arab pressure.'
+occurred:
+  start: '1947'
+  end: '1949'
+  precision: year
+threads:
+- mideast
+- migration
+regions:
+- middle-east-north-africa
+actors:
+- israel
+importance: 4
+wikidata: Q13220089
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: During the 1948 Palestine war, more than 700,000 Palestinian Arabs – about half of Mandatory Palestine's
+    predominantly Arab population – were expelled or fled from their homes.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: The expulsion and flight was a central component of the fracturing, dispossession, and displacement
+    of Palestinian society, known as the Nakba.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: December 1947 – March 1948
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: The history of the Palestinian exodus is closely tied to the events of the war in Palestine, which
+    lasted from 1947 to 1949
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: Although the causes of the 1948 Palestinian exodus remain a significantly controversial topic in public
+    and political discourse, with a prominent amount of denialism regarding the responsibility of Israeli/Yishuv
+    forces, most scholarship today agrees that expulsions and violence, and the fear thereof, were the primary
+    causes.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  archive_url: https://web.archive.org/web/20261011235638/https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: Efraim Karsh is among the few historians who still consider that most of the Arabs who fled left of
+    their own accord or were pressured to leave by their fellow Arabs, despite Israeli attempts to convince
+    them to stay.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Year precision: the source''s first phase is ''December 1947 – March 1948'' and the end is given only
+    as 1949. The UN Conciliation Commission estimated 711,000 refugees outside Israel in September 1949.'
+  - Whether the exodus amounted to ethnic cleansing is itself debated; the source says 'Scholars widely describe
+    the event as ethnic cleansing, although some disagree.' The summary avoids the term and attributes the
+    causal dispute instead.
+  - This item is deliberately separate from israel-founded-1948, which V1 may split; once split, consider a
+    part_of link to the 1948 Palestine war if one is created.

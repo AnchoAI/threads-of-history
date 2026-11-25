@@ -1,0 +1,45 @@
+id: death-of-mao-zedong-1976
+title: Death of Mao Zedong
+summary: Mao Zedong died on 9 September 1976. Hua Guofeng, whom Mao had chosen as premier, succeeded him as
+  party chairman.
+occurred:
+  start: '1976-09-09'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- mao-zedong
+- hua-guofeng
+- chinese-communist-party
+importance: 3
+wikidata: Q11127665
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: On 9 September 1976, Mao Zedong died.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Hua Guofeng succeeded Mao as chairman of the CCP after Mao's death.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: After Zhou's death, Mao selected the relatively unknown Hua Guofeng instead of a member of the Gang
+    of Four or Deng to become Premier.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

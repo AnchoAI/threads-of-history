@@ -1,0 +1,55 @@
+id: polio-vaccine-1955
+title: Salk polio vaccine declared effective
+summary: The results of the Francis Field Trial of Jonas Salk's inactivated polio vaccine, involving 1.8
+  million children, are announced; the vaccine was licensed the same year. US polio cases fell from 35,000
+  in 1953 to 161 in 1961.
+occurred:
+  start: '1955-04-12'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- jonas-salk
+- united-states
+importance: 4
+wikidata: Q1519099
+sources:
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: The results of the field trial were announced on 12 April 1955
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: Salk's vaccine was then used in a test called the Francis Field Trial, led by Thomas Francis,
+    the largest medical experiment in history at that time.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: eventually involved 1.8 million children
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: Soon after Salk's vaccine was licensed in 1955, children's vaccination campaigns were launched.
+    In the U.S., following a mass immunization campaign promoted by the March of Dimes, the annual number
+    of polio cases fell from 35,000 in 1953 to 5,600 by 1957. By 1961 only 161 cases were recorded
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata Q1519099 is the polio vaccine in general, not the 1955 announcement.

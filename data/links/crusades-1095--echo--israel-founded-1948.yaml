@@ -1,0 +1,25 @@
+id: crusades-1095--echo--israel-founded-1948
+from: crusades-1095
+to: israel-founded-1948
+type: echo
+confidence: documented
+note: Muslim thinkers and politicians have likened the founding of Israel to the Crusader states.
+sources:
+- url: https://en.wikipedia.org/wiki/Crusades
+  archive_url: https://web.archive.org/web/20261012075004/https://en.wikipedia.org/wiki/Crusades
+  title: Crusades
+  publisher: Wikipedia
+  quote: Modern Muslim thinkers, politicians and historians have drawn parallels between the crusades and political
+    developments such as the establishment of Israel in 1948.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Crusading_movement
+  title: Crusading movement
+  publisher: Wikipedia
+  quote: Anti-Zionists frequently draw parallels between the Crusader states and modern Israel.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

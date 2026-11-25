@@ -1,0 +1,69 @@
+id: ghislaine-maxwell-convicted-2021
+title: Ghislaine Maxwell convicted of sex trafficking
+summary: A federal jury in New York convicts Ghislaine Maxwell on five counts, including sex trafficking of a minor,
+  for her part in the sex-trafficking ring of young teenagers she helped Jeffrey Epstein run; on 28 June 2022 Judge
+  Alison J. Nathan sentences her to 20 years in prison.
+occurred:
+  start: '2021-12-29'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- ghislaine-maxwell
+- jeffrey-epstein
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Ghislaine_Maxwell
+  archive_url: https://web.archive.org/web/20261013153535/https://en.wikipedia.org/wiki/Ghislaine_Maxwell
+  title: Ghislaine Maxwell
+  publisher: Wikipedia
+  quote: On 29 December 2021, Maxwell was convicted by a jury in US federal court on five sex trafficking-related
+    counts
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Ghislaine_Maxwell
+  archive_url: https://web.archive.org/web/20261013153535/https://en.wikipedia.org/wiki/Ghislaine_Maxwell
+  title: Ghislaine Maxwell
+  publisher: Wikipedia
+  quote: Her trial ran from 29 November until 29 December 2021 when she was convicted on five out of six counts,
+    including one of sex trafficking of a minor.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  archive_url: https://web.archive.org/web/20260423200135/https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  title: Ghislaine Maxwell is sentenced to 20 years in prison
+  publisher: NPR
+  date: '2022-06-28'
+  quote: Disgraced socialite Ghislaine Maxwell was sentenced to 20 years in prison for the sex-trafficking ring
+    of young teens she helped financier Jeffrey Epstein run for a decade.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  archive_url: https://web.archive.org/web/20260423200135/https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  title: Ghislaine Maxwell is sentenced to 20 years in prison
+  publisher: NPR
+  date: '2022-06-28'
+  quote: The punishment doled out by U.S. District Judge Alison J. Nathan on Tuesday marks the most concrete punishment
+    yet for the years of abuse Maxwell and Epstein imposed on young girls.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  archive_url: https://web.archive.org/web/20260423200135/https://www.npr.org/2022/06/28/1107899156/ghislaine-maxwell-is-sentenced-to-20-years-in-prison
+  title: Ghislaine Maxwell is sentenced to 20 years in prison
+  publisher: NPR
+  date: '2022-06-28'
+  quote: In this courtroom sketch, Ghislaine Maxwell gives her statement in federal court, in New York, on June
+    28, 2022.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Sentence included in this item rather than as its own event. Her appeals (Second Circuit 2024; Supreme Court
+    declined in October 2025, per Wikipedia) are not modelled.

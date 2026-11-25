@@ -1,0 +1,42 @@
+id: taiwan-presidential-election-1996
+title: Taiwan's first direct presidential election
+summary: On 23 March 1996 Taiwan held its first direct presidential election. Lee Teng-hui of the Kuomintang
+  won 54% of the vote, after PRC missile tests intended to intimidate voters.
+occurred:
+  start: '1996-03-23'
+  precision: day
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- lee-teng-hui
+- taiwan
+- kuomintang
+importance: 3
+wikidata: Q431657
+sources:
+- url: https://en.wikipedia.org/wiki/1996_Taiwanese_presidential_election
+  archive_url: https://web.archive.org/web/20260913210945/https://en.wikipedia.org/wiki/1996_Taiwanese_presidential_election
+  title: 1996 Taiwanese presidential election
+  publisher: Wikipedia
+  quote: Presidential elections were held in Taiwan on 23 March 1996. It was Taiwan's first direct presidential
+    election, officially the Republic of China.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1996_Taiwanese_presidential_election
+  archive_url: https://web.archive.org/web/20260913210945/https://en.wikipedia.org/wiki/1996_Taiwanese_presidential_election
+  title: 1996 Taiwanese presidential election
+  publisher: Wikipedia
+  quote: Lee Teng-hui was re-elected President, and Lien Chan as Vice President. Lee stood as the candidate
+    for the ruling Kuomintang. He won a majority of 54% of the votes cast. His election followed missile tests
+    by the People's Republic of China (PRC). These attempted to intimidate and discourage the Taiwanese electorate
+    from supporting Lee; however, the tactic backfired.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

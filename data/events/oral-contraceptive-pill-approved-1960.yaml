@@ -1,0 +1,50 @@
+id: oral-contraceptive-pill-approved-1960
+title: First contraceptive pill approved in the US
+summary: The US Food and Drug Administration approves Enovid for contraception, the first oral contraceptive
+  pill. The pill is described as a catalyst for the sexual revolution and is now used by more than 100
+  million women.
+occurred:
+  start: 1960-06
+  precision: month
+threads:
+- industry
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill
+  title: Combined oral contraceptive pill
+  publisher: Wikipedia
+  quote: In May 1960, the FDA announced it would approve Enovid 10 mg for contraceptive use, and did so
+    in June 1960.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill
+  title: Combined oral contraceptive pill
+  publisher: Wikipedia
+  quote: The first oral contraceptive was approved by the US Food and Drug Administration (FDA) and sold
+    to the market in 1960.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill
+  title: Combined oral contraceptive pill
+  publisher: Wikipedia
+  quote: The pill was a catalyst for the sexual revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill
+  title: Combined oral contraceptive pill
+  publisher: Wikipedia
+  quote: They are used by more than 100 million women worldwide
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata Q817281 is the pill as a contraceptive method, not the 1960 approval; 'none' is set.
+  - No event for the sexual revolution exists yet, so the stated link to it is not modelled.

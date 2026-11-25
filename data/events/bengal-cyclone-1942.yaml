@@ -1,0 +1,43 @@
+id: bengal-cyclone-1942
+title: Bengal cyclone and rice crop disease
+summary: A cyclone and three storm surges strike coastal Bengal, killing about 14,500 people, while fungal
+  brown spot disease damages the winter rice crop.
+occurred:
+  start: '1942-10-16'
+  end: '1942-10-17'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors: []
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: on 16–17 October a cyclone and three storm surges ravaged croplands, destroyed houses and killing
+    thousands
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: It killed 14,500 people and 190,000 cattle
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: The winter rice crop was afflicted by a severe outbreak of fungal brown spot disease
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - No Wikidata item found for the cyclone itself.

@@ -1,0 +1,35 @@
+id: treaty-of-portsmouth-1905--led_to--mukden-incident-1931
+from: treaty-of-portsmouth-1905
+to: mukden-incident-1931
+type: led_to
+confidence: documented
+note: The treaty gave Japan the South Manchuria Railway, on which the 1931 incident was staged.
+sources:
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261014095935/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: Japanese economic presence and political interest in Manchuria had been growing ever since the
+    end of the Russo-Japanese War (1904–1905).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261014095935/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: The Treaty of Portsmouth that ended the war had granted Japan the lease of the South Manchuria
+    Railway branch
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Mukden_incident
+  archive_url: https://web.archive.org/web/20261014095935/https://en.wikipedia.org/wiki/Mukden_incident
+  title: Mukden incident
+  publisher: Wikipedia
+  quote: detonated a small quantity of dynamite close to a railway line owned by Japan's South Manchuria
+    Railway near Mukden (now Shenyang).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The source gives this as background to the incident, not as its direct cause.

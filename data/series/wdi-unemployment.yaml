@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-unemployment
+title: Unemployment (% of labour force, ILO estimate) (World Bank)
+summary: Unemployment refers to the share of the labor force that is without work but available for and
+  seeking employment.
+occurred:
+  start: '1991'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: SL.UEM.TOTL.ZS
+table: tables/wdi-unemployment.csv
+sources:
+- url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+  title: Unemployment, total (% of total labor force) (modeled ILO estimate)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

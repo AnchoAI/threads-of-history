@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-reserves-months
+title: Total reserves in months of imports (World Bank)
+summary: Reserve assets are external assets, including monetary gold, that are readily available to and
+  controlled by monetary authorities for meeting balance of payments financing needs, for intervention
+  in exchange markets to affect the currency exchange rate, and for other related purposes (such as maintaining
+  confidence in the currency and the economy, and serving as a basis for foreign borrowing)....
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: months
+dataset: world-bank-wdi
+indicator: FI.RES.TOTL.MO
+table: tables/wdi-reserves-months.csv
+sources:
+- url: https://data.worldbank.org/indicator/FI.RES.TOTL.MO
+  title: Total reserves in months of imports
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

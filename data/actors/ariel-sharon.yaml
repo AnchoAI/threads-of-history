@@ -1,0 +1,21 @@
+id: ariel-sharon
+title: Ariel Sharon
+actor_type: person
+summary: Prime Minister of Israel from 2001 to 2006 (1928-2014).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q60206
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q60206.json
+  title: Ariel Sharon
+  publisher: Wikidata
+  quote: Prime Minister of Israel from 2001 to 2006 (1928-2014)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

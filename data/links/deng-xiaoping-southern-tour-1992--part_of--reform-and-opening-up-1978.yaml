@@ -1,0 +1,17 @@
+id: deng-xiaoping-southern-tour-1992--part_of--reform-and-opening-up-1978
+from: deng-xiaoping-southern-tour-1992
+to: reform-and-opening-up-1978
+type: part_of
+confidence: documented
+note: The tour resumed and reinforced the reform and opening-up programme.
+sources:
+- url: https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  archive_url: https://web.archive.org/web/20261012092231/https://en.wikipedia.org/wiki/Deng_Xiaoping%27s_southern_tour
+  title: Deng Xiaoping's southern tour
+  publisher: Wikipedia
+  quote: The talks and remarks made by Deng during the tour resumed and reinforced the implementation of his
+    reform and opening up program in mainland China
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

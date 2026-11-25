@@ -1,0 +1,70 @@
+id: dame-janet-smith-review-2016
+title: Dame Janet Smith Review of the BBC and Savile
+wikidata: Q23022221
+summary: The review commissioned by the BBC from Dame Janet Smith finds that the BBC missed chances to
+  stop abuse by Jimmy Savile and Stuart Hall because of a "culture of fear". It identifies 72 victims
+  of Savile and 21 of Hall, and finds that some junior and middle-ranking staff knew of Savile's conduct
+  but no evidence that the BBC as a corporate body did.
+occurred:
+  start: '2016-02-25'
+  precision: day
+threads:
+- scandals
+- media
+regions:
+- western-europe
+actors:
+- bbc
+- jimmy-savile
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: The review was published on 25 February 2016.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: The BBC missed opportunities to stop "monstrous" abuse by DJ Jimmy Savile and broadcaster Stuart
+    Hall because of a "culture of fear", a report says.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: The Dame Janet Smith review identified 72 victims of Savile - including eight who were raped
+    - and 21 victims of Hall, over five decades from 1959.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: Certain junior and middle-ranking individuals had been aware of Savile's inappropriate sexual
+    conduct, but there was no evidence the BBC as a corporate body had been aware
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: Hall, 86, who presented TV show It's a Knockout, was jailed in 2013 after admitting indecently
+    assaulting 13 girls.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - A lawyer for 168 of Savile's victims called the report "disappointing" and said many would see it
+    as "an expensive whitewash" (BBC News, 2016).

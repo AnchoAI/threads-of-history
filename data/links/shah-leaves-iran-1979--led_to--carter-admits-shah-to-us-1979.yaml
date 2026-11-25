@@ -1,0 +1,26 @@
+id: shah-leaves-iran-1979--led_to--carter-admits-shah-to-us-1979
+from: shah-leaves-iran-1979
+to: carter-admits-shah-to-us-1979
+type: led_to
+confidence: documented
+note: The question of admitting the exiled Shah ran from his departure to the October decision.
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: When the shah left Iran on 16 January 1979, it was expected that he would quickly seek asylum in America
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: The shah’s evident desire to enter the United States threatened to unravel the little that had been achieved
+    to date
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

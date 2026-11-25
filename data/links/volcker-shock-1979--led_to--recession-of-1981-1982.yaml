@@ -1,0 +1,24 @@
+id: volcker-shock-1979--led_to--recession-of-1981-1982
+from: volcker-shock-1979
+to: recession-of-1981-1982
+type: led_to
+confidence: documented
+note: The tight monetary policy used to fight inflation triggered the 1981–82 recession.
+sources:
+- url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  archive_url: https://web.archive.org/web/20261014074435/https://www.federalreservehistory.org/essays/recession-of-1981-82
+  title: Recession of 1981-82
+  publisher: Federal Reserve History (Tim Sablik)
+  quote: Both the 1980 and 1981-82 recessions were triggered by tight monetary policy in an effort to
+    fight mounting inflation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: Meanwhile, the new policy was also pushing the economy into a severe recession
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,24 @@
+id: oslo-i-accord-1993--led_to--assassination-of-yitzhak-rabin-1995
+from: oslo-i-accord-1993
+to: assassination-of-yitzhak-rabin-1995
+type: led_to
+confidence: documented
+note: Rabin's assassin was a far-right opponent of the Oslo Accords.
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_Accords
+  archive_url: https://web.archive.org/web/20261010073604/https://en.wikipedia.org/wiki/Oslo_Accords
+  title: Oslo Accords
+  publisher: Wikipedia
+  quote: Far-right Israelis also opposed the Oslo Accords, and Israeli prime minister Yitzhak Rabin was assassinated
+    in 1995 by a right-wing Israeli extremist for signing them.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin
+  title: Assassination of Yitzhak Rabin
+  publisher: Wikipedia
+  quote: The assailant was Yigal Amir, an Israeli law student and far-right ultranationalist who radically
+    opposed the Oslo Accords and Rabin's peace initiative more broadly.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

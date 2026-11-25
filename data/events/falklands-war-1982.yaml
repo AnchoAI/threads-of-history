@@ -1,0 +1,64 @@
+id: falklands-war-1982
+title: Falklands War
+summary: Argentina's military junta invades the Falkland Islands; a British task force retakes them in
+  a ten-week war that ends with Argentina's surrender. Defeat prompted mass protests in Argentina that
+  hastened the junta's fall.
+occurred:
+  start: '1982-04-02'
+  end: '1982-06-14'
+  precision: day
+threads:
+- empire
+regions:
+- americas
+- western-europe
+actors:
+- united-kingdom
+- margaret-thatcher
+importance: 3
+wikidata: Q48249
+sources:
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: was a ten-week war in the South Atlantic in 1982 between Argentina and the United Kingdom over
+    possession of the Falkland Islands
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: The Argentine military junta, suspecting that the UK would reinforce its South Atlantic Forces,
+    ordered the invasion of the Falkland Islands to be brought forward
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: The conflict began on 2 April 1982 when Argentina invaded the Falkland Islands
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: On 5 April, the British government dispatched a naval task force to regain possession of the
+    islands. The conflict lasted 74 days and ended with an Argentine surrender on 14 June
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Falklands_War
+  archive_url: https://web.archive.org/web/20261003053804/https://en.wikipedia.org/wiki/Falklands_War
+  title: Falklands War
+  publisher: Wikipedia
+  quote: the unfavourable outcome prompted large protests against the ruling military government, hastening
+    its downfall and the democratisation of the country.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,118 @@
+id: letter-of-invitation-1968
+title: Czechoslovak hardliners' "letter of invitation" to Brezhnev
+summary: Five conservative Czechoslovak party leaders (Alois Indra, Drahomír Kolder, Antonín Kapek, Oldřich
+  Švestka and Vasil Biľak) signed a secret letter in Russian asking Brezhnev to "lend support and assistance
+  with all the means at your disposal" against "the imminent danger of counterrevolution". It was reportedly
+  handed over during the Bratislava conference; the letter itself was not produced until Russia gave copies
+  to Czechoslovakia in July 1992.
+occurred:
+  start: '1968-08-03'
+  precision: day
+  approximate: true
+  note: The letter is undated; Wikipedia reports it was handed over during the August Bratislava conference
+    (3 August).
+known:
+  public:
+    start: '1992-07-16'
+    precision: day
+    note: Copies handed to President Havel by an envoy of President Yeltsin.
+  by:
+  - party: Soviet leadership
+    actor: communist-party-of-the-soviet-union
+    when:
+      start: '1968-08-03'
+      precision: day
+      approximate: true
+    sources:
+    - url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+      archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+      title: Warsaw Pact invasion of Czechoslovakia
+      publisher: Wikipedia
+      quote: A second letter was supposedly delivered by Biľak to Ukrainian Party leader Petro Shelest during
+        the August Bratislava conference
+      type: reference
+      accessed: '2026-10-21'
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- vasil-bilak
+- leonid-brezhnev
+- communist-party-of-the-soviet-union
+- czechoslovakia
+importance: 3
+wikidata: none
+sources:
+- url: https://dhr.history.vt.edu/modules/eu/mod05_1968/evidence_detail_15.html
+  archive_url: https://web.archive.org/web/20180326142629/http://www.dhr.history.vt.edu:80/modules/eu/mod05_1968/evidence_detail_15.html
+  title: 'Letter to Brezhnev from Czech Communists, August 1968 (trans. from Navrátil et al., The Prague Spring
+    1968: A National Security Archive Documents Reader)'
+  publisher: Virginia Tech, Digital History Reader
+  quote: we are appealing to you, Soviet communists, the leading representatives of the Communist Party of
+    the Soviet Union, with a request for you to lend support and assistance with all the means at your disposal.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://dhr.history.vt.edu/modules/eu/mod05_1968/evidence_detail_15.html
+  archive_url: https://web.archive.org/web/20180326142629/http://www.dhr.history.vt.edu:80/modules/eu/mod05_1968/evidence_detail_15.html
+  title: 'Letter to Brezhnev from Czech Communists, August 1968 (trans. from Navrátil et al., The Prague Spring
+    1968: A National Security Archive Documents Reader)'
+  publisher: Virginia Tech, Digital History Reader
+  quote: Only with your assistance can the Czechoslovak Socialist Republic be extricated from the imminent
+    danger of counterrevolution.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://dhr.history.vt.edu/modules/eu/mod05_1968/evidence_detail_15.html
+  archive_url: https://web.archive.org/web/20180326142629/http://www.dhr.history.vt.edu:80/modules/eu/mod05_1968/evidence_detail_15.html
+  title: 'Letter to Brezhnev from Czech Communists, August 1968 (trans. from Navrátil et al., The Prague Spring
+    1968: A National Security Archive Documents Reader)'
+  publisher: Virginia Tech, Digital History Reader
+  quote: we request that you treat our statement with the utmost secrecy, and for that reason we are writing
+    directly to you, personally, in Russian.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: The first letter opens with "Dear Leonid Ilyich", was typewritten in Russian and includes five signatures
+    of the leading officials of the Central Committee of the Communist Party of Czechoslovakia, namely Alois
+    Indra, Drahomir Kolder, Antonin Kapek, Oldrich Svestka and Vasil Bilak.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: A second letter was supposedly delivered by Biľak to Ukrainian Party leader Petro Shelest during the
+    August Bratislava conference
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: On 3 August, representatives from the Soviet Union, East Germany, People's Republic of Poland, the
+    Hungarian People's Republic, the People's Republic of Bulgaria and Czechoslovakia met in Bratislava and
+    signed the Bratislava Declaration.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: handed over to Vaclav Havel, the President of the Czechoslovak Federative Republic a collection of
+    seven verified copies of documents on 16 July 1992
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The handover date (3 August) rests on a 1992 Izvestia account reported by Wikipedia ("supposedly"); the
+    letter itself is undated. A separate, earlier letter signed only by Kapek was reportedly given to Brezhnev
+    at Čierna nad Tisou.
+  - 'Wikidata: no item for the letter was found; set to none.'

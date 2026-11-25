@@ -1,0 +1,46 @@
+id: bowie-concert-at-the-reichstag-1987
+title: Bowie concert by the Berlin Wall and East Berlin riots
+summary: David Bowie plays a concert at the Reichstag in West Berlin on 6 June 1987, close to the Berlin Wall.
+  Thousands of East Germans listen from across the Wall, and violent rioting in East Berlin follows.
+occurred:
+  start: '1987-06-06'
+  precision: day
+threads:
+- music
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- david-bowie
+- east-germany
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  archive_url: https://web.archive.org/web/20260815014440/https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  title: Glass Spider Tour
+  publisher: Wikipedia
+  quote: The show on 6 June 1987 was played close to the Berlin Wall.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  archive_url: https://web.archive.org/web/20260815014440/https://en.wikipedia.org/wiki/Glass_Spider_Tour
+  title: Glass Spider Tour
+  publisher: Wikipedia
+  quote: The show was heard by thousands of East German citizens across the wall and was followed by violent
+    rioting in East Berlin.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)
+  archive_url: https://web.archive.org/web/20260830082542/https://en.wikipedia.org/wiki/%22Heroes%22_(David_Bowie_song)
+  title: '"Heroes" (David Bowie song)'
+  publisher: Wikipedia
+  quote: The performance on 6 June 1987 at the German Reichstag in West Berlin has been considered a catalyst
+    to the later fall of the Berlin Wall.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The riots are dated only as following the 6 June concert; their exact days are not in the fetched sources.

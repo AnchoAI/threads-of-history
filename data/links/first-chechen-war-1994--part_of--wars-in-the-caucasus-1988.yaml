@@ -1,0 +1,18 @@
+id: first-chechen-war-1994--part_of--wars-in-the-caucasus-1988
+from: first-chechen-war-1994
+to: wars-in-the-caucasus-1988
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on First Chechen War lists it as part of Wars in the Caucasus.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Chechen_War
+  title: First Chechen War
+  publisher: Wikipedia
+  quote: Part of the Chechen–Russian conflict, the Wars in the Caucasus and post-Soviet conflicts
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

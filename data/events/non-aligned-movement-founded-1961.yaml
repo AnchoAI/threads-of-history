@@ -1,0 +1,54 @@
+id: non-aligned-movement-founded-1961
+title: Belgrade summit founds the Non-Aligned Movement
+summary: Twenty-five countries meet in Belgrade for the first conference of the Non-Aligned Movement,
+  formally established on the initiative of Yugoslav president Tito and drawing on the principles agreed
+  at Bandung.
+occurred:
+  start: '1961-09-01'
+  end: '1961-09-06'
+  precision: day
+threads:
+- empire
+- usru
+regions:
+- russia-eastern-europe
+- south-central-asia
+- sub-saharan-africa
+- middle-east-north-africa
+actors:
+- josip-broz-tito
+- jawaharlal-nehru
+- gamal-abdel-nasser
+- sukarno
+- kwame-nkrumah
+importance: 4
+wikidata: Q12959442
+sources:
+- url: https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement
+  archive_url: https://web.archive.org/web/20260927045243/https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement
+  title: 1st Summit of the Non-Aligned Movement
+  publisher: Wikipedia
+  quote: on 1–6 September 1961 in Belgrade, Yugoslavia was the first conference of the Non-Aligned Movement
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement
+  archive_url: https://web.archive.org/web/20260927045243/https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement
+  title: 1st Summit of the Non-Aligned Movement
+  publisher: Wikipedia
+  quote: Twenty-five countries in total participated in Belgrade Conference
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  archive_url: https://web.archive.org/web/20260929092641/https://en.wikipedia.org/wiki/Non-Aligned_Movement
+  title: Non-Aligned Movement
+  publisher: Wikipedia
+  quote: In 1961, drawing on the principles agreed at the Bandung Conference of 1955, the Non-Aligned
+    Movement was formally established in Belgrade, Yugoslavia, through an initiative led by Yugoslav president
+    Josip Broz Tito
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

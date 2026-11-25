@@ -1,0 +1,44 @@
+id: communist-manifesto-1848
+title: The Communist Manifesto published
+summary: Karl Marx and Friedrich Engels publish the Manifesto of the Communist Party in London, arguing
+  that history is the history of class struggles and predicting a revolution that would lead to communism.
+occurred:
+  start: '1848-02-21'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- karl-marx
+- friedrich-engels
+importance: 4
+wikidata: Q40591
+sources:
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: is a political pamphlet written by Karl Marx and Friedrich Engels. It was commissioned by the
+    Communist League and published in London in 1848.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: 21 February 1848
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: the history of all hitherto existing society is the history of class struggles
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Communist_Manifesto
+  title: The Communist Manifesto
+  publisher: Wikipedia
+  quote: predicts that a revolution will lead to the emergence of communism
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

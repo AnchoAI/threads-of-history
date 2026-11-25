@@ -1,0 +1,17 @@
+id: glory-to-hong-kong-2019--led_to--glory-to-hong-kong-injunction-2024
+from: glory-to-hong-kong-2019
+to: glory-to-hong-kong-injunction-2024
+type: led_to
+confidence: documented
+note: Authorities accused the song of promoting subversion and banned it.
+sources:
+- url: https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  archive_url: https://web.archive.org/web/20260312065032/https://en.wikipedia.org/wiki/Glory_to_Hong_Kong
+  title: Glory to Hong Kong
+  publisher: Wikipedia
+  quote: In response, Hong Kong authorities have accused the song of promoting subversion and banned it under
+    the national security law
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

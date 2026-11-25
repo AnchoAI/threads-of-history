@@ -1,0 +1,56 @@
+id: international-space-station-1998
+title: 'International Space Station: first module launched'
+summary: The first module of the International Space Station is launched. The station merged the US Space
+  Station Freedom and the Soviet-planned Mir-2, combined after the Soviet collapse; it has been continuously
+  inhabited since November 2000.
+occurred:
+  start: '1998-11-20'
+  precision: day
+threads:
+- usru
+- industry
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- nasa
+- united-states
+- russia
+importance: 3
+wikidata: Q25271
+sources:
+- url: https://en.wikipedia.org/wiki/International_Space_Station
+  archive_url: https://web.archive.org/web/20261013012825/https://en.wikipedia.org/wiki/International_Space_Station
+  title: International Space Station
+  publisher: Wikipedia
+  quote: 20 November 1998
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Space_Station
+  archive_url: https://web.archive.org/web/20261013012825/https://en.wikipedia.org/wiki/International_Space_Station
+  title: International Space Station
+  publisher: Wikipedia
+  quote: 'The station combines two previously planned crewed Earth-orbiting stations: the United States''
+    Space Station Freedom and the Soviet Union''s Mir-2. The first ISS module was launched in 1998'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Space_Station
+  archive_url: https://web.archive.org/web/20261013012825/https://en.wikipedia.org/wiki/International_Space_Station
+  title: International Space Station
+  publisher: Wikipedia
+  quote: Long-term occupancy began with the arrival of the Expedition 1 crew on 2 November 2000.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Space_Station
+  archive_url: https://web.archive.org/web/20261013012825/https://en.wikipedia.org/wiki/International_Space_Station
+  title: International Space Station
+  publisher: Wikipedia
+  quote: In September 1993, American Vice-President Al Gore and Russian Prime Minister Viktor Chernomyrdin
+    announced plans for a new space station, which eventually became the International Space Station.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

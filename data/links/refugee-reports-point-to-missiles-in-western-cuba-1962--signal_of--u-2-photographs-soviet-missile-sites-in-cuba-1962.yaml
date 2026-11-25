@@ -1,0 +1,33 @@
+id: refugee-reports-point-to-missiles-in-western-cuba-1962--signal_of--u-2-photographs-soviet-missile-sites-in-cuba-1962
+from: refugee-reports-point-to-missiles-in-western-cuba-1962
+to: u-2-photographs-soviet-missile-sites-in-cuba-1962
+type: signal_of
+confidence: documented
+note: Refugee reports and the SAM pattern pointed to Soviet missile activity in Pinar del Rio, where the
+  MRBM sites were found.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  archive_url: https://web.archive.org/web/20251008174424/https://history.state.gov/historicaldocuments/frus1961-63v11/d1
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 1: Briefing Paper: Analysis of SAM Sites'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-01'
+  quote: So far, the pattern indicates that there is a definite correlation, but significantly the greatest
+    concentration of Soviet personnel, activity and camps is in the western end of the Island of Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: three medium-range ballistic missile sites were being developed near San Cristobal, in Pinar
+    del Rio province.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - The match is by province; the briefing paper did not identify the San Cristobal sites themselves.

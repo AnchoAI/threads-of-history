@@ -1,0 +1,19 @@
+id: soviet-politburo-decides-to-invade-czechoslovakia-1968--led_to--warsaw-pact-invasion-of-czechoslovakia-1968
+from: soviet-politburo-decides-to-invade-czechoslovakia-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: The Politburo resolution set the invasion in motion for the night of 20 August.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: At an 18 August Warsaw Pact meeting, Brezhnev announced that the intervention would go ahead on the
+    night of 20 August
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

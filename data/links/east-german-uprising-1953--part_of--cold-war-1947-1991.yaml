@@ -1,0 +1,19 @@
+id: east-german-uprising-1953--part_of--cold-war-1947-1991
+from: east-german-uprising-1953
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The uprising is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  archive_url: https://web.archive.org/web/20260922200349/https://en.wikipedia.org/wiki/East_German_uprising_of_1953
+  title: East German uprising of 1953
+  publisher: Wikipedia
+  quote: Part of the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

@@ -1,0 +1,43 @@
+id: iran-israel-proxy-conflict-1985
+title: Iran–Israel proxy conflict
+summary: A proxy conflict between Iran and Israel since 1985. Iran has backed Hezbollah in Lebanon and Palestinian
+  groups such as Hamas; Israel has backed Iranian rebels, struck Iran's allies in Syria and assassinated Iranian
+  nuclear scientists. It escalated into direct confrontations in 2024 and a 12-day war in June 2025.
+occurred:
+  start: '1985'
+  precision: year
+  ongoing: true
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 4
+wikidata: Q15059994
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_proxy_conflict
+  title: Iran–Israel proxy conflict
+  publisher: Wikipedia
+  quote: Iran and Israel have been engaged in a proxy conflict since 1985. In the Israeli–Lebanese conflict, Iran
+    has supported Lebanese Shia militias, most notably Hezbollah. In the Israeli–Palestinian conflict, Iran has
+    backed Palestinian groups such as Hamas.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_proxy_conflict
+  title: Iran–Israel proxy conflict
+  publisher: Wikipedia
+  quote: Israel has supported Iranian rebels, conducted airstrikes against Iranian allies in Syria, assassinated
+    Iranian nuclear scientists, and directly attacked Iranian forces in Syria.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_proxy_conflict
+  title: Iran–Israel proxy conflict
+  publisher: Wikipedia
+  quote: In 2024 the proxy war escalated to a series of direct confrontations between the two countries, and in
+    June 2025, they fought a 12-day war
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

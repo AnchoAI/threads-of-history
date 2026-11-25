@@ -1,0 +1,27 @@
+id: first-saudi-state-1744--led_to--saudi-arabia-proclaimed-1932
+from: first-saudi-state-1744
+to: saudi-arabia-proclaimed-1932
+type: led_to
+confidence: documented
+note: Ibn Saud built on the memory, alliances and networks of the earlier Saudi states.
+sources:
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: Ibn Saud’s early campaigns relied heavily on tribal alliances, as well as religious and political networks
+    associated with the legacy of the First and Second Saudi states.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: The Kingdom is the Third Saudi State and the successor to the First Saudi State (1727–1818) and the Second
+    Saudi State (1824–1891).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

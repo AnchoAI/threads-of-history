@@ -1,0 +1,44 @@
+id: winter-war-1939-1940
+title: Winter War
+summary: The Soviet Union invades Finland on 30 November 1939 and is expelled from the League of Nations.
+  The war ends on 13 March 1940 with the Moscow Peace Treaty, under which Finland cedes 9% of its territory.
+occurred:
+  start: '1939-11-30'
+  end: '1940-03-13'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- league-of-nations
+importance: 3
+wikidata: Q134949
+sources:
+- url: https://en.wikipedia.org/wiki/Winter_War
+  title: Winter War
+  publisher: Wikipedia
+  quote: It began with a Soviet invasion of Finland on 30 November 1939, three months after the outbreak
+    of World War II, and ended three and a half months later with the Moscow Peace Treaty on 13 March
+    1940.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Winter_War
+  title: Winter War
+  publisher: Wikipedia
+  quote: The League of Nations deemed the attack illegal and expelled the Soviet Union from its organization.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Winter_War
+  title: Winter War
+  publisher: Wikipedia
+  quote: Hostilities ceased in March 1940 with the signing of the Moscow Peace Treaty in which Finland
+    ceded 9% of its territory to the Soviet Union.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - No actor file exists for Finland; consider adding one.

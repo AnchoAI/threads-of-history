@@ -1,0 +1,42 @@
+id: russian-invasion-of-manchuria-1900
+title: Russian invasion of Manchuria
+summary: During the Boxer Rebellion, Russia invaded and fully occupied Manchuria, giving defence of its
+  railway against the Boxers as the pretext.
+occurred:
+  start: 1900-06
+  end: 1900-11
+  precision: month
+threads:
+- china
+- russia
+- empire
+regions:
+- east-asia
+- russia-eastern-europe
+actors:
+- russian-empire
+- qing-dynasty
+importance: 3
+wikidata: Q2177009
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: June – November 1900
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: The Russian Empire's full invasion of Manchuria occurred concurrent with its participation against
+    the Boxer Rebellion.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_invasion_of_Manchuria
+  title: Russian invasion of Manchuria
+  publisher: Wikipedia
+  quote: The pretext of the invasion was the defense of the railroad against Boxer rebels.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

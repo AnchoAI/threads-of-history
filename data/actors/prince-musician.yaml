@@ -1,0 +1,21 @@
+id: prince-musician
+title: Prince
+actor_type: person
+summary: American musician (1958–2016).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q7542
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7542.json
+  title: Prince
+  publisher: Wikidata
+  quote: American musician (1958–2016)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

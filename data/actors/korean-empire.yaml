@@ -1,0 +1,22 @@
+id: korean-empire
+title: Korean Empire
+actor_type: state
+summary: State of Korea from October 1897 to August 29, 1910.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q28233
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q28233.json
+  title: Korean Empire
+  publisher: Wikidata
+  quote: state of Korea from October 1897 to August 29, 1910
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

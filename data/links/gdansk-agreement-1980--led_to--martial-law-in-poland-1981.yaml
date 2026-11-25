@@ -1,0 +1,25 @@
+id: gdansk-agreement-1980--led_to--martial-law-in-poland-1981
+from: gdansk-agreement-1980
+to: martial-law-in-poland-1981
+type: led_to
+confidence: documented
+note: Martial law was imposed to counter the opposition, in particular Solidarity.
+sources:
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Poland
+  title: Martial law in Poland
+  publisher: Wikipedia
+  quote: in an attempt to counter political opposition, in particular the Solidarity movement
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: on 13 December 1981, Polish prime minister Wojciech Jaruzelski started a crackdown on Solidarity
+    by declaring martial law in Poland
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

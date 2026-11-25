@@ -1,0 +1,56 @@
+id: first-congo-war-1996
+title: First Congo War
+summary: Rwanda invades eastern Zaire to attack rebel groups sheltering there, joined by other neighbouring
+  states and Congolese rebels. Mobutu's regime collapses and Laurent-Désiré Kabila takes power, setting
+  the stage for the Second Congo War.
+occurred:
+  start: '1996-10-24'
+  end: '1997-05-16'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- mobutu-sese-seko
+importance: 4
+wikidata: Q838695
+sources:
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: was a civil and international military conflict that lasted from 24 October 1996 to 16 May 1997
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: The war resulted in the overthrow of Zairean President Mobutu Sese Seko, who was replaced by
+    rebel leader Laurent-Désiré Kabila.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: The war began when Rwanda invaded eastern Zaire in 1996 to target rebel groups that had sought
+    refuge there.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: This invasion expanded as Uganda, Burundi, Angola, and Eritrea joined, while an anti-Mobutu coalition
+    of Congolese rebels formed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: set the stage for the Second Congo War (1998–2003)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,24 @@
+id: great-inflation-1965--led_to--end-of-bretton-woods-1973
+from: great-inflation-1965
+to: end-of-bretton-woods-1973
+type: led_to
+confidence: documented
+note: US inflation pumped dollars abroad and made the fixed exchange rates unsustainable.
+sources:
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: A rising U.S. inflation rate expanded the U.S. balance-of-payments deficit and pumped even more
+    dollars abroad.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: The existing structure of fixed exchange rates seemed unsustainable in the face of such inflation.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

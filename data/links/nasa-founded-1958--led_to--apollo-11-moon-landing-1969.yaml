@@ -1,0 +1,18 @@
+id: nasa-founded-1958--led_to--apollo-11-moon-landing-1969
+from: nasa-founded-1958
+to: apollo-11-moon-landing-1969
+type: led_to
+confidence: documented
+note: NASA ran the Apollo program that landed the first humans on the Moon.
+sources:
+- url: https://en.wikipedia.org/wiki/Apollo_program
+  title: Apollo program
+  publisher: Wikipedia
+  quote: was the United States human spaceflight program led by NASA, which landed the first humans on
+    the Moon in 1969.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

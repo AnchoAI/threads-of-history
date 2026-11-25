@@ -1,0 +1,47 @@
+id: oau-border-resolution-1964
+title: African states pledge to keep colonial borders
+summary: Meeting in Cairo in July 1964, the heads of state of the Organisation of African Unity pledge to respect
+  the borders existing at independence, calling border problems "a grave and permanent factor of dissention".
+occurred:
+  start: '1964-07'
+  precision: month
+threads:
+- empire
+regions:
+- sub-saharan-africa
+- middle-east-north-africa
+actors: []
+importance: 3
+wikidata: none
+sources:
+- url: https://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  archive_url: https://web.archive.org/web/20260117070010/http://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  title: AHG/Res. 16(I) Border Disputes Among African States
+  publisher: Citizenship Rights in Africa Initiative (text of OAU resolution)
+  quote: The Assembly of Heads of State and Government meeting in its First Ordinary Session in Cairo, UAR, from
+    17 to 21 July 1964,
+  type: primary
+  accessed: '2026-10-14'
+- url: https://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  archive_url: https://web.archive.org/web/20260117070010/http://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  title: AHG/Res. 16(I) Border Disputes Among African States
+  publisher: Citizenship Rights in Africa Initiative (text of OAU resolution)
+  quote: SOLEMNLY DECLARES that all Member States pledge themselves to respect the borders existing on their achievement
+    of national independence.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  archive_url: https://web.archive.org/web/20260117070010/http://citizenshiprightsafrica.org/ahgres-16i-border-disputes-among-african-states/
+  title: AHG/Res. 16(I) Border Disputes Among African States
+  publisher: Citizenship Rights in Africa Initiative (text of OAU resolution)
+  quote: Considering that border problems constitute a grave and permanent factor of dissention;
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the resolution was found; Q191703 is the OAU itself.'
+  - Resolution AHG/Res. 16(I). The text is from a site reproducing it; the AU archive (archives.au.int, handle 123456789/1092)
+    holds the original.

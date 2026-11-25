@@ -1,0 +1,62 @@
+id: doj-opr-report-on-epstein-plea-deal-2020
+title: Justice Department finds "poor judgment" in Epstein plea deal
+summary: The Justice Department's Office of Professional Responsibility finds that Alexander Acosta and other prosecutors
+  used "poor judgment" in the Epstein non-prosecution agreement but committed no professional misconduct, finds
+  no evidence that the decision was based on corruption or on Epstein's wealth or associations, and says victims
+  were left "feeling confused and ill-treated by the government."
+occurred:
+  start: '2020-11-12'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- alexander-acosta
+importance: 2
+wikidata: none
+sources:
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: Former federal prosecutors used "poor judgment" in crafting the 2008 nonprosecution deal for Jeffrey Epstein
+    but didn't commit professional misconduct or break the law, the Justice Department announced Thursday.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: There was "no evidence" that Acosta's decision to pursue the deal with Epstein "was based on corruption
+    or other impermissible considerations, such as Epstein's wealth, status, or associations," the office said in
+    its report summary.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: Victims weren't informed of, or consulted about, the deal before its signing. They were left, the report
+    said, "feeling confused and ill-treated by the government."
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: According to an investigation conducted by the Department of Justice's Office of Professional Responsibility,
+    released in November 2020, Acosta showed "poor judgment" in granting Epstein a NPA
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Day from NPR's publication date (12 November 2020, 'announced Thursday'). The OPR executive summary on justice.gov
+    could not be fetched (bot challenge).

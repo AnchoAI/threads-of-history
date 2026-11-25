@@ -1,0 +1,23 @@
+id: nelson-mandela-70th-birthday-tribute-1988--influenced--release-of-nelson-mandela-1990
+from: nelson-mandela-70th-birthday-tribute-1988
+to: release-of-nelson-mandela-1990
+type: influenced
+confidence: documented
+note: The Anti-Apartheid Movement and the ANC credited the concert with raising worldwide awareness and hastening
+  Mandela's release.
+sources:
+- url: https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  archive_url: https://web.archive.org/web/20260701011102/https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  title: Nelson Mandela 70th Birthday Tribute
+  publisher: Wikipedia
+  quote: The Birthday Tribute was regarded by many, including the Anti-Apartheid Movement (AAM) and the African
+    National Congress (ANC), as raising worldwide consciousness of the imprisonment of ANC leader Mandela and others
+    by the South African apartheid government and forcing the regime to release Nelson Mandela earlier than would
+    otherwise have happened.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - This is the view of the Anti-Apartheid Movement and the ANC as reported by Wikipedia. No source disputing it
+    was found, so the link is not marked contested; a person may want to look for a scholarly assessment.

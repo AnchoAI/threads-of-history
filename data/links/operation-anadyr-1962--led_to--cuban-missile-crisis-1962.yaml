@@ -1,0 +1,28 @@
+id: operation-anadyr-1962--led_to--cuban-missile-crisis-1962
+from: operation-anadyr-1962
+to: cuban-missile-crisis-1962
+type: led_to
+confidence: documented
+note: The US discovery of the secret Soviet deployment prompted the Cuban Missile Crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Anadyr
+  archive_url: https://web.archive.org/web/20261014173224/https://en.wikipedia.org/wiki/Operation_Anadyr
+  title: Operation Anadyr
+  publisher: Wikipedia
+  quote: However, part of it was foiled when the United States discovered the plan, prompting the Cuban
+    Missile Crisis.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: These images were processed and presented to the White House the next day, thus precipitating
+    the onset of the Cuban Missile Crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

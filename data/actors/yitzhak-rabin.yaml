@@ -1,0 +1,21 @@
+id: yitzhak-rabin
+title: Yitzhak Rabin
+actor_type: person
+summary: Israeli politician, statesman and general (1922–1995).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q34060
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34060.json
+  title: Yitzhak Rabin
+  publisher: Wikidata
+  quote: Israeli politician, statesman and general (1922–1995)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

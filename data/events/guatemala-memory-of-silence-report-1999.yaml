@@ -1,0 +1,57 @@
+id: guatemala-memory-of-silence-report-1999
+title: Guatemalan truth commission report 'Memory of Silence'
+summary: The Commission for Historical Clarification presents its report on the civil war, finding that
+  over 200,000 people were killed or disappeared and attributing 93% of violations to state forces. The
+  US supplied declassified documents; President Clinton apologised to Guatemala soon after.
+occurred:
+  start: 1999-02
+  precision: month
+threads:
+- rights
+- intel
+regions:
+- americas
+actors:
+- united-nations
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  archive_url: https://web.archive.org/web/20260829035717/https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  title: Historical Clarification Commission
+  publisher: Wikipedia
+  quote: The CEH's report, Memory of Silence (Memoria del Silencio), was presented in February 1999 in
+    a 12-volume report to representatives of the URNG and the Guatemalan government and to Kofi Annan,
+    the UN Secretary-General.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  archive_url: https://web.archive.org/web/20260829035717/https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  title: Historical Clarification Commission
+  publisher: Wikipedia
+  quote: the commission revealed that over 200,000 people were killed or disappeared during the conflict
+    and attributed 93% of the violations to state forces and related paramilitary groups.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  archive_url: https://web.archive.org/web/20260829035717/https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  title: Historical Clarification Commission
+  publisher: Wikipedia
+  quote: The US provided declassified documents crucial to the commission
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: U.S. president Bill Clinton apologized to Guatemala in 1999 for the atrocities committed by the
+    U.S.-backed dictatorships. The apology came soon after the release of a truth commission report
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: Q1114753 is the commission itself, not its report.'

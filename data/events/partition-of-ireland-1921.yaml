@@ -1,0 +1,44 @@
+id: partition-of-ireland-1921
+title: Partition of Ireland
+summary: On 3 May 1921, under the Government of Ireland Act 1920, the UK divided Ireland into Northern
+  Ireland and Southern Ireland. Northern Ireland remained part of the UK, while the south became the Irish
+  Free State.
+occurred:
+  start: '1921-05-03'
+  precision: day
+threads:
+- religion
+- empire
+regions:
+- western-europe
+actors:
+- united-kingdom
+- ireland
+importance: 4
+wikidata: Q2638227
+sources:
+- url: https://en.wikipedia.org/wiki/Partition_of_Ireland
+  archive_url: https://web.archive.org/web/20261011195640/https://en.wikipedia.org/wiki/Partition_of_Ireland
+  title: Partition of Ireland
+  publisher: Wikipedia
+  quote: It was enacted on 3 May 1921 under the Government of Ireland Act 1920.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Partition_of_Ireland
+  archive_url: https://web.archive.org/web/20261011195640/https://en.wikipedia.org/wiki/Partition_of_Ireland
+  title: Partition of Ireland
+  publisher: Wikipedia
+  quote: The smaller Northern Ireland territory was created with a devolved government (Home Rule) and
+    remained part of the UK.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Partition_of_Ireland
+  archive_url: https://web.archive.org/web/20261011195640/https://en.wikipedia.org/wiki/Partition_of_Ireland
+  title: Partition of Ireland
+  publisher: Wikipedia
+  quote: Under the Treaty, the territory of Southern Ireland would leave the UK and become the Irish Free
+    State.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

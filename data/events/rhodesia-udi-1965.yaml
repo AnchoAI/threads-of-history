@@ -1,0 +1,56 @@
+id: rhodesia-udi-1965
+title: Rhodesia's Unilateral Declaration of Independence
+summary: Ian Smith's cabinet, drawn from Rhodesia's white minority of about 5%, declares the self-governing
+  British colony independent after Britain refused independence before majority rule. No country recognised
+  it.
+occurred:
+  start: '1965-11-11'
+  precision: day
+threads:
+- empire
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- ian-smith
+- united-kingdom
+importance: 3
+wikidata: Q7321053
+sources:
+- url: https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  archive_url: https://web.archive.org/web/20260907025649/https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  title: Unilateral Declaration of Independence (Rhodesia)
+  publisher: Wikipedia
+  quote: was a statement adopted by the Cabinet of Rhodesia on 11 November 1965, announcing that Rhodesia
+    (previously known as Southern Rhodesia), a British crown colony in southern Africa that had governed
+    itself since 1923, now regarded itself as an independent sovereign state.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  archive_url: https://web.archive.org/web/20260907025649/https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  title: Unilateral Declaration of Independence (Rhodesia)
+  publisher: Wikipedia
+  quote: The Rhodesian government, which mostly comprised members of the country's white minority of about
+    5%
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  archive_url: https://web.archive.org/web/20260907025649/https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  title: Unilateral Declaration of Independence (Rhodesia)
+  publisher: Wikipedia
+  quote: while Rhodesia was refused sovereignty under the newly ascendant principle of "no independence
+    before majority rule" ("NIBMAR")
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  archive_url: https://web.archive.org/web/20260907025649/https://en.wikipedia.org/wiki/Unilateral_Declaration_of_Independence_(Rhodesia)
+  title: Unilateral Declaration of Independence (Rhodesia)
+  publisher: Wikipedia
+  quote: While no country recognised the UDI
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

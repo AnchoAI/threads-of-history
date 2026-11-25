@@ -1,0 +1,46 @@
+id: transformer-architecture-2017
+title: '"Attention Is All You Need" introduces the transformer'
+summary: Eight Google researchers publish the paper that introduces the transformer, a deep-learning architecture
+  that became the basis of most modern large language models.
+occurred:
+  start: '2017-06-12'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors: []
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  archive_url: https://web.archive.org/web/20261014195143/https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  title: Attention Is All You Need
+  publisher: Wikipedia
+  quote: '"Attention Is All You Need" is a 2017 research paper on machine learning authored by eight scientists
+    and engineers working at Google. The paper introduced a new deep learning architecture known as the
+    transformer'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  archive_url: https://web.archive.org/web/20261014195143/https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  title: Attention Is All You Need
+  publisher: Wikipedia
+  quote: June 12, 2017
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  archive_url: https://web.archive.org/web/20261014195143/https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+  title: Attention Is All You Need
+  publisher: Wikipedia
+  quote: The paper is best known for introducing the Transformer architecture, which underlies most modern
+    large language models (LLMs).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - No Wikidata item linked to the English Wikipedia article was found; 'none' is set. The 12 June 2017
+    date is the infobox publication date (arXiv).

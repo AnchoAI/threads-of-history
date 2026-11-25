@@ -1,0 +1,26 @@
+id: hezbollah-israel-conflict-1985--part_of--israeli-lebanese-conflict-1968
+from: hezbollah-israel-conflict-1985
+to: israeli-lebanese-conflict-1968
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Hezbollah–Israel conflict lists it as part of Israeli–Lebanese conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Hezbollah%E2%80%93Israel_conflict
+  title: Hezbollah–Israel conflict
+  publisher: Wikipedia
+  quote: Part of the Israeli–Lebanese conflict
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Hezbollah%E2%80%93Israel_conflict
+  title: Hezbollah–Israel conflict
+  publisher: Wikipedia
+  quote: Hezbollah, a Shia Islamist political party and militant organization that was established in Lebanon in
+    1985, has been involved in a long-running conflict with Israel as part of the Iran–Israel proxy conflict and
+    the Israeli–Lebanese conflict.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

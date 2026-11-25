@@ -1,0 +1,61 @@
+id: first-aids-cases-reported-1981
+title: First AIDS cases reported
+summary: The US CDC reports five cases of a rare pneumonia in previously healthy young gay men in Los
+  Angeles, the first official report of what became the AIDS epidemic. By 2024 the disease had caused
+  an estimated 42.3 million deaths.
+occurred:
+  start: '1981-06-05'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+- sub-saharan-africa
+actors:
+- united-states
+importance: 4
+wikidata: Q3077789
+sources:
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: 'June 5: The U.S. Center for Disease Control (CDC) publishes an article in its Morbidity and
+    Mortality Weekly Report (MMWR): Pneumocystis Pneumonia—Los Angeles.'
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: This edition of the MMWR marks the first official reporting of what will later become known as
+    the AIDS (Acquired Immunodeficiency Syndrome) epidemic.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.cdc.gov/mmwr/preview/mmwrhtml/june_5.htm
+  archive_url: https://web.archive.org/web/20261010100720/https://www.cdc.gov/mmwr/preview/mmwrhtml/june_5.htm
+  title: Pneumocystis Pneumonia --- Los Angeles
+  publisher: CDC, MMWR
+  quote: In the period October 1980-May 1981, 5 young men, all active homosexuals, were treated for biopsy-confirmed
+    Pneumocystis carinii pneumonia at 3 different hospitals in Los Angeles, California.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/HIV/AIDS
+  title: HIV/AIDS
+  publisher: Wikipedia
+  quote: HIV made the jump from other primates to humans in west-central Africa in the early-to-mid-20th
+    century.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/HIV/AIDS
+  title: HIV/AIDS
+  publisher: Wikipedia
+  quote: Between the first time AIDS was readily identified through 2024, the disease is estimated to
+    have caused at least 42.3 million deaths worldwide.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Wikidata Q3077789 is the HIV/AIDS pandemic, which this item opens. The virus spread for decades before
+    1981; that is noted in the sources but not modelled as a separate item.

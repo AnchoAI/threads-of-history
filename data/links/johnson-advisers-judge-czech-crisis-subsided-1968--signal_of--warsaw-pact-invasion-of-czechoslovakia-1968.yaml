@@ -1,0 +1,20 @@
+id: johnson-advisers-judge-czech-crisis-subsided-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: johnson-advisers-judge-czech-crisis-subsided-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: A wrong reassurance about the intervention that came four weeks later.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  archive_url: https://web.archive.org/web/20250928074311/https://history.state.gov/historicaldocuments/frus1964-68v17/d72
+  title: 'FRUS 1964–1968, vol. XVII, doc. 72: Notes of the President''s meeting with his foreign policy advisers
+    at lunch'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-07-24'
+  quote: 'Mr. Rostow: The Soviets will not move militarily against them, I do not think.'
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

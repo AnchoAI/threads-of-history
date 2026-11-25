@@ -1,0 +1,21 @@
+id: donald-trump
+title: Donald Trump
+actor_type: person
+summary: President of the United States (2017–2021; since 2025).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q22686
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q22686.json
+  title: Donald Trump
+  publisher: Wikidata
+  quote: President of the United States (2017–2021; since 2025)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

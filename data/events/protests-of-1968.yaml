@@ -1,0 +1,63 @@
+id: protests-of-1968
+title: Protests of 1968
+summary: 'A worldwide wave of protest: students and workers in France in May, opposition to the Vietnam
+  War, the US civil rights movement, the Prague Spring and protests across Eastern Europe, and movements
+  in Mexico, Brazil, Japan and Pakistan.'
+occurred:
+  start: '1968'
+  precision: year
+threads:
+- revolutions
+- rights
+regions:
+- western-europe
+- americas
+- russia-eastern-europe
+- east-asia
+actors: []
+importance: 4
+wikidata: Q257758
+sources:
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: 1968 saw a worldwide escalation of protests, which were predominantly characterized by the rise
+    of left-wing politics, anti-war sentiment, civil rights urgency, youth counterculture
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: The most prominent manifestation was the May 1968 protests in France, in which students linked
+    up with wildcat strikes of up to ten million workers
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: In reaction to the Tet Offensive, protests also sparked a broad movement in opposition to the
+    Vietnam War all over the United States as well as in London, Paris, Berlin and Rome.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: In Central and Eastern Europe, there were widespread protests that escalated, particularly in
+    the Prague Spring in Czechoslovakia, in Warsaw, Poland, and in Yugoslavia. Outside the Western world
+    there were protests in Japan, Egypt, and Pakistan.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: the Tlatelolco massacre in Mexico City, and the escalation of guerrilla warfare against the military
+    dictatorship in Brazil
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Links to the Tet Offensive and the Prague Spring are proposed to batches E1 and C2 rather than created
+    here.

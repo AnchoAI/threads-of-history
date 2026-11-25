@@ -1,0 +1,26 @@
+id: fall-of-saigon-1975--part_of--spring-offensive-1975
+from: fall-of-saigon-1975
+to: spring-offensive-1975
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Fall of Saigon lists it as part of 1975 spring offensive.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: Part of the 1975 spring offensive of the Vietnam War
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: As part of the 1975 spring offensive, the People's Army of Vietnam (PAVN) and the Viet Cong (VC) auxiliaries,
+    under the command of General Văn Tiến Dũng, began their final attack on Saigon on 29 April 1975, with the Army
+    of the Republic of Vietnam (ARVN) commanded by General Nguyễn Văn Toàn suffering a heavy artillery bombardment.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

@@ -1,0 +1,29 @@
+id: dutch-inquiry-report-on-prince-bernhard-1976--part_of--lockheed-bribery-scandals-1975
+from: dutch-inquiry-report-on-prince-bernhard-1976
+to: lockheed-bribery-scandals-1975
+type: part_of
+confidence: documented
+note: The inquiry into Prince Bernhard was the Dutch branch of the Lockheed scandals.
+sources:
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: In December 1975, it surfaced that Prince Bernhard of the Netherlands received a $1.1 million bribe in
+    the early 1960s from Lockheed to ensure the Lockheed F-104 would win out over the Dassault Mirage 5 for the
+    purchase contract.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: 'Prime Minister Joop den Uyl ordered an inquiry into the affair, while Prince Bernhard refused to answer
+    reporters'' questions, stating: "I am above such things".'
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

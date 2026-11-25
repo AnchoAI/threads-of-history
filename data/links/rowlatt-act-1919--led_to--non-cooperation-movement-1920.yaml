@@ -1,0 +1,18 @@
+id: rowlatt-act-1919--led_to--non-cooperation-movement-1920
+from: rowlatt-act-1919
+to: non-cooperation-movement-1920
+type: led_to
+confidence: documented
+note: The non-cooperation movement was in part a reaction to the Rowlatt Act.
+sources:
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: The non-land movement was a reaction towards the oppressive policies of the British Indian government
+    such as the Rowlatt Act of 18 March 1919
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

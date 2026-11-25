@@ -1,0 +1,15 @@
+id: spring-offensive-1975--part_of--vietnam-war-1955
+from: spring-offensive-1975
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: The spring offensive was the final North Vietnamese campaign of the Vietnam War.
+sources:
+- url: https://en.wikipedia.org/wiki/1975_spring_offensive
+  title: 1975 spring offensive
+  publisher: Wikipedia
+  quote: was the final North Vietnamese campaign of the Vietnam War that led to the capitulation of South Vietnam.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced

@@ -1,0 +1,70 @@
+id: autocephaly-of-the-orthodox-church-of-ukraine-2018
+title: Constantinople grants autocephaly to the Orthodox Church of Ukraine
+summary: On 11 October 2018 the Ecumenical Patriarchate decided to grant autocephaly (independence) to
+  a Ukrainian church and revoked the 1686 letter that had let Moscow ordain the metropolitan of Kyiv.
+  A unification council founded the Orthodox Church of Ukraine on 15 December 2018, and it received its
+  tomos of autocephaly on 5–6 January 2019. Russia's church and government oppose it.
+occurred:
+  start: '2018-10-11'
+  end: '2019-01-06'
+  precision: day
+threads:
+- religion
+- ukraine
+regions:
+- russia-eastern-europe
+actors:
+- ecumenical-patriarchate-of-constantinople
+- orthodox-church-of-ukraine
+- russian-orthodox-church
+- ukraine
+importance: 4
+wikidata: Q56366802
+sources:
+- url: https://en.wikipedia.org/wiki/Autocephaly_of_the_Orthodox_Church_of_Ukraine
+  title: Autocephaly of the Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: On 11 October 2018, after a regular synod, the Patriarchate of Constantinople renewed an earlier
+    decision to move towards granting autocephaly to the Ukrainian Orthodox Church.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  archive_url: https://web.archive.org/web/20261006003147/https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  title: 2018 Moscow–Constantinople schism
+  publisher: Wikipedia
+  quote: revoke the "Letter of issue" (permission) of 1686 that had given permission to the patriarch
+    of Moscow to ordain the metropolitan of Kiev
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Orthodox_Church_of_Ukraine
+  title: Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: The church was established under the ecclesiastical jurisdiction of the Ecumenical Patriarchate
+    of Constantinople by a unification council that convened in Kyiv on 15 December 2018, following which
+    Ecumenical Patriarch Bartholomew I granted it a tomos of autocephaly.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  archive_url: https://web.archive.org/web/20261006003147/https://en.wikipedia.org/wiki/2018_Moscow%E2%80%93Constantinople_schism
+  title: 2018 Moscow–Constantinople schism
+  publisher: Wikipedia
+  quote: On 5 January 2019, Bartholomew I, the Ecumenical Patriarch of Constantinople, signed the official
+    decree (tomos) that granted autocephaly (independence) to the Orthodox Church of Ukraine and officially
+    established the Orthodox Church of Ukraine.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Orthodox_Church_of_Ukraine
+  title: Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: It was granted autocephaly by the Ecumenical Patriarch of Constantinople on 6 January 2019.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Orthodox_Church_of_Ukraine
+  title: Orthodox Church of Ukraine
+  publisher: Wikipedia
+  quote: The establishment of the OCU and its recognition by other autocephalous Eastern Orthodox churches
+    has been opposed by the Russian Orthodox Church as well as by the Government of Russia.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

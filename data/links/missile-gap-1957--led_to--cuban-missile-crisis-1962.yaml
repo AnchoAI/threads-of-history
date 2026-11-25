@@ -1,0 +1,30 @@
+id: missile-gap-1957--led_to--cuban-missile-crisis-1962
+from: missile-gap-1957
+to: cuban-missile-crisis-1962
+type: led_to
+confidence: documented
+note: 'One strand of later evidence: Kennedy''s missile-gap rhetoric helped convince Soviet leaders he
+  was dangerous, a belief reinforced by the Bay of Pigs, which led to the crisis.'
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Later evidence has emerged that one consequence of Kennedy pushing the false idea that America
+    was behind the Soviets in a missile gap was that Soviet premier Nikita Khrushchev and senior Soviet
+    military figures began to believe that Kennedy was a dangerous extremist
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: That belief about Kennedy as a militarist was reinforced in Soviet minds by the Bay of Pigs invasion
+    of 1961, which led to the Cuban Missile Crisis after the Soviets placed nuclear missiles in Cuba in
+    1962.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.
+  - The source presents this as one consequence among several; the Bay of Pigs is the more direct cause.
+    Check against a scholarly source on Soviet perceptions.

@@ -1,0 +1,42 @@
+id: convention-for-the-extension-of-hong-kong-territory-1898
+title: Britain leases the New Territories for 99 years
+summary: Signed in Peking on 9 June 1898, the convention leased the New Territories and New Kowloon to
+  Britain for 99 years at no charge. It was part of a "scramble for concessions" by foreign powers after
+  China's defeat by Japan.
+occurred:
+  start: '1898-06-09'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- qing-dynasty
+importance: 4
+wikidata: Q278815
+sources:
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: a lease and unequal treaty signed between Qing China and the United Kingdom in Peking on 9 June
+    1898, leasing to the United Kingdom for 99 years, at no charge, the New Territories (as the area became
+    known) and New Kowloon
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: This initiated the event known as the "scramble for concessions"
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory
+  title: Convention for the Extension of Hong Kong Territory
+  publisher: Wikipedia
+  quote: As a result, the Convention for the Extension of Hong Kong Territory was signed on 9 June 1898
+    in Beijing (Peking).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

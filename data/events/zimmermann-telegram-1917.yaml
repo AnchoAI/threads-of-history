@@ -1,0 +1,101 @@
+id: zimmermann-telegram-1917
+title: Zimmermann Telegram
+summary: In January 1917 the German Foreign Office sent a secret telegram proposing an alliance with Mexico if the
+  United States entered the war. British intelligence intercepted it; it was shown to the US government on 24 February
+  and published in the US press on 1 March 1917.
+occurred:
+  start: '1917-01-16'
+  end: '1917-01-17'
+  precision: day
+known:
+  public:
+    start: '1917-03-01'
+    precision: day
+    note: Published in the US press on 1 March 1917; Zimmermann publicly admitted it was genuine on 3 March.
+  by:
+  - party: British naval intelligence (Room 40)
+    actor: united-kingdom
+    when:
+      start: '1917-01'
+      precision: month
+      note: Wikipedia says Room 40 had partly decoded it the day after transmission; history.state.gov gives 19
+        January 1917 for the interception and decryption.
+    sources:
+    - url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+      title: Zimmermann telegram
+      publisher: Wikipedia
+      quote: In Room 40, Nigel de Grey had partially decoded the telegram by the next day.
+      type: reference
+      accessed: '2026-10-03'
+    - url: https://history.state.gov/milestones/1914-1920/wwi
+      title: U.S. Entry into World War I, 1917
+      publisher: Office of the Historian, U.S. Department of State
+      quote: On January 19, 1917, British naval intelligence intercepted and decrypted a telegram sent by German
+        Foreign Minister Arthur Zimmermann
+      type: scholarly
+      accessed: '2026-10-03'
+  - party: US government
+    actor: united-states
+    when:
+      start: '1917-02-24'
+      precision: day
+    sources:
+    - url: https://history.state.gov/milestones/1914-1920/wwi
+      title: U.S. Entry into World War I, 1917
+      publisher: Office of the Historian, U.S. Department of State
+      quote: The British finally forwarded the intercepted telegram to President Wilson on February 24.
+      type: scholarly
+      accessed: '2026-10-03'
+threads:
+- ww1
+- intel
+regions:
+- americas
+- western-europe
+actors:
+- arthur-zimmermann
+- german-empire
+- mexico
+- united-kingdom
+- united-states
+importance: 3
+wikidata: Q154091
+sources:
+- url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+  title: Zimmermann telegram
+  publisher: Wikipedia
+  quote: was a secret diplomatic communication issued from the German Foreign Office on January 17, 1917, that proposed
+    a military contract between the German Empire and Mexico if the United States entered World War I against Germany.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+  title: Zimmermann telegram
+  publisher: Wikipedia
+  quote: it was transmitted on January 16, 1917.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+  title: Zimmermann telegram
+  publisher: Wikipedia
+  quote: The telegram was intercepted by British intelligence.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://www.archives.gov/education/lessons/zimmermann
+  title: The Zimmermann Telegram (teaching activity)
+  publisher: U.S. National Archives
+  quote: on February 24, the British presented the Zimmermann telegram to the U.S. Government
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://www.archives.gov/education/lessons/zimmermann
+  title: The Zimmermann Telegram (teaching activity)
+  publisher: U.S. National Archives
+  quote: The American press published news of the telegram on March 1.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - 'Sources disagree on the sending date: Wikipedia gives both 16 January (transmitted) and 17 January (issued);
+    occurred spans both. The public date also has a source for Zimmermann''s admission: Wikipedia says he ''publicly
+    admitted on March 3, 1917, that the telegram was genuine''.'

@@ -1,0 +1,18 @@
+id: able-archer-83-war-scare-1983--part_of--cold-war-1979
+from: able-archer-83-war-scare-1983
+to: cold-war-1979
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Able Archer 83 lists it as part of Cold War (1979–1985).
+sources:
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Part of the Cold War (1979–1985) and nuclear close calls
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

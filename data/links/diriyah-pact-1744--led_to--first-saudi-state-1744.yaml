@@ -1,0 +1,27 @@
+id: diriyah-pact-1744--led_to--first-saudi-state-1744
+from: diriyah-pact-1744
+to: first-saudi-state-1744
+type: led_to
+confidence: documented
+note: The alliance gave the Al Saud a religious mission and the ideological drive for expansion.
+sources:
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: Ibn Abd al-Wahhab charted a religio-political pact with Muhammad bin Saud to help him to establish the
+    Emirate of Diriyah, the first Saudi state
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: By offering the Al-Saud a clearly defined religious mission, the alliance provided the ideological impetus
+    to Saudi expansion.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

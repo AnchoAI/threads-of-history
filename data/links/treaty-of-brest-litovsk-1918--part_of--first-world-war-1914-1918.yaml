@@ -1,0 +1,18 @@
+id: treaty-of-brest-litovsk-1918--part_of--first-world-war-1914-1918
+from: treaty-of-brest-litovsk-1918
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The separate peace by which Russia left the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk
+  title: Treaty of Brest-Litovsk
+  publisher: Wikipedia
+  quote: by which Russia withdrew from World War I
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

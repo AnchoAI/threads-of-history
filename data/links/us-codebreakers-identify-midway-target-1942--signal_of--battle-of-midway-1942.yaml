@@ -1,0 +1,17 @@
+id: us-codebreakers-identify-midway-target-1942--signal_of--battle-of-midway-1942
+from: us-codebreakers-identify-midway-target-1942
+to: battle-of-midway-1942
+type: signal_of
+confidence: documented
+note: Decrypts revealed the date and target of the Japanese attack, allowing a US ambush.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: Unknown to Yamamoto, U.S. code breakers had determined the date and location of his planned attack,
+    enabling the Americans to prepare their own ambush
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

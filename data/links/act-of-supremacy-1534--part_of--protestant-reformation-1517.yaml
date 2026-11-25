@@ -1,0 +1,22 @@
+id: act-of-supremacy-1534--part_of--protestant-reformation-1517
+from: act-of-supremacy-1534
+to: protestant-reformation-1517
+type: part_of
+confidence: documented
+note: The Act was an early step of the English Reformation, itself part of the wider European Reformation.
+sources:
+- url: https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  archive_url: https://web.archive.org/web/20260925050550/https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  title: Acts of Supremacy
+  publisher: Wikipedia
+  quote: was one of the first major events in the English Reformation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/English_Reformation
+  title: English Reformation
+  publisher: Wikipedia
+  quote: These events were part of the wider European Reformation
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

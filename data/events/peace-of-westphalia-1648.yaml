@@ -1,0 +1,57 @@
+id: peace-of-westphalia-1648
+title: Peace of Westphalia
+summary: Two peace treaties signed in October 1648 in Osnabrück and Münster ended the Thirty Years' War.
+  Some international relations scholars trace modern state sovereignty to them; many historians call that
+  a myth.
+occurred:
+  start: '1648-10-24'
+  precision: day
+threads:
+- religion
+- empire
+regions:
+- western-europe
+actors:
+- holy-roman-empire
+- kingdom-of-france
+importance: 5
+wikidata: Q150995
+sources:
+- url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+  title: Peace of Westphalia
+  publisher: Wikipedia
+  quote: 'The Peace of Westphalia (German: Westfälischer Friede, pronounced [vɛstˈfɛːlɪʃɐ ˈfʁiːdə] ) is
+    the collective name for two peace treaties signed in October 1648 in the Westphalian cities of Osnabrück
+    and Münster.'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+  title: Peace of Westphalia
+  publisher: Wikipedia
+  quote: They ended the Thirty Years' War (1618–1648) and brought peace to the Holy Roman Empire
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: 23 May 1618 – 24 October 1648
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+  title: Peace of Westphalia
+  publisher: Wikipedia
+  quote: Most modern historians have challenged the association of this system with the Peace of Westphalia,
+    calling it the "Westphalian myth".
+  type: reference
+  accessed: '2026-10-14'
+- url: https://avalon.law.yale.edu/17th_century/westphal.asp
+  archive_url: https://web.archive.org/web/20261004032352/https://avalon.law.yale.edu/17th_century/westphal.asp
+  title: 'Treaty of Westphalia: Peace Treaty between the Holy Roman Emperor and the King of France and
+    their respective Allies'
+  publisher: Avalon Project, Yale Law School
+  quote: That there shall be a Christian and Universal Peace, and a perpetual, true, and sincere Amity,
+    between his Sacred Imperial Majesty, and his most Christian Majesty
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced

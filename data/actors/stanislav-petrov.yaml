@@ -1,0 +1,21 @@
+id: stanislav-petrov
+title: Stanislav Petrov
+actor_type: person
+summary: Soviet Air Defence Forces officer (1939–2017).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q52412
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q52412.json
+  title: Stanislav Petrov
+  publisher: Wikidata
+  quote: Soviet Air Defence Forces officer (1939–2017)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

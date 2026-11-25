@@ -1,0 +1,21 @@
+id: haile-selassie
+title: Haile Selassie I
+actor_type: person
+summary: Emperor of Ethiopia from 1930 to 1974.
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q41178
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q41178.json
+  title: Haile Selassie I
+  publisher: Wikidata
+  quote: Emperor of Ethiopia from 1930 to 1974
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

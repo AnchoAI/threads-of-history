@@ -1,0 +1,43 @@
+id: aftermath-of-the-iranian-revolution-1979
+title: Aftermath of the Iranian Revolution
+summary: The period after the Shah's overthrow in February 1979, when Iran was in a "revolutionary crisis mode"
+  until 1982 or 1983, as forces loyal to Ayatollah Khomeini consolidated power. The economy and the government apparatus
+  collapsed, and rebellions broke out in Khuzistan, Kurdistan and Gonbad-e Qabus.
+occurred:
+  start: '1979'
+  end: '1983'
+  precision: year
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q5163326
+sources:
+- url: https://en.wikipedia.org/wiki/Aftermath_of_the_Iranian_Revolution
+  title: Aftermath of the Iranian Revolution
+  publisher: Wikipedia
+  quote: Following the Iranian Revolution, which overthrew the Shah of Iran in February 1979, Iran was in a "revolutionary
+    crisis mode" until 1982 or 1983 when forces loyal to the revolution's leader, Ayatollah Ruhollah Khomeini, consolidated
+    power.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Aftermath_of_the_Iranian_Revolution
+  title: Aftermath of the Iranian Revolution
+  publisher: Wikipedia
+  quote: During this period, Iran's economy and the apparatus of government collapsed
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Aftermath_of_the_Iranian_Revolution
+  title: Aftermath of the Iranian Revolution
+  publisher: Wikipedia
+  quote: Rebellions by Marxist guerrillas and federalist parties against Islamist forces in Khuzistan, Kurdistan,
+    and Gonbad-e Qabus started in April 1979
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

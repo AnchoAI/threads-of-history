@@ -1,0 +1,51 @@
+id: berlin-airlift-1948
+title: Berlin Airlift
+summary: 'From 26 June 1948 to 30 September 1949 the Western Allies supplied West Berlin by air: American
+  and British aircraft landed more than 200,000 times and delivered about 2.3 million tons of supplies,
+  nearly two-thirds of it coal. At its height a plane reached the city every thirty seconds.'
+occurred:
+  start: '1948-06-26'
+  end: '1949-09-30'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+actors:
+- united-states
+- united-kingdom
+importance: 3
+wikidata: Q12177407
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: from 26 June 1948 to 30 September 1949 to carry supplies to the people of West Berlin
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: American and British air forces landed in Berlin more than 200,000 times
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: totalling 2,334,374 tons, nearly two-thirds of which was coal
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Blockade
+  archive_url: https://web.archive.org/web/20261012143732/https://en.wikipedia.org/wiki/Berlin_Blockade
+  title: Berlin Blockade
+  publisher: Wikipedia
+  quote: At the height of the airlift, one plane reached West Berlin every thirty seconds.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The article gives two tonnage totals (2,334,374 and 2,326,406 tons); the summary says about 2.3 million.

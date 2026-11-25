@@ -1,0 +1,21 @@
+id: abdication-of-the-qing-emperor-1912--part_of--xinhai-revolution-1911
+from: abdication-of-the-qing-emperor-1912
+to: xinhai-revolution-1911
+type: part_of
+confidence: documented
+note: The abdication edict, issued in response to the revolution, marks its end.
+sources:
+- url: https://en.wikipedia.org/wiki/Imperial_Edict_of_the_Abdication_of_the_Qing_Emperor
+  title: Imperial Edict of the Abdication of the Qing Emperor
+  publisher: Wikipedia
+  quote: on 12 February 1912, as a response to the Xinhai Revolution.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: 10 October 1911 (1911-10-10) – 12 February 1912 (1912-02-12)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

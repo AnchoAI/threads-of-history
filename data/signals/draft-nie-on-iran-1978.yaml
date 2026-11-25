@@ -1,0 +1,65 @@
+id: draft-nie-on-iran-1978
+title: 'Draft NIE: the period to mid-1979 is critical for the Pahlavi dynasty'
+summary: A draft National Intelligence Estimate of about September 1978 judged that the months up to mid-1979 would
+  prove critical for the Shah's ability to preserve the powers of the Pahlavi dynasty. The National Security Archive
+  notes it is unclear whether a final version reached policymakers.
+occurred:
+  start: 1978-09
+  precision: month
+  approximate: true
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- cia
+- mohammad-reza-pahlavi
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: iranian-revolution-1979
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18201/ocr
+  archive_url: https://web.archive.org/web/20260312022042/https://nsarchive.gwu.edu/media/18201/ocr
+  title: CIA, "Draft NIE" on Iran, c. September 1978 (OCR text)
+  publisher: Central Intelligence Agency, via the National Security Archive
+  date: 1978-09
+  quote: likely to prove critical in determining the ability of the Shah to preserve the powers of the Pahlavi dynasty
+    and Iran's existing political system in even a weakened form
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: It paints a gloomy picture of the Shah’s chances and at least allows for the possibility that the Pahlavi
+    “dynasty” may not survive the next several months without major concessions.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: It is unclear whether a final version of this NIE was prepared and circulated to policymakers.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: Such a draft was prepared by the NIO's office at the end_of_octobera_but by this time it was no longer
+    relevant
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Date is the National Security Archive's "c. September 1978". The CIA review mentions a shorter draft NIE prepared
+    at the end of October; which draft this is was not established.

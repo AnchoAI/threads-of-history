@@ -1,0 +1,49 @@
+id: battle-of-karbala-0680
+title: Battle of Karbala
+summary: Umayyad forces of Caliph Yazid I killed Husayn ibn Ali, Muhammad's grandson, with most of his family and
+  companions at Karbala in present-day Iraq. Shia Muslims mourn his death each year, culminating on Ashura.
+occurred:
+  start: '0680-10-10'
+  precision: day
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- husayn-ibn-ali
+- umayyad-caliphate
+importance: 4
+wikidata: Q626058
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: 'The Battle of Karbala (Arabic: مَعْرَكَة كَرْبَلَاء, romanized: Maʿrakat Karbalāʾ) was fought on 10 October
+    680'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: between the forces of the second Umayyad caliph Yazid I (r. 680–683), and a small army led by Husayn ibn
+    Ali, second son of Ali and grandson of the Islamic prophet Muhammad, at Karbala, in modern-day southern Iraq.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: during which Husayn was killed along with most of his family members and close companions
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Battle_of_Karbala
+  title: Battle of Karbala
+  publisher: Wikipedia
+  quote: His martyrdom is commemorated during the annual ten-day mourning period of Muharram by Shi'as, culminating
+    on the tenth day of Ashura
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

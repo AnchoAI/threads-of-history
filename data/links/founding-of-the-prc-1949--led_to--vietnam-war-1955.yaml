@@ -1,0 +1,30 @@
+id: founding-of-the-prc-1949--led_to--vietnam-war-1955
+from: founding-of-the-prc-1949
+to: vietnam-war-1955
+type: led_to
+confidence: documented
+note: 'The communist victory in China internationalised the Indochina war: the PRC recognised and then armed
+  the Viet Minh.'
+sources:
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  archive_url: https://web.archive.org/web/20261014173152/https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: The Chinese communist victory of 1949 transformed the nature of the Indochina War. In January 1950,
+    the People's Republic of China became the first state to recognize the Democratic Republic of Vietnam and
+    persuaded the Soviet Union to do the same.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  archive_url: https://web.archive.org/web/20261014173152/https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: In April 1950, the Chinese leadership formed the Chinese Military Advisory Group (CMAG), marking the
+    beginning of substantial Chinese support for t
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The source describes how 1949 transformed the First Indochina War, the Vietnam War's background; that war
+    began in 1946, so the link points to the later war, whose article makes the statement.

@@ -1,0 +1,18 @@
+id: paris-peace-conference-1919--led_to--may-fourth-movement-1919
+from: paris-peace-conference-1919
+to: may-fourth-movement-1919
+type: led_to
+confidence: documented
+note: The conference's award of German rights in Shandong to Japan set off the May Fourth protests.
+sources:
+- url: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  title: Paris Peace Conference (1919–1920)
+  publisher: Wikipedia
+  quote: Chinese outrage over that provision led to demonstrations known as the May Fourth Movement.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

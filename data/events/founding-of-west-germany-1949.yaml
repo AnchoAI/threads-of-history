@@ -1,0 +1,56 @@
+id: founding-of-west-germany-1949
+title: Federal Republic of Germany founded
+summary: The Basic Law, adopted in Bonn on 8 May 1949 and approved by the Western Allies on 12 May, came
+  into effect on 23 May 1949, founding the Federal Republic of Germany (West Germany) from twelve states
+  in the American, British and French zones. Its first Chancellor, Konrad Adenauer, worked for alignment
+  with NATO rather than neutrality.
+occurred:
+  start: '1949-05-23'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+actors:
+- konrad-adenauer
+- west-germany
+- united-states
+- united-kingdom
+- france
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany
+  archive_url: https://web.archive.org/web/20261004013154/https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany
+  title: Basic Law for the Federal Republic of Germany
+  publisher: Wikipedia
+  quote: The West German constitution was adopted in Bonn on 8 May 1949 and came into effect on 23 May
+    after having been approved by the occupying western Allies of World War II on 12 May.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/West_Germany
+  title: West Germany
+  publisher: Wikipedia
+  quote: West Germany was the common English name for the Federal Republic of Germany (FRG) from its formation
+    on 23 May 1949
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/West_Germany
+  title: West Germany
+  publisher: Wikipedia
+  quote: established from twelve states formed in the three Allied zones of occupation held by the United
+    States, the United Kingdom, and France
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/West_Germany
+  title: West Germany
+  publisher: Wikipedia
+  quote: The first Chancellor Konrad Adenauer, who remained in office until 1963, worked for a full alignment
+    with the NATO rather than neutrality
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': Wikidata has items for West Germany (Q713750, the state) and the Basic Law (Q56045,
+    the constitution) but none found for the founding as an event.'

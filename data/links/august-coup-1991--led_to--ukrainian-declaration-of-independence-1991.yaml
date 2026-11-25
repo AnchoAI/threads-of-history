@@ -1,0 +1,24 @@
+id: august-coup-1991--led_to--ukrainian-declaration-of-independence-1991
+from: august-coup-1991
+to: ukrainian-declaration-of-independence-1991
+type: led_to
+confidence: documented
+note: Ukraine's declaration was adopted in the coup's aftermath; the Ukrainian Communist Party backed
+  it to distance itself from the coup.
+sources:
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: The Act was adopted in the aftermath of the coup attempt in the Soviet Union on 19 August
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Declaration_of_Independence_of_Ukraine
+  title: Declaration of Independence of Ukraine
+  publisher: Wikipedia
+  quote: felt compelled to support the Act in order to distance itself from the coup
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

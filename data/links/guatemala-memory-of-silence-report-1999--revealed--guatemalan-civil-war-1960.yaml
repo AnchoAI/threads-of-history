@@ -1,0 +1,19 @@
+id: guatemala-memory-of-silence-report-1999--revealed--guatemalan-civil-war-1960
+from: guatemala-memory-of-silence-report-1999
+to: guatemalan-civil-war-1960
+type: revealed
+confidence: documented
+note: The truth commission documented the scale of killing and who was responsible.
+sources:
+- url: https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  archive_url: https://web.archive.org/web/20260829035717/https://en.wikipedia.org/wiki/Historical_Clarification_Commission
+  title: Historical Clarification Commission
+  publisher: Wikipedia
+  quote: the commission revealed that over 200,000 people were killed or disappeared during the conflict
+    and attributed 93% of the violations to state forces and related paramilitary groups.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

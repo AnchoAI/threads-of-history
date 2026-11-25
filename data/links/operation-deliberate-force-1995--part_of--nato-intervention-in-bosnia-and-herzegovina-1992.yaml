@@ -1,0 +1,19 @@
+id: operation-deliberate-force-1995--part_of--nato-intervention-in-bosnia-and-herzegovina-1992
+from: operation-deliberate-force-1995
+to: nato-intervention-in-bosnia-and-herzegovina-1992
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Operation Deliberate Force lists it as part of NATO intervention in
+  Bosnia and Herzegovina.
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Deliberate_Force
+  title: Operation Deliberate Force
+  publisher: Wikipedia
+  quote: Part of the NATO intervention in Bosnia and Herzegovina during the Bosnian War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

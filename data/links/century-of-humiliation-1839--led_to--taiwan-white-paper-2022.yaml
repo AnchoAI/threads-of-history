@@ -1,0 +1,28 @@
+id: century-of-humiliation-1839--led_to--taiwan-white-paper-2022
+from: century-of-humiliation-1839
+to: taiwan-white-paper-2022
+type: led_to
+confidence: documented
+note: Chinese officials frame unification with Taiwan as overcoming the humiliation; the white paper does
+  so explicitly.
+sources:
+- url: https://en.wikipedia.org/wiki/Century_of_humiliation
+  title: Century of humiliation
+  publisher: Wikipedia
+  quote: The narrative is also applied to Taiwan, with officials framing Chinese unification as part of
+    the same historical process of overcoming national fragmentation and foreign interference.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  archive_url: https://web.archive.org/web/20260608014939/https://www.chinadaily.com.cn/a/202208/10/WS62f314b6a310fd2b29e71619.html
+  title: 'Full text: The Taiwan Question and China''s Reunification in the New Era'
+  publisher: China Daily
+  quote: Japan's 50-year occupation of Taiwan epitomized this humiliation and inflicted agony on both
+    sides of the Taiwan Straits.
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The framing is the PRC government's, quoted from its own white paper. Wikipedia also notes analysts
+    who see the narrative as bolstering territorial claims.

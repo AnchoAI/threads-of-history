@@ -1,0 +1,58 @@
+id: canton-system-1757--led_to--first-opium-war-1839
+from: canton-system-1757
+to: first-opium-war-1839
+type: led_to
+confidence: contested
+note: Western states wanted the Canton System ended; how far trade restrictions rather than opium caused
+  the war is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: Foremost among the concerns of the western nations was the end of the Canton System and the opening
+    of China's vast consumer markets to trade.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: Britain went to war largely because China refused diplomatic equality and refused to open more
+    ports than Guangzhou to trade.
+  held_by:
+  - Harry G. Gelber
+  sources:
+  - url: https://en.wikipedia.org/wiki/First_Opium_War
+    archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+    title: First Opium War
+    publisher: Wikipedia
+    quote: because China refused to negotiate on terms of diplomatic equality and because China refused
+      to open more ports than Guangzhou to trade, not just with Britain but with everybody.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The war was driven by the profits of the opium trade.
+  held_by:
+  - William Ewart Gladstone and other contemporary British opponents of the war, as summarised by Jasper
+    Ridley
+  sources:
+  - url: https://en.wikipedia.org/wiki/First_Opium_War
+    archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+    title: First Opium War
+    publisher: Wikipedia
+    quote: They argued that Palmerston (the foreign secretary) was only interested in the huge profits
+      it would bring Britain, and was totally oblivious to the horrible moral evils of opium
+    type: reference
+    accessed: '2026-10-14'
+- claim: Without the opium market there would have been no "opium war", though some Sino-foreign war over
+    trade and diplomatic access would probably have come anyway.
+  held_by:
+  - John K. Fairbank
+  sources:
+  - url: https://en.wikipedia.org/wiki/First_Opium_War
+    archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+    title: First Opium War
+    publisher: Wikipedia
+    quote: Yet probably some kind of Sino-foreign war would have come, given the irresistible vigor of
+      Western expansion and immovable inertia of Chinese institutions.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced

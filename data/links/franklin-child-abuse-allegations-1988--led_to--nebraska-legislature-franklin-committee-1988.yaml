@@ -1,0 +1,20 @@
+id: franklin-child-abuse-allegations-1988--led_to--nebraska-legislature-franklin-committee-1988
+from: franklin-child-abuse-allegations-1988
+to: nebraska-legislature-franklin-committee-1988
+type: led_to
+confidence: documented
+note: The Legislature set up the committee in response to the allegations.
+sources:
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: In response, the Nebraska Legislature in January 1989 established an investigative panel (the "Franklin
+    Committee") to examine both the credit union's financial failure and the emerging child abuse allegations.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

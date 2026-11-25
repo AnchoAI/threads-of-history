@@ -1,0 +1,63 @@
+id: ryan-report-2009
+title: Ryan Report on abuse in Irish residential institutions
+wikidata: Q1129619
+summary: Ireland's Commission to Inquire into Child Abuse, chaired by Justice Sean Ryan, publishes its
+  report on reformatory and industrial schools run by Catholic orders. It found that some religious officials
+  shielded their orders amid a "culture of self-serving secrecy" and that government inspectors failed
+  to stop the abuses.
+occurred:
+  start: '2009-05-20'
+  precision: day
+threads:
+- scandals
+- religion
+- rights
+regions:
+- western-europe
+actors:
+- ireland
+- catholic-church
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Ryan_Report
+  archive_url: https://web.archive.org/web/20260312050806/https://en.wikipedia.org/wiki/Ryan_Report
+  title: Commission to Inquire into Child Abuse (Ryan Report)
+  publisher: Wikipedia
+  quote: The commission's report was published on 20 May 2009 in five volumes with an executive summary
+    containing 43 conclusions and 20 recommendations.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Ryan_Report
+  archive_url: https://web.archive.org/web/20260312050806/https://en.wikipedia.org/wiki/Ryan_Report
+  title: Commission to Inquire into Child Abuse (Ryan Report)
+  publisher: Wikipedia
+  quote: the majority of allegations it investigated related to the system of sixty residential "Reformatory
+    and Industrial Schools" operated by Catholic Church orders, funded and supervised by the Department
+    of Education.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Ryan_Report
+  archive_url: https://web.archive.org/web/20260312050806/https://en.wikipedia.org/wiki/Ryan_Report
+  title: Commission to Inquire into Child Abuse (Ryan Report)
+  publisher: Wikipedia
+  quote: some religious officials encouraged ritual beatings and consistently shielded their orders amid
+    a "culture of self-serving secrecy", and that government inspectors failed to stop the abuses.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Ryan_Report
+  archive_url: https://web.archive.org/web/20260312050806/https://en.wikipedia.org/wiki/Ryan_Report
+  title: Commission to Inquire into Child Abuse (Ryan Report)
+  publisher: Wikipedia
+  quote: Laffoy resigned as chair in 2003 and was succeeded by Justice Sean Ryan, with the commission
+    becoming known as the Ryan Commission.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - Wikidata Q1129619 is the Commission to Inquire into Child Abuse ("resulting in The Ryan Report");
+    no separate item for the report was found. Near match.
+  - The commission's inquiry followed the 1999 RTÉ series "States of Fear" and Bertie Ahern's apology
+    of May 1999 (Wikipedia); these could be added as earlier events.

@@ -1,0 +1,30 @@
+id: boland-amendment-1982--led_to--iran-contra-affair-1984
+from: boland-amendment-1982
+to: iran-contra-affair-1984
+type: led_to
+confidence: documented
+note: The Reagan administration secretly circumvented the Boland ban to keep supplying the Contras, which became
+  the Contra half of Iran–Contra.
+sources:
+- url: https://en.wikipedia.org/wiki/Boland_Amendment
+  archive_url: https://web.archive.org/web/20260927224926/https://en.wikipedia.org/wiki/Boland_Amendment
+  title: Boland Amendment
+  publisher: Wikipedia
+  quote: The most significant effect of the Boland Amendment was the Iran–Contra affair, during which the Reagan
+    Administration circumvented the Amendment in order to continue supplying arms to the Contras.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: the provision and coordination of support to the contras violated the Boland Amendment ban on aid to military
+    activities in Nicaragua
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

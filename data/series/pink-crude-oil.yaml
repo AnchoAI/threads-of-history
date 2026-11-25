@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: pink-crude-oil
+title: Crude oil price, average (World Bank Pink Sheet)
+summary: World crude oil price, average in real 2010 US dollars, yearly, from the World Bank's commodity
+  price data.
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: real 2010 US$ per barrel
+dataset: world-bank-commodity-prices
+indicator: Crude oil price, average
+table: tables/pink-crude-oil.csv
+sources:
+- url: https://www.worldbank.org/en/research/commodity-markets
+  title: Commodity Markets (Pink Sheet data)
+  publisher: The World Bank
+  type: primary

@@ -1,0 +1,47 @@
+id: palestinian-expulsion-and-flight-1947--echo--jewish-exodus-from-the-muslim-world-1948
+from: palestinian-expulsion-and-flight-1947
+to: jewish-exodus-from-the-muslim-world-1948
+type: echo
+confidence: contested
+note: Whether the Jewish exodus from Arab countries is analogous to the Palestinian exodus is itself disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: Those who view the Jewish exodus as analogous to the 1948 Palestinian expulsion and flight generally
+    emphasize the push factors and consider those who left to have been refugees, while those who oppose that
+    view generally emphasize the pull factors and consider the Jews to have been willing emigrants.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: The two exoduses are analogous; Jews who left Arab countries were refugees pushed out by persecution
+    and expulsion.
+  held_by:
+  - Justice for Jews from Arab Countries
+  - US Congress resolutions written with it (per the source)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+    title: Jewish exodus from the Muslim world
+    publisher: Wikipedia
+    quote: The resolutions had been written together with lobbyist group Justice for Jews from Arab Countries,
+      whose founder Stanley Urman described the resolution in 2009 as "perhaps our most significant accomplishment".
+    type: reference
+    accessed: '2026-10-15'
+- claim: They are not analogous; many Jews left as willing emigrants drawn by Zionism and organised Israeli
+    recruitment, and in Morocco, Algeria and Tunisia there was no large-scale expulsion.
+  held_by:
+  - Scholars emphasising pull factors (per the source)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+    title: Jewish exodus from the Muslim world
+    publisher: Wikipedia
+    quote: As in Tunisia and Morocco, Algerian Jews did not face large scale expulsion or outright asset confiscation
+      or any similar government persecution during the period of exile, and Zionist agents were relatively
+      allowed freedom of action to encourage emigration.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: unverified
+  notes:
+  - The source states the two camps but names few holders. A reviewer should add named scholars on each side
+    (e.g. from the article's 'Comparison with the Palestinian exodus' sources).

@@ -1,0 +1,23 @@
+id: attack-on-pearl-harbor-1941--led_to--us-declaration-of-war-on-japan-1941
+from: attack-on-pearl-harbor-1941
+to: us-declaration-of-war-on-japan-1941
+type: led_to
+confidence: documented
+note: Congress declared war on Japan the day after the attack.
+sources:
+- url: https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan
+  title: Joint Address to Congress Leading to a Declaration of War Against Japan (1941)
+  publisher: US National Archives
+  quote: The Japanese attack on Pearl Harbor catapulted the United States into World War II.
+  type: primary
+  accessed: '2026-10-03'
+- url: https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan
+  title: Joint Address to Congress Leading to a Declaration of War Against Japan (1941)
+  publisher: US National Archives
+  quote: On December 8, 1941, the day after the Japanese attacked Pearl Harbor, President Franklin Roosevelt
+    delivered this "Day of Infamy Speech." Immediately afterward, Congress declared war, and the United
+    States entered World War II.
+  type: primary
+  accessed: '2026-10-03'
+review:
+  status: sourced

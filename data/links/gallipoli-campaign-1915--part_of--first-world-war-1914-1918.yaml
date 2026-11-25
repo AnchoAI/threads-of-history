@@ -1,0 +1,17 @@
+id: gallipoli-campaign-1915--part_of--first-world-war-1914-1918
+from: gallipoli-campaign-1915
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: Gallipoli campaign was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  title: Gallipoli campaign
+  publisher: Wikipedia
+  quote: was a military campaign in the First World War on the Gallipoli Peninsula
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

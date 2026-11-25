@@ -1,0 +1,28 @@
+id: abu-ghraib-photographs-published-2004--revealed--abu-ghraib-prisoner-abuse-2003
+from: abu-ghraib-photographs-published-2004
+to: abu-ghraib-prisoner-abuse-2003
+type: revealed
+confidence: documented
+note: The CBS broadcast and The New Yorker's article made the abuse, already under Army investigation, public.
+sources:
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: The abuses came to public attention with the publication of photographs by CBS News in April 2004, causing
+    shock and outrage and receiving widespread condemnation within the United States and internationally.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: Hersh authored an article in The New Yorker magazine discussing the abuses in detail, relying on a copy
+    of the Taguba report for substantiation.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

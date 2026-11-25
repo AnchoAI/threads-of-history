@@ -1,0 +1,52 @@
+id: non-cooperation-movement-1920
+title: Non-cooperation movement
+summary: Gandhi launches a campaign urging Indians to withdraw their cooperation from British rule, including
+  boycotts of British goods. He called it off in February 1922 after the Chauri Chaura incident.
+occurred:
+  start: '1920-09-04'
+  end: '1922-02-04'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- mahatma-gandhi
+- indian-national-congress
+- british-raj
+importance: 4
+wikidata: Q1479381
+sources:
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: The non-cooperation movement was a political campaign launched on 4 September 1920 by Mahatma
+    Gandhi to encourage Indians to withdraw their cooperation from the British government
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: protesters would refuse to buy British goods
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: ended, as Nehru described in his autobiography, "suddenly" on 4 February 1922 after the Chauri
+    Chaura incident
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: the movement was eventually called off by Gandhi in February 1922 following the Chauri Chaura
+    incident
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - The source gives 4 February 1922 (the Chauri Chaura incident) as the end; Gandhi's formal suspension
+    came days later. Check the exact suspension date against a scholarly source.

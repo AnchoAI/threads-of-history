@@ -1,0 +1,75 @@
+id: indian-rebellion-of-1857--led_to--partition-of-india-1947
+from: indian-rebellion-of-1857
+to: partition-of-india-1947
+type: led_to
+confidence: contested
+note: Whether partition grew from a British divide-and-rule strategy adopted after 1857 is disputed among historians
+  and in Indian politics.
+sources:
+- url: https://www.nationalheraldindia.com/amp/story/national/partition-horrors-falsehoods-with-clear-communal-intent-say-experts
+  title: '''Partition Horrors'' falsehoods with clear communal intent, say experts'
+  publisher: National Herald
+  date: '2025-08-28'
+  quote: For the Partition of India was the result of ‘a long-term strategy of the British pursued since the 19th
+    century of divide and rule, particularly after the revolt of 1857, which Hindus and Muslims fought together,
+    shoulder to shoulder’.
+  type: news
+  accessed: '2026-10-14'
+positions:
+- claim: Partition was the result of a long-term British strategy of divide and rule, pursued particularly after
+    the revolt of 1857.
+  held_by:
+  - Indian History Congress (2025 resolution)
+  sources:
+  - url: https://www.nationalheraldindia.com/amp/story/national/partition-horrors-falsehoods-with-clear-communal-intent-say-experts
+    title: '''Partition Horrors'' falsehoods with clear communal intent, say experts'
+    publisher: National Herald
+    date: '2025-08-28'
+    quote: For the Partition of India was the result of ‘a long-term strategy of the British pursued since the 19th
+      century of divide and rule, particularly after the revolt of 1857, which Hindus and Muslims fought together,
+      shoulder to shoulder’.
+    type: news
+    accessed: '2026-10-14'
+- claim: British divide and rule was not responsible for partition; Pakistan was popularly imagined as a sovereign
+    Islamic state.
+  held_by:
+  - Venkat Dhulipala
+  sources:
+  - url: https://en.wikipedia.org/wiki/Partition_of_India
+    archive_url: https://web.archive.org/web/20261009095447/https://en.wikipedia.org/wiki/Partition_of_India
+    title: Partition of India
+    publisher: Wikipedia
+    quote: Venkat Dhulipala rejects the idea that the British divide and rule policy was responsible for partition
+    type: reference
+    accessed: '2026-10-14'
+- claim: Partition was not the inevitable end of British divide and rule, nor of Hindu–Muslim differences.
+  held_by:
+  - Ian Talbot
+  - Gurharpal Singh
+  sources:
+  - url: https://en.wikipedia.org/wiki/Partition_of_India
+    archive_url: https://web.archive.org/web/20261009095447/https://en.wikipedia.org/wiki/Partition_of_India
+    title: Partition of India
+    publisher: Wikipedia
+    quote: In their authoritative study of the partition, Ian Talbot and Gurharpal Singh have said that the partition
+      was not the inevitable end of the so-called British 'divide and rule policy' nor was it the inevitable end
+      of Hindu-Muslim differences.
+    type: reference
+    accessed: '2026-10-14'
+- claim: The Muslim League and the Indian National Congress, not the British, engineered partition.
+  held_by:
+  - NCERT and Indian Ministry of Education (2025 Partition Horrors module), as described by the National Herald
+  sources:
+  - url: https://www.nationalheraldindia.com/amp/story/national/partition-horrors-falsehoods-with-clear-communal-intent-say-experts
+    title: '''Partition Horrors'' falsehoods with clear communal intent, say experts'
+    publisher: National Herald
+    date: '2025-08-28'
+    quote: it was that of the Indian National Congress as well as the Muslim League, which engineered the breaking
+      up of India and Pakistan at both eastern and western borders
+    type: news
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.
+  - The NCERT position is reported second-hand by a newspaper critical of it; find the module text itself.

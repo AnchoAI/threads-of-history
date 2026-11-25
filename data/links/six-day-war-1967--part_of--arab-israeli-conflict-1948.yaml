@@ -1,0 +1,19 @@
+id: six-day-war-1967--part_of--arab-israeli-conflict-1948
+from: six-day-war-1967
+to: arab-israeli-conflict-1948
+type: part_of
+confidence: documented
+note: The Six-Day War is part of the Arab–Israeli conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Six-Day_War
+  archive_url: https://web.archive.org/web/20261013165652/https://en.wikipedia.org/wiki/Six-Day_War
+  title: Six-Day War
+  publisher: Wikipedia
+  quote: Part of the Arab–Israeli conflict and the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

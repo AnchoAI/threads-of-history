@@ -1,0 +1,43 @@
+id: european-banking-crisis-1931
+title: European banking crisis of 1931
+summary: A wave of bank failures in Austria and Germany that began with Vienna's Creditanstalt on 11 May
+  1931 and peaked with the Danat-Bank in July. It triggered Germany's exit from the gold standard in July
+  1931 and Britain's in September; recent historians question how far the Creditanstalt collapse caused
+  the German crisis.
+occurred:
+  start: '1931-05-11'
+  end: '1931-07-15'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- weimar-republic
+- herbert-hoover
+importance: 3
+wikidata: Q1202188
+sources:
+- url: https://en.wikipedia.org/wiki/European_banking_crisis_of_1931
+  title: European banking crisis of 1931
+  publisher: Wikipedia
+  quote: peaked with the collapse of several major banks in Austria and Germany, including Creditanstalt
+    on 11 May 1931, Landesbank der Rheinprovinz on 11 July 1931, and Danat-Bank on 13 July 1931
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/European_banking_crisis_of_1931
+  title: European banking crisis of 1931
+  publisher: Wikipedia
+  quote: It triggered Germany's exit from the gold standard on 15 July 1931, followed by the UK on 19
+    September 1931
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/European_banking_crisis_of_1931
+  title: European banking crisis of 1931
+  publisher: Wikipedia
+  quote: The long-accepted causal link between the Creditanstalt collapse and the events in Germany has
+    likewise been questioned in more recent historiography.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

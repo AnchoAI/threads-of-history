@@ -1,0 +1,52 @@
+id: black-death-1346
+title: Black Death
+summary: A plague pandemic caused by the bacterium Yersinia pestis kills up to 50 million people, around 30–60%
+  of Europe's population. In the labour shortage that followed, wages rose and landowners offered tenants better
+  terms.
+occurred:
+  start: '1346'
+  end: '1353'
+  precision: year
+threads:
+- industry
+- econ-crises
+regions:
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+actors: []
+importance: 5
+wikidata: Q42005
+sources:
+- url: https://en.wikipedia.org/wiki/Black_Death
+  title: Black Death
+  publisher: Wikipedia
+  quote: The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most
+    fatal pandemics in human history, leading to the death of up to 50 million people, around 30% to 60% of the
+    European population
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Black_Death
+  title: Black Death
+  publisher: Wikipedia
+  quote: The disease was caused by the bacterium Yersinia pestis
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Black_Death
+  title: Black Death
+  publisher: Wikipedia
+  quote: But along with population decline from the pandemic, wages soared in response to a subsequent labour shortage.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  title: Consequences of the Black Death
+  publisher: Wikipedia
+  quote: Labour was in such a short supply that landlords were forced to give better terms of tenure.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

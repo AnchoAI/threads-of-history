@@ -1,0 +1,66 @@
+id: recession-of-1973-1975
+title: 1973–1975 recession and stagflation
+summary: A recession across much of the Western world, lasting in the US from November 1973 to March 1975,
+  unusual for combining high unemployment with high inflation (stagflation). Its causes included the 1973
+  oil crisis, Vietnam War deficits and the fall of the Bretton Woods system; how much weight the oil shock
+  deserves, as against US monetary policy, is debated.
+occurred:
+  start: 1973-11
+  end: 1975-03
+  precision: month
+threads:
+- econ-crises
+- energy
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+- federal-reserve
+importance: 3
+wikidata: Q2560230
+sources:
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: The 1973–1975 recession or 1970s recession was a period of economic stagnation in much of the
+    Western world
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: It differed from many previous recessions by involving stagflation, in which high unemployment
+    and high inflation existed simultaneously.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: The recession in the United States lasted from November 1973 (the Richard Nixon presidency) to
+    March 1975 (the Gerald Ford presidency)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  archive_url: https://web.archive.org/web/20260907044424/https://en.wikipedia.org/wiki/1973%E2%80%931975_recession
+  title: 1973–1975 recession
+  publisher: Wikipedia
+  quote: Among the causes were the 1973 oil crisis, the deficits of the Vietnam War, and the fall of the
+    Bretton Woods system after the Nixon shock.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/great-inflation
+  archive_url: https://web.archive.org/web/20260910214748/https://www.federalreservehistory.org/essays/great-inflation
+  title: The Great Inflation
+  publisher: Federal Reserve History (Michael Bryan)
+  quote: While economists debate the relative importance of the factors that motivated and perpetuated
+    inflation for more than a decade, there is little debate about its source.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The dates are for the US; the source says the UK recession also ran from 1973 to 1975.

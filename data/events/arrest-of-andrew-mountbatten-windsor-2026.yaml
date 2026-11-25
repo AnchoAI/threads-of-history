@@ -1,0 +1,58 @@
+id: arrest-of-andrew-mountbatten-windsor-2026
+title: Andrew Mountbatten-Windsor arrested
+summary: Police arrest Andrew Mountbatten-Windsor on suspicion of misconduct in public office, over documents in
+  the newly released Epstein files suggesting he passed official government documents to Epstein while UK trade
+  envoy. He is released under investigation the same day, has not been charged, and denies wrongdoing.
+occurred:
+  start: '2026-02-19'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- andrew-mountbatten-windsor
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  archive_url: https://web.archive.org/web/20261017154052/https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikipedia
+  quote: On the morning of 19 February 2026, his 66th birthday, Andrew was arrested on suspicion of misconduct in
+    public office at the Sandringham estate, where he had been living since leaving his home in Windsor.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: It follows documents in recently released Epstein files that suggest Andrew passed on official government
+    documents to the late financier when he was a trade envoy.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  archive_url: https://web.archive.org/web/20261017154052/https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor
+  title: Andrew Mountbatten-Windsor
+  publisher: Wikipedia
+  quote: Andrew was released from Aylsham police station later that day, around 11 hours after his arrest, under
+    investigation.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: The former prince has not been charged with a crime. He has long denied any wrongdoing over his Epstein
+    links.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - As of the fetched pages (October 2026), he has not been charged; Wikipedia reports he has challenged the search
+    warrants in the High Court.

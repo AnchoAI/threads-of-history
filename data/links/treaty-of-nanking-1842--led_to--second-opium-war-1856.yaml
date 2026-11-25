@@ -1,0 +1,22 @@
+id: treaty-of-nanking-1842--led_to--second-opium-war-1856
+from: treaty-of-nanking-1842
+to: second-opium-war-1856
+type: led_to
+confidence: documented
+note: The treaty's failure to satisfy British trade and diplomatic goals led to a second war.
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: The failure of the treaty to satisfy British goals of improved trade and diplomatic relations
+    led to the Second Opium War (1856–1860).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: In 1842, the Treaty of Nanking granted an indemnity and extraterritoriality to Britain
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

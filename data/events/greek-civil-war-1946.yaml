@@ -1,0 +1,60 @@
+id: greek-civil-war-1946
+title: Greek Civil War
+summary: From 1946 to 1949 a Communist-led uprising, backed by Yugoslavia and Albania, fought the government
+  of the Kingdom of Greece, which was supported first by Britain and then the United States and won. It
+  is described as the first proxy conflict of the Cold War.
+occurred:
+  start: '1946-03-31'
+  end: '1949-08-30'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+actors:
+- united-kingdom
+- united-states
+importance: 3
+wikidata: Q188972
+sources:
+- url: https://en.wikipedia.org/wiki/Greek_Civil_War
+  archive_url: https://web.archive.org/web/20260930033842/https://en.wikipedia.org/wiki/Greek_civil_war
+  title: Greek Civil War
+  publisher: Wikipedia
+  quote: Date 31 March 1946 – 30 August 1949
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Greek_Civil_War
+  archive_url: https://web.archive.org/web/20260930033842/https://en.wikipedia.org/wiki/Greek_civil_war
+  title: Greek Civil War
+  publisher: Wikipedia
+  quote: consisted of a Communist-led uprising against the established government of the Kingdom of Greece
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Greek_Civil_War
+  archive_url: https://web.archive.org/web/20260930033842/https://en.wikipedia.org/wiki/Greek_civil_war
+  title: Greek Civil War
+  publisher: Wikipedia
+  quote: The rebels were supported by Albania and Yugoslavia. With the support of the United Kingdom and
+    the United States, the Greek royal government forces ultimately prevailed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Greek_Civil_War
+  archive_url: https://web.archive.org/web/20260930033842/https://en.wikipedia.org/wiki/Greek_civil_war
+  title: Greek Civil War
+  publisher: Wikipedia
+  quote: The struggle was the first proxy conflict of the Cold War
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: it would no longer provide military and economic assistance to the Greek Government in its civil
+    war against the Greek Communist Party
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Sources give casualty totals from about 80,000 to 158,000 killed; left out of the summary because
+    the figures vary widely.

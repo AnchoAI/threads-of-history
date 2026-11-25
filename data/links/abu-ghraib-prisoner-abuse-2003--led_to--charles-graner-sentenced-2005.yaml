@@ -1,0 +1,21 @@
+id: abu-ghraib-prisoner-abuse-2003--led_to--charles-graner-sentenced-2005
+from: abu-ghraib-prisoner-abuse-2003
+to: charles-graner-sentenced-2005
+type: led_to
+confidence: documented
+note: Graner was court-martialled and imprisoned for his part in the abuse.
+sources:
+- url: https://www.cnn.com/2005/LAW/01/15/graner.court.martial/
+  archive_url: https://web.archive.org/web/20260420223348/https://www.cnn.com/2005/LAW/01/15/graner.court.martial/
+  title: Graner sentenced to 10 years for abuses
+  publisher: CNN
+  date: '2005-01-15'
+  quote: Charles Graner Jr. was sentenced Saturday to 10 years in a military prison for his role in abusing detainees
+    at Abu Ghraib prison in Baghdad.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

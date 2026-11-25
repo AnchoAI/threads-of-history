@@ -1,0 +1,60 @@
+id: lebanese-civil-war-1975
+title: Lebanese Civil War
+summary: A multi-sided war fought in Lebanon from 1975 to 1990, estimated to have killed about 120,000 people.
+  The source traces it to sectarian tensions within Lebanon's confessional system, compounded by demographic
+  change, the presence of Palestinian armed groups and regional rivalries; the 1989 Taif Agreement laid the
+  basis for ending it.
+occurred:
+  start: '1975'
+  end: '1990'
+  precision: year
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- lebanon
+- palestine-liberation-organization
+- israel
+- syria
+importance: 4
+wikidata: Q208484
+sources:
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: 'The Lebanese Civil War (Arabic: الحرب الأهلية اللبنانية, al-ḥarb al-ahliyyah al-libnāniyyah) was
+    a multifaceted armed conflict fought in Lebanon from 1975 to 1990.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: It resulted in an estimated 120,000 deaths, displaced nearly one million people, and caused widespread
+    destruction across the country.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: The war arose from longstanding political and sectarian tensions within Lebanon's confessional system,
+    compounded by demographic change, the presence of Palestinian armed groups following the Arab–Israeli conflict,
+    and the influence of regional rivalries and the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: The 1989 Taif Agreement laid the foundation for ending the conflict, and most militias were disbanded
+    following the war's conclusion in 1990.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The source dates the outbreak to the 13 April 1975 Ain el-Rummaneh shootings ('Bus Massacre'); kept at
+    year precision because the end date is given only as 1990.

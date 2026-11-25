@@ -1,0 +1,22 @@
+id: kwantung-army
+title: Kwantung Army
+actor_type: organization
+summary: Group of the Imperial Japanese Army from 1919 to 1945.
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q646394
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q646394.json
+  title: Kwantung Army
+  publisher: Wikidata
+  quote: group of the Imperial Japanese Army from 1919 to 1945
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

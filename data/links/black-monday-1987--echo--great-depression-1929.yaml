@@ -1,0 +1,31 @@
+id: black-monday-1987--echo--great-depression-1929
+from: black-monday-1987
+to: great-depression-1929
+type: echo
+confidence: documented
+note: The 1987 crash raised fears of a repeat of the Great Depression, but no recession followed.
+sources:
+- url: https://en.wikipedia.org/wiki/Black_Monday_(1987)
+  title: Black Monday (1987)
+  publisher: Wikipedia
+  quote: The severity sparked fears of extended economic instability or a reprise of the Great Depression.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: At the time, it also marked the sharpest market downturn in the United States since the Great
+    Depression.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  archive_url: https://web.archive.org/web/20261005063130/https://www.federalreservehistory.org/essays/stock-market-crash-of-1987
+  title: Stock Market Crash of 1987
+  publisher: Federal Reserve History (Donald Bernhardt and Marshall Eckblad)
+  quote: Unlike many prior financial crises, the sharp losses stemming from Black Monday were not followed
+    by an economic recession or a banking crisis.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

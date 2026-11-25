@@ -1,0 +1,22 @@
+id: national-security-agency
+title: National Security Agency
+actor_type: organization
+summary: Signals intelligence organization of the United States.
+threads:
+- intel
+regions:
+- americas
+importance: 3
+wikidata: Q121194
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q121194.json
+  title: National Security Agency
+  publisher: Wikidata
+  quote: signals intelligence organization of the United States
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

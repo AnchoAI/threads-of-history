@@ -1,0 +1,52 @@
+id: pan-european-picnic-1989
+title: Pan-European Picnic
+summary: At a demonstration near Sopron on 19 August 1989, a gate in the Iron Curtain between Hungary
+  and Austria is opened, allowing the largest escape movement from East Germany since the Berlin Wall
+  was built in 1961. Tens of thousands more East Germans then set off for Hungary.
+occurred:
+  start: '1989-08-19'
+  precision: day
+threads:
+- revolutions
+- migration
+regions:
+- western-europe
+- russia-eastern-europe
+actors: []
+importance: 3
+wikidata: Q160056
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: The opening of the Iron Curtain between Austria and Hungary at the Pan-European Picnic on 19
+    August 1989 set in motion a peaceful chain reaction
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: distributed thousands of brochures inviting them to a picnic near the border at Sopron
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: It was the largest escape movement from East Germany since the Berlin Wall was built in 1961.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: tens of thousands of media-informed East Germans set off for Hungary
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

@@ -1,0 +1,55 @@
+id: al-askari-mosque-bombing-2006
+title: Bombing of the al-Askari Shrine
+summary: A bombing badly damaged the al-Askari Shrine in Samarra, one of the holiest sites in Shia Islam. No group
+  claimed it; President Bush blamed al-Qaeda in Iraq, which denied it. Retaliatory sectarian violence killed well
+  over 1,000 people within days.
+occurred:
+  start: '2006-02-22'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- iraq
+importance: 3
+wikidata: Q2918175
+sources:
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: On 22 February 2006, approximately 6:44 a.m. Arabia Standard Time, al-Askari Shrine in Samarra, Iraq, was
+    severely damaged in a bombing attack amidst the then-ongoing Iraq War.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: it is one of the holiest sites in Shia Islam
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: American president George W. Bush asserted that the bombing had been carried out by al-Qaeda in Iraq, which
+    denied involvement in the attack.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: responsibility for the 2006 al-Askari bombing was not claimed by any party
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2006_al-Askari_mosque_bombing
+  title: 2006 al-Askari mosque bombing
+  publisher: Wikipedia
+  quote: the incident was followed by bouts of retaliatory violence among Iraqis, with over 100 dead bodies being
+    found the next day and well over 1,000 deaths occurring over the course of a few days after the attack
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

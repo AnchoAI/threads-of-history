@@ -1,0 +1,22 @@
+id: russo-japanese-war-1904--led_to--japan-korea-treaty-of-1905-1905
+from: russo-japanese-war-1904
+to: japan-korea-treaty-of-1905-1905
+type: led_to
+confidence: documented
+note: Japan's victory over Russia let it make Korea a protectorate.
+sources:
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: It resulted from Imperial Japan's victory in the Russo-Japanese War in 1905.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: With its victory over Russia and the subsequent withdrawal of Russian influence from Korea, Japan
+    sought to deprive the Korean Empire completely of its diplomatic rights and render it a protectorate.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

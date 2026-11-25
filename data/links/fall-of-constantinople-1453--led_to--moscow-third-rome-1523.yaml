@@ -1,0 +1,24 @@
+id: fall-of-constantinople-1453--led_to--moscow-third-rome-1523
+from: fall-of-constantinople-1453
+to: moscow-third-rome-1523
+type: led_to
+confidence: documented
+note: After Constantinople fell, Orthodox writers began calling Moscow the "Third Rome", heir to Byzantium.
+sources:
+- url: https://en.wikipedia.org/wiki/Moscow,_third_Rome
+  archive_url: https://web.archive.org/web/20261006180205/https://en.wikipedia.org/wiki/Moscow,_Third_Rome
+  title: Moscow, third Rome
+  publisher: Wikipedia
+  quote: Within decades after the capture of Constantinople by Mehmed II on 29 May 1453, some Eastern
+    Orthodox writers and clergymen began referring to Moscow as the "Third Rome" or "New Rome".
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/East%E2%80%93West_Schism
+  title: East–West Schism
+  publisher: Wikipedia
+  quote: At the time of the fall of Constantinople to the invading Ottoman Empire in May 1453, Orthodox
+    Christianity was already entrenched in Russia
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

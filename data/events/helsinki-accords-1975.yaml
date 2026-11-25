@@ -1,0 +1,60 @@
+id: helsinki-accords-1975
+title: Helsinki Final Act
+summary: Thirty-five states, including the United States, Canada and every European country except Andorra
+  and Albania, sign the Helsinki Final Act at the close of a conference held from 30 July to 1 August
+  1975. Its clauses on the inviolability of frontiers were seen as a diplomatic gain for the Soviet Union,
+  while its human-rights provisions became the basis for monitoring groups such as Helsinki Watch.
+occurred:
+  start: '1975-07-30'
+  end: '1975-08-01'
+  precision: day
+threads:
+- usru
+- rights
+regions:
+- western-europe
+- russia-eastern-europe
+- americas
+actors:
+- leonid-brezhnev
+- united-states
+- soviet-union
+importance: 4
+wikidata: Q318161
+sources:
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: held in Helsinki, Finland, between 30 July and 1 August 1975
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: All then-existing European countries except Andorra and Hoxhaist Albania, as well as the United
+    States and Canada (altogether 35 participating states), signed the Final Act
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: as a major diplomatic boost for the Soviet Union at the time, due to its clauses on the inviolability
+    of national frontiers and respect for territorial integrity
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: However, the civil rights portion of the agreement provided the basis for the work of the Helsinki
+    Watch
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

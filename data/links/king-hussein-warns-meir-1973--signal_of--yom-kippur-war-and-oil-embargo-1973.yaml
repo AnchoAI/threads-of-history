@@ -1,0 +1,25 @@
+id: king-hussein-warns-meir-1973--signal_of--yom-kippur-war-and-oil-embargo-1973
+from: king-hussein-warns-meir-1973
+to: yom-kippur-war-and-oil-embargo-1973
+type: signal_of
+confidence: documented
+note: Hussein's warning came eleven days before the attack and was not acted on.
+sources:
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: On the night of 25 September, Hussein secretly flew to Tel Aviv to warn Meir of an impending Syrian
+    attack.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: This warning was ignored, and Israeli intelligence indicated that Hussein had not said anything that
+    was not already known.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

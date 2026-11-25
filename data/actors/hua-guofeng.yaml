@@ -1,0 +1,22 @@
+id: hua-guofeng
+title: Hua Guofeng
+actor_type: person
+summary: 2nd Chairman of the Chinese Communist Party, 2nd Premier of the People's Republic of China (1921–2008).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q41570
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q41570.json
+  title: Hua Guofeng
+  publisher: Wikidata
+  quote: 2nd Chairman of the Chinese Communist Party, 2nd Premier of the People's Republic of China (1921–2008)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

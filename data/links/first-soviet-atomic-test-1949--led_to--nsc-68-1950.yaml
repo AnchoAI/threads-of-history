@@ -1,0 +1,25 @@
+id: first-soviet-atomic-test-1949--led_to--nsc-68-1950
+from: first-soviet-atomic-test-1949
+to: nsc-68-1950
+type: led_to
+confidence: documented
+note: The Soviet bomb prompted the security review that produced NSC 68.
+sources:
+- url: https://history.state.gov/milestones/1945-1952/NSC68
+  archive_url: https://web.archive.org/web/20260914041504/https://history.state.gov/milestones/1945-1952/NSC68
+  title: NSC-68, 1950
+  publisher: Office of the Historian, US Department of State
+  quote: Reeling from the recent victory of Communist forces in the Chinese Civil War and the successful
+    detonation of an atomic weapon by the Soviet Union, Secretary of State Dean Acheson asked the Policy
+    Planning Staff, led by Paul Nitze, to undertake a comprehensive review of U.S. national security strategy.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: By 1950, U.S. national security policies required reexamination due to a series of events
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

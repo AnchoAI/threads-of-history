@@ -1,0 +1,19 @@
+id: tiananmen-square-protests-1989--part_of--revolutions-of-1989
+from: tiananmen-square-protests-1989
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: The protests are part of the Revolutions of 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  archive_url: https://web.archive.org/web/20261009125603/https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Part of the Cold War, the Revolutions of 1989 and the Chinese democracy movement
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

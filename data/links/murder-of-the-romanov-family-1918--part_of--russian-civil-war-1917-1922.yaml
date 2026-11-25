@@ -1,0 +1,16 @@
+id: murder-of-the-romanov-family-1918--part_of--russian-civil-war-1917-1922
+from: murder-of-the-romanov-family-1918
+to: russian-civil-war-1917-1922
+type: part_of
+confidence: documented
+note: The family was killed as the Czechoslovak Legion, fighting in the civil war, approached Yekaterinburg.
+sources:
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: who wanted to prevent the rescue of the imperial family by the approaching Czechoslovak Legion
+    during the Russian Civil War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

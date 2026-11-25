@@ -1,0 +1,19 @@
+id: partition-of-bengal-1905--led_to--all-india-muslim-league-founded-1906
+from: partition-of-bengal-1905
+to: all-india-muslim-league-founded-1906
+type: led_to
+confidence: documented
+note: The League was founded amid the need for Muslim political representation during Congress-led opposition
+  to the partition.
+sources:
+- url: https://en.wikipedia.org/wiki/All-India_Muslim_League
+  title: All-India Muslim League
+  publisher: Wikipedia
+  quote: The party arose out of the need for the political representation of Muslims in British India,
+    especially during the Indian National Congress-led opposition to the 1905 partition of Bengal.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

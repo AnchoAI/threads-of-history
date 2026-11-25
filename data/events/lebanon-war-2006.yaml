@@ -1,0 +1,50 @@
+id: lebanon-war-2006
+title: 2006 Lebanon War
+summary: After Hezbollah fighters killed three Israeli soldiers and captured two on the border on 12 July 2006,
+  Israel and Hezbollah fought until a UN-brokered ceasefire on 14 August under Resolution 1701. The source
+  says it killed 1,191–1,300 Lebanese and 165 Israelis.
+occurred:
+  start: '2006-07-12'
+  end: '2006-08-14'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- hezbollah
+- israel
+- lebanon
+importance: 3
+wikidata: Q49104
+sources:
+- url: https://en.wikipedia.org/wiki/2006_Lebanon_War
+  title: 2006 Lebanon War
+  publisher: Wikipedia
+  quote: The war started on 12 July 2006 and continued until a United Nations-brokered ceasefire went into
+    effect in the morning on 14 August 2006, though it formally ended on 8 September 2006 when Israel lifted
+    its naval blockade of Lebanon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2006_Lebanon_War
+  title: 2006 Lebanon War
+  publisher: Wikipedia
+  quote: On 12 July 2006, Hezbollah ambushed Israeli soldiers on the border, killing three and capturing two;
+    a further five were killed during a failed Israeli rescue attempt.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2006_Lebanon_War
+  title: 2006 Lebanon War
+  publisher: Wikipedia
+  quote: The conflict is believed to have killed between 1,191 and 1,300 Lebanese people, and 165 Israelis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2006_Lebanon_War
+  title: 2006 Lebanon War
+  publisher: Wikipedia
+  quote: Both Hezbollah and the Israeli government claimed victory, while the Winograd Commission deemed the
+    war a missed opportunity for Israel as it did not lead to disarmament of Hezbollah.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

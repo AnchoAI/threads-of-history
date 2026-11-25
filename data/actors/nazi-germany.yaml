@@ -1,0 +1,21 @@
+id: nazi-germany
+title: Nazi Germany
+actor_type: state
+summary: Germany from 1933 to 1945 while under control of the Nazi Party.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q7318
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7318.json
+  title: Nazi Germany
+  publisher: Wikidata
+  quote: Germany from 1933 to 1945 while under control of the Nazi Party
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

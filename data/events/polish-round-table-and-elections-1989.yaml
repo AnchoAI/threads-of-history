@@ -1,0 +1,64 @@
+id: polish-round-table-and-elections-1989
+title: Polish Round Table and the June 1989 election
+summary: Round Table talks between Poland's communist government and Solidarity begin on 6 February 1989
+  and end on 4 April with an agreement legalising Solidarity and setting partly free elections. On 4 June
+  Solidarity wins every Sejm seat it may contest and 99 of 100 Senate seats, and on 24 August Tadeusz
+  Mazowiecki becomes the first non-communist prime minister since the early postwar years.
+occurred:
+  start: '1989-02-06'
+  end: '1989-08-24'
+  precision: day
+threads:
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- solidarity
+- lech-walesa
+importance: 3
+wikidata: Q2355470
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: On 6 February 1989 formal Round Table discussions began in the Hall of Columns in Warsaw.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: On 4 April 1989 the historic Round Table Agreement was signed legalising Solidarity and setting
+    up partly free parliamentary elections to be held on 4 June 1989
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: Solidarity candidates captured all the seats they were allowed to compete for in the Sejm.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: In the Senate they captured 99 out of the 100 available seats
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: on 24 August 1989, Poland's Parliament ended more than 40 years of one-party rule by making Mazowiecki
+    the country's first non-communist Prime Minister since the early postwar years.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - wikidata is the June 1989 legislative election (Q2355470); the Round Table Agreement has its own item
+    (Q927194).

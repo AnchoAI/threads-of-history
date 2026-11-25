@@ -1,0 +1,27 @@
+id: belgian-lumumba-commission-report-2001--revealed--assassination-of-patrice-lumumba-1961
+from: belgian-lumumba-commission-report-2001
+to: assassination-of-patrice-lumumba-1961
+type: revealed
+confidence: documented
+note: Belgium's parliamentary inquiry found the government bore a moral responsibility for the killing.
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: In its November 2001 report, the commission determined that the Belgian government had lied to
+    the public, contravened international law, and bore a "moral responsibility" for Lumumba's killing
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: The Church Committee’s findings complemented Belgium’s 2001 parliamentary inquiry “definitively
+    expos[ing] the guilt of Belgium,”
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

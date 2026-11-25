@@ -1,0 +1,29 @@
+id: munich-agreement-1938--led_to--molotov-ribbentrop-pact-1939
+from: munich-agreement-1938
+to: molotov-ribbentrop-pact-1939
+type: led_to
+confidence: documented
+note: Excluded from Munich, Stalin concluded the West might collude with Hitler and turned towards rapprochement
+  with Germany.
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_Agreement
+  title: Munich Agreement
+  publisher: Wikipedia
+  quote: This belief led the Soviet Union to reorientate its foreign policy towards a rapprochement with
+    Germany, which eventually led to the signing of the Molotov–Ribbentrop Pact in 1939.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: Tripartite discussions between the Soviet Union, the United Kingdom and France had broken down
+    after the Soviet Union was excluded from the Munich Agreement in September 1938.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Stalin's motives for the pact are debated (E. H. Carr's defensive 'breathing space' view against Werner
+    Maser and others in the Molotov–Ribbentrop Pact article). No source found that disputes the Munich
+    link itself, so it is documented; reconsider if one turns up.

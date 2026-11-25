@@ -1,0 +1,31 @@
+id: austria-hungary-declares-war-on-serbia-1914
+title: Austria-Hungary declares war on Serbia
+summary: On 28 July 1914 Austria-Hungary declared war on Serbia and began shelling Belgrade. Russia ordered general
+  mobilisation in support of Serbia on 30 July.
+occurred:
+  start: '1914-07-28'
+  precision: day
+threads:
+- ww1
+regions:
+- russia-eastern-europe
+actors:
+- austria-hungary
+- kingdom-of-serbia
+- russian-empire
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: on 28 July, they declared war on Serbia and began shelling Belgrade. Russia ordered general mobilisation
+    in support of Serbia on 30 July.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - No Wikidata item for the declaration itself was found.

@@ -1,25 +1,44 @@
 id: maddison-project
 title: Maddison Project Database
 publisher: Groningen Growth and Development Centre, University of Groningen
-url: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
-version: '2023'
+url: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023
+download_url: https://doi.org/10.34894/INZBF2
+version: '2023 (published on Dataverse 2024-04-26)'
 license:
-  name: CC BY 4.0 (to confirm)
-  redistribution: unknown
-citation: 'Bolt, Jutta and Jan Luiten van Zanden (2024). Maddison style estimates of the evolution of the world
-  economy: A new 2023 update. Journal of Economic Surveys.'
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  redistribution: allowed
+  attribution: Cite the MPD 2023 paper in `citation`. When the data is shown in any graphical form, or a subset of
+    fewer than 12 countries is used, the original papers listed in the database's source sheet must also be cited.
+citation: 'MPD version 2023: Bolt, Jutta and Jan Luiten van Zanden (2024), "Maddison style estimates of the evolution
+  of the world economy: A new 2023 update", Journal of Economic Surveys, 1–41. DOI: 10.1111/joes.12618”.'
 unit_of_analysis: country-year
 coverage:
-  start: '1820'
+  start: '0001'
   end: '2022'
   precision: year
   approximate: true
-  note: Estimates for some countries go back much further.
+  note: 'Dataverse description: "GDP per capita and population for 169 countries and aggregate regions from 1 AD up
+    to 2022". Early years are sparse. This project imports 1900 onwards.'
 importer: tools/importers/maddison.py
 notes:
+- 'Licence, quoted from https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023:
+  "Maddison Project Database, version 2023 by Jutta Bolt and Jan Luiten van Zanden is licensed under a Creative Commons
+  Attribution 4.0 International License". The Dataverse record (https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/INZBF2)
+  also lists "CC-BY-4.0" with publication date 2024-04-26.'
+- 'Attribution requirement, from the release page: "All original papers must be cited when:" "the data is shown in
+  any graphical form" or "subsets of the full dataset that include less than a dozen (12) countries are used for statistical
+  analysis or any other purposes". "A list of original papers can be found in the source sheet of the database. When
+  neither a) or b) apply, then the MPD as a whole should be cited." The viewer draws series as bands, so series built
+  from Maddison need the per-country original papers from the source sheet in their sources, not just the MPD paper.'
+- 'Latest version: the releases page says "To date there have been four releases of the Maddison Project Database,
+  the 2013, 2018, 2020, and 2023 releases." The citation above is copied as printed, including the stray closing quotation
+  mark.'
+- 'Share-alike: no. Derived tables can go under any licence the project picks, with attribution.'
 - 'First use: GDP per person and population, 1900 onwards.'
+- No Wayback snapshot could be looked up for the release page (archive.org returned HTTP 429 during this check).
 review:
-  status: unverified
+  status: sourced
   notes:
-  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
-    the review status.
+  - Licence, version, coverage and citation checked word for word against the GGDC release page and the Dataverse
+    record on 2026-10-18.

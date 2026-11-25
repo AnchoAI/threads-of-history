@@ -1,0 +1,22 @@
+id: napoleon
+title: Napoleon
+actor_type: person
+summary: French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821).
+threads:
+- revolutions
+regions:
+- western-europe
+importance: 3
+wikidata: Q517
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q517.json
+  title: Napoleon
+  publisher: Wikidata
+  quote: French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

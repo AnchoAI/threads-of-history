@@ -1,0 +1,18 @@
+id: union-of-south-africa-1910--led_to--south-african-native-national-congress-founded-1912
+from: union-of-south-africa-1910
+to: south-african-native-national-congress-founded-1912
+type: led_to
+confidence: documented
+note: Union persuaded many educated black South Africans to unite in a single organisation.
+sources:
+- url: https://www.sahistory.org.za/article/african-national-congress-timeline-1910-1919
+  archive_url: https://web.archive.org/web/20260816174124/https://sahistory.org.za/article/african-national-congress-timeline-1910-1919
+  title: African National Congress Timeline 1910-1919
+  publisher: South African History Online
+  quote: as Union in 1910 had persuaded many educated Blacks to unite into a single organization in 1912
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

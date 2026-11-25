@@ -1,0 +1,63 @@
+id: springsteen-concert-in-east-berlin-1988
+title: Bruce Springsteen plays East Berlin
+summary: Bruce Springsteen plays a concert at the Radrennbahn Weissensee in East Berlin on 19 July 1988, organised
+  by the ruling party's youth wing, the FDJ. Crowd estimates range from 200,000 to 500,000; in a short speech
+  in German he says he hopes "all the barriers will be torn down".
+occurred:
+  start: '1988-07-19'
+  precision: day
+threads:
+- music
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- bruce-springsteen
+- east-germany
+importance: 3
+wikidata: none
+sources:
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: On 19 July 1988, Bruce Springsteen crossed the iron curtain...
+  type: news
+  accessed: '2026-10-20'
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: Realising that the people wanted music, the Communist Party’s Free German Youth wing (the FDJ) hit
+    upon the idea of holding rock concerts by western artists.
+  type: news
+  accessed: '2026-10-20'
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: The FDJ had billed the show as a benefit concert for Nicaragua
+  type: news
+  accessed: '2026-10-20'
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: estimates range from 200,000 to 300,000 to even more
+  type: news
+  accessed: '2026-10-20'
+- url: https://www.deutschland.de/en/news/bruce-springsteen-an-icon-of-freedom-in-east-germany
+  title: 'Bruce Springsteen: An icon of freedom in East Germany'
+  publisher: deutschland.de
+  quote: 160,000 tickets were sold, but it's said that a crowd of 500,000 people celebrated
+  type: news
+  accessed: '2026-10-20'
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: “I've come to play rock'n'roll for you in the hope that one day all the barriers will be torn down.”
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced

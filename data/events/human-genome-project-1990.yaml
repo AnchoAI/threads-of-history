@@ -1,0 +1,51 @@
+id: human-genome-project-1990
+title: Human Genome Project
+summary: An international consortium funded in the US by the NIH and the Department of Energy sequences
+  the human genome. Carried out from 1990, it announced an essentially complete sequence in April 2003,
+  two years ahead of schedule.
+occurred:
+  start: '1990'
+  end: 2003-04
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+importance: 4
+wikidata: Q192446
+sources:
+- url: https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project
+  title: Human Genome Project Fact Sheet
+  publisher: National Human Genome Research Institute
+  quote: Carried out from 1990–2003, it was one of the most ambitious and important scientific endeavors
+    in human history.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project
+  title: Human Genome Project Fact Sheet
+  publisher: National Human Genome Research Institute
+  quote: In April 2003, the consortium announced that it had generated an essentially complete human genome
+    sequence
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project
+  title: Human Genome Project Fact Sheet
+  publisher: National Human Genome Research Institute
+  quote: doing so by 2003, two years ahead of its originally projected 2005 completion
+  type: primary
+  accessed: '2026-10-15'
+- url: https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project
+  title: Human Genome Project Fact Sheet
+  publisher: National Human Genome Research Institute
+  quote: In the United States, the researchers were funded by the Department of Energy and the National
+    Institutes of Health
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

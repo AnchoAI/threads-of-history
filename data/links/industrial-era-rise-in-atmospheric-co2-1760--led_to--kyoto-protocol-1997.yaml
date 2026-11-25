@@ -1,0 +1,20 @@
+id: industrial-era-rise-in-atmospheric-co2-1760--led_to--kyoto-protocol-1997
+from: industrial-era-rise-in-atmospheric-co2-1760
+to: kyoto-protocol-1997
+type: led_to
+confidence: documented
+note: The Kyoto Protocol was based on the scientific consensus that human-made CO₂ emissions are driving global
+  warming.
+sources:
+- url: https://en.wikipedia.org/wiki/Kyoto_Protocol
+  archive_url: https://web.archive.org/web/20261011074230/https://en.wikipedia.org/wiki/Kyoto_Protocol
+  title: Kyoto Protocol
+  publisher: Wikipedia
+  quote: commits state parties to reduce greenhouse gas emissions, based on the scientific consensus that global
+    warming is occurring and that human-made CO2 emissions are driving it.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

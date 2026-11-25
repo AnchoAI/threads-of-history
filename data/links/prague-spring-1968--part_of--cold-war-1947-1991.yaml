@@ -1,0 +1,18 @@
+id: prague-spring-1968--part_of--cold-war-1947-1991
+from: prague-spring-1968
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Prague Spring is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Part of the invasion of Czechoslovakia, the Cold War and the Protests of 1968
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

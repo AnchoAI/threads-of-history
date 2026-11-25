@@ -1,0 +1,38 @@
+id: 2011-tohoku-earthquake-and-tsunami
+title: 2011 Tōhoku earthquake and tsunami
+summary: A magnitude 9.0–9.1 undersea earthquake off the Tōhoku region of Japan on 11 March 2011, the most powerful
+  ever recorded in Japan, which lasted about six minutes and caused a tsunami.
+occurred:
+  start: '2011-03-11'
+  precision: day
+threads:
+- energy
+regions:
+- east-asia
+importance: 4
+wikidata: Q36204
+sources:
+- url: https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami
+  title: 2011 Tōhoku earthquake and tsunami
+  publisher: Wikipedia
+  quote: On 11 March 2011, at 14:46:24 local time (UTC+9), a Mw 9.0–9.1 undersea megathrust earthquake occurred
+    in the Pacific Ocean
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami
+  title: 2011 Tōhoku earthquake and tsunami
+  publisher: Wikipedia
+  quote: It lasted approximately six minutes and caused a tsunami.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami
+  title: 2011 Tōhoku earthquake and tsunami
+  publisher: Wikipedia
+  quote: The earthquake was the most powerful ever recorded in Japan
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

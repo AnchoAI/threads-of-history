@@ -1,0 +1,25 @@
+id: rowlatt-act-1919--led_to--jallianwala-bagh-massacre-1919
+from: rowlatt-act-1919
+to: jallianwala-bagh-massacre-1919
+type: led_to
+confidence: documented
+note: The crowd at Jallianwala Bagh had gathered partly to protest against the Rowlatt Act.
+sources:
+- url: https://en.wikipedia.org/wiki/Non-cooperation_movement_(1919%E2%80%931922)
+  title: Non-cooperation movement (1919–1922)
+  publisher: Wikipedia
+  quote: following the Rowlatt Act of 18 March 1919 – which suspended the rights of political prisoners
+    in sedition trials, and was seen as a "political awakening" by Indians and as a "threat" by the British—which
+    led to the Jallianwala Bagh massacre of 13 April 1919
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre
+  title: Jallianwala Bagh massacre
+  publisher: Wikipedia
+  quote: during the annual Baisakhi fair to protest against the Rowlatt Act
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

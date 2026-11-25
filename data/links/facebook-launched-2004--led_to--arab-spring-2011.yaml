@@ -1,0 +1,69 @@
+id: facebook-launched-2004--led_to--arab-spring-2011
+from: facebook-launched-2004
+to: arab-spring-2011
+type: led_to
+confidence: contested
+note: Protesters used Facebook and other social media to organise the Arab Spring; how much this mattered
+  is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Social_media_and_the_Arab_Spring
+  title: Social media and the Arab Spring
+  publisher: Wikipedia
+  quote: The role of social media in the Arab Spring, a revolutionary wave of demonstrations and protests
+    in the Middle East and North Africa between 2010 and 2012, remains a highly debated subject.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Social_media_and_the_Arab_Spring
+  title: Social media and the Arab Spring
+  publisher: Wikipedia
+  quote: While nine out of ten Egyptians and Tunisians responded to a poll that they used Facebook to
+    organise protests and spread awareness, the role of the social network wasn't central in countries
+    like Syria and Yemen, where there is little Facebook usage.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: Social media played a central role in mobilising the Arab Spring protests.
+  held_by:
+  - Project on Information Technology and Political Islam
+  - Lee Rainie and Barry Wellman
+  sources:
+  - url: https://en.wikipedia.org/wiki/Social_media_and_the_Arab_Spring
+    title: Social media and the Arab Spring
+    publisher: Wikipedia
+    quote: Research from the Project on Information Technology and Political Islam, found that online
+      revolutionary styled motivations often preceded mass protests on the ground, and that social media
+      played a central role in shaping political debates in the Arab Spring.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Social_media
+    title: Social media
+    publisher: Wikipedia
+    quote: Social media - Facebook, Twitter, and email - plus mobile phones played a major part in the
+      'Arab Spring' of protests and rebellions against authoritarian regimes in the Middle East and North
+      Africa throughout 2011.
+    type: reference
+    accessed: '2026-10-15'
+- claim: Social media helped mobilisation but was not decisive; deeper political causes drove the uprisings.
+  held_by:
+  - Ekaterina Stepanova
+  - Others who argue its role is overplayed
+  sources:
+  - url: https://en.wikipedia.org/wiki/Social_media_and_the_Arab_Spring
+    title: Social media and the Arab Spring
+    publisher: Wikipedia
+    quote: As Ekaterina Stepanova argues in her study concerning the role of information and communications
+      technologies in the Arab Spring, social networks largely contributed to political and social mobilisation,
+      but didn't play a decisive or independent role in it.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Social_media_and_the_Arab_Spring
+    title: Social media and the Arab Spring
+    publisher: Wikipedia
+    quote: some argue that social media's role in the Arab Spring is overplayed, and that other, more
+      deterministic factors were likely at play.
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

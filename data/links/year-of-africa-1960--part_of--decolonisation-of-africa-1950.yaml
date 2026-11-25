@@ -1,0 +1,23 @@
+id: year-of-africa-1960--part_of--decolonisation-of-africa-1950
+from: year-of-africa-1960
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The independence of seventeen African nations in 1960 was the culmination of the independence movements.
+sources:
+- url: https://en.wikipedia.org/wiki/Year_of_Africa
+  title: Year of Africa
+  publisher: Wikipedia
+  quote: The year brought about the culmination of African independence movements
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Year_of_Africa
+  title: Year of Africa
+  publisher: Wikipedia
+  quote: For details on African independence movements, see Decolonization of Africa.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

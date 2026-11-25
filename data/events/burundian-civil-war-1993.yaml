@@ -1,0 +1,42 @@
+id: burundian-civil-war-1993
+title: Burundian Civil War
+summary: A civil war in Burundi from 1993 to 2005, rooted in long-standing divisions between Hutu and Tutsi. It
+  began after the country's first multi-party elections since independence and ended with the swearing-in of President
+  Pierre Nkurunziza in August 2005. About 300,000 people died.
+occurred:
+  start: '1993-10-21'
+  end: 2005-08
+  precision: month
+threads:
+- rights
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q647239
+sources:
+- url: https://en.wikipedia.org/wiki/Burundian_Civil_War
+  title: Burundian Civil War
+  publisher: Wikipedia
+  quote: was a civil war in Burundi lasting from 1993 to 2005. The civil war was the result of longstanding ethnic
+    divisions between the Hutu and the Tutsi ethnic groups.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Burundian_Civil_War
+  title: Burundian Civil War
+  publisher: Wikipedia
+  quote: The conflict began following the first multi-party elections in the country since its independence from
+    Belgium in 1962, and is seen as formally ending with the swearing-in of President Pierre Nkurunziza in August
+    2005.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Burundian_Civil_War
+  title: Burundian Civil War
+  publisher: Wikipedia
+  quote: The estimated death toll stands at 300,000.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

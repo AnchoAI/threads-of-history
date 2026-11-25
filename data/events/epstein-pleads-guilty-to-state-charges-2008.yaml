@@ -1,0 +1,47 @@
+id: epstein-pleads-guilty-to-state-charges-2008
+title: Jeffrey Epstein pleads guilty to Florida solicitation charges
+summary: In Palm Beach County, Jeffrey Epstein pleads guilty to solicitation of prostitution and solicitation of
+  prostitution with a minor under 18 and is sentenced to 18 months. He serves 13 months in the county jail with
+  daytime work release and registers as a sex offender.
+occurred:
+  start: '2008-06-30'
+  precision: day
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- jeffrey-epstein
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: On June 30, 2008, in the 15th Judicial Circuit in Palm Beach County, Epstein pled guilty to one count of
+    solicitation of prostitution and one count of solicitation of prostitution with a minor under the age of 18.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  archive_url: https://web.archive.org/web/20261022100315/https://en.wikipedia.org/wiki/Jeffrey_Epstein
+  title: Jeffrey Epstein
+  publisher: Wikipedia
+  quote: He was sentenced to 18 months in prison and was required to register as a sex offender.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  archive_url: https://web.archive.org/web/20260626103501/https://www.npr.org/2020/11/12/934265386/jeffrey-epsteins-former-prosecutors-used-poor-judgment-in-deal-doj-says
+  title: Jeffrey Epstein's Former Prosecutors Used 'Poor Judgment' In Deal, DOJ Says
+  publisher: NPR
+  date: '2020-11-12'
+  quote: Under the agreement, Epstein served 13 months in Palm Beach County jail with a work release during the
+    day. He also had to register as a sex offender.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

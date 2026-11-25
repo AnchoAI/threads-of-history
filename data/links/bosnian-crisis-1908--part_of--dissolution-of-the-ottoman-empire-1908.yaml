@@ -1,0 +1,27 @@
+id: bosnian-crisis-1908--part_of--dissolution-of-the-ottoman-empire-1908
+from: bosnian-crisis-1908
+to: dissolution-of-the-ottoman-empire-1908
+type: part_of
+confidence: documented
+note: The source treats the Bosnian crisis as one of the losses of the dissolution period.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: The Bosnian crisis on 6 October 1908 erupted when Austria-Hungary announced the annexation of Bosnia and
+    Herzegovina, territories formally within the sovereignty of the Empire.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: October 1908 saw the new regime suffer a significant blow with the loss of Bulgaria, Bosnia, and Crete
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

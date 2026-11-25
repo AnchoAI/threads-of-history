@@ -1,0 +1,27 @@
+id: chernobyl-disaster-1986--led_to--revolutions-of-1989
+from: chernobyl-disaster-1986
+to: revolutions-of-1989
+type: led_to
+confidence: documented
+note: The disaster's political effects are described as having catalysed or partly caused the 1989 revolutions,
+  notably by giving weight to glasnost.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: The Chernobyl disaster in April 1986 had major political and social effects that catalyzed or
+    at least partially caused the revolutions of 1989.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Chernobyl_disaster
+  archive_url: https://web.archive.org/web/20261014022759/https://en.wikipedia.org/wiki/Chernobyl_disaster
+  title: Chernobyl disaster
+  publisher: Wikipedia
+  quote: The government cover-up of the Chernobyl disaster was a catalyst for glasnost
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

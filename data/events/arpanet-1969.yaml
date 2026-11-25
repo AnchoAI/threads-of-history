@@ -1,0 +1,51 @@
+id: arpanet-1969
+title: ARPANET
+summary: The US Advanced Research Projects Agency's packet-switched network makes its first host-to-host
+  connection, between UCLA and the Stanford Research Institute. It adopted TCP/IP in 1983 and, with it,
+  became a technical foundation of the Internet; it was decommissioned in 1990.
+occurred:
+  start: '1969-10-29'
+  precision: day
+threads:
+- industry
+- usru
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q177524
+sources:
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: The first successful host-to-host connection on the ARPANET was made between Stanford Research
+    Institute (SRI) and UCLA, by SRI programmer Bill Duvall and UCLA student programmer Charley Kline,
+    at 10:30 pm PST on 29 October 1969
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: was the first wide-area packet-switched network with distributed control and one of the first
+    computer networks to implement the TCP/IP protocol suite. Both technologies became the technical foundation
+    of the Internet.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: Version 4 of TCP/IP was installed in the ARPANET for production use on 1 January 1983
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ARPANET
+  title: ARPANET
+  publisher: Wikipedia
+  quote: The ARPANET was formally decommissioned in 1990
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

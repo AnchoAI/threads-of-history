@@ -1,0 +1,22 @@
+id: red-terror-1918--part_of--russian-civil-war-1917-1922
+from: red-terror-1918
+to: russian-civil-war-1917-1922
+type: part_of
+confidence: documented
+note: The Red Terror was Bolshevik repression during the civil war.
+sources:
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: Red Terror Part of the Russian Civil War
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Red_Terror
+  title: Red Terror
+  publisher: Wikipedia
+  quote: More broadly, the term can be applied to Bolshevik political repression throughout the Russian
+    Civil War (1917–1922).
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

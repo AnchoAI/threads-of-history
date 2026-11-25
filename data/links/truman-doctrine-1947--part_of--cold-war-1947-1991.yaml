@@ -1,0 +1,20 @@
+id: truman-doctrine-1947--part_of--cold-war-1947-1991
+from: truman-doctrine-1947
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The announcement of the Truman Doctrine is generally taken as the start of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Cold_War
+  archive_url: https://web.archive.org/web/20261013161515/https://en.wikipedia.org/wiki/Cold_War
+  title: Cold War
+  publisher: Wikipedia
+  quote: the period is generally considered to span from the announcement of the Truman Doctrine on 12 March 1947
+    to the dissolution of the USSR on 26 December 1991.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

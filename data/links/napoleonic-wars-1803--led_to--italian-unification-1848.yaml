@@ -1,0 +1,25 @@
+id: napoleonic-wars-1803--led_to--italian-unification-1848
+from: napoleonic-wars-1803
+to: italian-unification-1848
+type: led_to
+confidence: documented
+note: French rule in Italy swept away old feudal structures and fed the nationalism behind the Risorgimento.
+sources:
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261004202218/https://en.wikipedia.org/wiki/Napoleonic_Wars
+  quote: Bonaparte's reign over Europe sowed the seeds for the founding of the nation-states of Germany
+    and Italy
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: it provided much of the intellectual force and social capital that fueled unification movements
+    for decades after the First French Empire collapsed in 1814
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,48 @@
+id: european-coal-and-steel-community-1951
+title: Treaty of Paris creates the European Coal and Steel Community
+summary: Belgium, France, Italy, Luxembourg, the Netherlands and West Germany signed the Treaty of Paris
+  on 18 April 1951, creating a common market for coal and steel under a supranational High Authority.
+  It is generally seen as the first step in European integration after the Second World War.
+occurred:
+  start: '1951-04-18'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- france
+- west-germany
+importance: 3
+wikidata: Q724496
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Rome
+  archive_url: https://web.archive.org/web/20261011155845/https://en.wikipedia.org/wiki/Treaty_of_Rome
+  title: Treaty of Rome
+  publisher: Wikipedia
+  quote: The Treaty Establishing the ECSC was signed in Paris on 18 April 1951, and entered into force
+    on 24 July 1952.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  archive_url: https://web.archive.org/web/20261013162359/https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  title: European Coal and Steel Community
+  publisher: Wikipedia
+  quote: It was formally established in 1951 by the Treaty of Paris, signed by Belgium, France, Italy,
+    Luxembourg, the Netherlands, and West Germany and was generally seen as the first step in the process
+    of European integration following the end of the Second World War in Europe.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  archive_url: https://web.archive.org/web/20261013162359/https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  title: European Coal and Steel Community
+  publisher: Wikipedia
+  quote: to integrate Europe's coal and steel industries into a single common market based on the principle
+    of supranationalism which would be governed by the creation of a High Authority
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The wikidata id is the Treaty of Paris (1951); the Community itself (Q161549) is left free for an
+    actor if one is added.

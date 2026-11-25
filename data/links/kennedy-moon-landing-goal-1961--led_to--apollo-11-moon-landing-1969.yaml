@@ -1,0 +1,25 @@
+id: kennedy-moon-landing-goal-1961--led_to--apollo-11-moon-landing-1969
+from: kennedy-moon-landing-goal-1961
+to: apollo-11-moon-landing-1969
+type: led_to
+confidence: documented
+note: Apollo 11's purpose was to meet the goal Kennedy set in 1961.
+sources:
+- url: https://www.nasa.gov/mission/apollo-11/
+  title: Apollo 11
+  publisher: NASA
+  quote: 'The primary objective of Apollo 11 was to complete a national goal set by President John F.
+    Kennedy on May 25, 1961: perform a crewed lunar landing and return to Earth.'
+  type: primary
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Kennedy's Moon landing goal was achieved in July 1969, with the flight of Apollo 11.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

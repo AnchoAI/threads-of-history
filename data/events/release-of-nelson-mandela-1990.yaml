@@ -1,0 +1,32 @@
+id: release-of-nelson-mandela-1990
+title: Nelson Mandela released
+summary: Nelson Mandela is released after 27 years in prison, following President de Klerk's announcement
+  in February 1990 of his release and of the lifting of the ban on the ANC.
+occurred:
+  start: '1990-02-11'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- nelson-mandela
+- african-national-congress
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  archive_url: https://web.archive.org/web/20260920213835/https://en.wikipedia.org/wiki/Negotiations_to_end_apartheid_in_South_Africa
+  title: Negotiations to end apartheid in South Africa
+  publisher: Wikipedia
+  quote: in his speech at the opening of Parliament, de Klerk announced the repeal of the ban on the ANC
+    and other banned political organisations, as well as Mandela's release after 27 years in prison. Mandela
+    was released on 11 February 1990
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the release itself was found.'

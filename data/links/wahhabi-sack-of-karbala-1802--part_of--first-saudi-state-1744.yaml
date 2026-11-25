@@ -1,0 +1,19 @@
+id: wahhabi-sack-of-karbala-1802--part_of--first-saudi-state-1744
+from: wahhabi-sack-of-karbala-1802
+to: first-saudi-state-1744
+type: part_of
+confidence: documented
+note: The raid on Karbala was one of the first Saudi state's campaigns.
+sources:
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: The Emirate of Diriyah established in the area around Riyadh rapidly expanded and briefly controlled most
+    of the present-day territory of Saudi Arabia, sacking Karbala in 1802
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

@@ -1,0 +1,23 @@
+id: second-world-war-1939-1945--led_to--schuman-declaration-1950
+from: second-world-war-1939-1945
+to: schuman-declaration-1950
+type: led_to
+confidence: documented
+note: Schuman proposed pooling coal and steel to prevent another Franco-German war.
+sources:
+- url: https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  archive_url: https://web.archive.org/web/20261013162359/https://en.wikipedia.org/wiki/European_Coal_and_Steel_Community
+  title: European Coal and Steel Community
+  publisher: Wikipedia
+  quote: the day after the fifth anniversary of the end of World War II, to prevent another war between
+    France and Germany
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Schuman_Declaration
+  title: Schuman Declaration
+  publisher: Wikipedia
+  quote: The ultimate goal was to pacify relations, especially between France and West Germany
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

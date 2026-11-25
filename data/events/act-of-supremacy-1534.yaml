@@ -1,0 +1,38 @@
+id: act-of-supremacy-1534
+title: 'English Reformation: Act of Supremacy'
+summary: On 3 November 1534 the Parliament of England declared King Henry VIII and his successors Supreme
+  Head of the Church of England in place of the Pope, one of the first major events of the English Reformation.
+occurred:
+  start: '1534-11-03'
+  precision: day
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- henry-viii-of-england
+- kingdom-of-england
+- catholic-church
+importance: 4
+wikidata: Q392226
+sources:
+- url: https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  archive_url: https://web.archive.org/web/20260925050550/https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  title: Acts of Supremacy
+  publisher: Wikipedia
+  quote: The first Act of Supremacy, the Act of Supremacy 1534 (26 Hen. 8. c. 1), was passed on 3 November
+    1534 by the Parliament of England was one of the first major events in the English Reformation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  archive_url: https://web.archive.org/web/20260925050550/https://en.wikipedia.org/wiki/Acts_of_Supremacy
+  title: Acts of Supremacy
+  publisher: Wikipedia
+  quote: The 1534 act declared King Henry VIII and his successors as the Supreme Head of the Church, replacing
+    the Pope.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Wikidata Q392226 covers both Acts of Supremacy (1534 and 1558); the event here is the 1534 act.

@@ -1,0 +1,42 @@
+id: bosnian-crisis-1908
+title: Bosnian Crisis
+summary: Austria-Hungary announced the annexation of Bosnia and Herzegovina on 5 October 1908, provoking protests
+  from the great powers, Serbia and Montenegro. The crisis ended in April 1909 when the Treaty of Berlin was amended.
+occurred:
+  start: '1908-10-05'
+  end: '1909-04'
+  precision: month
+threads:
+- ww1
+- empire
+regions:
+- russia-eastern-europe
+actors:
+- austria-hungary
+- kingdom-of-serbia
+- russian-empire
+- ottoman-empire
+importance: 3
+wikidata: Q167246
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_Crisis
+  archive_url: https://web.archive.org/web/20261002061723/https://en.wikipedia.org/wiki/Bosnian_Crisis
+  title: Bosnian Crisis
+  publisher: Wikipedia
+  quote: erupted on 5 October 1908 when Austria-Hungary announced the annexation of Bosnia and Herzegovina
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Bosnian_Crisis
+  archive_url: https://web.archive.org/web/20261002061723/https://en.wikipedia.org/wiki/Bosnian_Crisis
+  title: Bosnian Crisis
+  publisher: Wikipedia
+  quote: sparked protestations from all the Great Powers and Austria-Hungary's Balkan neighbors, Serbia and Montenegro.
+    In April 1909, the Treaty of Berlin was amended
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - Precision is month because the end is known only to the month (April 1909); the start, 5 October 1908, is known
+    to the day.

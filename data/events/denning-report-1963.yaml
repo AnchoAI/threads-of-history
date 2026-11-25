@@ -1,0 +1,50 @@
+id: denning-report-1963
+title: Denning report on the Profumo affair
+summary: Lord Denning's report, published on 26 September 1963 after Macmillan asked him to investigate in June,
+  finds no security leaks in the Profumo affair and that the security services and ministers had acted appropriately.
+  It was later described as superficial.
+occurred:
+  start: '1963-09-26'
+  precision: day
+threads:
+- scandals
+- intel
+regions:
+- western-europe
+actors:
+- harold-macmillan
+- john-profumo
+- united-kingdom
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: On 21 June Macmillan instructed Lord Denning, the Master of the Rolls, to investigate and report on the
+    growing range of rumours.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: Published on 26 September 1963, it concluded that there had been no security leaks in the Profumo affair
+    and that the security services and government ministers had acted appropriately.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: Denning's report was later described as superficial and unsatisfactory.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - qid.py found no Wikidata item for 'Denning Report'; wikidata left out. The report text itself (Cmnd. 2152) was
+    not fetched.

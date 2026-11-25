@@ -1,0 +1,39 @@
+id: meiji-restoration-1868--led_to--first-sino-japanese-war-1894
+from: meiji-restoration-1868
+to: first-sino-japanese-war-1894
+type: led_to
+confidence: documented
+note: Meiji military modernisation made Japan a colonial power; its first major war was against China
+  over Korea.
+sources:
+- url: https://en.wikipedia.org/wiki/Meiji_Restoration
+  title: Meiji Restoration
+  publisher: Wikipedia
+  quote: would have far-reaching consequences in East Asia as Japan pursued colonial interests against
+    its neighbours.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: The Meiji government focused on strengthening the military, adopting Western-style training and
+    technology, which led to the establishing of a powerful navy and a well-equipped army.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  archive_url: https://web.archive.org/web/20261010072455/https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: The first major war the Empire of Japan fought following the Meiji Restoration was against China,
+    from 1894 to 1895.
+  type: reference
+  accessed: '2026-10-14'
+- url: http://afe.easia.columbia.edu/special/japan_1750_meiji.htm
+  title: The Meiji Restoration and Modernization
+  publisher: Asia for Educators, Columbia University
+  quote: Japan strengthened itself enough to remain a sovereign nation in the face of Western colonizing
+    powers and indeed became a colonizing power itself.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced

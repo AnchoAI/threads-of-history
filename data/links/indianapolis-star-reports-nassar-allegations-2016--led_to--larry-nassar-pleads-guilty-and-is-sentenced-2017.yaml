@@ -1,0 +1,31 @@
+id: indianapolis-star-reports-nassar-allegations-2016--led_to--larry-nassar-pleads-guilty-and-is-sentenced-2017
+from: indianapolis-star-reports-nassar-allegations-2016
+to: larry-nassar-pleads-guilty-and-is-sentenced-2017
+type: led_to
+confidence: documented
+note: The news stories and the police inquiry they prompted led the FBI to open the investigation that
+  found the evidence for the federal charges.
+sources:
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: As a result of the news stories and MSUPD investigative activity, the FBI’s Lansing Resident
+    Agency first learned of the Nassar allegations and opened its Nassar investigation on October 5, 2016
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: The Lansing Resident Agency ultimately discovered over 30,000 images of child pornography on
+    the devices seized by the MSUPD during its search of Nassar’s residence.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - The source states the chain reports → investigation → evidence; the plea itself is from the Larry
+    Nassar Wikipedia article.

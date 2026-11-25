@@ -1,0 +1,47 @@
+id: european-theatre-of-world-war-ii-1939
+title: European theatre of World War II
+summary: One of the two main theatres of the Second World War, from September 1939 to May 1945, in which the Allies
+  fought the Axis powers on Western, Eastern, Scandinavian and Mediterranean fronts. The fighting caused at least
+  39 million deaths, and Germany carried out the Holocaust in the territories it occupied.
+occurred:
+  start: 1939-09
+  end: 1945-05
+  precision: month
+threads:
+- ww2
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 4
+wikidata: Q44700
+sources:
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_II
+  title: European theatre of World War II
+  publisher: Wikipedia
+  quote: lasting from September 1939 to May 1945, was one of two main theatres of combat during World War II
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_II
+  title: European theatre of World War II
+  publisher: Wikipedia
+  quote: The combat in Europe resulted in at least 39 million deaths
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_II
+  title: European theatre of World War II
+  publisher: Wikipedia
+  quote: 'on multiple fronts: Western, Eastern, Scandinavian, and Mediterranean.'
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_II
+  title: European theatre of World War II
+  publisher: Wikipedia
+  quote: Germany, meanwhile, enacted the Holocaust, a genocide of six million Jews, within its vast occupied territories
+    across Europe.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

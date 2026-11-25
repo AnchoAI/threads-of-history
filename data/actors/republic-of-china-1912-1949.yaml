@@ -1,0 +1,21 @@
+id: republic-of-china-1912-1949
+title: Republic of China
+actor_type: state
+summary: 1912–1949 country in Asia.
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q13426199
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q13426199.json
+  title: Republic of China
+  publisher: Wikidata
+  quote: 1912–1949 country in Asia
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,70 @@
+id: boston-globe-spotlight-investigation-2002
+title: Boston Globe "Spotlight" investigation of the Archdiocese of Boston
+wikidata: none
+summary: The Boston Globe's Spotlight Team publishes the first part of an investigation reporting that
+  the Archdiocese of Boston, aware of John Geoghan's record of abusing children, moved him from parish
+  to parish for years. The series, which won a Pulitzer Prize, brought abuse by Catholic priests to national
+  attention.
+occurred:
+  start: '2002-01-06'
+  precision: day
+threads:
+- scandals
+- religion
+- media
+regions:
+- americas
+actors:
+- the-boston-globe
+- john-geoghan
+- bernard-francis-law
+- catholic-church
+importance: 4
+sources:
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: Aware of Geoghan record, archdiocese still shuttled him from parish to parish
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: 'This article was prepared by the Globe Spotlight Team: reporters Matt Carroll, Sacha Pfeiffer,
+    and Michael Rezendes; and editor Walter V. Robinson.'
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  archive_url: https://web.archive.org/web/20260814194935/https://en.wikipedia.org/wiki/Bernard_Francis_Law
+  title: Bernard Francis Law
+  publisher: Wikipedia
+  quote: '"Church allowed abuse by priest for years". Boston Globe. January 6, 2002.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: 'In early 2002, The Boston Globe published results of an investigation titled "Spotlight Investigation:
+    Abuse in the Catholic Church" that won a Pulitzer Prize.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: The ongoing coverage of these cases by The Boston Globe thrust the issue of sexual abuse of minors
+    by Catholic priests into the national limelight.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - Wikidata has an item for the 2015 film Spotlight (Q18154496) but none found for the 2002 investigation
+    itself; set to none.

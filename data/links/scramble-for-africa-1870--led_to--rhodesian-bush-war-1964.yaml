@@ -1,0 +1,29 @@
+id: scramble-for-africa-1870--led_to--rhodesian-bush-war-1964
+from: scramble-for-africa-1870
+to: rhodesian-bush-war-1964
+type: led_to
+confidence: documented
+note: The war's origins go back to the British South Africa Company's conquest of the region during the
+  Scramble.
+sources:
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: The origin of the war in Rhodesia can be traced to the conquest of the region by the British
+    South Africa Company in the late 19th century, and the dissent of native leaders who opposed foreign
+    rule.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Scramble_for_Africa
+  archive_url: https://web.archive.org/web/20261013093412/https://en.wikipedia.org/wiki/Scramble_for_Africa
+  title: Scramble for Africa
+  publisher: Wikipedia
+  quote: At the same time, the British South Africa Company of Cecil Rhodes was expanding north from the
+    Limpopo River, sending the Pioneer Column (guided by Frederick Selous) through Matabeleland, and starting
+    a colony in Mashonaland.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

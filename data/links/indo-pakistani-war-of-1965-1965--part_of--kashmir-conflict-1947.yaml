@@ -1,0 +1,24 @@
+id: indo-pakistani-war-of-1965-1965--part_of--kashmir-conflict-1947
+from: indo-pakistani-war-of-1965-1965
+to: kashmir-conflict-1947
+type: part_of
+confidence: documented
+note: The second war over Kashmir, begun by Pakistan's infiltration of Indian-administered Kashmir.
+sources:
+- url: https://en.wikipedia.org/wiki/Kashmir_conflict
+  title: Kashmir conflict
+  publisher: Wikipedia
+  quote: In 1965, Pakistan attempted to infiltrate Indian-administered Kashmir to precipitate an insurgency
+    there,
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  title: Indo-Pakistani war of 1965
+  publisher: Wikipedia
+  quote: The India–Pakistan war of 1965, also known as the second Kashmir war
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

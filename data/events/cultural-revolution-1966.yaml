@@ -1,0 +1,82 @@
+id: cultural-revolution-1966
+title: Cultural Revolution
+summary: A sociopolitical movement launched by Mao Zedong in May 1966 to purge 'capitalist and traditional
+  elements', marked by Red Guard violence; it ended with Mao's death and the arrest of the Gang of Four in
+  1976. Death toll estimates range from hundreds of thousands to millions, for example 1.1–1.6 million (Andrew
+  G. Walder, 1966–1971) and 1.728 million 'unnatural deaths' (CCP History Research Center).
+occurred:
+  start: '1966-05-16'
+  end: '1976-10-06'
+  precision: day
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- mao-zedong
+- chinese-communist-party
+- gang-of-four
+- peoples-republic-of-china
+importance: 5
+wikidata: Q8690
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: It was launched by Mao Zedong, chairman of the Chinese Communist Party, in 1966 and lasted until his
+    death in 1976. Its stated goal was to advance Chinese communism by purging remnants of capitalist and traditional
+    elements from Chinese society and government.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: 16 May 1966 – 6 October 1976 (1966-05-16 – 1976-10-06)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Fatality estimates vary across different sources, usually ranging from hundreds of thousands to millions.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: 2014 Andrew G. Walder 1.1–1.6 Examines the period between 1966 and 1971.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: The 1.728 million were counted as "unnatural deaths"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: On 9 September 1976, Mao Zedong died.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: This event is usually considered to mark the end of the Cultural Revolution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Wikipedia lead gives a separate range of 1 to 2 million; other estimates in its table include Ding
+    Shu (2 million). The 1980–81 trial of the Gang of Four stated 34,800 deaths among 729,511 people persecuted
+    by the Gang.

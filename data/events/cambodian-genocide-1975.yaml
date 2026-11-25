@@ -1,0 +1,67 @@
+id: cambodian-genocide-1975
+title: Cambodian genocide
+summary: The Khmer Rouge under Pol Pot, after taking Phnom Penh on 17 April 1975, emptied the cities and persecuted
+  and killed Cambodians until Vietnam's invasion toppled the regime in January 1979. Estimates of the dead
+  range from about 1.2 to 2.2 million, roughly a quarter of the 1975 population.
+occurred:
+  start: '1975-04-17'
+  end: '1979-01-07'
+  precision: day
+threads:
+- revolutions
+regions:
+- south-east-asia
+actors:
+- khmer-rouge
+- pol-pot
+importance: 4
+wikidata: Q2885072
+sources:
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: The Cambodian genocide was the systematic persecution and killing of Cambodian citizens by the Khmer
+    Rouge under the general secretaryship of Pol Pot. It resulted in the deaths of approximately 2 million
+    people from 1975 to 1979, around 25% of Cambodia's population in 1975 (c. 7.8 million).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: 17 April 1975 – 7 January 1979 (3 years, 8 months and 20 days)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: 1.2–2.2 million (including 200,000–300,000 Chinese, 90,000–500,000 Cham 20,000 Vietnamese and 32,000
+    Thai)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: By January 1979, 1.5 to 2 million people, amounting to 20% to 25% of the country's 1975 population,
+    had died due to the Khmer Rouge's policies
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: the Khmer Rouge emptied the cities and marched Cambodians to labor camps in the countryside, where
+    mass executions, forced labor, physical abuse, torture, starvation, and disease were rampant.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cambodian_genocide
+  title: Cambodian genocide
+  publisher: Wikipedia
+  quote: The massacres ended when the Vietnamese military invaded in 1978 and toppled the Khmer Rouge regime.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The range comes from the Wikipedia infobox and lead without naming individual scholars; attribute the figures
+    to named demographers (e.g. Kiernan, Heuveline) before raising further.

@@ -1,0 +1,21 @@
+id: ibm
+title: IBM
+actor_type: organization
+summary: American multinational technology company.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q37156
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q37156.json
+  title: IBM
+  publisher: Wikidata
+  quote: American multinational technology company
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

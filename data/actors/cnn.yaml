@@ -1,0 +1,22 @@
+id: cnn
+title: CNN
+actor_type: organization
+summary: American news channel.
+threads:
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q48340
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q48340.json
+  title: CNN
+  publisher: Wikidata
+  quote: American news channel
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

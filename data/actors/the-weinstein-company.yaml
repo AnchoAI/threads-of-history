@@ -1,0 +1,22 @@
+id: the-weinstein-company
+title: The Weinstein Company
+actor_type: organization
+summary: American film studio co-owned by Harvey Weinstein.
+threads:
+- film-tv
+regions:
+- americas
+importance: 2
+wikidata: Q1138789
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1138789.json
+  title: The Weinstein Company
+  publisher: Wikidata
+  quote: American film studio co-owned by Harvey Weinstein
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

@@ -1,0 +1,57 @@
+id: chaco-war-1932
+title: Chaco War
+summary: Bolivia and Paraguay fight over the northern Gran Chaco, thought to be rich in oil; most of the
+  disputed area went to Paraguay. Whether oil interests drove the war is disputed.
+occurred:
+  start: '1932-09-09'
+  end: '1935-06-12'
+  precision: day
+threads:
+- interwar
+- energy
+regions:
+- americas
+actors: []
+importance: 3
+wikidata: Q223126
+sources:
+- url: https://en.wikipedia.org/wiki/Chaco_War
+  title: Chaco War
+  publisher: Wikipedia
+  quote: It was between Bolivia and Paraguay over control of the northern part of the Gran Chaco region
+    (known in Spanish as the Chaco Boreal), which was thought to be rich in petroleum.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Chaco_War
+  title: Chaco War
+  publisher: Wikipedia
+  quote: 9 September 1932 – 12 June 1935
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Chaco_War
+  title: Chaco War
+  publisher: Wikipedia
+  quote: Most of the disputed area awarded to Paraguay
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Chaco_War
+  title: Chaco War
+  publisher: Wikipedia
+  quote: Other versions of this narrative blame Standard Oil or Argentina for provoking the conflict to
+    rob Bolivia of its oil deposits.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Chaco_War
+  title: Chaco War
+  publisher: Wikipedia
+  quote: Stephen Cote, however, convincingly argues that at the time of the conflict, no known oil deposits
+    existed in the disputed Chaco region.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - No actor files exist for Bolivia or Paraguay; add them (ISO BOL, PRY) if more items need them.
+  - The role of oil companies (Standard Oil, Royal Dutch Shell) in causing the war is contested; if events
+    for them are added, model it as a contested link.

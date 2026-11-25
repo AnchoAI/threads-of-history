@@ -1,0 +1,94 @@
+id: archdiocese-of-boston-reassigns-john-geoghan-1984
+title: Cardinal Law reassigns John Geoghan to a parish in Weston
+wikidata: none
+summary: Cardinal Bernard Law, Archbishop of Boston, assigns the priest John Geoghan to St. Julia's parish
+  in Weston two months after removing him from a Dorchester parish over complaints that he had abused
+  children. Bishop John D'Arcy wrote to Law objecting to the assignment because of Geoghan's history with
+  young boys.
+occurred:
+  start: '1984-11-13'
+  precision: day
+known:
+  public:
+    start: '2001-07'
+    precision: month
+    note: Disclosure that Law knew of Geoghan's record when he approved the 1984 transfer; the Boston
+      Globe of 6 January 2002 calls it "last July's disclosure".
+  by:
+  - party: Archdiocese of Boston (Cardinal Law and his bishops)
+    actor: catholic-church
+    when:
+      start: '1984-09'
+      precision: month
+      note: Law removed Geoghan from St. Brendan's in Dorchester after complaints of abuse.
+    sources:
+    - url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+      archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+      title: Church allowed abuse by priest for years
+      publisher: The Boston Globe (Spotlight Team)
+      date: '2002-01-06'
+      quote: In September 1984, complaints that Geoghan had abused children at the Dorchester parish prompted
+        Law to remove him.
+      type: news
+      accessed: '2026-10-23'
+threads:
+- scandals
+- religion
+regions:
+- americas
+actors:
+- bernard-francis-law
+- john-geoghan
+- catholic-church
+importance: 2
+sources:
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: In September 1984, complaints that Geoghan had abused children at the Dorchester parish prompted
+    Law to remove him. Two months later, the cardinal gave Geoghan a fresh start at St. Julia’s.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: where he began work on Nov. 13, 1984
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: On Dec. 7, Bishop John M. D’Arcy wrote to Law, challenging the wisdom of the assignment in light
+    of Geoghan’s “history of homosexual involvement with young boys.”
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/John_Geoghan
+  archive_url: https://web.archive.org/web/20261013131901/https://en.wikipedia.org/wiki/John_Geoghan
+  title: John Geoghan
+  publisher: Wikipedia
+  quote: Law assigned Geoghan to St. Julia's Parish in Weston on November 13, 1984.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  archive_url: https://web.archive.org/web/20261015011158/https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html
+  title: Church allowed abuse by priest for years
+  publisher: The Boston Globe (Spotlight Team)
+  date: '2002-01-06'
+  quote: Then came last July’s disclosure that Cardinal Bernard F. Law knew about Geoghan’s problems in
+    1984, Law’s first year in Boston, yet approved his transfer to St. Julia’s parish in Weston.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - known.public is July 2001, derived from the Globe's "last July’s disclosure" in an article dated 6
+    January 2002. Much of the archdiocese's record was under a court confidentiality seal until 2002.
+  - 'Wikidata: no item for this reassignment was found; set to none.'

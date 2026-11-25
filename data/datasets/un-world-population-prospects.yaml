@@ -1,0 +1,41 @@
+id: un-world-population-prospects
+title: World Population Prospects
+publisher: United Nations, Department of Economic and Social Affairs, Population Division
+url: https://population.un.org/wpp/
+download_url: https://population.un.org/wpp/assets/downloads.json
+version: 2024 (released 2024-07-11; interim update for Togo 2026-01-19)
+license:
+  name: CC BY 3.0 IGO
+  url: http://creativecommons.org/licenses/by/3.0/igo/
+  redistribution: allowed
+  attribution: Cite as in `citation`, replacing the year for archived revisions.
+citation: United Nations, Department of Economic and Social Affairs, Population Division (2024). World Population Prospects
+  2024, Online Edition.
+unit_of_analysis: country-year
+coverage:
+  start: '1950'
+  end: '2100'
+  precision: year
+  note: Estimates 1950–2023, projections 2024–2100 (WPP 2024 interim update release note). This project uses the estimates
+    and keeps projections apart from facts.
+importer: tools/importers/un_wpp.py
+notes:
+- 'Licence, quoted from the download centre manifest (https://population.un.org/wpp/assets/downloads.json, which feeds
+  the Download Center page of the site): "Copyright © 2024 by United Nations, made available under a Creative Commons
+  license CC BY 3.0 IGO". The licence link given there is http://creativecommons.org/licenses/by/3.0/igo/.'
+- 'Citation: the same manifest gives "Suggested citation: United Nations, Department of Economic and Social Affairs,
+  Population Division (2024)." followed by the title "World Population Prospects 2024, Online Edition" (in italics
+  in the source, so the tags break a word-for-word match across the title).'
+- 'Version and dates: from the release note PDF (https://population.un.org/wpp/assets/Files/WPP2024_Release-Note-rev1.pdf,
+  read by text extraction, not by the quote checker): WPP 2024 was released on 11 July 2024; the next revision is
+  postponed to 11 July 2027; an interim update of 19 January 2026 revised Togo only.'
+- 'Vintages: the download centre keeps every past revision back to 1992 ("Suggested citation (please replace the [revision
+  year])" applies to them): 1992, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2015, 2017, 2019, 2022.
+  These give population figures as they were published at each revision, which suits the "knowable on" rule.'
+- 'Share-alike: no. CC BY 3.0 IGO only requires attribution.'
+- The site is a JavaScript app; its text pages could not be quote-checked, so all quotes come from the JSON manifest.
+review:
+  status: sourced
+  notes:
+  - Licence and citation checked word for word against the download centre manifest on 2026-10-18. The release date
+    comes from a PDF read by text extraction; a person should confirm it.

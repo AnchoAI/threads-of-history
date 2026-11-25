@@ -1,0 +1,50 @@
+id: operation-ryan-1981
+title: Soviet intelligence launches Operation RYaN
+summary: At a closed meeting in May 1981, Leonid Brezhnev and KGB chairman Yuri Andropov tell senior KGB
+  officers that the United States is preparing a secret nuclear attack, and the KGB and GRU begin Operation
+  RYaN to detect one. It became the largest peacetime intelligence-gathering operation in Soviet history.
+occurred:
+  start: 1981-05
+  precision: month
+threads:
+- intel
+- nuclear
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- leonid-brezhnev
+- yuri-andropov
+- kgb
+- soviet-union
+importance: 3
+wikidata: Q1634971
+sources:
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: In a May 1981 closed-session meeting of senior KGB officers and Soviet leaders, General Secretary
+    Leonid Brezhnev and KGB chairman Yuri Andropov bluntly announced that the United States was preparing
+    a secret nuclear attack on the USSR.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: the KGB and GRU military foreign intelligence arm would begin Operation RYaN
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Operation RYaN was the largest, most comprehensive peacetime intelligence-gathering operation
+    in Soviet history.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - How far RYaN was actually running by late 1983 is part of the Able Archer debate; Simon Miles is reported
+    to argue it was far from operational, but that claim was not found in a fetched source.

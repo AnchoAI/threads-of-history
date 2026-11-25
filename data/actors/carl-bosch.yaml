@@ -1,0 +1,21 @@
+id: carl-bosch
+title: Carl Bosch
+actor_type: person
+summary: German chemical engineer (1874–1940).
+threads:
+- industry
+regions:
+- western-europe
+importance: 3
+wikidata: Q76606
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q76606.json
+  title: Carl Bosch
+  publisher: Wikidata
+  quote: German chemical engineer (1874–1940)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

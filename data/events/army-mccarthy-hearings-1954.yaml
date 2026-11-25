@@ -1,0 +1,42 @@
+id: army-mccarthy-hearings-1954
+title: Army–McCarthy hearings televised
+summary: Senate hearings into conflicting accusations between the US Army and Senator Joseph McCarthy convene on
+  16 March 1954 and are carried live on ABC and DuMont television from 22 April to 17 June. McCarthy's Gallup approval
+  fell from 50% in January to 34% in June.
+occurred:
+  start: '1954-03-16'
+  end: '1954-06-17'
+  precision: day
+threads:
+- film-tv
+- usru
+regions:
+- americas
+actors:
+- joseph-mccarthy
+- united-states
+importance: 3
+wikidata: Q4794369
+sources:
+- url: https://en.wikipedia.org/wiki/Army%E2%80%93McCarthy_hearings
+  archive_url: https://web.archive.org/web/20261011000139/https://en.wikipedia.org/wiki/Army%E2%80%93McCarthy_hearings
+  title: Army–McCarthy hearings
+  publisher: Wikipedia
+  quote: Chaired by Senator Karl Mundt, the hearings convened on March 16, 1954, and received considerable press
+    attention, including gavel-to-gavel live television coverage on ABC and DuMont (April 22 – June 17).
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Army%E2%80%93McCarthy_hearings
+  archive_url: https://web.archive.org/web/20261011000139/https://en.wikipedia.org/wiki/Army%E2%80%93McCarthy_hearings
+  title: Army–McCarthy hearings
+  publisher: Wikipedia
+  quote: In Gallup polls from January 1954, McCarthy's approval rating was at 50%, with only 29% disapproving. By
+    June, both percentages had shifted by 16%, with more people (34% approving, 45% disapproving) now rejecting
+    McCarthy and his methods.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB (film, television, press and the internet). Summary and dates checked against the quoted sources; no
+    person has reviewed them yet.

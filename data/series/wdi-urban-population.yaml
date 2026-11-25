@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-urban-population
+title: Urban population (% of total) (World Bank)
+summary: Urban population refers to people living in urban areas as defined by national statistical offices.
+  The data are collected and smoothed by United Nations Population Division.
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: SP.URB.TOTL.IN.ZS
+table: tables/wdi-urban-population.csv
+sources:
+- url: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS
+  title: Urban population (% of total population)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

@@ -1,0 +1,27 @@
+id: year-of-africa-1960
+title: Year of Africa
+summary: In 1960 seventeen African nations become independent, the culmination of African independence movements.
+occurred:
+  start: '1960'
+  precision: year
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors: []
+importance: 4
+wikidata: Q387647
+sources:
+- url: https://en.wikipedia.org/wiki/Year_of_Africa
+  title: Year of Africa
+  publisher: Wikipedia
+  quote: The Year of Africa refers to a series of events that took place during the year 1960—mainly the independence
+    of seventeen African nations—that highlighted the growing pan-African sentiments in the continent. The year
+    brought about the culmination of African independence movements
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

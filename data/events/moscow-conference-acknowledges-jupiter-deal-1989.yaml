@@ -1,0 +1,44 @@
+id: moscow-conference-acknowledges-jupiter-deal-1989
+title: Jupiter deal acknowledged at Moscow conference
+summary: At a conference in Moscow in January 1989, Anatoly Dobrynin (Soviet ambassador in 1962) and Kennedy's
+  speechwriter Theodore Sorensen officially acknowledged the secret 1962 understanding that US missiles
+  would be withdrawn from Turkey and Italy, which had been known to only nine US officials at the time.
+occurred:
+  start: '1989-01'
+  precision: month
+threads:
+- cuba
+- intel
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- anatoly-dobrynin
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The Kennedy-Khrushchev Pact was known to only nine US officials at the time of its creation in
+    October 1962 and was first officially acknowledged at a conference in Moscow in January 1989 by Soviet
+    Ambassador Anatoly Dobrynin and Kennedy's speechwriter Theodore Sorensen.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The outcome of the Kennedy-Khrushchev Pact was that the US would remove their rockets from Italy
+    and Turkey
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - Only Wikipedia found for this; add the conference proceedings (Allyn, Blight and Welch, eds., Back
+    to the Brink, 1992) or a contemporary news report.
+  - 'wikidata none: no Wikidata item found for the January 1989 Moscow conference.'

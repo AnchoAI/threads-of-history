@@ -1,0 +1,21 @@
+id: georges-clemenceau
+title: Georges Clemenceau
+actor_type: person
+summary: Prime Minister of France, 1906–1909 and 1917–1920 (1841–1929).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q171730
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q171730.json
+  title: Georges Clemenceau
+  publisher: Wikidata
+  quote: Prime Minister of France, 1906–1909 and 1917–1920 (1841–1929)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

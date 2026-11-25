@@ -1,0 +1,51 @@
+id: israeli-palestinian-conflict
+title: Israeli–Palestinian conflict
+summary: An ongoing military and political conflict between Israel and the Palestinians over land and self-determination
+  in the former territory of Mandatory Palestine. It has its origins in the rise of Zionism in the late 19th century.
+occurred:
+  start: '1800'
+  ongoing: true
+  precision: century
+  approximate: true
+  note: The source gives "c. 19th century – present" and traces the origins to the late 19th century.
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- israel
+- palestine-liberation-organization
+- hamas
+importance: 4
+wikidata: Q151622
+sources:
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  archive_url: https://web.archive.org/web/20261012063218/https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  title: Israeli–Palestinian conflict
+  publisher: Wikipedia
+  quote: Israel and the Palestinians are engaged in an ongoing military and political conflict about land and self-determination
+    within the former territory of Mandatory Palestine.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  archive_url: https://web.archive.org/web/20261012063218/https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  title: Israeli–Palestinian conflict
+  publisher: Wikipedia
+  quote: The conflict has its origins in the rise of Zionism in the late 19th century in Europe
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  archive_url: https://web.archive.org/web/20261012063218/https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict
+  title: Israeli–Palestinian conflict
+  publisher: Wikipedia
+  quote: c. 19th century – present
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'
+  - The source infobox calls this conflict part of the Arab–Israeli conflict, but no part_of link was added because
+    it starts earlier (the Arab–Israeli conflict is dated from 1948).
+  - The id has no year because the start is only known to the century.

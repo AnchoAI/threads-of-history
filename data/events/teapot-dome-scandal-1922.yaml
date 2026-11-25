@@ -1,0 +1,82 @@
+id: teapot-dome-scandal-1922
+title: Teapot Dome scandal
+summary: In 1922 Interior Secretary Albert B. Fall leased the naval oil reserves at Teapot Dome, Wyoming, and Elk
+  Hills, California, to oilmen Harry F. Sinclair and Edward L. Doheny without competitive bidding. A Senate inquiry
+  led by Thomas J. Walsh found that Fall had received a $100,000 interest-free loan from Doheny; Fall was convicted
+  of accepting bribes in 1929, and Doheny was acquitted of paying them in 1930.
+occurred:
+  start: '1922'
+  end: '1930'
+  precision: year
+threads:
+- scandals
+- energy
+- interwar
+regions:
+- americas
+actors:
+- albert-b-fall
+- edward-l-doheny
+- thomas-j-walsh
+- united-states
+importance: 3
+wikidata: Q3236296
+sources:
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: Later in 1922, Fall leased oil production rights at Teapot Dome to Harry F. Sinclair of Mammoth Oil, a
+    subsidiary of Sinclair Oil Corporation.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: He also leased the Elk Hills reserve to Edward L. Doheny of Pan American Petroleum and Transport Company.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: Both leases were issued without competitive bidding, which was legal under the Mineral Leasing Act of 1920.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: 'Finally, as the investigation was winding down with Fall apparently innocent, Walsh uncovered a piece
+    of evidence Fall had failed to cover up: Doheny''s $100,000 interest-free loan to him.'
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: The leases were the subject of a congressional investigation led by Senator Thomas J. Walsh.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: In 1929, Fall was found guilty of accepting bribes from Doheny.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: Conversely, in 1930, Doheny was acquitted of paying bribes to Fall.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Only Wikipedia was reachable for this item; the Senate Historical Office page on Teapot Dome returned 404. A
+    court or Senate record would be a stronger source.

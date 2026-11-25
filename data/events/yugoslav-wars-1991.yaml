@@ -1,0 +1,46 @@
+id: yugoslav-wars-1991
+title: Yugoslav Wars
+summary: A series of ethnic conflicts, wars of independence and insurgencies from 1991 to 2001 accompanies
+  the breakup of Yugoslavia into six countries. Often described as among Europe's deadliest conflicts
+  since the Second World War, they included genocide, ethnic cleansing and mass wartime rape.
+occurred:
+  start: '1991'
+  end: '2001'
+  precision: year
+threads:
+- migration
+- rights
+regions:
+- russia-eastern-europe
+actors:
+- slobodan-milosevic
+importance: 4
+wikidata: Q242352
+sources:
+- url: https://en.wikipedia.org/wiki/Yugoslav_Wars
+  title: Yugoslav Wars
+  publisher: Wikipedia
+  quote: The Yugoslav Wars were a series of separate but related ethnic conflicts, wars of independence,
+    and insurgencies that took place from 1991 to 2001
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yugoslav_Wars
+  title: Yugoslav Wars
+  publisher: Wikipedia
+  quote: The conflicts both led up to and resulted from the breakup of Yugoslavia, which began in mid-1991,
+    into six independent countries
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yugoslav_Wars
+  title: Yugoslav Wars
+  publisher: Wikipedia
+  quote: Often described as one of Europe's deadliest armed conflicts since World War II, the Yugoslav
+    Wars were marked by many war crimes, including genocide, crimes against humanity, ethnic cleansing,
+    massacres, and mass wartime rape.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

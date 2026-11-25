@@ -1,0 +1,60 @@
+id: snie-11-9-84-el-salvador-insurgent-offensive-1984
+title: 'SNIE 11-9-84: Insurgent offensive in El Salvador in late summer or autumn 1984'
+summary: In August 1984 the US intelligence community judged that an insurgent offensive of limited scope and moderate
+  effectiveness was likely in El Salvador in late summer or autumn 1984. The sources checked so far do not settle
+  whether one took place.
+threads:
+- usru
+- intel
+regions:
+- americas
+actors:
+- cia
+importance: 2
+window:
+  start: '1984-08-14'
+  end: '1984-11-30'
+  precision: day
+probability: 0.75
+stated_as: an insurgent offensive of limited scope and moderate effectiveness is likely to occur in El Salvador
+  in late summer or the fall
+probability_basis: 'Sherman Kent''s words of estimative probability: ''likely'' (Kent''s ''probable'' bracket) =
+  about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1984-08-14'
+resolves_by: '1984-11-30'
+resolution:
+  outcome: ambiguous
+  resolved_on: '1984-11-30'
+  note: No source found yet that records or rules out an insurgent offensive in El Salvador in late summer or autumn
+    1984.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1981-88v04/d264
+  archive_url: https://web.archive.org/web/20251114230016/https://history.state.gov/historicaldocuments/frus1981-88v04/d264
+  title: 'Special National Intelligence Estimate SNIE 11-9-84: Soviet Policy Toward the United States in 1984'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1984-08-14'
+  quote: In Central America, an insurgent offensive of limited scope and moderate effectiveness is likely to occur
+    in El Salvador in late summer or the fall
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probable … likely we believe We estimate
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: unverified
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - Outcome unsourced. Check histories of the FMLN for operations between August and November 1984.

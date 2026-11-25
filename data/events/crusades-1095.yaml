@@ -1,0 +1,48 @@
+id: crusades-1095
+title: The Crusades
+summary: Military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers sought to recover
+  and defend the Holy Land. In modern times both political Islam and Western right-wing circles have drawn parallels
+  with them.
+occurred:
+  start: '1095'
+  end: '1291'
+  precision: year
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- catholic-church
+importance: 4
+wikidata: Q12546
+sources:
+- url: https://en.wikipedia.org/wiki/Crusades
+  archive_url: https://web.archive.org/web/20261012075004/https://en.wikipedia.org/wiki/Crusades
+  title: Crusades
+  publisher: Wikipedia
+  quote: The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim
+    rulers for the recovery and defence of the Holy Land
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Crusades
+  archive_url: https://web.archive.org/web/20261012075004/https://en.wikipedia.org/wiki/Crusades
+  title: Crusades
+  publisher: Wikipedia
+  quote: Historical parallelism and the tradition of drawing inspiration from the Middle Ages have become keystones
+    of political Islam encouraging ideas of a modern jihad
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Crusades
+  archive_url: https://web.archive.org/web/20261012075004/https://en.wikipedia.org/wiki/Crusades
+  title: Crusades
+  publisher: Wikipedia
+  quote: Right-wing circles in the western world have drawn opposing parallels
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.
+  - Included only for its links to modern rhetoric, as ARCS.md asks; the links are echoes, not causal claims.

@@ -1,0 +1,21 @@
+id: gavrilo-princip
+title: Gavrilo Princip
+actor_type: person
+summary: Bosnian assassin (1894–1918).
+threads:
+- ww1
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q80492
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q80492.json
+  title: Gavrilo Princip
+  publisher: Wikidata
+  quote: Bosnian assassin (1894–1918)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

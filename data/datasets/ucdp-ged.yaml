@@ -1,0 +1,37 @@
+id: ucdp-ged
+title: UCDP Georeferenced Event Dataset (GED) Global
+publisher: Uppsala Conflict Data Program (UCDP)
+url: https://ucdp.uu.se/downloads/
+version: '26.1'
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  redistribution: allowed
+  attribution: Cite both publications in `citation` (the UCDP downloads page lists them under "Please cite").
+citation: 'Shawn Davies, Therése Pettersson, Magnus Öberg, Organized violence 1989–2025, and violent political protests,
+  Journal of Peace Research, 2026. https://doi.org/10.1093/jopres/xjag046; and Sundberg, Ralph and Erik Melander (2013)
+  Introducing the UCDP Georeferenced Event Dataset. Journal of Peace Research 50(4).'
+unit_of_analysis: event
+coverage:
+  start: '1989'
+  end: '2025'
+  precision: day
+  approximate: true
+  note: Taken from the title of the cited 2026 paper ("Organized violence 1989–2025") and the description of the GED-based
+    country-year dataset ("the post-1989 world"); the GED codebook was not opened.
+importer: tools/importers/ucdp_ged.py
+notes:
+- 'Licence, quoted from https://ucdp.uu.se/downloads/ (archived at https://web.archive.org/web/20261008153407/https://ucdp.uu.se/downloads/):
+  "All datasets are free of charge and licensed under CC BY 4.0 — you are free to use and redistribute them provided
+  you cite the relevant publications listed with each dataset."'
+- 'Version: the downloads page lists "UCDP Georeferenced Event Dataset (GED) Global version 26.1". The page also lists
+  monthly UCDP Candidate Events releases (e.g. "August 2026 | Version 26.0.8 (global)"), which are a separate dataset.'
+- The page describes GED events as "geo-coded down to the level of individual villages, with temporal durations disaggregated
+  to single, individual days". The importer would aggregate to country-month (and country-year) counts of events and
+  deaths, and could offer large events as candidates for staging/.
+- 'Share-alike: no.'
+review:
+  status: sourced
+  notes:
+  - Licence, version and citation checked word for word against the UCDP downloads page on 2026-10-18. Coverage years
+    are approximate (see coverage note).

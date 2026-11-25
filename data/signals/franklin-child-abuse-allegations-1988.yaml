@@ -1,0 +1,73 @@
+id: franklin-child-abuse-allegations-1988
+title: Franklin child abuse allegations
+summary: Alleged victims say that Lawrence E. King Jr. and other prominent Nebraskans abused minors at parties and
+  that children in foster care were flown to the East Coast to be abused; King calls the claims "garbage". In 1990
+  a county grand jury and a federal grand jury find the allegations unfounded, the county jury calling them "a carefully
+  crafted hoax".
+occurred:
+  start: 1988-06
+  precision: month
+threads:
+- scandals
+- rights
+regions:
+- americas
+actors:
+- lawrence-e-king-jr
+importance: 2
+source_credibility: low
+outcome: 'false'
+wikidata: Q1445137
+sources:
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: The Franklin child prostitution ring allegations began in June 1988 in Omaha, Nebraska, when multiple prominent
+    Nebraskan political and business figures were accused of involvement in a child sex trafficking ring.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: The accusations primarily centered on Lawrence E. King Jr., who ran the credit union, and alleged that
+    he hosted "lavish parties at which minors were sexually abused".
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: Alleged abuse victims were interviewed, who claimed that children in foster care were flown to the East
+    Coast of the United States to be sexually abused.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/
+  archive_url: https://web.archive.org/web/20261016151428/https://politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/
+  title: Grand juries determined alleged sex trafficking 'Franklin scandal' in Omaha was a hoax
+  publisher: PolitiFact
+  date: '2022-04-29'
+  quote: King, who was also accused of embezzling millions from the credit union, called the sexual allegations
+    against him “garbage.”
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/
+  archive_url: https://web.archive.org/web/20261016151428/https://politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/
+  title: Grand juries determined alleged sex trafficking 'Franklin scandal' in Omaha was a hoax
+  publisher: PolitiFact
+  date: '2022-04-29'
+  quote: Lurid claims about a child sex trafficking ring took hold in Omaha, Nebraska, in the late 1980s, but multiple
+    grand juries found that the allegations were unfounded — "a carefully crafted hoax."
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - outcome 'false' follows the 1990 county and federal grand jury findings. These findings are disputed by John
+    DeCamp and later writers; see decamp-alleges-franklin-cover-up-1992 and its contested link.
+  - Allegations reached the Nebraska Foster Care Review Board in 1987 (Wikipedia), before the June 1988 start given
+    here.
+  - source_credibility is an editorial judgement following the grand juries.

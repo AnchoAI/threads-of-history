@@ -1,0 +1,25 @@
+id: founding-of-the-prc-1949--led_to--mccarthyism-1950
+from: founding-of-the-prc-1949
+to: mccarthyism-1950
+type: led_to
+confidence: documented
+note: The communist victory in China added to US fears of communism.
+sources:
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: events in 1949 and 1950 sharply increased the sense of threat in the United States related to
+    communism.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/McCarthyism
+  archive_url: https://web.archive.org/web/20261010033450/https://en.wikipedia.org/wiki/McCarthyism
+  title: McCarthyism
+  publisher: Wikipedia
+  quote: That same year, Mao Zedong's communist army gained control of mainland China despite heavy American
+    financial support of the opposing Kuomintang.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

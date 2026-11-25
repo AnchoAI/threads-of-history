@@ -1,0 +1,21 @@
+id: dzhokhar-dudayev
+title: Dzhokhar Dudayev
+actor_type: person
+summary: Soviet general and Chechen separatist leader (1944–1996).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q179846
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q179846.json
+  title: Dzhokhar Dudayev
+  publisher: Wikidata
+  quote: Soviet general, Chechen leader (1944-1996)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

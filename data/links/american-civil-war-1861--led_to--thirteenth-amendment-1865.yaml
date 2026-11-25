@@ -1,0 +1,26 @@
+id: american-civil-war-1861--led_to--thirteenth-amendment-1865
+from: american-civil-war-1861
+to: thirteenth-amendment-1865
+type: led_to
+confidence: documented
+note: Union victory ended with the national abolition of slavery through the Thirteenth Amendment.
+sources:
+- url: https://en.wikipedia.org/wiki/American_Civil_War
+  archive_url: https://web.archive.org/web/20261014184155/https://en.wikipedia.org/wiki/American_Civil_War
+  title: American Civil War
+  publisher: Wikipedia
+  quote: The Confederacy collapsed, the Thirteenth Amendment abolished slavery, and four million enslaved black
+    people were freed.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/American_Civil_War
+  archive_url: https://web.archive.org/web/20261014184155/https://en.wikipedia.org/wiki/American_Civil_War
+  title: American Civil War
+  publisher: Wikipedia
+  quote: The war ended with Union victory, the dissolution of the Confederacy and the national abolition of slavery
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

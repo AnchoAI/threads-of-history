@@ -1,0 +1,27 @@
+id: volcker-shock-1979--led_to--plaza-accord-1985
+from: volcker-shock-1979
+to: plaza-accord-1985
+type: led_to
+confidence: documented
+note: Volcker's tight money, with Reagan's deficits, drove up the dollar; the strong dollar and protectionist
+  pressure led to the Plaza talks.
+sources:
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: The tight monetary policy of the Federal Reserve's Chairman Paul Volcker and the expansionary
+    fiscal policy of President Ronald Reagan's first term in 1981–84 pushed up long-term interest rates
+    and attracted capital inflow, appreciating the dollar.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Plaza_Accord
+  archive_url: https://web.archive.org/web/20261005190716/https://en.wikipedia.org/wiki/Plaza_Accord
+  title: Plaza Accord
+  publisher: Wikipedia
+  quote: The negative prospect of trade restrictions spurred the White House to begin the negotiations
+    that led to the Plaza Accord.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

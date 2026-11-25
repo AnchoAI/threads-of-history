@@ -1,0 +1,33 @@
+id: mccone-warns-of-soviet-mrbms-in-cuba-1962--signal_of--cuban-missile-crisis-1962
+from: mccone-warns-of-soviet-mrbms-in-cuba-1962
+to: cuban-missile-crisis-1962
+type: signal_of
+confidence: documented
+note: McCone's warnings that MRBMs might be hidden behind the SAM screen; MRBM sites were photographed
+  on 14 October.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: On September 10 he argued in a cable that the costly defenses being prepared in Cuba were difficult
+    to rationalize unless they were “for purpose of ensuring secrecy of some offensive capability such
+    as MRBMs to [Page 1053] be installed by Soviets after present phase completed and country secured
+    from overflights.”
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: three medium-range ballistic missile sites were being developed near San Cristobal, in Pinar
+    del Rio province.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

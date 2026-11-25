@@ -1,0 +1,24 @@
+id: cambodian-civil-war-1967--part_of--vietnam-war-1955
+from: cambodian-civil-war-1967
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: 'Cambodian Civil War (Wikipedia): "was part of".'
+sources:
+- url: https://en.wikipedia.org/wiki/Cambodian_Civil_War
+  title: Cambodian Civil War
+  publisher: Wikipedia
+  quote: The conflict was part of the Vietnam War.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cambodian_Civil_War
+  title: Cambodian Civil War
+  publisher: Wikipedia
+  quote: Part of the Vietnam War, the Indochina Wars, the Sino-Soviet Split, and the Cold War in Asia
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

@@ -1,0 +1,57 @@
+id: sunni-shia-split-0632--led_to--syrian-civil-war-2011
+from: sunni-shia-split-0632
+to: syrian-civil-war-2011
+type: led_to
+confidence: contested
+note: Whether the Syrian war is driven by the ancient Sunni–Shia divide or by politics that took on sectarian form
+  is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  archive_url: https://web.archive.org/web/20261003080840/https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+  title: Shia–Sunni relations
+  publisher: Wikipedia
+  quote: In the modern era, political conflicts and struggles for regional influence have sometimes taken on sectarian
+    dimensions, particularly in parts of the Middle East and South Asia.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: The ancient religious divide is helping fuel the region's conflicts, including the Syrian civil war.
+  held_by:
+  - Robert McMahon and Mohammed Aly Sergie (Council on Foreign Relations, 2014)
+  sources:
+  - url: https://www.cfr.org/sunni-shia-divide/
+    title: The Sunni-Shia Divide
+    publisher: Council on Foreign Relations (Robert McMahon, Mohammed Aly Sergie)
+    date: '2014-07-15'
+    quote: An ancient religious divide is helping fuel a resurgence of conflicts in the Middle East and Muslim countries.
+      Struggles between Sunni and Shia forces have fed a Syrian civil war
+    type: scholarly
+    accessed: '2026-10-14'
+- claim: The war began as a political conflict and became sectarian; the region's conflicts stem from weak states
+    and power competition, not from sectarian rivalry itself.
+  held_by:
+  - F. Gregory Gause III (Brookings, 2014)
+  - Wikipedia, 'Shia–Sunni relations'
+  sources:
+  - url: https://www.brookings.edu/articles/beyond-sectarianism-the-new-middle-east-cold-war/
+    archive_url: https://web.archive.org/web/20260918184901/https://www.brookings.edu/articles/beyond-sectarianism-the-new-middle-east-cold-war/
+    title: 'Beyond Sectarianism: The New Middle East Cold War'
+    publisher: Brookings Institution (F. Gregory Gause III)
+    quote: Rather than stemming from sectarian rivalry, this new Middle East cold war results from the weakening
+      of Arab states and the creation of domestic political vacuums into which local actors invite external support.
+    type: scholarly
+    accessed: '2026-10-14'
+  - url: https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+    archive_url: https://web.archive.org/web/20261003080840/https://en.wikipedia.org/wiki/Shia%E2%80%93Sunni_relations
+    title: Shia–Sunni relations
+    publisher: Wikipedia
+    quote: The Syrian Civil War, though it started as a political conflict, developed into a struggle between the
+      Alawite-dominated Army and government on the one hand, and the mainly Sunni rebels and former members of the
+      regular army on the other.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Each position is quoted from a source that holds it. The link is contested because the weight of a centuries-old
+    religious divide, against modern politics, is debated.

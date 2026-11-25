@@ -1,0 +1,19 @@
+id: vietnam-war-1955--led_to--nixon-visit-to-china-1972
+from: vietnam-war-1955
+to: nixon-visit-to-china-1972
+type: led_to
+confidence: documented
+note: The escalating Vietnam War led US officials to seek better relations with China.
+sources:
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20260918012752/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: US Department of State, Office of the Historian
+  quote: The escalating war in Vietnam led U.S. officials to look for ways to improve relations with Communist
+    governments in Asia in the hopes that such a policy might lessen future conflict, undermine alliances between
+    Communist countries, diplomatically isolate North Vietnam, and increase U.S. leverage against the Soviet
+    Union.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

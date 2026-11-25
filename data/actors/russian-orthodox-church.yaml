@@ -1,0 +1,21 @@
+id: russian-orthodox-church
+title: Russian Orthodox Church
+actor_type: organization
+summary: Autocephalous Eastern Orthodox church.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q60995
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q60995.json
+  title: Russian Orthodox Church
+  publisher: Wikidata
+  quote: autocephalous Eastern Orthodox church
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

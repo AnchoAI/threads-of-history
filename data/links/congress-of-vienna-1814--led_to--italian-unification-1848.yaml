@@ -1,0 +1,25 @@
+id: congress-of-vienna-1814--led_to--italian-unification-1848
+from: congress-of-vienna-1814
+to: italian-unification-1848
+type: led_to
+confidence: documented
+note: The Vienna settlement restored Austrian control of much of Italy; rebellions against it inspired
+  the unification movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: Inspired by the rebellions in the 1820s and 1830s against the outcome of the Congress of Vienna
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Unification_of_Germany
+  title: Unification of Germany
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260930013411/https://en.wikipedia.org/wiki/Unification_of_Germany
+  quote: This system reorganized Europe into spheres of influence, which, in some cases, suppressed the
+    aspirations of the various nationalities, including the Germans and Italians.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

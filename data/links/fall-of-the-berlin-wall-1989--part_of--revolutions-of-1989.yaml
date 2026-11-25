@@ -1,0 +1,18 @@
+id: fall-of-the-berlin-wall-1989--part_of--revolutions-of-1989
+from: fall-of-the-berlin-wall-1989
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: The fall of the Wall was part of the revolutions of 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: Part of the Revolutions of 1989 and German reunification
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,27 @@
+id: dame-janet-smith-review-2016--revealed--sexual-abuse-by-jimmy-savile-1955
+from: dame-janet-smith-review-2016
+to: sexual-abuse-by-jimmy-savile-1955
+type: revealed
+confidence: documented
+note: The Smith review set out what BBC staff knew of Savile's abuse on BBC premises and how it went unchecked.
+sources:
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: The review found that senior managers were not told of complaints about Savile because of an
+    "atmosphere of fear" which still exists in the BBC.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.bbc.co.uk/news/uk-35658398
+  archive_url: https://web.archive.org/web/20260526074519/https://www.bbc.co.uk/news/uk-35658398
+  title: 'Savile and Hall: BBC ''missed chances to stop attacks'''
+  publisher: BBC News
+  date: '2016-02-25'
+  quote: The report found Savile would commit sexual assaults "whenever the opportunity arose" and incidents
+    took place "in virtually every one of the BBC premises at which he worked".
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced

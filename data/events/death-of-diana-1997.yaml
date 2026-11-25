@@ -1,0 +1,29 @@
+id: death-of-diana-1997
+title: Death of Diana, Princess of Wales
+summary: Diana, Princess of Wales, died from injuries sustained in a car crash in the Pont de l'Alma tunnel in Paris
+  late on 31 August 1997.
+occurred:
+  start: '1997-08-31'
+  precision: day
+threads:
+- celebrity-activism
+regions:
+- western-europe
+actors:
+- diana-princess-of-wales
+importance: 3
+wikidata: Q2193276
+sources:
+- url: https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales
+  archive_url: https://web.archive.org/web/20261015034639/https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales
+  title: Death of Diana, Princess of Wales
+  publisher: Wikipedia
+  quote: In the late hours of 31 August 1997, Diana, Princess of Wales, died from injuries sustained in a car crash
+    in the Pont de l'Alma tunnel in Paris, France.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

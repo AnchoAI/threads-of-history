@@ -1,0 +1,53 @@
+id: sino-soviet-border-conflict-1969
+title: Sino-Soviet border conflict
+summary: A seven-month undeclared military conflict between the Soviet Union and China in 1969, following the
+  Sino-Soviet split; the most serious clash was at Zhenbao (Damansky) Island on the Ussuri River. China based
+  its territorial demands on 19th-century 'unequal treaties' by which the Qing ceded Outer Manchuria to Russia.
+occurred:
+  start: '1969-03-02'
+  end: '1969-09-11'
+  precision: day
+threads:
+- china
+- usru
+regions:
+- east-asia
+- russia-eastern-europe
+actors:
+- peoples-republic-of-china
+- soviet-union
+importance: 3
+wikidata: Q244932
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  archive_url: https://web.archive.org/web/20261002050539/https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  title: Sino-Soviet border conflict
+  publisher: Wikipedia
+  quote: The Sino-Soviet border conflict, also known as the Sino-Soviet crisis, was a seven-month undeclared
+    military conflict between the Soviet Union and China in 1969, following the Sino-Soviet split. The most
+    serious border clash, which brought the world's two largest communist states to the brink of war, occurred
+    near Damansky (Zhenbao) Island on the Ussuri (Wusuli) River in Manchuria.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  archive_url: https://web.archive.org/web/20261002050539/https://en.wikipedia.org/wiki/Sino-Soviet_border_conflict
+  title: Sino-Soviet border conflict
+  publisher: Wikipedia
+  quote: the Chinese now demanded territorial concessions on the basis that the 19th-century treaties transferring
+    ownership of the sparsely populated Outer Manchuria, concluded by Qing dynasty China and the Russian Empire,
+    were "Unequal Treaties"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Sino-Soviet_split
+  archive_url: https://web.archive.org/web/20261013234241/https://en.wikipedia.org/wiki/Sino-Soviet_split
+  title: Sino-Soviet split
+  publisher: Wikipedia
+  quote: The Sino-Soviet split allowed minor border disputes to escalate to firefights for areas of the Argun
+    and Amur rivers (Damansky–Zhenbao is southeast, north of the lake (2 March – 11 September 1969).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

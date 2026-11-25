@@ -1,0 +1,17 @@
+id: fall-of-saigon-1975--part_of--vietnam-war-1955
+from: fall-of-saigon-1975
+to: vietnam-war-1955
+type: part_of
+confidence: documented
+note: The capture of Saigon ended the Vietnam War.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  archive_url: https://web.archive.org/web/20260928170605/https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: Saigon, the capital of South Vietnam, was captured by North Vietnam on 30 April 1975. This caused
+    the evacuation of thousands of civilians and U.S. personnel, and ended the Vietnam War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,26 @@
+id: arab-spring-2011--led_to--yemeni-civil-war-2014
+from: arab-spring-2011
+to: yemeni-civil-war-2014
+type: led_to
+confidence: documented
+note: The Yemeni crisis and civil war are among the conflicts that followed the Arab Spring.
+sources:
+- url: https://en.wikipedia.org/wiki/Arab_Spring
+  archive_url: https://web.archive.org/web/20261012072401/https://en.wikipedia.org/wiki/Arab_Spring
+  title: Arab Spring
+  publisher: Wikipedia
+  quote: 'Multiple large-scale conflicts followed: the Syrian civil war; the rise of ISIS, insurgency in Iraq
+    and the following civil war; the Egyptian Crisis, election and removal from office of Mohamed Morsi, and
+    subsequent unrest and insurgency; the Libyan crisis; and the Yemeni crisis and subsequent civil war.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  archive_url: https://web.archive.org/web/20261013113224/https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+  title: Yemeni civil war (2014–present)
+  publisher: Wikipedia
+  quote: Then during the early stages of the Yemeni Revolution in 2011, Houthi leader Abdul-Malik al-Houthi
+    declared the group's support for demonstrations calling for the resignation of President Ali Abdullah Saleh.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

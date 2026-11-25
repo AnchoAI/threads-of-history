@@ -1,0 +1,71 @@
+id: u-2-finds-sam-sites-in-cuba-1962
+title: U-2 finds Soviet surface-to-air missile sites in Cuba
+summary: A U-2 reconnaissance flight over Cuba on 29 August 1962 showed surface-to-air missile sites under
+  construction. The CIA told the White House on 31 August, and President Kennedy mentioned the anti-aircraft
+  missiles publicly on 4 September.
+occurred:
+  start: '1962-08-29'
+  precision: day
+known:
+  public:
+    start: '1962-09-04'
+    precision: day
+    note: White House statement by President Kennedy noting anti-aircraft defense missiles in Cuba.
+  by:
+  - party: White House (McGeorge Bundy)
+    actor: united-states
+    when:
+      start: '1962-08-31'
+      precision: day
+      note: Deputy DCI Marshall Carter conveyed the photographs' findings to Bundy.
+    sources:
+    - &id001
+      url: https://history.state.gov/historicaldocuments/frus1961-63v05/d230
+      archive_url: https://web.archive.org/web/20250921022523/https://history.state.gov/historicaldocuments/frus1961-63v05/d230
+      title: 'Foreign Relations of the United States, 1961–1963, Volume V, Soviet Union, Document 230:
+        Editorial Note'
+      publisher: Office of the Historian, US Department of State
+      quote: Photographs obtained from a U-2 reconnaissance mission flown over Cuba on August 29, 1962,
+        revealed that surface-to-air missile sites were under construction on the island. Deputy Director
+        of Central Intelligence Marshall Carter conveyed the information on August 31 to McGeorge Bundy
+        at the White House.
+      type: primary
+      accessed: '2026-10-21'
+threads:
+- cuba
+- intel
+regions:
+- americas
+actors:
+- cia
+- united-states
+- soviet-union
+importance: 2
+wikidata: none
+sources:
+- *id001
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: Director of Central Intelligence John McCone was on a honeymoon holiday in France when the August
+    29, 1962, U-2 mission established that surface-to-air missile sites were under construction in Cuba.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  archive_url: https://web.archive.org/web/20250922034739/https://history.state.gov/historicaldocuments/frus1961-63v10/d411
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 411: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: The President noted that the United States had evidence that this build-up included antiaircraft
+    defense missiles with slant range of 25 miles, and motor torpedo boats equipped with ship-to-ship
+    guided missiles.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'wikidata none: no Wikidata item found for this reconnaissance finding.'

@@ -1,0 +1,22 @@
+id: lin-zexu
+title: Lin Zexu
+actor_type: person
+summary: Chinese scholar and politician (1785-1850).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q184999
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q184999.json
+  title: Lin Zexu
+  publisher: Wikidata
+  quote: Chinese scholar and politician (1785-1850)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

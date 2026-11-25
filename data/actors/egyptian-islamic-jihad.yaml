@@ -1,0 +1,21 @@
+id: egyptian-islamic-jihad
+title: Egyptian Islamic Jihad
+actor_type: organization
+summary: Egyptian Islamist militant group active since the late 1970s.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q310214
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q310214.json
+  title: Egyptian Islamic Jihad
+  publisher: Wikidata
+  quote: Egyptian Islamist militant group active since the late 1970s
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

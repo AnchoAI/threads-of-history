@@ -1,0 +1,66 @@
+id: august-coup-1991
+title: August 1991 coup attempt
+summary: On 19 August 1991 senior Soviet officials opposed to Gorbachev's reforms act to stop the new
+  union treaty, placing Gorbachev under house arrest in Crimea. Resistance led by Boris Yeltsin defeats
+  the coup by 21 August; afterwards Yeltsin became the dominant leader and Gorbachev lost much of his
+  influence.
+occurred:
+  start: '1991-08-19'
+  end: '1991-08-21'
+  precision: day
+threads:
+- russia
+- usru
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- mikhail-gorbachev
+- boris-yeltsin
+- kgb
+- soviet-union
+importance: 4
+wikidata: Q221382
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: On 19 August 1991, Gorbachev's vice president, Gennady Yanayev, Prime Minister Valentin Pavlov,
+    Defense Minister Dmitry Yazov, KGB chief Vladimir Kryuchkov and other senior officials acted to prevent
+    the union treaty from being signed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: which put Gorbachev – on holiday in Foros, Crimea – under house arrest
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: After three days, on 21 August 1991, the coup collapsed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  archive_url: https://web.archive.org/web/20261013234320/https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  title: 1991 Soviet coup attempt
+  publisher: Wikipedia
+  quote: Opposed to Gorbachev's reform program
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  archive_url: https://web.archive.org/web/20261013234320/https://en.wikipedia.org/wiki/1991_Soviet_coup_attempt
+  title: 1991 Soviet coup attempt
+  publisher: Wikipedia
+  quote: Yeltsin subsequently became the dominant leader and Gorbachev lost much of his influence.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

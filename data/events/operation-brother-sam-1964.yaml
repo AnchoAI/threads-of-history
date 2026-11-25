@@ -1,0 +1,73 @@
+id: operation-brother-sam-1964
+title: Operation Brother Sam
+summary: The United States readies a naval task force led by the carrier USS Forrestal, with tankers,
+  to support the coup against Goulart. It was stood down before having any effect because the coup succeeded
+  quickly, and came to light only with documents declassified in 1976–77.
+occurred:
+  start: 1964-03
+  end: 1964-04
+  precision: month
+known:
+  public:
+    start: '1976'
+    end: '1977'
+    precision: year
+    note: Historian Phyllis R. Parker found the documents at the LBJ Library; journalist Marcos Sá Corrêa
+      published them in Jornal do Brasil.
+threads:
+- intel
+- usru
+regions:
+- americas
+actors:
+- united-states
+- joao-goulart
+importance: 2
+wikidata: Q3354660
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: Operation Brother Sam was the use of the United States Navy and Air Force in support of the coup
+    in Brazil in 1964.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: The naval component consisted of the aircraft carrier USS Forrestal, a helicopter carrier and
+    six destroyers from the Second Fleet, as well as four tankers.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: A meeting at the White House on March 20 and another at the Embassy shortly thereafter established
+    that an aircraft carrier and tankers would be sent to support the opposition.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: the opposition military in Brazil quickly overthrew the Goulart government, and Castelo Branco
+    reported that logistical support would not be needed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: The operation was thus deactivated before it had any physical effect in Brazil, but it demonstrated
+    the interventionist disposition of the American government. It came to light between 1976 and 1977
+    with the declassification of documents.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

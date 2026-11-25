@@ -1,0 +1,44 @@
+id: armistice-of-11-november-1918
+title: Armistice of 11 November 1918
+summary: The armistice signed in a railway carriage near Compiègne ended the fighting between the Allies and Germany.
+  It came into force at 11:00 Paris time on 11 November 1918; it was a defeat for Germany though not formally a
+  surrender.
+occurred:
+  start: 1918-11-11T11:00Z
+  precision: hour
+threads:
+- ww1
+regions:
+- western-europe
+actors:
+- german-empire
+- france
+- united-kingdom
+- united-states
+importance: 4
+wikidata: Q253224
+sources:
+- url: https://en.wikipedia.org/wiki/Armistice_of_11_November_1918
+  title: Armistice of 11 November 1918
+  publisher: Wikipedia
+  quote: was the armistice that ended fighting on land, at sea, and in the air in World War I between the Entente
+    and their last remaining opponent, Germany.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_11_November_1918
+  title: Armistice of 11 November 1918
+  publisher: Wikipedia
+  quote: It was signed in a railroad car in the Compiègne Forest
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Armistice_of_11_November_1918
+  title: Armistice of 11 November 1918
+  publisher: Wikipedia
+  quote: it came into force at 11:00 a.m. Paris Time (11:00 UT) on 11 November 1918 and marked a victory for the
+    Entente and a defeat for Germany, although not formally a surrender.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

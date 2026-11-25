@@ -1,0 +1,27 @@
+id: japanese-coup-in-french-indochina-1945--led_to--august-revolution-1945
+from: japanese-coup-in-french-indochina-1945
+to: august-revolution-1945
+type: led_to
+confidence: documented
+note: The coup removed French control and gave Vietnamese revolutionaries room to organise.
+sources:
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: If the 9 March coup was a disaster for the French, it was an opportunity for Vietnamese nationalists.
+    In fact, it marked a turning point in the Vietnamese revolution.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: After the coup, the Japanese were stretched thin and only control the large cities and left the
+    countryside to the Vietnamese.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

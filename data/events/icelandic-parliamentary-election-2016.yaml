@@ -1,0 +1,47 @@
+id: icelandic-parliamentary-election-2016
+title: 2016 Icelandic parliamentary election
+summary: Iceland holds an early parliamentary election on 29 October 2016, called after the protests that followed
+  the Panama Papers revelations about Prime Minister Gunnlaugsson. Gunnlaugsson's Progressive Party loses more than
+  half its seats.
+occurred:
+  start: '2016-10-29'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- sigmundur-david-gunnlaugsson
+importance: 2
+wikidata: Q19605666
+sources:
+- url: https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  archive_url: https://web.archive.org/web/20260930062537/https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  title: 2016 Icelandic parliamentary election
+  publisher: Wikipedia
+  quote: Parliamentary elections were held in Iceland on 29 October 2016.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  archive_url: https://web.archive.org/web/20260930062537/https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  title: 2016 Icelandic parliamentary election
+  publisher: Wikipedia
+  quote: They were due to be held on or before 27 April 2017, but following the 2016 Icelandic anti-government protests,
+    the ruling coalition announced that early elections would be held "in autumn".
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  archive_url: https://web.archive.org/web/20260930062537/https://en.wikipedia.org/wiki/2016_Icelandic_parliamentary_election
+  title: 2016 Icelandic parliamentary election
+  publisher: Wikipedia
+  quote: The Independence Party emerged as the largest in the Althing, winning 21 of the 63 seats; the Progressive
+    Party, which had won the most seats in 2013, lost more than half its seats as it was overtaken by the Left-Green
+    Movement and the Pirate Party.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Placed on the scandals thread only because no thread for national politics exists.

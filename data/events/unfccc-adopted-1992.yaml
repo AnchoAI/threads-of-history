@@ -1,0 +1,44 @@
+id: unfccc-adopted-1992
+title: UN Framework Convention on Climate Change adopted
+summary: The UN Framework Convention on Climate Change, a treaty to combat 'dangerous human interference with the
+  climate system', is adopted on 9 May 1992 and opened for signature at the Rio Earth Summit, where 154 nations
+  signed it.
+occurred:
+  start: '1992-05-09'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+- western-europe
+actors:
+- united-nations
+importance: 4
+wikidata: Q208645
+sources:
+- url: https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change
+  title: United Nations Framework Convention on Climate Change
+  publisher: Wikipedia
+  quote: The convention was adopted on 9 May 1992 and opened for signature on 4 June 1992 at the United Nations
+    Conference on Environment and Development (UNCED) in Rio de Janeiro (known by its popular title, the Earth Summit).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change
+  title: United Nations Framework Convention on Climate Change
+  publisher: Wikipedia
+  quote: On 12 June 1992, 154 nations signed the UNFCCC
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change
+  title: United Nations Framework Convention on Climate Change
+  publisher: Wikipedia
+  quote: It is an international treaty among countries to combat "dangerous human interference with the climate
+    system".
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q208645 is the treaty itself.

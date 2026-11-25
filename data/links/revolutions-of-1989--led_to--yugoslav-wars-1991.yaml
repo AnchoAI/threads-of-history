@@ -1,0 +1,26 @@
+id: revolutions-of-1989--led_to--yugoslav-wars-1991
+from: revolutions-of-1989
+to: yugoslav-wars-1991
+type: led_to
+confidence: documented
+note: In some countries the aftermath of the revolutions brought war, most notably in Yugoslavia.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: in certain countries the aftermath of these revolutions resulted in conflict and wars, including
+    post-Soviet conflicts that remain, as well as large-scale wars, most notably the Yugoslav Wars which
+    led to the Bosnian genocide
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yugoslav_Wars
+  title: Yugoslav Wars
+  publisher: Wikipedia
+  quote: Part of the breakup of Yugoslavia and the Revolutions of 1989
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

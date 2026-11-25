@@ -1,0 +1,50 @@
+id: arab-revolt-1916
+title: Arab Revolt
+summary: Sharif Hussein bin Ali of Mecca launched a revolt against Ottoman rule on the basis of his correspondence
+  with Britain's Henry McMahon. By 1918 the rebels had taken Damascus and proclaimed an Arab Kingdom of
+  Syria under Faisal.
+occurred:
+  start: '1916-06-10'
+  end: '1918-10-25'
+  precision: day
+threads:
+- ww1
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- united-kingdom
+importance: 3
+wikidata: Q239060
+sources:
+- url: https://en.wikipedia.org/wiki/Arab_Revolt
+  title: Arab Revolt
+  publisher: Wikipedia
+  quote: Date 10 June 1916 – 25 October 1918
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Arab_Revolt
+  title: Arab Revolt
+  publisher: Wikipedia
+  quote: On the basis of the McMahon–Hussein Correspondence, exchanged between Henry McMahon of the United
+    Kingdom and Hussein bin Ali of the Kingdom of Hejaz, the rebellion against the ruling Turks was officially
+    initiated at Mecca on 10 June 1916.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Arab_Revolt
+  title: Arab Revolt
+  publisher: Wikipedia
+  quote: By 1918, the rebels had captured Damascus and proclaimed the Arab Kingdom of Syria, a short-lived
+    monarchy that was led by Hussein's son Faisal I.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'No actor file for Hussein bin Ali: qid.py found no match for "Hussein bin Ali, Sharif of Mecca" or
+    "Hussein bin Ali, King of Hejaz". Find the right article title and add him.'
+  - 'Relation to sykes-picot-agreement-1916: Wikipedia says Britain and France "reneged on the original
+    deal and divided up the area under the 1916 Sykes–Picot Agreement". No link type fits, so no link
+    was added.'

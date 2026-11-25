@@ -1,0 +1,21 @@
+id: yuri-andropov
+title: Yuri Andropov
+actor_type: person
+summary: KGB chairman and later General Secretary of the Communist Party of the Soviet Union (1914–1984).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q44071
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q44071.json
+  title: Yuri Andropov
+  publisher: Wikidata
+  quote: General Secretary of the Communist Party of the Soviet Union (1914–1984)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

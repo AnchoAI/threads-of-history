@@ -1,0 +1,27 @@
+id: palestinian-expulsion-and-flight-1947--led_to--lebanese-civil-war-1975
+from: palestinian-expulsion-and-flight-1947
+to: lebanese-civil-war-1975
+type: led_to
+confidence: documented
+note: Palestinian refugees in Lebanon's camps, and the armed groups among them, became a factor in the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: This led to Palestinian refugees crossing the border into Lebanon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  archive_url: https://web.archive.org/web/20261009112910/https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: Fatah and other Palestinian Liberation Organization factions had long been active among the 400,000
+    Palestinian refugees in Lebanese camps.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - In context, 'This' refers to the 1948 Arab–Israeli War described in the preceding sentences. That section
+    of the Wikipedia article is flagged as uncited; a scholarly source would strengthen the link.

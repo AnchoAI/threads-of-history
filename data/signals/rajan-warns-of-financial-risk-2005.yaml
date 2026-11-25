@@ -1,0 +1,74 @@
+id: rajan-warns-of-financial-risk-2005
+title: Rajan warns that finance has made the world riskier
+summary: At a 2005 event honouring the retiring Fed chairman Alan Greenspan, IMF chief economist Raghuram
+  Rajan presented a paper, "Has Financial Development Made the World Riskier?", arguing that financial
+  managers were paid to take risks with small chances of severe consequences and that disaster might loom.
+  Lawrence Summers called the warnings "misguided"; after the 2008 crisis they were seen as prescient.
+occurred:
+  start: '2005'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- raghuram-rajan
+- imf
+- alan-greenspan
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: global-financial-crisis-2008
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Raghuram_Rajan
+  archive_url: https://web.archive.org/web/20261005195653/https://en.wikipedia.org/wiki/Raghuram_Rajan
+  title: Raghuram Rajan
+  publisher: Wikipedia
+  quote: In 2005, at a celebration honouring Alan Greenspan, who was about to retire as chairman of the
+    US Federal Reserve, Rajan delivered a controversial paper that was critical of the financial sector.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Raghuram_Rajan
+  archive_url: https://web.archive.org/web/20261005195653/https://en.wikipedia.org/wiki/Raghuram_Rajan
+  title: Raghuram Rajan
+  publisher: Wikipedia
+  quote: In that paper, "Has Financial Development Made the World Riskier?", Rajan "argued that disaster
+    might loom."
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Raghuram_Rajan
+  archive_url: https://web.archive.org/web/20261005195653/https://en.wikipedia.org/wiki/Raghuram_Rajan
+  title: Raghuram Rajan
+  publisher: Wikipedia
+  quote: Rajan argued that financial sector managers were encouraged to "take risks that generate severe
+    adverse consequences with small probability but, in return, offer generous compensation the rest of
+    the time.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: had predicted the crisis in 2005 when he became chief economist at the International Monetary
+    Fund
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Raghuram_Rajan
+  archive_url: https://web.archive.org/web/20261005195653/https://en.wikipedia.org/wiki/Raghuram_Rajan
+  title: Raghuram Rajan
+  publisher: Wikipedia
+  quote: Lawrence Summers called the warnings "misguided" and Rajan himself a "luddite"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Raghuram_Rajan
+  archive_url: https://web.archive.org/web/20261005195653/https://en.wikipedia.org/wiki/Raghuram_Rajan
+  title: Raghuram Rajan
+  publisher: Wikipedia
+  quote: following the 2008 financial crisis, Rajan's views came to be seen as prescient
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The event was the Federal Reserve Bank of Kansas City's Jackson Hole symposium in August 2005; no
+    fetched source gave the month, so the date is to the year.

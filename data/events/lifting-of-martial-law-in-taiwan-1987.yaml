@@ -1,0 +1,42 @@
+id: lifting-of-martial-law-in-taiwan-1987
+title: Lifting of martial law in Taiwan
+summary: President Chiang Ching-kuo ended martial law in Taiwan on 14–15 July 1987, after more than 38 years,
+  which was followed by Taiwan's liberalisation and democratisation.
+occurred:
+  start: '1987-07-15'
+  precision: day
+  note: The source gives 14 July for the proclamation; martial law ended on 15 July.
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+actors:
+- chiang-ching-kuo
+- taiwan
+- kuomintang
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Taiwan
+  archive_url: https://web.archive.org/web/20261012092209/https://en.wikipedia.org/wiki/Martial_law_in_Taiwan
+  title: Martial law in Taiwan
+  publisher: Wikipedia
+  quote: The term is specifically used to refer to the over 38-year-long consecutive martial law period between
+    20 May 1949 and 14 July 1987
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Martial_law_in_Taiwan
+  archive_url: https://web.archive.org/web/20261012092209/https://en.wikipedia.org/wiki/Martial_law_in_Taiwan
+  title: Martial law in Taiwan
+  publisher: Wikipedia
+  quote: The lifting of martial law was proclaimed by President Chiang Ching-kuo on 14 July, followed by the
+    liberalization and democratization of Taiwan.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Wikidata item Q4501943 covers the whole martial-law period, so it is not used for this item.

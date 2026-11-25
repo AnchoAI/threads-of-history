@@ -1,0 +1,16 @@
+id: kronstadt-rebellion-1921--led_to--new-economic-policy-1921
+from: kronstadt-rebellion-1921
+to: new-economic-policy-1921
+type: led_to
+confidence: documented
+note: The revolt was crushed, but it sped up the introduction of the NEP.
+sources:
+- url: https://en.wikipedia.org/wiki/Kronstadt_rebellion
+  title: Kronstadt rebellion
+  publisher: Wikipedia
+  quote: While the revolt was suppressed and the rebels' political demands were not met, it served to
+    accelerate the implementation of the New Economic Policy, which replaced war communism.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

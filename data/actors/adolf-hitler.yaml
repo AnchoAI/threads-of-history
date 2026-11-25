@@ -1,0 +1,21 @@
+id: adolf-hitler
+title: Adolf Hitler
+actor_type: person
+summary: Dictator of Germany from 1933 to 1945 (1889–1945).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q352
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q352.json
+  title: Adolf Hitler
+  publisher: Wikidata
+  quote: Dictator of Germany from 1933 to 1945 (1889–1945)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

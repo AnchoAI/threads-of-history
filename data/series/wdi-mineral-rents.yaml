@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: wdi-mineral-rents
+title: Mineral rents (% of GDP) (World Bank)
+summary: Mineral rents are the difference between the value of production for a stock of minerals at world
+  prices and their total costs of production. Minerals included in the calculation are tin, gold, lead,
+  zinc, iron, copper, nickel, silver, bauxite, and phosphate.
+occurred:
+  start: '1970'
+  end: '2021'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: NY.GDP.MINR.RT.ZS
+table: tables/wdi-mineral-rents.csv
+sources:
+- url: https://data.worldbank.org/indicator/NY.GDP.MINR.RT.ZS
+  title: Mineral rents (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

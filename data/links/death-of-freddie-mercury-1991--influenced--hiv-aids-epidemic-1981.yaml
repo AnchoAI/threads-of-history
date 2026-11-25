@@ -1,0 +1,30 @@
+id: death-of-freddie-mercury-1991--influenced--hiv-aids-epidemic-1981
+from: death-of-freddie-mercury-1991
+to: hiv-aids-epidemic-1981
+type: influenced
+confidence: documented
+note: Contemporary and later press reports say Mercury's death raised AIDS awareness in Britain and shifted public
+  perception of the disease.
+sources:
+- url: https://www.csmonitor.com/1991/1227/27131.html
+  archive_url: https://web.archive.org/web/20230607193437/https://www.csmonitor.com/1991/1227/27131.html
+  title: British AIDS Case Opens Up Discussion
+  publisher: The Christian Science Monitor
+  date: '1991-12-27'
+  quote: While the plight of Magic Johnson and others in the United States has received news media attention here,
+    it is Mercury's death that has galvanized public awareness.
+  type: news
+  accessed: '2026-10-20'
+- url: https://www.euronews.com/culture/2023/11/24/culture-re-view-how-freddie-mercurys-death-changed-aids-perceptions
+  archive_url: https://web.archive.org/web/20250404020908/https://www.euronews.com/culture/2023/11/24/culture-re-view-how-freddie-mercurys-death-changed-aids-perceptions
+  title: 'Culture Re-View: How Freddie Mercury''s death changed AIDS perceptions'
+  publisher: Euronews
+  date: '2023-11-24'
+  quote: Mercury’s death signified a shift in public perception of the disease.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The Christian Science Monitor also reports that calls to the Terrence Higgins Trust helpline rose from about
+    50–60 to 200 a day after his death.

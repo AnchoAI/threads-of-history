@@ -1,0 +1,71 @@
+id: snie-30-56-egypt-initiates-war-with-israel-1956
+title: 'SNIE 30-56: Egypt deliberately starts a war with Israel'
+summary: In February 1956 the US intelligence community judged that Nasser's government would probably seek to avoid
+  war with Israel over the following year while absorbing Soviet arms. Egypt did not start a war; Israel invaded
+  Egypt on 29 October 1956.
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- cia
+- egypt
+- israel
+importance: 2
+window:
+  start: '1956-02-28'
+  end: '1957-02-28'
+  precision: day
+probability: 0.25
+stated_as: the Nasr regime will probably seek to avoid war with Israel
+probability_basis: 'Sherman Kent''s words of estimative probability: ''probably'' = about 75% that Egypt avoids
+  war, so about 25% that it starts one'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1956-02-28'
+resolves_by: '1957-02-28'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1957-02-28'
+  note: The 1956 war began with Israel's invasion of Egypt on 29 October, not with an Egyptian attack.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1955-57v15/d137
+  archive_url: https://web.archive.org/web/20260316092146/https://history.state.gov/historicaldocuments/frus1955-57v15/d137
+  title: 'Special National Intelligence Estimate SNIE 30-56: Critical Aspects of the Arab-Israeli Situation'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-02-28'
+  quote: To estimate which are the most dangerous aspects of the Arab-Israeli situation over the next year, and
+    at what periods they are likely to be most critical.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1955-57v15/d137
+  archive_url: https://web.archive.org/web/20260316092146/https://history.state.gov/historicaldocuments/frus1955-57v15/d137
+  title: 'Special National Intelligence Estimate SNIE 30-56: Critical Aspects of the Arab-Israeli Situation'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1956-02-28'
+  quote: Despite rising Arab apprehension of an early Israeli attack, the Nasr regime will probably seek to avoid
+    war with Israel, at least while the Soviet arms are being absorbed.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  archive_url: https://web.archive.org/web/20261011054035/https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  quote: Israel invaded on 29 October, with the primary objective of re-opening the Straits of Tiran and the Gulf
+    of Aqaba
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The estimate states an intention ('seek to avoid war'); it is scored here as the observable event 'Egypt deliberately
+    starts a war with Israel within the estimate's one-year horizon'.

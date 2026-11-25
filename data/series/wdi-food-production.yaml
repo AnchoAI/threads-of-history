@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-food-production
+title: Food production index (2014-2016 = 100) (World Bank)
+summary: Food production index covers food crops that are considered edible and that contain nutrients.
+  Coffee and tea are excluded because, although edible, they have no nutritive value.
+occurred:
+  start: '1961'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: index
+dataset: world-bank-wdi
+indicator: AG.PRD.FOOD.XD
+table: tables/wdi-food-production.csv
+sources:
+- url: https://data.worldbank.org/indicator/AG.PRD.FOOD.XD
+  title: Food production index (2014-2016 = 100)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

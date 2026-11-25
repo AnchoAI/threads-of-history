@@ -1,0 +1,45 @@
+id: dot-com-bubble-1995
+title: Dot-com bubble
+summary: 'A stock market bubble in internet companies in the late 1990s: the Nasdaq Composite rose 600
+  percent from 1995 to its peak on 10 March 2000, then fell 78 percent by October 2002, and many online
+  and telecommunications companies failed.'
+occurred:
+  start: '1995'
+  end: '2002'
+  precision: year
+threads:
+- econ-crises
+- industry
+regions:
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: Q79721
+sources:
+- url: https://en.wikipedia.org/wiki/Dot-com_bubble
+  archive_url: https://web.archive.org/web/20261010102410/https://en.wikipedia.org/wiki/Dot-com_bubble
+  title: Dot-com bubble
+  publisher: Wikipedia
+  quote: The dot-com bubble (or dot-com boom) was a stock market bubble that developed during the late
+    1990s and peaked on March 10, 2000.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dot-com_bubble
+  archive_url: https://web.archive.org/web/20261010102410/https://en.wikipedia.org/wiki/Dot-com_bubble
+  title: Dot-com bubble
+  publisher: Wikipedia
+  quote: Between 1995 and its peak in March 2000, investments in the Nasdaq Composite stock market index
+    rose by 600%, only to fall 78% from its peak by October 2002, giving up all its gains during the bubble.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dot-com_bubble
+  archive_url: https://web.archive.org/web/20261010102410/https://en.wikipedia.org/wiki/Dot-com_bubble
+  title: Dot-com bubble
+  publisher: Wikipedia
+  quote: many online shopping companies like Pets.com, Webvan, and Boo.com, as well as several communication
+    companies, such as WorldCom, NorthPoint Communications, and Global Crossing, failed and shut down
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

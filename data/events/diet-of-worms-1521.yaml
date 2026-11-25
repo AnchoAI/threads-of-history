@@ -1,0 +1,53 @@
+id: diet-of-worms-1521
+title: Diet of Worms
+summary: An imperial assembly called by Emperor Charles V met in Worms from 28 January to 25 May 1521.
+  Martin Luther refused to recant his writings there, and the resulting Edict of Worms declared him a
+  heretic, though it was never enforced in Germany.
+occurred:
+  start: '1521-01-28'
+  end: '1521-05-25'
+  precision: day
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- martin-luther
+- charles-v-holy-roman-emperor
+- holy-roman-empire
+importance: 4
+wikidata: Q536822
+sources:
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: The diet was conducted from 28 January to 25 May 1521 at the Bischofshof palace in Worms, with
+    the Emperor presiding.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: In answer to questioning, he defended the views that had been criticized and refused to recant
+    them.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: Its contents proscribed Luther's writings, declaring him a heretic and an enemy of the state
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Diet_of_Worms
+  archive_url: https://web.archive.org/web/20260927204040/https://en.wikipedia.org/wiki/Diet_of_Worms
+  title: Diet of Worms
+  publisher: Wikipedia
+  quote: Ultimately, because of rising public support for Luther among the German people and the protection
+    of certain German princes, the Edict of Worms was never enforced in Germany.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

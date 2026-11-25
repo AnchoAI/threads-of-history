@@ -1,0 +1,20 @@
+id: apollo-11-moon-landing-1969--part_of--space-race-1955
+from: apollo-11-moon-landing-1969
+to: space-race-1955
+type: part_of
+confidence: documented
+note: The Moon landing was the US success in the Space Race's race to the Moon.
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Kennedy's Moon landing goal was achieved in July 1969, with the flight of Apollo 11. The USSR
+    continued to pursue crewed lunar programs to launch and land on the Moon before the US with its N1
+    rocket but did not succeed
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

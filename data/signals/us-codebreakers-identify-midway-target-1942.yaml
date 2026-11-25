@@ -1,0 +1,50 @@
+id: us-codebreakers-identify-midway-target-1942
+title: US code breakers identify Midway as the target
+summary: US Navy cryptanalysts at Station HYPO, who had partly broken the Japanese naval code JN-25, use
+  a ruse about a water shortage to confirm that the target 'AF' is Midway. By the last week of May 1942
+  they understand much of the Japanese attack plan, letting Nimitz prepare an ambush.
+occurred:
+  start: 1942-05
+  precision: month
+threads:
+- ww2
+- intel
+regions:
+- americas
+- east-asia
+actors:
+- united-states
+- empire-of-japan
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: battle-of-midway-1942
+sources:
+- url: https://en.wikipedia.org/wiki/Station_HYPO
+  title: Station HYPO
+  publisher: Wikipedia
+  quote: 'Holmes at HYPO was responsible for the ruse which identified AF: a false report of a fresh water
+    shortage on Midway was radioed in clear, evoking an encrypted Japanese response noting that AF was
+    reporting water troubles; AF had to be Midway.'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Station_HYPO
+  title: Station HYPO
+  publisher: Wikipedia
+  quote: This effort climaxed in the last week of May with the decryption of enough JN-25 traffic to understand
+    the Japanese attack plan at Midway in some, but not complete detail.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_Midway
+  archive_url: https://web.archive.org/web/20260924134456/https://en.wikipedia.org/wiki/Battle_of_Midway
+  title: Battle of Midway
+  publisher: Wikipedia
+  quote: Unknown to Yamamoto, U.S. code breakers had determined the date and location of his planned attack,
+    enabling the Americans to prepare their own ambush
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The month comes from the HYPO article ('the last week of May', in the context of 1942). The exact
+    date of the water-shortage ruse is not given.

@@ -1,0 +1,32 @@
+id: long-telegram-1946--led_to--truman-doctrine-1947
+from: long-telegram-1946
+to: truman-doctrine-1947
+type: led_to
+confidence: documented
+note: The doctrine adopted the containment strategy Kennan had set out in the telegram.
+sources:
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: In February 1946, George F. Kennan, an American diplomat in Moscow, sent his famed "Long Telegram",
+    which predicted the Soviets would only respond to force and that the best way to handle them would
+    be through a long-term strategy of containment
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Truman_Doctrine
+  archive_url: https://web.archive.org/web/20261009070935/https://en.wikipedia.org/wiki/Truman_Doctrine
+  title: Truman Doctrine
+  publisher: Wikipedia
+  quote: It shifted U.S. policy toward the Soviet Union from a wartime alliance to containment of Soviet
+    expansion, as advocated by diplomat George F. Kennan.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/kennan
+  title: Kennan and Containment, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: Kennan’s ideas, which became the basis of the Truman administration’s foreign policy
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,45 @@
+id: battle-of-the-somme-1916
+title: Battle of the Somme
+summary: An Anglo-French offensive against the German army from 1 July to 18 November 1916. More than one million
+  men were killed or wounded; the first day was the bloodiest in the history of the British Army.
+occurred:
+  start: '1916-07-01'
+  end: '1916-11-18'
+  precision: day
+threads:
+- ww1
+- empire
+regions:
+- western-europe
+actors:
+- united-kingdom
+- france
+- german-empire
+importance: 4
+wikidata: Q132568
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_the_Somme
+  title: Battle of the Somme
+  publisher: Wikipedia
+  quote: It took place between 1 July and 18 November 1916 on both sides of the upper reaches of the river Somme
+    in France.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Battle_of_the_Somme
+  title: Battle of the Somme
+  publisher: Wikipedia
+  quote: More than three million men fought in the battle, of whom more than one million were either wounded or
+    killed
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: The opening day, on 1 July 1916, was the bloodiest single day in the history of the British Army
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.

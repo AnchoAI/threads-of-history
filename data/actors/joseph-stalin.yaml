@@ -1,0 +1,22 @@
+id: joseph-stalin
+title: Joseph Stalin
+actor_type: person
+summary: Politician and leader of the Union of Soviet Socialist Republics from 1924 to 1953.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q855
+sources:
+- archive_url: https://web.archive.org/web/20260926162004/https://www.wikidata.org/wiki/Special:EntityData/Q855.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q855.json
+  title: Joseph Stalin
+  publisher: Wikidata
+  quote: politician and leader of the Union of Soviet Socialist Republics from 1924 to 1953
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,36 @@
+id: pacific-war-1941
+title: Pacific War
+summary: The theatre of the Second World War fought between the Empire of Japan and the Allies in East and Southeast
+  Asia, the Pacific and Indian Oceans and Oceania. It was the largest theatre of the war by area and included some
+  of the largest naval battles in history.
+occurred:
+  start: '1941-12-08'
+  end: '1945-09-02'
+  precision: day
+threads:
+- ww2
+regions:
+- east-asia
+- south-east-asia
+importance: 4
+wikidata: Q184425
+sources:
+- url: https://en.wikipedia.org/wiki/Pacific_War
+  title: Pacific War
+  publisher: Wikipedia
+  quote: was the theater of World War II fought between the Empire of Japan and the Allies in East and Southeast
+    Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of World War II
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Pacific_War
+  title: Pacific War
+  publisher: Wikipedia
+  quote: The Pacific War included some of the largest naval battles in history.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Start and end dates are from Wikidata; the article notes that war between Japan and China began in 1937.

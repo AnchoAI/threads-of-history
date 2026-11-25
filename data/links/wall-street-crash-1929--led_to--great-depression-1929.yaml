@@ -1,0 +1,81 @@
+id: wall-street-crash-1929--led_to--great-depression-1929
+from: wall-street-crash-1929
+to: great-depression-1929
+type: led_to
+confidence: contested
+note: The crash is often seen as the start of the Depression, but how far it caused it is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: Historians still debate whether the 1929 crash sparked the Great Depression or if it merely coincided
+    with bursting a loose credit-inspired economic bubble.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: the devastating Wall Street crash of 1929 often considered the beginning of the Depression
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: The crash triggered the Depression by destroying confidence in the US banking system.
+  held_by:
+  - historians who regard the crash as the main cause (as summarised in Wikipedia's Great Depression article)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Great_Depression
+    archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+    title: Great Depression
+    publisher: Wikipedia
+    quote: some regard the Wall Street crash itself as the main cause
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+    archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+    title: Wall Street crash of 1929
+    publisher: Wikipedia
+    quote: It triggered a rapid erosion of confidence in the U.S. banking system and marked what would
+      later cascade into the worldwide Great Depression
+    type: reference
+    accessed: '2026-10-03'
+- claim: The crash was a symptom of wider economic trends already under way in the late 1920s.
+  held_by:
+  - historians focusing on non-monetary causes (as summarised in Wikipedia's Great Depression article)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Great_Depression
+    archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+    title: Great Depression
+    publisher: Wikipedia
+    quote: others consider that the crash was a mere symptom of more general economic trends of the time,
+      which had already been underway in the late 1920s
+    type: reference
+    accessed: '2026-10-03'
+- claim: The crash's effect faded within months; later banking problems and monetary policy turned a recession
+    into the Depression.
+  held_by:
+  - Gary Richardson et al. (Federal Reserve History)
+  - Milton Friedman and Anna Schwartz
+  sources:
+  - url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+    archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+    title: Stock Market Crash of 1929
+    publisher: Federal Reserve History (Gary Richardson et al.)
+    quote: While the crash of 1929 curtailed economic activity, its impact faded within a few months,
+      and by the fall of 1930 economic recovery appeared imminent.
+    type: scholarly
+    accessed: '2026-10-03'
+  - url: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+    archive_url: https://web.archive.org/web/20261001121433/https://www.federalreservehistory.org/essays/stock-market-crash-of-1929
+    title: Stock Market Crash of 1929
+    publisher: Federal Reserve History (Gary Richardson et al.)
+    quote: Consensus coalesced around the time of the publication of Milton Friedman and Anna Schwartz's
+      A Monetary History of the United States in 1963.
+    type: scholarly
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The 'held_by' entries for the first two positions name schools of thought from a reference work; name
+    specific historians from the literature.

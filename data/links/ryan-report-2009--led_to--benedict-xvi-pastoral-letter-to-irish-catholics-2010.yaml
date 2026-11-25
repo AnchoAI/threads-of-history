@@ -1,0 +1,26 @@
+id: ryan-report-2009--led_to--benedict-xvi-pastoral-letter-to-irish-catholics-2010
+from: ryan-report-2009
+to: benedict-xvi-pastoral-letter-to-irish-catholics-2010
+type: led_to
+confidence: documented
+note: Pressure from the Ryan and Murphy reports led the Pope to summon the Irish bishops, after which
+  the pastoral letter was announced.
+sources:
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  archive_url: https://web.archive.org/web/20260924015545/https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  title: Catholic Church sexual abuse cases in Ireland
+  publisher: Wikipedia
+  quote: After the pressure gathered from the Ryan and Murphy Reports and the resignation of bishops,
+    Pope Benedict XVI summoned all of the Irish Bishops to the Vatican in January 2010.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  archive_url: https://web.archive.org/web/20260924015545/https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Ireland
+  title: Catholic Church sexual abuse cases in Ireland
+  publisher: Wikipedia
+  quote: Following their meeting, it was announced that a pastoral letter would be written to address
+    the issues involving the sexual abuse of children.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

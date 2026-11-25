@@ -1,0 +1,20 @@
+id: george-ball
+title: George Ball
+actor_type: person
+summary: American diplomat (1909–1994).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q997635
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q997635.json
+  title: George Ball
+  publisher: Wikidata
+  quote: American diplomat (1909-1994)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

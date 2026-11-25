@@ -1,0 +1,45 @@
+id: saudi-arabia-proclaimed-1932
+title: Kingdom of Saudi Arabia proclaimed
+summary: After campaigns that began with his recapture of Riyadh in 1902, Ibn Saud (Abdulaziz) united most of the
+  Arabian Peninsula and by royal decree named the state the Kingdom of Saudi Arabia, the third Saudi state.
+occurred:
+  start: '1932-09-23'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- ibn-saud
+- saudi-arabia
+importance: 4
+wikidata: Q115825765
+sources:
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: Saudi Arabia was founded in 1932 by King Abdulaziz, who united Hejaz, Najd, parts of Eastern Arabia and
+    South Arabia into a single state through a series of military and political campaigns beginning in 1902.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Saudi_Arabia
+  archive_url: https://web.archive.org/web/20261013142202/https://en.wikipedia.org/wiki/Saudi_Arabia
+  title: Saudi Arabia
+  publisher: Wikipedia
+  quote: Abdulaziz issued a royal decree on 23 September 1932 naming the new state
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  archive_url: https://web.archive.org/web/20260914071055/https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia
+  title: Unification of Saudi Arabia
+  publisher: Wikipedia
+  quote: Unification began in 1902 and culminated in 1932, when the Kingdom of Saudi Arabia was proclaimed under
+    the leadership of Ibn Saud, marking the establishment of what is known as the Third Saudi state
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

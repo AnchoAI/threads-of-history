@@ -1,0 +1,19 @@
+id: israeli-invasion-of-lebanon-1982--part_of--palestinian-insurgency-in-south-lebanon-1968
+from: israeli-invasion-of-lebanon-1982
+to: palestinian-insurgency-in-south-lebanon-1968
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on 1982 Lebanon War lists it as part of Palestinian insurgency in South
+  Lebanon.
+sources:
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: Part of the Palestinian insurgency in South Lebanon, the Lebanese Civil War, and the Israeli–Lebanese conflict
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

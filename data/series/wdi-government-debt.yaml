@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-government-debt
+title: Central government debt (% of GDP) (World Bank)
+summary: Debt is the entire stock of direct government fixed-term contractual obligations to others outstanding
+  on a particular date. It includes domestic and foreign liabilities such as currency and money deposits,
+  securities other than shares, and loans. It is the gross amount of government liabilities reduced by
+  the amount of equity and financial derivatives held by the government. Because debt is a...
+occurred:
+  start: '1970'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: GC.DOD.TOTL.GD.ZS
+table: tables/wdi-government-debt.csv
+sources:
+- url: https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS
+  title: Central government debt, total (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

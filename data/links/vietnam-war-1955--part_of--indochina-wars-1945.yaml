@@ -1,0 +1,18 @@
+id: vietnam-war-1955--part_of--indochina-wars-1945
+from: vietnam-war-1955
+to: indochina-wars-1945
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Vietnam War lists it as part of Indochina wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: Part of the Indochina Wars and the Cold War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

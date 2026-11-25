@@ -1,0 +1,21 @@
+id: safavid-conversion-of-iran-1501--echo--protestant-reformation-1517
+from: safavid-conversion-of-iran-1501
+to: protestant-reformation-1517
+type: echo
+confidence: documented
+note: State-sponsored Shia Islam under the Safavids is compared to the Reformation and the Catholic–Protestant
+  split.
+sources:
+- url: https://en.wikipedia.org/wiki/Safavid_conversion_of_Iran_to_Shia_Islam
+  title: Safavid conversion of Iran to Shia Islam
+  publisher: Wikipedia
+  quote: The Reformation in northern and central Europe and the Counter-Reformation that followed it are
+    comparable to the state-sponsored Shia Islam that resulted from the advent of the Safavids and the
+    Sunni response to it.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the long-arc batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

@@ -1,0 +1,24 @@
+id: cinema-rex-fire-1978--led_to--iranian-revolution-1979
+from: cinema-rex-fire-1978
+to: iranian-revolution-1979
+type: led_to
+confidence: documented
+note: The fire, blamed on SAVAK by protesters, helped trigger the revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: The attack was responsible in part for triggering the Iranian Revolution of 1979
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  archive_url: https://web.archive.org/web/20260823022004/https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: This contributed to the revolutionary ardor of Islamic militants and society at large against the besieged
+    regime of the Shah.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced

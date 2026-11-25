@@ -1,0 +1,24 @@
+id: gulf-of-tonkin-incident-1964--led_to--gulf-of-tonkin-resolution-1964
+from: gulf-of-tonkin-incident-1964
+to: gulf-of-tonkin-resolution-1964
+type: led_to
+confidence: documented
+note: The incident's outcome was the Gulf of Tonkin Resolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: The outcome of the incident was the passage by US Congress of the Gulf of Tonkin Resolution
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  archive_url: https://web.archive.org/web/20261009212431/https://history.state.gov/milestones/1961-1968/gulf-of-tonkin
+  title: 'U.S. Involvement in the Vietnam War: the Gulf of Tonkin and Escalation, 1964'
+  publisher: US Department of State, Office of the Historian
+  quote: In response to these reported incidents, President Lyndon B. Johnson requested permission from the
+    U.S. Congress to increase the U.S. military presence in Indochina.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,34 @@
+id: egypt-israel-peace-treaty-1979--led_to--assassination-of-anwar-sadat-1981
+from: egypt-israel-peace-treaty-1979
+to: assassination-of-anwar-sadat-1981
+type: led_to
+confidence: documented
+note: Islamists enraged by the treaty killed Sadat; the source notes the motive is debated and also cites his
+  1981 crackdown.
+sources:
+- url: https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  archive_url: https://web.archive.org/web/20260929162840/https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty
+  title: Egypt–Israel peace treaty
+  publisher: Wikipedia
+  quote: However, as a result of the treaty, Egypt was suspended from the Arab League in 1979–1989, and Sadat
+    was assassinated on 6 October 1981 by members of the Egyptian Islamic Jihad.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: his Sinai treaty with Israel enraged Islamists, particularly the radical Egyptian Islamic Jihad.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  archive_url: https://web.archive.org/web/20261002032254/https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat
+  title: Assassination of Anwar Sadat
+  publisher: Wikipedia
+  quote: Although the motive has been debated, Sadat's assassination likely stemmed from communist, socialist,
+    and Islamist groups opposed to Sadat's peace initiative with Israel and the United States relating to the
+    Camp David Accords.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,40 @@
+id: cold-war-1985
+title: Cold War (1985–1991)
+summary: The final years of the Cold War, from Mikhail Gorbachev's rise to lead the Soviet Communist Party in 1985
+  to the dissolution of the Soviet Union in 1991, marked by reform inside the Soviet Union, easing tensions between
+  the blocs and the collapse of Soviet influence in Eastern Europe.
+occurred:
+  start: '1985'
+  end: '1991'
+  precision: year
+threads:
+- usru
+- russia
+regions:
+- russia-eastern-europe
+- americas
+- western-europe
+importance: 3
+wikidata: Q1323301
+sources:
+- url: https://en.wikipedia.org/wiki/Cold_War_(1985%E2%80%931991)
+  title: Cold War (1985–1991)
+  publisher: Wikipedia
+  quote: The time period from 1985 through 1991 marked the final years of the Cold War, which were characterized
+    by systemic reform within the Soviet Union, the easing of geopolitical tensions between the Soviet-led bloc
+    and the United States-led bloc, the collapse of the Soviet Union's influence in Eastern Europe, and the dissolution
+    of the Soviet Union in 1991.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cold_War_(1985%E2%80%931991)
+  title: Cold War (1985–1991)
+  publisher: Wikipedia
+  quote: The beginning of this period is marked by the ascent of Mikhail Gorbachev to the position of General Secretary
+    of the Communist Party of the Soviet Union.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: ucdp-ged-active-months
+title: Months with organized violence (UCDP GED)
+summary: Number of months in the year with at least one recorded event of organized violence.
+occurred:
+  start: '1989'
+  end: '2025'
+  precision: year
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: months (0-12)
+dataset: ucdp-ged
+indicator: active-months
+table: tables/ucdp-ged-active-months.csv
+sources:
+- url: https://ucdp.uu.se/downloads/
+  title: UCDP Dataset Download Center
+  publisher: Uppsala Conflict Data Program
+  type: primary

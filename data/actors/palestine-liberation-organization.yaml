@@ -1,0 +1,21 @@
+id: palestine-liberation-organization
+title: Palestine Liberation Organization
+actor_type: organization
+summary: Palestinian militant and political organization.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q26683
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q26683.json
+  title: Palestine Liberation Organization
+  publisher: Wikidata
+  quote: Palestinian militant and political organization
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

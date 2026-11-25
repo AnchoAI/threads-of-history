@@ -1,0 +1,16 @@
+id: trinity-test-1945--part_of--manhattan-project-1942-1946
+from: trinity-test-1945
+to: manhattan-project-1942-1946
+type: part_of
+confidence: documented
+note: The first nuclear test was carried out as part of the Manhattan Project.
+sources:
+- url: https://en.wikipedia.org/wiki/Trinity_(nuclear_test)
+  title: Trinity (nuclear test)
+  publisher: Wikipedia
+  quote: Trinity was the first detonation of a nuclear weapon, conducted by the United States Army at
+    5:29 a.m. Mountain War Time (11:29:21 GMT) on July 16, 1945, as part of the Manhattan Project.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

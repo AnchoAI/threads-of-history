@@ -1,0 +1,50 @@
+id: the-troubles-1968
+title: The Troubles
+summary: An ethno-nationalist conflict in Northern Ireland from the late 1960s to 1998, in which more
+  than 3,500 people were killed. It is usually deemed to have ended with the Good Friday Agreement.
+occurred:
+  start: '1968'
+  end: '1998'
+  precision: year
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- united-kingdom
+- ireland
+importance: 4
+wikidata: Q815436
+sources:
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: 'The Troubles (Irish: Na Trioblóidí) were an ethno-nationalist conflict in Northern Ireland that
+    lasted from the late 1960s to 1998.'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: it is usually deemed to have ended with the Good Friday Agreement of 1998.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: More than 3,500 people were killed, of whom 52% were civilians
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: These include the formation of the modern Ulster Volunteer Force in 1966, the civil rights march
+    in Derry on 5 October 1968, the beginning of the 'Battle of the Bogside' on 12 August 1969, or the
+    deployment of British troops on 14 August 1969.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - There is no agreed start date; 1968 (the Derry civil rights march of 5 October 1968) is one of several
+    dates historians use.

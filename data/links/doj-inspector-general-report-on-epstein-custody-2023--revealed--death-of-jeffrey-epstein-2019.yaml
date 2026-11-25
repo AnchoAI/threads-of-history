@@ -1,0 +1,21 @@
+id: doj-inspector-general-report-on-epstein-custody-2023--revealed--death-of-jeffrey-epstein-2019
+from: doj-inspector-general-report-on-epstein-custody-2023
+to: death-of-jeffrey-epstein-2019
+type: revealed
+confidence: documented
+note: The report documented that staff left Epstein unmonitored and falsified records on the night he died.
+sources:
+- url: https://oig.justice.gov/sites/default/files/2023-06/6-27-2023_0.pdf
+  title: DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan
+    Correctional Center in New York, New York
+  publisher: US Department of Justice, Office of the Inspector General
+  date: '2023-06-27'
+  quote: MCC New York staff falsified count slips and round sheets to show that they had been performed when they
+    were not, leaving Epstein unobserved for hours before his death.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

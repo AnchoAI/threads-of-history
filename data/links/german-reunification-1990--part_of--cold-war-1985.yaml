@@ -1,0 +1,18 @@
+id: german-reunification-1990--part_of--cold-war-1985
+from: german-reunification-1990
+to: cold-war-1985
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on German reunification lists it as part of Cold War (1985–1991).
+sources:
+- url: https://en.wikipedia.org/wiki/German_reunification
+  title: German reunification
+  publisher: Wikipedia
+  quote: Part of the revolutions of 1989 and the end of the Cold War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

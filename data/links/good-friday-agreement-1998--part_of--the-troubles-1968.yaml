@@ -1,0 +1,18 @@
+id: good-friday-agreement-1998--part_of--the-troubles-1968
+from: good-friday-agreement-1998
+to: the-troubles-1968
+type: part_of
+confidence: documented
+note: The Troubles are usually deemed to have ended with the agreement.
+sources:
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: it is usually deemed to have ended with the Good Friday Agreement of 1998.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

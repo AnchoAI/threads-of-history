@@ -1,0 +1,25 @@
+id: helsinki-accords-1975--part_of--detente-1969
+from: helsinki-accords-1975
+to: detente-1969
+type: part_of
+confidence: documented
+note: The Helsinki Final Act was signed in an attempt to improve détente.
+sources:
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: signed the Final Act in an attempt to improve the détente between the East and the West
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: the creation of more symbolic pacts such as the Helsinki Accords
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

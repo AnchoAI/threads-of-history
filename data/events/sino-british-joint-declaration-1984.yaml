@@ -1,0 +1,35 @@
+id: sino-british-joint-declaration-1984
+title: Sino-British Joint Declaration
+summary: Signed by Margaret Thatcher and Zhao Ziyang on 19 December 1984, the treaty set the terms for
+  transferring Hong Kong to China in 1997, under which China pledged to keep "one country, two systems"
+  for 50 years.
+occurred:
+  start: '1984-12-19'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- peoples-republic-of-china
+importance: 4
+wikidata: Q671479
+sources:
+- url: https://en.wikipedia.org/wiki/Sino-British_Joint_Declaration
+  title: Sino-British Joint Declaration
+  publisher: Wikipedia
+  quote: The final version was signed on 19 December 1984 by Prime Minister Thatcher and Premier Zhao
+    in the Great Hall of the People in Beijing
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Handover_of_Hong_Kong
+  title: Handover of Hong Kong
+  publisher: Wikipedia
+  quote: The 1984 Sino–British Joint Declaration set the terms of the 1997 handover, under which China
+    pledged to uphold "one country, two systems" for 50 years.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

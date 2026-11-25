@@ -1,0 +1,25 @@
+id: reykjavik-summit-1986--led_to--inf-treaty-1987
+from: reykjavik-summit-1986
+to: inf-treaty-1987
+type: led_to
+confidence: documented
+note: The progress made at Reykjavík eventually produced the INF Treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit
+  title: Reykjavík Summit
+  publisher: Wikipedia
+  quote: The talks collapsed at the last minute, but the progress that had been achieved eventually resulted
+    in the 1987 Intermediate-Range Nuclear Forces Treaty
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit
+  title: Reykjavík Summit
+  publisher: Wikipedia
+  quote: Despite its apparent failure, participants and observers have referred to the summit as an enormous
+    breakthrough which eventually facilitated the INF Treaty
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

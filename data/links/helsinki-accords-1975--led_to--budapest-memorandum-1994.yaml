@@ -1,0 +1,22 @@
+id: helsinki-accords-1975--led_to--budapest-memorandum-1994
+from: helsinki-accords-1975
+to: budapest-memorandum-1994
+type: led_to
+confidence: documented
+note: The Budapest Memorandum's assurance to respect Ukraine's borders is framed 'in accordance with the
+  principles of the CSCE Final Act'.
+sources:
+- url: https://en.wikipedia.org/wiki/Budapest_Memorandum
+  archive_url: https://web.archive.org/web/20260927093738/https://en.wikipedia.org/wiki/Budapest_Memorandum
+  title: Budapest Memorandum
+  publisher: Wikipedia
+  quote: Respect the signatory's independence and sovereignty in the existing borders (in accordance with
+    the principles of the CSCE Final Act).
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - This is a textual dependency (the memorandum restates Helsinki principles) rather than a cause; a
+    reviewer may prefer a different link type.

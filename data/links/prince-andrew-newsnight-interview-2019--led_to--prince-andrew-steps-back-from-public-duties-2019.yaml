@@ -1,0 +1,30 @@
+id: prince-andrew-newsnight-interview-2019--led_to--prince-andrew-steps-back-from-public-duties-2019
+from: prince-andrew-newsnight-interview-2019
+to: prince-andrew-steps-back-from-public-duties-2019
+type: led_to
+confidence: documented
+note: Andrew gave up public duties amid the backlash to the interview.
+sources:
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: It backfired — he was widely criticized for giving unbelievable explanations and failing to show empathy
+    for Epstein's victims.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  archive_url: https://web.archive.org/web/20261006052214/https://www.pbs.org/newshour/world/former-prince-andrew-is-the-first-senior-british-royal-arrested-in-nearly-400-years-heres-what-to-know
+  title: Former Prince Andrew is the first senior British royal arrested in nearly 400 years. Here's what to know
+  publisher: PBS NewsHour (Associated Press)
+  date: '2026-02-19'
+  quote: Amid the backlash, Andrew announced on Nov. 20, 2019, that he was giving up public duties and charity roles
+    "for the foreseeable future."
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

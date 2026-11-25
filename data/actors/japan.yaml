@@ -1,0 +1,21 @@
+id: japan
+title: Japan
+actor_type: state
+summary: Island country in East Asia; used here for post-1945 Japan (the prewar state is empire-of-japan).
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q17
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q17.json
+  title: Japan
+  publisher: Wikidata
+  quote: island country in East Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

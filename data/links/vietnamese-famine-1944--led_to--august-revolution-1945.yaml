@@ -1,0 +1,25 @@
+id: vietnamese-famine-1944--led_to--august-revolution-1945
+from: vietnamese-famine-1944
+to: august-revolution-1945
+type: led_to
+confidence: documented
+note: The Viet Minh turned anger over the famine to its advantage and grew into a mass movement.
+sources:
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  archive_url: https://web.archive.org/web/20260928142704/https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: The misery and anger combined to foster a new interest in politics, especially among the younger
+    generation, which the Việt Minh turned to its advantage.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Vietnamese_famine_of_1944%E2%80%931945
+  title: Vietnamese famine of 1944–1945
+  publisher: Wikipedia
+  quote: In the process, the Viet Minh transformed itself from a guerilla organization into a mass movement.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

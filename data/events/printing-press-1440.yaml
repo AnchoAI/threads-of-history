@@ -1,0 +1,40 @@
+id: printing-press-1440
+title: Gutenberg's printing press
+summary: Johannes Gutenberg invented the movable-type printing press around 1440. Its spread brought mass
+  communication to Europe and contributed to the Reformation and the Scientific Revolution.
+occurred:
+  start: '1440'
+  precision: decade
+threads:
+- religion
+- industry
+regions:
+- western-europe
+actors:
+- johannes-gutenberg
+importance: 5
+wikidata: Q144334
+sources:
+- url: https://en.wikipedia.org/wiki/Printing_press
+  archive_url: https://web.archive.org/web/20261012072057/https://en.wikipedia.org/wiki/Printing_press
+  title: Printing press
+  publisher: Wikipedia
+  quote: The printing press was invented by the German goldsmith Johannes Gutenberg around 1440, and its
+    subsequent global spread revolutionized literary production and communication during the early modern
+    period.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Printing_press
+  archive_url: https://web.archive.org/web/20261012072057/https://en.wikipedia.org/wiki/Printing_press
+  title: Printing press
+  publisher: Wikipedia
+  quote: The spread of printing brought about an era of mass communication in European society, allowing
+    information to quickly spread across Europe and contributing to the Reformation and the Scientific
+    Revolution.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Wikidata Q144334 is the printing press as a device; there is no separate item for the invention as
+    an event.

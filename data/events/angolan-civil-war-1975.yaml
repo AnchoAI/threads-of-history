@@ -1,0 +1,36 @@
+id: angolan-civil-war-1975
+title: Angolan Civil War
+summary: A civil war in Angola that began in November 1975, right after independence from Portugal, and continued
+  with interludes until 2002. It was a power struggle between two former anti-colonial movements, the communist
+  MPLA and the anti-communist UNITA.
+occurred:
+  start: '1975-11-11'
+  end: '2002-04-04'
+  precision: day
+threads:
+- usru
+regions:
+- sub-saharan-africa
+importance: 4
+wikidata: Q12055176
+sources:
+- url: https://en.wikipedia.org/wiki/Angolan_Civil_War
+  title: Angolan Civil War
+  publisher: Wikipedia
+  quote: was a civil war in Angola, beginning in 1975 and continuing, with interludes, until 2002. The war began
+    immediately after Angola became independent from Portugal in November 1975.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Angolan_Civil_War
+  title: Angolan Civil War
+  publisher: Wikipedia
+  quote: It was a power struggle between two former anti-colonial guerrilla movements, the communist People's Movement
+    for the Liberation of Angola (MPLA) and the anti-communist National Union for the Total Independence of Angola
+    (UNITA).
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

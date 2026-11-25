@@ -1,0 +1,58 @@
+id: imf-and-world-bank-founded-1945
+title: IMF and World Bank come into existence
+summary: The International Monetary Fund formally came into existence on 27 December 1945, when its first
+  29 member countries ratified its Articles of Agreement; it and the World Bank had been created at the
+  Bretton Woods Conference of July 1944. For its first three decades the IMF oversaw the Bretton Woods
+  system of fixed exchange rates.
+occurred:
+  start: '1945-12-27'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- imf
+- world-bank
+- united-states
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/International_Monetary_Fund
+  archive_url: https://web.archive.org/web/20261010063006/https://en.wikipedia.org/wiki/International_Monetary_Fund
+  title: International Monetary Fund
+  publisher: Wikipedia
+  quote: The IMF formally came into existence on 27 December 1945, when the first 29 countries ratified
+    its Articles of Agreement.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/International_Monetary_Fund
+  archive_url: https://web.archive.org/web/20261010063006/https://en.wikipedia.org/wiki/International_Monetary_Fund
+  title: International Monetary Fund
+  publisher: Wikipedia
+  quote: For its first three decades, the IMF oversaw the Bretton Woods system of fixed exchange rate
+    arrangements.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The two major accomplishments of the Bretton Woods conference were the creation of the International
+    Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), commonly
+    known as the World Bank.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: In July 1945, Congress passed the Bretton Woods Agreements Act, authorizing U.S. entry into the
+    IMF and World Bank, and the two organizations officially came into existence five months later.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Q7804 (International Monetary Fund) is used by the actor imf; Wikidata has no separate
+    item for the founding.'

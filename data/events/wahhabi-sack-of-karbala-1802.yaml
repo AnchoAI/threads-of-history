@@ -1,0 +1,48 @@
+id: wahhabi-sack-of-karbala-1802
+title: Wahhabi sack of Karbala
+summary: About 12,000 Wahhabi fighters of the first Saudi state attacked the Shia holy city of Karbala in Ottoman
+  Iraq, killing between 2,000 and 5,000 people and plundering the shrine of Husayn. Some historians date the attack
+  to 1801.
+occurred:
+  start: '1802-04-21'
+  precision: day
+  approximate: true
+  note: European and Russian orientalists mostly date it to March 1801.
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+actors: []
+importance: 3
+wikidata: Q7959771
+sources:
+- url: https://en.wikipedia.org/wiki/Wahhabi_sack_of_Karbala
+  title: Wahhabi sack of Karbala
+  publisher: Wikipedia
+  quote: occurred on 21 April 1802, under the rule of Abdulaziz bin Muhammad Al Saud, the second ruler of the Emirate
+    of Diriyah, where approximately 12,000 Wahhabis from Najd attacked the Shia city of Karbala in Ottoman Iraq.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Wahhabi_sack_of_Karbala
+  title: Wahhabi sack of Karbala
+  publisher: Wikipedia
+  quote: The Wahhabis killed between 2,000and 5,000 of the inhabitants and plundered the tomb of Husayn ibn Ali
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Wahhabi_sack_of_Karbala
+  title: Wahhabi sack of Karbala
+  publisher: Wikipedia
+  quote: Most European and Russian orientalists date the attack to March 1801
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Wahhabi_sack_of_Karbala
+  title: Wahhabi sack of Karbala
+  publisher: Wikipedia
+  quote: It also led to a strengthening of the "sectarian identity" of Shia ulama.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

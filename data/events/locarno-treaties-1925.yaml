@@ -1,0 +1,56 @@
+id: locarno-treaties-1925
+title: Locarno Treaties
+summary: Seven agreements negotiated at Locarno in October 1925 and signed in London on 1 December. Germany,
+  France, Belgium, Britain and Italy guaranteed the Franco-German and Belgian-German borders set at Versailles
+  and the demilitarised Rhineland; the treaties led to Germany joining the League of Nations in 1926.
+occurred:
+  start: '1925-10-05'
+  end: '1925-12-01'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- gustav-stresemann
+- weimar-republic
+- france
+- united-kingdom
+- kingdom-of-italy
+importance: 3
+wikidata: Q152925
+sources:
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: the Locarno meeting between 5 and 16 October 1925
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: The treaties were formally signed in London on 1 December.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: In the main treaty, the five western European nations pledged to guarantee the inviolability
+    of the borders between Germany and France and Germany and Belgium as defined in the Treaty of Versailles.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: They also promised to observe the demilitarized zone of the German Rhineland
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Locarno_Treaties
+  title: Locarno Treaties
+  publisher: Wikipedia
+  quote: The most notable result of the treaties was Germany's acceptance into the League of Nations in
+    1926.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

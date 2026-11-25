@@ -1,0 +1,56 @@
+id: embassy-cable-on-shiite-movement-1978
+title: 'US Embassy Tehran: ''Understanding the Shi''ite Islamic Movement'''
+summary: A 3 February 1978 embassy telegram analysed the renascent Shi'ite religious movement, named Ayatollah Khomeini
+  as its symbolic leader and advised that Islam was deeply imbedded in the lives of most Iranians.
+occurred:
+  start: '1978-02-03'
+  precision: day
+threads:
+- mideast
+- intel
+- religion
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- united-states
+- ruhollah-khomeini
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: iranian-revolution-1979
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: Ayatollah Khomeini is specifically named as the “symbolic leader” of the revolution.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: The telegram specifically advises that “it has become obvious that Islam is deeply imbedded in the lives
+    of the vast majority of the Iranian people.”
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: line officers in Iran were well aware of the Shiite phenomenon in the country at an earlier time than is
+    sometimes assumed
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Quoted through the National Security Archive's description; the telegram itself (published by the embassy's
+    captors in "Documents of the U.S. Espionage Den", c. 1981) was not quoted directly because its OCR text did
+    not contain the passages.
+  - 'No known.public: the date the telegram first became public (c. 1981) is uncertain.'

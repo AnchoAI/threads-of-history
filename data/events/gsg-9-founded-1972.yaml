@@ -1,0 +1,41 @@
+id: gsg-9-founded-1972
+title: West Germany founds the GSG 9 counter-terrorism unit
+summary: In September 1972, weeks after the failed police rescue at the Munich Olympics, West Germany set up GSG
+  9, a counter-terrorism unit of the Federal Border Guard.
+occurred:
+  start: '1972-09'
+  precision: month
+threads:
+- intel
+regions:
+- western-europe
+actors:
+- west-germany
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/GSG_9
+  archive_url: https://web.archive.org/web/20260915061928/https://en.wikipedia.org/wiki/GSG_9
+  title: GSG 9
+  publisher: Wikipedia
+  quote: It was established in September 1972, only weeks after the failed police rescue attempt during the Munich
+    Olympics hostage crisis, becoming one of the first modern dedicated counter‑terrorism units
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: This led directly to the founding of the German federal border guard's counter-terrorism intervention unit,
+    GSG 9, less than two weeks later.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The GSG 9 article's infobox gives 'Active 26 September 1972', which is about three weeks after the attack; the
+    Munich massacre article says 'less than two weeks later'. Month precision is used until a person checks the
+    founding date.
+  - 'No wikidata id: Q158431 is the unit itself, not its founding.'

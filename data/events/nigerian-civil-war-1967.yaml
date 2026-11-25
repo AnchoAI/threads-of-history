@@ -1,0 +1,44 @@
+id: nigerian-civil-war-1967
+title: Nigerian Civil War
+summary: Nigeria fights the secessionist Republic of Biafra from July 1967 to January 1970. The war followed a 1966
+  coup, a counter-coup and anti-Igbo pogroms; how far its roots lie in colonial rule is debated.
+occurred:
+  start: '1967-07-06'
+  end: '1970-01-15'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors: []
+importance: 4
+wikidata: Q829875
+sources:
+- url: https://en.wikipedia.org/wiki/Nigerian_Civil_War
+  archive_url: https://web.archive.org/web/20261008084329/https://en.wikipedia.org/wiki/Nigerian_Civil_war
+  title: Nigerian Civil War
+  publisher: Wikipedia
+  quote: The Nigerian Civil War (6 July 1967 – 15 January 1970), also known as the Biafran War, Nigeria–Biafra War,
+    or Biafra War, was an armed conflict fought between Nigeria and the Republic of Biafra, a secessionist state
+    that had declared its independence from Nigeria in 1967.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Nigerian_Civil_War
+  archive_url: https://web.archive.org/web/20261008084329/https://en.wikipedia.org/wiki/Nigerian_Civil_war
+  title: Nigerian Civil War
+  publisher: Wikipedia
+  quote: Immediate causes of the war in 1966 included a military coup, a counter-coup, and anti-Igbo pogroms
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Nigerian_Civil_War
+  archive_url: https://web.archive.org/web/20261008084329/https://en.wikipedia.org/wiki/Nigerian_Civil_war
+  title: Nigerian Civil War
+  publisher: Wikipedia
+  quote: This civil war can be connected to the colonial amalgamation in 1914
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

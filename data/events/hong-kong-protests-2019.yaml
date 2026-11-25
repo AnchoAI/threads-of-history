@@ -1,0 +1,57 @@
+id: hong-kong-protests-2019
+title: 2019–2020 Hong Kong protests
+summary: Protests against a bill that would have allowed extradition to mainland China began in March
+  2019 and grew into mass demonstrations from June, the largest series of demonstrations in Hong Kong's
+  history. They subsided in early 2020 with the COVID-19 outbreak.
+occurred:
+  start: 2019-03
+  end: 2020-06
+  precision: month
+  approximate: true
+  note: Began with a sit-in on 15 March 2019; large-scale protests from 9 June 2019 to "mid-2020".
+threads:
+- china
+regions:
+- east-asia
+actors:
+- peoples-republic-of-china
+importance: 3
+wikidata: Q64509602
+sources:
+- url: https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests
+  title: 2019–2020 Hong Kong protests
+  publisher: Wikipedia
+  quote: The protests began with a sit-in at the government headquarters on 15 March 2019 and a demonstration
+    attended by hundreds of thousands on 9 June 2019
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests
+  title: 2019–2020 Hong Kong protests
+  publisher: Wikipedia
+  quote: The bill would allow criminal suspects to be extradited on a case-by-case basis to any jurisdiction
+    without pre-existing extradition treaties with Hong Kong, including mainland China.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests
+  title: 2019–2020 Hong Kong protests
+  publisher: Wikipedia
+  quote: It was the largest series of demonstrations in the history of Hong Kong.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests
+  title: 2019–2020 Hong Kong protests
+  publisher: Wikipedia
+  quote: 9 June 2019 (2019-06-09) – mid-2020
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests
+  title: 2019–2020 Hong Kong protests
+  publisher: Wikipedia
+  quote: Protests begin to subside in early 2020 due to the outbreak of COVID-19 and regulations that
+    prohibit large gatherings.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'The end date is approximate: the source gives "mid-2020".'

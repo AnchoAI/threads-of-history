@@ -1,0 +1,26 @@
+id: bob-marley-at-zimbabwe-independence-1980--part_of--zimbabwe-independence-1980
+from: bob-marley-at-zimbabwe-independence-1980
+to: zimbabwe-independence-1980
+type: part_of
+confidence: documented
+note: Marley's concert was part of the celebrations of Zimbabwe's independence.
+sources:
+- url: https://www.aljazeera.com/features/2020/4/17/when-bob-marley-serenaded-zimbabweans-celebrating-independence
+  archive_url: https://web.archive.org/web/20261006173206/https://www.aljazeera.com/features/2020/4/17/when-bob-marley-serenaded-zimbabweans-celebrating-independence
+  title: When Bob Marley serenaded Zimbabweans celebrating independence
+  publisher: Al Jazeera
+  quote: stepped onto the stage at Rufaro Stadium in Harare to help usher in Zimbabwe’s independence from British
+    and local white minority rule.
+  type: news
+  accessed: '2026-10-20'
+- url: https://www.aljazeera.com/features/2020/4/17/when-bob-marley-serenaded-zimbabweans-celebrating-independence
+  archive_url: https://web.archive.org/web/20261006173206/https://www.aljazeera.com/features/2020/4/17/when-bob-marley-serenaded-zimbabweans-celebrating-independence
+  title: When Bob Marley serenaded Zimbabweans celebrating independence
+  publisher: Al Jazeera
+  quote: The reggae superstar not only accepted the invitation but also spent tens of thousands of dollars
+    to fly in his band and its equipment to take part in the festivities that started on the evening of April
+    17.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,21 @@
+id: josip-broz-tito
+title: Josip Broz Tito
+actor_type: person
+summary: Yugoslav revolutionary and statesman (1892–1980).
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q9161
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9161.json
+  title: Josip Broz Tito
+  publisher: Wikidata
+  quote: Yugoslav revolutionary and statesman (1892−1980)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

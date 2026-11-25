@@ -1,0 +1,90 @@
+id: able-archer-83-war-scare-1983
+title: Able Archer 83 war scare
+summary: During NATO's Able Archer 83 nuclear-release exercise in November 1983, Moscow Centre sends KGB
+  residencies a flash telegram wrongly reporting an alert at American bases and asking for information
+  on a US first strike; Soviet fears ended when the exercise finished on 11 November. Some scholars count
+  it among the closest moments to nuclear war since 1962; others, including Simon Miles, dispute that
+  Soviet leaders believed an attack was imminent.
+occurred:
+  start: '1983-11-07'
+  end: '1983-11-11'
+  precision: day
+threads:
+- nuclear
+- intel
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- nato
+- kgb
+- soviet-union
+- yuri-andropov
+- ronald-reagan
+importance: 4
+source_credibility: low
+outcome: 'false'
+wikidata: Q322260
+sources:
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Able Archer 83 was a military exercise conducted by NATO that took place in November 1983
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: The five-day exercise
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Moscow Centre sent its residencies a flash telegram on November 8 or 9 (Oleg Gordievsky cannot
+    recall which), incorrectly reporting an alert on American bases and frantically asking for further
+    information regarding an American first strike.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Soviet fears of the attack ended as the Able Archer exercise finished on November 11.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Some scholars have argued that Able Archer 83 was one of the times when the world has come closest
+    to nuclear war since the Cuban Missile Crisis in 1962.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Able_Archer_83
+  title: Able Archer 83
+  publisher: Wikipedia
+  quote: Research by Simon Miles, an assistant professor of Public Policy and Russian and Eurasian Studies
+    at Duke University's Sanford School, completed in 2020, has disputed that Able Archer 83 nearly led
+    to nuclear war.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://ssp.mit.edu/events/2019/the-war-scare-that-wasn-t
+  archive_url: https://web.archive.org/web/20260417184507/https://ssp.mit.edu/events/2019/the-war-scare-that-wasn-t
+  title: 'The War Scare That Wasn''t: Able Archer 83 and the Myths of the Second Cold War (seminar abstract)'
+  publisher: MIT Security Studies Program (Simon Miles)
+  date: '2019-10-23'
+  quote: This paper overturns this narrative using new, international evidence from the political, military,
+    and intelligence archives of the Eastern bloc.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'The signal is the Soviet alert: the flash telegram reported an American alert that did not exist,
+    so outcome is ''false'' and source_credibility ''low'' (an editorial judgement).'
+  - Start date 7 November is derived from 'five-day exercise' ending on 11 November; no fetched source
+    states 7 November directly.
+  - The Soviet reaction became known to Britain and the US through the double agent Oleg Gordievsky; a
+    known.by entry could be added once a dated source is found.

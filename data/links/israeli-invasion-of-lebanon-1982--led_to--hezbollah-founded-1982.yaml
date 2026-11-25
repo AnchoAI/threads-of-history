@@ -1,0 +1,23 @@
+id: israeli-invasion-of-lebanon-1982--led_to--hezbollah-founded-1982
+from: israeli-invasion-of-lebanon-1982
+to: hezbollah-founded-1982
+type: led_to
+confidence: documented
+note: Hezbollah was formed primarily to fight the Israeli invasion and occupation.
+sources:
+- url: https://en.wikipedia.org/wiki/Hezbollah
+  archive_url: https://web.archive.org/web/20261012011104/https://en.wikipedia.org/wiki/Hezbollah
+  title: Hezbollah
+  publisher: Wikipedia
+  quote: In 1982, Hezbollah was conceived by Lebanese clerics and funded by Iran primarily to fight the Israeli
+    invasion of Lebanon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1982_Lebanon_War
+  title: 1982 Lebanon War
+  publisher: Wikipedia
+  quote: The Israeli occupation saw the emergence of Hezbollah, an Iranian-backed Shia Islamist group.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

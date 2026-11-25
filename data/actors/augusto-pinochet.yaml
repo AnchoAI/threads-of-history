@@ -1,0 +1,21 @@
+id: augusto-pinochet
+title: Augusto Pinochet
+actor_type: person
+summary: Chilean military officer and politician (1915–2006).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q368
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q368.json
+  title: Augusto Pinochet
+  publisher: Wikidata
+  quote: Chilean military officer and politician (1915–2006)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

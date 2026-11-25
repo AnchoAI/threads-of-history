@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-armed-forces
+title: Armed forces personnel (% of labour force) (World Bank)
+summary: Armed forces personnel are active duty military personnel, including paramilitary forces if the
+  training, organization, equipment, and control suggest they may be used to support or replace regular
+  military forces. Labor force comprises all people who meet the International Labour Organization's definition
+  of the economically active population.
+occurred:
+  start: '1990'
+  end: '2020'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: MS.MIL.TOTL.TF.ZS
+table: tables/wdi-armed-forces.csv
+sources:
+- url: https://data.worldbank.org/indicator/MS.MIL.TOTL.TF.ZS
+  title: Armed forces personnel (% of total labor force)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

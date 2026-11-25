@@ -1,0 +1,37 @@
+id: mongol-conquest-of-persia-and-mesopotamia-1219
+title: Mongol conquest of Persia and Mesopotamia
+summary: Mongol campaigns against Muslim states in the Middle East and Central Asia between 1219 and 1258, which
+  ended the Khwarazmian Empire, the Nizari Ismaili state and the Abbasid Caliphate of Baghdad, and set up the Mongol
+  Ilkhanate in Persia.
+occurred:
+  start: '1219'
+  end: '1258'
+  precision: year
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+- south-central-asia
+importance: 4
+wikidata: Q113151289
+sources:
+- url: https://en.wikipedia.org/wiki/Mongol_conquest_of_Persia_and_Mesopotamia
+  title: Mongol conquest of Persia and Mesopotamia
+  publisher: Wikipedia
+  quote: comprised several Mongol campaigns against Muslim states in the Middle East and Central Asia between 1219
+    and 1258
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Mongol_conquest_of_Persia_and_Mesopotamia
+  title: Mongol conquest of Persia and Mesopotamia
+  publisher: Wikipedia
+  quote: These campaigns led to the termination of the Khwarazmian Empire, the Nizari Ismaili state, and the Abbasid
+    Caliphate of Baghdad, and the establishment of the Mongol Ilkhanate in Persia.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

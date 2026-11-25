@@ -1,0 +1,29 @@
+id: teapot-dome-scandal-1922--echo--watergate-scandal-1972
+from: teapot-dome-scandal-1922
+to: watergate-scandal-1972
+type: echo
+confidence: documented
+note: Teapot Dome was the benchmark for US government scandal until Watergate, with which it is often compared.
+sources:
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: Before the Watergate scandal, Teapot Dome was regarded as the "greatest and most sensational scandal in
+    the history of American politics".
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: In particular, it has been compared to the Watergate scandal, in which a cabinet member, Attorney General
+    John N. Mitchell, went to prison after being found guilty of conspiracy, obstruction of justice, and perjury,
+    the second time in American history that a member of the cabinet has been incarcerated.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

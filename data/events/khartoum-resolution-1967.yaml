@@ -1,0 +1,35 @@
+id: khartoum-resolution-1967
+title: Khartoum Resolution
+summary: 'After the Six-Day War, an Arab League summit in Khartoum issued a resolution on 1 September 1967
+  known for its ''Three Noes'': no peace with Israel, no recognition of Israel and no negotiations with it.'
+occurred:
+  start: '1967-09-01'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- egypt
+importance: 2
+wikidata: Q1740597
+sources:
+- url: https://en.wikipedia.org/wiki/Khartoum_Resolution
+  archive_url: https://web.archive.org/web/20260923135019/https://en.wikipedia.org/wiki/Khartoum_Resolution
+  title: Khartoum Resolution
+  publisher: Wikipedia
+  quote: 'The Khartoum Resolution (Arabic: قرار الخرطوم) of 1 September 1967 was issued at the conclusion of
+    the 1967 Arab League summit, which was convened in Khartoum, the capital of Sudan, in the wake of the Six-Day
+    War.'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Khartoum_Resolution
+  archive_url: https://web.archive.org/web/20260923135019/https://en.wikipedia.org/wiki/Khartoum_Resolution
+  title: Khartoum Resolution
+  publisher: Wikipedia
+  quote: no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights
+    of the Palestinian people in their own country.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

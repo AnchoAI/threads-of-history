@@ -1,0 +1,38 @@
+id: first-indochina-war-1946
+title: First Indochina War
+summary: A war in French Indochina between the French Union and the Viet Minh from 19 December 1946 to 11 August
+  1954. After defeat at Dien Bien Phu, France agreed at Geneva to a division of Vietnam at the 17th parallel.
+occurred:
+  start: '1946-12-19'
+  end: '1954-08-11'
+  precision: day
+threads:
+- empire
+regions:
+- south-east-asia
+actors:
+- france
+- viet-minh
+- ho-chi-minh
+importance: 4
+wikidata: Q748780
+sources:
+- url: https://en.wikipedia.org/wiki/First_Indochina_War
+  title: First Indochina War
+  publisher: Wikipedia
+  quote: was fought in French Indochina between the French Union and the Viet Minh and their respective allies,
+    from 19 December 1946 until 11 August 1954.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Indochina_War
+  title: First Indochina War
+  publisher: Wikipedia
+  quote: the Viet Minh had to accept a separation at the 17th parallel due to diplomatic pressure from the
+    Chinese.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

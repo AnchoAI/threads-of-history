@@ -1,0 +1,53 @@
+id: chilean-coup-1973
+title: Chilean coup d'état
+summary: Military officers led by General Augusto Pinochet overthrow President Salvador Allende, the first
+  Marxist elected president in a Latin American liberal democracy; Allende dies in the presidential palace.
+  The junta that followed suppressed the left through torture, murder and exile.
+occurred:
+  start: '1973-09-11'
+  precision: day
+threads:
+- usru
+- rights
+- revolutions
+regions:
+- americas
+actors:
+- augusto-pinochet
+- salvador-allende
+importance: 4
+wikidata: Q856670
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: On 11 September 1973, a group of military officers, led by General Augusto Pinochet, seized power
+    in a coup, ending civilian rule.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: Allende, who was the first Marxist to be democratically elected president in a Latin American
+    liberal democracy
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: He died in the palace. The exact circumstances of Allende's death are still disputed, but it
+    is generally accepted as a suicide.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: who initiated a brutal and long-lasting campaign of political suppression through torture, murder,
+    and exile
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

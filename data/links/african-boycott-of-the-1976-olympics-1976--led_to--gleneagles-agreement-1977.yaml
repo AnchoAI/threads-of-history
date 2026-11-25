@@ -1,0 +1,18 @@
+id: african-boycott-of-the-1976-olympics-1976--led_to--gleneagles-agreement-1977
+from: african-boycott-of-the-1976-olympics-1976
+to: gleneagles-agreement-1977
+type: led_to
+confidence: documented
+note: The source says the African boycott of Montreal contributed to the Commonwealth's adoption of the Gleneagles
+  Agreement.
+sources:
+- url: https://en.wikipedia.org/wiki/Sporting_boycott_of_South_Africa_during_the_apartheid_era
+  archive_url: https://web.archive.org/web/20261012222120/https://en.wikipedia.org/wiki/Sporting_boycott_of_South_Africa_during_the_apartheid_era
+  title: Sporting boycott of South Africa during the apartheid era
+  publisher: Wikipedia
+  quote: when the IOC declined to do so, the African teams boycotted the Games. This contributed to the Gleneagles
+    Agreement being adopted by the Commonwealth in 1977.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

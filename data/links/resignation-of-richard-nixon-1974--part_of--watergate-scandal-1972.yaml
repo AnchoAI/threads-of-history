@@ -1,0 +1,18 @@
+id: resignation-of-richard-nixon-1974--part_of--watergate-scandal-1972
+from: resignation-of-richard-nixon-1974
+to: watergate-scandal-1972
+type: part_of
+confidence: documented
+note: Nixon's resignation ended the Watergate scandal.
+sources:
+- url: https://en.wikipedia.org/wiki/Watergate_scandal
+  archive_url: https://web.archive.org/web/20261020024909/https://en.wikipedia.org/wiki/Watergate_scandal
+  title: Watergate scandal
+  publisher: Wikipedia
+  quote: Facing impeachment, on August 9, 1974, Nixon became the first U.S. president to resign.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,49 @@
+id: haitian-revolution-1791
+title: Haitian Revolution
+summary: Enslaved Africans in the French colony of Saint-Domingue revolt in August 1791; the revolution ends with
+  independence on 1 January 1804, making Haiti the only nation whose independence was gained through a successful
+  slave rebellion.
+occurred:
+  start: '1791-08-21'
+  end: '1804-01-01'
+  precision: day
+threads:
+- rights
+- empire
+- revolutions
+regions:
+- americas
+actors:
+- toussaint-louverture
+- france
+importance: 4
+wikidata: Q689128
+sources:
+- url: https://en.wikipedia.org/wiki/Haitian_Revolution
+  archive_url: https://web.archive.org/web/20261001094826/https://en.wikipedia.org/wiki/Haitian_Revolution
+  title: Haitian Revolution
+  publisher: Wikipedia
+  quote: was a successful insurrection by enslaved Africans against French colonial rule in Saint-Domingue, now
+    the sovereign state of Haiti
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Haitian_Revolution
+  archive_url: https://web.archive.org/web/20261001094826/https://en.wikipedia.org/wiki/Haitian_Revolution
+  title: Haitian Revolution
+  publisher: Wikipedia
+  quote: led to the slave revolt on 21 August 1791, which ended with the former colony's independence on 1 January
+    1804, with the ex-slave Toussaint Louverture emerging as its most prominent general
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Haitian_Revolution
+  archive_url: https://web.archive.org/web/20261001094826/https://en.wikipedia.org/wiki/Haitian_Revolution
+  title: Haitian Revolution
+  publisher: Wikipedia
+  quote: the only nation whose independence was gained as part of a successful slave rebellion
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

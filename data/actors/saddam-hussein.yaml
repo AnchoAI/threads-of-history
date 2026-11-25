@@ -1,0 +1,20 @@
+id: saddam-hussein
+title: Saddam Hussein
+actor_type: person
+summary: Iraqi politician and revolutionary, president of Iraq from 1979 to 2003.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q1316
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1316.json
+  title: Saddam Hussein
+  publisher: Wikidata
+  quote: Iraqi politician and revolutionary, president of Iraq from 1979 to 2003
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

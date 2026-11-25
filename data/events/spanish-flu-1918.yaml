@@ -1,0 +1,48 @@
+id: spanish-flu-1918
+title: '1918–1920 influenza pandemic (''Spanish flu'')'
+summary: An H1N1 influenza pandemic, first documented in Kansas in March 1918, infects about 500 million people,
+  nearly a third of the world's population. Estimates of deaths range from 17 to 50 million, possibly up to 100
+  million.
+occurred:
+  start: '1918'
+  end: '1920'
+  precision: year
+threads:
+- industry
+- ww1
+regions:
+- americas
+- western-europe
+- south-central-asia
+- sub-saharan-africa
+actors: []
+importance: 5
+wikidata: Q178275
+sources:
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: '1918–1920 global influenza pandemic'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: was an exceptionally deadly global influenza pandemic caused by the H1N1 subtype of the influenza A virus.
+    The earliest probable cases were documented in March 1918 in Haskell County, Kansas, United States
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Spanish_flu
+  title: '1918–1920 flu pandemic'
+  publisher: Wikipedia
+  quote: Two years later, nearly a third of the global population, or an estimated 500 million people, had been
+    infected. Estimates of deaths range from 17 million to 50 million, and possibly as high as 100 million
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The name 'Spanish flu' is misleading (Spain was neutral and reported it freely); the title keeps it in quotation
+    marks because it is the common name.

@@ -1,0 +1,21 @@
+id: giuffre-sues-prince-andrew-2021--led_to--prince-andrew-settles-giuffre-lawsuit-2022
+from: giuffre-sues-prince-andrew-2021
+to: prince-andrew-settles-giuffre-lawsuit-2022
+type: led_to
+confidence: documented
+note: The settlement ended the lawsuit before discovery.
+sources:
+- url: https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre
+  archive_url: https://web.archive.org/web/20260930083044/https://www.npr.org/2022/02/15/1080828750/prince-andrew-settlement-virginia-giuffre
+  title: Prince Andrew reaches a settlement with Virginia Giuffre in sexual abuse lawsuit
+  publisher: NPR
+  date: '2022-02-15'
+  quote: Virginia Giuffre and Prince Andrew have agreed to a settlement that will end Giuffre's lawsuit, which had
+    accused Andrew of sexually abusing her when she was a minor.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.

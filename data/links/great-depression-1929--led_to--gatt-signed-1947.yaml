@@ -1,0 +1,35 @@
+id: great-depression-1929--led_to--gatt-signed-1947
+from: great-depression-1929
+to: gatt-signed-1947
+type: led_to
+confidence: documented
+note: The same lesson from the Depression's trade wars drove the negotiations that produced the GATT.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The policies adopted by governments to combat the Great Depression—high tariffs, competitive
+    currency devaluations, discriminatory trading blocs—helped destabilize the international environment
+    without improving the economic situation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: This experience led leaders throughout the anti-Axis United Nations alliance to conclude that
+    economic cooperation was the only way to achieve both peace and prosperity, at home and abroad.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1937-1945/bretton-woods
+  archive_url: https://web.archive.org/web/20260910044221/https://history.state.gov/milestones/1937-1945/bretton-woods
+  title: Bretton Woods-GATT, 1941–1947
+  publisher: US Department of State, Office of the Historian
+  quote: The result was the creation of the International Monetary Fund and the World Bank at the July
+    1944 Bretton Woods Conference and the signing of the General Agreement on Tariffs and Trade at an
+    international conference in Geneva in October 1947.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

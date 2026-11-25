@@ -1,0 +1,28 @@
+id: chinese-communist-revolution-1927
+title: Chinese Communist Revolution
+summary: A social and political revolution in mainland China led by the Chinese Communist Party, which began in
+  1927 and culminated in the proclamation of the People's Republic of China in 1949.
+occurred:
+  start: '1927'
+  end: '1949'
+  precision: year
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+importance: 4
+wikidata: Q32993
+sources:
+- url: https://en.wikipedia.org/wiki/Chinese_Communist_Revolution
+  title: Chinese Communist Revolution
+  publisher: Wikipedia
+  quote: was a social and political revolution in mainland China that began in 1927 and culminated with the proclamation
+    of the People's Republic of China (PRC) in 1949. The revolution was led by the Chinese Communist Party (CCP)
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

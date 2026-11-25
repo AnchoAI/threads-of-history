@@ -1,0 +1,20 @@
+id: rwandan-revolution-1959--led_to--rwandan-genocide-1994
+from: rwandan-revolution-1959
+to: rwandan-genocide-1994
+type: led_to
+confidence: documented
+note: The genocide's roots include the ethnic violence and Tutsi exile of the 1959–62 revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: The genocide was rooted in long-standing ethnic tensions, most recently from the Rwandan Hutu
+    Revolution from 1959 to 1962, which resulted in Rwandan Tutsi fleeing to Uganda due to the ethnic
+    violence that had occurred.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

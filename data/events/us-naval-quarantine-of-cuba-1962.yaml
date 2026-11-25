@@ -1,0 +1,74 @@
+id: us-naval-quarantine-of-cuba-1962
+title: US naval quarantine of Cuba
+summary: On 22 October 1962 Kennedy ordered a naval "quarantine" of Cuba to stop further offensive weapons
+  reaching the island, and announced it with the discovery of the missiles in a televised address that
+  evening. Some Soviet ships turned back on 24–25 October; the United States ended the quarantine on 20
+  November 1962.
+occurred:
+  start: '1962-10-22'
+  end: '1962-11-20'
+  precision: day
+threads:
+- cuba
+- usru
+- nuclear
+regions:
+- americas
+actors:
+- john-f-kennedy
+- united-states
+- soviet-union
+importance: 3
+wikidata: none
+sources:
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: The President decided upon a middle course. On October 22, he ordered a naval “quarantine” of
+    Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 34: Minutes of the 505th Meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-20'
+  quote: Secretary McNamara described his view as the “blockade route.” This route is aimed at preventing
+    any addition to the strategic missiles already deployed to Cuba and eventually to eliminate these
+    missiles.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: At 7:00 pm EDT on 22 October, Kennedy delivered a nationwide televised address on all of the
+    major networks announcing the discovery of the missiles.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Nevertheless, during October 24 and 25, some ships turned back from the quarantine line; others
+    were stopped by U.S. naval forces, but they contained no offensive weapons and so were allowed to
+    proceed.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: on November 20, 1962, the United States ended its quarantine.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - The proclamation (Proclamation 3504) was signed on 23 October and enforcement began on 24 October;
+    the start date here is the order and announcement of 22 October as given by the Office of the Historian.
+  - 'wikidata none: no separate Wikidata item found for the quarantine.'

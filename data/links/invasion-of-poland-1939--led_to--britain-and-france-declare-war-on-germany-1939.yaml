@@ -1,0 +1,22 @@
+id: invasion-of-poland-1939--led_to--britain-and-france-declare-war-on-germany-1939
+from: invasion-of-poland-1939
+to: britain-and-france-declare-war-on-germany-1939
+type: led_to
+confidence: documented
+note: Britain and France declared war after Germany ignored an ultimatum to stop its invasion of Poland.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: The United Kingdom responded with an ultimatum for Germany to cease military operations, and
+    on 3 September, after the ultimatum was ignored, Britain and France declared war on Germany.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939
+  title: Invasion of Poland, Fall 1939
+  publisher: United States Holocaust Memorial Museum, Holocaust Encyclopedia
+  quote: In response to German aggression, Great Britain and France declared war on Nazi Germany.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

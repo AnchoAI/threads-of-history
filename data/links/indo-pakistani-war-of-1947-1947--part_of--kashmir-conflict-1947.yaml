@@ -1,0 +1,18 @@
+id: indo-pakistani-war-of-1947-1947--part_of--kashmir-conflict-1947
+from: indo-pakistani-war-of-1947-1947
+to: kashmir-conflict-1947
+type: part_of
+confidence: documented
+note: The first of the wars over Kashmir.
+sources:
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1947%E2%80%931948
+  archive_url: https://web.archive.org/web/20260918215321/https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948
+  title: Indo-Pakistani war of 1947–1948
+  publisher: Wikipedia
+  quote: Part of the India–Pakistan wars, Kashmir conflict and aftermath of the partition of India
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

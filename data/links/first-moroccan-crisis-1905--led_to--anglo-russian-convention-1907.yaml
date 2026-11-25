@@ -1,0 +1,19 @@
+id: first-moroccan-crisis-1905--led_to--anglo-russian-convention-1907
+from: first-moroccan-crisis-1905
+to: anglo-russian-convention-1907
+type: led_to
+confidence: documented
+note: Wikipedia cites the crisis as one reason for the Anglo-Russian Convention signed the following year.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  archive_url: https://web.archive.org/web/20260903073806/https://en.wikipedia.org/wiki/First_Moroccan_Crisis
+  title: First Moroccan Crisis
+  publisher: Wikipedia
+  quote: The crisis can be seen as a reason for the Anglo-Russian Entente and the Anglo-Franco-Spanish Pact of Cartagena
+    being signed the following year.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself, though cautiously ('can be seen as a reason').

@@ -1,0 +1,27 @@
+id: gdansk-agreement-1980--led_to--revolutions-of-1989
+from: gdansk-agreement-1980
+to: revolutions-of-1989
+type: led_to
+confidence: documented
+note: The 1980 strikes and the founding of Solidarity are described as the earliest protests that led
+  to the revolutions.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: The earliest recorded protests, which led to the revolutions, began in Poland on 14 August 1980,
+    the massive general strike which led to the August Agreements and establishment of Solidarity
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  archive_url: https://web.archive.org/web/20260826200819/https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement
+  title: Gdańsk Agreement
+  publisher: Wikipedia
+  quote: was an important milestone towards the eventual end of Communist rule in Poland
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

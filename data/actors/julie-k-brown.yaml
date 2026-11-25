@@ -1,0 +1,22 @@
+id: julie-k-brown
+title: Julie K. Brown
+actor_type: person
+summary: American investigative journalist.
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q49740121
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q49740121.json
+  title: Julie K. Brown
+  publisher: Wikidata
+  quote: American investigative journalist
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

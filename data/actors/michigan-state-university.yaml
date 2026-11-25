@@ -1,0 +1,21 @@
+id: michigan-state-university
+title: Michigan State University
+actor_type: organization
+summary: Public research university in East Lansing, Michigan, United States.
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q270222
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q270222.json
+  title: Michigan State University
+  publisher: Wikidata
+  quote: public research university in East Lansing, Michigan, United States
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

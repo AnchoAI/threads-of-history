@@ -1,0 +1,22 @@
+id: ito-hirobumi
+title: Itō Hirobumi
+actor_type: person
+summary: 1st, 5th, 7th and 10th Prime Minister of Japan (1841–1909).
+threads:
+- china
+regions:
+- east-asia
+importance: 3
+wikidata: Q174971
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q174971.json
+  title: Itō Hirobumi
+  publisher: Wikidata
+  quote: 1st, 5th, 7th and 10th Prime Minister of Japan (1841–1909)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

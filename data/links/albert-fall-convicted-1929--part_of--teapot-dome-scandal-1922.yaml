@@ -1,0 +1,20 @@
+id: albert-fall-convicted-1929--part_of--teapot-dome-scandal-1922
+from: albert-fall-convicted-1929
+to: teapot-dome-scandal-1922
+type: part_of
+confidence: documented
+note: Fall's bribery conviction was the main criminal outcome of Teapot Dome.
+sources:
+- url: https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  archive_url: https://web.archive.org/web/20261011060707/https://en.wikipedia.org/wiki/Teapot_Dome_scandal
+  title: Teapot Dome scandal
+  publisher: Wikipedia
+  quote: Convicted of accepting bribes from the oil companies, Fall became the first presidential cabinet member
+    to go to prison, but no one was convicted of paying the bribes.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

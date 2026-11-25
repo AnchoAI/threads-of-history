@@ -1,0 +1,17 @@
+id: martial-law-decision-in-beijing-1989--part_of--tiananmen-square-protests-1989
+from: martial-law-decision-in-beijing-1989
+to: tiananmen-square-protests-1989
+type: part_of
+confidence: documented
+note: The martial-law decision of 17 May led to the troop deployment that ended the protests.
+sources:
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: After weeks of unsuccessful attempts between the demonstrators and the Chinese government to find
+    a peaceful resolution, the Chinese government initiated martial law in late May and deployed troops to
+    occupy the square on the night of 3 June
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

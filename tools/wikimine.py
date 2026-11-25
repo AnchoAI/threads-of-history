@@ -1,0 +1,1431 @@
+"""Mine English Wikipedia for proposed links between events.
+
+  python tools/wikimine.py events  [--from 1900 --to 2027]        Wikidata: event articles with dates
+  python tools/wikimine.py fetch   [--limit N]                    REST API: fetch those articles (a pilot)
+  python tools/wikimine.py dump    --dump FILE --index FILE       Or read them from a downloaded dump (the full run)
+  python tools/wikimine.py extract                                Sentences with a connecting phrase -> candidates
+  python tools/wikimine.py classify --now 20 | --submit | --collect   Optional: Claude checks each candidate
+  python tools/wikimine.py sample  [--n 100] | --score FILE       A random sample for a person to check
+  python tools/wikimine.py write   [--min-score 2]                YAML link files for review
+
+Everything goes to staging/wikimine/ (gitignored) and nothing touches data/. A candidate is a
+sentence, from the article about one event, that links to the article about another event and
+uses a connecting phrase ("led to", "in response to", "part of"). The quote is the sentence and
+the source is the article, so each proposal can be checked against the page it came from. All
+output is `unverified`: a person accepts or rejects it before anything is promoted to data/.
+
+See staging/wikimine.md for how to run it locally on the whole of Wikipedia.
+"""
+from __future__ import annotations
+
+import argparse
+import bz2
+import datetime as dt
+import gzip
+import hashlib
+import html
+import http.client
+import json
+import random
+import re
+import sys
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+from collections import defaultdict
+from html.parser import HTMLParser
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "staging" / "wikimine"
+CACHE = ROOT / ".cache" / "wikimine"
+UA = "ThreadsOfHistory/0.1 (https://github.com/AnchoAI/threads-of-history; wikimine)"
+SPARQL = "https://query.wikidata.org/sparql"
+REST = "https://en.wikipedia.org/api/rest_v1/page/html/"
+ACTION = "https://en.wikipedia.org/w/api.php"
+
+# Wikidata classes whose instances (and instances of their subclasses) count as events, each with
+# the fewest language editions an article needs (0 for none): noisy classes such as elections and
+# court cases have thousands of minor members. Every id was checked against its Wikidata label.
+CLASSES = {
+    # conflict
+    "war": ("Q198", 0), "armed conflict": ("Q350604", 0), "battle": ("Q178561", 0), "siege": ("Q188055", 0),
+    "military operation": ("Q645883", 0), "military campaign": ("Q831663", 0), "offensive": ("Q2001676", 0),
+    "invasion": ("Q467011", 0), "military occupation": ("Q188686", 0), "annexation": ("Q194465", 0),
+    "ceasefire": ("Q208383", 0), "insurgency": ("Q1323212", 0), "nuclear weapons testing": ("Q210112", 3),
+    # political violence and unrest
+    "revolution": ("Q10931", 0), "coup d'etat": ("Q45382", 0), "rebellion": ("Q124734", 0), "riot": ("Q124757", 0),
+    "protest": ("Q273120", 0), "massacre": ("Q3199915", 0), "genocide": ("Q41397", 0),
+    "assassination": ("Q3882219", 0), "assassination attempt": ("Q88178910", 0),
+    "terrorist attack": ("Q2223653", 0), "bomb attack": ("Q891854", 0), "mass shooting": ("Q21480300", 0),
+    "hostage taking": ("Q1371150", 0), "aircraft hijacking": ("Q898712", 0), "cyberattack": ("Q4071928", 0),
+    # politics and law
+    "treaty": ("Q131569", 0), "peace conference": ("Q7157512", 0), "summit": ("Q1072326", 0),
+    "political crisis": ("Q3002772", 0), "international crisis": ("Q5791104", 0),
+    "declaration of independence": ("Q1464916", 0), "referendum": ("Q43109", 3), "public election": ("Q40231", 10),
+    "statute": ("Q820655", 5), "legislation": ("Q49371", 5), "legal case": ("Q2334719", 5), "trial": ("Q8016240", 5),
+    "resignation": ("Q796919", 0), "political scandal": ("Q934744", 0), "state funeral": ("Q1052001", 3),
+    # society
+    "social movement": ("Q49773", 0), "strike": ("Q49776", 3), "general strike": ("Q49775", 0),
+    "boycott": ("Q179366", 0), "civil disobedience": ("Q47217", 0),
+    # economy
+    "financial crisis": ("Q114380", 0), "economic crisis": ("Q290178", 0), "recession": ("Q176494", 0),
+    "stock market crash": ("Q1020018", 0), "oil crisis": ("Q123193388", 0), "famine": ("Q168247", 0),
+    # health, disasters, science
+    "pandemic": ("Q12184", 0), "epidemic": ("Q44512", 0), "natural disaster": ("Q8065", 5),
+    "disaster": ("Q3839081", 5), "earthquake": ("Q7944", 5), "flood": ("Q8068", 5), "tropical cyclone": ("Q8092", 10),
+    "aviation accident": ("Q744913", 5), "shipwreck": ("Q852190", 5), "space mission": ("Q2133344", 10),
+    "expedition": ("Q2401485", 5),
+    # culture and sport
+    "Summer Olympic Games": ("Q159821", 0), "Winter Olympic Games": ("Q82414", 0), "benefit concert": ("Q1850936", 0),
+    # broad classes, where events that fit none of the above often sit
+    "historical event": ("Q13418847", 5), "revolutionary wave": ("Q1886460", 0), "demonstration": ("Q175331", 0),
+    "reform": ("Q900406", 3), "public policy": ("Q546113", 5), "constitution": ("Q7755", 3),
+    "Act of Congress": ("Q476068", 3), "UK Act of Parliament": ("Q105774620", 3), "human spaceflight": ("Q752783", 3),
+}
+
+
+# --- small helpers ------------------------------------------------------------------------------
+
+def get(url: str, params: dict | None = None, accept: str | None = None, tries: int = 6) -> bytes:
+    if params:
+        url += ("&" if "?" in url else "?") + urllib.parse.urlencode(params)
+    headers = {"User-Agent": UA, "Accept-Encoding": "gzip"}
+    if accept:
+        headers["Accept"] = accept
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=120) as r:
+                body = r.read()
+                return gzip.decompress(body) if r.headers.get("Content-Encoding") == "gzip" else body
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                raise
+            if e.code not in (429, 500, 502, 503, 504) or i == tries - 1:
+                raise
+            wait = float(e.headers.get("Retry-After") or 2 ** (i + 1))
+        except (urllib.error.URLError, TimeoutError):
+            if i == tries - 1:
+                raise
+            wait = 2 ** (i + 1)
+        time.sleep(min(wait, 120))
+    raise RuntimeError("unreachable")
+
+
+def rel(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def norm_title(t: str) -> str:
+    """Wikipedia's canonical form: spaces not underscores, no fragment, first letter capital."""
+    t = urllib.parse.unquote(t).split("#")[0].replace("_", " ").strip()
+    t = re.sub(r"\s+", " ", t)
+    return t[:1].upper() + t[1:]
+
+
+def wiki_url(title: str) -> str:
+    return "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"), safe="()',-.:_")
+
+
+def year(s: str | None) -> int | None:
+    m = re.match(r"^(-?\d+)", s or "")
+    return int(m.group(1)) if m else None
+
+
+def read_jsonl(path: Path):
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                yield json.loads(line)
+
+
+def write_jsonl(path: Path, rows) -> int:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    n = 0
+    with open(path, "w", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            n += 1
+    return n
+
+
+def load_events(out: Path = OUT) -> dict:
+    path = out / "events.jsonl"
+    if not path.exists():
+        raise SystemExit(f"{rel(path)} not found: run `python tools/wikimine.py events` first")
+    return {e["qid"]: e for e in read_jsonl(path)}
+
+
+def known_items(root: Path = ROOT) -> dict:
+    """Wikidata id -> our item id, for everything already in data/."""
+    out = {}
+    for path in (root / "data").glob("*/*.yaml"):
+        try:
+            d = yaml.safe_load(path.read_text(encoding="utf-8"))
+        except yaml.YAMLError:
+            continue
+        if isinstance(d, dict) and str(d.get("wikidata", "")).startswith("Q"):
+            out[d["wikidata"]] = d["id"]
+    return out
+
+
+def known_pairs(root: Path = ROOT) -> set:
+    out = set()
+    for path in (root / "data" / "links").glob("*.yaml"):
+        d = yaml.safe_load(path.read_text(encoding="utf-8"))
+        out.add((d["from"], d["to"]))
+        out.add((d["to"], d["from"]))
+    return out
+
+
+# --- 1. events: the skeleton from Wikidata -------------------------------------------------------
+
+EVENT_QUERY = """
+SELECT ?e ?article ?label ?start ?point ?inception ?published ?launched ?end ?sitelinks WHERE {
+  ?e wdt:P31/wdt:P279* wd:%(cls)s .
+  ?article schema:about ?e ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?label .
+  OPTIONAL { ?e wdt:P580 ?start }
+  OPTIONAL { ?e wdt:P585 ?point }
+  OPTIONAL { ?e wdt:P582 ?end }
+  OPTIONAL { ?e wdt:P571 ?inception }
+  OPTIONAL { ?e wdt:P577 ?published }
+  OPTIONAL { ?e wdt:P619 ?launched }
+  ?e wikibase:sitelinks ?sitelinks .
+  BIND(COALESCE(?start, ?point, ?inception, ?published, ?launched) AS ?s)
+  FILTER(BOUND(?s) && YEAR(?s) >= %(lo)d && YEAR(?s) < %(hi)d && ?sitelinks >= %(min)d)
+}"""
+
+RELATION_QUERY = """
+SELECT ?e ?p ?o WHERE {
+  VALUES ?e { %s }
+  VALUES ?p { wdt:P361 wdt:P828 wdt:P1542 }
+  ?e ?p ?o .
+}"""
+RELATIONS = {"P361": "part_of", "P828": "has_cause", "P1542": "has_effect"}
+
+# Events already in data/ that the class queries miss (Wikidata files them under other classes).
+SEED_QUERY = """
+SELECT ?e ?article ?end ?sitelinks WHERE {
+  VALUES ?e { %s }
+  ?article schema:about ?e ; schema:isPartOf <https://en.wikipedia.org/> .
+  ?e wikibase:sitelinks ?sitelinks .
+  OPTIONAL { ?e wdt:P582 ?end . }
+}"""
+
+
+def sparql(query: str, tries: int = 6) -> list[dict]:
+    body = get(SPARQL, {"query": query, "format": "json"}, accept="application/sparql-results+json", tries=tries)
+    return json.loads(body)["results"]["bindings"]
+
+
+def spans(start: int, end: int, step: int):
+    """Query windows: wide where history is sparse in Wikidata, `step` years from 1900."""
+    edges = [(1500, 250), (1800, 100), (1900, 25), (10 ** 4, step)]
+    lo = start
+    while lo < end:
+        width = next(w for limit, w in edges if lo < limit)
+        hi = min(lo + width, end, next(limit for limit, _ in edges if lo < limit))
+        yield lo, hi
+        lo = hi
+
+
+def class_rows(name: str, cls: str, minimum: int, lo: int, hi: int) -> list[dict]:
+    """One class in one window; a window that times out is split in two."""
+    try:
+        rows = sparql(EVENT_QUERY % {"cls": cls, "lo": lo, "hi": hi, "min": minimum}, tries=2)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError,
+            http.client.HTTPException, ConnectionError) as e:
+        if hi - lo <= 1:
+            print(f"  {name} {lo}: gave up ({e})", file=sys.stderr)
+            return []
+        mid = (lo + hi) // 2
+        print(f"  {name} {lo}-{hi}: {e}; splitting", file=sys.stderr)
+        return class_rows(name, cls, minimum, lo, mid) + class_rows(name, cls, minimum, mid, hi)
+    time.sleep(1)
+    return rows
+
+
+def cmd_events(args) -> None:
+    events: dict[str, dict] = {}
+    for name, (cls, minimum) in CLASSES.items():
+        if args.classes and name not in args.classes:
+            continue
+        # Each class is cached, so an interrupted run picks up where it stopped.
+        cache = CACHE / "events" / f"v2-{cls}-{minimum}-{args.start}-{args.end}.json"   # v2: more date properties
+        if cache.exists():
+            rows = json.loads(cache.read_text())
+        else:
+            rows = [r for lo, hi in spans(args.start, args.end, args.step) for r in class_rows(name, cls, minimum, lo, hi)]
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text(json.dumps(rows))
+        got = 0
+        for r in rows:
+            qid = r["e"]["value"].rsplit("/", 1)[1]
+            start = next(r[k] for k in ("start", "point", "inception", "published", "launched") if k in r)["value"][:10]
+            end = r["end"]["value"][:10] if "end" in r else None
+            e = events.get(qid)
+            if e is None:
+                events[qid] = e = {"qid": qid, "title": norm_title(r["label"]["value"]), "start": start,
+                                   "end": end, "sitelinks": int(r["sitelinks"]["value"]), "classes": []}
+                got += 1
+            else:   # several dates on one item: keep the earliest start and the latest end
+                if (year(start) or 0) < (year(e["start"]) or 0):
+                    e["start"] = start
+                if end and (not e["end"] or (year(end) or 0) > (year(e["end"]) or 0)):
+                    e["end"] = end
+            if name not in e["classes"]:
+                e["classes"].append(name)
+        print(f"{name}: {got} new events ({len(events)} in all)", file=sys.stderr)
+    # Our own events, so links touching them are found even when no class query returns them.
+    ours = {}
+    for f in (args.root / "data" / "events").glob("*.yaml"):
+        d = yaml.safe_load(f.read_text(encoding="utf-8"))
+        q = str(d.get("wikidata", ""))
+        if q.startswith("Q") and q not in events and not args.classes:
+            ours[q] = str((d.get("occurred") or {}).get("start", ""))
+    seeded = sorted(ours)
+    for i in range(0, len(seeded), 100):
+        for r in sparql(SEED_QUERY % " ".join("wd:" + q for q in seeded[i:i + 100])):
+            qid = r["e"]["value"].rsplit("/", 1)[1]
+            title = norm_title(urllib.parse.unquote(r["article"]["value"].rsplit("/wiki/", 1)[1]))
+            e = events.setdefault(qid, {"qid": qid, "title": title, "start": ours[qid],
+                                        "end": r["end"]["value"][:10] if "end" in r else None,
+                                        "sitelinks": int(r["sitelinks"]["value"]), "classes": ["in data"]})
+    print(f"in data: {sum('in data' in e['classes'] for e in events.values())} events added from data/events", file=sys.stderr)
+    # Wikidata's own part of / has cause / has effect statements among these events.
+    qids = sorted(events)
+    for i in range(0, len(qids), 200):
+        for r in sparql(RELATION_QUERY % " ".join("wd:" + q for q in qids[i:i + 200])):
+            o = r["o"]["value"].rsplit("/", 1)[-1]
+            if o in events:
+                prop = RELATIONS[r["p"]["value"].rsplit("/", 1)[1]]
+                events[r["e"]["value"].rsplit("/", 1)[1]].setdefault(prop, []).append(o)
+        time.sleep(1)
+    n = write_jsonl(args.out / "events.jsonl", sorted(events.values(), key=lambda e: -e["sitelinks"]))
+    print(f"wrote {n} events to {rel(args.out / 'events.jsonl')}")
+    ours = {str(yaml.safe_load(f.read_text(encoding="utf-8")).get("wikidata", "")) for f in (args.root / "data" / "events").glob("*.yaml")}
+    ours = {q for q in ours if q.startswith("Q")}
+    found = ours & set(events)
+    print(f"recall: {len(found)} of the {len(ours)} events in data/events with a Wikidata id are among them")
+
+
+# --- 2a. fetch: articles from the REST API (fine for a few thousand) -----------------------------
+
+def page_cache(title: str, kind: str) -> Path:
+    return CACHE / kind / (hashlib.sha1(title.encode()).hexdigest() + ".gz")
+
+
+def cmd_fetch(args) -> None:
+    events = sorted(load_events(args.out).values(), key=lambda e: -e["sitelinks"])
+    if args.min_sitelinks:
+        events = [e for e in events if e["sitelinks"] >= args.min_sitelinks]
+    if args.limit:
+        events = events[:args.limit]
+    kind = "html" if args.html else "wikitext"
+    missing = [e for e in events if not page_cache(e["title"], kind).exists()]
+    if args.html:   # Parsoid HTML, one request per article: closest to the page as shown
+        for i, e in enumerate(missing):
+            try:
+                body = get(REST + urllib.parse.quote(e["title"].replace(" ", "_"), safe=""))
+            except urllib.error.HTTPError as err:
+                print(f"  {e['title']}: {err}", file=sys.stderr)
+                continue
+            save(page_cache(e["title"], kind), body)
+            time.sleep(args.delay)
+            if (i + 1) % 100 == 0:
+                print(f"  {i + 1}/{len(missing)} fetched", file=sys.stderr)
+    else:   # wikitext, 50 articles per request; pages left out of a big batch are retried in smaller ones
+        for size in (50, 10, 1):
+            missing = [e for e in missing if not page_cache(e["title"], kind).exists()]
+            for i in range(0, len(missing), size):
+                batch = [e["title"] for e in missing[i:i + size]]
+                try:
+                    d = json.loads(get(ACTION, {"action": "query", "prop": "revisions", "rvprop": "content",
+                                                "rvslots": "main", "titles": "|".join(batch), "format": "json",
+                                                "formatversion": 2}))
+                except Exception as err:
+                    print(f"  batch at {batch[0]!r}: {err}", file=sys.stderr)
+                    continue
+                q = d.get("query", {})
+                back = {x["to"]: x["from"] for x in q.get("normalized", [])}
+                for page in q.get("pages", []):
+                    if "revisions" in page:
+                        title = back.get(page["title"], page["title"])
+                        save(page_cache(title, kind), page["revisions"][0]["slots"]["main"]["content"].encode("utf-8"))
+                time.sleep(args.delay)
+                if (i // size) % 20 == 0:
+                    print(f"  {min(i + size, len(missing))}/{len(missing)} fetched ({size} per request)", file=sys.stderr)
+        missing = [e for e in events if not page_cache(e["title"], kind).exists()]
+    jobs = [(e["title"], e["qid"], str(page_cache(e["title"], kind)), args.html) for e in events]
+    rows = []
+    if args.workers > 1:
+        from multiprocessing import Pool
+        with Pool(args.workers) as pool:
+            for i, got in enumerate(pool.imap(_parse_job, jobs, chunksize=20)):
+                rows += got
+                if (i + 1) % 2000 == 0:
+                    print(f"  {i + 1}/{len(jobs)} parsed", file=sys.stderr)
+    else:
+        for job in jobs:
+            rows += _parse_job(job)
+    n = write_jsonl(args.out / "sentences.jsonl", rows)
+    print(f"{len(events)} articles ({len(missing)} could not be fetched): {n} sentences with a connecting phrase or infobox link")
+
+
+def _parse_job(job) -> list[dict]:
+    title, qid, path, html_page = job
+    if not Path(path).exists():
+        return []
+    try:
+        return page_rows(title, qid, gzip.decompress(Path(path).read_bytes()).decode("utf-8"), html_page=html_page)
+    except Exception as err:   # one malformed page shouldn't stop a run of tens of thousands
+        print(f"  {title}: {err}", file=sys.stderr)
+        return []
+
+
+def save(path: Path, body: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(gzip.compress(body))
+
+
+class _ParsoidText(HTMLParser):
+    """Paragraph text and wiki links from Parsoid HTML, skipping references, tables and figures."""
+    SKIP = {"table", "style", "script", "figure", "sup", "math"}
+    VOID = {"br", "img", "meta", "link", "hr", "wbr", "input", "source", "col", "area", "base", "embed", "param", "track"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.paras: list[tuple[str, str, list]] = []   # (section, text, [(start, end, target)])
+        self.section = ""
+        self.skip = 0
+        self.stack: list[str] = []
+        self.buf: list[str] | None = None
+        self.links: list = []
+        self.link: tuple[int, str] | None = None
+        self.heading: list[str] | None = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self.VOID:
+            return
+        a = dict(attrs)
+        self.stack.append(tag)
+        if self.skip or tag in self.SKIP or "mw-ref" in (a.get("class") or "") or "navbox" in (a.get("class") or ""):
+            self.skip += 1
+            return
+        if tag in ("h2", "h3"):
+            self.heading = []
+        elif tag == "p":
+            self.buf, self.links = [], []
+        elif tag == "a" and self.buf is not None and a.get("rel") == "mw:WikiLink" and (a.get("href") or "").startswith("./"):
+            self.link = (len("".join(self.buf)), norm_title(a["href"][2:]))
+
+    def handle_endtag(self, tag):
+        if tag in self.VOID or not self.stack:
+            return
+        while self.stack and self.stack[-1] != tag:   # tolerate unclosed tags
+            self._close(self.stack.pop())
+        if self.stack:
+            self._close(self.stack.pop())
+
+    def _close(self, tag):
+        if self.skip:
+            self.skip -= 1
+            return
+        if tag in ("h2", "h3") and self.heading is not None:
+            self.section = "".join(self.heading).strip()
+            self.heading = None
+        elif tag == "a" and self.link is not None and self.buf is not None:
+            start, target = self.link
+            end = len("".join(self.buf))
+            if end > start and ":" not in target.split(" ")[0][:-1]:   # skip File:, Category: ...
+                self.links.append((start, end, target))
+            self.link = None
+        elif tag == "p" and self.buf is not None:
+            text = "".join(self.buf)
+            if text.strip():
+                self.paras.append((self.section, text, self.links))
+            self.buf = None
+
+    def handle_data(self, data):
+        if self.skip:
+            return
+        if self.heading is not None:
+            self.heading.append(data)
+        elif self.buf is not None:
+            self.buf.append(data)
+
+
+def html_sentences(page: str):
+    p = _ParsoidText()
+    p.feed(page)
+    p.close()
+    for section, text, links in p.paras:
+        yield from split_sentences(section, text, links)
+
+
+# --- 2b. dump: the same from a downloaded multistream dump (the full run) -----------------------
+
+def dump_offsets(index: Path, wanted: set[str]) -> dict[int, set[str]]:
+    """Read the multistream index (offset:page id:title) and keep the streams holding wanted pages."""
+    out: dict[int, set[str]] = defaultdict(set)
+    with bz2.open(index, "rt", encoding="utf-8") as f:
+        for line in f:
+            off, _, title = line.rstrip("\n").split(":", 2)
+            if title in wanted:
+                out[int(off)].add(title)
+    return out
+
+
+def read_stream(dump: Path, offset: int) -> bytes:
+    """One bz2 stream of the multistream dump: about a hundred <page> elements."""
+    d = bz2.BZ2Decompressor()
+    chunks = []
+    with open(dump, "rb") as f:
+        f.seek(offset)
+        while not d.eof:
+            block = f.read(1 << 20)
+            if not block:
+                break
+            chunks.append(d.decompress(block))
+    return b"".join(chunks)
+
+
+def _dump_job(job):
+    dump, offset, titles = job
+    xml = read_stream(Path(dump), offset).decode("utf-8")
+    root = ET.fromstring("<pages>" + xml + "</pages>")
+    out = []
+    for page in root.iter("page"):
+        title = page.findtext("title")
+        if title not in titles or page.find("redirect") is not None:
+            continue
+        text = page.findtext("revision/text") or ""
+        out.append((title, page_rows(title, "", text)))
+    return out
+
+
+def cmd_dump(args) -> None:
+    events = load_events(args.out)
+    by_title = {e["title"]: e for e in events.values()}
+    print("reading the index (a few minutes)...", file=sys.stderr)
+    streams = dump_offsets(args.index, set(by_title))
+    jobs = [(str(args.dump), off, titles) for off, titles in sorted(streams.items())]
+    print(f"{sum(len(t) for t in streams.values())} of {len(by_title)} articles found in {len(jobs)} streams",
+          file=sys.stderr)
+    rows = []
+    if args.workers > 1:
+        from multiprocessing import Pool
+        with Pool(args.workers) as pool:
+            results = pool.imap_unordered(_dump_job, jobs, chunksize=8)
+            rows = _collect(results, by_title, len(jobs))
+    else:
+        rows = _collect(map(_dump_job, jobs), by_title, len(jobs))
+    n = write_jsonl(args.out / "sentences.jsonl", rows)
+    print(f"{n} sentences with links")
+
+
+def _collect(results, by_title, total):
+    rows = []
+    for i, pages in enumerate(results):
+        for title, sents in pages:
+            rows += [dict(s, qid=by_title[title]["qid"]) for s in sents]
+        if (i + 1) % 500 == 0:
+            print(f"  {i + 1}/{total} streams", file=sys.stderr)
+    return rows
+
+
+def wikitext_sentences(text: str):
+    """Plain text with link positions from wikitext. Templates, references, tables, lists are dropped."""
+    import mwparserfromhell as mw
+    from mwparserfromhell.nodes import Comment, ExternalLink, Heading, HTMLEntity, Tag, Template, Text, Wikilink
+
+    section = ""
+    buf: list[str] = []
+    links: list = []
+
+    def size():
+        return sum(map(len, buf))
+
+    def render(nodes):
+        nonlocal section
+        for n in nodes:
+            if isinstance(n, Text):
+                buf.append(str(n.value))
+            elif isinstance(n, HTMLEntity):
+                buf.append(html.unescape(str(n)))
+            elif isinstance(n, Wikilink):
+                target = str(n.title).strip()
+                if ":" in target.lstrip(":").split(" ")[0][:-1] or target.startswith(":"):
+                    continue   # File:, Category:, interwiki
+                label = n.text.strip_code() if n.text is not None else target.split("#")[0]
+                start = size()
+                buf.append(label)
+                if label:
+                    links.append((start, size(), norm_title(target)))
+            elif isinstance(n, ExternalLink):
+                if n.title is not None:
+                    buf.append(n.title.strip_code())
+            elif isinstance(n, Heading):
+                flush()
+                section = n.title.strip_code().strip()
+            elif isinstance(n, Tag):
+                tag = str(n.tag).lower()
+                if tag in ("ref", "table", "gallery", "math", "references", "timeline", "score", "div"):
+                    continue
+                if tag == "br":
+                    buf.append(" ")
+                elif n.wiki_markup in ("*", "#", ";", ":"):
+                    buf.append(n.wiki_markup)   # list markers: _paragraphs drops these lines
+                elif n.contents is not None:
+                    render(n.contents.nodes)
+            elif isinstance(n, Template):
+                name = str(n.name).strip().lower()
+                positional = [p for p in n.params if not p.showkey]
+                if name.startswith("lang-") and positional:
+                    buf.append(mw.parse(str(positional[0].value)).strip_code())
+                elif name in WRAPPERS and len(positional) > max(WRAPPERS[name], -WRAPPERS[name] - 1):
+                    buf.append(mw.parse(str(positional[WRAPPERS[name]].value)).strip_code())
+                elif name in ("anchor", "-", "clear", "toc limit"):
+                    continue
+                elif not name.startswith(("efn", "sfn", "refn", "citation", "cite", "harv", "#tag")):
+                    buf.append(GAP)   # text the page shows but we can't render: drop the sentence
+            elif isinstance(n, Comment):
+                continue
+
+    def flush():
+        text = "".join(buf)
+        sents = []
+        for para_text, para_links in _paragraphs(text, links):
+            sents += split_sentences(section, para_text, para_links)
+        out.extend(sents)
+        buf.clear()
+        links.clear()
+
+    out: list = []
+    render(mw.parse(text).nodes)
+    flush()
+    return out
+
+
+GAP = "\x00"
+# Templates that only wrap text the page shows, and which parameter that text is in.
+WRAPPERS = {"nowrap": 0, "nobr": 0, "small": 0, "big": 0, "nobold": 0, "noitalic": 0, "abbr": 0, "ill": 0,
+            "interlanguage link": 0, "vanchor": 0, "lang": 1, "transl": -1, "transliteration": -1, "linktext": 0}
+
+
+INFOBOX_PARTOF = ("partof", "part_of", "part of")
+
+
+def wikitext_infobox(text: str) -> list[dict]:
+    """The infobox's "Part of" field as a row like a sentence: "Part of the Western Front of World War I"."""
+    import mwparserfromhell as mw
+    from mwparserfromhell.nodes import Text, Wikilink
+    out = []
+    for t in mw.parse(text).filter_templates(recursive=False):
+        if not str(t.name).strip().lower().startswith("infobox"):
+            continue
+        for p in t.params:
+            if str(p.name).strip().lower() not in INFOBOX_PARTOF:
+                continue
+            buf, links = ["Part of "], []
+            for n in p.value.nodes:
+                if isinstance(n, Text):
+                    buf.append(str(n.value))
+                elif isinstance(n, Wikilink):
+                    target = str(n.title).strip()
+                    label = n.text.strip_code() if n.text is not None else target.split("#")[0]
+                    start = sum(map(len, buf))
+                    buf.append(label)
+                    if ":" not in target.lstrip(":").split(" ")[0][:-1]:
+                        links.append([start, start + len(label), norm_title(target)])
+                elif str(n).strip().lower().startswith("<br"):
+                    buf.append("; ")
+                else:
+                    buf.append(mw.parse(str(n)).strip_code())
+            line = re.sub(r"\s+", " ", "".join(buf))
+            if links and len(line) <= 300:
+                out.append({"section": "Infobox", "text": line.strip(), "links": links, "infobox": True})
+    return out
+
+
+def page_rows(title: str, qid: str, text: str, html_page: bool = False) -> list[dict]:
+    """Every sentence with links in one article, plus its infobox "Part of" field."""
+    rows = list(html_sentences(text)) if html_page else wikitext_sentences(text) + wikitext_infobox(text)
+    # Only rows that can yield a candidate are kept; the raw page stays in the cache.
+    return [{"article": title, "qid": qid, **r} for r in rows
+            if r.get("infobox") or any(rx.search(r["text"]) for rx, _, _ in CUE_RE)]
+
+
+def _paragraphs(text: str, links):
+    """Group rendered wikitext into paragraphs (runs of plain lines), dropping list and markup lines."""
+    groups, cur, pos = [], [], 0
+    for line in text.split("\n"):
+        start, pos = pos, pos + len(line) + 1
+        s = line.strip(" \t" + GAP)
+        if s and s[0] not in "|{}!*#:;=" and not s.startswith("__"):
+            cur.append((start, line))
+        elif cur:
+            groups.append(cur)
+            cur = []
+    if cur:
+        groups.append(cur)
+    for g in groups:
+        para, ps = "", []
+        for start, line in g:
+            if para:
+                para += " "
+            shift = len(para) - start
+            para += line
+            ps += [(a + shift, b + shift, t) for a, b, t in links if a >= start and b <= start + len(line)]
+        lead = len(para) - len(para.lstrip(" \t" + GAP))
+        para = para.rstrip(" \t" + GAP)
+        yield para[lead:], [(a - lead, b - lead, t) for a, b, t in ps if a >= lead and b <= len(para)]
+
+
+# --- sentences ----------------------------------------------------------------------------------
+
+ABBREV = re.compile(r"(?:\b(?:[A-Z]|U\.S|U\.K|St|Mr|Mrs|Dr|Gen|Col|Lt|Capt|Sgt|Adm|Gov|Sen|Rep|Jr|Sr|Inc|Co|Ltd|"
+                    r"No|vs|c|ca|approx|e\.g|i\.e|Jan|Feb|Mar|Apr|Aug|Sep|Sept|Oct|Nov|Dec)\.)$")
+BOUNDARY = re.compile(r"(?<=[.!?])[\"”’)]?\s+(?=[A-Z0-9\"“‘(])")
+
+
+def split_sentences(section: str, text: str, links) -> list[dict]:
+    """Sentences that contain at least one link, each with the links' positions inside it."""
+    out, start = [], 0
+    cuts = [m.end() for m in BOUNDARY.finditer(text) if not ABBREV.search(text[:m.start()].rstrip("\"”’)"))]
+    for end in cuts + [len(text)]:
+        raw = text[start:end]
+        lead = len(raw) - len(raw.lstrip())
+        sent = raw.strip()
+        s0 = start + lead
+        ls = [[a - s0, b - s0, t] for a, b, t in links if a >= s0 and b <= s0 + len(sent)]
+        if ls and 20 <= len(sent) <= 600 and GAP not in sent:
+            out.append({"section": section, "text": sent, "links": ls})
+        start = end
+    return out
+
+
+# --- 3. extract: connecting phrases -> candidate links -------------------------------------------
+
+# (phrase, link type, direction). "forward": the thing before the phrase -> the thing after it.
+# "backward": the thing after the phrase -> the thing before it ("X, in response to Y": Y -> X).
+CUES = [
+    (r"led (?:directly |indirectly |eventually |ultimately )?to", "led_to", "forward"),
+    (r"leading (?:directly )?to", "led_to", "forward"),
+    (r"resulted in|resulting in|culminated in|culminating in", "led_to", "forward"),
+    (r"(?:directly )?(?:caused|triggered|sparked|precipitated|provoked|prompted|instigated)(?! by)", "led_to", "forward"),
+    (r"contributed (?:directly |significantly )?to|paved the way for|gave rise to|set the stage for", "led_to", "forward"),
+    (r"was a (?:major |key |direct |primary )?(?:cause|catalyst|trigger) (?:of|for)", "led_to", "forward"),
+    (r"in (?:direct )?response to|in reaction to|in retaliation for|as a (?:direct )?(?:result|consequence) of", "led_to", "backward"),
+    (r"(?:was |were )?(?:caused|triggered|sparked|precipitated|provoked|prompted) by", "led_to", "backward"),
+    (r"(?:a|the) (?:direct )?(?:result|consequence) of", "led_to", "backward"),   # "in the aftermath of" only means after
+    (r"(?:was |were )?(?:inspired|influenced) by", "influenced", "backward"),
+    (r"(?:inspired|influenced)(?! by)", "influenced", "forward"),
+    (r"(?:was |were |formed |is )?(?:a |an )?part of", "part_of", "forward"),
+    (r"(?:an?|the) (?<!election )(?<!electoral )(?:phase|theatre|theater|campaign|front|episode) of", "part_of", "forward"),
+]
+# No hyphenated forms ("Gen Z-inspired", "Cubism-influenced"): those are adjectives, not statements.
+CUE_RE = [(re.compile(r"(?<![-\w])(?:" + p + r")\b", re.I), t, d) for p, t, d in CUES]
+NEGATION = re.compile(r"\b(?:not|never|no|nor|neither|denied|deny|rather than)\b[^.;]{0,25}$", re.I)
+HEDGE = re.compile(r"\b(?:may have|might have|could have|possibly|perhaps|arguably|allegedly|reportedly|"
+                   r"some (?:historians|scholars|observers|analysts)|it (?:has been|is) (?:argued|claimed|suggested|believed)|"
+                   r"is (?:believed|thought|said)|according to some|disputed|controversial|speculat\w+)\b", re.I)
+LIST_JOIN = re.compile(r"^\s*(?:,|,? and|,? or)\s+(?:the\s+)?$")
+NEAR = 90      # characters between the phrase and the linked event it points at
+OBJECT_REACH = 60   # the object follows the phrase closely, with no comma in between
+# The named subject sits right before the phrase: "X led to", "X, which led to", "X (1618–48) resulted in".
+SUBJECT_GAP = re.compile(r"^[\s,]*(?:(?:which|that|who)\s+)?(?!(?:and|or|but)\b)(?:(?!(?:and|or|but)\b)[\w'’-]+\s+){0,3}$", re.I)
+# Between the phrase and its object: a few words at most, and no "before", "after", "during"...
+OBJECT_GAP = re.compile(r"^\s*(?:(?!(?:before|after|during|until|since|following|when|while)\b)[\w'’-]+\s+){0,5}$", re.I)
+
+
+def near_links(row: dict) -> list:
+    """Links that can be a subject or object: all of an infobox row, else those near a phrase."""
+    if row.get("infobox"):
+        return row["links"]
+    spans_ = [(m.start(), m.end()) for rx, _, _ in CUE_RE for m in rx.finditer(row["text"])]
+    return [l for l in row["links"] if any(a - NEAR - 30 <= l[1] <= a or b <= l[0] <= b + NEAR for a, b in spans_)]
+
+
+def resolve_links(rows: list[dict], titles: dict[str, str], offline: bool) -> dict[str, str]:
+    """Link target -> event qid, following redirects through the API (cached) for unknown targets."""
+    cache_path = CACHE / "redirects.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    unknown = sorted({l[2] for r in rows for l in near_links(r) if l[2] not in titles and l[2] not in cache})
+    if unknown and not offline:
+        print(f"resolving {len(unknown)} link targets through the API...", file=sys.stderr)
+        for i in range(0, len(unknown), 50):
+            batch = unknown[i:i + 50]
+            d = json.loads(get(ACTION, {"action": "query", "redirects": 1, "titles": "|".join(batch),
+                                        "format": "json", "formatversion": 2}))
+            q = d.get("query", {})
+            hop = {x["from"]: x["to"] for x in q.get("normalized", [])}
+            redir = {x["from"]: x["to"] for x in q.get("redirects", [])}
+            for t in batch:
+                u = hop.get(t, t)
+                cache[t] = redir.get(u, u)
+            if (i // 50) % 20 == 19 or i + 50 >= len(unknown):
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(cache))
+                print(f"  {min(i + 50, len(unknown))}/{len(unknown)}", file=sys.stderr)
+            time.sleep(0.1)
+    return {t: titles[cache.get(t, t)] for t in {l[2] for r in rows for l in r["links"]} if cache.get(t, t) in titles}
+
+
+EVENT_NOUN = (r"battles?|wars?|conflict|coup|putsch|revolution|treaty|agreement|accord|pact|armistice|crisis|uprising|"
+              r"rebellion|revolt|insurgency|protests?|demonstrations?|massacre|siege|offensive|operation|campaign|"
+              r"invasion|landing|attack|bombing|assassination|killing|genocide|pandemic|epidemic|outbreak|famine|"
+              r"election|referendum|scandal|affair|movement|strikes?|riots?|declaration|conference|incident|events?|"
+              r"fighting|defeat|victory|occupation|intervention|blockade")
+SUBJECT = re.compile(r"^(?:(?:however|meanwhile|eventually|ultimately|initially|subsequently|thus|in turn|"
+                     r"in \d{4}|on [^,]{1,30}|by [^,]{1,30}|after [^,]{1,40}),\s*)?"
+                     r"(?:(?P<pro>it(?:\s+\w+){0,3}|this)\s*$|its (?:\w+ ){0,2}(?:outcome|failure|success|aftermath)\b|"
+                     r"(?:the|this) (?P<mods>(?:[\w-]+ ){0,3}?)(?P<noun>" + EVENT_NOUN + r")\b)", re.I)
+GENERIC = {"conflict", "fighting"}   # fine for any armed conflict
+RELATIVE = re.compile(r"\b(?:which|who|whom|whose)\b", re.I)
+
+
+def article_is_subject(pre: str, article: str, classes=()) -> bool:
+    """Does the text before the phrase start with the article's own event: "It", "This", its name,
+    or "The battle" when the article is about a battle?"""
+    if RELATIVE.search(pre):
+        return False   # "..., which triggered": the "which" points at something else
+    core = re.sub(r"\s*\(.*?\)", "", article).strip()
+    if len(core) > 4 and core.lower() in pre.lower()[:len(core) + 40]:
+        return True    # its name near the start, not inside a later clause
+    m = SUBJECT.match(pre.strip())
+    if not m:
+        return False
+    noun = (m.group("noun") or "").lower().rstrip("s")
+    if not noun:
+        return True
+    kinds = " ".join(classes).lower()
+    # "The Balkan Wars" is not the article "European theatre of World War I": every word must fit.
+    if any(w not in article.lower() and w not in kinds for w in (m.group("mods") or "").lower().split()):
+        return False
+    return (noun in article.lower() or noun in kinds or
+            (noun in GENERIC and any(k in kinds for k in ("war", "conflict", "battle", "siege", "operation"))))
+
+
+def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
+    """Candidate (from, to, type) triples in one sentence.
+
+    The target is the first link after the phrase, and it must be an event: in "led to the fall
+    of [Paris] and the [Armistice]" the object is Paris, not the armistice. The other side is the
+    nearest event linked before the phrase, or else the article's own event, but only when the
+    sentence begins with it ("The battle...", "It...", its name). Otherwise the subject is unclear.
+    """
+    text, me = row["text"], row["qid"]
+    links = sorted((a, b, link_qid.get(t)) for a, b, t in row["links"])
+    if not any(q and q != me for _, _, q in links):
+        return []
+    if row.get("infobox"):   # the infobox's "Part of" field: the article's event is part of each linked event
+        return [{"from": me, "to": q, "type": "part_of", "cue": "infobox: part of", "hedged": False, "subject": "article"}
+                for q in dict.fromkeys(q for _, _, q in links if q and q != me)]
+    out = []
+    for rx, kind, direction in CUE_RE:
+        for m in rx.finditer(text):
+            pre = text[:m.start()]
+            if NEGATION.search(pre):
+                continue
+            reach = 30 if kind == "part_of" else NEAR
+            after = [l for l in links if l[0] >= m.end()]
+            if kind != "part_of":
+                reach = OBJECT_REACH
+            if not after or after[0][0] > m.end() + reach or any(c in text[m.end():after[0][0]] for c in ";,"):
+                continue
+            if not OBJECT_GAP.match(text[m.end():after[0][0]]):
+                continue
+            # "led to [A] and [B]", "led to [A], [B] and [C]": every link in the list is an object.
+            objects = [after[0]]
+            for l in after[1:]:
+                if not LIST_JOIN.match(text[objects[-1][1]:l[0]]):
+                    break
+                objects.append(l)
+            targets = [l[2] for l in objects if l[2] and l[2] != me]
+            if not targets or not after[0][2]:
+                continue
+            before = [l for l in links if l[1] <= m.start()]
+            gap = re.sub(r"\s*\([^()]*\)", " ", text[before[-1][1]:m.start()]) if before else ""
+            if before and before[-1][2] and before[-1][2] != me and SUBJECT_GAP.match(gap):
+                other, subject = before[-1][2], "named"
+            elif article_is_subject(pre, row.get("article", ""), row.get("classes", ())):
+                other, subject = me, "article"
+            else:
+                other, subject = me, "unclear"
+            for target in targets:
+                if other == target:
+                    continue
+                a, b = (other, target) if direction == "forward" else (target, other)
+                out.append({"from": a, "to": b, "type": kind, "cue": m.group(0).lower(),
+                            "hedged": bool(HEDGE.search(text)), "subject": subject})
+    return out
+
+
+def date_ok(kind: str, a: dict, b: dict) -> bool:
+    ya, yb = year(a.get("start")), year(b.get("start"))
+    if ya is None or yb is None:
+        return True
+    if kind == "led_to":
+        return ya <= yb
+    if kind == "influenced":
+        return ya <= (year(b.get("end")) or 10 ** 4)
+    if kind == "part_of":   # the part lies within the whole (a year of slack either side)
+        return yb - 1 <= ya <= (year(b.get("end")) or 10 ** 4) + 1   # no end date: still going on, or unknown
+    return True
+
+
+def wikidata_agrees(kind: str, a: dict, b: dict) -> bool:
+    if kind == "part_of":
+        return b["qid"] in a.get("part_of", [])
+    return b["qid"] in a.get("has_effect", []) or a["qid"] in b.get("has_cause", [])
+
+
+def cmd_extract(args) -> None:
+    events = load_events(args.out)
+    rows = list(read_jsonl(args.out / "sentences.jsonl"))
+    titles = {e["title"]: q for q, e in events.items()}
+    cue_rows = [dict(r, classes=events[r["qid"]]["classes"]) for r in rows
+                if r["qid"] in events and (r.get("infobox") or any(rx.search(r["text"]) for rx, _, _ in CUE_RE))]
+    link_qid = resolve_links(cue_rows, titles, args.offline)
+    pairs: dict[tuple, dict] = {}
+    for r in cue_rows:
+        for c in sentence_candidates(r, link_qid):
+            key = (c["from"], c["to"], c["type"])
+            p = pairs.setdefault(key, {"from": c["from"], "to": c["to"], "type": c["type"], "evidence": []})
+            ev = {"article": r["article"], "section": r["section"], "sentence": r["text"], "cue": c["cue"],
+                  "hedged": c["hedged"], "subject": c["subject"], "url": wiki_url(r["article"])}
+            if ev["sentence"] not in [x["sentence"] for x in p["evidence"]]:
+                p["evidence"].append(ev)
+    known = known_items(args.root)
+    have = known_pairs(args.root)
+    nested = {frozenset((a, b)) for (a, b, t) in pairs if t == "part_of"}
+    nested |= {frozenset((q, w)) for q, e in events.items() for w in e.get("part_of", [])}
+    out = []
+    for p in pairs.values():
+        if p["type"] != "part_of" and frozenset((p["from"], p["to"])) in nested:
+            continue   # "the campaign culminated in the battle": one is part of the other, not its cause
+        a, b = events[p["from"]], events[p["to"]]
+        p["from_title"], p["to_title"] = a["title"], b["title"]
+        p["from_id"], p["to_id"] = known.get(a["qid"]), known.get(b["qid"])
+        p["date_ok"] = date_ok(p["type"], a, b)
+        p["wikidata_agrees"] = wikidata_agrees(p["type"], a, b)
+        p["in_data"] = bool(p["from_id"] and p["to_id"] and (p["from_id"], p["to_id"]) in have)
+        p["hedged"] = all(e["hedged"] for e in p["evidence"])
+        # Wikidata's "social movement" also holds organisations and art movements (Viet Minh, Cubism).
+        p["movement_only"] = any(set(e["classes"]) <= {"social movement"} for e in (a, b))
+        p["score"] = score(p)
+        p["batch"] = batch(p)
+        p["evidence"] = sorted(p["evidence"], key=lambda e: (e["subject"] == "unclear", e["hedged"]))[:5]
+        out.append(p)
+    out.sort(key=lambda p: (-p["score"], p["from_title"]))
+    n = write_jsonl(args.out / "candidates.jsonl", out)
+    by_type = defaultdict(int)
+    for p in out:
+        by_type[p["type"]] += 1
+    batches = defaultdict(int)
+    for p in out:
+        batches[p["batch"] or "held back"] += 1
+    print("batches: " + ", ".join(f"{k} {v}" for k, v in sorted(batches.items())))
+    print(f"{len(rows)} sentences, {len(cue_rows)} with a connecting phrase -> {n} candidate links "
+          f"({', '.join(f'{k} {v}' for k, v in sorted(by_type.items()))}); "
+          f"{sum(p['wikidata_agrees'] for p in out)} agree with Wikidata, {sum(not p['date_ok'] for p in out)} fail the date check")
+
+
+BATCHES = {
+    "part_of-infobox": "Part of, from the article's infobox",
+    "part_of-text": "Part of, from a sentence about the article's own event or a named one",
+    "led_to": "Contributed to, with a clear subject and dates in order",
+    "influenced": "Influenced, with a clear subject and dates in order",
+}
+
+
+def batch(p: dict) -> str | None:
+    """Which batch a candidate belongs to; None holds it back (unclear subject, dates out of order,
+    hedged, or an endpoint that may be an organisation). Each batch is sampled and judged on its own."""
+    if p["type"] == "part_of" and any(e["cue"].startswith("infobox") for e in p["evidence"]):
+        return "part_of-infobox" if p["date_ok"] and not p["movement_only"] else None
+    if not p["date_ok"] or p["hedged"] or p["movement_only"]:
+        return None
+    if not any(e["subject"] != "unclear" and not e["hedged"] for e in p["evidence"]):
+        return None
+    if p["type"] == "part_of":   # from a sentence: only when it is about the article's own event
+        return "part_of-text" if any(e["subject"] == "article" and not e["hedged"] for e in p["evidence"]) else None
+    return p["type"]
+
+
+def score(p: dict) -> int:
+    """A rough ranking: more sentences, Wikidata agreeing and both events already mapped count for it."""
+    s = min(len(p["evidence"]), 3) + 2 * p["wikidata_agrees"] + bool(p["from_id"] and p["to_id"])
+    if p["hedged"]:
+        s -= 1
+    if all(e["subject"] == "unclear" for e in p["evidence"]):
+        s -= 2
+    if not p["date_ok"]:
+        s -= 3
+    if any(e["article"] in (p["from_title"], p["to_title"]) for e in p["evidence"]):
+        s += 1   # stated in the article about one of the two events
+    return s
+
+
+# --- 4. classify: optional check by Claude ------------------------------------------------------
+
+CLASSIFY_SYSTEM = """You check proposed links for a sourced map of how historical events connect.
+
+You get two events, A and B, and one sentence from an English Wikipedia article. Decide only what the sentence itself states. Do not use your own knowledge of history: if the sentence does not say it, the answer is no, even when the link is true.
+
+- led_to: the sentence says one event caused, led to, prompted or was a response to the other.
+- influenced: the sentence says one shaped attitudes, ideas or behaviour that bore on the other, without saying it caused it.
+- part_of: the sentence says one event was a part, phase, campaign or theatre of the other.
+- none: the sentence mentions both but states no such connection, or the connection is between other things.
+
+direction is a_to_b when A is the cause, the influence or the part; b_to_a when B is. hedged is true when the sentence attributes the claim to some people or marks it as uncertain or disputed. reason: at most 25 words."""
+
+CLASSIFY_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "stated": {"type": "boolean"},
+        "type": {"type": "string", "enum": ["led_to", "influenced", "part_of", "none"]},
+        "direction": {"type": "string", "enum": ["a_to_b", "b_to_a", "none"]},
+        "hedged": {"type": "boolean"},
+        "reason": {"type": "string"},
+    },
+    "required": ["stated", "type", "direction", "hedged", "reason"],
+    "additionalProperties": False,
+}
+
+
+def classify_params(p: dict, events: dict, model: str, effort: str) -> dict:
+    a, b, ev = events[p["from"]], events[p["to"]], p["evidence"][0]
+    user = (f"A: {a['title']} ({a['start'][:4]}{'–' + a['end'][:4] if a.get('end') else ''})\n"
+            f"B: {b['title']} ({b['start'][:4]}{'–' + b['end'][:4] if b.get('end') else ''})\n\n"
+            f"From the Wikipedia article \"{ev['article']}\"{', section ' + repr(ev['section']) if ev['section'] else ''}:\n"
+            f"\"{ev['sentence']}\"")
+    return {"model": model, "max_tokens": 2048,
+            "system": [{"type": "text", "text": CLASSIFY_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": CLASSIFY_SCHEMA}},
+            "messages": [{"role": "user", "content": user}]}
+
+
+def apply_verdict(p: dict, v: dict | None) -> dict:
+    p = dict(p, verdict=v)
+    if v and v["stated"] and v["type"] != "none":
+        if v["direction"] == "b_to_a":
+            p["from"], p["to"] = p["to"], p["from"]
+            p["from_title"], p["to_title"] = p["to_title"], p["from_title"]
+            p["from_id"], p["to_id"] = p["to_id"], p["from_id"]
+        p["type"] = v["type"]
+        p["hedged"] = v["hedged"]
+    return p
+
+
+def verdict_text(msg) -> dict | None:
+    if msg.stop_reason != "end_turn":   # refusal or max_tokens: leave it for a person
+        return None
+    text = next((b.text for b in msg.content if b.type == "text"), "")
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return None
+
+
+def cmd_classify(args) -> None:
+    import anthropic
+    from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+    from anthropic.types.messages.batch_create_params import Request
+
+    client = anthropic.Anthropic()
+    events = load_events(args.out)
+    cands = [p for p in read_jsonl(args.out / "candidates.jsonl") if not p["in_data"]]
+    if args.min_score is not None:
+        cands = [p for p in cands if p["score"] >= args.min_score]
+    state_path = args.out / "classify-batches.json"
+    if args.now:   # a small synchronous run, to see what it does before paying for a batch
+        out = []
+        for p in cands[:args.now]:
+            msg = client.messages.create(**classify_params(p, events, args.model, args.effort))
+            v = verdict_text(msg)
+            out.append(apply_verdict(p, v))
+            print(f"{p['from_title']} -> {p['to_title']} [{p['type']}]: {v}")
+        write_jsonl(args.out / "classified.jsonl", out)
+        return
+    if args.submit:
+        ids = []
+        for i in range(0, len(cands), 50_000):
+            chunk = cands[i:i + 50_000]
+            batch = client.messages.batches.create(requests=[
+                Request(custom_id=f"c{i + j}", params=MessageCreateParamsNonStreaming(**classify_params(p, events, args.model, args.effort)))
+                for j, p in enumerate(chunk)])
+            ids.append(batch.id)
+            print(f"submitted batch {batch.id} ({len(chunk)} candidates)")
+        state_path.write_text(json.dumps({"batches": ids, "min_score": args.min_score, "count": len(cands)}))
+        print("run `python tools/wikimine.py classify --collect` later (most batches finish within an hour)")
+        return
+    if args.collect:
+        state = json.loads(state_path.read_text())
+        verdicts: dict[int, dict | None] = {}
+        for bid in state["batches"]:
+            while (b := client.messages.batches.retrieve(bid)).processing_status != "ended":
+                print(f"{bid}: {b.request_counts.processing} still processing; waiting...", file=sys.stderr)
+                time.sleep(60)
+            for r in client.messages.batches.results(bid):
+                verdicts[int(r.custom_id[1:])] = verdict_text(r.result.message) if r.result.type == "succeeded" else None
+        out = [apply_verdict(p, verdicts.get(i)) for i, p in enumerate(cands)]
+        write_jsonl(args.out / "classified.jsonl", out)
+        ok = sum(1 for p in out if p["verdict"] and p["verdict"]["stated"])
+        print(f"{len(out)} classified: {ok} stated, {sum(1 for p in out if p['verdict'] is None)} without a verdict")
+        return
+    raise SystemExit("choose --now N, --submit or --collect")
+
+
+# --- 5. sample: a random check by a person ------------------------------------------------------
+
+MARKS = ("correct", "wrong direction", "wrong type", "not stated")
+
+
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """95% interval for a proportion; honest at small n and near 100%."""
+    if not n:
+        return 0.0, 1.0
+    p, d = k / n, 1 + z * z / n
+    mid, half = (p + z * z / (2 * n)) / d, z * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5) / d
+    return max(0.0, mid - half), min(1.0, mid + half)
+
+
+def score_marks(marks: list[tuple[str, str]], bar: float) -> list[str]:
+    """marks: (batch, verdict). One line per batch, with whether it clears the bar."""
+    lines = []
+    for b in dict.fromkeys(x for x, _ in marks):
+        got = [v for x, v in marks if x == b]
+        k, n = got.count("correct"), len(got)
+        lo, hi = wilson(k, n)
+        errs = ", ".join(f"{m} {got.count(m)}" for m in MARKS[1:] if got.count(m))
+        verdict = "clears" if k / n >= bar else "does not clear"
+        lines.append(f"{b}: {k}/{n} correct ({k / n:.0%}, 95% interval {lo:.0%}–{hi:.0%}){'; ' + errs if errs else ''}; "
+                     f"{verdict} the {bar:.0%} bar")
+    return lines
+
+
+def cmd_sample(args) -> None:
+    if args.score:
+        path = Path(args.score)
+        if path.suffix == ".json":   # {"items": [...], "verdicts": {key: verdict}} or a list of {batch, verdict}
+            d = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(d, list):
+                rows = d
+            elif "verdicts" in d:   # {"items": [...], "verdicts": {key: verdict}}
+                rows = [{"batch": i["batch"], "verdict": d["verdicts"].get(i["key"])} for i in d["items"]]
+            else:                   # a check record: each item carries its own verdict
+                rows = d["items"]
+            marks = [(r["batch"], r["verdict"]) for r in rows if r.get("verdict") in MARKS]
+        else:
+            marks, cur = [], "all"
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("# Batch: "):
+                    cur = line[len("# Batch: "):].split(" ")[0]
+                m = re.match(r"- \[[xX]\] (correct|wrong direction|wrong type|not stated)", line)
+                if m:
+                    marks.append((cur, m.group(1)))
+        if not marks:
+            raise SystemExit("no verdicts found")
+        print("\n".join(score_marks(marks, args.bar)))
+        return
+    rows = [p for p in read_jsonl(args.out / "candidates.jsonl") if not p["in_data"] and p.get("batch")]
+    rng = random.Random(args.seed)
+    items, lines = [], ["# Wikipedia mining: a checked sample per batch", "",
+                        "Each batch is judged on its own sample. For each item, open the link and tick one box. "
+                        "**Correct** means the quoted sentence itself states this link, in this direction, of this type. "
+                        f"Then run `python tools/wikimine.py sample --score THIS_FILE`. A batch whose sample is at least "
+                        f"{args.bar:.0%} correct can go in as `sourced`, never `reviewed`.", ""]
+    for b, label in BATCHES.items():
+        pool = [p for p in rows if p["batch"] == b]
+        rng.shuffle(pool)
+        pick = pool[:args.n]
+        lines += [f"# Batch: {b} ({len(pick)} of {len(pool)})", "", label + ".", ""]
+        for i, p in enumerate(pick, 1):
+            e = next((e for e in p["evidence"] if e["subject"] != "unclear" and not e["hedged"]), p["evidence"][0])
+            verb = {"led_to": "contributed to", "influenced": "influenced", "part_of": "was part of"}[p["type"]]
+            key = f"{p['from']}-{p['type']}-{p['to']}"
+            items.append({"key": key, "batch": b, "n": i, "from": p["from_title"], "to": p["to_title"], "type": p["type"],
+                          "verb": verb, "sentence": e["sentence"], "cue": e["cue"], "article": e["article"],
+                          "section": e["section"], "url": e["url"], "pool": len(pool)})
+            lines += [f"## {b} {i}. {p['from_title']} → {verb} → {p['to_title']}", "", f"> {e['sentence']}", "",
+                      f"From [{e['article']}]({e['url']}){' (' + e['section'] + ')' if e['section'] else ''}. "
+                      f"Phrase: \"{e['cue']}\"", ""] + [f"- [ ] {m}" for m in MARKS] + [""]
+    path = args.out / f"sample-{dt.date.today()}.md"
+    path.write_text("\n".join(lines), encoding="utf-8")
+    (path.with_suffix(".json")).write_text(json.dumps({"seed": args.seed, "bar": args.bar, "items": items}, ensure_ascii=False, indent=1),
+                                           encoding="utf-8")
+    print(f"wrote {rel(path)} and {rel(path.with_suffix('.json'))}: " +
+          ", ".join(f"{b} {sum(i['batch'] == b for i in items)}" for b in BATCHES))
+
+
+# --- 6. write: YAML for review ------------------------------------------------------------------
+
+def slugify(title: str, start: str | None) -> str:
+    s = re.sub(r"\(.*?\)", "", title).lower()
+    s = re.sub(r"[\u2010-\u2015\u2212/]", " ", s)   # "Israeli–Lebanese" -> israeli-lebanese, not israelilebanese
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    y = year(start)
+    if y is not None and str(abs(y)) not in s:
+        s = f"{s}-{y}" if y >= 0 else f"{s}-{-y}-bce"
+    return s or "event"
+
+
+def link_yaml(p: dict, from_id: str, to_id: str, today: str) -> dict:
+    ev = p["evidence"][0]
+    notes = [f"Extracted automatically by tools/wikimine.py from the sentence above (phrase \"{ev['cue']}\"); "
+             "no person has checked it. Check that the article states this link, its direction and its type."]
+    if p["hedged"]:
+        notes.append("The sentence hedges or attributes the claim; this may need to be contested, with positions.")
+    if not p["date_ok"]:
+        notes.append("The Wikidata dates do not fit this direction.")
+    if p.get("verdict"):
+        notes.append(f"Claude's check: {p['verdict']['reason']}")
+    return {
+        "id": f"{from_id}--{p['type']}--{to_id}", "from": from_id, "to": to_id, "type": p["type"],
+        "confidence": "documented",
+        "note": f"{ev['article']} (Wikipedia): \"{ev['cue']}\".",
+        "sources": [{"url": ev["url"], "title": ev["article"], "publisher": "Wikipedia",
+                     "quote": ev["sentence"][:600], "type": "reference", "accessed": today}
+                    for ev in p["evidence"][:2]],
+        "review": {"status": "unverified", "notes": notes},
+    }
+
+
+def event_stub(e: dict, slug: str, today: str) -> dict:
+    occurred = {"start": e["start"][:10].lstrip("+"), "precision": "day"}
+    if e.get("end"):
+        occurred["end"] = e["end"][:10].lstrip("+")
+    return {"id": slug, "title": e["title"], "summary": "TODO", "occurred": occurred, "threads": [], "regions": [],
+            "importance": 2, "wikidata": e["qid"],
+            "sources": [{"url": wiki_url(e["title"]), "title": e["title"], "publisher": "Wikipedia",
+                         "type": "reference", "accessed": today}],
+            "review": {"status": "unverified", "notes": [
+                "Stub created by tools/wikimine.py from Wikidata; needs a summary, threads, regions and a checked date "
+                "(Wikidata's day precision is often wrong for older events)."]}}
+
+
+def cmd_write(args) -> None:
+    events = load_events(args.out)
+    src = args.out / ("classified.jsonl" if (args.out / "classified.jsonl").exists() and not args.raw else "candidates.jsonl")
+    rows = [p for p in read_jsonl(src) if not p["in_data"]]
+    if src.name == "classified.jsonl":
+        rows = [p for p in rows if p.get("verdict") and p["verdict"]["stated"] and p["verdict"]["type"] != "none"]
+    rows = [p for p in rows if p["score"] >= args.min_score and (p["date_ok"] or args.keep_bad_dates)]
+    today = str(dt.date.today())
+    links_dir, events_dir = args.out / "links", args.out / "events"
+    for d in (links_dir, events_dir):
+        d.mkdir(parents=True, exist_ok=True)
+        for old in d.glob("*.yaml"):
+            old.unlink()
+    slugs: dict[str, str] = {}
+    taken = {p.stem for p in (args.root / "data").glob("*/*.yaml")}
+    new_events = 0
+
+    def item_id(qid: str, known: str | None) -> str:
+        nonlocal new_events
+        if known:
+            return known
+        if qid not in slugs:
+            base = slug = slugify(events[qid]["title"], events[qid]["start"])
+            n = 2
+            while slug in taken:
+                slug, n = f"{base}-{n}", n + 1
+            taken.add(slug)
+            slugs[qid] = slug
+            dump_yaml(events_dir / f"{slug}.yaml", event_stub(events[qid], slug, today))
+            new_events += 1
+        return slugs[qid]
+
+    for p in rows:
+        a, b = item_id(p["from"], p["from_id"]), item_id(p["to"], p["to_id"])
+        d = link_yaml(p, a, b, today)
+        dump_yaml(links_dir / f"{d['id']}.yaml", d)
+    print(f"wrote {len(rows)} links to {rel(links_dir)} and {new_events} event stubs to {rel(events_dir)}")
+
+
+def lead_text(titles: list[str]) -> dict[str, str]:
+    """Plain-text leads of Wikipedia articles (after redirects), cached; for checking quotes."""
+    cache_path = CACHE / "leads.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    need = [t for t in titles if t not in cache]
+    for i in range(0, len(need), 20):
+        d = json.loads(get(ACTION, {"action": "query", "prop": "extracts", "exintro": 1, "explaintext": 1, "redirects": 1,
+                                    "titles": "|".join(need[i:i + 20]), "format": "json", "formatversion": 2, "exlimit": 20}))
+        q = d["query"]
+        back = {x["to"]: x["from"] for x in q.get("redirects", [])}
+        back.update({back.get(x["to"], x["to"]): x["from"] for x in q.get("normalized", [])})
+        for page in q["pages"]:
+            cache[back.get(page["title"], page["title"])] = page.get("extract", "")
+        cache_path.write_text(json.dumps(cache, ensure_ascii=False))
+    return {t: cache.get(t, "") for t in titles}
+
+
+def cmd_promote(args) -> None:
+    """Write a batch of mined links into data/, after its sample cleared the bar.
+
+    Scope "mapped": links whose part is already in data/, plus the larger events they name (written
+    from --events, a hand-written file of summaries and quotes), plus links among those."""
+    check = json.loads(Path(args.check).read_text(encoding="utf-8"))
+    marks = [(i["batch"], i["verdict"]) for i in check["items"]]
+    for b in args.batch:
+        got = [v for x, v in marks if x == b]
+        if not got or got.count("correct") / len(got) < check.get("bar", 0.95):
+            raise SystemExit(f"batch {b} did not clear the bar in {args.check}")
+    events = load_events(args.out)
+    known = known_items(args.root)
+    known.update(dict(m.split("=", 1) for m in args.map))
+    spec = yaml.safe_load(Path(args.events).read_text(encoding="utf-8")) if args.events else {}
+    rows = [p for p in read_jsonl(args.out / "candidates.jsonl") if p.get("batch") in args.batch and not p["in_data"]]
+    rows = [p for p in rows if p["to"] not in args.skip and p["from"] not in args.skip]
+    have = {k: known.get(k) for p in rows for k in (p["from"], p["to"])}
+    new = {p["to"] for p in rows if have[p["from"]] and not have[p["to"]]}
+    new |= {q for q in spec if q in events and not known.get(q)}   # a bridging parent named in --events
+    sel = [p for p in rows if (have[p["from"]] or p["from"] in new) and (have[p["to"]] or p["to"] in new)]
+    # A pair that says each is part of the other would loop; leave both out.
+    pairs = {(p["from"], p["to"]) for p in sel}
+    loops = [p for p in sel if (p["to"], p["from"]) in pairs]
+    sel = [p for p in sel if (p["to"], p["from"]) not in pairs]
+    missing = sorted(new - set(spec))
+    if missing:
+        raise SystemExit("no entry in --events for: " + ", ".join(f"{q} {events[q]['title']}" for q in missing))
+    # Every quote must be in the article's lead.
+    leads = lead_text([spec[q]["title"] for q in new])
+    bad = [(q, x) for q in new for x in spec[q]["quotes"] if " ".join(x.split()) not in " ".join(leads[spec[q]["title"]].split())]
+    if bad:
+        raise SystemExit("quotes not found in the lead:\n" + "\n".join(f"  {q}: {x}" for q, x in bad))
+    today = str(dt.date.today())
+    taken = {p.stem for p in (args.root / "data").glob("*/*.yaml")}
+    slugs = {}
+    for q in sorted(new):
+        e = spec[q]
+        base = slug = slugify(e["title"], str(e["occurred"]["start"]))
+        n = 2
+        while slug in taken:
+            slug, n = f"{base}-{n}", n + 1
+        taken.add(slug)
+        slugs[q] = slug
+        occurred = {k: str(v) if k in ("start", "end") else v for k, v in e["occurred"].items()}
+        d = {"id": slug, "title": e["title"], "summary": e["summary"], "occurred": occurred,
+             "threads": e["threads"], "regions": e["regions"], "importance": e["importance"], "wikidata": q,
+             "sources": [{"url": wiki_url(e["title"]), "title": e["title"], "publisher": "Wikipedia", "quote": x,
+                          "type": "reference", "accessed": today} for x in e["quotes"]],
+             "review": {"status": "sourced", "notes": [
+                 f"Added on {today} as the larger event named in a mined part_of link (batch {', '.join(args.batch)}). "
+                 "The summary was written from the article's lead, and every quote was checked against it; "
+                 "no person has checked this item."] + e.get("notes", [])}}
+        if not args.dry_run:
+            dump_yaml(args.root / "data" / "events" / f"{slug}.yaml", d)
+    ids = {**{q: known[q] for q in have if have[q]}, **slugs}
+    total = sum(1 for p in read_jsonl(args.out / "candidates.jsonl") if p.get("batch") in args.batch)
+    written = 0
+    for p in sel:
+        ev = p["evidence"][0]
+        a, b = ids[p["from"]], ids[p["to"]]
+        verb = {"part_of": "lists it as part of", "led_to": "says it contributed to", "influenced": "says it influenced"}[p["type"]]
+        d = {"id": f"{a}--{p['type']}--{b}", "from": a, "to": b, "type": p["type"], "confidence": "documented",
+             "note": f"The infobox of the Wikipedia article on {p['from_title']} {verb} {p['to_title']}."[:300]
+             if ev["cue"].startswith("infobox") else f"{ev['article']} (Wikipedia): \"{ev['cue']}\"."[:300],
+             "sources": [{"url": x["url"], "title": x["article"], "publisher": "Wikipedia", "quote": x["sentence"][:600],
+                          "type": "reference", "accessed": today} for x in p["evidence"][:2]],
+             "review": {"status": "sourced", "notes": [
+                 f"Mined by tools/wikimine.py and added on {today} with batch {p['batch']}, whose random sample cleared "
+                 f"the {check.get('bar', 0.95):.0%} bar ({Path(args.check).as_posix().split('staging/')[-1]}, "
+                 f"{sum(v == 'correct' for x, v in marks if x == p['batch'])} of {sum(x == p['batch'] for x, _ in marks)} "
+                 f"correct, from {total}). No person has checked this link itself."]}}
+        path = args.root / "data" / "links" / f"{d['id']}.yaml"
+        if path.exists():
+            continue
+        written += 1
+        if not args.dry_run:
+            dump_yaml(path, d)
+    print(f"{'would write' if args.dry_run else 'wrote'} {written} links and {len(new)} new events; "
+          f"left out {len(loops)} links that loop: " + "; ".join(f"{p['from_title']} <-> {p['to_title']}" for p in loops))
+
+
+def dump_yaml(path: Path, d: dict) -> None:
+    path.write_text(yaml.safe_dump(d, sort_keys=False, allow_unicode=True, width=110), encoding="utf-8")
+
+
+# --- command line -------------------------------------------------------------------------------
+
+def main(argv=None) -> None:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--out", type=Path, default=OUT, help="output folder (default staging/wikimine)")
+    ap.add_argument("--root", type=Path, default=ROOT, help=argparse.SUPPRESS)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("events", help="event articles with dates, from Wikidata")
+    p.add_argument("--from", dest="start", type=int, default=1900)
+    p.add_argument("--to", dest="end", type=int, default=dt.date.today().year + 1)
+    p.add_argument("--step", type=int, default=10, help="years per query (smaller if queries time out)")
+    p.add_argument("--classes", nargs="*", help=f"only these classes: {', '.join(CLASSES)}")
+    p.set_defaults(fn=cmd_events)
+
+    p = sub.add_parser("fetch", help="fetch the articles through the REST API")
+    p.add_argument("--limit", type=int, help="only the N articles with the most language versions")
+    p.add_argument("--min-sitelinks", type=int, default=0)
+    p.add_argument("--delay", type=float, default=0.5, help="seconds between requests")
+    p.add_argument("--html", action="store_true", help="rendered HTML, one request per article (slower, better quotes)")
+    p.add_argument("--workers", type=int, default=4, help="processes for parsing")
+    p.set_defaults(fn=cmd_fetch)
+
+    p = sub.add_parser("dump", help="read the articles from a downloaded multistream dump")
+    p.add_argument("--dump", type=Path, required=True, help="enwiki-...-pages-articles-multistream.xml.bz2")
+    p.add_argument("--index", type=Path, required=True, help="enwiki-...-pages-articles-multistream-index.txt.bz2")
+    p.add_argument("--workers", type=int, default=4)
+    p.set_defaults(fn=cmd_dump)
+
+    p = sub.add_parser("extract", help="connecting phrases -> candidate links")
+    p.add_argument("--offline", action="store_true", help="don't resolve redirects through the API")
+    p.set_defaults(fn=cmd_extract)
+
+    p = sub.add_parser("classify", help="optional: Claude checks each candidate (needs ANTHROPIC_API_KEY)")
+    g = p.add_mutually_exclusive_group(required=True)
+    g.add_argument("--now", type=int, metavar="N", help="check the top N right away (no batch)")
+    g.add_argument("--submit", action="store_true", help="send every candidate as a batch (half price)")
+    g.add_argument("--collect", action="store_true", help="wait for the batch and save the verdicts")
+    p.add_argument("--model", default="claude-opus-5-5")
+    p.add_argument("--effort", default="low", choices=["low", "medium", "high"])
+    p.add_argument("--min-score", type=int)
+    p.set_defaults(fn=cmd_classify)
+
+    p = sub.add_parser("sample", help="a random sample for a person to check, or score a checked one")
+    p.add_argument("--n", type=int, default=30, help="items per batch")
+    p.add_argument("--seed", type=int, default=1)
+    p.add_argument("--bar", type=float, default=0.95, help="share correct a batch's sample needs to go in")
+    p.add_argument("--score", metavar="FILE", help="score a checked sample (.md with ticked boxes, or .json verdicts)")
+    p.set_defaults(fn=cmd_sample)
+
+    p = sub.add_parser("promote", help="write a batch whose sample cleared the bar into data/")
+    p.add_argument("--batch", action="append", required=True)
+    p.add_argument("--check", required=True, help="the check record (staging/wikimine/checks/DATE.json)")
+    p.add_argument("--events", help="YAML of new events (summary, quotes, threads...) keyed by Wikidata id")
+    p.add_argument("--map", nargs="*", default=[], metavar="QID=ID", help="Wikidata ids of items in data/ that lack one")
+    p.add_argument("--skip", nargs="*", default=[], metavar="QID", help="leave out links touching these")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(fn=cmd_promote)
+
+    p = sub.add_parser("write", help="YAML link files (and event stubs) for review")
+    p.add_argument("--min-score", type=int, default=2)
+    p.add_argument("--raw", action="store_true", help="use candidates even if classified.jsonl exists")
+    p.add_argument("--keep-bad-dates", action="store_true")
+    p.set_defaults(fn=cmd_write)
+
+    args = ap.parse_args(argv)
+    args.out.mkdir(parents=True, exist_ok=True)
+    args.fn(args)
+
+
+if __name__ == "__main__":
+    main()

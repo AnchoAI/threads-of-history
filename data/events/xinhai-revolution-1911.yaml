@@ -1,0 +1,44 @@
+id: xinhai-revolution-1911
+title: 1911 Revolution
+summary: A revolution, sparked by the Wuchang Uprising, ends China's last imperial dynasty. The Republic
+  of China is declared on 1 January 1912 with Sun Yat-sen as president, and the emperor abdicates on 12
+  February 1912.
+occurred:
+  start: '1911-10-10'
+  end: '1912-02-12'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- qing-dynasty
+- republic-of-china-1912-1949
+- sun-yat-sen
+- yuan-shikai
+importance: 5
+wikidata: Q190517
+sources:
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: 10 October 1911 (1911-10-10) – 12 February 1912 (1912-02-12)
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: The 1911 Revolution, also known as the Xinhai Revolution or Hsinhai Revolution, culminated in
+    the end of China's last imperial dynasty, the Qing dynasty, and led to the establishment of the Republic
+    of China (ROC).
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1911_Revolution
+  title: 1911 Revolution
+  publisher: Wikipedia
+  quote: On 1 January 1912, the Advisory Council declared the establishment of the Republic of China,
+    with Sun Yat-sen, leader of the Tongmenghui, as President of the Republic of China.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

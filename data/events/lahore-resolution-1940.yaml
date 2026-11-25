@@ -1,0 +1,37 @@
+id: lahore-resolution-1940
+title: Lahore Resolution
+summary: At its session in Lahore, the All-India Muslim League adopts a resolution calling for "independent
+  states" in the Muslim-majority regions of British India. It became the founding statement of the Pakistan
+  Movement.
+occurred:
+  start: '1940-03-23'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- all-india-muslim-league
+- muhammad-ali-jinnah
+importance: 4
+wikidata: Q1800631
+sources:
+- url: https://en.wikipedia.org/wiki/Lahore_Resolution
+  title: Lahore Resolution
+  publisher: Wikipedia
+  quote: adopted by the All-India Muslim League on 23 March 1940, that served as the foundational basis
+    for the Pakistan Movement
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Lahore_Resolution
+  title: Lahore Resolution
+  publisher: Wikipedia
+  quote: calling for "independent states" in the Muslim-majority regions of British India
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'Not linked to partition-of-india-1947: no source found that states the resolution led to partition,
+    only that it was the basis of the Pakistan Movement.'

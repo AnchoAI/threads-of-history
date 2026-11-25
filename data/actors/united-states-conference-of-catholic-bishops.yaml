@@ -1,0 +1,22 @@
+id: united-states-conference-of-catholic-bishops
+title: United States Conference of Catholic Bishops
+actor_type: organization
+summary: American Catholic episcopal conference.
+threads:
+- religion
+regions:
+- americas
+importance: 2
+wikidata: Q2300423
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2300423.json
+  title: United States Conference of Catholic Bishops
+  publisher: Wikidata
+  quote: American Catholic episcopal conference
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

@@ -1,0 +1,23 @@
+id: first-taiwan-strait-crisis-1954--led_to--second-taiwan-strait-crisis-1958
+from: first-taiwan-strait-crisis-1954
+to: second-taiwan-strait-crisis-1958
+type: led_to
+confidence: documented
+note: The first crisis left its underlying issues unresolved, leading to another three years later.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Taiwan_Strait_Crisis
+  title: First Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: The fundamental issues of the conflict remained unresolved, which led to another crisis three years
+    later.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: The conflict was a continuation of the Chinese Civil War and First Taiwan Strait Crisis.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

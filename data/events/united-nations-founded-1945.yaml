@@ -1,0 +1,53 @@
+id: united-nations-founded-1945
+title: United Nations founded
+summary: Delegates of 50 countries draft the UN Charter at the San Francisco Conference (25 April to 26
+  June 1945) and sign it on 26 June. The United Nations comes into existence on 24 October 1945, once
+  the five permanent Security Council members and a majority of signatories have ratified it.
+occurred:
+  start: '1945-04-25'
+  end: '1945-10-24'
+  precision: day
+threads:
+- ww2
+regions:
+- americas
+actors:
+- united-nations
+- united-states
+- united-kingdom
+- soviet-union
+- france
+- republic-of-china-1912-1949
+importance: 4
+wikidata: Q171328
+sources:
+- url: https://www.un.org/en/about-us/history-of-the-un
+  archive_url: https://web.archive.org/web/20260831024327/https://www.un.org/en/about-us/history-of-the-un
+  title: History of the United Nations
+  publisher: United Nations
+  quote: Representatives of 50 countries gathered at the United Nations Conference on International Organization
+    in San Francisco, California from 25 April to 26 June 1945.
+  type: primary
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Charter_of_the_United_Nations
+  title: Charter of the United Nations
+  publisher: Wikipedia
+  quote: Following two-thirds approval of each part, the final text was unanimously adopted by delegates
+    and opened for signature on 26 June 1945; it was signed in San Francisco, California, United States,
+    by 50 of the 51 original member countries.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://www.un.org/en/about-us/history-of-the-un
+  archive_url: https://web.archive.org/web/20260831024327/https://www.un.org/en/about-us/history-of-the-un
+  title: History of the United Nations
+  publisher: United Nations
+  quote: Four months after the San Francisco Conference ended, the United Nations officially began, on
+    24 October 1945, when it came into existence after its Charter had been ratified by China, France,
+    the Soviet Union, the United Kingdom, the United States and by a majority of other signatories.
+  type: primary
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Wikidata Q171328 is the Charter of the United Nations; Q1504861 is the San Francisco Conference. This
+    item covers both the Charter and the founding.

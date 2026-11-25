@@ -1,0 +1,26 @@
+id: occupation-of-the-ruhr-1923--led_to--dawes-plan-1924
+from: occupation-of-the-ruhr-1923
+to: dawes-plan-1924
+type: led_to
+confidence: documented
+note: The Ruhr crisis led the Allies to re-examine the reparations schedule; the Dawes Plan ended the
+  crisis and the occupation.
+sources:
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: Ensuing events led the Allies to decide that the London Schedule needed to be re-examined. The
+    Ruhr occupation had heightened tension between France and Germany.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: it ended the crisis in European diplomacy that occurred after French and Belgian troops occupied
+    the Ruhr
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

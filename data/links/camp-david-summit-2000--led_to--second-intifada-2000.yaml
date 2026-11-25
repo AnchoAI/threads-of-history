@@ -1,0 +1,90 @@
+id: camp-david-summit-2000--led_to--second-intifada-2000
+from: camp-david-summit-2000
+to: second-intifada-2000
+type: led_to
+confidence: contested
+note: Whether the failed summit was the immediate cause of a planned uprising, or the uprising was a spontaneous
+  reaction to Sharon's Temple Mount visit and Israel's response, is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/Oslo_Accords
+  archive_url: https://web.archive.org/web/20261010073604/https://en.wikipedia.org/wiki/Oslo_Accords
+  title: Oslo Accords
+  publisher: Wikipedia
+  quote: After the failure of the Summit, the Second Intifada broke out and the "peace process" reached a deadlock.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Second_Intifada
+  archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+  title: Second Intifada
+  publisher: Wikipedia
+  quote: Palestinians have claimed that Sharon's visit was the beginning of the Second Intifada, while others
+    have claimed that Yasser Arafat had pre-planned the uprising.
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: The collapse of Camp David was the immediate catalyst, and the violence was planned by the Palestinian
+    Authority leadership.
+  held_by:
+  - Government of Israel (submission to the Mitchell Report)
+  - Mahmoud al-Zahar (Hamas leader, 2010)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: The immediate catalyst for the violence was the breakdown of the Camp David negotiations on July
+      25, 2000, and the "widespread appreciation in the international community of Palestinian responsibility
+      for the impasse".
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: Support for the idea that Arafat planned the uprising comes from Hamas leader Mahmoud al-Zahar
+    type: reference
+    accessed: '2026-10-15'
+- claim: The uprising was not planned; it was a reaction to Sharon's visit and to Israel's excessive use of
+    force against demonstrators.
+  held_by:
+  - Palestine Liberation Organization (submission to the Mitchell Report)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: The Palestine Liberation Organization, according to the same report, denied that the Intifada was
+      planned
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: From the perspective of the PLO, Israel responded to the disturbances with excessive and illegal
+      use of deadly force against demonstrators
+    type: reference
+    accessed: '2026-10-15'
+- claim: Neither side planned the violence; Sharon's visit did not cause it but was provocative and poorly
+    timed.
+  held_by:
+  - Sharm el-Sheikh Fact-Finding Committee (Mitchell Report, 2001)
+  sources:
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: The Sharon visit did not cause the "Al-Aqsa Intifada". But it was poorly timed and the provocative
+      effect should have been foreseen
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Second_Intifada
+    archive_url: https://web.archive.org/web/20261003220255/https://en.wikipedia.org/wiki/Second_Intifada
+    title: Second Intifada
+    publisher: Wikipedia
+    quote: We have no basis on which to conclude that there was a deliberate plan by the PA to initiate a campaign
+      of violence at the first opportunity
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced

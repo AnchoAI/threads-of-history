@@ -1,0 +1,39 @@
+id: sullivan-advises-against-admitting-shah-1979
+title: Sullivan advises against admitting the Shah to the US
+summary: Asked by Secretary of State Vance in February 1979, after militants briefly held the embassy, Ambassador
+  Sullivan advised that admitting the Shah to the United States was not a sound idea for embassy security or for
+  relations with Iran's new government.
+occurred:
+  start: 1979-02
+  precision: month
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- william-h-sullivan
+- cyrus-vance
+- united-states
+importance: 2
+source_credibility: high
+outcome: confirmed
+resolves_to: iran-hostage-crisis-1979
+wikidata: none
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: A query from Secretary of State Cyrus Vance to Ambassador Sullivan requesting the latter’s opinion on the
+    shah’s admission had brought a negative response, with the envoy advising that it was not a sound idea in terms
+    either of embassy security or the improving political relationship between the two countries.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Month from the context of Daugherty's account (between the 14 February embassy takeover and the 23 February
+    SCC meeting); the cable itself was not found.

@@ -1,0 +1,58 @@
+id: murphy-report-2009
+title: Murphy Report on the Archdiocese of Dublin
+wikidata: Q1375112
+summary: An Irish commission of investigation led by Judge Yvonne Murphy reports that, at least until
+  the mid-1990s, the Archdiocese of Dublin's priorities in handling child sexual abuse cases were secrecy,
+  avoiding scandal and protecting the Church's reputation and assets, and that archbishops and bishops
+  did not report complaints to the Gardaí before 1996.
+occurred:
+  start: '2009-11-26'
+  precision: day
+threads:
+- scandals
+- religion
+regions:
+- western-europe
+actors:
+- ireland
+- catholic-church
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: This report was publicly released on 26 November 2009.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: the Dublin Archdiocese's preoccupations in dealing with cases of child sexual abuse, at least
+    until the mid-1990s, were the maintenance of secrecy, the avoidance of scandal, the protection of
+    the reputation of the Church, and the preservation of its assets.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: the failure of successive Archbishops and bishops to report complaints to the Gardaí prior to
+    1996.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Murphy_Report
+  archive_url: https://web.archive.org/web/20260921034238/https://en.wikipedia.org/wiki/Murphy_Report
+  title: Murphy Report
+  publisher: Wikipedia
+  quote: It was released in 2009 by Judge Yvonne Murphy
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - Following the report, four auxiliary or former auxiliary bishops of Dublin offered their resignations
+    in late 2009 (Wikipedia); not added as a separate item.

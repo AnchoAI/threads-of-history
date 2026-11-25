@@ -1,0 +1,29 @@
+id: natural-earth
+title: Natural Earth Admin 0 – Countries (1:50m)
+publisher: Natural Earth (North American Cartographic Information Society)
+url: https://www.naturalearthdata.com/
+download_url: https://naciscdn.org/naturalearth/50m/cultural/ne_50m_admin_0_countries.zip
+version: 'as downloaded 2026-10-18 (the importer records the file hash)'
+license:
+  name: Public domain
+  url: https://www.naturalearthdata.com/about/terms-of-use/
+  redistribution: allowed
+  attribution: Not required ("Crediting the authors is unnecessary"); credited anyway in docs.
+citation: 'Natural Earth. Free vector and raster map data @ naturalearthdata.com.'
+unit_of_analysis: other
+coverage:
+  start: '2026'
+  precision: year
+  note: Current borders only. Used to derive which countries share a land border, not as a country-year table.
+importer: tools/importers/natural_earth_neighbours.py
+notes:
+- 'Licence, quoted from https://www.naturalearthdata.com/about/terms-of-use/ (archived at https://web.archive.org/web/20261018114120/https://www.naturalearthdata.com/about/terms-of-use/):
+  "All versions of Natural Earth raster + vector map data found on this website are in the public domain."'
+- 'Same page: "No permission is needed to use Natural Earth. Crediting the authors is unnecessary."'
+- The citation line is our own wording; the terms page gives none.
+- Borders are today's. For years when a federation existed (the USSR, Yugoslavia, Czechoslovakia), the forecasting code
+  treats the federation's neighbours as the union of its members' neighbours.
+review:
+  status: sourced
+  notes:
+  - Licence checked word for word against the terms page on 2026-10-18.

@@ -1,0 +1,18 @@
+id: fall-of-france-1940--led_to--battle-of-britain-1940
+from: fall-of-france-1940
+to: battle-of-britain-1940
+type: led_to
+confidence: documented
+note: Germany's rapid defeat of France left Britain facing the threat of invasion, which the air battle
+  was fought to decide.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Britain
+  archive_url: https://web.archive.org/web/20261001163121/https://en.wikipedia.org/wiki/Battle_of_Britain
+  title: Battle of Britain
+  publisher: Wikipedia
+  quote: The Germans had rapidly overwhelmed France and the Low Countries in the Battle of France, leaving
+    Britain to face the threat of invasion by sea.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

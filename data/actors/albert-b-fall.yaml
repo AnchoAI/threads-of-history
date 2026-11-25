@@ -1,0 +1,20 @@
+id: albert-b-fall
+title: Albert B. Fall
+actor_type: person
+summary: American politician (1861–1944).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q1397640
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1397640.json
+  title: Albert B. Fall
+  publisher: Wikidata
+  quote: American politician (1861–1944)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

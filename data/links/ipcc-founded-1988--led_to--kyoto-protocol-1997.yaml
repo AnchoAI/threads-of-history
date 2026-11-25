@@ -1,0 +1,18 @@
+id: ipcc-founded-1988--led_to--kyoto-protocol-1997
+from: ipcc-founded-1988
+to: kyoto-protocol-1997
+type: led_to
+confidence: documented
+note: The IPCC's Second Assessment Report (1995) gave governments material for adopting the Kyoto Protocol.
+sources:
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: The Second Assessment Report (SAR) (1995) provided important material for governments to draw from in the
+    run-up to adoption of the Kyoto Protocol in 1997.
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

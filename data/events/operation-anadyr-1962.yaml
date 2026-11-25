@@ -1,0 +1,67 @@
+id: operation-anadyr-1962
+title: 'Operation Anadyr: Soviet missiles sent secretly to Cuba'
+summary: The Soviet Union's secret 1962 operation to deploy ballistic missiles, medium-range bombers and
+  a mechanized infantry division to Cuba, after a July 1962 agreement between Khrushchev and Castro. Khrushchev
+  gave final approval to the deployment plan in early July. Its discovery by the United States set off
+  the Cuban Missile Crisis.
+occurred:
+  start: '1962-07'
+  end: '1962-10'
+  precision: month
+threads:
+- cuba
+- nuclear
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- nikita-khrushchev
+- fidel-castro
+- soviet-union
+importance: 4
+wikidata: Q1931877
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Anadyr
+  archive_url: https://web.archive.org/web/20261014173224/https://en.wikipedia.org/wiki/Operation_Anadyr
+  title: Operation Anadyr
+  publisher: Wikipedia
+  quote: 'Operation Anadyr (Russian: Анадырь) was the code name used by the Soviet Union for its Cold
+    War secret operation in 1962 of deploying ballistic missiles, medium-range bombers, and a division
+    of mechanized infantry to Cuba'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Operation_Anadyr
+  archive_url: https://web.archive.org/web/20261014173224/https://en.wikipedia.org/wiki/Operation_Anadyr
+  title: Operation Anadyr
+  publisher: Wikipedia
+  quote: Malinovsky approved this deployment plan on July 4, and Khrushchev gave his final approval three
+    days later.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: in July 1962 Soviet premier Nikita Khrushchev reached a secret agreement with Cuban premier Fidel
+    Castro to place Soviet nuclear missiles in Cuba to deter any future invasion attempt.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Operation_Anadyr
+  archive_url: https://web.archive.org/web/20261014173224/https://en.wikipedia.org/wiki/Operation_Anadyr
+  title: Operation Anadyr
+  publisher: Wikipedia
+  quote: However, part of it was foiled when the United States discovered the plan, prompting the Cuban
+    Missile Crisis.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'Dates: the Office of the Historian says the Khrushchev–Castro agreement was reached in July 1962;
+    Wikipedia gives Khrushchev''s final approval of the plan three days after 4 July. The end month (October,
+    when the missiles were discovered) is an editorial bound.'
+  - Moscow's own records (the Presidium decisions of May 1962, on the Wilson Center Digital Archive) could
+    not be reached from this sandbox; add them as primary sources.

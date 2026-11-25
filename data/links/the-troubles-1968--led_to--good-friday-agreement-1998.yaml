@@ -1,0 +1,22 @@
+id: the-troubles-1968--led_to--good-friday-agreement-1998
+from: the-troubles-1968
+to: good-friday-agreement-1998
+type: led_to
+confidence: documented
+note: The peace process to end the Troubles led to ceasefires, talks and the Good Friday Agreement.
+sources:
+- url: https://en.wikipedia.org/wiki/The_Troubles
+  title: The Troubles
+  publisher: Wikipedia
+  quote: The Northern Ireland peace process led to paramilitary ceasefires and talks between the main
+    political parties, resulting in the Good Friday Agreement of 1998.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Good_Friday_Agreement
+  title: Good Friday Agreement
+  publisher: Wikipedia
+  quote: that ended most of the violence of the Troubles
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

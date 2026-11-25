@@ -1,0 +1,37 @@
+id: mexican-constitution-1917
+title: Mexican Constitution of 1917
+summary: A constituent congress in Querétaro approves Mexico's new constitution. Its Article 27 gave the
+  state power to expropriate foreign-owned resources and enabled land reform, and Article 123 protected
+  organised labour.
+occurred:
+  start: '1917-02-05'
+  precision: day
+threads:
+- empire
+regions:
+- americas
+actors:
+- mexico
+importance: 3
+wikidata: Q2170072
+sources:
+- url: https://en.wikipedia.org/wiki/Constitution_of_Mexico
+  title: Constitution of Mexico
+  publisher: Wikipedia
+  quote: was drafted in Santiago de Querétaro, in the State of Querétaro, Mexico, by a constituent convention
+    during the Mexican Revolution. It was approved by the Constituent Congress on 5 February 1917
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: The Mexican Constitution of 1917 was strongly nationalist, giving the government the power to
+    expropriate foreign ownership of resources and enabling land reform (Article 27). It also had a strong
+    code protecting organized labor (Article 123)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - Wikidata Q2170072 is the constitution (the document), used here for its adoption.

@@ -1,0 +1,30 @@
+id: covid-19-pandemic-2019--led_to--inflation-surge-2021
+from: covid-19-pandemic-2019
+to: inflation-surge-2021
+type: led_to
+confidence: documented
+note: The surge followed the pandemic and is attributed to its disruptions and to the stimulus that answered
+  it.
+sources:
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: Following the start of the COVID-19 pandemic in 2020, a worldwide surge in inflation began in
+    mid-2021 and lasted until mid-2022.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: It has been attributed to various causes, including pandemic-related economic dislocation, supply
+    chain disruptions, the fiscal and monetary stimulus provided in 2020 and 2021 by governments and central
+    banks around the world in response to the pandemic, and price gouging.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The weight of supply disruption against stimulus is debated; both trace back to the pandemic, so the
+    link itself is not marked contested.

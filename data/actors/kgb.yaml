@@ -1,0 +1,21 @@
+id: kgb
+title: KGB
+actor_type: organization
+summary: Main Soviet security agency from 1954 to 1991.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q80919
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q80919.json
+  title: KGB
+  publisher: Wikidata
+  quote: main Soviet security agency from 1954 to 1991
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

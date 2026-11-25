@@ -1,0 +1,31 @@
+id: iran-crisis-1946--led_to--truman-doctrine-1947
+from: iran-crisis-1946
+to: truman-doctrine-1947
+type: led_to
+confidence: documented
+note: The Soviet refusal to leave northern Iran was one of the 1946 setbacks that influenced Truman's
+  decision.
+sources:
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: a number of other foreign policy problems also influenced President Truman’s decision to actively
+    aid Greece and Turkey
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/truman-doctrine
+  title: The Truman Doctrine, 1947
+  publisher: Office of the Historian, US Department of State
+  quote: the Soviets’ failure to withdraw their troops from northern Iran in early 1946
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  archive_url: https://web.archive.org/web/20260907103855/https://en.wikipedia.org/wiki/Iran_crisis_of_1946
+  title: Iran crisis of 1946
+  publisher: Wikipedia
+  quote: The United States pressure on the Soviet Union to withdraw is the earliest evidence of success
+    with what would become the new strategy of the Truman Doctrine and containment.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

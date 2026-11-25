@@ -1,0 +1,47 @@
+id: jewish-exodus-from-the-muslim-world-1948
+title: Jewish exodus from Arab and Muslim countries
+summary: About 900,000 Jews migrated, fled or were expelled from Muslim-majority countries in the 20th century,
+  mostly between 1948 and the early 1970s, after Israel was established. The source lists both pull factors
+  (Zionism, economic prospects, Israeli recruitment) and push factors (antisemitic violence, instability, expulsion);
+  whether those who left were refugees is disputed.
+occurred:
+  start: '1948'
+  end: '1980'
+  precision: year
+threads:
+- mideast
+- migration
+regions:
+- middle-east-north-africa
+actors:
+- israel
+importance: 3
+wikidata: Q276172
+sources:
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: Approximately 900,000 Jews migrated, fled, or were expelled from Muslim-majority countries throughout
+    Africa and Asia in the 20th century, primarily after the establishment of the State of Israel.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: The mass movement mainly transpired from 1948 to the early 1970s, with one final exodus of Iranian
+    Jews occurring shortly after the Islamic Revolution in 1979–1980.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Jewish_exodus_from_the_Muslim_world
+  title: Jewish exodus from the Muslim world
+  publisher: Wikipedia
+  quote: Those who view the Jewish exodus as analogous to the 1948 Palestinian expulsion and flight generally
+    emphasize the push factors and consider those who left to have been refugees, while those who oppose that
+    view generally emphasize the pull factors and consider the Jews to have been willing emigrants.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The reasons varied greatly by country (the source contrasts Iraq and Yemen with Morocco, Algeria and Tunisia).
+    Consider splitting into national sub-events with part_of links.

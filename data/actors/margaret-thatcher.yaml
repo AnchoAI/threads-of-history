@@ -1,0 +1,21 @@
+id: margaret-thatcher
+title: Margaret Thatcher
+actor_type: person
+summary: Prime Minister of the United Kingdom from 1979 to 1990.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q7416
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7416.json
+  title: Margaret Thatcher
+  publisher: Wikidata
+  quote: Prime Minister of the United Kingdom from 1979 to 1990
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,56 @@
+id: diriyah-pact-1744
+title: Pact between Muhammad ibn Abd al-Wahhab and Muhammad bin Saud
+summary: The emir of Diriyah, Muhammad bin Saud, and the cleric Muhammad ibn Abd al-Wahhab agreed that the Al Saud
+  would lead in political and military matters and Ibn Abd al-Wahhab in religious ones. Most sources date the pact
+  to 1744; some give 1745.
+occurred:
+  start: '1744'
+  precision: year
+  approximate: true
+  note: Some sources give 1745.
+threads:
+- religion
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- muhammad-bin-saud
+- muhammad-ibn-abd-al-wahhab
+importance: 5
+wikidata: Q22929826
+sources:
+- url: https://en.wikipedia.org/wiki/Diriyah_Pact
+  archive_url: https://web.archive.org/web/20260307053722/https://en.wikipedia.org/wiki/Diriyah_Pact
+  title: Diriyah pact
+  publisher: Wikipedia
+  quote: The Diriyah pact was an agreement signed between the Emir of Diriyah, Muhammad bin Saud, and Muhammad bin
+    Abdul-Wahhab in the year 1744.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: The agreement was confirmed with a mutual oath of loyalty (bay'ah) in 1744.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: Ibn 'Abd al-Wahhab would be responsible for religious matters and Ibn Saud in charge of political and military
+    issues.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  archive_url: https://web.archive.org/web/20260925201041/https://en.wikipedia.org/wiki/Muhammad_ibn_Abd_al-Wahhab
+  title: Muhammad ibn Abd al-Wahhab
+  publisher: Wikipedia
+  quote: The 1745 pact between Muhammad ibn Saud and Muhammad ibn ʿAbd al-Wahhab marked the rise of the First Saudi
+    state
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

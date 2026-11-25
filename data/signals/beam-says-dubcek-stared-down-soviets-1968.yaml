@@ -1,0 +1,60 @@
+id: beam-says-dubcek-stared-down-soviets-1968
+title: 'US Embassy Prague: Dubček stared down the Soviet threat'
+summary: On 4 August 1968, after Čierna and Bratislava, Ambassador Jacob Beam reported that the Dubček leadership
+  could "take considerable credit for saving its skin at Cierna and for staring down the Soviet threat of force",
+  while warning that the Bratislava Declaration gave a possible future justification for intervention.
+occurred:
+  start: '1968-08-04'
+  precision: day
+threads:
+- usru
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+- americas
+actors:
+- jacob-d-beam
+- alexander-dubcek
+- united-states
+importance: 2
+source_credibility: medium
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  archive_url: https://web.archive.org/web/20260518141104/https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  title: 'FRUS 1964–1968, vol. XVII, doc. 77: Telegram from the Embassy in Czechoslovakia, "Assessment of Czech-Soviet
+    confrontation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-04'
+  quote: Dubcek regime can take considerable credit for saving its skin at Cierna and for staring down the
+    Soviet threat of force.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  archive_url: https://web.archive.org/web/20260518141104/https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  title: 'FRUS 1964–1968, vol. XVII, doc. 77: Telegram from the Embassy in Czechoslovakia, "Assessment of Czech-Soviet
+    confrontation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-04'
+  quote: The passing of this latest crisis will assuredly be welcomed with relief here
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  archive_url: https://web.archive.org/web/20260518141104/https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  title: 'FRUS 1964–1968, vol. XVII, doc. 77: Telegram from the Embassy in Czechoslovakia, "Assessment of Czech-Soviet
+    confrontation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-04'
+  quote: International obligation of all to defend socialist achievements, which provides possible future justification
+    for intervention in Czechoslovakia
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - outcome is false for the main judgement (that the threat of force had been faced down); the cable also
+    flagged the risk that came true. A reviewer may prefer to split this.

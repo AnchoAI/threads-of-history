@@ -1,0 +1,27 @@
+id: magna-carta-1215--led_to--us-bill-of-rights-1791
+from: magna-carta-1215
+to: us-bill-of-rights-1791
+type: led_to
+confidence: documented
+note: James Madison drew on Magna Carta for the rights to petition and to trial by jury when drafting
+  the amendments.
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  title: United States Bill of Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009110822/https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+  quote: The English Magna Carta of 1215 inspired the right to petition and to trial by jury
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.archives.gov/exhibits/featured-documents/magna-carta/legacy.html
+  title: Magna Carta and Its American Legacy
+  publisher: U.S. National Archives
+  quote: the charter established important individual rights that have a direct legacy in the American
+    Bill of Rights
+  type: primary
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The Magna Carta article notes that American colonists held an "anachronistic interpretation" of the
+    charter; the influence is on how it was read, not on its 1215 meaning.

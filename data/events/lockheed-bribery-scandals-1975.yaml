@@ -1,0 +1,75 @@
+id: lockheed-bribery-scandals-1975
+title: Lockheed bribery scandals
+summary: In 1975–76 a US Senate subcommittee led by Frank Church concluded that Lockheed had paid officials of friendly
+  governments to win aircraft contracts; it was revealed in 1976 that Lockheed had paid $22 million in bribes to
+  foreign officials. Its chairman and president resigned in February 1976, and the scandal caused political controversy
+  in West Germany, Italy, the Netherlands and Japan.
+occurred:
+  start: '1975'
+  end: '1978'
+  precision: year
+  note: From the Senate hearings of late 1975 to the Italian president's resignation in June 1978.
+threads:
+- scandals
+- industry
+regions:
+- americas
+- east-asia
+- western-europe
+actors:
+- lockheed-corporation
+- japan
+- west-germany
+- united-states
+importance: 3
+wikidata: Q708687
+sources:
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: In late 1975 and early 1976, a subcommittee of the U.S. Senate led by Senator Frank Church concluded that
+    members of the Lockheed board had paid members of friendly governments to guarantee contracts for military aircraft.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: In 1976, it was revealed that Lockheed had paid $22 million in bribes to foreign officials in the process
+    of negotiating the sale of aircraft, including the F-104 Starfighter, the so-called "Deal of the Century".
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: Lockheed chairman of the board Daniel Haughton and vice chairman and president Carl Kotchian resigned from
+    their posts on February 13, 1976.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The scandal caused considerable political controversy in West Germany, Italy, the Netherlands, and Japan.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The allegations of bribery were supported by political magazine L'Espresso, and targeted former Cabinet
+    ministers Luigi Gui and Mario Tanassi, the former Prime Minister Mariano Rumor and President Giovanni Leone,
+    forcing him to resign on June 15, 1978.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Only Wikipedia was used; the Senate Subcommittee on Multinational Corporations hearing records (February 1976)
+    would be stronger.
+  - The West German allegations (Ernest Hauser's claims about Franz Josef Strauss, which Strauss denied) are not
+    entered as a signal yet; their outcome needs a source.

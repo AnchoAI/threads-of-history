@@ -1,0 +1,25 @@
+id: tehran-conference-1943--led_to--soviet-declaration-of-war-on-japan-1945
+from: tehran-conference-1943
+to: soviet-declaration-of-war-on-japan-1945
+type: led_to
+confidence: documented
+note: Stalin first agreed at Tehran to enter the war against Japan once Germany was defeated; the details
+  were settled at Yalta.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/tehran-conf
+  title: The Tehran Conference, 1943
+  publisher: US Department of State, Office of the Historian
+  quote: Stalin also agreed in principle that the Soviet Union would declare war against Japan following
+    an Allied victory over Germany.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Surrender_of_Japan
+  title: Surrender of Japan
+  publisher: Wikipedia
+  quote: the Soviets were covertly preparing to attack Japanese forces in Manchuria and Korea (in addition
+    to South Sakhalin and the Kuril Islands) in fulfillment of promises they had secretly made to the
+    US and the UK at the Tehran and Yalta Conferences.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

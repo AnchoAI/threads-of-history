@@ -1,0 +1,17 @@
+id: sullivan-thinking-the-unthinkable-1978--signal_of--shah-leaves-iran-1979
+from: sullivan-thinking-the-unthinkable-1978
+to: shah-leaves-iran-1979
+type: signal_of
+confidence: documented
+note: Sullivan urged planning for the Shah's abdication two months before he left.
+sources:
+- url: https://nsarchive.gwu.edu/media/18195/ocr
+  archive_url: https://web.archive.org/web/20240709105408/https://nsarchive.gwu.edu/media/18195/ocr
+  title: US Embassy Tehran (Sullivan) cable, "Thinking the Unthinkable", 9 November 1978 (transcription)
+  publisher: US Embassy Tehran, via the National Security Archive
+  date: '1978-11-09'
+  quote: However if it should fail and if the Shah should abdicate we need to think the unthinkable at this time
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

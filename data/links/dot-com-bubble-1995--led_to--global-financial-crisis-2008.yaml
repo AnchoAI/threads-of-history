@@ -1,0 +1,78 @@
+id: dot-com-bubble-1995--led_to--global-financial-crisis-2008
+from: dot-com-bubble-1995
+to: global-financial-crisis-2008
+type: led_to
+confidence: contested
+note: The Fed cut rates sharply after the dot-com crash; whether the low rates fed the housing bubble
+  behind the 2008 crisis is disputed.
+sources:
+- url: https://en.wikipedia.org/wiki/2008_financial_crisis
+  title: 2008 financial crisis
+  publisher: Wikipedia
+  quote: From 2000 to 2003, the Federal Reserve lowered the federal funds rate target from 6.5% to 1.0%.
+    This was done to soften the effects of the collapse of the dot-com bubble and the September 11 attacks,
+    as well as to combat a perceived risk of deflation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://www.federalreserve.gov/newsevents/speech/bernanke20100103a.htm
+  title: Monetary Policy and the Housing Bubble
+  publisher: Board of Governors of the Federal Reserve System (Ben S. Bernanke)
+  date: '2010-01-03'
+  quote: Some observers have assigned monetary policy a central role in the crisis.
+  type: primary
+  accessed: '2026-10-15'
+positions:
+- claim: The Fed kept interest rates too low for too long after the dot-com crash, and this directly fuelled
+    the housing boom whose collapse caused the crisis.
+  held_by:
+  - John B. Taylor
+  sources:
+  - url: https://en.wikipedia.org/wiki/John_B._Taylor
+    archive_url: https://web.archive.org/web/20260922071131/https://en.wikipedia.org/wiki/John_B._Taylor
+    title: John B. Taylor
+    publisher: Wikipedia
+    quote: Particularly, he focuses on the Federal Reserve which, under Alan Greenspan, a personal friend
+      of Taylor, created "monetary excesses" in which interest rates were kept too low for too long, which
+      then directly led to the housing boom in his opinion.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://www.federalreserve.gov/newsevents/speech/bernanke20100103a.htm
+    title: Monetary Policy and the Housing Bubble
+    publisher: Board of Governors of the Federal Reserve System (Ben S. Bernanke)
+    date: '2010-01-03'
+    quote: The comparison displayed in Slide 3 provides the most commonly cited evidence that monetary
+      policy was too easy during the period from 2002 to 2006, as the actual federal funds rate is below
+      the values implied by the Taylor rule--by about 200 basis points on average over this five-year
+      period (Taylor, 2007).
+    type: primary
+    accessed: '2026-10-15'
+- claim: Monetary policy after 2001 was broadly appropriate and explains only a small part of the house-price
+    rise; exotic mortgages and weak underwriting, and a global saving glut, mattered more, so the right
+    response was regulatory.
+  held_by:
+  - Ben Bernanke (Federal Reserve chairman, speech of 3 January 2010)
+  sources:
+  - url: https://www.federalreserve.gov/newsevents/speech/bernanke20100103a.htm
+    title: Monetary Policy and the Housing Bubble
+    publisher: Board of Governors of the Federal Reserve System (Ben S. Bernanke)
+    date: '2010-01-03'
+    quote: only a small portion of the increase in house prices earlier this decade can be attributed
+      to the stance of U.S. monetary policy
+    type: primary
+    accessed: '2026-10-15'
+  - url: https://www.federalreserve.gov/newsevents/speech/bernanke20100103a.htm
+    title: Monetary Policy and the Housing Bubble
+    publisher: Board of Governors of the Federal Reserve System (Ben S. Bernanke)
+    date: '2010-01-03'
+    quote: That conclusion suggests that the best response to the housing bubble would have been regulatory,
+      not monetary.
+    type: primary
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/2008_financial_crisis
+    title: 2008 financial crisis
+    publisher: Wikipedia
+    quote: Ben Bernanke referred to this as a "saving glut".
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced

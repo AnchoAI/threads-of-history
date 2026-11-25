@@ -1,0 +1,21 @@
+id: thirty-years-war-1618--led_to--peace-of-westphalia-1648
+from: thirty-years-war-1618
+to: peace-of-westphalia-1648
+type: led_to
+confidence: documented
+note: The war ended with the Peace of Westphalia.
+sources:
+- url: https://en.wikipedia.org/wiki/Thirty_Years%27_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: Fighting ended with the 1648 Peace of Westphalia
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Peace_of_Westphalia
+  title: Peace of Westphalia
+  publisher: Wikipedia
+  quote: They ended the Thirty Years' War (1618–1648)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

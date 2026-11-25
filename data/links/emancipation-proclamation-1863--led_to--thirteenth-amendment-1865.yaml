@@ -1,0 +1,28 @@
+id: emancipation-proclamation-1863--led_to--thirteenth-amendment-1865
+from: emancipation-proclamation-1863
+to: thirteenth-amendment-1865
+type: led_to
+confidence: documented
+note: Because the proclamation was a war measure that could be reversed, Lincoln and abolitionists pushed a constitutional
+  amendment to make abolition permanent.
+sources:
+- url: https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  archive_url: https://web.archive.org/web/20261010140343/https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  title: Thirteenth Amendment to the United States Constitution
+  publisher: Wikipedia
+  quote: President Lincoln had had concerns that the Emancipation Proclamation of 1863 might be reversed or found
+    invalid by the judiciary after the war. He saw constitutional amendment as a more permanent solution.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  archive_url: https://web.archive.org/web/20261010140343/https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  title: Thirteenth Amendment to the United States Constitution
+  publisher: Wikipedia
+  quote: To ensure that abolition was beyond legal challenge, an amendment to the Constitution to that effect was
+    drafted.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

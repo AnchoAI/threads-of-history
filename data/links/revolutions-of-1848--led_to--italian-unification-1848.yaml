@@ -1,0 +1,16 @@
+id: revolutions-of-1848--led_to--italian-unification-1848
+from: revolutions-of-1848
+to: italian-unification-1848
+type: led_to
+confidence: documented
+note: The unification of Italy was set in motion by the revolutions of 1848.
+sources:
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: the unification process was precipitated by the Revolutions of 1848
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

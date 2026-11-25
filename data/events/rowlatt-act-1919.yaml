@@ -1,0 +1,39 @@
+id: rowlatt-act-1919
+title: Rowlatt Act passed
+summary: The Imperial Legislative Council passes the Rowlatt Act over the opposition of its Indian members,
+  extending wartime powers of detention and imprisonment without trial. Gandhi called for satyagraha against
+  it.
+occurred:
+  start: '1919-03-18'
+  precision: day
+threads:
+- empire
+regions:
+- south-central-asia
+actors:
+- british-raj
+- mahatma-gandhi
+importance: 2
+wikidata: Q2006357
+sources:
+- url: https://en.wikipedia.org/wiki/Rowlatt_Act
+  archive_url: https://web.archive.org/web/20260821020407/https://en.wikipedia.org/wiki/Rowlatt_act
+  title: Rowlatt Act
+  publisher: Wikipedia
+  quote: was an act passed by the Imperial Legislative Council in Delhi on 18 March 1919 to strong opposition
+    of its Indian members, indefinitely extending the emergency measures of preventive indefinite detention,
+    imprisonment without trial
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Rowlatt_Act
+  archive_url: https://web.archive.org/web/20260821020407/https://en.wikipedia.org/wiki/Rowlatt_act
+  title: Rowlatt Act
+  publisher: Wikipedia
+  quote: Mahatma Gandhi called upon the people to perform Satyagraha against this act.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

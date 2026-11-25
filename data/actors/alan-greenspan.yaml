@@ -1,0 +1,22 @@
+id: alan-greenspan
+title: Alan Greenspan
+actor_type: person
+summary: American economist and financial advisor (1926–2026).
+threads:
+- econ-crises
+regions:
+- americas
+importance: 3
+wikidata: Q193635
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q193635.json
+  title: Alan Greenspan
+  publisher: Wikidata
+  quote: American economist and financial advisor (1926–2026)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

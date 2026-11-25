@@ -1,0 +1,19 @@
+id: kosovo-war-1998--part_of--yugoslav-wars-1991
+from: kosovo-war-1998
+to: yugoslav-wars-1991
+type: part_of
+confidence: documented
+note: The Kosovo War is listed among the Yugoslav Wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Yugoslav_Wars
+  title: Yugoslav Wars
+  publisher: Wikipedia
+  quote: 'Kosovo War:'
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.
+  - The quote is the infobox heading listing the Kosovo War as a phase of the Yugoslav Wars; a fuller
+    sentence would be better.

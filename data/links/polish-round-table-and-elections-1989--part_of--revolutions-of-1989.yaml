@@ -1,0 +1,20 @@
+id: polish-round-table-and-elections-1989--part_of--revolutions-of-1989
+from: polish-round-table-and-elections-1989
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: Poland's 1989 election was the first step in the fall of the communist governments.
+sources:
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: On 4 June 1989, Poland conducted the first elections that led to the dissolution of the communist
+    government, with Solidarity winning an overwhelming victory, leading to the peaceful fall of communism
+    in Poland.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

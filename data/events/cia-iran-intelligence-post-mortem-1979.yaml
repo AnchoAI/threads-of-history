@@ -1,0 +1,72 @@
+id: cia-iran-intelligence-post-mortem-1979
+title: CIA post-mortem on its Iran analysis (Devlin–Jervis report)
+summary: A June 1979 internal review by John Devlin and Robert Jervis for CIA's National Foreign Assessment Center
+  found that NFAC failed to anticipate events in Iran from late 1977 to late 1978 and produced no paper focused
+  on whether the regime could be overthrown. It stayed classified until 2010.
+occurred:
+  start: '1979-06-15'
+  precision: day
+known:
+  public:
+    start: '2010-08-17'
+    precision: day
+    note: Approved for release.
+threads:
+- mideast
+- intel
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- cia
+- robert-jervis
+importance: 2
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: John F Devlin Robert L Jervis 15 June 1979
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: NFAC failed to anticipate the course of events in Iran from late 1977 to late 1978
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: no papers were produced which had as their main_focus the question of whether the regime could be overthrown
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: PPROVED FOR RELEASED DATE 17-Aug-2010
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: So disconcerting was the Iran debacle in early 1979 that Robert R. Bowie, then head of the National Foreign
+    Assessment Center (NFAC) commissioned a report on how the intelligence community fell so far short.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

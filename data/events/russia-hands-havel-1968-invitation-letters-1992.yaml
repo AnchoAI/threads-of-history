@@ -1,0 +1,59 @@
+id: russia-hands-havel-1968-invitation-letters-1992
+title: Russia hands Havel the 1968 invitation letters
+summary: On 16 July 1992 an envoy of Russian President Boris Yeltsin gave Czechoslovak President Václav Havel
+  verified copies of seven documents from the Soviet Politburo archive, including two undated 1968 letters
+  asking for Soviet intervention. A Czechoslovak forensic team that examined the originals in Moscow reported
+  on 4 November 1992 that the signatures were genuine, though it could not prove the letters dated from 1968.
+occurred:
+  start: '1992-07-16'
+  precision: day
+threads:
+- intel
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- vaclav-havel
+- russia
+- czechoslovakia
+importance: 2
+wikidata: none
+sources:
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: The plenipotentiary of Boris Yeltzin, the President of the Russian Federation handed over to Vaclav
+    Havel, the President of the Czechoslovak Federative Republic a collection of seven verified copies of documents
+    on 16 July 1992
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: The collection included two undated letters that had played the key role in the political scenario
+    of the intervention of five Soviet Bloc states against the Czechoslovak pro-reform movement in 1968.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: The expert assessment in criminologist technology was completed on 4 November 1992.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://abscr.cz/en/archivalie/two-letters-from-czechoslovakia
+  archive_url: https://web.archive.org/web/20240804051925/https://www.abscr.cz/en/archivalie/two-letters-from-czechoslovakia/
+  title: Two Letters from Czechoslovakia (archival document of the month)
+  publisher: Security Services Archive (ABS), Czech Republic
+  quote: No signs questioning their veracity were found with any of the examined letters, even though the fact
+    that they originated in the year 1968 cannot be proven for technical reasons.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2 (Czechoslovakia 1968, primary documents). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'Wikidata: no item for the 1992 handover was found; set to none.'

@@ -1,0 +1,16 @@
+id: gulf-war-1990--led_to--madrid-conference-1991
+from: gulf-war-1990
+to: madrid-conference-1991
+type: led_to
+confidence: documented
+note: The Bush administration used the political capital from the Gulf War victory to revive the peace process.
+sources:
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: The Bush administration believed there was a window of opportunity to use the political capital generated
+    by the U.S. victory in the Gulf War to revitalize the Arab-Israeli peace process.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

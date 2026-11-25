@@ -1,0 +1,21 @@
+id: cern
+title: CERN
+actor_type: organization
+summary: International organization which operates the world's largest particle physics laboratory.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q42944
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q42944.json
+  title: CERN
+  publisher: Wikidata
+  quote: international organization which operates the world's largest particle physics laboratory
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

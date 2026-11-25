@@ -1,0 +1,21 @@
+id: franklin-d-roosevelt
+title: Franklin Delano Roosevelt
+actor_type: person
+summary: President of the United States from 1933 to 1945 (1882–1945).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q8007
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q8007.json
+  title: Franklin Delano Roosevelt
+  publisher: Wikidata
+  quote: president of the United States from 1933 to 1945 (1882–1945)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

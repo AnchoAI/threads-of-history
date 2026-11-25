@@ -1,0 +1,19 @@
+id: bratislava-declaration-1968--led_to--soviet-politburo-decides-to-invade-czechoslovakia-1968
+from: bratislava-declaration-1968
+to: soviet-politburo-decides-to-invade-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: The Bratislava meeting was the last of the talks that, proving unsatisfactory to Moscow, preceded the
+  military option.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  archive_url: https://web.archive.org/web/20261015220550/https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: As these talks proved unsatisfactory, the USSR began to consider a military alternative.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

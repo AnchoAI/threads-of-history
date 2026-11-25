@@ -1,0 +1,22 @@
+id: russian-revolution-of-1905--led_to--october-manifesto-1905
+from: russian-revolution-of-1905
+to: october-manifesto-1905
+type: led_to
+confidence: documented
+note: The Tsar issued the manifesto in response to the revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/October_Manifesto
+  archive_url: https://web.archive.org/web/20260827032150/https://en.wikipedia.org/wiki/October_Manifesto
+  title: October Manifesto
+  publisher: Wikipedia
+  quote: on 30 October [O.S. 17 October] 1905 as a response to the Russian Revolution of 1905
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Russian_Revolution_of_1905
+  title: Russian Revolution of 1905
+  publisher: Wikipedia
+  quote: In response, the tsar issued the "October Manifesto," a pledge to create a legislative assembly
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,28 @@
+id: lockheed-bribery-allegations-against-giovanni-leone-1978--led_to--giovanni-leone-resigns-1978
+from: lockheed-bribery-allegations-against-giovanni-leone-1978
+to: giovanni-leone-resigns-1978
+type: led_to
+confidence: documented
+note: The Lockheed accusations forced Leone's resignation, though they were never proved.
+sources:
+- url: https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  archive_url: https://web.archive.org/web/20261016090845/https://en.wikipedia.org/wiki/Lockheed_bribery_scandals
+  title: Lockheed bribery scandals
+  publisher: Wikipedia
+  quote: The allegations of bribery were supported by political magazine L'Espresso, and targeted former Cabinet
+    ministers Luigi Gui and Mario Tanassi, the former Prime Minister Mariano Rumor and President Giovanni Leone,
+    forcing him to resign on June 15, 1978.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Giovanni_Leone
+  archive_url: https://web.archive.org/web/20261009104336/https://en.wikipedia.org/wiki/Giovanni_Leone
+  title: Giovanni Leone
+  publisher: Wikipedia
+  quote: Leone's political career came to an end in 1978 due to the Lockheed bribery scandal.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

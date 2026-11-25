@@ -1,0 +1,32 @@
+id: snie-11-19-62-judges-ussr-will-not-force-blockade-1962--signal_of--us-naval-quarantine-of-cuba-1962
+from: snie-11-19-62-judges-ussr-will-not-force-blockade-1962
+to: us-naval-quarantine-of-cuba-1962
+type: signal_of
+confidence: documented
+note: The estimate that the USSR would not force its ships through a blockade, cited by McNamara when
+  arguing for the blockade.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  archive_url: https://web.archive.org/web/20260904163516/https://history.state.gov/historicaldocuments/frus1961-63v11/d34
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 34: Minutes of the 505th Meeting of the National Security Council'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-20'
+  quote: Secretary McNamara pointed out that SNIE 11-19-62, dated October 20, 1962,4 estimates that the
+    Russians will not use force to push their ships through our blockade.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Nevertheless, during October 24 and 25, some ships turned back from the quarantine line; others
+    were stopped by U.S. naval forces, but they contained no offensive weapons and so were allowed to
+    proceed.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

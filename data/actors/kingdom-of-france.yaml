@@ -1,0 +1,23 @@
+id: kingdom-of-france
+title: Kingdom of France
+actor_type: state
+summary: Monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during
+  the Hundred Days in 1815).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q70972
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q70972.json
+  title: Kingdom of France
+  publisher: Wikidata
+  quote: monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during
+    the Hundred Days in 1815)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

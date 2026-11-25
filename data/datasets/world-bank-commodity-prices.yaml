@@ -1,0 +1,30 @@
+id: world-bank-commodity-prices
+title: World Bank Commodity Price Data (The Pink Sheet), annual
+publisher: The World Bank
+url: https://www.worldbank.org/en/research/commodity-markets
+download_url: https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Annual.xlsx
+version: annual prices file, sheet header "Updated on September 02, 2026" (downloaded 2026-10-20)
+license:
+  name: CC BY 4.0 with World Bank additional terms
+  url: https://www.worldbank.org/ext/en/legal/terms-conditions/datasets
+  redistribution: allowed
+  attribution: 'The World Bank: Commodity Price Data (The Pink Sheet).'
+citation: 'The World Bank: Commodity Price Data (The Pink Sheet), annual prices, 1960 to present.'
+unit_of_analysis: other
+coverage:
+  start: '1960'
+  precision: year
+  ongoing: true
+  note: World-level yearly prices and indices, stored under the entity WLD.
+importer: tools/importers/pink_sheet.py
+notes:
+- 'The commodity markets page links its data files to "Terms of use for Datasets" and "Data Access and Licensing". The
+  World Bank dataset terms (https://www.worldbank.org/ext/en/legal/terms-conditions/datasets) say: "Unless specifically
+  labeled otherwise, these Datasets are provided to you under a Creative Commons Attribution 4.0 International License
+  (CC BY 4.0), with the additional terms below." The Pink Sheet carries no other label that we found.'
+- The workbook's sheet "Annual Prices (Nominal)" says "annual prices, 1960 to present, nominal US dollars"; the tables
+  here use the real (2010 US$) sheets.
+review:
+  status: unverified
+  notes:
+  - A person should confirm the licence wording on the commodity markets page.

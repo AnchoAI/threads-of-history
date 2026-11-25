@@ -1,0 +1,21 @@
+id: invasion-of-iraq-2003--part_of--war-on-terror-2001
+from: invasion-of-iraq-2003
+to: war-on-terror-2001
+type: part_of
+confidence: documented
+note: The source infobox places the Iraq War within the war on terror.
+sources:
+- url: https://en.wikipedia.org/wiki/Iraq_War
+  archive_url: https://web.archive.org/web/20261009114410/https://en.wikipedia.org/wiki/Iraq_War
+  title: Iraq War
+  publisher: Wikipedia
+  quote: Part of the post–Cold War era, the Iraqi conflict and the war on terror
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The war on terror article says the Bush administration stated the Iraq War was part of the war on terror, "a
+    claim later questioned and contested". A person should decide whether this link should be marked contested.

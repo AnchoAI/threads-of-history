@@ -1,0 +1,18 @@
+id: iran-iraq-war-1980--part_of--iraqi-kurdish-conflict-1918
+from: iran-iraq-war-1980
+to: iraqi-kurdish-conflict-1918
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Iran–Iraq War lists it as part of Iraqi–Kurdish conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War
+  title: Iran–Iraq War
+  publisher: Wikipedia
+  quote: Part of aftermath of the Iranian Revolution, Iraqi–Kurdish conflict
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

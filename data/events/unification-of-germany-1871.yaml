@@ -1,0 +1,50 @@
+id: unification-of-germany-1871
+title: German Empire proclaimed
+summary: The south German states join the Prussian-led confederation and the German Empire is proclaimed
+  in the Hall of Mirrors at Versailles, uniting most German speakers in one nation-state for the first
+  time.
+occurred:
+  start: '1871-01-18'
+  precision: day
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- german-empire
+- otto-von-bismarck
+importance: 4
+wikidata: Q154705
+sources:
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire
+  title: Proclamation of the German Empire
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260914183509/https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire
+  quote: The proclamation of the German Empire, also known as the Deutsche Reichsgründung, took place
+    on January 18, 1871 after the joint victory of the German states in the Franco-Prussian War.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire
+  title: Proclamation of the German Empire
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260914183509/https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire
+  quote: The 1871 event took place in the Hall of Mirrors at the Palace of Versailles
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: With the notable exceptions of Austria and German Switzerland, the vast majority of German-speakers
+    were united under a nation-state for the first time.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Unification_of_Germany
+  title: Unification of Germany
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20260930013411/https://en.wikipedia.org/wiki/Unification_of_Germany
+  quote: The process symbolically concluded when the south German states joined the North German Confederation
+    with the ceremonial proclamation of the German Empire
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

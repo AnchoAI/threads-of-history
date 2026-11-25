@@ -1,0 +1,21 @@
+id: october-revolution-1917--led_to--russian-civil-war-1917-1922
+from: october-revolution-1917
+to: russian-civil-war-1917-1922
+type: led_to
+confidence: documented
+note: The October Revolution precipitated the civil war.
+sources:
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: It was the precipitating event of the Russian Civil War.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Revolution
+  title: October Revolution
+  publisher: Wikipedia
+  quote: As the revolution was not universally recognized, the country descended into civil war
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

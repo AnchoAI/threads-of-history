@@ -1,0 +1,21 @@
+id: wilhelm-ii
+title: Wilhelm II
+actor_type: person
+summary: As King of Prussia last German Emperor from 1888 to 1918 (1859–1941).
+threads:
+- ww1
+regions:
+- western-europe
+importance: 3
+wikidata: Q2677
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2677.json
+  title: Wilhelm II
+  publisher: Wikidata
+  quote: as King of Prussia last German Emperor from 1888 to 1918 (1859–1941)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

@@ -1,0 +1,36 @@
+id: archigos
+title: 'Archigos: A Database of Political Leaders'
+publisher: Hein Goemans (University of Rochester), Kristian Skrede Gleditsch (University of Essex) and Giacomo Chiozza
+url: http://ksgleditsch.com/archigos.html
+version: 4.1 (1 March 2016)
+license:
+  name: No licence stated
+  redistribution: unknown
+  attribution: The authors ask users to cite the 2009 article and the version number and date.
+citation: 'Goemans, Henk E., Kristian Skrede Gleditsch and Giacomo Chiozza (2009). Introducing Archigos: A Dataset
+  of Political Leaders. Journal of Peace Research 46(2): 269–283. https://doi.org/10.1177/0022343308100719. Archigos
+  version 4.1 (1 March 2016).'
+unit_of_analysis: leader
+coverage:
+  start: '1875'
+  end: '2015-12-31'
+  precision: day
+  note: 'Gleditsch page: "The current version 4.1 (1 March 2016), covers 1875 through 31 December 2015."'
+importer: tools/importers/archigos.py
+notes:
+- 'No licence found. Neither the Gleditsch page (http://ksgleditsch.com/archigos.html) nor Goemans''s data page (https://www.rochester.edu/college/faculty/hgoemans/data.htm)
+  states a licence or terms of use. The Gleditsch page says: "We ask all users of the data to cite this article as
+  their reference for the data and also to cite" "the current version number and date".'
+- 'Citation: the page prints "Introducing Archigos: A Dataset of Political Leaders" and "Journal of Peace Research,
+  46(2): 269-183, 2009" (the page range is a typo on the site). Authors, DOI and the correct pages 269–283 are from
+  the Crossref record for DOI 10.1177/0022343308100719.'
+- 'Unit: Goemans''s page describes the data as having "the leader-spell as the unit of observation", with a leader-year
+  version also available.'
+- 'Coverage ends on 31 December 2015 and the data has not been updated since 2016, so leader tenure for 2016 onwards
+  needs another source.'
+- The Gleditsch page notes that the project was funded by the Political Instability Task Force; that matters for matching
+  PITF-style models in the backtesting plan.
+review:
+  status: unverified
+  notes:
+  - Licence not confirmed. Do not import the table until the authors state a licence or grant permission.

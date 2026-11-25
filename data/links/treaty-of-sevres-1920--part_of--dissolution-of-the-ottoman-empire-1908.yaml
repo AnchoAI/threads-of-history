@@ -1,0 +1,20 @@
+id: treaty-of-sevres-1920--part_of--dissolution-of-the-ottoman-empire-1908
+from: treaty-of-sevres-1920
+to: dissolution-of-the-ottoman-empire-1908
+type: part_of
+confidence: documented
+note: The Treaty of Sèvres was the peace agreement in the partitioning of the Ottoman Empire.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: The peace agreement, the Treaty of Sèvres, was eventually signed by the Ottoman Empire (not ratified) and
+    the Allied administration.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

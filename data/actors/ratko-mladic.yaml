@@ -1,0 +1,21 @@
+id: ratko-mladic
+title: Ratko Mladić
+actor_type: person
+summary: General of the Bosnian Serb army, convicted of war crimes.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q93167
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q93167.json
+  title: Ratko Mladić
+  publisher: Wikidata
+  quote: convicted war criminal and general of the Bosnian Serb military (1942–2026)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

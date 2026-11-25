@@ -1,0 +1,36 @@
+id: abolition-of-the-caliphate-1924
+title: Abolition of the Caliphate
+summary: By decree of the Grand National Assembly, Turkey abolished the Ottoman Caliphate, the Muslim
+  world's last widely recognised caliphate, and deposed the last caliph, Abdulmejid II, as part of Atatürk's
+  reforms.
+occurred:
+  start: '1924-03-03'
+  precision: day
+threads:
+- empire
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- grand-national-assembly-of-turkey
+- mustafa-kemal-ataturk
+- turkey
+importance: 4
+wikidata: Q2821698
+sources:
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate
+  title: Abolition of the Caliphate
+  publisher: Wikipedia
+  quote: The Ottoman Caliphate, the Muslim world's last widely recognized caliphate, was abolished on
+    3 March 1924
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate
+  title: Abolition of the Caliphate
+  publisher: Wikipedia
+  quote: by decree of the Grand National Assembly of Turkey. The process was one of Atatürk's reforms.
+    Abdul Mejid II was deposed as the last Ottoman caliph.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

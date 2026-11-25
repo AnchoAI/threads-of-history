@@ -1,0 +1,55 @@
+id: dna-double-helix-1953
+title: Watson and Crick publish the DNA double helix
+summary: Francis Crick and James Watson publish the double-helix structure of DNA in Nature, drawing heavily
+  on unpublished X-ray work by Rosalind Franklin and others at King's College London. Crick, Watson and
+  Maurice Wilkins won the 1962 Nobel Prize for it.
+occurred:
+  start: '1953-04-25'
+  precision: day
+threads:
+- industry
+regions:
+- western-europe
+actors: []
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  archive_url: https://web.archive.org/web/20260930181426/https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid'
+  publisher: Wikipedia
+  quote: was the first article published to describe the discovery of the double helix structure of DNA,
+    using X-ray diffraction and the mathematics of a helix transform. It was published by Francis Crick
+    and James D. Watson in the scientific journal Nature
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  archive_url: https://web.archive.org/web/20260930181426/https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid'
+  publisher: Wikipedia
+  quote: (dated 25 April 1953)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  archive_url: https://web.archive.org/web/20260930181426/https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid'
+  publisher: Wikipedia
+  quote: the discovery of the DNA double helix also used a considerable amount of material from the unpublished
+    work of Rosalind Franklin, A.R. Stokes, Maurice Wilkins, and H.R. Wilson at King's College London.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  archive_url: https://web.archive.org/web/20260930181426/https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid
+  title: 'Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid'
+  publisher: Wikipedia
+  quote: Crick, Watson, and Maurice Wilkins won the 1962 Nobel Prize for Medicine in recognition of their
+    discovery of the DNA double helix structure.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - No Wikidata item linked to the article on the 1953 paper was found; Q60535862 is the structure itself.
+    'none' is set.

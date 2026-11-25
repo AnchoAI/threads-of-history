@@ -1,0 +1,19 @@
+id: operation-barbarossa-1941--part_of--eastern-front-1941
+from: operation-barbarossa-1941
+to: eastern-front-1941
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Operation Barbarossa lists it as part of Eastern Front (World War
+  II).
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: Part of the Eastern Front of World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

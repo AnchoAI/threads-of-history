@@ -1,0 +1,20 @@
+id: agadir-crisis-1911--led_to--first-world-war-1914-1918
+from: agadir-crisis-1911
+to: first-world-war-1914-1918
+type: led_to
+confidence: documented
+note: British backing of France in the crisis deepened Anglo-German estrangement and the divisions that culminated
+  in the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Agadir_Crisis
+  title: Agadir Crisis
+  publisher: Wikipedia
+  quote: British backing of France during the crisis reinforced the Entente between the two countries (and with
+    Russia as well), increasing Anglo-German estrangement, deepening the divisions which would culminate in the
+    First World War.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

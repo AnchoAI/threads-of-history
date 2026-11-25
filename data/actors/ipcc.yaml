@@ -1,0 +1,21 @@
+id: ipcc
+title: Intergovernmental Panel on Climate Change
+actor_type: organization
+summary: Scientific intergovernmental body.
+threads:
+- industry
+regions:
+- western-europe
+importance: 3
+wikidata: Q171183
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q171183.json
+  title: Intergovernmental Panel on Climate Change
+  publisher: Wikidata
+  quote: scientific intergovernmental body
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

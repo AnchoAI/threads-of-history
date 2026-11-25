@@ -1,0 +1,72 @@
+id: nsa-releases-gulf-of-tonkin-documents-2005
+title: NSA declassifies Gulf of Tonkin documents
+summary: On 30 November–1 December 2005 the US National Security Agency declassified over 140 documents on
+  the Gulf of Tonkin incident, including a study by its historian Robert J. Hanyok, first published internally
+  in 2001. The study concluded that the 4 August 1964 attack did not occur and that intelligence passed to
+  policymakers had been skewed.
+occurred:
+  start: '2005-11-30'
+  end: '2005-12-01'
+  precision: day
+  note: Wikipedia gives 30 November; the National Security Archive dates the release 1 December.
+known:
+  by:
+  - party: National Security Agency
+    actor: national-security-agency
+    when:
+      start: '2001'
+      precision: year
+      note: Hanyok's study appeared in the NSA's classified journal Cryptologic Quarterly in 2000–2001.
+threads:
+- intel
+- usru
+regions:
+- americas
+actors:
+- national-security-agency
+importance: 3
+wikidata: none
+sources:
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  archive_url: https://web.archive.org/web/20261011000949/https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  title: Tonkin Gulf Intelligence "Skewed" According to Official History and Intercepts
+  publisher: National Security Archive, George Washington University
+  date: '2005-12-01'
+  quote: the National Security Agency, today declassified over 140 formerly top secret documents -- histories,
+    chronologies, signals intelligence [SIGINT] reports, and oral history interviews -- on the August 1964
+    Gulf of Tonkin incident.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  archive_url: https://web.archive.org/web/20261011000949/https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm
+  title: Tonkin Gulf Intelligence "Skewed" According to Official History and Intercepts
+  publisher: National Security Archive, George Washington University
+  date: '2005-12-01'
+  quote: 'Included in the release is a controversial article by Agency historian Robert J. Hanyok on SIGINT
+    and the Tonkin Gulf which confirms what historians have long argued: that there was no second attack on
+    U.S. ships in Tonkin on August 4, 1964.'
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: On 30 November 2005, the NSA released a first installment of previously classified information regarding
+    the Gulf of Tonkin incident, including a moderately sanitized version of Hanyok's article.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident
+  archive_url: https://web.archive.org/web/20261009200335/https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Incident
+  title: Gulf of Tonkin incident
+  publisher: Wikipedia
+  quote: Hanyok's conclusions were initially published in the Winter 2000/Spring 2001 Edition of Cryptologic
+    Quarterly about five years before the Times article.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - known.by records that the NSA had Hanyok's study internally from about 2001, before the public release
+    that this item records.

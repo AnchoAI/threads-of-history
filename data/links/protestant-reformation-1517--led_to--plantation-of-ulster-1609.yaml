@@ -1,0 +1,25 @@
+id: protestant-reformation-1517--led_to--plantation-of-ulster-1609
+from: protestant-reformation-1517
+to: plantation-of-ulster-1609
+type: led_to
+confidence: documented
+note: The Crown saw the plantation as a way to anglicise Ulster and implement the Protestant Reformation
+  there.
+sources:
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: Plantation was seen as a means of anglicising Ulster and implementing the Protestant Reformation
+    there.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  archive_url: https://web.archive.org/web/20260917094931/https://en.wikipedia.org/wiki/Plantation_of_Ulster
+  title: Plantation of Ulster
+  publisher: Wikipedia
+  quote: To anglicise the Ulster Irish and convert them to Protestantism
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

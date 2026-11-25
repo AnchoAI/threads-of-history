@@ -1,0 +1,68 @@
+id: bengal-denial-policies-1942--led_to--bengal-famine-1943
+from: bengal-denial-policies-1942
+to: bengal-famine-1943
+type: led_to
+confidence: contested
+note: The rice and boat denial policies disrupted food supply and livelihoods in coastal Bengal; how much
+  they contributed to the famine is debated.
+sources:
+- url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+  title: Bengal famine of 1943
+  publisher: Wikipedia
+  quote: The policies' wider impact – the extent to which they compounded or even caused the famine to
+    occur one year later – has been the subject of much discussion.
+  type: reference
+  accessed: '2026-10-03'
+positions:
+- claim: Wartime policy, including the denial policies, inflation and the War Cabinet's refusal of food
+    imports, turned a shortage into famine.
+  held_by:
+  - Amartya Sen
+  - Lizzie Collingham
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: Sen noted that Bengal should have had enough resources to feed its population, but mass deaths
+      occurred due to a combination of wartime inflation, speculative buying, and panic hoarding.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: Lizzie Collingham holds the massive global dislocations of supplies caused by World War II
+      virtually guaranteed that hunger would occur somewhere in the world, yet Churchill's animosity and
+      perhaps racism toward Indians decided the exact location where famine would fall.
+    type: reference
+    accessed: '2026-10-03'
+- claim: A sharp fall in the rice supply, above all from brown spot disease after the October 1942 cyclone,
+    was the decisive cause.
+  held_by:
+  - S. Y. Padmanabhan
+  - Mark Tauger
+  - Peter Bowbrick
+  sources:
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: FAD-oriented scholars such as Peter Bowbrick hold that a sharp drop in the food supply was
+      the pivotal determining factor.
+    type: reference
+    accessed: '2026-10-03'
+  - url: https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    archive_url: https://web.archive.org/web/20260917232956/https://en.wikipedia.org/wiki/Bengal_famine_of_1943
+    title: Bengal famine of 1943
+    publisher: Wikipedia
+    quote: S.Y. Padmanabhan and later Mark Tauger, in particular, argue that the impact of brown-spot
+      disease was vastly underestimated, both during the famine and in later analyses.
+    type: reference
+    accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Positions are quoted from the Wikipedia article. Official figures for rice impounded were
+    small; the same source says corrupt purchasing may have removed far more. Add scholarly sources directly.

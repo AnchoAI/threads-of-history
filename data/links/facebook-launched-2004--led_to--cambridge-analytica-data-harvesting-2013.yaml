@@ -1,0 +1,17 @@
+id: facebook-launched-2004--led_to--cambridge-analytica-data-harvesting-2013
+from: facebook-launched-2004
+to: cambridge-analytica-data-harvesting-2013
+type: led_to
+confidence: documented
+note: The harvesting worked through Facebook's own platform for third-party apps.
+sources:
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: collected the personal data of the users' Facebook friends via Facebook's Open Graph platform
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

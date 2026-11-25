@@ -1,0 +1,59 @@
+id: mau-mau-uprising-1952
+title: Mau Mau uprising
+summary: An armed conflict in British Kenya between the Kenya Land and Freedom Army and the colonial authorities.
+  Britain declared a state of emergency in October 1952 and interned tens of thousands (80,000 by official
+  figures; 160,000–320,000 by Caroline Elkins's estimate); in 2012 the UK government accepted that prisoners
+  had suffered torture and ill-treatment.
+occurred:
+  start: '1952'
+  end: '1960'
+  precision: year
+threads:
+- empire
+- rights
+regions:
+- sub-saharan-africa
+actors:
+- jomo-kenyatta
+- united-kingdom
+importance: 4
+wikidata: Q476855
+sources:
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: The Mau Mau rebellion (1952–1960), also known as the Mau Mau uprising or Kenya Emergency, was
+    an armed conflict in the British Colony of Kenya between the Kenya Land and Freedom Army (KLFA) and
+    the British colonial authorities.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: On 20 October 1952, the British aimed to silence the movement by declaring a State of Emergency
+    enacted by Governor Baring.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: According to British authorities 80,000 were interned. Caroline Elkins estimated that between
+    160,000 and 320,000 were interned in detention camps
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  archive_url: https://web.archive.org/web/20261009032437/https://en.wikipedia.org/wiki/Mau_Mau_rebellion
+  title: Mau Mau rebellion
+  publisher: Wikipedia
+  quote: In 2012, the UK government accepted that prisoners had suffered "torture and ill-treatment at
+    the hands of the colonial administration".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

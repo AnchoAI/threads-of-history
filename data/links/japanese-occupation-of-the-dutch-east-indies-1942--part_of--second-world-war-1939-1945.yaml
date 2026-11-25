@@ -1,0 +1,19 @@
+id: japanese-occupation-of-the-dutch-east-indies-1942--part_of--second-world-war-1939-1945
+from: japanese-occupation-of-the-dutch-east-indies-1942
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Japan occupied the Dutch East Indies during the war.
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies
+  title: Japanese occupation of the Dutch East Indies
+  publisher: Wikipedia
+  quote: The Empire of Japan occupied the Dutch East Indies (now Indonesia) during World War II from March
+    1942 until after the end of the war in September 1945.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the 1900–1945 batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

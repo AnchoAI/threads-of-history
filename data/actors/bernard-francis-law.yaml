@@ -1,0 +1,23 @@
+id: bernard-francis-law
+title: Bernard Francis Law
+actor_type: person
+summary: Catholic cardinal (1931–2017).
+threads:
+- scandals
+- religion
+regions:
+- americas
+importance: 2
+wikidata: Q384038
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q384038.json
+  title: Bernard Francis Law
+  publisher: Wikidata
+  quote: Catholic cardinal (1931–2017)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

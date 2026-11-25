@@ -1,0 +1,21 @@
+id: fritz-haber
+title: Fritz Haber
+actor_type: person
+summary: German chemist and Nobel laureate (1868–1934).
+threads:
+- industry
+regions:
+- western-europe
+importance: 3
+wikidata: Q57075
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q57075.json
+  title: Fritz Haber
+  publisher: Wikidata
+  quote: German chemist and receiver of the Nobel prize (1868–1934)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

@@ -1,0 +1,58 @@
+id: black-friday-iran-1978
+title: 'Black Friday: troops fire on protesters in Tehran'
+summary: On 8 September 1978, after martial law was imposed in Tehran and other cities, the army fired on protesters
+  in Jaleh Square, killing at least 64. CIA's 1979 review called the events of late August and early September a
+  major turning point.
+occurred:
+  start: '1978-09-08'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+actors:
+- iran
+- mohammad-reza-pahlavi
+importance: 3
+wikidata: Q1899132
+sources:
+- url: https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  archive_url: https://web.archive.org/web/20260704060949/https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  title: Black Friday (1978)
+  publisher: Wikipedia
+  quote: 'Black Friday (Persian: جمعه سیاه, romanized: Jom''e-ye Siyāh) was a mass shooting on 8 September 1978
+    (17 Shahrivar 1357 in the Solar Hijri calendar) in Pahlavi Iran, during which the Imperial Army of Iran killed
+    64 civilians and injured 205 in Jaleh Square'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  archive_url: https://web.archive.org/web/20260704060949/https://en.wikipedia.org/wiki/Black_Friday_(1978)
+  title: Black Friday (1978)
+  publisher: Wikipedia
+  quote: The army ordered the protestors to leave, and subsequently opened fire on them, killing at least 64 and
+    injuring 205.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: These demonstrations led to_the imposition of martial law in Tehran and 11 other cities on 8 September
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: The events of late August and early September as we now know constituted a major turning point
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Death tolls differ by source (64 protesters in Jaleh Square; Tucker adds 30 security forces).

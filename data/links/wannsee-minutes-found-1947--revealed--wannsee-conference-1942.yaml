@@ -1,0 +1,26 @@
+id: wannsee-minutes-found-1947--revealed--wannsee-conference-1942
+from: wannsee-minutes-found-1947
+to: wannsee-conference-1942
+type: revealed
+confidence: documented
+note: The discovery of the minutes in 1947 documented the conference, and they were used as evidence at
+  Nuremberg.
+sources:
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was not until 1947 that Luther's copy (number 16 out of 30 copies prepared) was found by Robert
+    Kempner, a U.S. prosecutor in the International Military Tribunal at Nuremberg, in files that had
+    been seized from the German Foreign Office.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was used as evidence in the subsequent Nuremberg trials.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

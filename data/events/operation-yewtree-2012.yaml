@@ -1,0 +1,49 @@
+id: operation-yewtree-2012
+title: Operation Yewtree
+wikidata: Q2559703
+summary: The Metropolitan Police launch Operation Yewtree, a criminal investigation into allegations of
+  sexual abuse by Savile and others, some still living. By October 2015 it had arrested 19 people; seven
+  of the arrests, including those of Rolf Harris, Gary Glitter and Max Clifford, led to convictions.
+occurred:
+  start: '2012-10-19'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- metropolitan-police
+- nspcc
+- jimmy-savile
+importance: 3
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: On 19 October, London's Metropolitan Police (Met) launched a formal criminal investigation, Operation
+    Yewtree, into historic allegations of child sexual abuse by Savile and other individuals, some still
+    living, covering four decades.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: announcing on 19 October that a criminal inquiry called Operation Yewtree would be undertaken
+    jointly with the National Society for the Prevention of Cruelty to Children (NSPCC).
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Operation_Yewtree
+  archive_url: https://web.archive.org/web/20261002000035/https://en.wikipedia.org/wiki/Operation_Yewtree
+  title: Operation Yewtree
+  publisher: Wikipedia
+  quote: By October 2015, 19 people had been arrested by Operation Yewtree; seven of these arrests, including
+    Rolf Harris, Gary Glitter and Max Clifford, led to convictions.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'

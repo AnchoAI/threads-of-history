@@ -1,0 +1,38 @@
+id: free-nelson-mandela-song-1984--influenced--apartheid-1948
+from: free-nelson-mandela-song-1984
+to: apartheid-1948
+type: influenced
+confidence: documented
+note: Wikipedia and The Guardian credit the song with raising awareness of Mandela and apartheid and playing a part
+  in apartheid's end.
+sources:
+- url: https://en.wikipedia.org/wiki/Jerry_Dammers
+  archive_url: https://web.archive.org/web/20260916205715/https://en.wikipedia.org/wiki/Jerry_Dammers
+  title: Jerry Dammers
+  publisher: Wikipedia
+  quote: '"Free Nelson Mandela" had a role in the downfall of apartheid, as it raised awareness of the issue, and
+    became an anthem of the anti-apartheid movement in South Africa.'
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.theguardian.com/music/2013/dec/06/nelson-mandela-protest-song-special-aka
+  title: 'Nelson Mandela: the triumph of the protest song'
+  publisher: The Guardian
+  date: '2013-12-06'
+  quote: By the time he was released from prison a decade later, his name, face and story were synonymous with the
+    anti-apartheid struggle, and pop music played a major role in that transformation.
+  type: news
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  archive_url: https://web.archive.org/web/20260929014928/https://en.wikipedia.org/wiki/Free_Nelson_Mandela
+  title: Free Nelson Mandela
+  publisher: Wikipedia
+  quote: The song achieved its intent, bringing Mandela’s intentions and anti-apartheid message to the forefront
+    of conversations.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The Guardian itself notes that 'gauging the practical effectiveness of a protest song is a far more slippery
+    task'. The claim is about awareness, not a measured political effect; a person may prefer to mark it contested
+    or to retarget it.

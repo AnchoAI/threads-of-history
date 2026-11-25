@@ -1,0 +1,27 @@
+id: balkan-wars-1912--led_to--austria-hungary-declares-war-on-serbia-1914
+from: balkan-wars-1912
+to: austria-hungary-declares-war-on-serbia-1914
+type: led_to
+confidence: documented
+note: Hall argues that the conflicts over Albania in the Balkan Wars informed Austria-Hungary's decision to fight
+  Serbia in 1914.
+sources:
+- url: https://encyclopedia.1914-1918-online.net/article/balkan-wars-1912-1913/?version=1.0
+  title: Balkan Wars 1912-1913 (Richard C. Hall)
+  publisher: 1914-1918-online. International Encyclopedia of the First World War
+  date: '2014-10-08'
+  quote: Even though war resulted in the summer of 1914 from an event in Bosnia, the conflicts over Albania informed
+    the Austrians’ decision to fight the Serbs.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Balkan_Wars
+  archive_url: https://web.archive.org/web/20260930181949/https://en.wikipedia.org/wiki/Balkan_Wars
+  title: Balkan Wars
+  publisher: Wikipedia
+  quote: These concerns contributed significantly to the two Central Powers' willingness to go to war against Serbia.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

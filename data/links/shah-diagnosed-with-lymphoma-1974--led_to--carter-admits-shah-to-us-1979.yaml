@@ -1,0 +1,25 @@
+id: shah-diagnosed-with-lymphoma-1974--led_to--carter-admits-shah-to-us-1979
+from: shah-diagnosed-with-lymphoma-1974
+to: carter-admits-shah-to-us-1979
+type: led_to
+confidence: documented
+note: News of the Shah's lymphoma prompted his admission for treatment.
+sources:
+- url: https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  archive_url: https://web.archive.org/web/20261016012822/https://en.wikipedia.org/wiki/Iran_hostage_crisis
+  title: Iran hostage crisis
+  publisher: Wikipedia
+  quote: However, on October 22, 1979, the United States permitted the Shah, who had lymphoma, to enter New York
+    Hospital-Cornell Medical Center for medical treatment.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: stating that that shah had “malignant lymphoma” and “severe jaundice.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

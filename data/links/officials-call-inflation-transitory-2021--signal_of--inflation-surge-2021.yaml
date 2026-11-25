@@ -1,0 +1,23 @@
+id: officials-call-inflation-transitory-2021--signal_of--inflation-surge-2021
+from: officials-call-inflation-transitory-2021
+to: inflation-surge-2021
+type: signal_of
+confidence: documented
+note: Officials expected the 2021 rise in prices to pass quickly; it kept accelerating.
+sources:
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: Debate arose over whether inflationary pressures were transitory or persistent
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: Inflation continued to accelerate during 2021 and into 2022.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

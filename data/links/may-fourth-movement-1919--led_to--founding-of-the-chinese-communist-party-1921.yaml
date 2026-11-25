@@ -1,0 +1,23 @@
+id: may-fourth-movement-1919--led_to--founding-of-the-chinese-communist-party-1921
+from: may-fourth-movement-1919
+to: founding-of-the-chinese-communist-party-1921
+type: led_to
+confidence: documented
+note: Leaders of the movement turned to Marxism and founded the CCP.
+sources:
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: This promoted the sinicization of Marxism and provided a basis for the birth of the CCP and socialism
+    with Chinese characteristics.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/May_Fourth_Movement
+  title: May Fourth Movement
+  publisher: Wikipedia
+  quote: Influential leaders such as Chen Duxiu and Li Dazhao shifted to the left and became founders
+    of the CCP in 1921
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

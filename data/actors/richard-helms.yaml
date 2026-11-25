@@ -1,0 +1,21 @@
+id: richard-helms
+title: Richard Helms
+actor_type: person
+summary: Director of the Central Intelligence Agency (1913–2002).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q913848
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q913848.json
+  title: Richard Helms
+  publisher: Wikidata
+  quote: Director of the Central Intelligence Agency (1913–2002)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

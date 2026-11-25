@@ -1,0 +1,25 @@
+id: church-committee-1975--revealed--us-covert-action-in-chile-1970
+from: church-committee-1975
+to: us-covert-action-in-chile-1970
+type: revealed
+confidence: documented
+note: The Senate committee's report described the CIA's plots against Allende.
+sources:
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: As described in the Church Committee report, the CIA was involved in multiple plots designed
+    to remove Allende and then let the Chileans vote in a new election where he would not be a candidate.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat
+  title: 1973 Chilean coup d'état
+  publisher: Wikipedia
+  quote: Prompted by an incriminating New York Times article, the U.S. Senate opened an investigation
+    into U.S. interference in Chile.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

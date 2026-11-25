@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-real-interest-rate
+title: Real interest rate (World Bank)
+summary: An interest rate is the amount charged, expressed as a percentage of the principal over a period
+  of time, by the owners of certain kinds of financial assets for putting the financial assets at the
+  disposal of another institutional unit. The real interest rate is the lending interest rate adjusted
+  for inflation as measured by the GDP deflator. The terms and conditions attached to lending rates...
+occurred:
+  start: '1961'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: FR.INR.RINR
+table: tables/wdi-real-interest-rate.csv
+sources:
+- url: https://data.worldbank.org/indicator/FR.INR.RINR
+  title: Real interest rate (%)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

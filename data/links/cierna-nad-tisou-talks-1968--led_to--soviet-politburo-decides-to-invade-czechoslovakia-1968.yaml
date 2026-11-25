@@ -1,0 +1,21 @@
+id: cierna-nad-tisou-talks-1968--led_to--soviet-politburo-decides-to-invade-czechoslovakia-1968
+from: cierna-nad-tisou-talks-1968
+to: soviet-politburo-decides-to-invade-czechoslovakia-1968
+type: led_to
+confidence: documented
+note: When the summer talks did not satisfy Moscow, the Soviets turned to a military option.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  archive_url: https://web.archive.org/web/20261014010120/https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: As these talks proved unsatisfactory, the Soviets began to consider a military alternative.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.
+  - Ambassador Dobrynin told Rusk on 23 August that he had thought a solution had been found and that "something
+    must have happened to change the situation" (FRUS vol. XIV, doc. 290); the reasons for the change after
+    Čierna are not settled by these sources.

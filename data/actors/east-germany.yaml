@@ -1,0 +1,22 @@
+id: east-germany
+title: East Germany
+actor_type: state
+summary: 1949–1990 country in central Europe, unified into modern Germany.
+threads: []
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 3
+wikidata: Q16957
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q16957.json
+  title: East Germany
+  publisher: Wikidata
+  quote: 1949–1990 country in central Europe, unified into modern Germany
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

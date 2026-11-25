@@ -1,0 +1,26 @@
+id: german-blank-cheque-1914--led_to--austro-hungarian-ultimatum-to-serbia-1914
+from: german-blank-cheque-1914
+to: austro-hungarian-ultimatum-to-serbia-1914
+type: led_to
+confidence: documented
+note: Germany's promise of support was the main factor in Austro-Hungarian policy, and Vienna decided on war with
+  Serbia relying on it.
+sources:
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: This so-called "blank cheque" of German support up to and including war was to be the main determining
+    factor in Austro-Hungarian policy in July 1914.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: Nevertheless, having decided upon war with German support, Austria-Hungary was slow to act publicly, and
+    did not deliver the ultimatum until 23 July
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

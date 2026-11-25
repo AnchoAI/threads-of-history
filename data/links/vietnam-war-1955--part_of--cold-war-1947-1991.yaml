@@ -1,0 +1,18 @@
+id: vietnam-war-1955--part_of--cold-war-1947-1991
+from: vietnam-war-1955
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The Vietnam War is part of the Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Vietnam_War
+  title: Vietnam War
+  publisher: Wikipedia
+  quote: Part of the Indochina Wars and the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

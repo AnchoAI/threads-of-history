@@ -1,0 +1,23 @@
+id: russian-provisional-government
+title: Russian Provisional Government
+summary: Government of Russia between the February and October revolutions of 1917.
+threads: []
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q239543
+actor_type: organization
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q239543.json
+  title: Russian Provisional Government
+  publisher: Wikidata
+  quote: government before Soviet Takeover, July 1917-October 1917
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity data (via SPARQL). Role in specific events
+    is sourced on those events.
+  - The Wikidata description dates it July–October 1917, but the government was formed in March 1917 (see
+    february-revolution-1917); the summary avoids the Wikidata dates.

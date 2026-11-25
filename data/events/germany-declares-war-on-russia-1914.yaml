@@ -1,0 +1,44 @@
+id: germany-declares-war-on-russia-1914
+title: Germany declares war on Russia
+summary: Germany entered the First World War on 1 August 1914 by declaring war on Russia, after an ultimatum demanding
+  that Russia stop its mobilisation expired.
+occurred:
+  start: '1914-08-01'
+  precision: day
+threads:
+- ww1
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- german-empire
+- russian-empire
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: Germany entered into World War I on August 1, 1914, when it declared war on Russia.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: Once the German ultimatum to Russia expired on the morning of 1 August, the two countries were at war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: the Russian government were handed a note requiring them to "cease all war measures against Germany and
+    Austria-Hungary" within 12 hours.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Every date and claim in the title and summary is covered by a quoted source fetched on 2026-10-03.
+  - No Wikidata item for the declaration itself was found.

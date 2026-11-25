@@ -1,0 +1,61 @@
+id: indianapolis-star-reports-nassar-allegations-2016
+title: Indianapolis Star reports allegations against Larry Nassar
+summary: The Indianapolis Star reports that two former gymnasts, one of them Rachael Denhollander, have
+  accused Larry Nassar of sexual abuse. Dozens more complaints follow, police search his home, and he
+  is removed from his posts at Michigan State and elsewhere.
+occurred:
+  start: '2016-09'
+  precision: month
+threads:
+- scandals
+- sport
+- media
+regions:
+- americas
+actors:
+- the-indianapolis-star
+- larry-nassar
+- rachael-denhollander
+importance: 3
+source_credibility: high
+outcome: confirmed
+resolves_to: usa-gymnastics-sex-abuse-scandal-1992
+sources:
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: In September 2016, The Indianapolis Star reported that Rachael Denhollander was one of two former
+    gymnasts who had made accusations of sexual abuse against Nassar.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: Two weeks later, The Indianapolis Star ran a news story describing sexual assault allegations
+    against Nassar by former gymnasts. The MSUPD then received similar sexual abuse complaints against
+    Nassar from dozens of additional young females
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: The September 2016 news reports and MSUPD investigative activity also resulted in Nassar being
+    removed from his positions at MSU, Twistars USA Gymnastics Club, and Holt High School.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Outcome confirmed: Nassar pleaded guilty to sexual assault charges in Ingham and Eaton counties in
+    November 2017.'
+  - 'Day not given consistently: the Larry Nassar Wikipedia article says the Star had reported by September
+    20, 2016; month precision used. The IndyStar article itself is paywalled (HTTP 402).'
+  - source_credibility is an editorial judgement.
+  - 'Wikidata: no separate item; wikidata left unset.'

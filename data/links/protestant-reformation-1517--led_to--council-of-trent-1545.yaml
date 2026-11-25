@@ -1,0 +1,22 @@
+id: protestant-reformation-1517--led_to--council-of-trent-1545
+from: protestant-reformation-1517
+to: council-of-trent-1545
+type: led_to
+confidence: documented
+note: The Pope called the council to deal with the crisis caused by the Reformation.
+sources:
+- url: https://en.wikipedia.org/wiki/Reformation
+  title: Reformation
+  publisher: Wikipedia
+  quote: Paul III decided to convoke the nineteenth ecumenical council to handle the crisis caused by
+    the Reformation.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Council_of_Trent
+  title: Council of Trent
+  publisher: Wikipedia
+  quote: Prompted by the Protestant Reformation at the time
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

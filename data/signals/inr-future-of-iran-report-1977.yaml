@@ -1,0 +1,71 @@
+id: inr-future-of-iran-report-1977
+title: 'INR Report 704: "Iran is likely to remain stable under the Shah"'
+summary: A State Department intelligence report of 28 January 1977 judged that the Shah had an excellent chance
+  to rule for a dozen or more years and that Iran would have relatively clear sailing until at least the mid-1980s.
+  The Shah left Iran two years later.
+occurred:
+  start: '1977-01-28'
+  precision: day
+known:
+  public:
+    start: '2019-02-11'
+    precision: day
+    note: Posted by the National Security Archive (obtained under FOIA); an earlier release date was not found.
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- bureau-of-intelligence-and-research
+- mohammad-reza-pahlavi
+- united-states
+importance: 2
+source_credibility: high
+outcome: 'false'
+wikidata: none
+sources:
+- url: https://nsarchive.gwu.edu/media/18190/ocr
+  archive_url: https://web.archive.org/web/20260208142642/https://nsarchive.gwu.edu/media/18190/ocr
+  title: 'State Department INR Report No. 704, "The Future of Iran: Implications for the US", 28 January 1977 (OCR
+    text)'
+  publisher: US Department of State, Bureau of Intelligence and Research, via the National Security Archive
+  date: '1977-01-28'
+  quote: The prospects are good that Iran will have relatively clear sailing
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18190/ocr
+  archive_url: https://web.archive.org/web/20260208142642/https://nsarchive.gwu.edu/media/18190/ocr
+  title: 'State Department INR Report No. 704, "The Future of Iran: Implications for the US", 28 January 1977 (OCR
+    text)'
+  publisher: US Department of State, Bureau of Intelligence and Research, via the National Security Archive
+  date: '1977-01-28'
+  quote: the Shah has an excellent chance to rule for a dozen or more years at which time he has indicated that
+    the Crown Prince would assume the throne
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: This report written two years before the Shah’s ignominious exile from his homeland
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/briefing-book/iran/2019-02-11/irans-1979-revolution-revisited-failures-few-successes-us-intelligence-diplomatic-reporting
+  title: 'Iran''s 1979 Revolution Revisited: Failures (and a Few Successes) of U.S. Intelligence and Diplomatic
+    Reporting (Briefing Book 660)'
+  publisher: National Security Archive (ed. Malcolm Byrne)
+  date: '2019-02-11'
+  quote: the authors’ flat assertion that the monarch is “in fine health” was simply wrong
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Quotes from the INR report are taken from the National Security Archive OCR text, which is noisy; the report's
+    opening sentence ("Iran is likely to remain stable...") is garbled in the OCR and is quoted in the title only
+    as the briefing book gives it.
+  - known.public uses the posting date of the National Security Archive briefing book; the FOIA release date was
+    not found.

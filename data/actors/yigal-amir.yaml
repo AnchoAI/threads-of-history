@@ -1,0 +1,21 @@
+id: yigal-amir
+title: Yigal Amir
+actor_type: person
+summary: Israeli extremist and murder convict.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q319029
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q319029.json
+  title: Yigal Amir
+  publisher: Wikidata
+  quote: Israeli extremist and murder convict
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

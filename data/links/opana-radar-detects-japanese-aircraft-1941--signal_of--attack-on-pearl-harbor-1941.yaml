@@ -1,0 +1,16 @@
+id: opana-radar-detects-japanese-aircraft-1941--signal_of--attack-on-pearl-harbor-1941
+from: opana-radar-detects-japanese-aircraft-1941
+to: attack-on-pearl-harbor-1941
+type: signal_of
+confidence: documented
+note: Radar picked up the first attack wave, but it was taken for friendly bombers.
+sources:
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: The first wave was detected by United States Army radar at 136 nautical miles (252 km), but was
+    misidentified as United States Army Air Forces bombers arriving from the American mainland.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

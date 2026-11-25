@@ -1,0 +1,27 @@
+id: nine-years-war-1688
+title: Nine Years' War
+summary: A European great-power war from 1688 to 1697 between France and the Grand Alliance, fought mainly in Europe,
+  with related conflicts in Ireland (the Williamite War) and North America (King William's War).
+occurred:
+  start: '1688'
+  end: '1697'
+  precision: year
+threads:
+- empire
+regions:
+- western-europe
+importance: 3
+wikidata: Q152218
+sources:
+- url: https://en.wikipedia.org/wiki/Nine_Years'_War
+  title: Nine Years' War
+  publisher: Wikipedia
+  quote: was a European great power conflict from 1688 to 1697 between France and the Grand Alliance. Fought primarily
+    in Europe, related conflicts include the Williamite War in Ireland, and King William's War in North America.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

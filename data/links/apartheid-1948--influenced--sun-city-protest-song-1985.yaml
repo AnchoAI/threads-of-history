@@ -1,0 +1,26 @@
+id: apartheid-1948--influenced--sun-city-protest-song-1985
+from: apartheid-1948
+to: sun-city-protest-song-1985
+type: influenced
+confidence: documented
+note: The song was written and recorded to oppose apartheid and to back the cultural boycott of South Africa.
+sources:
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: recorded by Artists United Against Apartheid to convey opposition to the South African minority regime's
+    policy of racial segregation, known as apartheid.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Sun_City_(song)
+  archive_url: https://web.archive.org/web/20260924130128/https://en.wikipedia.org/wiki/Sun_City_(song)
+  title: Sun City (song)
+  publisher: Wikipedia
+  quote: Schechter suggested that Van Zandt include the names of the artists who had played at Sun City in
+    defiance of the cultural boycott on South Africa imposed for its policy of racial segregation, known as
+    apartheid.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,21 @@
+id: benito-mussolini
+title: Benito Mussolini
+actor_type: person
+summary: Dictator of Italy from 1922 to 1945.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q23559
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q23559.json
+  title: Benito Mussolini
+  publisher: Wikidata
+  quote: dictator of Italy from 1922 to 1945
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

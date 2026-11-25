@@ -1,0 +1,57 @@
+id: nebraska-legislature-franklin-committee-1988
+title: Nebraska Legislature's Franklin Committee
+summary: The Nebraska Legislature sets up the Franklin Committee, chaired by state senator Loran Schmit with Ernie
+  Chambers as vice-chair, to examine the credit union's collapse and the abuse allegations. Its private investigator,
+  Gary Caradori, dies with his son in a plane crash in July 1990; foul play suspected by his brother and by Schmit
+  was not proven by investigators.
+occurred:
+  start: 1988-12
+  precision: month
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: The Nebraska Legislature organized a state committee in December 1988 to look into both the credit union
+    embezzlement and the child prostitution allegations named the Franklin Committee, led by state senator Loran
+    Schmit with Ernie Chambers acting as vice chair.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: In response, the Nebraska Legislature in January 1989 established an investigative panel (the "Franklin
+    Committee") to examine both the credit union's financial failure and the emerging child abuse allegations.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: In July 1990, private investigator Gary Caradori, hired by the Franklin Committee to investigate the allegations,
+    died along with his 8-year-old son when his plane disintegrated in mid-air near Chicago.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  archive_url: https://web.archive.org/web/20261014043354/https://en.wikipedia.org/wiki/Franklin_child_prostitution_ring_allegations
+  title: Franklin child prostitution ring allegations
+  publisher: Wikipedia
+  quote: Foul play was suspected by Caradori's brother and state senator Loran Schmit, but was not proven by investigators.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: unverified
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - 'Sources disagree on the start: Wikipedia''s Franklin article says December 1988, its Lawrence E. King Jr. article
+    January 1989, and The American Conservative "November". A primary source (Nebraska Legislature journal or a
+    1988–89 newspaper) is needed.'
+  - No Wikidata item found for the committee.

@@ -1,0 +1,61 @@
+id: britain-leaves-gold-standard-1931
+title: Britain leaves the gold standard
+summary: Facing speculative attacks on the pound and falling gold reserves, the Bank of England stopped
+  exchanging pound notes for gold on 19 September 1931, and the pound floated; Parliament passed the Gold
+  Standard (Amendment) Act on 21 September. Later analysis finds that countries which left the gold standard
+  early, as Britain did, recovered sooner.
+occurred:
+  start: '1931-09-19'
+  end: '1931-09-21'
+  precision: day
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Gold_standard
+  title: Gold standard
+  publisher: Wikipedia
+  quote: On September 19, 1931, speculative attacks on the pound led the Bank of England to abandon the
+    gold standard, ostensibly "temporarily".
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: Facing speculative attacks on the pound and depleting gold reserves, in September 1931 the Bank
+    of England ceased exchanging pound notes for gold and the pound was floated on foreign exchange markets.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gold_standard
+  title: Gold standard
+  publisher: Wikipedia
+  quote: Gold Standard (Amendment) Act 1931 Act of Parliament Parliament of the United Kingdom
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Gold_standard
+  title: Gold standard
+  publisher: Wikipedia
+  quote: Royal assent 21 September 1931
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: According to later analysis, the earliness with which a country left the gold standard reliably
+    predicted its economic recovery.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - 'The sources disagree on order: the Great Depression article says the UK was the first major currency
+    to leave gold, while the 1931 banking crisis and gold standard articles say Germany suspended convertibility
+    or imposed exchange controls in July 1931. The summary avoids saying ''first''.'
+  - No wikidata id found for this event; Gold Standard (Amendment) Act 1931 may have one.

@@ -1,0 +1,26 @@
+id: first-us-embassy-seizure-in-tehran-1979--led_to--sullivan-advises-against-admitting-shah-1979
+from: first-us-embassy-seizure-in-tehran-1979
+to: sullivan-advises-against-admitting-shah-1979
+type: led_to
+confidence: documented
+note: After the takeover Vance asked Sullivan for his view on admitting the Shah.
+sources:
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: A query from Secretary of State Cyrus Vance to Ambassador Sullivan requesting the latter’s opinion on the
+    shah’s admission had brought a negative response
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: The risk to American lives at that time was serious, apparent, and exigent
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced

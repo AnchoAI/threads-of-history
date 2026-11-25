@@ -1,0 +1,67 @@
+id: snie-53-14-3-75-saigon-government-defeated-by-early-1976
+title: 'SNIE 53/14.3-75: South Vietnam''s government defeated by early 1976'
+summary: On 27 March 1975 the US intelligence community judged that South Vietnam's government, left holding little
+  more than Saigon and the delta, was likely to be defeated by early 1976. It was defeated on 30 April 1975.
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- cia
+- north-vietnam
+- south-vietnam
+importance: 2
+window:
+  start: '1975-03-27'
+  end: '1976-03-31'
+  precision: day
+probability: 0.75
+stated_as: with the result likely to be defeat by early 1976
+probability_basis: 'Sherman Kent''s words of estimative probability: ''likely'' (Kent''s ''probable'' bracket) =
+  about 75%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1975-03-27'
+resolves_by: '1976-03-31'
+resolution:
+  outcome: happened
+  resolved_on: '1975-04-30'
+  event: fall-of-saigon-1975
+  note: Saigon was captured by North Vietnam on 30 April 1975.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  archive_url: https://web.archive.org/web/20260123010532/https://history.state.gov/historicaldocuments/frus1969-76v10/d195
+  title: 'Special National Intelligence Estimate SNIE 53/14.3-75: Assessment of the Situation in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1975-03-27'
+  quote: It would thus face further communist pressure from a position substantially weaker than our previous estimates,
+    with the result likely to be defeat by early 1976.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Fall_of_Saigon
+  archive_url: https://web.archive.org/web/20261015184423/https://en.wikipedia.org/wiki/Fall_of_Saigon
+  title: Fall of Saigon
+  publisher: Wikipedia
+  quote: Saigon, the capital of South Vietnam, was captured by North Vietnam on 30 April 1975.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probable 75% Give or take about 12%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probable … likely we believe We estimate
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''Early 1976'' is read as the end of March 1976. This judgment and the dry-season one in the same estimate
+    pull in different directions; both are recorded as stated.'

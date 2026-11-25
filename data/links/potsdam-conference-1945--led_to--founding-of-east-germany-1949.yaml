@@ -1,0 +1,24 @@
+id: potsdam-conference-1945--led_to--founding-of-east-germany-1949
+from: potsdam-conference-1945
+to: founding-of-east-germany-1949
+type: led_to
+confidence: documented
+note: Potsdam fixed the Soviet occupation zone in which the GDR was founded.
+sources:
+- url: https://en.wikipedia.org/wiki/East_Germany
+  archive_url: https://web.archive.org/web/20261013163715/https://en.wikipedia.org/wiki/East_Germany
+  title: East Germany
+  publisher: Wikipedia
+  quote: The Potsdam Agreement established the Soviet-occupied zone, bounded on the east by the Oder–Neiße
+    line.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_Germany
+  archive_url: https://web.archive.org/web/20261013163715/https://en.wikipedia.org/wiki/East_Germany
+  title: East Germany
+  publisher: Wikipedia
+  quote: The emergence of the two sovereign states solidified the 1945 division of Germany.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

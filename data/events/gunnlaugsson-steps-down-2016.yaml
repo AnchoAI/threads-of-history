@@ -1,0 +1,59 @@
+id: gunnlaugsson-steps-down-2016
+title: Iceland's prime minister steps aside over the Panama Papers
+summary: On 5 April 2016, after protests over Panama Papers revelations that he and his wife had owned an offshore
+  company, Wintris, which he had not disclosed, Sigmundur Davíð Gunnlaugsson announces he will step aside as prime
+  minister of Iceland. Sigurður Ingi Jóhannsson replaced him on 7 April.
+occurred:
+  start: '2016-04-05'
+  precision: day
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- sigmundur-david-gunnlaugsson
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Sigmundur_Dav%C3%AD%C3%B0_Gunnlaugsson
+  archive_url: https://web.archive.org/web/20260628022641/https://en.wikipedia.org/wiki/Sigmundur_Dav%C3%AD%C3%B0_Gunnlaugsson
+  title: Sigmundur Davíð Gunnlaugsson
+  publisher: Wikipedia
+  quote: Following the release of the Panama Papers, he announced on 5 April 2016 that he would resign as prime
+    minister amid public outrage at him for owning an offshore company to shelter money and not disclosing that
+    when entering parliament.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Sigmundur_Dav%C3%AD%C3%B0_Gunnlaugsson
+  archive_url: https://web.archive.org/web/20260628022641/https://en.wikipedia.org/wiki/Sigmundur_Dav%C3%AD%C3%B0_Gunnlaugsson
+  title: Sigmundur Davíð Gunnlaugsson
+  publisher: Wikipedia
+  quote: On 7 April 2016, he was replaced as prime minister by Sigurður Ingi Jóhannsson, who also replaced him as
+    chairman of the Progressive Party on 2 October 2016, following a defeat after he had campaigned to continue
+    as leader.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.theguardian.com/world/2016/apr/05/iceland-prime-minister-resigns-over-panama-papers-revelations
+  title: Iceland PM steps aside after protests over Panama Papers revelations
+  publisher: The Guardian
+  date: '2016-04-05'
+  quote: Iceland’s embattled prime minister, Sigmundur Davíð Gunnlaugsson, has become the first major casualty of
+    the Panama Papers, stepping aside from his office amid mounting public outrage that his family had sheltered
+    money offshore.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.theguardian.com/world/2016/apr/05/iceland-prime-minister-resigns-over-panama-papers-revelations
+  title: Iceland PM steps aside after protests over Panama Papers revelations
+  publisher: The Guardian
+  date: '2016-04-05'
+  quote: Gunnlaugsson’s office said in a statement that he was not resigning, but “handing over the office of prime
+    minister for an unspecified time” to Sigurður Ingi Jóhannsson, the agriculture and fisheries minister.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - His office said at the time that he was not resigning but handing over the office; the summary therefore says
+    'step aside'.

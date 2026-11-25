@@ -1,0 +1,23 @@
+id: boxer-rebellion-1899--led_to--boxer-protocol-1901
+from: boxer-rebellion-1899
+to: boxer-protocol-1901
+type: led_to
+confidence: documented
+note: The protocol was the settlement imposed after China's defeat in the intervention against the Boxers.
+sources:
+- url: https://en.wikipedia.org/wiki/Boxer_Protocol
+  archive_url: https://web.archive.org/web/20260918192355/https://en.wikipedia.org/wiki/Boxer_Protocol
+  title: Boxer Protocol
+  publisher: Wikipedia
+  quote: between the Qing Empire of China and the Eight-Nation Alliance that had provided military forces
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Boxer_Protocol
+  archive_url: https://web.archive.org/web/20260918192355/https://en.wikipedia.org/wiki/Boxer_Protocol
+  title: Boxer Protocol
+  publisher: Wikipedia
+  quote: after China's defeat in the intervention to put down the Boxer Rebellion.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-agriculture-share
+title: Agriculture, forestry and fishing (% of GDP) (World Bank)
+summary: Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes
+  the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops,
+  raising and breeding of animals, harvesting of timber and other plants, animals or animal products from
+  a farm or their natural habitats.Value added is the contribution to the economy by a producer or...
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GDP'
+dataset: world-bank-wdi
+indicator: NV.AGR.TOTL.ZS
+table: tables/wdi-agriculture-share.csv
+sources:
+- url: https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS
+  title: Agriculture, forestry, and fishing, value added (% of GDP)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

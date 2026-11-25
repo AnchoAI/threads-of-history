@@ -1,0 +1,27 @@
+id: lend-lease-act-1941--part_of--second-world-war-1939-1945
+from: lend-lease-act-1941
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: Lend-Lease was a Second World War programme supplying the Allies.
+sources:
+- url: https://en.wikipedia.org/wiki/Lend-Lease
+  archive_url: https://web.archive.org/web/20261001165344/https://en.wikipedia.org/wiki/Lend-Lease
+  title: Lend-Lease
+  publisher: Wikipedia
+  quote: This article is about the World War II program.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lend-Lease
+  archive_url: https://web.archive.org/web/20261001165344/https://en.wikipedia.org/wiki/Lend-Lease
+  title: Lend-Lease
+  publisher: Wikipedia
+  quote: supplied the United Kingdom, the Soviet Union, France, the Republic of China, and other Allied nations
+    of the Second World War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

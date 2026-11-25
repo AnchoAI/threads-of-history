@@ -1,0 +1,31 @@
+id: snie-85-3-62-judges-soviet-missiles-in-cuba-unlikely-1962--signal_of--cuban-missile-crisis-1962
+from: snie-85-3-62-judges-soviet-missiles-in-cuba-unlikely-1962
+to: cuban-missile-crisis-1962
+type: signal_of
+confidence: documented
+note: 'A wrong reassurance: the estimate judged Soviet strategic missiles in Cuba unlikely weeks before
+  they were found.'
+sources:
+- url: https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62
+  archive_url: https://web.archive.org/web/20260207210904/https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62/
+  title: 'Cuban Missile Crisis: Revisiting Sherman Kent''s Defense of SNIE 85-3-62 (Michael Douglas Smith,
+    Studies in Intelligence 51:3)'
+  publisher: Center for the Study of Intelligence, CIA
+  quote: Special National Intelligence Estimate (SNIE) 85-3-62, published on 19 September 1962, that the
+    Soviets were unlikely to introduce strategic offensive weapons into Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62
+  archive_url: https://web.archive.org/web/20260207210904/https://www.cia.gov/resources/csi/studies-in-intelligence/volume-51-no-3/revisiting-sherman-kents-defense-of-snie-85-3-62/
+  title: 'Cuban Missile Crisis: Revisiting Sherman Kent''s Defense of SNIE 85-3-62 (Michael Douglas Smith,
+    Studies in Intelligence 51:3)'
+  publisher: Center for the Study of Intelligence, CIA
+  quote: On one point there is no ambiguity, the estimate incorrectly concluded that the Soviets would
+    not place strategic weapons in Cuba.
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.

@@ -1,0 +1,68 @@
+id: cambridge-analytica-data-harvesting-2013
+title: Cambridge Analytica harvests Facebook data
+summary: An app built by Aleksandr Kogan in 2013 collects data on up to 87 million Facebook users, mostly
+  without consent, which the consulting firm Cambridge Analytica used for political advertising, including
+  for Donald Trump's 2016 campaign. First reported in December 2015, it became a scandal when a whistleblower
+  spoke out in March 2018.
+occurred:
+  start: '2013'
+  precision: year
+known:
+  public:
+    start: 2015-12
+    precision: month
+    note: First reported by The Guardian in December 2015; the full scandal broke with Christopher Wylie's
+      disclosures in March 2018.
+threads:
+- industry
+- intel
+regions:
+- americas
+- western-europe
+actors:
+- cambridge-analytica
+- meta-platforms
+importance: 3
+wikidata: Q51050074
+sources:
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: In the 2010s, personal data belonging to millions of Facebook users was collected by British
+    consulting firm Cambridge Analytica for political advertising without informed consent.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: The data was collected through an app called "This Is Your Digital Life", developed by data scientist
+    Aleksandr Kogan and his company Global Science Research in 2013.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: The app harvested the data of up to 87 million Facebook profiles. Cambridge Analytica used the
+    data to analytically assist the 2016 presidential campaigns of Ted Cruz and Donald Trump.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: The collection of personal data by Cambridge Analytica was first reported in December 2015 by
+    Harry Davies, a journalist for The Guardian.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+  title: Facebook–Cambridge Analytica data scandal
+  publisher: Wikipedia
+  quote: information about the data misuse was disclosed in March 2018 by Christopher Wylie, a former
+    Cambridge Analytica employee.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - Dated to 2013, when the app was built; the source does not give the exact span of the harvesting.

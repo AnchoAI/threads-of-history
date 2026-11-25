@@ -1,0 +1,76 @@
+id: dawes-plan-1924
+title: Dawes Plan
+summary: A plan drawn up by an international committee of experts headed by Charles G. Dawes, presented
+  in April 1924 and in force from 1 September 1924. It set a staggered schedule of German reparations
+  payments, provided a large loan to stabilise the currency and ended the Ruhr occupation; it brought
+  a brief recovery but left Germany heavily reliant on short-term foreign loans.
+occurred:
+  start: '1924-04-09'
+  end: '1924-09-01'
+  precision: day
+threads:
+- econ-crises
+- interwar
+regions:
+- western-europe
+- americas
+actors:
+- charles-g-dawes
+- weimar-republic
+- gustav-stresemann
+- france
+- united-states
+importance: 3
+wikidata: Q156528
+sources:
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: 9. April 1924 - Dawes-Plan vorgelegt
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: The Dawes Plan formally went into effect on 1 September 1924.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: The Reparations Commission set up the Dawes committee, consisting of ten expert representatives
+    nominated by their respective countries
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: The Plan set up a staggered schedule for Germany's payment of war reparations, provided for a
+    large loan to stabilise the German currency and ended the occupation of the Ruhr.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: It resulted in a brief period of economic recovery in the second half of the 1920s, although
+    it came at the price of a heavy reliance on foreign capital.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Dawes_Plan
+  archive_url: https://web.archive.org/web/20260828180834/https://en.wikipedia.org/wiki/Dawes_Plan
+  title: Dawes Plan
+  publisher: Wikipedia
+  quote: Most loans were short term, which meant that they could be quickly called in if the creditor
+    nation experienced an economic downturn.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The April 1924 presentation date comes from the title of a WDR article cited in the Wikipedia references;
+    check the WDR page itself.

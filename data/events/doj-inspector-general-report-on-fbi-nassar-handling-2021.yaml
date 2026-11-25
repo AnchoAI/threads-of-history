@@ -1,0 +1,72 @@
+id: doj-inspector-general-report-on-fbi-nassar-handling-2021
+title: Inspector General report on the FBI's handling of the Nassar allegations
+wikidata: none
+summary: The Justice Department's Inspector General reports that senior officials in the FBI's Indianapolis
+  field office, told of allegations against Nassar by USA Gymnastics on 28 July 2015, failed to respond
+  with the seriousness and urgency required and violated FBI policies; about 70 or more athletes were
+  allegedly abused between then and September 2016.
+occurred:
+  start: '2021-07'
+  precision: month
+threads:
+- scandals
+- sport
+- intel
+regions:
+- americas
+actors:
+- federal-bureau-of-investigation
+- usa-gymnastics
+- steve-penny
+- larry-nassar
+importance: 3
+sources:
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: Investigation and Review of the Federal Bureau of Investigation’s Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar 21-093 JUL Y 2021
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: senior officials in the FBI Indianapolis Field Office failed to respond to the Nassar allegations
+    with the utmost seriousness and urgency that they deserved and required, made numerous and fundamental
+    errors when they did respond to them, and violated multiple FBI policies.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: In July 2015, following a USA Gymnastics internal investigation into allegations of sexual assault
+    by Nassar against multiple gymnasts, USA Gymnastics President and Chief Executive Officer Stephen
+    D. Penny, Jr., reported the allegations to the FBI’s Indianapolis Field Office.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: approximately 70 or more young athletes were allegedly sexually abused by Nassar under the guise
+    of medical treatment between July 2015, when USA Gymnastics first reported allegations about Nassar
+    to the Indianapolis Field Office, and September 2016.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Report date: the report cover says July 2021; Wikipedia says it was released in July 2021. Day not
+    quoted.'
+  - Afterwards gymnasts testified to the Senate (September 2021) and victims sued the FBI, settling for
+    $138.7 million in 2024 (Wikipedia); not added as separate items.
+  - 'Wikidata: no item found; set to none.'

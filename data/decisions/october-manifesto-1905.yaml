@@ -1,0 +1,53 @@
+id: october-manifesto-1905
+title: October Manifesto
+summary: Under pressure from the 1905 revolution and on the advice of Sergei Witte, Nicholas II promised
+  civil rights and an elected parliament, the Duma, without whose approval no law could be enacted.
+occurred:
+  start: '1905-10-30'
+  precision: day
+  note: The source gives both Old Style (Julian) and New Style (Gregorian) dates; the New Style date is
+    recorded here.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- russian-empire
+importance: 3
+wikidata: Q109878
+decided_by:
+- nicholas-ii
+alternatives:
+- option: A military dictatorship headed by Grand Duke Nicholas
+  note: Nicholas's first choice; the Grand Duke refused and threatened to shoot himself if the Tsar did
+    not accept Witte's proposal.
+  sources:
+  - url: https://en.wikipedia.org/wiki/October_Manifesto
+    archive_url: https://web.archive.org/web/20260827032150/https://en.wikipedia.org/wiki/October_Manifesto
+    title: October Manifesto
+    publisher: Wikipedia
+    quote: Nicholas strenuously resisted these ideas, but gave in after his first choice to head a military
+      dictatorship, Grand Duke Nicholas, threatened to shoot himself in the head if the Tsar did not accept
+      Witte's suggestion.
+    type: reference
+    accessed: '2026-10-03'
+sources:
+- url: https://en.wikipedia.org/wiki/October_Manifesto
+  archive_url: https://web.archive.org/web/20260827032150/https://en.wikipedia.org/wiki/October_Manifesto
+  title: October Manifesto
+  publisher: Wikipedia
+  quote: The Manifesto was issued by Tsar Nicholas II, under the influence of finance minister Sergei
+    Witte, on 30 October [O.S. 17 October] 1905 as a response to the Russian Revolution of 1905.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/October_Manifesto
+  archive_url: https://web.archive.org/web/20260827032150/https://en.wikipedia.org/wiki/October_Manifesto
+  title: October Manifesto
+  publisher: Wikipedia
+  quote: promising certain civil rights and an elected parliament called the Duma, without whose approval
+    no laws were to be enacted in Russia in the future
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

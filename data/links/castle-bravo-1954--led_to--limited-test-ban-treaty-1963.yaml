@@ -1,0 +1,34 @@
+id: castle-bravo-1954--led_to--limited-test-ban-treaty-1963
+from: castle-bravo-1954
+to: limited-test-ban-treaty-1963
+type: led_to
+confidence: documented
+note: Fallout from Castle Bravo redirected international debate toward a test ban.
+sources:
+- url: https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  archive_url: https://web.archive.org/web/20261007121705/https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  title: Partial Nuclear Test Ban Treaty
+  publisher: Wikipedia
+  quote: A series of events in 1954, including the Castle Bravo test and spread of fallout from a Soviet
+    test over Japan, redirected the international discussion on nuclear policy.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  archive_url: https://web.archive.org/web/20261007121705/https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  title: Partial Nuclear Test Ban Treaty
+  publisher: Wikipedia
+  quote: In 1954, just weeks after the Castle Bravo test, Indian Prime Minister Jawaharlal Nehru made
+    the first public call for a "standstill agreement" on nuclear testing.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  archive_url: https://web.archive.org/web/20261007121705/https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty
+  title: Partial Nuclear Test Ban Treaty
+  publisher: Wikipedia
+  quote: The impetus for the test ban was provided by rising public anxiety over the magnitude of nuclear
+    tests, particularly tests of new thermonuclear weapons (hydrogen bombs), and the resulting nuclear
+    fallout.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

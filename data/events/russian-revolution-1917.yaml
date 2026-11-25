@@ -1,0 +1,47 @@
+id: russian-revolution-1917
+title: Russian Revolution
+summary: A period of political and social change in Russia from 1917 in which the monarchy was abolished and a socialist
+  form of government adopted, through two successive revolutions and a civil war.
+occurred:
+  start: '1917-03-08'
+  end: '1922-10-25'
+  precision: day
+threads:
+- russia
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- russian-empire
+- russian-provisional-government
+- bolsheviks
+- vladimir-lenin
+importance: 5
+wikidata: Q8729
+sources:
+- url: https://en.wikipedia.org/wiki/Russian_Revolution
+  title: Russian Revolution
+  publisher: Wikipedia
+  quote: The Russian Revolution was a period of political and social change in Russia starting in 1917. This period
+    saw Russia abolish its monarchy and adopt a socialist form of government following two successive revolutions
+    and a civil war.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Russian_Revolution
+  title: Russian Revolution
+  publisher: Wikipedia
+  quote: 8 March 1917 – 25 October 1922
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Russian_Revolution
+  title: Russian Revolution
+  publisher: Wikipedia
+  quote: The Russian Revolution was a key event of the 20th century.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'
+  - Importance 5 because the source calls it a key event of the 20th century and it contains two importance-5 revolutions.

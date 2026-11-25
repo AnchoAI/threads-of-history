@@ -1,0 +1,23 @@
+id: yasser-arafat
+title: Yasser Arafat
+actor_type: person
+summary: Palestinian political leader (1929-2004) and Former President of the Palestinian National Authority
+  (1994-2004).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q34211
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q34211.json
+  title: Yasser Arafat
+  publisher: Wikidata
+  quote: Palestinian political leader (1929-2004) and Former President of the Palestinian National Authority
+    (1994-2004)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

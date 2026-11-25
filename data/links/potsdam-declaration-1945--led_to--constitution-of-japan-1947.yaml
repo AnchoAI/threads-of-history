@@ -1,0 +1,23 @@
+id: potsdam-declaration-1945--led_to--constitution-of-japan-1947
+from: potsdam-declaration-1945
+to: constitution-of-japan-1947
+type: led_to
+confidence: documented
+note: Accepting the Potsdam Declaration's demand for democratisation required amending Japan's constitution.
+sources:
+- url: https://en.wikipedia.org/wiki/Constitution_of_Japan
+  title: Constitution of Japan
+  publisher: Wikipedia
+  quote: The Japanese government, Prime Minister Kantarō Suzuki's administration and Emperor Hirohito accepted
+    the conditions of the Potsdam Declaration, which necessitates amendments to its Constitution after the
+    surrender.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Constitution_of_Japan
+  title: Constitution of Japan
+  publisher: Wikipedia
+  quote: The Declaration demanded Japanese military's unconditional surrender, demilitarisation and democratisation.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

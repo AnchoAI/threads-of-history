@@ -1,0 +1,24 @@
+id: self-strengthening-movement-1861--echo--meiji-restoration-1868
+from: self-strengthening-movement-1861
+to: meiji-restoration-1868
+type: echo
+confidence: documented
+note: China's and Japan's parallel attempts to modernise with Western technology, which the 1894–95 war
+  showed had diverged.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: The war demonstrated the failure of the Qing dynasty's attempts to modernise its military and
+    fend off threats to its sovereignty, especially when compared with Japan's successful Meiji Restoration.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: These difficulties affected the efficaciousness of the reforms and prevented China from achieving
+    the same level of modernisation and industrialisation as Japan.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

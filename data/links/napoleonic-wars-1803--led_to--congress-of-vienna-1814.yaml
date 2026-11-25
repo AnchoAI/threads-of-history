@@ -1,0 +1,17 @@
+id: napoleonic-wars-1803--led_to--congress-of-vienna-1814
+from: napoleonic-wars-1803
+to: congress-of-vienna-1814
+type: led_to
+confidence: documented
+note: The Congress met to settle the issues left by the Revolutionary and Napoleonic Wars after Napoleon
+  fell.
+sources:
+- url: https://en.wikipedia.org/wiki/Congress_of_Vienna
+  title: Congress of Vienna
+  publisher: Wikipedia
+  quote: The objective of the Congress was to provide a long-term peace plan for Europe by settling critical
+    issues arising from the French Revolutionary Wars and the Napoleonic Wars through negotiation.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

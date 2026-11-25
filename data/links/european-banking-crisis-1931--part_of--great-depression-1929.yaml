@@ -1,0 +1,17 @@
+id: european-banking-crisis-1931--part_of--great-depression-1929
+from: european-banking-crisis-1931
+to: great-depression-1929
+type: part_of
+confidence: documented
+note: The 1931 banking crisis was the stage at which the Depression's financial crisis escalated in Europe.
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: The financial crisis escalated out of control in mid-1931, starting with the collapse of the
+    Creditanstalt in Vienna in May.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

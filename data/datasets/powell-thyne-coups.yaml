@@ -1,24 +1,39 @@
 id: powell-thyne-coups
 title: Global Instances of Coups (Powell & Thyne)
 publisher: Jonathan M. Powell and Clayton L. Thyne
-url: https://www.jonathanmpowell.com/coup-detection.html
-version: to confirm (the dataset is updated continuously)
+url: https://jonathanmpowell.com/coups/
+download_url: https://jonathanmpowell.com/wp-content/uploads/2026/08/pt_20260829.csv
+version: V2026.08.29 (file pt_20260829.csv, listed as "August 29, 2026 (current)")
 license:
-  name: to confirm; no licence known
+  name: No licence stated
   redistribution: unknown
-citation: 'Powell, Jonathan M. and Clayton L. Thyne (2011). Global Instances of Coups from 1950 to 2010: A New Dataset.
-  Journal of Peace Research 48(2): 249–259.'
+  attribution: The authors ask that links to the data cite the original Journal of Peace Research page (https://doi.org/10.1177/0022343310397436).
+citation: 'Powell, Jonathan M. and Clayton L. Thyne (2011). Global instances of coups from 1950 to 2010: A new dataset.
+  Journal of Peace Research 48(2): 249–259. https://doi.org/10.1177/0022343310397436'
 unit_of_analysis: event
 coverage:
   start: '1950'
-  precision: year
+  precision: day
   ongoing: true
+  note: 'Dataset page title: "Global Instances of Coups, 1950 – Present". The CSV has year, month and day columns.'
 importer: tools/importers/powell_thyne_coups.py
 notes:
-- One row per coup attempt, successful or not. Becomes both a country-year table (attempts, successes) and candidate
-  events.
+- 'No licence found. The dataset page (https://jonathanmpowell.com/coups/) states no licence or terms of use. Its only
+  instruction is: "If citing the data as a link, please use the original Journal of Peace Research page." The CSV
+  header is "country,ccode,ccode_gw,ccode_polity,year,month,day,coup,version" with no licence row.'
+- The codebook is hosted at uky.edu (http://www.uky.edu/~clthyn2/coup_data/Codebook.pdf), which returned HTTP 403
+  to automated requests; the Wayback Machine returned HTTP 429, so the codebook could not be read. It may contain
+  terms of use.
+- 'Citation: the page links to the Journal of Peace Research article (DOI 10.1177/0022343310397436) but prints no
+  citation. Title, authors, volume, issue and pages above are from the Crossref record for that DOI (api.crossref.org).'
+- 'Version: the page archives dated versions ("August 29, 2026 (current)", "July 8, 2026") and its note of 8.29.2026
+  says larger revisions are coming. Pin the dated CSV for each import.'
+- 'One row per coup attempt: "List of coups by country (csv). 2=successful coup; 1=failed coup". Becomes both a country-year
+  table (attempts, successes) and candidate events.'
+- The old registry URL (https://www.jonathanmpowell.com/coup-detection.html) returns 404 and was replaced.
 review:
   status: unverified
   notes:
-  - Registered from memory before any access to the site. Check the URL, version, licence and citation, then set
-    the review status.
+  - Licence not confirmed. Without a stated licence the default is that the authors keep all rights, so importing
+    the table (Task 3b) should wait until the codebook has been read or the authors (Jonathan Powell, Clayton Thyne)
+    have been asked for permission to republish. Facts about individual coups can still be sourced item by item.

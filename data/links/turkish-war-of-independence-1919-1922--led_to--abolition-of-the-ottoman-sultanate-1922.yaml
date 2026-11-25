@@ -1,0 +1,24 @@
+id: turkish-war-of-independence-1919-1922--led_to--abolition-of-the-ottoman-sultanate-1922
+from: turkish-war-of-independence-1919-1922
+to: abolition-of-the-ottoman-sultanate-1922
+type: led_to
+confidence: documented
+note: The nationalist victory ended the sultanate; the Ankara assembly abolished it in the war's late
+  stages.
+sources:
+- url: https://en.wikipedia.org/wiki/Turkish_War_of_Independence
+  title: Turkish War of Independence
+  publisher: Wikipedia
+  quote: The revolution concluded the collapse of the Ottoman Empire and the Eastern question, ending
+    the Ottoman sultanate and the Ottoman caliphate, and established the Republic of Turkey.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate
+  title: Abolition of the Caliphate
+  publisher: Wikipedia
+  quote: In the end stages of the Turkish War of Independence, the Grand National Assembly in Ankara voted
+    to separate the caliphate from the sultanate and abolished the latter on 1 November 1922.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

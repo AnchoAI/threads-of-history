@@ -1,0 +1,41 @@
+id: anschluss-1938
+title: Anschluss
+summary: Nazi Germany annexed Austria on 12 March 1938, after Hitler had forced Chancellor Kurt Schuschnigg
+  to accept an ultimatum under threat of invasion. The 1919 treaties of Versailles and Saint-Germain had
+  forbidden a union of the two countries.
+occurred:
+  start: '1938-03-12'
+  precision: day
+threads:
+- interwar
+regions:
+- western-europe
+actors:
+- nazi-germany
+- adolf-hitler
+importance: 4
+wikidata: Q154681
+sources:
+- url: https://en.wikipedia.org/wiki/Anschluss
+  archive_url: https://web.archive.org/web/20261002144520/https://en.wikipedia.org/wiki/Anschluss
+  title: Anschluss
+  publisher: Wikipedia
+  quote: was the annexation of the Federal State of Austria into Nazi Germany on 12 March 1938
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anschluss
+  archive_url: https://web.archive.org/web/20261002144520/https://en.wikipedia.org/wiki/Anschluss
+  title: Anschluss
+  publisher: Wikipedia
+  quote: Under the threat of military invasion, Schuschnigg accepted a devastating ultimatum
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Anschluss
+  archive_url: https://web.archive.org/web/20261002144520/https://en.wikipedia.org/wiki/Anschluss
+  title: Anschluss
+  publisher: Wikipedia
+  quote: the 1919 Treaty of Saint Germain and Treaty of Versailles forbade both the union
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

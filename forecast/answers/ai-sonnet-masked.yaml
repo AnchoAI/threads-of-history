@@ -1,0 +1,70 @@
+forecaster: Claude Sonnet 5.5, names hidden
+method: Asked on 2026-10-22 through Claude Code subagents, with forecast/questions/snie-2026-10.yaml (masked
+  wording, neutral question numbers), told to use only what was knowable on the date and to report whether
+  it remembered the outcome. No tools other than reading the questions. AI models were trained on text
+  written long after these dates, so these scores measure memory as well as judgement; the names-hidden
+  condition reduces, but does not remove, that.
+answers:
+  snie-100-11-58-prc-assaults-major-offshore-islands-1958:
+    p: 0.07
+    recalls: true
+  snie-100-11-58-prc-calls-off-quemoy-interdiction-1958:
+    p: 0.55
+    recalls: true
+  snie-100-4-59-prc-attempts-to-seize-quemoy-1959:
+    p: 0.03
+    recalls: true
+  snie-100-4-59-prc-moves-against-matsu-1959:
+    p: 0.03
+    recalls: true
+  snie-11-9-84-soviet-invasion-of-iran-1984:
+    p: 0.03
+    recalls: true
+  snie-11-9-84-soviet-military-action-against-pakistan-1984:
+    p: 0.04
+    recalls: true
+  snie-13-10-65-china-enters-indo-pakistani-war-1965:
+    p: 0.06
+    recalls: true
+  snie-13-10-65-china-offers-material-aid-to-pakistan-1965:
+    p: 0.45
+    recalls: true
+  snie-21-91-82-soviet-military-involvement-falklands-1982:
+    p: 0.03
+    recalls: true
+  snie-30-5-56-anglo-french-intervention-via-other-crisis-1956:
+    p: 0.3
+    recalls: true
+  snie-30-56-egypt-initiates-war-with-israel-1956:
+    p: 0.07
+    recalls: true
+  snie-31-32-65-indo-pakistani-hostilities-renewed-1965:
+    p: 0.08
+    recalls: true
+  snie-53-14-3-75-nha-trang-falls-1975:
+    p: 0.65
+    recalls: true
+  snie-53-14-3-75-saigon-government-defeated-by-early-1976:
+    p: 0.75
+    recalls: true
+  snie-53-14-3-75-saigon-government-survives-dry-season-1975:
+    p: 0.4
+    recalls: true
+  snie-63-1-60-diem-regime-collapses-1960:
+    p: 0.3
+    recalls: true
+  snie-63-6-54-diem-survives-hinh-crisis-1954:
+    p: 0.75
+    recalls: true
+  snie-90-91-3-82-argentina-attacks-chile-1982:
+    p: 0.04
+    recalls: true
+  snie-90-91-3-82-ecuador-attacks-peru-1982:
+    p: 0.05
+    recalls: true
+  snie-91-2-82-argentina-diverts-reactor-fuel-1982:
+    p: 0.05
+    recalls: true
+  snie-98-65-uruguay-military-coup-1965:
+    p: 0.35
+    recalls: true

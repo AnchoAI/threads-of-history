@@ -1,0 +1,25 @@
+id: armistice-agreements-1949--part_of--israel-founded-1948
+from: armistice-agreements-1949
+to: israel-founded-1948
+type: part_of
+confidence: documented
+note: The armistice agreements formally ended the 1948 war.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  archive_url: https://web.archive.org/web/20261010133054/https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War
+  title: 1948 Arab–Israeli War
+  publisher: Wikipedia
+  quote: The war formally ended with the 1949 Armistice Agreements which established the Green Line.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1949_Armistice_Agreements
+  title: 1949 Armistice Agreements
+  publisher: Wikipedia
+  quote: They formally ended the hostilities of the 1948 Palestine War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The parent item israel-founded-1948 currently combines Israel's declaration and the 1948 war. If V1 splits
+    it, re-point this link to the war item.

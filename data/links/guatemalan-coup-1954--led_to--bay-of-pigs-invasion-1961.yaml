@@ -1,0 +1,20 @@
+id: guatemalan-coup-1954--led_to--bay-of-pigs-invasion-1961
+from: guatemalan-coup-1954
+to: bay-of-pigs-invasion-1961
+type: led_to
+confidence: documented
+note: The easy success in Guatemala made the CIA overconfident and led to the Bay of Pigs.
+sources:
+- url: https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261009113335/https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d%27%C3%A9tat
+  title: 1954 Guatemalan coup d'état
+  publisher: Wikipedia
+  quote: The relatively easy overthrow of Árbenz, coming soon after the similar overthrow of the democratically
+    elected Iranian prime minister in 1953, made the CIA overconfident in its abilities, which led to
+    the failed Bay of Pigs Invasion to overthrow the Cuban government in 1961.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

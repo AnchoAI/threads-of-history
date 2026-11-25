@@ -1,0 +1,19 @@
+id: suez-crisis-1956--part_of--arab-israeli-conflict-1948
+from: suez-crisis-1956
+to: arab-israeli-conflict-1948
+type: part_of
+confidence: documented
+note: The Suez Crisis is part of the Arab–Israeli conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Suez_Crisis
+  title: Suez Crisis
+  publisher: Wikipedia
+  quote: Part of the Cold War and the Arab–Israeli conflict
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The source also places it in the Cold War; the Arab–Israeli conflict was chosen as the closer umbrella.

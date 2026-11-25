@@ -1,0 +1,27 @@
+id: frus-guatemala-volume-2003--revealed--guatemalan-coup-1954
+from: frus-guatemala-volume-2003
+to: guatemalan-coup-1954
+type: revealed
+confidence: documented
+note: The official US documentary record of the CIA's role, omitted from the 1983 volume.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  archive_url: https://web.archive.org/web/20260927100911/https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  title: 'Foreign Relations of the United States, 1952–1954, Guatemala: Preface'
+  publisher: Office of the Historian, US Department of State
+  quote: The CIA operation in Guatemala is an important instance of the use of covert action to implement
+    U.S. foreign policy, and this volume provides a detailed account of that action.
+  type: primary
+  accessed: '2026-10-15'
+- url: https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  archive_url: https://web.archive.org/web/20260927100911/https://history.state.gov/historicaldocuments/frus1952-54Guat/preface
+  title: 'Foreign Relations of the United States, 1952–1954, Guatemala: Preface'
+  publisher: Office of the Historian, US Department of State
+  quote: The role of the Central Intelligence Agency in the ouster of Guatemala’s elected president, Jacobo
+    Arbenz Guzmán, was not documented in the volume.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

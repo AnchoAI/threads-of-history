@@ -1,0 +1,26 @@
+id: intel-4004-microprocessor-1971--led_to--ibm-personal-computer-1981
+from: intel-4004-microprocessor-1971
+to: ibm-personal-computer-1981
+type: led_to
+confidence: documented
+note: The microprocessor made the personal computer possible; the IBM PC ran on an Intel 8088.
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_the_transistor
+  title: History of the transistor
+  publisher: Wikipedia
+  quote: In the 1970s, the MOS microprocessor was the basis for home computers, microcomputers (micros)
+    and personal computers (PCs). This led to the start of what is known as the personal computer revolution
+    or microcomputer revolution.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  archive_url: https://web.archive.org/web/20261012074112/https://en.wikipedia.org/wiki/IBM_Personal_Computer
+  title: IBM Personal Computer
+  publisher: Wikipedia
+  quote: Powered by an x86-architecture Intel 8088 processor
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

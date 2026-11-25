@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-secondary-enrolment
+title: School enrolment, secondary (% gross) (World Bank)
+summary: Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population
+  of the age group that officially corresponds to the level of education shown. Secondary education completes
+  the provision of basic education that began at the primary level, and aims at laying the foundations
+  for lifelong learning and human development, by offering more subject- or skill-oriented...
+occurred:
+  start: '1970'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: SE.SEC.ENRR
+table: tables/wdi-secondary-enrolment.csv
+sources:
+- url: https://data.worldbank.org/indicator/SE.SEC.ENRR
+  title: School enrollment, secondary (% gross)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

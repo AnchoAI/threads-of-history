@@ -1,0 +1,41 @@
+id: union-of-south-africa-1910
+title: Union of South Africa formed
+summary: The Cape, Natal, Transvaal and Orange River colonies unite as the Union of South Africa, a British
+  dominion. Black people were excluded from meaningful political participation in its formation.
+occurred:
+  start: '1910-05-31'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Union_of_South_Africa
+  title: Union of South Africa
+  publisher: Wikipedia
+  quote: It came into existence on 31 May 1910 with the unification of the Cape, Natal, Transvaal, and
+    Orange River colonies.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Union_of_South_Africa
+  title: Union of South Africa
+  publisher: Wikipedia
+  quote: was a British Dominion and, later, a Commonwealth realm in southern Africa from 1910 to 1961
+  type: reference
+  accessed: '2026-10-03'
+- url: https://www.sahistory.org.za/article/natives-land-act-1913
+  title: The Natives Land Act of 1913
+  publisher: South African History Online
+  quote: However, black people were excluded from meaningful political participation in its formation
+    and future.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'wikidata is none: Q193619 is the state, not its founding, and may be used for an actor later.'

@@ -1,0 +1,17 @@
+id: arrest-of-the-gang-of-four-1976--part_of--cultural-revolution-1966
+from: arrest-of-the-gang-of-four-1976
+to: cultural-revolution-1966
+type: part_of
+confidence: documented
+note: The arrest is usually taken as the end of the Cultural Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Gang_of_Four
+  archive_url: https://web.archive.org/web/20260926034939/https://en.wikipedia.org/wiki/Gang_of_Four
+  title: Gang of Four
+  publisher: Wikipedia
+  quote: This event is usually considered to mark the end of the Cultural Revolution, although full repudiation
+    of the Cultural Revolution did not come until later
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

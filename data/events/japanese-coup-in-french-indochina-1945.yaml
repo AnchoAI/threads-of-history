@@ -1,0 +1,38 @@
+id: japanese-coup-in-french-indochina-1945
+title: Japanese coup in French Indochina
+summary: Japanese forces overthrow the French colonial administration across Indochina and install a new
+  Empire of Vietnam.
+occurred:
+  start: '1945-03-09'
+  precision: day
+threads:
+- empire
+- ww2
+regions:
+- south-east-asia
+actors:
+- empire-of-japan
+- france
+importance: 2
+wikidata: Q2633177
+sources:
+- url: https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  archive_url: https://web.archive.org/web/20260909080943/https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  title: Japanese coup d'état in French Indochina
+  publisher: Wikipedia
+  quote: was a Japanese operation that took place on 9 March 1945, towards the end of World War II
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  archive_url: https://web.archive.org/web/20260909080943/https://en.wikipedia.org/wiki/Japanese_coup_d%27%C3%A9tat_in_French_Indochina
+  title: Japanese coup d'état in French Indochina
+  publisher: Wikipedia
+  quote: The Japanese replaced French officials, and effectively dismantled their control of Indochina.
+    The Japanese were then able to install and create a new Empire of Vietnam
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

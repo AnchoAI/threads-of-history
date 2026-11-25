@@ -1,0 +1,90 @@
+id: perestroika-and-glasnost-1985--led_to--dissolution-of-the-soviet-union-1991
+from: perestroika-and-glasnost-1985
+to: dissolution-of-the-soviet-union-1991
+type: led_to
+confidence: contested
+note: Gorbachev's reforms are widely named among the causes of the Soviet collapse; historians disagree
+  whether they were the decisive cause or only released deeper structural problems.
+sources:
+- url: https://en.wikipedia.org/wiki/Perestroika
+  title: Perestroika
+  publisher: Wikipedia
+  quote: is often argued to be a significant cause of the collapse of the Eastern Bloc and the dissolution
+    of the Soviet Union
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: 'The collapse of the Soviet Union in 1991 resulted from several factors: chronic economic stagnation'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  title: Dissolution of the Soviet Union
+  publisher: Wikipedia
+  quote: the destabilizing effects of Gorbachev's reforms (particularly glasnost and perestroika)
+  type: reference
+  accessed: '2026-10-15'
+positions:
+- claim: 'Intentionalist view: the collapse was not inevitable but resulted from the decisions of particular
+    leaders, above all Gorbachev, who drove the reforms.'
+  held_by:
+  - Archie Brown
+  - George Breslauer
+  sources:
+  - url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    title: Dissolution of the Soviet Union
+    publisher: Wikipedia
+    quote: Intentionalist accounts contend that Soviet collapse was not inevitable and resulted from the
+      policies and decisions of specific individuals, usually Gorbachev and Yeltsin.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    title: Dissolution of the Soviet Union
+    publisher: Wikipedia
+    quote: historian Archie Brown's The Gorbachev Factor, which argues Gorbachev was the main force in
+      Soviet politics at least from 1985 to 1988
+    type: reference
+    accessed: '2026-10-15'
+- claim: Soviet elites, not the reforms as such, drove the breakup by encouraging nationalism and capitalism
+    from which they could profit.
+  held_by:
+  - David Kotz
+  - Fred Weir
+  sources:
+  - url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    title: Dissolution of the Soviet Union
+    publisher: Wikipedia
+    quote: David Kotz and Fred Weir have contended that Soviet elites were responsible for spurring on
+      both nationalism and capitalism from which they could personally benefit
+    type: reference
+    accessed: '2026-10-15'
+- claim: 'Structuralist view: the dissolution came from deep structural problems, notably national identities
+    the Soviet system itself had strengthened, which ''planted a time bomb''.'
+  held_by:
+  - Edward Walker
+  sources:
+  - url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    title: Dissolution of the Soviet Union
+    publisher: Wikipedia
+    quote: In contrast, structuralist accounts take a more deterministic view in which Soviet dissolution
+      was an outcome of deeply rooted structural issues, which planted a time bomb.
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    archive_url: https://web.archive.org/web/20261009122814/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+    title: Dissolution of the Soviet Union
+    publisher: Wikipedia
+    quote: Edward Walker has argued that minority nationalities were denied power at the Union level
+    type: reference
+    accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

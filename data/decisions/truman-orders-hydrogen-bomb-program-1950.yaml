@@ -1,0 +1,73 @@
+id: truman-orders-hydrogen-bomb-program-1950
+title: Truman orders a hydrogen bomb programme
+summary: After the first Soviet atomic test, and against the October 1949 advice of the Atomic Energy
+  Commission's General Advisory Committee chaired by J. Robert Oppenheimer, Truman ordered on 31 January
+  1950 a programme to develop the hydrogen bomb.
+occurred:
+  start: '1950-01-31'
+  precision: day
+threads:
+- nuclear
+- usru
+regions:
+- americas
+actors:
+- harry-truman
+- united-states
+importance: 3
+wikidata: none
+decided_by:
+- harry-truman
+alternatives:
+- option: Not to develop the hydrogen bomb (the "Super")
+  note: Recommended by the General Advisory Committee in October 1949, partly on ethical grounds, and
+    endorsed by a majority of the Atomic Energy Commission.
+  sources:
+  - url: https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+    archive_url: https://web.archive.org/web/20261012055702/https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+    title: J. Robert Oppenheimer
+    publisher: Wikipedia
+    quote: Now in October 1949, Oppenheimer and the GAC recommended against the development of the Super.
+      He and the other GAC members were motivated partly by ethical concerns
+    type: reference
+    accessed: '2026-10-15'
+  - url: https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+    archive_url: https://web.archive.org/web/20261012055702/https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+    title: J. Robert Oppenheimer
+    publisher: Wikipedia
+    quote: A majority of the AEC subsequently endorsed the GAC recommendation
+    type: reference
+    accessed: '2026-10-15'
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_the_Teller%E2%80%93Ulam_design
+  title: History of the Teller–Ulam design
+  publisher: Wikipedia
+  quote: When the Soviet Union exploded their own atomic bomb (dubbed "Joe 1" by the US) in August 1949,
+    it caught Western analysts off guard
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/History_of_the_Teller%E2%80%93Ulam_design
+  title: History of the Teller–Ulam design
+  publisher: Wikipedia
+  quote: On January 31, 1950, US President Harry S. Truman ordered a program to develop a hydrogen bomb.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+  archive_url: https://web.archive.org/web/20261012055702/https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+  title: J. Robert Oppenheimer
+  publisher: Wikipedia
+  quote: Now in October 1949, Oppenheimer and the GAC recommended against the development of the Super.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+  archive_url: https://web.archive.org/web/20261012055702/https://en.wikipedia.org/wiki/J._Robert_Oppenheimer
+  title: J. Robert Oppenheimer
+  publisher: Wikipedia
+  quote: On January 31, 1950, Truman, who was predisposed to proceed with the development of the weapon
+    anyway, made the formal decision to do so.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': no Wikidata item found for the decision.'

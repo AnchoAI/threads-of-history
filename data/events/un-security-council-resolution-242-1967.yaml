@@ -1,0 +1,69 @@
+id: un-security-council-resolution-242-1967
+title: UN Security Council Resolution 242
+summary: Adopted unanimously on 22 November 1967 after the Six-Day War, it called for Israel's withdrawal from
+  territories occupied in the conflict in exchange for peace and recognised boundaries ('land for peace').
+  Israelis and Arabs interpreted it differently, notably whether it meant all of the territories, but it became
+  the basis for later negotiations.
+occurred:
+  start: '1967-11-22'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- united-nations
+- israel
+- united-states
+importance: 3
+wikidata: Q621230
+sources:
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: United Nations Security Council Resolution 242 (S/RES/242) was adopted unanimously by the UN Security
+    Council on 22 November 1967, in the aftermath of the Six-Day War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: (i) Withdrawal of Israeli armed forces from territories occupied in the recent conflict;
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: The resolution also calls for the implementation of the "land for peace" formula, calling for Israeli
+    withdrawal from "territories" it had occupied in 1967 in exchange for peace with its neighbors.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: There was much bickering over whether that resolution should say from "the" territories or from "all"
+    territories.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967
+  archive_url: https://web.archive.org/web/20261001163723/https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967
+  title: The 1967 Arab-Israeli War
+  publisher: US Department of State, Office of the Historian
+  quote: Interpreted differently by Israelis and Arabs, this resolution would nonetheless remain the bedrock
+    of all subsequent U.S. efforts to resolve the Arab-Israeli dispute.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  archive_url: https://web.archive.org/web/20261007224534/https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242
+  title: United Nations Security Council Resolution 242
+  publisher: Wikipedia
+  quote: Resolution 242 is one of the most widely affirmed resolutions on the Arab–Israeli conflict and formed
+    the basis for later negotiations between the parties.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

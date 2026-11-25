@@ -1,0 +1,23 @@
+id: raghuram-rajan
+title: Raghuram Rajan
+actor_type: person
+summary: Indian economist and former governor of Reserve Bank of India.
+threads:
+- econ-crises
+regions:
+- south-central-asia
+- americas
+importance: 3
+wikidata: Q981496
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q981496.json
+  title: Raghuram Rajan
+  publisher: Wikidata
+  quote: Indian economist and former governor of Reserve Bank of India
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,62 @@
+id: he-jiankui-gene-edited-babies-2018
+title: He Jiankui announces gene-edited babies
+summary: Chinese scientist He Jiankui secretly uses CRISPR/Cas9 to edit human embryos, aiming to make
+  the children resistant to HIV, and announces the birth of twin girls. The work drew wide condemnation;
+  a Chinese court sentenced him to three years in prison in 2019.
+occurred:
+  start: '2018'
+  precision: year
+known:
+  public:
+    start: '2018-11-25'
+    precision: day
+    note: Conducted secretly until MIT Technology Review broke the story; He announced the births the
+      next day.
+threads:
+- industry
+- china
+regions:
+- east-asia
+actors:
+- he-jiankui
+- peoples-republic-of-china
+importance: 3
+wikidata: Q59223181
+sources:
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: He Jiankui, who edited the genomes of human embryos in 2018. He became widely known on 26 November
+    2018 after he announced that he had created the first human genetically edited babies.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: The embryos' genomes were edited to inactivate the CCR5 gene in an attempt to confer genetic
+    resistance to HIV. The clinical project was conducted secretly until 25 November 2018, when MIT Technology
+    Review broke the story
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: He eventually received widespread international condemnation.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/He_Jiankui_affair
+  archive_url: https://web.archive.org/web/20260928202545/https://en.wikipedia.org/wiki/He_Jiankui_affair
+  title: He Jiankui affair
+  publisher: Wikipedia
+  quote: On 30 December 2019, a Chinese district court found He Jiankui guilty of illegal practice of
+    medicine, sentencing him to three years in prison
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

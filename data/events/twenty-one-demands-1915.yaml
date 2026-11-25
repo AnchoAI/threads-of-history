@@ -1,0 +1,55 @@
+id: twenty-one-demands-1915
+title: Twenty-One Demands
+summary: During the First World War, Japan presents China's President Yuan Shikai with demands for wider
+  control in China, first trying to keep the most far-reaching group secret. China accepts a reduced set
+  after a Japanese ultimatum, and agreements are concluded on 25 May 1915.
+occurred:
+  start: '1915-01-18'
+  end: '1915-05-25'
+  precision: day
+threads:
+- china
+- ww1
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- republic-of-china-1912-1949
+- yuan-shikai
+importance: 3
+wikidata: Q696785
+sources:
+- url: https://en.wikipedia.org/wiki/Twenty-One_Demands
+  title: Twenty-One Demands
+  publisher: Wikipedia
+  quote: The Twenty-One Demands was a set of demands made during the First World War by the Empire of
+    Japan under Prime Minister Ōkuma Shigenobu to the government of the Republic of China on 18 January
+    1915.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Twenty-One_Demands
+  title: Twenty-One Demands
+  publisher: Wikipedia
+  quote: Knowing the negative reaction "Group 5" would cause, Japan initially tried to keep its contents
+    secret.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Twenty-One_Demands
+  title: Twenty-One Demands
+  publisher: Wikipedia
+  quote: A reduced set of "Thirteen Demands" was transmitted on May 7 in the form of an ultimatum, with
+    a two-day deadline for response.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Twenty-One_Demands
+  title: Twenty-One Demands
+  publisher: Wikipedia
+  quote: Japan and China reached a series of agreements which ratified the first four sets of goals on
+    25 May 1915.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - China leaked the secret Group 5 demands to European powers; no source found gives the date, so no
+    known.by block was added. A candidate for a later signal or known date.

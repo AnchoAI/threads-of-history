@@ -1,0 +1,24 @@
+id: abu-musab-al-zarqawi
+title: Abu Musab al-Zarqawi
+actor_type: person
+summary: Jordanian jihadist (1966–2006).
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q181049
+occurred:
+  start: '1966'
+  end: '2006'
+  precision: year
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q181049.json
+  title: Abu Musab al-Zarqawi
+  publisher: Wikidata
+  quote: Jordanian jihadist (1966–2006)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

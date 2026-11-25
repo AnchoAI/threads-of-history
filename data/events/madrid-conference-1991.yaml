@@ -1,0 +1,49 @@
+id: madrid-conference-1991
+title: Madrid Conference
+summary: A peace conference held in Madrid from 30 October to 1 November 1991, co-sponsored by the United States
+  and the Soviet Union, bringing Israel together with a joint Jordanian–Palestinian delegation, Lebanon, Syria
+  and Egypt. It opened bilateral and multilateral negotiation tracks.
+occurred:
+  start: '1991-10-30'
+  end: '1991-11-01'
+  precision: day
+threads:
+- mideast
+- usru
+regions:
+- middle-east-north-africa
+- western-europe
+actors:
+- israel
+- united-states
+- soviet-union
+- jordan
+- syria
+- lebanon
+importance: 3
+wikidata: Q1343802
+sources:
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: The Madrid Conference of 1991 was a peace conference, held from 30 October to 1 November 1991 in Madrid,
+    hosted by Spain and co-sponsored by the Soviet Union and the United States.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: It was an attempt by the international community to revive the Israeli–Palestinian peace process through
+    negotiations, involving Israel and the Palestinians as well as Arab countries, including Jordan, Lebanon,
+    Syria, and Egypt.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: The Palestinian team was part of a joint Palestinian-Jordanian delegation and consisted of Palestinians
+    from the West Bank and Gaza.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

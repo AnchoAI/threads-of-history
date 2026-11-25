@@ -1,0 +1,19 @@
+id: rhodesian-bush-war-1964--part_of--decolonisation-of-africa-1950
+from: rhodesian-bush-war-1964
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The Bush War is counted part of African decolonisation; it continued after the period the umbrella
+  event covers.
+sources:
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: Part of the Cold War and decolonisation of Africa
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.
+  - The umbrella event decolonisation-of-africa-1950 ends in 1976; the Bush War ran to 1979.

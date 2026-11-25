@@ -1,0 +1,24 @@
+id: radio-free-europe-radio-liberty
+title: Radio Free Europe/Radio Liberty
+actor_type: organization
+summary: United States-funded international media outlet.
+threads:
+- media
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 2
+wikidata: Q485500
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q485500.json
+  title: Radio Free Europe/Radio Liberty
+  publisher: Wikidata
+  quote: United States-funded international media outlet
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

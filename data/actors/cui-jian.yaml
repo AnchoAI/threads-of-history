@@ -1,0 +1,21 @@
+id: cui-jian
+title: Cui Jian
+actor_type: person
+summary: Chinese rock musician of Korean descent.
+threads: []
+regions:
+- east-asia
+importance: 2
+wikidata: Q540516
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q540516.json
+  title: Cui Jian
+  publisher: Wikidata
+  quote: Chinese rock musician of Korean descent
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

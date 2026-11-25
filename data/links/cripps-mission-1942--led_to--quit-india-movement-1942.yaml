@@ -1,0 +1,25 @@
+id: cripps-mission-1942--led_to--quit-india-movement-1942
+from: cripps-mission-1942
+to: quit-india-movement-1942
+type: led_to
+confidence: documented
+note: The failure of the Cripps Mission played a part in Gandhi's call for the Quit India Movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: Cripps' mission of March 1942 and its failure also played an important role in Gandhi's call
+    for The Quit India Movement.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Quit_India_Movement
+  title: Quit India Movement
+  publisher: Wikipedia
+  quote: After Britain failed to secure Indian support for the British war effort with the Cripps Mission,
+    Gandhi made a call to Do or Die
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

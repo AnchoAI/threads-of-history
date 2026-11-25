@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: ucdp-intrastate-max-intensity
+title: Intrastate conflict intensity (UCDP/PRIO)
+summary: 'Highest intensity of intrastate conflicts on the country''s territory: 1 minor (25-999 battle
+  deaths), 2 war (1,000 or more).'
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- usru
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: level (1-2)
+dataset: ucdp-prio-armed-conflict
+indicator: intrastate-max-intensity
+table: tables/ucdp-intrastate-max-intensity.csv
+sources:
+- url: https://ucdp.uu.se/downloads/
+  title: UCDP Dataset Download Center
+  publisher: Uppsala Conflict Data Program
+  type: primary

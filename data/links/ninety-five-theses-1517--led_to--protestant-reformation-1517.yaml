@@ -1,0 +1,23 @@
+id: ninety-five-theses-1517--led_to--protestant-reformation-1517
+from: ninety-five-theses-1517
+to: protestant-reformation-1517
+type: led_to
+confidence: documented
+note: The indulgence controversy set off by the Theses is taken as the start of the Reformation.
+sources:
+- url: https://en.wikipedia.org/wiki/Ninety-five_Theses
+  archive_url: https://web.archive.org/web/20261013011131/https://en.wikipedia.org/wiki/Ninety-five_Theses
+  title: Ninety-five Theses
+  publisher: Wikipedia
+  quote: The indulgence controversy set off by the Theses was the beginning of the Reformation
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Reformation
+  title: Reformation
+  publisher: Wikipedia
+  quote: The Reformation is usually dated from Martin Luther's publication of the Ninety-five Theses in
+    1517
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

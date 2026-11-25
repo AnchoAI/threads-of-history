@@ -1,0 +1,16 @@
+id: first-sino-japanese-war-1894--led_to--xinhai-revolution-1911
+from: first-sino-japanese-war-1894
+to: xinhai-revolution-1911
+type: led_to
+confidence: documented
+note: The defeat set off political upheavals that ended in the 1911 Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Within China, the defeat was a catalyst for a series of political upheavals led by Sun Yat-sen
+    and Kang Youwei, culminating in the 1911 Revolution and ultimate end of dynastic rule in China.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

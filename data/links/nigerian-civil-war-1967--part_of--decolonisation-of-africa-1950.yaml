@@ -1,0 +1,19 @@
+id: nigerian-civil-war-1967--part_of--decolonisation-of-africa-1950
+from: nigerian-civil-war-1967
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The Nigerian Civil War is part of the decolonisation of Africa.
+sources:
+- url: https://en.wikipedia.org/wiki/Nigerian_Civil_War
+  archive_url: https://web.archive.org/web/20261008084329/https://en.wikipedia.org/wiki/Nigerian_Civil_war
+  title: Nigerian Civil War
+  publisher: Wikipedia
+  quote: Part of the Cold War, the Sino-Soviet split and the decolonisation of Africa
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

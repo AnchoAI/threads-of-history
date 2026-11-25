@@ -1,0 +1,56 @@
+id: operation-condor-1975
+title: Operation Condor
+summary: The right-wing dictatorships of the Southern Cone coordinate intelligence operations and assassinations
+  against leftists and dissidents across borders. Death estimates are disputed, from about 60,000 upward;
+  the United States gave tacit approval and material support.
+occurred:
+  start: '1975'
+  end: '1983'
+  precision: year
+threads:
+- rights
+- intel
+- usru
+regions:
+- americas
+actors:
+- augusto-pinochet
+- united-states
+importance: 3
+wikidata: Q156017
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Condor
+  title: Operation Condor
+  publisher: Wikipedia
+  quote: Operation Condor formally existed from 1975 to 1983. Condor was formally created in November
+    1975, when Chilean dictator Augusto Pinochet's spy chief, Manuel Contreras, invited 50 intelligence
+    officers from Argentina, Brazil, Bolivia, Chile, Paraguay, and Uruguay
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Condor
+  title: Operation Condor
+  publisher: Wikipedia
+  quote: was a campaign of political repression by the right-wing dictatorships of the Southern Cone of
+    South America, involving intelligence operations, coups, and assassinations of left-wing sympathizers
+    in South America.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Condor
+  title: Operation Condor
+  publisher: Wikipedia
+  quote: the precise number of deaths directly attributable to Operation Condor is highly disputed. Some
+    estimates are that at least 60,000 deaths can be attributed to Condor
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Condor
+  title: Operation Condor
+  publisher: Wikipedia
+  quote: Operation Condor, which took place in the context of the Cold War, had the tacit approval and
+    material support of the United States.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -130,6 +130,7 @@ def compile_graph(data_dir: Path = ROOT / "data") -> tuple[dict | None, list[str
 
     graph = {
         "format_version": FORMAT_VERSION,
+        "license": LICENSE_NOTICE,
         "domains": ds.vocabs["domains"],
         "threads": ds.vocabs["threads"],
         "regions": ds.vocabs["regions"],
@@ -140,6 +141,17 @@ def compile_graph(data_dir: Path = ROOT / "data") -> tuple[dict | None, list[str
         "stats": {k: dict(sorted(v.items())) for k, v in sorted(counts.items())},
     }
     return graph, [], tables
+
+
+# Travels with the data, so anyone who takes graph.json alone knows the terms.
+LICENSE_NOTICE = {
+    "data": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "note": ("The project's own data is dedicated to the public domain under CC0 1.0. Quotes in sources are short "
+             "excerpts that remain their authors' and publishers'. Tables and series imported from outside datasets "
+             "keep those datasets' licences (each dataset's `license` is in `datasets` below); tables from V-Dem are "
+             "CC BY-SA 4.0. See CREDITS.md for how to credit them."),
+}
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -164,6 +176,11 @@ def main(argv: list[str] | None = None) -> int:
     for item_id, table in tables.items():
         series_dir.mkdir(exist_ok=True)
         (series_dir / f"{item_id}.json").write_text(json.dumps(table, separators=(",", ":")) + "\n", encoding="utf-8")
+    # The licence and credits travel with the data (and into the viewer's build, which copies dist/).
+    for name, target in (("LICENSE", "LICENSE.txt"), ("CREDITS.md", "CREDITS.md")):
+        src = ROOT / name
+        if src.exists():
+            (args.out.parent / target).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
     n_items = len(graph["items"])
     print(f"Wrote {args.out} ({n_items} items, {len(graph['links'])} links, {len(graph['paths'])} paths, {len(tables)} series tables)")
     return 0

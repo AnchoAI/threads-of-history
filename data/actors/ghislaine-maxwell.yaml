@@ -1,0 +1,23 @@
+id: ghislaine-maxwell
+title: Ghislaine Maxwell
+actor_type: person
+summary: British socialite and sex trafficker, daughter of Robert Maxwell, accomplice of Jeffrey Epstein.
+threads:
+- scandals
+regions:
+- americas
+- western-europe
+importance: 2
+wikidata: Q5556756
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q5556756.json
+  title: Ghislaine Maxwell
+  publisher: Wikidata
+  quote: British socialite and sex trafficker, daughter of Robert Maxwell, accomplice of Jeffrey Epstein
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events (batch S3).

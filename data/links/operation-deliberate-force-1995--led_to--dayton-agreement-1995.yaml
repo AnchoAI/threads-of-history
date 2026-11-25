@@ -1,0 +1,24 @@
+id: operation-deliberate-force-1995--led_to--dayton-agreement-1995
+from: operation-deliberate-force-1995
+to: dayton-agreement-1995
+type: led_to
+confidence: documented
+note: The NATO campaign, with the Croatian and Bosnian government offensives, preceded and helped bring
+  about the Dayton negotiations.
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: which proved key in ending the war
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dayton_Agreement
+  title: Dayton Agreement
+  publisher: Wikipedia
+  quote: conducted in parallel with NATO's Operation Deliberate Force
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

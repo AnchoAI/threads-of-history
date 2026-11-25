@@ -1,0 +1,36 @@
+id: berlin-crisis-1961--led_to--cuban-missile-crisis-1962
+from: berlin-crisis-1961
+to: cuban-missile-crisis-1962
+type: led_to
+confidence: documented
+note: Khrushchev hoped missiles in Cuba would help force the West out of Berlin, and judged Kennedy weak
+  from the Berlin crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261011213302/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: A second reason that Soviet missiles were deployed to Cuba was that Khrushchev wanted to bring
+    West Berlin, which was controlled by the American, British and French within Communist East Germany,
+    into the Soviet orbit.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261011213302/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: He believed that if the US did nothing over the deployments of missiles in Cuba, he could force
+    the West out of Berlin by using the missiles as a deterrent to western countermeasures in Berlin.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261011213302/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: This impression was confirmed by the President's response during the Berlin Crisis of 1961, particularly
+    to the building of the Berlin Wall by East Germany to prevent its citizens from emigrating to the
+    West.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

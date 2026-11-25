@@ -1,0 +1,21 @@
+id: muslim-brotherhood-founded-1928--led_to--hamas-founded-1987
+from: muslim-brotherhood-founded-1928
+to: hamas-founded-1987
+type: led_to
+confidence: documented
+note: Hamas grew out of the Muslim Brotherhood's network in Gaza.
+sources:
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: In December 1987, the Brotherhood adopted a more nationalist and activist line under the name of Hamas.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: It emerged from his 1973 Mujama al-Islamiya Islamic charity affiliated with the Muslim Brotherhood.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,61 @@
+id: fall-of-the-berlin-wall-1989
+title: Fall of the Berlin Wall
+summary: On 9 November 1989, after East German spokesman Günter Schabowski says on television that new
+  travel rules take effect 'immediately, without delay', crowds overwhelm the border guards and East Berlin's
+  transit restrictions collapse. German reunification followed in October 1990.
+occurred:
+  start: '1989-11-09'
+  precision: day
+threads:
+- revolutions
+- usru
+regions:
+- western-europe
+actors:
+- west-germany
+importance: 5
+wikidata: Q69163529
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: The Berlin Wall fell on 9 November 1989 during the Peaceful Revolution
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: as East Berlin transit restrictions were overwhelmed and discarded
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: Triggered by the erratic words of regime spokesman Günter Schabowski in a TV press conference,
+    stating that the planned changes were in effect "immediately, without delay," hundreds of thousands
+    of people took advantage of the opportunity.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: The guards were quickly overwhelmed by the growing crowds
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: and German reunification took place in October the following year
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - 'Actor list is thin: East Germany has no actor file yet.'

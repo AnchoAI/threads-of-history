@@ -1,0 +1,28 @@
+id: pan-european-picnic-1989--led_to--fall-of-the-berlin-wall-1989
+from: pan-european-picnic-1989
+to: fall-of-the-berlin-wall-1989
+type: led_to
+confidence: documented
+note: The opening of the border at the picnic set off the exodus that ended with the GDR's collapse.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  archive_url: https://web.archive.org/web/20260911161313/https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall
+  title: Fall of the Berlin Wall
+  publisher: Wikipedia
+  quote: The opening of the Iron Curtain between Austria and Hungary at the Pan-European Picnic on 19
+    August 1989 set in motion a peaceful chain reaction, at the end of which there was no longer an East
+    Germany and the Eastern Bloc had disintegrated.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archive_url: https://web.archive.org/web/20261010042730/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  title: Revolutions of 1989
+  publisher: Wikipedia
+  quote: The initially inconspicuous opening of a border gate of the Iron Curtain between Austria and
+    Hungary in August 1989 then triggered a chain reaction
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

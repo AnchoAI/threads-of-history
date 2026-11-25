@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-external-debt
+title: External debt stocks (% of GNI) (World Bank)
+summary: Total external debt stocks to gross national income. Total external debt is debt owed to nonresidents
+  repayable in currency, goods, or services. Total external debt is the sum of public, publicly guaranteed,
+  and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes
+  all debt having an original maturity of one year or less and interest in arrears on...
+occurred:
+  start: '1970'
+  end: '2024'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '% of GNI'
+dataset: world-bank-wdi
+indicator: DT.DOD.DECT.GN.ZS
+table: tables/wdi-external-debt.csv
+sources:
+- url: https://data.worldbank.org/indicator/DT.DOD.DECT.GN.ZS
+  title: External debt stocks (% of GNI)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

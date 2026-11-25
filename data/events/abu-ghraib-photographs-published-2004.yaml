@@ -1,0 +1,62 @@
+id: abu-ghraib-photographs-published-2004
+title: CBS and The New Yorker publish the Abu Ghraib photographs
+summary: On 28 April 2004 CBS's 60 Minutes II broadcasts photographs of US military personnel abusing prisoners
+  at Abu Ghraib; on 30 April The New Yorker posts Seymour Hersh's article based on the Army's internal Taguba report,
+  which had not been meant for public release.
+occurred:
+  start: '2004-04-28'
+  end: '2004-04-30'
+  precision: day
+threads:
+- scandals
+- media
+- mideast
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- seymour-hersh
+- antonio-taguba
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: The scandal came to widespread public attention in April 2004, when a 60 Minutes II news report was aired
+    on April 28 by CBS News, describing the abuse, including pictures showing military personnel taunting naked
+    prisoners.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: An article was published by Seymour Hersh in The New Yorker magazine, posted online on April 30 and published
+    days later in the May 10 issue, which also had a widespread impact.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  archive_url: https://web.archive.org/web/20261013023102/https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  title: Torture at Abu Ghraib
+  publisher: The New Yorker (Seymour M. Hersh)
+  date: '2004-05-10'
+  quote: A fifty-three-page report, obtained by The New Yorker, written by Major General Antonio M.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  archive_url: https://web.archive.org/web/20261013023102/https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib
+  title: Torture at Abu Ghraib
+  publisher: The New Yorker (Seymour M. Hersh)
+  date: '2004-05-10'
+  quote: Taguba and not meant for public release, was completed in late February.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - No separate Wikidata item for the broadcast or the article.

@@ -1,0 +1,42 @@
+id: treaty-of-shimonoseki-1895
+title: Treaty of Shimonoseki
+summary: Signed on 17 April 1895, the treaty ended the First Sino-Japanese War. China recognised the independence
+  of Korea and ceded Taiwan, the Penghu Islands and the Liaodong Peninsula to Japan.
+occurred:
+  start: '1895-04-17'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- qing-dynasty
+- li-hongzhang
+- ito-hirobumi
+importance: 4
+wikidata: Q269655
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki
+  title: Treaty of Shimonoseki
+  publisher: Wikipedia
+  quote: On April 17, 1895, the peace treaty between Imperial Japan and the Qing dynasty had been signed
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: China recognised the total independence of Korea and ceded the Liaodong Peninsula, Taiwan, and
+    the Penghu Islands to Japan "in perpetuity".
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Shimonoseki
+  title: Treaty of Shimonoseki
+  publisher: Wikipedia
+  quote: Signed April 17, 1895 Location Shimonoseki, Japan Effective May 8, 1895 Signatories Li Hongzhang,
+    Li Jingfang Itō Hirobumi, Mutsu Munemitsu
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,56 @@
+id: scientific-revolution-1543--led_to--industrial-revolution-1760
+from: scientific-revolution-1543
+to: industrial-revolution-1760
+type: led_to
+confidence: contested
+note: Wootton and Mokyr argue that modern science was a precondition for sustained industrial innovation; Allen
+  explains the Industrial Revolution mainly by economic incentives in Britain.
+sources:
+- url: https://en.wikipedia.org/wiki/Industrial_Revolution
+  title: Industrial Revolution
+  publisher: Wikipedia
+  quote: the natural outlet for more enterprising members of these sects was in new opportunities in the technologies
+    created in the wake of the scientific revolution of the 17th century.
+  type: reference
+  accessed: '2026-10-14'
+positions:
+- claim: 'Without the Scientific Revolution there would have been no Industrial Revolution: sustained innovation
+    needed scientific explanations of why inventions worked.'
+  held_by:
+  - David Wootton
+  - Joel Mokyr
+  sources:
+  - url: https://en.wikipedia.org/wiki/Industrial_Revolution
+    title: Industrial Revolution
+    publisher: Wikipedia
+    quote: Without it there would have been no Industrial Revolution and none of the modern technologies on which
+      we depend
+    type: reference
+    accessed: '2026-10-14'
+  - url: https://www.nobelprize.org/prizes/economic-sciences/2025/press-release/
+    title: 'Press release: The Prize in Economic Sciences 2025'
+    publisher: Royal Swedish Academy of Sciences (nobelprize.org)
+    date: '2025-10-13'
+    quote: He demonstrated that if innovations are to succeed one another in a self-generating process, we not only
+      need to know that something works, but we also need to have scientific explanations for why.
+    type: primary
+    accessed: '2026-10-14'
+- claim: 'Economic incentives, not science, explain why industrialisation began in Britain: high wages and cheap
+    energy made labour-saving machines profitable.'
+  held_by:
+  - Robert C. Allen
+  sources:
+  - url: https://en.wikipedia.org/wiki/Industrial_Revolution
+    title: Industrial Revolution
+    publisher: Wikipedia
+    quote: Bob Allen has argued that high wages, cheap capital and very cheap energy in Britain made it the ideal
+      place for the industrial revolution. These factors made it vastly more profitable to invest in research and
+      development, and put technology to use than other societies.
+    type: reference
+    accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'Contested: each position is attributed to the scholars named in its quoted source.'
+  - The Wootton quote is from a reference note on the Wikipedia 'Industrial Revolution' page citing The Invention
+    of Science (2015), p. 13.

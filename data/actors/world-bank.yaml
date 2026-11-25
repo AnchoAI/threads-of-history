@@ -1,0 +1,22 @@
+id: world-bank
+title: World Bank
+actor_type: organization
+summary: International financial institution.
+threads:
+- econ-crises
+regions:
+- americas
+importance: 3
+wikidata: Q7164
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q7164.json
+  title: World Bank
+  publisher: Wikidata
+  quote: international financial institution
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

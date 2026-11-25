@@ -1,0 +1,37 @@
+id: 1948-palestine-war-1947
+title: 1948 Palestine war
+summary: A war fought from 30 November 1947 to 10 March 1949 in what had been British-ruled Mandatory Palestine,
+  known in Palestine as the Nakba and in Israel as the War of Independence. It began as a civil war between Arab
+  and Jewish communities after the UN Partition Plan and became an international war once Israel declared independence
+  and neighbouring Arab states sent in their armies.
+occurred:
+  start: '1947-11-30'
+  end: '1949-03-10'
+  precision: day
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 5
+wikidata: Q49097
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Palestine_war
+  title: 1948 Palestine war
+  publisher: Wikipedia
+  quote: (30 November 1947 – 10 March 1949), known in Palestine as the Nakba and in Israel as the War of Independence,
+    was fought in the territory of what had been, at the start of the war, British-ruled Mandatory Palestine.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/1948_Palestine_war
+  title: 1948 Palestine war
+  publisher: Wikipedia
+  quote: It began as a civil war between the Arab and Jewish communities following the United Nations Partition
+    Plan and became an international conflict with the Declaration of the Establishment of the State of Israel
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata gives an end date of 20 July 1949 (the last armistice); the article's 10 March 1949 is used.

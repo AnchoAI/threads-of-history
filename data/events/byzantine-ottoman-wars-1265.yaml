@@ -1,0 +1,38 @@
+id: byzantine-ottoman-wars-1265
+title: Byzantine–Ottoman wars
+summary: A series of conflicts between the Byzantine Greeks and the Ottoman Turks and their allies that ended with
+  the destruction of the Byzantine Empire and the rise of the Ottoman Empire. Constantinople fell in 1453; the last
+  Byzantine holdouts lasted until 1479.
+occurred:
+  start: '1265'
+  end: '1479'
+  precision: year
+  approximate: true
+threads:
+- empire
+- religion
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+importance: 4
+wikidata: Q630259
+sources:
+- url: https://en.wikipedia.org/wiki/Byzantine%E2%80%93Ottoman_wars
+  title: Byzantine–Ottoman wars
+  publisher: Wikipedia
+  quote: were a series of decisive conflicts between the Byzantine Greeks and Ottoman Turks and their allies that
+    led to the final destruction of the Byzantine Empire and the rise of the Ottoman Empire.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Byzantine%E2%80%93Ottoman_wars
+  title: Byzantine–Ottoman wars
+  publisher: Wikipedia
+  quote: Ultimately, they lost Constantinople in 1453, formally ending the conflicts (however, several Byzantine
+    holdouts lasted until 1479).
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

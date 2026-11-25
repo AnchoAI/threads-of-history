@@ -1,0 +1,46 @@
+id: unrwa-established-1949
+title: UNRWA established
+summary: The UN General Assembly adopted Resolution 302 on 8 December 1949, creating UNRWA to provide relief
+  to refugees of the 1948 conflict. Its mandate covers Palestinians who fled or were expelled in 1948 and later
+  conflicts, and their descendants.
+occurred:
+  start: '1949-12-08'
+  precision: day
+threads:
+- mideast
+- migration
+regions:
+- middle-east-north-africa
+actors:
+- united-nations
+importance: 2
+wikidata: Q846656
+sources:
+- url: https://en.wikipedia.org/wiki/UNRWA
+  archive_url: https://web.archive.org/web/20261010063100/https://en.wikipedia.org/wiki/UNRWA
+  title: UNRWA
+  publisher: Wikipedia
+  quote: on 8 December 1949 the General Assembly adopted Resolution 302(IV) which established the United Nations
+    Relief and Works Agency for Palestine Refugees in the Near East (UNRWA).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/UNRWA
+  archive_url: https://web.archive.org/web/20261010063100/https://en.wikipedia.org/wiki/UNRWA
+  title: UNRWA
+  publisher: Wikipedia
+  quote: UNRWA was established in 1949 by the UN General Assembly (UNGA) to provide relief to all refugees
+    resulting from the 1948 conflict
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/UNRWA
+  archive_url: https://web.archive.org/web/20261010063100/https://en.wikipedia.org/wiki/UNRWA
+  title: UNRWA
+  publisher: Wikipedia
+  quote: UNRWA's mandate encompasses Palestinians who fled or were expelled during the Nakba, the 1948 Palestine
+    war, and subsequent conflicts, as well as their descendants, including legally adopted children.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The QID Q846656 is the agency itself; there is no separate Wikidata item for the founding.

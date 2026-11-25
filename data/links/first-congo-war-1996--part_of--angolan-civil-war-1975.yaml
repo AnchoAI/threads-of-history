@@ -1,0 +1,19 @@
+id: first-congo-war-1996--part_of--angolan-civil-war-1975
+from: first-congo-war-1996
+to: angolan-civil-war-1975
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on First Congo War lists it as part of Angolan Civil War.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: Part of the Congolese Civil Wars, aftermath of the Rwandan genocide, spillovers of the Burundian Civil
+    War, the Second Sudanese Civil War and the Angolan Civil War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

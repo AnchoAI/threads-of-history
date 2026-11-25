@@ -1,0 +1,30 @@
+id: free-nelson-mandela-song-1984--influenced--nelson-mandela-70th-birthday-tribute-1988
+from: free-nelson-mandela-song-1984
+to: nelson-mandela-70th-birthday-tribute-1988
+type: influenced
+confidence: documented
+note: The Guardian says the song and the campaigning that followed led to the 1988 concert, which Dammers helped
+  conceive.
+sources:
+- url: https://www.theguardian.com/music/2013/dec/06/nelson-mandela-protest-song-special-aka
+  title: 'Nelson Mandela: the triumph of the protest song'
+  publisher: The Guardian
+  date: '2013-12-06'
+  quote: All this activity, and the inspiring example of Live Aid, led to 1988's 70th birthday concert for Mandela
+    at Wembley Arena, conceived by Dammers and the Simple Minds frontman, Jim Kerr
+  type: news
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  archive_url: https://web.archive.org/web/20260701011102/https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  title: Nelson Mandela 70th Birthday Tribute
+  publisher: Wikipedia
+  quote: Hollingsworth developed the plan for the first Mandela concert after talking to singer Jerry Dammers of
+    The Specials ska band, who had written the song "Free Nelson Mandela" in 1984
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - The Guardian says the concert was at Wembley Arena; Wikipedia and the existing event say Wembley Stadium. 'All
+    this activity' covers the song and other anti-apartheid music and campaigning, so influenced rather than led_to.
+  - Wikipedia credits the idea for the concert to the producer Tony Hollingsworth, after talks with Dammers.

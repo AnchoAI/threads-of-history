@@ -1,0 +1,17 @@
+id: berlin-blockade-1948--echo--berlin-crisis-1961
+from: berlin-blockade-1948
+to: berlin-crisis-1961
+type: echo
+confidence: documented
+note: Both were Soviet attempts to change Berlin's status; both failed.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: Previously, in 1948 and 1949 Krushchev's predecessor Joseph Stalin had tried and also failed
+    to change the status of Berlin with the Berlin Blockade.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

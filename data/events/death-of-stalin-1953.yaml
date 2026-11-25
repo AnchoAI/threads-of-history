@@ -1,0 +1,62 @@
+id: death-of-stalin-1953
+title: Death of Stalin
+summary: Joseph Stalin died after a stroke on 5 March 1953 at his dacha at Kuntsevo, leaving no designated
+  successor; Malenkov, Beria and Khrushchev emerged as the dominant figures of a collective leadership.
+  At least 109 people died in a crowd crush on the day of his funeral, 9 March.
+occurred:
+  start: '1953-03-05'
+  precision: day
+threads:
+- usru
+regions:
+- russia-eastern-europe
+actors:
+- joseph-stalin
+- nikita-khrushchev
+- soviet-union
+importance: 4
+wikidata: Q3090983
+sources:
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  archive_url: https://web.archive.org/web/20260924084026/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  title: Death and state funeral of Joseph Stalin
+  publisher: Wikipedia
+  quote: Joseph Stalin, second leader of the Soviet Union, died on 5 March 1953 at his Kuntsevo Dacha
+    after suffering a stroke, at age 74.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  archive_url: https://web.archive.org/web/20260924084026/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  title: Death and state funeral of Joseph Stalin
+  publisher: Wikipedia
+  quote: Stalin left neither a designated successor nor a framework within which a peaceful transfer of
+    power could take place.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  archive_url: https://web.archive.org/web/20260924084026/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  title: Death and state funeral of Joseph Stalin
+  publisher: Wikipedia
+  quote: The Central Committee met on the day of his death, after which Malenkov, Beria, and Khrushchev
+    emerged as the party's dominant figures.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  archive_url: https://web.archive.org/web/20260924084026/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  title: Death and state funeral of Joseph Stalin
+  publisher: Wikipedia
+  quote: He was given a state funeral in Moscow on 9 March
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  archive_url: https://web.archive.org/web/20260924084026/https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin
+  title: Death and state funeral of Joseph Stalin
+  publisher: Wikipedia
+  quote: at least 109 were later acknowledged to have died in a crowd crush
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Some historians have conjectured that Beria poisoned Stalin; the source says no firm evidence has
+    appeared. Not in the summary.

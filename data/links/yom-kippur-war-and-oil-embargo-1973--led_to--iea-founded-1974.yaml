@@ -1,0 +1,22 @@
+id: yom-kippur-war-and-oil-embargo-1973--led_to--iea-founded-1974
+from: yom-kippur-war-and-oil-embargo-1973
+to: iea-founded-1974
+type: led_to
+confidence: documented
+note: The IEA was created in response to the 1973 oil crisis, on Kissinger's proposal.
+sources:
+- url: https://en.wikipedia.org/wiki/International_Energy_Agency
+  title: International Energy Agency
+  publisher: Wikipedia
+  quote: The IEA was set up under the framework of the Organisation for Economic Co-operation and Development
+    (OECD) in the aftermath of the 1973 oil crisis to respond to physical disruptions in global oil supplies
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/oil-embargo
+  title: Oil Embargo, 1973–1974
+  publisher: US Department of State, Office of the Historian
+  quote: It also prompted the creation of the International Energy Agency proposed by Kissinger.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,57 @@
+id: marwan-warns-of-may-attack-1973
+title: Marwan warns of an Egyptian–Syrian attack in May 1973
+summary: Ashraf Marwan, an Egyptian official spying for Israel, warned that Egypt and Syria would attack in
+  mid-May 1973. No attack came, and Israel's costly Blue-White mobilisation led some Israelis to dismiss the
+  real preparations in October as another exercise. Whether Marwan was a double agent is disputed.
+occurred:
+  start: '1973'
+  precision: year
+threads:
+- mideast
+- intel
+regions:
+- middle-east-north-africa
+actors:
+- ashraf-marwan
+- israel
+- egypt
+importance: 2
+source_credibility: medium
+outcome: 'false'
+sources:
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: Between May and August 1973, the Egyptian Army conducted military exercises near the border, and Ashraf
+    Marwan inaccurately warned that Egypt and Syria would launch a surprise attack in the middle of May.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: The Israeli Army mobilized with their Blue-White Alert, in response to both the warnings and exercises,
+    at considerable cost.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: These exercises led some Israelis to dismiss the actual war preparations—and Marwan's warning right
+    before the attack was launched—as another exercise.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Ashraf_Marwan
+  title: Ashraf Marwan
+  publisher: Wikipedia
+  quote: Other accounts contend that he served as a double agent for Egypt, providing misleading information
+    to Israel.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The date of the warning itself is not in the source; it preceded the predicted mid-May date. Year precision
+    until a dated source is found.

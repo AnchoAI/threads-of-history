@@ -1,0 +1,18 @@
+id: bratislava-declaration-1968--part_of--prague-spring-1968
+from: bratislava-declaration-1968
+to: prague-spring-1968
+type: part_of
+confidence: documented
+note: The Bratislava Declaration was a response to the Prague Spring.
+sources:
+- url: https://en.wikipedia.org/wiki/Bratislava_Declaration
+  archive_url: https://web.archive.org/web/20251225071036/https://en.wikipedia.org/wiki/Bratislava_Declaration
+  title: Bratislava Declaration
+  publisher: Wikipedia
+  quote: The declaration was a response to the Prague Spring.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

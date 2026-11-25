@@ -1,0 +1,19 @@
+id: palestinian-expulsion-and-flight-1947--part_of--1948-palestine-war-1947
+from: palestinian-expulsion-and-flight-1947
+to: 1948-palestine-war-1947
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on 1948 Palestinian expulsion and flight lists it as part of 1948 Palestine
+  war.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight
+  title: 1948 Palestinian expulsion and flight
+  publisher: Wikipedia
+  quote: Part of the Nakba, the 1948 Palestine war and the Arab–Israeli conflict
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

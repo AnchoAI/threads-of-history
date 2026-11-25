@@ -1,0 +1,18 @@
+id: nasa-founded-1958--part_of--space-race-1955
+from: nasa-founded-1958
+to: space-race-1955
+type: part_of
+confidence: documented
+note: NASA was founded amid the Space Race.
+sources:
+- url: https://en.wikipedia.org/wiki/NASA
+  archive_url: https://web.archive.org/web/20261012073359/https://en.wikipedia.org/wiki/NASA
+  title: NASA
+  publisher: Wikipedia
+  quote: Established in 1958 amid the Space Race
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

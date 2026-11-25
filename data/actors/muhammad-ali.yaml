@@ -1,0 +1,20 @@
+id: muhammad-ali
+title: Muhammad Ali
+actor_type: person
+summary: American boxer (1942–2016).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q36107
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q36107.json
+  title: Muhammad Ali
+  publisher: Wikidata
+  quote: American boxer (1942–2016)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

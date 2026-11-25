@@ -1,0 +1,23 @@
+id: mobutu-sese-seko
+title: Mobutu Sese Seko
+actor_type: person
+summary: Congolese politician and military officer, the first and only president of Zaire from 1971 to
+  1997 (1930–1997).
+threads: []
+regions:
+- sub-saharan-africa
+importance: 3
+wikidata: Q164535
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q164535.json
+  title: Mobutu Sese Seko
+  publisher: Wikidata
+  quote: Congolese politician and military officer, the first and only president of Zaire from 1971 to
+    1997 (1930 – 1997)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

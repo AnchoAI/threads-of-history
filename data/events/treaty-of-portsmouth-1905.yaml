@@ -1,0 +1,49 @@
+id: treaty-of-portsmouth-1905
+title: Treaty of Portsmouth
+summary: The treaty, brokered in part by US President Theodore Roosevelt, ends the Russo-Japanese War.
+  It affirms Japan's position in south Manchuria and Korea and cedes southern Sakhalin to Japan.
+occurred:
+  start: '1905-09-05'
+  precision: day
+threads:
+- china
+- russia
+- empire
+regions:
+- east-asia
+- russia-eastern-europe
+- americas
+actors:
+- russian-empire
+- empire-of-japan
+- united-states
+importance: 3
+wikidata: Q548067
+sources:
+- url: https://en.wikipedia.org/wiki/Russo-Japanese_War
+  title: Russo-Japanese War
+  publisher: Wikipedia
+  quote: The Treaty of Portsmouth was signed on 5 September 1905 at the Portsmouth Naval Shipyard.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1899-1913/portsmouth-treaty
+  title: The Treaty of Portsmouth and the Russo-Japanese War, 1904–1905
+  publisher: Office of the Historian, US Department of State
+  quote: The Treaty of Portsmouth formally ended the Russo-Japanese War of 1904–05.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1899-1913/portsmouth-treaty
+  title: The Treaty of Portsmouth and the Russo-Japanese War, 1904–1905
+  publisher: Office of the Historian, US Department of State
+  quote: brokered in part by U.S. President Theodore Roosevelt
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1899-1913/portsmouth-treaty
+  title: The Treaty of Portsmouth and the Russo-Japanese War, 1904–1905
+  publisher: Office of the Historian, US Department of State
+  quote: it affirmed the Japanese presence in south Manchuria and Korea and ceded the southern half of
+    the island of Sakhalin to Japan.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,47 @@
+id: mcgrain-v-daugherty-1927
+title: McGrain v. Daugherty
+summary: On 17 January 1927 the US Supreme Court upholds the contempt arrest of Mally Daugherty, who had refused
+  to appear before a Senate committee investigating his brother, Attorney General Harry Daugherty, over the Teapot
+  Dome scandal. The court held for the first time that Congress has the power to compel witnesses to testify.
+occurred:
+  start: '1927-01-17'
+  precision: day
+threads:
+- interwar
+regions:
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: Q15147979
+sources:
+- url: https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  archive_url: https://web.archive.org/web/20261011213037/https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  title: McGrain v. Daugherty
+  publisher: Wikipedia
+  quote: McGrain v. Daugherty, 273 U.S. 135 (1927), was a case heard before the Supreme Court, decided on January
+    17, 1927.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  archive_url: https://web.archive.org/web/20261011213037/https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  title: McGrain v. Daugherty
+  publisher: Wikipedia
+  quote: It was a challenge to Mally Daugherty's contempt conviction and arrest, which happened when he failed to
+    appear before a Senate committee investigating the failure of his brother, Attorney General Harry Daugherty,
+    to investigate the perpetrators of the Teapot Dome Scandal.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  archive_url: https://web.archive.org/web/20261011213037/https://en.wikipedia.org/wiki/McGrain_v._Daugherty
+  title: McGrain v. Daugherty
+  publisher: Wikipedia
+  quote: In the case, the Supreme Court held for the first time that under the Constitution, Congress has the power
+    to compel witnesses to appear and provide testimony.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

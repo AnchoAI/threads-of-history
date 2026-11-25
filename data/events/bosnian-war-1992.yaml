@@ -1,0 +1,52 @@
+id: bosnian-war-1992
+title: Bosnian War
+summary: War in Bosnia and Herzegovina from 6 April 1992 to 21 November 1995 between the Bosnian government
+  and the breakaway Bosnian Serb and Bosnian Croat entities, which were led and supplied by Serbia and
+  Croatia. Over 100,000 people were killed and over 2.2 million displaced.
+occurred:
+  start: '1992-04-06'
+  end: '1995-11-21'
+  precision: day
+threads:
+- migration
+- rights
+regions:
+- russia-eastern-europe
+actors:
+- slobodan-milosevic
+- ratko-mladic
+importance: 4
+wikidata: Q181533
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: the war is commonly seen as having started on 6 April 1992 when the newly independent Republic
+    of Bosnia and Herzegovina was internationally recognized
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: It ended on 21 November 1995 when the Dayton Accords were initialed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: the breakaway proto-states of the Republic of Herzeg-Bosnia and the Republika Srpska which were
+    led and supplied by Croatia and Serbia
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Bosnian_War
+  title: Bosnian War
+  publisher: Wikipedia
+  quote: Estimates suggest over 100,000 people were killed during the war. Over 2.2 million people were
+    displaced
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

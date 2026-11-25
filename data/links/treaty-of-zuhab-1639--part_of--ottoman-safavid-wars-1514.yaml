@@ -1,0 +1,19 @@
+id: treaty-of-zuhab-1639--part_of--ottoman-safavid-wars-1514
+from: treaty-of-zuhab-1639
+to: ottoman-safavid-wars-1514
+type: part_of
+confidence: documented
+note: The treaty closed nearly 150 years of intermittent Ottoman–Safavid wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  archive_url: https://web.archive.org/web/20261001103441/https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  title: Treaty of Zuhab
+  publisher: Wikipedia
+  quote: The accord ended the Ottoman–Safavid War of 1623–1639 and was the last conflict in almost 150 years of
+    intermittent wars between the two states over territorial disputes.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

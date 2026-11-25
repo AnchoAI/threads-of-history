@@ -1,0 +1,25 @@
+id: no-missile-gap-found-1961--revealed--missile-gap-1957
+from: no-missile-gap-found-1961
+to: missile-gap-1957
+type: revealed
+confidence: documented
+note: Satellite photography showed the feared missile gap did not exist.
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Although the Soviet R-7 missile launchers were large and would be easy to spot in Corona photographs,
+    they did not appear in any of them.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: by September 1961, a National Intelligence Estimate concluded that the USSR had no more than
+    25 ICBMs and would not possess more in the near future
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

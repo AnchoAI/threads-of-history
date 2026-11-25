@@ -1,0 +1,32 @@
+id: bowie-concert-at-the-reichstag-1987--influenced--springsteen-concert-in-east-berlin-1988
+from: bowie-concert-at-the-reichstag-1987
+to: springsteen-concert-in-east-berlin-1988
+type: influenced
+confidence: documented
+note: After police beat back East Berliners who gathered by the Wall to hear the 1987 West Berlin concerts,
+  the FDJ began staging Western rock concerts in the East to appease young people.
+sources:
+- url: https://www.the-berliner.com/berlin/bruce-springsteen-plays-east-berlin-1988-history/
+  title: Bruce Springsteen Plays in East Berlin 1988
+  publisher: The Berliner
+  quote: Among the 80 pages of files Kirschbaum dug up from the Stasi archives for his book was evidence that
+    the concert was part of a leadership-sanctioned campaign to appease the country’s youth.
+  type: news
+  accessed: '2026-10-20'
+- url: https://www.the-berliner.com/berlin/bruce-springsteen-plays-east-berlin-1988-history/
+  title: Bruce Springsteen Plays in East Berlin 1988
+  publisher: The Berliner
+  quote: “They were still reeling from incidents in 1987 when police used truncheons and electric stun guns
+    to beat back East Berliners
+  type: news
+  accessed: '2026-10-20'
+- url: https://mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin
+  archive_url: https://web.archive.org/web/20260714214411/https://www.mojo4music.com/time-machine/1980s/mojo-time-machinebruce-springsteen-plays-east-berlin/
+  title: 'MOJO Time Machine: Bruce Springsteen Plays East Berlin'
+  publisher: MOJO
+  quote: They’d already sent truncheon-wielding policemen in when youths had gone to the Berlin Wall to listen
+    to massive gigs by David Bowie, Genesis and Eurythmics held in West Berlin in June 1987.
+  type: news
+  accessed: '2026-10-20'
+review:
+  status: sourced

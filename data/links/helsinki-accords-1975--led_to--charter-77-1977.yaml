@@ -1,0 +1,43 @@
+id: helsinki-accords-1975--led_to--charter-77-1977
+from: helsinki-accords-1975
+to: charter-77-1977
+type: led_to
+confidence: documented
+note: Charter 77 appealed to the human-rights provisions of the Helsinki Final Act, which Gaddis says
+  became a manifesto of the dissident movement.
+sources:
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: Charter 77 criticized the government for failing to implement the human rights provisions of
+    a number of documents it had signed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: the Final Act of the 1975 Conference on Security and Cooperation in Europe (Basket III of the
+    Helsinki Accords)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: Charter 77 and Moscow Helsinki Group, Czechoslovak and Soviet/Russian dissident initiatives that
+    appealed to the Helsinki Accords
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Helsinki_Accords
+  archive_url: https://web.archive.org/web/20261009233001/https://en.wikipedia.org/wiki/Helsinki_Accords
+  title: Helsinki Accords
+  publisher: Wikipedia
+  quote: gradually became a manifesto of the dissident and liberal movement
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

@@ -1,0 +1,49 @@
+id: operation-barbarossa-1941
+title: Operation Barbarossa
+summary: Germany and its Axis allies invade the Soviet Union on 22 June 1941, the largest and costliest
+  military offensive in history. It opens the Eastern Front and brings the Soviet Union into the Allies;
+  the offensive stalls outside Moscow by 5 December.
+occurred:
+  start: '1941-06-22'
+  end: '1941-12-05'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nazi-germany
+- soviet-union
+- adolf-hitler
+- joseph-stalin
+importance: 5
+wikidata: Q83055
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  archive_url: https://web.archive.org/web/20260930223956/https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: Operation Barbarossa was the invasion of the Soviet Union by Nazi Germany and several of its
+    European Axis allies starting on Sunday, 22 June 1941, during World War II.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  archive_url: https://web.archive.org/web/20260930223956/https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: The attack became the largest and costliest military offensive in human history, with around
+    10 million combatants taking part in the opening phase and over 8 million casualties by the end of
+    the operation on 5 December 1941.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Operation_Barbarossa
+  archive_url: https://web.archive.org/web/20260930223956/https://en.wikipedia.org/wiki/Operation_Barbarossa
+  title: Operation Barbarossa
+  publisher: Wikipedia
+  quote: It marked a major escalation of World War II, opened the Eastern Front—the largest and deadliest
+    land war in history—and brought the Soviet Union into the Allied powers.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

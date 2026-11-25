@@ -1,0 +1,58 @@
+id: mexican-revolution-1910
+title: Mexican Revolution
+summary: A decade of armed regional conflicts topples Porfirio Díaz, destroys the Federal Army and transforms
+  Mexico's government. The Constitutionalist faction prevailed and drafted the 1917 constitution.
+occurred:
+  start: '1910-11-20'
+  end: '1920-12-01'
+  precision: day
+threads:
+- empire
+regions:
+- americas
+actors:
+- mexico
+- francisco-madero
+- emiliano-zapata
+importance: 4
+wikidata: Q214426
+sources:
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: was an extended sequence of armed regional conflicts in Mexico from 20 November 1910 to 1 December
+    1920
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: It saw the destruction of the Federal Army, its replacement by a revolutionary army, and the
+    transformation of Mexican culture and government.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: Porfirio Díaz ousted from power and exiled to France
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: The northern Constitutionalist faction prevailed on the battlefield and drafted the present-day
+    Constitution of Mexico
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Mexican_Revolution
+  title: Mexican Revolution
+  publisher: Wikipedia
+  quote: Successive assassinations of revolutionary leaders Madero (1913), Zapata (1919)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. Summary and dates checked against the quoted sources; no person has reviewed them yet.
+  - 'Thread choice: no Latin America or revolution thread exists, so this sits on ''empire''. A reviewer
+    may prefer a new thread.'

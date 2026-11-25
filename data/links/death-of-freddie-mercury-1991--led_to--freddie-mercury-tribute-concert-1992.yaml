@@ -1,0 +1,17 @@
+id: death-of-freddie-mercury-1991--led_to--freddie-mercury-tribute-concert-1992
+from: death-of-freddie-mercury-1991
+to: freddie-mercury-tribute-concert-1992
+type: led_to
+confidence: documented
+note: The concert was staged as a posthumous tribute to Mercury.
+sources:
+- url: https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  archive_url: https://web.archive.org/web/20260922094902/https://en.wikipedia.org/wiki/The_Freddie_Mercury_Tribute_Concert
+  title: The Freddie Mercury Tribute Concert
+  publisher: Wikipedia
+  quote: The concert was a posthumous tribute to Queen's lead vocalist, Freddie Mercury, who had died of an AIDS-related
+    illness on 24 November 1991.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

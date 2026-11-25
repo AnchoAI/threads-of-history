@@ -1,0 +1,19 @@
+id: napoleonic-wars-1803--part_of--french-revolutionary-and-napoleonic-wars-1792
+from: napoleonic-wars-1803
+to: french-revolutionary-and-napoleonic-wars-1792
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Napoleonic Wars lists it as part of French Revolutionary and Napoleonic
+  Wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Napoleonic_Wars
+  title: Napoleonic Wars
+  publisher: Wikipedia
+  quote: Part of the Coalition Wars
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

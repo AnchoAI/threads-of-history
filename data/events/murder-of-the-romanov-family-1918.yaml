@@ -1,0 +1,60 @@
+id: murder-of-the-romanov-family-1918
+title: Murder of the Romanov family
+summary: Bolshevik jailers shot the former Tsar Nicholas II and his family in the Ipatiev House in Yekaterinburg
+  as the Czechoslovak Legion approached. Some Western historians attribute the order to Lenin and Sverdlov;
+  a 2011 investigation found no document proving it.
+occurred:
+  start: '1918-07-17'
+  precision: day
+known:
+  public:
+    start: '1926'
+    precision: year
+    note: The Bolsheviks at first announced only Nicholas's death; the killing of the whole family was
+      acknowledged in 1926. The first announcement (of Nicholas's death only) is undated in the source;
+      July 1918 is approximate.
+threads:
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- nicholas-ii
+- bolsheviks
+- vladimir-lenin
+importance: 3
+wikidata: Q1356047
+sources:
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: On 17 July 1918, Yakov and other Bolshevik jailers, fearing that the Legion would free Nicholas
+    after conquering the town, murdered him and his family.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: Some Western historians attribute the execution order to the government in Moscow, specifically
+    Vladimir Lenin and Yakov Sverdlov
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: A 2011 investigation concluded that, despite the opening of state archives in the post-Soviet
+    years, no written document has been found which proves Lenin or Sverdlov ordered the executions.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Execution_of_the_Romanov_family
+  title: Murder of the Romanov family
+  publisher: Wikipedia
+  quote: The Bolsheviks initially announced only Nicholas's death.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: unverified
+  notes:
+  - 'known.public (1926) rests on: "In 1926 the Soviet regime acknowledged the killings of the entire
+    family" (same Wikipedia page). The 1918 announcement date of Nicholas''s death still needs a source.'
+  - 'Candidate for a later "revealed" item: the 1994 DNA identification of the remains and the 1993 publication
+    of Yurovsky''s 1922 report.'

@@ -1,0 +1,25 @@
+id: polish-october-1956--led_to--hungarian-revolution-1956
+from: polish-october-1956
+to: hungarian-revolution-1956
+type: led_to
+confidence: documented
+note: Soviet concessions to Poland emboldened Hungarians to demand the same.
+sources:
+- url: https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  archive_url: https://web.archive.org/web/20261011034903/https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956
+  title: Hungarian Revolution of 1956
+  publisher: Wikipedia
+  quote: known as the Polish October—emboldened Hungarians to demand from the USSR like concessions for
+    the Hungarian People's Republic
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polish_October
+  archive_url: https://web.archive.org/web/20261010234959/https://en.wikipedia.org/wiki/Polish_October
+  title: Polish October
+  publisher: Wikipedia
+  quote: News of the events in Poland contributed to the more violent but less successful Hungarian Revolution
+    of 1956.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

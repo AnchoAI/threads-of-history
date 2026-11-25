@@ -1,0 +1,51 @@
+id: treaty-of-zuhab-1639
+title: Treaty of Zuhab
+summary: The treaty ended the Ottoman–Safavid war of 1623–1639 and ceded Mesopotamia, including Baghdad, to the
+  Ottomans. It roughly outlined today's Iran–Iraq frontier but never fixed a precise southern boundary, which stayed
+  in dispute.
+occurred:
+  start: '1639-05-17'
+  precision: day
+threads:
+- mideast
+- empire
+regions:
+- middle-east-north-africa
+actors:
+- ottoman-empire
+- safavid-iran
+importance: 4
+wikidata: Q2060524
+sources:
+- url: https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  archive_url: https://web.archive.org/web/20261001103441/https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  title: Treaty of Zuhab
+  publisher: Wikipedia
+  quote: signed on 17 May 1639 at Qasr-e Shirin in western Iran, ended the Ottoman–Safavid War of 1623–1639
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  archive_url: https://web.archive.org/web/20261001103441/https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  title: Treaty of Zuhab
+  publisher: Wikipedia
+  quote: It also included all of Mesopotamia (including Baghdad) being ceded to the Ottomans, forming Ottoman Iraq
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  archive_url: https://web.archive.org/web/20261001103441/https://en.wikipedia.org/wiki/Treaty_of_Zuhab
+  title: Treaty of Zuhab
+  publisher: Wikipedia
+  quote: essentially laying out the rough outline for the frontier between modern day Iran and the states of Turkey
+    and Iraq
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Shatt_al-Arab
+  title: Shatt al-Arab
+  publisher: Wikipedia
+  quote: However, the treaty never demarcated a precise and fixed boundary regarding the frontier in the south.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

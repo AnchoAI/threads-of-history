@@ -1,0 +1,20 @@
+id: declaration-of-the-rights-of-man-1789--led_to--haitian-revolution-1791
+from: declaration-of-the-rights-of-man-1789
+to: haitian-revolution-1791
+type: led_to
+confidence: documented
+note: The Declaration's language of equality fed the demand for freedom in Saint-Domingue.
+sources:
+- url: https://en.wikipedia.org/wiki/Haitian_Revolution
+  archive_url: https://web.archive.org/web/20261001094826/https://en.wikipedia.org/wiki/Haitian_Revolution
+  title: Haitian Revolution
+  publisher: Wikipedia
+  quote: The Declaration was ambiguous as to whether this equality applied to women, slaves, or citizens
+    of the colonies, and thus influenced the desire for freedom and equality in Saint-Domingue.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Cross-batch link added after merging the long-arc batches; quote proposed by a batch agent and re-checked
+    against the fetched page. No person has reviewed it yet.

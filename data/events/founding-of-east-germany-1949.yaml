@@ -1,0 +1,62 @@
+id: founding-of-east-germany-1949
+title: German Democratic Republic founded
+summary: The German Democratic Republic (East Germany) was declared on 7 October 1949 in the Soviet occupation
+  zone, under a constitution that came into force that day, and the Socialist Unity Party (SED) dominated
+  it. The Soviets kept considerable control until 1955; the emergence of the two German states solidified
+  the 1945 division of Germany.
+occurred:
+  start: '1949-10-07'
+  precision: day
+threads:
+- usru
+regions:
+- western-europe
+- russia-eastern-europe
+actors:
+- east-germany
+- walter-ulbricht
+- soviet-union
+importance: 4
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: The German Democratic Republic (the "GDR"; East Germany) was declared on 7 October 1949.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: handed over legal power to the Provisorische Volkskammer under the new Constitution of the GDR
+    which came into force that day
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Berlin_Wall
+  archive_url: https://web.archive.org/web/20261013152859/https://en.wikipedia.org/wiki/Berlin_Wall
+  title: Berlin Wall
+  publisher: Wikipedia
+  quote: until 1955, the Soviets maintained considerable legal control over the GDR state
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_Germany
+  archive_url: https://web.archive.org/web/20261013163715/https://en.wikipedia.org/wiki/East_Germany
+  title: East Germany
+  publisher: Wikipedia
+  quote: The SED dominated political life in the GDR following the country's establishment
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/East_Germany
+  archive_url: https://web.archive.org/web/20261013163715/https://en.wikipedia.org/wiki/East_Germany
+  title: East Germany
+  publisher: Wikipedia
+  quote: The emergence of the two sovereign states solidified the 1945 division of Germany.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'wikidata ''none'': East Germany as a state is Q16957 (used for the actor east-germany); no separate
+    item for its founding was found.'

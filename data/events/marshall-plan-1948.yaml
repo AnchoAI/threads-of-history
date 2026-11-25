@@ -1,0 +1,64 @@
+id: marshall-plan-1948
+title: Marshall Plan
+summary: Proposed by Secretary of State George Marshall at Harvard on 5 June 1947 and signed into law
+  by Truman on 3 April 1948, the European Recovery Program transferred about $13.3 billion to 17 European
+  countries over four years. The same aid was offered to the Soviet Union and its allies, who refused
+  it under Soviet pressure.
+occurred:
+  start: '1948-04-03'
+  precision: day
+  note: Operated for four years from this date; largely replaced by the Mutual Security Act in 1951.
+threads:
+- usru
+regions:
+- western-europe
+- americas
+actors:
+- george-marshall
+- harry-truman
+- united-states
+importance: 4
+wikidata: Q4576
+sources:
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: Marshall gave the address at Harvard University on June 5, 1947.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: Signed into law by President Harry S. Truman on April 3, 1948
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: The United States transferred US$13.3 billion to 17 European countries
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: it operated for four years beginning on April 3, 1948; though in 1951, the Marshall Plan was
+    largely replaced by the Mutual Security Act.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Marshall_Plan
+  archive_url: https://web.archive.org/web/20261009124225/https://en.wikipedia.org/wiki/Marshall_Plan
+  title: Marshall Plan
+  publisher: Wikipedia
+  quote: It offered the same aid to the Soviet Union and its allies, but they refused to accept it, under
+    Soviet pressure
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The article also gives a figure of $17 billion over the four years; the summary uses the $13.3 billion
+    in its lead.

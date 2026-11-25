@@ -1,0 +1,46 @@
+id: facebook-launched-2004
+title: Facebook launched
+summary: Mark Zuckerberg launches "TheFacebook" at Harvard. It opened to the general public in 2006 and
+  became the world's most popular social media platform, with about three billion monthly users by 2023.
+occurred:
+  start: '2004-02-04'
+  precision: day
+threads:
+- industry
+regions:
+- americas
+actors:
+- meta-platforms
+importance: 4
+wikidata: Q355
+sources:
+- url: https://en.wikipedia.org/wiki/Facebook
+  title: Facebook
+  publisher: Wikipedia
+  quote: On February 4, 2004, Zuckerberg launched "TheFacebook".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook
+  title: Facebook
+  publisher: Wikipedia
+  quote: In 2006, Facebook opened to everyone at least or only 13 years old with a valid email address.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook
+  title: Facebook
+  publisher: Wikipedia
+  quote: Facebook had surpassed MySpace in global traffic and became the world's most popular social media
+    platform.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Facebook
+  title: Facebook
+  publisher: Wikipedia
+  quote: As of December 2023, Facebook reported approximately 3.07 billion monthly active users worldwide.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

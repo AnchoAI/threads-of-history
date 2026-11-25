@@ -1,0 +1,26 @@
+id: ipcc-founded-1988--led_to--unfccc-adopted-1992
+from: ipcc-founded-1988
+to: unfccc-adopted-1992
+type: led_to
+confidence: documented
+note: The IPCC's First Assessment Report (1990) played a decisive role in creating the UNFCCC.
+sources:
+- url: https://www.ipcc.ch/about/history/
+  title: History of the IPCC
+  publisher: Intergovernmental Panel on Climate Change
+  quote: In 1990, the First IPCC Assessment Report (FAR) underlined the importance of climate change as a challenge
+    with global consequences and requiring international cooperation. It played a decisive role in the creation
+    of the UNFCCC
+  type: primary
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  archive_url: https://web.archive.org/web/20261011224149/https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change
+  title: Intergovernmental Panel on Climate Change
+  publisher: Wikipedia
+  quote: The report led to the establishment of the United Nations Framework Convention on Climate Change (UNFCCC).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

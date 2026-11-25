@@ -1,0 +1,17 @@
+id: oslo-i-accord-1993--led_to--israel-jordan-peace-treaty-1994
+from: oslo-i-accord-1993
+to: israel-jordan-peace-treaty-1994
+type: led_to
+confidence: documented
+note: After Oslo, Israeli leaders warned Hussein that Jordan might be left out, prompting the push to a treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  archive_url: https://web.archive.org/web/20260929204559/https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty
+  title: Israel–Jordan peace treaty
+  publisher: Wikipedia
+  quote: Israeli prime minister Yitzhak Rabin and Foreign Minister Shimon Peres informed King Hussein that
+    after the Oslo Accords with the PLO, Jordan might be "left out of the big game".
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

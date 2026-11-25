@@ -1,0 +1,22 @@
+id: spanish-empire
+title: Spanish Empire
+actor_type: state
+summary: Colonial empire governed by Spain between 1492 and 1976.
+threads: []
+regions:
+- americas
+- western-europe
+importance: 3
+wikidata: Q80702
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q80702.json
+  title: Spanish Empire
+  publisher: Wikidata
+  quote: colonial empire governed by Spain between 1492 and 1976
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

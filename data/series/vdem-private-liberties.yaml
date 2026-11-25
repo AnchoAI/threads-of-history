@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: vdem-private-liberties
+title: Private civil liberties index (V-Dem)
+summary: Private civil liberties index. V-Dem variable v2x_clpriv; see the V-Dem v16 codebook for the
+  exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: index (0-1)
+dataset: v-dem
+indicator: v2x_clpriv
+table: tables/vdem-private-liberties.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

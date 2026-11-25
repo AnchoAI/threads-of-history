@@ -1,0 +1,70 @@
+id: ash-shiraa-reports-us-arms-sales-to-iran-1986
+title: Ash-Shiraa reports secret US arms sales to Iran
+summary: On 3 November 1986 the Lebanese magazine Ash-Shiraa reports that the United States had been secretly selling
+  weapons to Iran, the first public report of what became the Iran–Contra affair. Reagan then said on television
+  that the transfers had occurred but denied trading arms for hostages; in March 1987 he said the opening to Iran
+  had deteriorated into trading arms for hostages.
+occurred:
+  start: '1986-11-03'
+  precision: day
+threads:
+- scandals
+- media
+- mideast
+regions:
+- middle-east-north-africa
+actors:
+- ronald-reagan
+importance: 3
+source_credibility: medium
+outcome: confirmed
+wikidata: Q4804340
+sources:
+- url: https://en.wikipedia.org/wiki/Ash-Shiraa
+  archive_url: https://web.archive.org/web/20260626192137/https://en.wikipedia.org/wiki/Ash-Shiraa
+  title: Ash-Shiraa
+  publisher: Wikipedia
+  quote: The magazine was the first to break the news that the United States had been secretly selling weapons to
+    Iran, a scandal that eventually grew into the Iran-Contra Affair.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Ash-Shiraa
+  archive_url: https://web.archive.org/web/20260626192137/https://en.wikipedia.org/wiki/Ash-Shiraa
+  title: Ash-Shiraa
+  publisher: Wikipedia
+  quote: The report was published in the magazine on 3 November 1986.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://irp.fas.org/offdocs/walsh/execsum.htm
+  archive_url: https://web.archive.org/web/20261017065045/https://irp.fas.org/offdocs/walsh/execsum.htm
+  title: 'Final Report of the Independent Counsel for Iran/Contra Matters: Executive Summary'
+  publisher: Office of Independent Counsel (Lawrence E. Walsh), via Federation of American Scientists
+  date: '1993-08-04'
+  quote: President Reagan's secret sale of U.S. arms to Iran was reported by a Lebanese publication on November
+    3.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  archive_url: https://web.archive.org/web/20261022220131/https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: He claimed that while the weapons transfers had indeed occurred, the U.S. did not trade arms for hostages.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  archive_url: https://web.archive.org/web/20261022220131/https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: In March 1987, Reagan made a further nationally televised address, saying he was taking full responsibility
+    for the affair and stating that "what began as a strategic opening to Iran deteriorated, in its implementation,
+    into trading arms for hostages."
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - The Wikidata id Q4804340 is for the magazine Ash-Shiraa, not the article.
+  - 'Outcome ''confirmed'': the Walsh report and Reagan''s March 1987 address confirm the arms sales. source_credibility
+    ''medium'' is an editorial judgement.'

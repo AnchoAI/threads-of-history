@@ -1,0 +1,18 @@
+id: purple-rain-released-1984--influenced--riaa-parental-advisory-agreement-1985
+from: purple-rain-released-1984
+to: riaa-parental-advisory-agreement-1985
+type: influenced
+confidence: documented
+note: Complaints about "Darling Nikki" contributed to the introduction of Parental Advisory stickers.
+sources:
+- url: https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  archive_url: https://web.archive.org/web/20261010042914/https://en.wikipedia.org/wiki/Purple_Rain_(album)
+  title: Purple Rain (album)
+  publisher: Wikipedia
+  quote: The risqué lyrics of "Darling Nikki" contributed to the use of Parental Advisory stickers and imprints
+    on album covers that were the record label's answer to complaints from Tipper Gore and the Parents Music
+    Resource Center (PMRC).
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

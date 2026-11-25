@@ -1,0 +1,18 @@
+id: first-taiwan-strait-crisis-1954--part_of--cold-war-1947-1991
+from: first-taiwan-strait-crisis-1954
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The crisis is part of the Cold War in Asia.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Taiwan_Strait_Crisis
+  title: First Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: Part of the cross-strait conflict and Cold War in Asia
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

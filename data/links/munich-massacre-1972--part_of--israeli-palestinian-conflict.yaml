@@ -1,0 +1,19 @@
+id: munich-massacre-1972--part_of--israeli-palestinian-conflict
+from: munich-massacre-1972
+to: israeli-palestinian-conflict
+type: part_of
+confidence: documented
+note: The Munich massacre is part of the Israeli–Palestinian conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: Part of the Israeli–Palestinian conflict
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

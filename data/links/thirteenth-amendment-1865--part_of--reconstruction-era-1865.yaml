@@ -1,0 +1,26 @@
+id: thirteenth-amendment-1865--part_of--reconstruction-era-1865
+from: thirteenth-amendment-1865
+to: reconstruction-era-1865
+type: part_of
+confidence: documented
+note: The first of the three Reconstruction Amendments.
+sources:
+- url: https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  archive_url: https://web.archive.org/web/20261010140343/https://en.wikipedia.org/wiki/Thirteenth_Amendment_to_the_United_States_Constitution
+  title: Thirteenth Amendment to the United States Constitution
+  publisher: Wikipedia
+  quote: It was the first of the three Reconstruction Amendments adopted following the American Civil War.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Reconstruction_era
+  archive_url: https://web.archive.org/web/20261012060010/https://en.wikipedia.org/wiki/Reconstruction_era
+  title: Reconstruction era
+  publisher: Wikipedia
+  quote: Three amendments were added to the United States Constitution to grant citizenship and equal civil rights
+    to the newly freed slaves.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

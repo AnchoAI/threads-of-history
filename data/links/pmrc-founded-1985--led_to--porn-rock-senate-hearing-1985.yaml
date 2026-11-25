@@ -1,0 +1,17 @@
+id: pmrc-founded-1985--led_to--porn-rock-senate-hearing-1985
+from: pmrc-founded-1985
+to: porn-rock-senate-hearing-1985
+type: led_to
+confidence: documented
+note: The PMRC's campaign prompted the Senate hearing on rock lyrics.
+sources:
+- url: https://ebsco.com/research-starters/music/parents-music-resource-center
+  archive_url: https://web.archive.org/web/20260619215430/https://www.ebsco.com/research-starters/music/parents-music-resource-center
+  title: Parents' Music Resource Center
+  publisher: EBSCO Research Starters
+  quote: The PMRC has prompted Senate hearings on the lyrics of popular music and has lobbied the Recording
+    Industry Association of America
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced

@@ -1,0 +1,47 @@
+id: archives-of-terror-found-1992
+title: Paraguay's 'Archives of Terror' found
+summary: Lawyer Martín Almada finds the records of Alfredo Stroessner's secret police in Paraguay. The
+  documents proved the existence of Operation Condor and described the fates of thousands of people kidnapped,
+  tortured and killed.
+occurred:
+  start: '1992-12-22'
+  precision: day
+threads:
+- rights
+- intel
+regions:
+- americas
+actors: []
+importance: 2
+wikidata: Q652919
+sources:
+- url: https://en.wikipedia.org/wiki/Archives_of_Terror
+  archive_url: https://web.archive.org/web/20260929075849/https://en.wikipedia.org/wiki/Archives_of_terror
+  title: Archives of Terror
+  publisher: Wikipedia
+  quote: 'The Archives of Terror (Spanish: Archivos del Terror) are a collection of documents chronicling
+    the repression undertaken by Paraguayan dictator Alfredo Stroessner''s secret police force during
+    his rule from 1954 to 1989. The documents also proved the existence of Operation Condor'
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Archives_of_Terror
+  archive_url: https://web.archive.org/web/20260929075849/https://en.wikipedia.org/wiki/Archives_of_terror
+  title: Archives of Terror
+  publisher: Wikipedia
+  quote: The documents were originally found on 22 December 1992, by lawyer and human-rights activist
+    Dr. Martín Almada,
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Archives_of_Terror
+  archive_url: https://web.archive.org/web/20260929075849/https://en.wikipedia.org/wiki/Archives_of_terror
+  title: Archives of Terror
+  publisher: Wikipedia
+  quote: which described the fates of thousands of Latin Americans who had been secretly kidnapped, tortured,
+    and killed
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

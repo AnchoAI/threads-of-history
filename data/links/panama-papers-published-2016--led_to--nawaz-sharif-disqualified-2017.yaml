@@ -1,0 +1,32 @@
+id: panama-papers-published-2016--led_to--nawaz-sharif-disqualified-2017
+from: panama-papers-published-2016
+to: nawaz-sharif-disqualified-2017
+type: led_to
+confidence: documented
+note: The Panama Papers' reporting on the Sharif family's London properties led to the court case that removed him.
+sources:
+- url: https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  archive_url: https://web.archive.org/web/20260828044403/https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  title: Pakistan PM Disqualified Over Panama Papers Links
+  publisher: International Consortium of Investigative Journalists
+  date: '2017-07-28'
+  quote: The outcome marked a perhaps predictable end to a process that had consisted of one negative finding after
+    another for the prime minister and his family after the Panama Papers reported on April 3, 2016 that his family
+    owned expensive properties in London through offshore companies.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  archive_url: https://web.archive.org/web/20260828044403/https://www.icij.org/investigations/panama-papers/20170728-pakistan-pm-disqualified/
+  title: Pakistan PM Disqualified Over Panama Papers Links
+  publisher: International Consortium of Investigative Journalists
+  date: '2017-07-28'
+  quote: Later in 2016, the Supreme Court, petitioned by political opponents of Sharif, appointed a five-member
+    bench to start hearings in the case that resulted in an order for an investigation into the allegations while
+    Sharif was allowed to continue in office.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

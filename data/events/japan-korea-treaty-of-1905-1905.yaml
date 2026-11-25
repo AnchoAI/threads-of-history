@@ -1,0 +1,53 @@
+id: japan-korea-treaty-of-1905-1905
+title: Japan–Korea Treaty of 1905
+summary: After Japanese troops surround the Korean palace, a treaty is concluded that strips Korea of
+  its diplomatic sovereignty and makes it a Japanese protectorate. Its legality at the time of signing
+  remains disputed; the 1965 Japan–South Korea treaty calls it "already null and void".
+occurred:
+  start: '1905-11-17'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- empire-of-japan
+- korean-empire
+- ito-hirobumi
+importance: 3
+wikidata: Q233254
+sources:
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: Negotiations were concluded on November 17, 1905.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: The treaty deprived Korea of its diplomatic sovereignty and made Korea a protectorate of Imperial
+    Japan.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: Gojong acquiesced to Itō's demands on 15 November, however, when Itō ordered Japanese troops
+    to encircle the Korean imperial palace.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905
+  title: Japan–Korea Treaty of 1905
+  publisher: Wikipedia
+  quote: While the Treaty of 1905 has been confirmed to be "already null and void" by the 1965 Treaty
+    on Basic Relations between Japan and the Republic of Korea, the legality of the treaty at the time
+    of its signing remains controversial.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The seal was affixed around 1:30 am on 18 November 1905, per the same source; 17 November is the date
+    negotiations concluded.

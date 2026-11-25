@@ -1,0 +1,62 @@
+id: potsdam-conference-1945
+title: Potsdam Conference
+summary: Stalin, Churchill (replaced by Attlee on 26 July) and Truman meet at Potsdam from 17 July to
+  2 August 1945. They agree on a disarmed Germany under four occupation zones, and Truman tells Stalin
+  on 24 July that the US has tested an atomic bomb.
+occurred:
+  start: '1945-07-17'
+  end: '1945-08-02'
+  precision: day
+threads:
+- ww2
+- nuclear
+regions:
+- western-europe
+actors:
+- joseph-stalin
+- winston-churchill
+- harry-truman
+- united-states
+- united-kingdom
+- soviet-union
+importance: 3
+wikidata: Q151187
+sources:
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: met in Potsdam, Germany, from July 17 to August 2, 1945, to negotiate terms for the end of World
+    War II.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: For example, the negotiators confirmed the status of a demilitarized and disarmed Germany under
+    four zones of Allied occupation.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: The Potsdam Conference is perhaps best known for President Truman’s July 24, 1945 conversation
+    with Stalin, during which time the President informed the Soviet leader that the United States had
+    successfully detonated the first atomic bomb on July 16, 1945.
+  type: scholarly
+  accessed: '2026-10-03'
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: Stalin, however, was already well-informed about the U.S. nuclear program thanks to the Soviet
+    intelligence network
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Churchill's replacement by Attlee on 26 July is in the same source ('replaced on July 26 by Prime
+    Minister Clement Attlee').

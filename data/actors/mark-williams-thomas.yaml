@@ -1,0 +1,22 @@
+id: mark-williams-thomas
+title: Mark Williams-Thomas
+actor_type: person
+summary: Investigative journalist.
+threads:
+- media
+regions:
+- western-europe
+importance: 2
+wikidata: Q15214608
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q15214608.json
+  title: Mark Williams-Thomas
+  publisher: Wikidata
+  quote: investigative journalist
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

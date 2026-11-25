@@ -1,0 +1,21 @@
+id: turkish-war-of-independence-1919-1922--part_of--dissolution-of-the-ottoman-empire-1908
+from: turkish-war-of-independence-1919-1922
+to: dissolution-of-the-ottoman-empire-1908
+type: part_of
+confidence: documented
+note: The source narrates the Turkish War of Independence as part of the dissolution period.
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: mobilized the Turkish national movement, which ultimately won the Turkish War of Independence. The formal
+    abolition of the Ottoman Sultanate was performed by the Grand National Assembly of Turkey on 1 November 1922.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'
+  - The war's own infobox lists it as part of the Revolutions of 1917–1923, for which no umbrella exists yet.

@@ -1,0 +1,18 @@
+id: nicaraguan-revolution-1961--part_of--central-american-crisis-1977
+from: nicaraguan-revolution-1961
+to: central-american-crisis-1977
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Nicaraguan Revolution lists it as part of Central American crisis.
+sources:
+- url: https://en.wikipedia.org/wiki/Nicaraguan_Revolution
+  title: Nicaraguan Revolution
+  publisher: Wikipedia
+  quote: Part of the Central American crisis and the Cold War in Latin America
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

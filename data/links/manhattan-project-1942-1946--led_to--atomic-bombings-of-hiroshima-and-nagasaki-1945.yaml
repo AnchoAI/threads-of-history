@@ -1,0 +1,18 @@
+id: manhattan-project-1942-1946--led_to--atomic-bombings-of-hiroshima-and-nagasaki-1945
+from: manhattan-project-1942-1946
+to: atomic-bombings-of-hiroshima-and-nagasaki-1945
+type: led_to
+confidence: documented
+note: The project built the Little Boy and Fat Man bombs and was responsible for their use on Hiroshima
+  and Nagasaki.
+sources:
+- url: https://en.wikipedia.org/wiki/Manhattan_Project
+  title: Manhattan Project
+  publisher: Wikipedia
+  quote: The project was responsible for developing the specific means of delivering the weapons onto
+    military targets, and for the use of the Little Boy and Fat Man bombs in the atomic bombings of Hiroshima
+    and Nagasaki in August 1945.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

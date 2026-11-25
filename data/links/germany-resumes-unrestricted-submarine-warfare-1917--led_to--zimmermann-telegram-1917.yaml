@@ -1,0 +1,19 @@
+id: germany-resumes-unrestricted-submarine-warfare-1917--led_to--zimmermann-telegram-1917
+from: germany-resumes-unrestricted-submarine-warfare-1917
+to: zimmermann-telegram-1917
+type: led_to
+confidence: documented
+note: Zimmermann sent the telegram in anticipation of the resumption of unrestricted submarine warfare, which Germany
+  expected to bring war with the United States.
+sources:
+- url: https://en.wikipedia.org/wiki/Zimmermann_Telegram
+  title: Zimmermann telegram
+  publisher: Wikipedia
+  quote: Zimmermann sent the telegram in anticipation of the resumption of unrestricted submarine warfare by Germany
+    on February 1, which the German government knew would almost certainly lead to war with the United States.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

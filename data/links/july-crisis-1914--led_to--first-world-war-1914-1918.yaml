@@ -1,0 +1,24 @@
+id: july-crisis-1914--led_to--first-world-war-1914-1918
+from: july-crisis-1914
+to: first-world-war-1914-1918
+type: led_to
+confidence: documented
+note: The decisions taken during the July Crisis were the immediate origins of the war.
+sources:
+- url: https://en.wikipedia.org/wiki/German_entry_into_World_War_I
+  title: German entry into World War I
+  publisher: Wikipedia
+  quote: However, the immediate origins of the war lay in the decisions taken by statesmen and generals during the
+    July Crisis of 1914
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/July_Crisis
+  title: July Crisis
+  publisher: Wikipedia
+  quote: resulted in an outbreak of hostilities amongst most of the major European states by early August 1914.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

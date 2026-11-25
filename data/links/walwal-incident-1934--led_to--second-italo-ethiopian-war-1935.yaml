@@ -1,0 +1,24 @@
+id: walwal-incident-1934--led_to--second-italo-ethiopian-war-1935
+from: walwal-incident-1934
+to: second-italo-ethiopian-war-1935
+type: led_to
+confidence: documented
+note: Italy used the incident as a casus belli for its invasion of Ethiopia.
+sources:
+- url: https://en.wikipedia.org/wiki/Walwal_Incident
+  title: Walwal Incident
+  publisher: Wikipedia
+  quote: Casus belli of the Second Italo-Ethiopian War
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Walwal_Incident
+  title: Walwal Incident
+  publisher: Wikipedia
+  quote: The conflict ended with an agreement under the League of Nations but Fascist Propaganda made
+    it a Casus belli
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F. The quoted source states the connection; no person has reviewed it yet.

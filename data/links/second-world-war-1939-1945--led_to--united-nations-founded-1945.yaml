@@ -1,0 +1,24 @@
+id: second-world-war-1939-1945--led_to--united-nations-founded-1945
+from: second-world-war-1939-1945
+to: united-nations-founded-1945
+type: led_to
+confidence: documented
+note: The Allies created the United Nations to foster cooperation and prevent future wars.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: The United Nations was created to foster international cooperation and prevent future conflicts,
+    with the victorious great powers—China, France, the Soviet Union, the United Kingdom, and the United
+    States—becoming the permanent members of its Security Council.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/World_War_II
+  title: World War II
+  publisher: Wikipedia
+  quote: In an effort to maintain world peace, the Allies formed the United Nations, which officially
+    came into existence on 24 October 1945
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

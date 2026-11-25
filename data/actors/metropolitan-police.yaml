@@ -1,0 +1,21 @@
+id: metropolitan-police
+title: Metropolitan Police
+actor_type: organization
+summary: Territorial police force in Greater London.
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q1139213
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1139213.json
+  title: Metropolitan Police
+  publisher: Wikidata
+  quote: territorial police force in Greater London
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

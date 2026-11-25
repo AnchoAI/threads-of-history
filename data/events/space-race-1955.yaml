@@ -1,0 +1,59 @@
+id: space-race-1955
+title: The Space Race
+summary: The Cold War competition between the United States and the Soviet Union for superiority in spaceflight,
+  rooted in their ballistic-missile and nuclear arms race. It is usually dated from 1955 to the joint
+  Apollo–Soyuz mission of 1975.
+occurred:
+  start: '1955-07-29'
+  end: '1975-07-17'
+  precision: day
+threads:
+- usru
+- industry
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- soviet-union
+- nasa
+importance: 5
+wikidata: Q1932
+sources:
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: was a 20th-century competition between the Cold War rivals, the United States and the Soviet
+    Union, to achieve superior spaceflight capability. It had its origins in the ballistic missile-based
+    nuclear arms race between the two nations that followed World War II and the onset of the Cold War.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: 29 July 1955 – 17 July 1975
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: The competition began on July 29, 1955, when the United States announced its intent to launch
+    artificial satellites for the International Geophysical Year.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Space_Race
+  archive_url: https://web.archive.org/web/20261013030257/https://en.wikipedia.org/wiki/Space_Race
+  title: Space Race
+  publisher: Wikipedia
+  quote: Being considered as the final act of the Space Race by many observers, the competition was however
+    only gradually replaced with cooperation.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

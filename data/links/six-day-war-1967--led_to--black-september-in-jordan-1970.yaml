@@ -1,0 +1,26 @@
+id: six-day-war-1967--led_to--black-september-in-jordan-1970
+from: six-day-war-1967
+to: black-september-in-jordan-1970
+type: led_to
+confidence: documented
+note: After 1967 the fedayeen moved to Jordan and stepped up attacks on Israel; their growing power led to
+  the 1970 confrontation with the Jordanian army.
+sources:
+- url: https://en.wikipedia.org/wiki/Black_September
+  archive_url: https://web.archive.org/web/20261010072524/https://en.wikipedia.org/wiki/Black_September
+  title: Black September
+  publisher: Wikipedia
+  quote: After the 1967 Six-Day War, Palestinian fedayeen guerrillas relocated to Jordan and stepped up their
+    attacks against Israel and what had become the Israeli-occupied West Bank.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Black_September
+  archive_url: https://web.archive.org/web/20261010072524/https://en.wikipedia.org/wiki/Black_September
+  title: Black September
+  publisher: Wikipedia
+  quote: Hussein hesitated to oust them from the country, but continued PLO activities in Jordan culminated
+    in the Dawson's Field hijackings of 6 September 1970.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

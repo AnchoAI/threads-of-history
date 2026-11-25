@@ -1,0 +1,21 @@
+id: joe-biden
+title: Joe Biden
+actor_type: person
+summary: 46th President of the United States (2021–2025).
+threads: []
+regions:
+- americas
+importance: 2
+wikidata: Q6279
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q6279.json
+  title: Joe Biden
+  publisher: Wikidata
+  quote: 46th President of the United States (2021–2025)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

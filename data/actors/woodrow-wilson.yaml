@@ -1,0 +1,22 @@
+id: woodrow-wilson
+title: Woodrow Wilson
+actor_type: person
+summary: 28th President of the United States (1913–1921).
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q34296
+sources:
+- archive_url: https://web.archive.org/web/20260902221551/https://www.wikidata.org/wiki/Special:EntityData/Q34296.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q34296.json
+  title: Woodrow Wilson
+  publisher: Wikidata
+  quote: 28th President of the United States (1913–1921)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

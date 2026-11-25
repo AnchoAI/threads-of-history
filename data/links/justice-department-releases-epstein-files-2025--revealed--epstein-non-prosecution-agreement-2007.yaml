@@ -1,0 +1,23 @@
+id: justice-department-releases-epstein-files-2025--revealed--epstein-non-prosecution-agreement-2007
+from: justice-department-releases-epstein-files-2025
+to: epstein-non-prosecution-agreement-2007
+type: revealed
+confidence: documented
+note: A January 2026 data set included internal Justice Department correspondence about the 2007–08 agreement.
+sources:
+- url: https://en.wikipedia.org/wiki/Epstein_files
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_files
+  title: Epstein files
+  publisher: Wikipedia
+  quote: Data Set 9, published in January 2026, contained email evidence, including private correspondence between
+    Epstein and prominent individuals and internal departmental correspondence concerning the 2008 non-prosecution
+    agreement
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Wikipedia dates the agreement to 2008 here and to 2007 elsewhere; it was signed in 2007 and Epstein pleaded
+    in 2008.

@@ -1,0 +1,22 @@
+id: spain
+title: Spain
+actor_type: state
+summary: Country in southwestern Europe with territories in Africa.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q29
+iso3: ESP
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q29.json
+  title: Spain
+  publisher: Wikidata
+  quote: country in southwestern Europe with territories in Africa
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

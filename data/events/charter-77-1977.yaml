@@ -1,0 +1,70 @@
+id: charter-77-1977
+title: Charter 77
+summary: Czechoslovak dissidents, among them Václav Havel, publish Charter 77 on 6 January 1977, criticising
+  the government for failing to implement human-rights commitments it had signed, including the Helsinki
+  Final Act. Signatories faced harassment and arrest; after the 1989 Velvet Revolution many of them took
+  important political roles.
+occurred:
+  start: '1977-01-06'
+  precision: day
+threads:
+- rights
+- revolutions
+regions:
+- russia-eastern-europe
+actors:
+- vaclav-havel
+- czechoslovakia
+importance: 3
+wikidata: Q729362
+sources:
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: The charter was published on 6 January 1977, along with the names of the first 242 signatories
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: Founding members and architects were Jiří Němec, Václav Benda, Ladislav Hejdánek, Václav Havel
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: Charter 77 criticized the government for failing to implement the human rights provisions of
+    a number of documents it had signed
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: the Final Act of the 1975 Conference on Security and Cooperation in Europe (Basket III of the
+    Helsinki Accords)
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: Despite unrelenting harassment and arrests, however, the groups continued to issue reports
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Charter_77
+  archive_url: https://web.archive.org/web/20261006123925/https://en.wikipedia.org/wiki/Charter_77
+  title: Charter 77
+  publisher: Wikipedia
+  quote: After the 1989 Velvet Revolution, many of the members of the initiative played important roles
+    in Czech and Slovak politics.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2 (late Cold War and after, 1963–2000). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.

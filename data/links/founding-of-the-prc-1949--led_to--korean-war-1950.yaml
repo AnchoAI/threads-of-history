@@ -1,0 +1,26 @@
+id: founding-of-the-prc-1949--led_to--korean-war-1950
+from: founding-of-the-prc-1949
+to: korean-war-1950
+type: led_to
+confidence: documented
+note: The Communist victory in China was one of the changes that led Stalin to back Kim Il Sung's invasion.
+sources:
+- url: https://en.wikipedia.org/wiki/Korean_War
+  archive_url: https://web.archive.org/web/20261014034233/https://en.wikipedia.org/wiki/Korean_War
+  title: Korean War
+  publisher: Wikipedia
+  quote: 'By 1950, Stalin was more open to suggestions and believed that the strategic situation had changed:
+    PLA forces under Mao Zedong had secured final victory, US forces had withdrawn from Korea, and the
+    Soviets had detonated their first nuclear bomb, breaking the US monopoly.'
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Korean_War
+  archive_url: https://web.archive.org/web/20261014034233/https://en.wikipedia.org/wiki/Korean_War
+  title: Korean War
+  publisher: Wikipedia
+  quote: In April 1950, Stalin permitted Kim to attack the government in the South, under the condition
+    that Mao would agree to send reinforcements if needed.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

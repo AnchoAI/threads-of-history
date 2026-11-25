@@ -1,0 +1,61 @@
+id: martial-law-decision-in-beijing-1989
+title: Decision to declare martial law in Beijing
+summary: At a Politburo Standing Committee meeting at Deng Xiaoping's residence on 17 May 1989, Zhao Ziyang's
+  strategy of concessions was rejected and Deng decided to move troops into Beijing and declare martial law.
+  The State Council declared martial law on 20 May.
+occurred:
+  start: '1989-05-17'
+  precision: day
+threads:
+- china
+regions:
+- east-asia
+actors:
+- deng-xiaoping
+- li-peng
+- zhao-ziyang
+- chinese-communist-party
+importance: 3
+decided_by:
+- deng-xiaoping
+alternatives:
+- option: Zhao Ziyang's concessions-based strategy, including retracting the 26 April People's Daily editorial
+    and continuing dialogue with the students
+  note: Zhao said he could not bring himself to carry out martial law and was later expelled from the Politburo
+    Standing Committee.
+  sources:
+  - url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+    title: 1989 Tiananmen Square protests and massacre
+    publisher: Wikipedia
+    quote: At the meeting, Zhao announced that he was ready to "take leave", citing he could not bring himself
+      to carry out martial law.
+    type: reference
+    accessed: '2026-10-15'
+sources:
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Matters came to a head on 17 May during a Politburo Standing Committee meeting at Deng's residence.
+    At the meeting, Zhao Ziyang's concessions-based strategy, which called for the retraction of the 26 April
+    Editorial, was thoroughly criticised.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: the decision is to move troops into Beijing to declare martial law" as a show of the government's
+    no-tolerance stance.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: On 20 May, the State Council declared martial law, and as many as 300,000 troops were mobilized to
+    Beijing
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

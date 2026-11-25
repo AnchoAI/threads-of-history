@@ -1,0 +1,21 @@
+id: kakuei-tanaka-convicted-1983--part_of--lockheed-bribery-scandals-1975
+from: kakuei-tanaka-convicted-1983
+to: lockheed-bribery-scandals-1975
+type: part_of
+confidence: documented
+note: Tanaka's conviction was the Japanese branch of the Lockheed scandals.
+sources:
+- url: https://www.csmonitor.com/1983/1013/101320.html
+  archive_url: https://web.archive.org/web/20230611151916/https://www.csmonitor.com/1983/1013/101320.html
+  title: Japan's ruling party struggles to escape the shadow of a 'shogun'
+  publisher: The Christian Science Monitor
+  date: '1983-10-13'
+  quote: Tanaka was convicted of receiving while prime minister a 500 million yen bribe from the Lockheed Corporation
+    to use his personal influence to persuade a domestic airline to buy Lockheed passenger aircraft.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

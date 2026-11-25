@@ -1,0 +1,26 @@
+id: operation-brother-sam-1964--part_of--brazilian-coup-1964
+from: operation-brother-sam-1964
+to: brazilian-coup-1964
+type: part_of
+confidence: documented
+note: US naval and air support prepared for the coup.
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: Operation Brother Sam was the use of the United States Navy and Air Force in support of the coup
+    in Brazil in 1964.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  archive_url: https://web.archive.org/web/20260802150055/https://en.wikipedia.org/wiki/Operation_Brother_Sam
+  title: Operation Brother Sam
+  publisher: Wikipedia
+  quote: With the outbreak of the coup d'état, the operation was activated
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

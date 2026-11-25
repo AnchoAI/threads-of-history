@@ -1,0 +1,20 @@
+id: golda-meir
+title: Golda Meir
+actor_type: person
+summary: Prime Minister of Israel from 1969 to 1974.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q42992
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q42992.json
+  title: Golda Meir
+  publisher: Wikidata
+  quote: Prime Minister of Israel from 1969 to 1974
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

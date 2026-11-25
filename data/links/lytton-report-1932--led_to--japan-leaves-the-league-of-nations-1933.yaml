@@ -1,0 +1,21 @@
+id: lytton-report-1932--led_to--japan-leaves-the-league-of-nations-1933
+from: lytton-report-1932
+to: japan-leaves-the-league-of-nations-1933
+type: led_to
+confidence: documented
+note: Japan's delegation walked out when the report's findings were adopted, and Japan then left the League.
+sources:
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: the Japanese delegation led by ambassador Yosuke Matsuoka walked out.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Lytton_Report
+  title: Lytton Report
+  publisher: Wikipedia
+  quote: Japan gave formal notice of its withdrawal from the League of Nations on March 27, 1933.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

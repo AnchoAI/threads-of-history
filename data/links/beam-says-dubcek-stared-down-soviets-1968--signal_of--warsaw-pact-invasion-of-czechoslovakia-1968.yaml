@@ -1,0 +1,21 @@
+id: beam-says-dubcek-stared-down-soviets-1968--signal_of--warsaw-pact-invasion-of-czechoslovakia-1968
+from: beam-says-dubcek-stared-down-soviets-1968
+to: warsaw-pact-invasion-of-czechoslovakia-1968
+type: signal_of
+confidence: documented
+note: A reassurance about the threat of force that was carried out two weeks later.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  archive_url: https://web.archive.org/web/20260518141104/https://history.state.gov/historicaldocuments/frus1964-68v17/d77
+  title: 'FRUS 1964–1968, vol. XVII, doc. 77: Telegram from the Embassy in Czechoslovakia, "Assessment of Czech-Soviet
+    confrontation"'
+  publisher: Office of the Historian, US Department of State (Foreign Relations of the United States)
+  date: '1968-08-04'
+  quote: Dubcek regime can take considerable credit for saving its skin at Cierna and for staring down the
+    Soviet threat of force.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P2. The quoted source states the connection; no person has reviewed it yet.

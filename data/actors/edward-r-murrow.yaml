@@ -1,0 +1,23 @@
+id: edward-r-murrow
+title: Edward R. Murrow
+actor_type: person
+summary: American broadcast journalist (1908–1965).
+threads:
+- film-tv
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q353935
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q353935.json
+  title: Edward R. Murrow
+  publisher: Wikidata
+  quote: American broadcast journalist (1908–1965)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,22 @@
+id: itv-exposure-savile-allegations-2012--led_to--independent-inquiry-into-child-sexual-abuse-2014
+from: itv-exposure-savile-allegations-2012
+to: independent-inquiry-into-child-sexual-abuse-2014
+type: led_to
+confidence: documented
+note: Sources call the Savile scandal, which began with the documentary, a major factor in setting up
+  the inquiry.
+sources:
+- url: https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  archive_url: https://web.archive.org/web/20261012205912/https://en.wikipedia.org/wiki/Jimmy_Savile_sexual_abuse_scandal
+  title: Jimmy Savile sexual abuse scandal
+  publisher: Wikipedia
+  quote: The scandal was a major factor leading to the establishment of the wider-ranging Independent
+    Inquiry into Child Sexual Abuse (IICSA), which was announced by the Home Secretary Theresa May in
+    July 2014
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - The source names "the scandal" as a whole; the link starts from the documentary because that is where
+    the scandal began.

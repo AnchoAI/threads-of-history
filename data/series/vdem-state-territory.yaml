@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: vdem-state-territory
+title: Share of territory under state control (V-Dem)
+summary: Share of territory under state control. V-Dem variable v2svstterr; see the V-Dem v16 codebook
+  for the exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: percent
+dataset: v-dem
+indicator: v2svstterr
+table: tables/vdem-state-territory.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

@@ -1,0 +1,33 @@
+id: profumo-resigns-1963
+title: John Profumo resigns
+summary: On 4 June 1963 John Profumo admits that he lied to the House of Commons about his relationship with Christine
+  Keeler, resigns from the government and gives up his seat.
+occurred:
+  start: '1963-06-04'
+  precision: day
+  note: The resignation was made public the following days.
+threads:
+- scandals
+regions:
+- western-europe
+actors:
+- john-profumo
+- united-kingdom
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Profumo_affair
+  archive_url: https://web.archive.org/web/20261009112144/https://en.wikipedia.org/wiki/Profumo_affair
+  title: Profumo affair
+  publisher: Wikipedia
+  quote: On Tuesday 4 June, Profumo confessed the truth to Bligh, confirming that he had lied, resigned from the
+    government, and applied for the office of steward of the Chiltern Hundreds in order to give up his House of
+    Commons seat.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - No separate Wikidata item for the resignation; the affair is Q1401251.

@@ -1,0 +1,67 @@
+id: justice-department-releases-epstein-files-2025
+title: Justice Department releases the Epstein files
+summary: Under the Transparency Act, the Justice Department publishes Epstein files in waves from 19 December 2025
+  to 30 January 2026, more than 3.5 million pages in all. The first release misses the legal deadline, drawing bipartisan
+  criticism; some sought-after material is redacted, while NPR finds some victims' names left unredacted.
+occurred:
+  start: '2025-12-19'
+  end: '2026-01-30'
+  precision: day
+threads:
+- scandals
+regions:
+- americas
+actors:
+- jeffrey-epstein
+- united-states
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: On December 19, the U.S. Department of Justice released the first batch of Epstein files, violating U.S.
+    law in failing to release all the files by that day. This failure received bipartisan criticism.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  archive_url: https://web.archive.org/web/20261011214201/https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act
+  title: Epstein Files Transparency Act
+  publisher: Wikipedia
+  quote: the Department of Justice released additional files in waves, with a fifth release on January 30, 2026.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/03/nx-s1-5696975/what-to-know-epstein-files-latest
+  archive_url: https://web.archive.org/web/20260930220221/https://www.npr.org/2026/02/03/nx-s1-5696975/what-to-know-epstein-files-latest
+  title: 'Powerful people, random redactions: 4 things to know about the latest Epstein files'
+  publisher: NPR
+  date: '2026-02-03'
+  quote: '"We then released over 3 1/2 million pieces of paper, which the entire world can look at now and see if
+    we got it wrong."'
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  archive_url: https://web.archive.org/web/20260910210730/https://www.npr.org/2025/12/19/nx-s1-5615152/epstein-files-release-trump-pam-bondi-democrats
+  title: Newly released Epstein files include many already public documents
+  publisher: NPR
+  date: '2025-12-19'
+  quote: Some of the most sought after information was redacted, including 119 pages of New York grand jury testimony.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.npr.org/2026/02/03/nx-s1-5696975/what-to-know-epstein-files-latest
+  archive_url: https://web.archive.org/web/20260930220221/https://www.npr.org/2026/02/03/nx-s1-5696975/what-to-know-epstein-files-latest
+  title: 'Powerful people, random redactions: 4 things to know about the latest Epstein files'
+  publisher: NPR
+  date: '2026-02-03'
+  quote: NPR's review of the documents has found numerous examples of the Justice Department failing to redact names
+    of publicly identified victims of sexual abuse as well as names of individuals who have not previously been
+    publicized.
+  type: news
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Wikidata has Q134719046 for the Epstein files themselves (the collection), not for this release; not used.

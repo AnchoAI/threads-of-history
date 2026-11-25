@@ -1,0 +1,21 @@
+id: google-deepmind
+title: Google DeepMind
+actor_type: organization
+summary: Artificial intelligence company owned by Google.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q15733006
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q15733006.json
+  title: Google DeepMind
+  publisher: Wikidata
+  quote: artificial intelligence company owned by Google
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

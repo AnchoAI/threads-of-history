@@ -1,0 +1,50 @@
+id: nazi-soviet-relations-published-1948
+title: US publishes captured Nazi–Soviet documents
+summary: On 21 January 1948 the US State Department published Nazi–Soviet Relations 1939–1941, a collection
+  of captured German Foreign Office documents that included the 1939 pact and its secret protocol. The
+  documents made headlines worldwide, and Stalin answered with the book Falsifiers of History.
+occurred:
+  start: '1948-01-21'
+  precision: day
+threads:
+- interwar
+- usru
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- harry-truman
+- joseph-stalin
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: The protocols gained wider media attention when they were included in an official State Department
+    collection, Nazi–Soviet Relations 1939–1941, edited by Raymond J. Sontag and James S. Beddie and published
+    on 21 January 1948.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: The documents made headlines worldwide.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  archive_url: https://web.archive.org/web/20260930153156/https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact
+  title: Molotov–Ribbentrop Pact
+  publisher: Wikipedia
+  quote: In response to the publication of the secret protocols and other secret German–Soviet relations
+    documents in the State Department edition Nazi–Soviet Relations (1948), Stalin published Falsifiers
+    of History
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - No wikidata id checked for the document collection.

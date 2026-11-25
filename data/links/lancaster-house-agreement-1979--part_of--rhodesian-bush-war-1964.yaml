@@ -1,0 +1,17 @@
+id: lancaster-house-agreement-1979--part_of--rhodesian-bush-war-1964
+from: lancaster-house-agreement-1979
+to: rhodesian-bush-war-1964
+type: part_of
+confidence: documented
+note: The agreement ended the Bush War.
+sources:
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: The agreement effectively concluded the Rhodesian Bush War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

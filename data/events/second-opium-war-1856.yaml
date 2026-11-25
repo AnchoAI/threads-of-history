@@ -1,0 +1,51 @@
+id: second-opium-war-1856
+title: Second Opium War
+summary: Britain and France fought Qing China from 1856 to 1860, burning the Old Summer Palace in Beijing.
+  The Convention of Peking ended the war and ceded the Kowloon Peninsula to British Hong Kong; in treaties
+  made during and after the war China also ceded large territories to Russia.
+occurred:
+  start: '1856-10-08'
+  end: '1860-10-24'
+  precision: day
+threads:
+- china
+- empire
+regions:
+- east-asia
+actors:
+- united-kingdom
+- france
+- qing-dynasty
+- russian-empire
+importance: 4
+wikidata: Q418151
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: 8 October 1856 – 24 October 1860
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: These events prompted Lord Elgin to order his soldiers to loot and burn the Old Summer Palace
+    as soon as they captured Beijing.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: Among other things, the Convention of Peking ceded the Kowloon Peninsula to the British as part
+    of Hong Kong.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Second_Opium_War
+  title: Second Opium War
+  publisher: Wikipedia
+  quote: As a result, China ceded more than 1.5 million square kilometres (0.58 million square miles)
+    of territory to Russia in its north-east and north-west.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

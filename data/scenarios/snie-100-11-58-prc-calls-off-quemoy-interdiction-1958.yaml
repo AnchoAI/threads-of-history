@@ -1,0 +1,88 @@
+id: snie-100-11-58-prc-calls-off-quemoy-interdiction-1958
+title: 'SNIE 100-11-58: China gradually calls off the interdiction of Quemoy'
+summary: In September 1958, during the Second Taiwan Strait Crisis, the US intelligence community judged it unlikely
+  that the Chinese Communists would gradually call off their interdiction of supplies to the Nationalist-held Quemoy
+  (Kinmen) islands. Beijing announced a ceasefire on 6 October and on 25 October said it would not fire on even-numbered
+  days, letting supplies through.
+threads:
+- china
+- intel
+regions:
+- east-asia
+actors:
+- cia
+- peoples-republic-of-china
+- taiwan
+importance: 2
+window:
+  start: '1958-09-16'
+  end: '1958-12-31'
+  precision: day
+probability: 0.3
+stated_as: though we consider it unlikely
+probability_basis: 'Sherman Kent''s words of estimative probability: ''unlikely'' (Kent''s ''probably not'' bracket)
+  = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1958-09-16'
+resolves_by: '1958-12-31'
+resolution:
+  outcome: happened
+  resolved_on: '1958-10-25'
+  event: second-taiwan-strait-crisis-1958
+  note: China declared a unilateral ceasefire on 6 October 1958 and on 25 October said it would not shell on even-numbered
+    days, allowing resupply.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1958-60v19/d99
+  archive_url: https://web.archive.org/web/20251006195627/https://history.state.gov/historicaldocuments/frus1958-60v19/d99
+  title: 'Special National Intelligence Estimate SNIE 100-11-58: Probable Chinese Communist and Soviet Intentions
+    in the Taiwan Strait Area'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1958-09-16'
+  quote: Another Chinese Communist course of action, though we consider it unlikely, is that the Chinese Communists
+    will gradually call off the interdiction of the Chinmens.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: The Communist Chinese government announced a unilateral ceasefire on 6 October 1958.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: '"On 25 October [the Chinese Communists] ... declared that they would not fire on even-numbered days ...
+    if there were no American escort." This allowed Taiwan to resupply their military units on those islands on
+    those days.'
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  archive_url: https://web.archive.org/web/20261014222843/https://en.wikipedia.org/wiki/Second_Taiwan_Strait_Crisis
+  title: Second Taiwan Strait Crisis
+  publisher: Wikipedia
+  quote: This strange informal arrangement continued until the normalization of diplomatic relations between the
+    United States and the Communist People's Republic of China in 1979.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - The estimate states no horizon; the window is the ongoing crisis, read here as running to the end of 1958.

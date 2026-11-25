@@ -1,0 +1,21 @@
+id: apple-inc
+title: Apple Inc.
+actor_type: organization
+summary: American multinational technology company based in Cupertino, California.
+threads: []
+regions:
+- americas
+importance: 3
+wikidata: Q312
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q312.json
+  title: Apple Inc.
+  publisher: Wikidata
+  quote: American multinational technology company based in Cupertino, California
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

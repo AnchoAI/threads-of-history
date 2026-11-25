@@ -1,0 +1,26 @@
+id: boston-globe-spotlight-investigation-2002--led_to--dallas-charter-2002
+from: boston-globe-spotlight-investigation-2002
+to: dallas-charter-2002
+type: led_to
+confidence: documented
+note: The surge of allegations after the Globe's series pushed US bishops to a national response, the
+  Dallas Charter.
+sources:
+- url: https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  archive_url: https://web.archive.org/web/20260830101149/https://en.wikipedia.org/wiki/Catholic_Church_sex_abuse_cases_in_the_United_States
+  title: Catholic Church sex abuse cases in the United States
+  publisher: Wikipedia
+  quote: After the number of allegations exploded following the Globe's series of articles, bishops in
+    the United States felt compelled to coordinate a response at the episcopal conference level.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://www.usccb.org/offices/child-and-youth-protection/charter-protection-children-and-young-people
+  archive_url: https://web.archive.org/web/20260805213438/https://www.usccb.org/offices/child-and-youth-protection/charter-protection-children-and-young-people
+  title: Charter for the Protection of Children and Young People
+  publisher: United States Conference of Catholic Bishops
+  quote: In Dallas, 2002, at their Annual Meeting, the U.S. Conference of Catholic Bishops drafted a landmark
+    document in response to the crisis of sexual abuse of children in the Church.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced

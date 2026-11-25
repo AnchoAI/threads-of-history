@@ -1,0 +1,33 @@
+review:
+  status: unverified
+id: wdi-exchange-rate
+title: Official exchange rate (local currency per US$) (World Bank)
+summary: Official exchange rate refers to the exchange rate determined by national authorities or to the
+  rate determined in the legally sanctioned exchange market. This indicator represents the ratio of Local
+  Currency Units relative to United States dollars.This indicator is derived as an average over the reference
+  period.
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: LCU per US$
+dataset: world-bank-wdi
+indicator: PA.NUS.FCRF
+table: tables/wdi-exchange-rate.csv
+sources:
+- url: https://data.worldbank.org/indicator/PA.NUS.FCRF
+  title: Official exchange rate (LCU per US$, period average)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

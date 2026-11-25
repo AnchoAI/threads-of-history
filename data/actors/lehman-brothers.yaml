@@ -1,0 +1,22 @@
+id: lehman-brothers
+title: Lehman Brothers
+actor_type: organization
+summary: Defunct American financial services firm.
+threads:
+- econ-crises
+regions:
+- americas
+importance: 3
+wikidata: Q212900
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q212900.json
+  title: Lehman Brothers
+  publisher: Wikidata
+  quote: defunct American financial services firm
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

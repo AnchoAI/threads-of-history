@@ -1,0 +1,18 @@
+id: soviet-declaration-of-war-on-japan-1945--part_of--pacific-war-1941
+from: soviet-declaration-of-war-on-japan-1945
+to: pacific-war-1941
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Soviet–Japanese War lists it as part of Pacific War.
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War
+  title: Soviet–Japanese War
+  publisher: Wikipedia
+  quote: Part of the Second Sino-Japanese War and the Pacific Theater of World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

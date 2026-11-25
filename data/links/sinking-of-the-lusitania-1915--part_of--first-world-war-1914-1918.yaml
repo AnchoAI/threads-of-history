@@ -1,0 +1,19 @@
+id: sinking-of-the-lusitania-1915--part_of--first-world-war-1914-1918
+from: sinking-of-the-lusitania-1915
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: The sinking was a German U-boat attack in the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  archive_url: https://web.archive.org/web/20260920074924/https://en.wikipedia.org/wiki/Sinking_of_RMS_Lusitania
+  title: Sinking of RMS Lusitania
+  publisher: Wikipedia
+  quote: was torpedoed by an Imperial German Navy U-boat during the First World War on 7 May 1915
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

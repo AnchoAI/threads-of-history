@@ -1,0 +1,19 @@
+id: russia-annexes-crimea-2014--part_of--russo-ukrainian-war-2014
+from: russia-annexes-crimea-2014
+to: russo-ukrainian-war-2014
+type: part_of
+confidence: documented
+note: The annexation of Crimea is part of the Russo-Ukrainian war.
+sources:
+- url: https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
+  archive_url: https://web.archive.org/web/20260926113200/https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation
+  title: Annexation of Crimea by the Russian Federation
+  publisher: Wikipedia
+  quote: Part of the Russo-Ukrainian War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

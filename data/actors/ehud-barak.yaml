@@ -1,0 +1,21 @@
+id: ehud-barak
+title: Ehud Barak
+actor_type: person
+summary: 10th Prime Minister of Israel.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q125731
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q125731.json
+  title: Ehud Barak
+  publisher: Wikidata
+  quote: 10th Prime Minister of Israel
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

@@ -1,0 +1,54 @@
+id: lancaster-house-agreement-1979
+title: Lancaster House Agreement
+summary: Britain, the Zimbabwe Rhodesia government and the Patriotic Front of Mugabe and Nkomo sign an
+  agreement that ends the Bush War and Rhodesia's UDI, restores British rule for a transition, and sets
+  a post-independence constitution and a ceasefire.
+occurred:
+  start: '1979-12-21'
+  precision: day
+threads:
+- empire
+regions:
+- sub-saharan-africa
+- western-europe
+actors:
+- united-kingdom
+- robert-mugabe
+- ian-smith
+importance: 3
+wikidata: Q1801770
+sources:
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: The Lancaster House Agreement is an agreement signed on 21 December 1979 in Lancaster House
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: Lord Carrington and Sir Ian Gilmour signed the agreement on behalf of the United Kingdom, Abel
+    Muzorewa and Silas Mundawarara signed for the government of Zimbabwe Rhodesia, and Robert Mugabe and
+    Joshua Nkomo for the Patriotic Front.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: The agreement effectively concluded the Rhodesian Bush War. It also marked the nullification
+    of Rhodesia's Unilateral Declaration of Independence, as British colonial authority was to be restored
+    for a transitional period
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Lancaster_House_Agreement
+  title: Lancaster House Agreement
+  publisher: Wikipedia
+  quote: the conference reached agreement on a post-independence constitution, arrangements for the post-independence
+    period, and a ceasefire agreement signed by all the parties.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

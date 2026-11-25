@@ -1,0 +1,67 @@
+id: charles-graner-sentenced-2005
+title: Charles Graner sentenced for Abu Ghraib abuse
+summary: On 15 January 2005 a court-martial sentences Specialist Charles Graner to 10 years in military prison for
+  abusing detainees at Abu Ghraib, after convicting him of assault, battery, conspiracy, maltreatment of detainees,
+  indecent acts and dereliction of duty. Private Lynndie England was later convicted and sentenced to three years.
+occurred:
+  start: '2005-01-15'
+  precision: day
+threads:
+- scandals
+- mideast
+regions:
+- americas
+- middle-east-north-africa
+actors:
+- charles-graner
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://www.cnn.com/2005/LAW/01/15/graner.court.martial/
+  archive_url: https://web.archive.org/web/20260420223348/https://www.cnn.com/2005/LAW/01/15/graner.court.martial/
+  title: Graner sentenced to 10 years for abuses
+  publisher: CNN
+  date: '2005-01-15'
+  quote: Charles Graner Jr. was sentenced Saturday to 10 years in a military prison for his role in abusing detainees
+    at Abu Ghraib prison in Baghdad.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: Graner was convicted of assault, battery, conspiracy, maltreatment of detainees, committing indecent acts
+    and dereliction of duty; he was sentenced to 10 years imprisonment and loss of rank, pay, and benefits.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: On January 15, 2005, he was sentenced to 10 years in prison, dishonorable discharge, and reduction in rank
+    to private.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: England was convicted of conspiracy, maltreatment of detainees, and committing an indecent act and sentenced
+    to three years in prison.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  archive_url: https://web.archive.org/web/20261017005221/https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse
+  title: Abu Ghraib torture and prisoner abuse
+  publisher: Wikipedia
+  quote: Between May 2004 and April 2006, these soldiers were court-martialed, convicted, sentenced to military
+    prison, and dishonorably discharged from service.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Lynndie England has no actor file; her conviction is stated in the summary with its source.

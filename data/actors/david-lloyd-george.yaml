@@ -1,0 +1,21 @@
+id: david-lloyd-george
+title: David Lloyd George
+actor_type: person
+summary: Prime Minister of the United Kingdom from 1916 to 1922.
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q134982
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q134982.json
+  title: David Lloyd George
+  publisher: Wikidata
+  quote: Prime Minister of the United Kingdom from 1916 to 1922
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

@@ -1,0 +1,22 @@
+id: pope-benedict-xvi
+title: Pope Benedict XVI
+actor_type: person
+summary: 265th pope of the Catholic Church (2005–2013).
+threads:
+- religion
+regions:
+- western-europe
+importance: 2
+wikidata: Q2494
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q2494.json
+  title: Pope Benedict XVI
+  publisher: Wikidata
+  quote: 265 th pope of the Catholic Church (2005–2013)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

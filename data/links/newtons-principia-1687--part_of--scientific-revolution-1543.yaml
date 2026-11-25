@@ -1,0 +1,26 @@
+id: newtons-principia-1687--part_of--scientific-revolution-1543
+from: newtons-principia-1687
+to: scientific-revolution-1543
+type: part_of
+confidence: documented
+note: The Principia is the culmination of the Scientific Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: The period culminated with the publication of the Philosophiæ Naturalis Principia Mathematica in 1687 by
+    Isaac Newton.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Scientific_Revolution
+  archive_url: https://web.archive.org/web/20261004192457/https://en.wikipedia.org/wiki/Scientific_Revolution
+  title: Scientific Revolution
+  publisher: Wikipedia
+  quote: and to be complete in the "grand synthesis" of Isaac Newton's 1687 Principia
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The quoted sources state this connection themselves.

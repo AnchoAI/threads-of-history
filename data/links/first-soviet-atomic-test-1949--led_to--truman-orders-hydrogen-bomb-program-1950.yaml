@@ -1,0 +1,26 @@
+id: first-soviet-atomic-test-1949--led_to--truman-orders-hydrogen-bomb-program-1950
+from: first-soviet-atomic-test-1949
+to: truman-orders-hydrogen-bomb-program-1950
+type: led_to
+confidence: documented
+note: The Soviet test set off the US debate that ended in Truman's hydrogen bomb order.
+sources:
+- url: https://en.wikipedia.org/wiki/History_of_the_Teller%E2%80%93Ulam_design
+  title: History of the Teller–Ulam design
+  publisher: Wikipedia
+  quote: When the Soviet Union exploded their own atomic bomb (dubbed "Joe 1" by the US) in August 1949,
+    it caught Western analysts off guard, and over the next several months there was an intense debate
+    within the US government, military, and scientific communities on whether to proceed with the far-more-powerful
+    Super.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Ivy_Mike
+  archive_url: https://web.archive.org/web/20261009183723/https://en.wikipedia.org/wiki/Ivy_Mike
+  title: Ivy Mike
+  publisher: Wikipedia
+  quote: US President Harry S. Truman ordered a full-scale hydrogen bomb program in January 1950, five
+    months after the first Soviet nuclear test RDS-1.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

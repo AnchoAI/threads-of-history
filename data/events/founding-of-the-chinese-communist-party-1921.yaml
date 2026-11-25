@@ -1,0 +1,54 @@
+id: founding-of-the-chinese-communist-party-1921
+title: Chinese Communist Party founded
+summary: Thirteen delegates hold the 1st National Congress of the Chinese Communist Party in Shanghai
+  and, after a police search, on a boat in Jiaxing. The founding meeting is financed by the Comintern.
+occurred:
+  start: '1921-07-23'
+  end: '1921-08-02'
+  precision: day
+threads:
+- china
+- russia
+regions:
+- east-asia
+actors:
+- chinese-communist-party
+- mao-zedong
+importance: 4
+wikidata: Q2268189
+sources:
+- url: https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party
+  title: 1st National Congress of the Chinese Communist Party
+  publisher: Wikipedia
+  quote: The 1st National Congress of the Chinese Communist Party was held in Shanghai and Jiaxing between
+    July 23 and August 2, 1921.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party
+  title: 1st National Congress of the Chinese Communist Party
+  publisher: Wikipedia
+  quote: There were 13 Chinese delegates when the meeting opened on July 23.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party
+  title: 1st National Congress of the Chinese Communist Party
+  publisher: Wikipedia
+  quote: The meeting was put to an end due to a search of the meeting site by the French Concession police
+    on the night of July 30.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party
+  title: 1st National Congress of the Chinese Communist Party
+  publisher: Wikipedia
+  quote: The founding meeting and first months of the CCP were financed by the Comintern.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party
+  title: 1st National Congress of the Chinese Communist Party
+  publisher: Wikipedia
+  quote: 'Of the 13 delegates who attended the congress in 1921, only two would be present at the 1949
+    proclamation of the People''s Republic of China 28 years later: Mao Zedong and Dong Biwu.'
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

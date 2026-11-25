@@ -1,0 +1,27 @@
+id: united-nations-founded-1945--led_to--universal-declaration-of-human-rights-1948
+from: united-nations-founded-1945
+to: universal-declaration-of-human-rights-1948
+type: led_to
+confidence: documented
+note: The UN's Commission on Human Rights, set up in 1946, drafted the Declaration to complement the UN
+  Charter.
+sources:
+- url: https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  title: History of the Declaration
+  publisher: United Nations
+  archive_url: https://web.archive.org/web/20260820115936/https://www.un.org/en/about-us/udhr/history-of-the-declaration
+  quote: World leaders decided to complement the UN Charter with a road map to guarantee the rights of
+    every individual everywhere.
+  type: primary
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  title: Universal Declaration of Human Rights
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261012082043/https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights
+  quote: In June 1946, the Economic and Social Council (ECOSOC)—a principal organ of the newly founded
+    United Nations that is responsible for promoting human rights, created the Commission on Human Rights
+    (CHR)
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

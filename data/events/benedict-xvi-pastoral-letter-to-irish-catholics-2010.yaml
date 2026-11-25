@@ -1,0 +1,60 @@
+id: benedict-xvi-pastoral-letter-to-irish-catholics-2010
+title: Benedict XVI's pastoral letter to the Catholics of Ireland
+wikidata: none
+summary: Pope Benedict XVI writes to Irish Catholics about the abuse of children by clergy. He tells victims
+  "I am truly sorry", tells abusers they must answer "before properly constituted tribunals", and announces
+  an Apostolic Visitation of Irish dioceses, seminaries and religious congregations.
+occurred:
+  start: '2010-03-19'
+  precision: day
+threads:
+- scandals
+- religion
+regions:
+- western-europe
+actors:
+- pope-benedict-xvi
+- catholic-church
+- holy-see
+- ireland
+importance: 3
+sources:
+- url: https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  archive_url: https://web.archive.org/web/20261010140253/https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  title: Pastoral Letter of the Holy Father Pope Benedict XVI to the Catholics of Ireland
+  publisher: The Holy See
+  date: '2010-03-19'
+  quote: You have suffered grievously and I am truly sorry.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  archive_url: https://web.archive.org/web/20261010140253/https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  title: Pastoral Letter of the Holy Father Pope Benedict XVI to the Catholics of Ireland
+  publisher: The Holy See
+  date: '2010-03-19'
+  quote: you must answer for it before Almighty God and before properly constituted tribunals.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  archive_url: https://web.archive.org/web/20261010140253/https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  title: Pastoral Letter of the Holy Father Pope Benedict XVI to the Catholics of Ireland
+  publisher: The Holy See
+  date: '2010-03-19'
+  quote: I intend to hold an Apostolic Visitation of certain dioceses in Ireland, as well as seminaries
+    and religious congregations.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  archive_url: https://web.archive.org/web/20261010140253/https://www.vatican.va/content/benedict-xvi/en/letters/2010/documents/hf_ben-xvi_let_20100319_church-ireland.html
+  title: Pastoral Letter of the Holy Father Pope Benedict XVI to the Catholics of Ireland
+  publisher: The Holy See
+  date: '2010-03-19'
+  quote: From the Vatican, 19 March 2010, on the Solemnity of Saint Joseph
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - 'Batch S2 (abuse in institutions and #MeToo). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.'
+  - 'Wikidata: no item found for the letter; set to none.'

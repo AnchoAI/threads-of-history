@@ -1,0 +1,68 @@
+id: hamoodur-rahman-commission-report-1974
+title: Hamoodur Rahman Commission report
+summary: A Pakistani judicial commission, set up by Zulfikar Ali Bhutto in December 1971 to inquire into
+  the 1971 war, the atrocities and the surrender in the east, submits its final report. The government
+  did not allow publication; parts leaked to the press in 2000.
+occurred:
+  start: '1974'
+  precision: year
+known:
+  public:
+    start: '2000'
+    precision: year
+    note: Parts leaked to Indian and Pakistani newspapers; key political and military sections reportedly
+      remained classified.
+threads:
+- rights
+- intel
+regions:
+- south-central-asia
+actors:
+- pakistan
+importance: 2
+wikidata: Q5645942
+sources:
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: was a judicial inquiry commission that assessed Pakistan's political–military involvement in
+    East-Pakistan from 1947 to 1971. The commission was set up on 26 December 1971 by Zulfiqar Ali Bhutto
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: Constituted to prepare strictly germane report on "full and complete account of the circumstances
+    surrounding the atrocities and 1971 war"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: circumstances in which the Commander of the Eastern Military Command, surrendered
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: The commission submitted its final report in 1974.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: except the one that was handed over to Government who disallowed its publication at the time.
+    In 2000, parts of the commission report were leaked to Indian and Pakistani newspapers.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - wikidata Q5645942 is the commission itself; no separate item for its report was found.

@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: vdem-rigorous-administration
+title: Rigorous and impartial public administration (V-Dem)
+summary: Rigorous and impartial public administration. V-Dem variable v2clrspct; see the V-Dem v16 codebook
+  for the exact definition.
+occurred:
+  start: '1946'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: scale (about -3 to 3)
+dataset: v-dem
+indicator: v2clrspct
+table: tables/vdem-rigorous-administration.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

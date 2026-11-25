@@ -1,0 +1,18 @@
+id: marwan-warns-of-may-attack-1973--signal_of--yom-kippur-war-and-oil-embargo-1973
+from: marwan-warns-of-may-attack-1973
+to: yom-kippur-war-and-oil-embargo-1973
+type: signal_of
+confidence: documented
+note: A false alarm about the Egyptian–Syrian attack; the costly mobilisation it prompted made Israelis readier
+  to dismiss real warnings in October.
+sources:
+- url: https://en.wikipedia.org/wiki/Yom_Kippur_War
+  archive_url: https://web.archive.org/web/20261013003144/https://en.wikipedia.org/wiki/Yom_Kippur_War
+  title: Yom Kippur War
+  publisher: Wikipedia
+  quote: These exercises led some Israelis to dismiss the actual war preparations—and Marwan's warning right
+    before the attack was launched—as another exercise.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

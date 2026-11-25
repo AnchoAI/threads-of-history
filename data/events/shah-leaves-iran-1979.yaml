@@ -1,0 +1,38 @@
+id: shah-leaves-iran-1979
+title: The Shah leaves Iran
+summary: On 16 January 1979 Mohammad Reza Pahlavi left Iran for exile, leaving his duties to a Regency Council and
+  Prime Minister Shapour Bakhtiar. Washington expected him to seek asylum in the United States.
+occurred:
+  start: '1979-01-16'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+actors:
+- mohammad-reza-pahlavi
+- iran
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: On 16 January 1979, Pahlavi left Iran for exile, leaving his duties to Iran's Regency Council and Shapour
+    Bakhtiar, the opposition-based prime minister.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  archive_url: https://web.archive.org/web/20260908171027/https://americandiplomacy.web.unc.edu/2003/04/jimmy-carter-and-the-1979-decision-to-admit-the-shah-into-the-united-states/
+  title: Jimmy Carter and the 1979 Decision to Admit the Shah into the United States
+  publisher: American Diplomacy (William J. Daugherty)
+  date: 2003-04
+  quote: When the shah left Iran on 16 January 1979, it was expected that he would quickly seek asylum in America
+  type: scholarly
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - No separate Wikidata item for the departure was found.

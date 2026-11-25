@@ -1,0 +1,49 @@
+id: wannsee-minutes-found-1947
+title: Wannsee Conference minutes found
+summary: In March 1947 Robert Kempner, a US prosecutor at Nuremberg, finds the only surviving copy of
+  the Wannsee Conference minutes (copy 16 of 30) among seized German Foreign Office files. They are used
+  as evidence at the subsequent Nuremberg trials.
+occurred:
+  start: 1947-03
+  precision: month
+threads:
+- ww2
+- intel
+regions:
+- western-europe
+actors:
+- nazi-germany
+importance: 2
+wikidata: Q27061812
+sources:
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was not until 1947 that Luther's copy (number 16 out of 30 copies prepared) was found by Robert
+    Kempner, a U.S. prosecutor in the International Military Tribunal at Nuremberg, in files that had
+    been seized from the German Foreign Office.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was found by Robert Kempner in March 1947 among files that had been seized from the German
+    Foreign Office.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wannsee_Conference
+  archive_url: https://web.archive.org/web/20260928164433/https://en.wikipedia.org/wiki/Wannsee_Conference
+  title: Wannsee Conference
+  publisher: Wikipedia
+  quote: It was used as evidence in the subsequent Nuremberg trials.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - '''Only surviving copy'' is not directly quoted; the source says copy 16 of 30 was found. A reviewer
+    should confirm or drop ''only surviving'' from the summary.'
+  - wikidata is Q27061812 ('Wannsee Protocol'), the minutes document itself; Wikidata has no separate
+    item for their discovery. If a document item is added later, move the id there.

@@ -1,0 +1,19 @@
+id: bomber-gap-1955--part_of--cold-war-1947-1991
+from: bomber-gap-1955
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The source describes the bomber gap as a Cold War belief.
+sources:
+- url: https://en.wikipedia.org/wiki/Bomber_gap
+  title: Bomber gap
+  publisher: Wikipedia
+  quote: The bomber gap was the Cold War belief that the Soviet Union's Long Range Aviation department had gained
+    an advantage in deploying jet-powered strategic bombers.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: the quoted source states that the sub-event belongs to the larger event. No person has reviewed
+    it yet.'

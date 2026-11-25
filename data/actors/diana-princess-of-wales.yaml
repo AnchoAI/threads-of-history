@@ -1,0 +1,20 @@
+id: diana-princess-of-wales
+title: Diana, Princess of Wales
+actor_type: person
+summary: Member of the British royal family and Princess of Wales (1961–1997).
+threads: []
+regions:
+- western-europe
+importance: 3
+wikidata: Q9685
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q9685.json
+  title: Diana, Princess of Wales
+  publisher: Wikidata
+  quote: member of the British royal family and Princess of Wales (1961–1997)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

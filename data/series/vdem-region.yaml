@@ -1,0 +1,32 @@
+review:
+  status: unverified
+id: vdem-region
+title: Politico-geographic region (V-Dem)
+summary: 'V-Dem''s region code: 1 Eastern Europe and post-Soviet, 2 Latin America, 3 North Africa and
+  Middle East, 4 Sub-Saharan Africa, 5 Western Europe and North America, 6 Eastern Asia, 7 South-Eastern
+  Asia, 8 Southern Asia, 9 the Pacific, 10 the Caribbean.'
+occurred:
+  start: '1900'
+  end: '2025'
+  precision: year
+threads:
+- revolutions
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: region code (1-10)
+dataset: v-dem
+indicator: e_regionpol
+table: tables/vdem-region.csv
+sources:
+- url: https://v-dem.net/data/the-v-dem-dataset/
+  title: The V-Dem Dataset
+  publisher: V-Dem Institute
+  type: primary

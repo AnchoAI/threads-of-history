@@ -1,0 +1,55 @@
+id: occupation-of-the-ruhr-1923
+title: Occupation of the Ruhr
+summary: French and Belgian troops occupied Germany's Ruhr industrial district from January 1923 to August
+  1925 after Germany defaulted on reparations deliveries. The German government backed passive resistance
+  and paid idled workers largely by printing money, which made the hyperinflation worse.
+occurred:
+  start: '1923-01-11'
+  end: '1925-08-25'
+  precision: day
+threads:
+- interwar
+- econ-crises
+regions:
+- western-europe
+actors:
+- france
+- weimar-republic
+- gustav-stresemann
+importance: 3
+wikidata: Q40625
+sources:
+- url: https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr
+  title: Occupation of the Ruhr
+  publisher: Wikipedia
+  quote: 'The occupation of the Ruhr (German: Ruhrbesetzung) was the period from 11 January 1923 to 25
+    August 1925 when French and Belgian troops occupied the Ruhr region of Germany.'
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr
+  title: Occupation of the Ruhr
+  publisher: Wikipedia
+  quote: The occupation of the heavily industrialized Ruhr district came in response to Germany's repeated
+    defaults on the reparations payments required under the terms of the Treaty of Versailles.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr
+  title: Occupation of the Ruhr
+  publisher: Wikipedia
+  quote: The government paid for its support of idled workers and businesses primarily by printing paper
+    money.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic
+  title: Hyperinflation in the Weimar Republic
+  publisher: Wikipedia
+  quote: The government paid these workers by printing more and more banknotes, with Germany soon being
+    swamped with paper money, exacerbating the hyperinflation even further.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The hyperinflation started before the occupation (1921–22), so the validator does not allow a led_to
+    link from the occupation to it. Sources say the occupation made it worse; historian Sally Marks argues
+    it did not cause it.

@@ -1,0 +1,22 @@
+id: john-geoghan
+title: John Geoghan
+actor_type: person
+summary: Catholic priest from Massachusetts (1935–2003).
+threads:
+- scandals
+regions:
+- americas
+importance: 2
+wikidata: Q456813
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q456813.json
+  title: John Geoghan
+  publisher: Wikidata
+  quote: catholic priest from Massachusetts
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

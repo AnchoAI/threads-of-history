@@ -1,0 +1,33 @@
+id: polio-vaccine-1955--led_to--global-polio-eradication-initiative-1988
+from: polio-vaccine-1955
+to: global-polio-eradication-initiative-1988
+type: led_to
+confidence: documented
+note: Mass vaccination with the polio vaccines is the means of the eradication campaign.
+sources:
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: The two vaccines have eliminated polio from most of the world
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Polio_vaccine
+  archive_url: https://web.archive.org/web/20261008141357/https://en.wikipedia.org/wiki/Polio_vaccine
+  title: Polio vaccine
+  publisher: Wikipedia
+  quote: Interruption of person-to-person transmission of the virus by vaccination is important in global
+    polio eradication.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://polioeradication.org/about-polio/history-of-polio/
+  title: History of polio
+  publisher: Global Polio Eradication Initiative
+  quote: Rotary International launched a global effort to immunize the world’s children against polio
+    in 1985 followed by the establishment of the Global Polio Eradication Initiative (GPEI) in 1988.
+  type: primary
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S. The quoted source states the connection; no person has reviewed it yet.

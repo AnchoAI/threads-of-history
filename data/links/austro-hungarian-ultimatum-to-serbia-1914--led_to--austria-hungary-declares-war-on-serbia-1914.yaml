@@ -1,0 +1,28 @@
+id: austro-hungarian-ultimatum-to-serbia-1914--led_to--austria-hungary-declares-war-on-serbia-1914
+from: austro-hungarian-ultimatum-to-serbia-1914
+to: austria-hungary-declares-war-on-serbia-1914
+type: led_to
+confidence: documented
+note: Austria-Hungary treated Serbia's reply as a rejection and declared war; its declaration cited the unsatisfactory
+  reply to the note of 23 July.
+sources:
+- url: https://en.wikipedia.org/wiki/World_War_I
+  archive_url: https://web.archive.org/web/20261003170210/https://en.wikipedia.org/wiki/World_War_I
+  title: World War I
+  publisher: Wikipedia
+  quote: Claiming this amounted to rejection, Austria broke off diplomatic relations and ordered partial mobilisation
+    the next day; on 28 July, they declared war on Serbia
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Ultimatum_of_July_23,_1914
+  archive_url: https://web.archive.org/web/20260807182000/https://en.wikipedia.org/wiki/Ultimatum_of_July_23,_1914
+  title: Ultimatum of July 23, 1914
+  publisher: Wikipedia
+  quote: The issuance of the ultimatum is widely seen as an immediate precursor to the outbreak of World War I in
+    August 1914.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

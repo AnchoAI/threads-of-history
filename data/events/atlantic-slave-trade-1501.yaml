@@ -1,0 +1,52 @@
+id: atlantic-slave-trade-1501
+title: Atlantic slave trade
+summary: European and American slave ships carry enslaved Africans across the Atlantic to the Americas from the
+  16th century until well into the 19th. The Trans-Atlantic Slave Trade Database project estimates that about 12.5
+  million captives were embarked in Africa and 10.7 million landed in the Americas.
+occurred:
+  start: '1501'
+  end: '1867'
+  precision: year
+threads:
+- rights
+- empire
+regions:
+- sub-saharan-africa
+- americas
+- western-europe
+actors:
+- british-empire
+- spanish-empire
+importance: 5
+wikidata: Q10701282
+sources:
+- url: https://en.wikipedia.org/wiki/Atlantic_slave_trade
+  archive_url: https://web.archive.org/web/20261011192348/https://en.wikipedia.org/wiki/Atlantic_slave_trade
+  title: Atlantic slave trade
+  publisher: Wikipedia
+  quote: Europeans established a coastal slave trade in the 15th century, and trade to the Americas began in the
+    16th century, lasting well into the 19th century.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Trans-Atlantic_Slave_Trade_Database
+  title: 'Voyages: The Trans-Atlantic Slave Trade Database'
+  publisher: Wikipedia
+  quote: By 2008, the project had gathered data on nearly 35,000 transatlantic slave voyages from 1501 to 1867.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Trans-Atlantic_Slave_Trade_Database
+  title: 'Voyages: The Trans-Atlantic Slave Trade Database'
+  publisher: Wikipedia
+  quote: They reckon that in 366 years, slaving vessels embarked about 12.5 million captives in Africa, and landed
+    10.7 million in the New World.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D (empire, slavery and Africa). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Dates are the span of voyages recorded in the Voyages database (1501–1867); the trade itself began earlier on
+    the African coast.
+  - Figures are attributed to the Voyages project as reported on Wikipedia. slavevoyages.org is a JavaScript app
+    and could not be fetched as text; check the figures there.

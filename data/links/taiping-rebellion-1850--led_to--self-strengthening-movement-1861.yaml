@@ -1,0 +1,23 @@
+id: taiping-rebellion-1850--led_to--self-strengthening-movement-1861
+from: taiping-rebellion-1850
+to: self-strengthening-movement-1861
+type: led_to
+confidence: documented
+note: The rebellion prompted the Qing reform programme.
+sources:
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: The Taiping rebellion prompted the government's initially successful "Self-Strengthening Movement"
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Self-Strengthening_Movement
+  archive_url: https://web.archive.org/web/20261006152505/https://en.wikipedia.org/wiki/Self-Strengthening_Movement
+  title: Self-Strengthening Movement
+  publisher: Wikipedia
+  quote: In 1860, China's defeat in the Second Opium War and the successes of the Taiping Rebellion forced
+    the imperial court to acknowledge a crisis.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

@@ -1,0 +1,17 @@
+id: german-invasion-of-belgium-1914--part_of--first-world-war-1914-1918
+from: german-invasion-of-belgium-1914
+to: first-world-war-1914-1918
+type: part_of
+confidence: documented
+note: German invasion of Belgium was part of the First World War.
+sources:
+- url: https://en.wikipedia.org/wiki/German_invasion_of_Belgium_(1914)
+  title: German invasion of Belgium (1914)
+  publisher: Wikipedia
+  quote: German invasion of Belgium Part of the Western Front of the First World War
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - The quoted source states this connection itself.

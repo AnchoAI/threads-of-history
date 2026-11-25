@@ -1,0 +1,17 @@
+id: great-depression-1929--led_to--new-deal-1933
+from: great-depression-1929
+to: new-deal-1933
+type: led_to
+confidence: documented
+note: The New Deal was Roosevelt's response to the Depression.
+sources:
+- url: https://en.wikipedia.org/wiki/New_Deal
+  archive_url: https://web.archive.org/web/20261001192300/https://en.wikipedia.org/wiki/New_Deal
+  title: New Deal
+  publisher: Wikipedia
+  quote: The New Deal refers to a series of economic, social, and political reforms in response to the
+    Great Depression in the United States
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

@@ -1,0 +1,28 @@
+id: first-opium-war-1839--led_to--taiping-rebellion-1850
+from: first-opium-war-1839
+to: taiping-rebellion-1850
+type: led_to
+confidence: documented
+note: The defeat weakened the Qing state, and anti-Qing sentiment grew into rebellions such as the Taiping.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: The First Opium War both reflected and contributed to a further weakening of the Chinese state's
+    power and legitimacy. Anti-Qing sentiment grew in the form of rebellions, such as the Taiping Rebellion
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: The Qing military had recently suffered a disastrous defeat in the First Opium War, while the
+    Chinese economy was severely impacted by a trade imbalance caused by the large-scale and illicit importation
+    of opium.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - The Taiping article lists the defeat among several background causes (famines, natural disasters,
+    economic problems); it is one contributing factor.

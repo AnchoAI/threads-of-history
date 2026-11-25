@@ -1,0 +1,22 @@
+id: d-w-griffith
+title: D. W. Griffith
+actor_type: person
+summary: American filmmaker (1875–1948).
+threads:
+- film-tv
+regions:
+- americas
+importance: 2
+wikidata: Q51123
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q51123.json
+  title: D. W. Griffith
+  publisher: Wikidata
+  quote: American filmmaker (1875–1948)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

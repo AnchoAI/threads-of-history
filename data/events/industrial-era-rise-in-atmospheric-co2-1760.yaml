@@ -1,0 +1,65 @@
+id: industrial-era-rise-in-atmospheric-co2-1760
+title: Industrial-era rise in atmospheric CO₂
+summary: Since the mid-18th century, burning fossil fuels (coal, oil and gas) has raised atmospheric carbon dioxide
+  from about 280 ppm to over 420 ppm, causing global warming. The IPCC states that the rise in greenhouse gases
+  since about 1750 is unequivocally caused by human activities.
+occurred:
+  start: '1760'
+  ongoing: true
+  precision: decade
+  approximate: true
+  note: Dated to the start of the Industrial Revolution, from which the sources count the rise; the IPCC uses about
+    1750 as its pre-industrial baseline.
+threads:
+- industry
+- energy
+regions:
+- western-europe
+- americas
+- east-asia
+actors: []
+importance: 5
+wikidata: 'none'
+sources:
+- url: https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth
+  title: Carbon dioxide in the atmosphere of Earth
+  publisher: Wikipedia
+  quote: Since the start of the Industrial Revolution, atmospheric CO2 concentration has been increasing, causing
+    global warming and ocean acidification.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth
+  title: Carbon dioxide in the atmosphere of Earth
+  publisher: Wikipedia
+  quote: The value had been about 280 ppm during the 10,000 years up to the mid-18th century.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth
+  title: Carbon dioxide in the atmosphere of Earth
+  publisher: Wikipedia
+  quote: In October 2023 the average level of CO2 in Earth's atmosphere, adjusted for seasonal variation, was 422.17
+    parts per million by volume (ppm).
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth
+  title: Carbon dioxide in the atmosphere of Earth
+  publisher: Wikipedia
+  quote: Burning fossil fuels such as coal, petroleum, and natural gas is the leading cause of increased anthropogenic
+    CO2
+  type: reference
+  accessed: '2026-10-14'
+- url: https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/
+  title: 'AR6 Synthesis Report: Summary for Policymakers'
+  publisher: Intergovernmental Panel on Climate Change
+  date: '2023'
+  quote: Observed increases in well-mixed GHG concentrations since around 1750 are unequivocally caused by GHG emissions
+    from human activities over this period.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - A process rather than a single event; Wikidata has no item for it as an event, so 'none' is set.
+  - Could later be backed by a CO₂ series (e.g. the Keeling curve or ice-core data) drawn as a band.

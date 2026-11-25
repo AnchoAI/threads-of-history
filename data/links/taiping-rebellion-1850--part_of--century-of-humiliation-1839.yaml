@@ -1,0 +1,15 @@
+id: taiping-rebellion-1850--part_of--century-of-humiliation-1839
+from: taiping-rebellion-1850
+to: century-of-humiliation-1839
+type: part_of
+confidence: documented
+note: The rebellion is counted as part of the "century of humiliation".
+sources:
+- url: https://en.wikipedia.org/wiki/Taiping_Rebellion
+  title: Taiping Rebellion
+  publisher: Wikipedia
+  quote: Taiping Rebellion Part of the century of humiliation
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

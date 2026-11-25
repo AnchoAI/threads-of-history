@@ -1,0 +1,16 @@
+id: czechoslovak-coup-1948--led_to--marshall-plan-1948
+from: czechoslovak-coup-1948
+to: marshall-plan-1948
+type: led_to
+confidence: documented
+note: The coup helped spur quick adoption of the Marshall Plan by Congress.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d%27%C3%A9tat
+  title: 1948 Czechoslovak coup d'état
+  publisher: Wikipedia
+  quote: The event alarmed Western countries and helped spur quick adoption of the Marshall Plan, the
+    creation of a state in West Germany
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

@@ -1,0 +1,90 @@
+id: nsc-68-1950
+title: NSC 68
+summary: NSC 68, a top-secret policy paper drafted under Paul Nitze and presented to Truman on 7 April
+  1950, argued that the Soviet Union was driven "to impose its absolute authority over the rest of the
+  world" and called for a massive US military build-up, roughly tripling defence spending. It took on
+  new importance once the Korean War began, and was declassified in 1975.
+occurred:
+  start: '1950-04-07'
+  precision: day
+known:
+  public:
+    start: '1975'
+    precision: year
+    note: Declassified.
+threads:
+- usru
+- nuclear
+regions:
+- americas
+actors:
+- harry-truman
+- united-states
+importance: 3
+wikidata: Q3367946
+sources:
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: The report, designated NSC 68, was presented to President Truman on 7 April 1950
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: NSC 68 was drafted under the guidance of Paul H. Nitze
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/NSC68
+  archive_url: https://web.archive.org/web/20260914041504/https://history.state.gov/milestones/1945-1952/NSC68
+  title: NSC-68, 1950
+  publisher: Office of the Historian, US Department of State
+  quote: was driven “to impose its absolute authority over the rest of the world.”
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/NSC68
+  archive_url: https://web.archive.org/web/20260914041504/https://history.state.gov/milestones/1945-1952/NSC68
+  title: NSC-68, 1950
+  publisher: Office of the Historian, US Department of State
+  quote: They argued that the best course of action was to respond in kind with a massive build-up of
+    the U.S. military and its weaponry.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: The report called for tripling defense spending to $40 or $50 billion per year from the original
+    $13 billion set for 1950.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: With the Korean War begun, NSC 68 took on new importance.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1945-1952/NSC68
+  archive_url: https://web.archive.org/web/20260914041504/https://history.state.gov/milestones/1945-1952/NSC68
+  title: NSC-68, 1950
+  publisher: Office of the Historian, US Department of State
+  quote: was not declassified until 1975
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/NSC_68
+  archive_url: https://web.archive.org/web/20260927204439/https://en.wikipedia.org/wiki/NSC_68
+  title: NSC 68
+  publisher: Wikipedia
+  quote: The document was declassified in 1975.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - known.public is sourced to the State Department historian ('was not declassified until 1975') and
+    Wikipedia ('The document was declassified in 1975.'); the schema has no sources field on known.public,
+    so the quotes are listed here.
+  - 'Sources disagree on when Truman approved it: Wikipedia says 1951.'

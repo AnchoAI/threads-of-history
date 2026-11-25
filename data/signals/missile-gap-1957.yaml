@@ -1,0 +1,84 @@
+id: missile-gap-1957
+title: US estimates of a Soviet "missile gap"
+summary: From December 1957 US estimates, including the Gaither Committee's and National Intelligence
+  Estimates, projected a fast-growing Soviet ICBM force; NIE 11-5-58 (August 1958) foresaw 100 ICBMs in
+  1960 and perhaps 500 in 1961. Khrushchev's boasts fed the perception, and Senator John F. Kennedy campaigned
+  on the "missile gap". The gap did not exist except in exaggerated estimates.
+occurred:
+  start: '1957-12'
+  end: '1958-08'
+  precision: month
+threads:
+- usru
+- nuclear
+- intel
+regions:
+- americas
+- russia-eastern-europe
+actors:
+- united-states
+- john-f-kennedy
+- nikita-khrushchev
+- dwight-d-eisenhower
+importance: 3
+wikidata: Q2916432
+source_credibility: medium
+outcome: 'false'
+sources:
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: National Intelligence Estimate (NIE) 11-10-57, issued in December 1957, predicted that the Soviets
+    would "probably have a first operational capability with up to 10 prototype ICBMs"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: NIE 11-5-58, released in August 1958, concluded that the USSR had "the technical and industrial
+    capability ... to have an operational capability with 100 ICBMs" some time in 1960 and perhaps 500
+    ICBMs "some time in 1961, or at the latest in 1962".
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: The gap in the ballistic missile arsenals did not exist except in exaggerated estimates, made
+    by the Gaither Committee in 1957 and in United States Air Force (USAF) figures.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Nikita Khrushchev asserted that long-range missiles were rolling off the assembly line "like
+    sausages", a bluff that contributed to the perception of a missile gap.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: The Oxford English Dictionary lists the first use of the term "missile gap" on 14 August 1958
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Missile_gap
+  archive_url: https://web.archive.org/web/20260915153127/https://en.wikipedia.org/wiki/Missile_gap
+  title: Missile gap
+  publisher: Wikipedia
+  quote: Beginning with the collection of photo-intelligence by high-altitude U-2 overflights of the Soviet
+    Union in 1956, the Eisenhower administration had increasingly-hard evidence that strategic weapons
+    estimates favoring the Soviets were false.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'source_credibility ''medium'' is an editorial judgement: these were official estimates, but U-2 evidence
+    available to the Eisenhower administration pointed the other way, and the CIA''s own figures were
+    lower than the Air Force''s.'
+  - Sputnik (October 1957) heightened the fear; Sputnik belongs to batch S, so the link is proposed rather
+    than made.

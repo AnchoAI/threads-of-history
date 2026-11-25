@@ -1,0 +1,101 @@
+id: robert-kennedy-dobrynin-meeting-1962
+title: Robert Kennedy meets Dobrynin; secret Jupiter assurance
+summary: On the evening of 27 October 1962 Robert Kennedy told Soviet Ambassador Anatoly Dobrynin that
+  the missile bases had to be removed at once. The Office of the Historian says he indicated the US would
+  soon remove its Jupiter missiles from Turkey but not as part of any public deal; his own memorandum
+  says "no quid pro quo", with a crossed-out sentence mentioning "four or five months". The arrangement
+  was first officially acknowledged in January 1989.
+occurred:
+  start: '1962-10-27T19:45-04:00'
+  precision: hour
+known:
+  public:
+    start: '1989-01'
+    precision: month
+    note: First officially acknowledged by Dobrynin and Theodore Sorensen at a conference in Moscow.
+threads:
+- cuba
+- usru
+- nuclear
+- intel
+regions:
+- americas
+- russia-eastern-europe
+- middle-east-north-africa
+actors:
+- robert-f-kennedy
+- anatoly-dobrynin
+- united-states
+- soviet-union
+importance: 3
+wikidata: none
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  archive_url: https://web.archive.org/web/20250929063335/https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 96: Memorandum From Attorney General Kennedy to Secretary of State Rusk'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-30'
+  quote: At the request of Secretary Rusk, I telephoned Ambassador Dobrynin at approximately 7:15 p.m.
+    on Saturday, October 27th. I asked him if he would come to the Justice Department at a quarter of
+    eight.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  archive_url: https://web.archive.org/web/20250929063335/https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 96: Memorandum From Attorney General Kennedy to Secretary of State Rusk'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-30'
+  quote: We had to have a commitment by at least tomorrow that those bases would be removed.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  archive_url: https://web.archive.org/web/20250929063335/https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 96: Memorandum From Attorney General Kennedy to Secretary of State Rusk'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-30'
+  quote: He then asked me about Khrushchev’s other proposal dealing with the removal of the missiles from
+    Turkey. I replied that there could be no quid pro quo—no deal of this kind could be made.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  archive_url: https://web.archive.org/web/20250929063335/https://history.state.gov/historicaldocuments/frus1961-63v11/d96
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 96: Memorandum From Attorney General Kennedy to Secretary of State Rusk'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-10-30'
+  quote: 'The following typed sentence at the end of this paragraph was crossed out: “If some time elapsed—and
+    per your instructions, I mentioned four or five months—I said I was sure that these matters could
+    be resolved satisfactory.”'
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  archive_url: https://web.archive.org/web/20261015120551/https://history.state.gov/milestones/1961-1968/cuban-missile-crisis
+  title: The Cuban Missile Crisis, October 1962 (Milestones in the History of U.S. Foreign Relations)
+  publisher: Office of the Historian, US Department of State
+  quote: Attorney General Robert Kennedy then met secretly with Soviet Ambassador to the United States,
+    Anatoly Dobrynin, and indicated that the United States was planning to remove the Jupiter missiles
+    from Turkey anyway, and that it would do so soon, but this could not be part of any public resolution
+    of the missile crisis.
+  type: scholarly
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  archive_url: https://web.archive.org/web/20261018181105/https://en.wikipedia.org/wiki/Cuban_Missile_Crisis
+  title: Cuban Missile Crisis
+  publisher: Wikipedia
+  quote: The Kennedy-Khrushchev Pact was known to only nine US officials at the time of its creation in
+    October 1962 and was first officially acknowledged at a conference in Moscow in January 1989 by Soviet
+    Ambassador Anatoly Dobrynin and Kennedy's speechwriter Theodore Sorensen.
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - Dobrynin's own cable on this meeting (Wilson Center Digital Archive) gives a fuller account of the
+    Turkey assurance but could not be reached from this sandbox.
+  - 'Meeting time from RFK''s memo: Dobrynin was asked to come at a quarter to eight.'
+  - 'wikidata none: no separate Wikidata item found.'

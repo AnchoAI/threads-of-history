@@ -1,0 +1,45 @@
+id: italian-unification-1848
+title: Unification of Italy (Risorgimento)
+summary: The movement that joined the states of the Italian peninsula to the Kingdom of Sardinia, creating
+  the Kingdom of Italy in 1861; it was completed in 1871 when Rome became the capital.
+occurred:
+  start: '1848'
+  end: '1871'
+  precision: year
+threads:
+- revolutions
+regions:
+- western-europe
+actors:
+- kingdom-of-italy
+importance: 4
+wikidata: Q51122
+sources:
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: 1848–1870 consolidation of Italian states
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: in 1861 ended in the annexation of various states of the Italian Peninsula and its outlying isles
+    to the Kingdom of Sardinia, resulting in the creation of the Kingdom of Italy
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Italian_unification
+  title: Italian unification
+  publisher: Wikipedia
+  archive_url: https://web.archive.org/web/20261009104837/https://en.wikipedia.org/wiki/Italian_unification
+  quote: reached completion in 1871 with the official designation of Rome as capital of Italy, following
+    the capture of Rome in 1870
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Start year follows the article infobox (1848–1870); Wikidata describes the process as 1815–1871. The
+    Kingdom of Italy was proclaimed on 17 March 1861.

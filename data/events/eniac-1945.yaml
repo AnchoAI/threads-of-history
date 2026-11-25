@@ -1,0 +1,60 @@
+id: eniac-1945
+title: ENIAC, the first general-purpose electronic computer
+summary: ENIAC, built in secret for the US Army to calculate artillery firing tables, is completed in
+  1945; its first program studied the feasibility of a thermonuclear weapon. It was unveiled to the public
+  in February 1946.
+occurred:
+  start: '1945-12-10'
+  precision: day
+known:
+  public:
+    start: '1946-02-14'
+    precision: day
+    note: Built in secret as Project PX; announced to the public on 14 February 1946.
+threads:
+- industry
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q169399
+sources:
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: was the first programmable, electronic, general-purpose digital computer, completed in 1945
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: to calculate artillery firing tables for the United States Army's Ballistic Research Laboratory
+    (which later became a part of the Army Research Laboratory). However, its first program was a study
+    of the feasibility of the thermonuclear weapon.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: ENIAC was completed in 1945 and first put to work for practical purposes on December 10, 1945.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: secret work on the computer began at the University of Pennsylvania's Moore School of Electrical
+    Engineering the following month, under the code name "Project PX"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/ENIAC
+  title: ENIAC
+  publisher: Wikipedia
+  quote: the completed machine was announced to the public the evening of February 14, 1946
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch S (science, technology and society since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

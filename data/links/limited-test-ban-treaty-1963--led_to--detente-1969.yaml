@@ -1,0 +1,20 @@
+id: limited-test-ban-treaty-1963--led_to--detente-1969
+from: limited-test-ban-treaty-1963
+to: detente-1969
+type: led_to
+confidence: documented
+note: The 1963 test ban treaty is named among the arms-limitation treaties on which détente was founded.
+sources:
+- url: https://en.wikipedia.org/wiki/D%C3%A9tente
+  archive_url: https://web.archive.org/web/20261014125608/https://en.wikipedia.org/wiki/D%C3%A9tente
+  title: Détente
+  publisher: Wikipedia
+  quote: Before Richard Nixon became president, the foundations of détente were developed through multilateral
+    arms-limitation treaties in the early to middle 1960s. These included the August 1963 Partial Nuclear
+    Test Ban Treaty
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch C2. The quoted source states the connection; no person has reviewed it yet.

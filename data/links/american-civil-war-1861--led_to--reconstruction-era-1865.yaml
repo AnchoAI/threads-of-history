@@ -1,0 +1,20 @@
+id: american-civil-war-1861--led_to--reconstruction-era-1865
+from: american-civil-war-1861
+to: reconstruction-era-1865
+type: led_to
+confidence: documented
+note: After the war the nation entered Reconstruction, to readmit the former Confederate states and give freed slaves
+  civil rights.
+sources:
+- url: https://en.wikipedia.org/wiki/American_Civil_War
+  archive_url: https://web.archive.org/web/20261014184155/https://en.wikipedia.org/wiki/American_Civil_War
+  title: American Civil War
+  publisher: Wikipedia
+  quote: The war-torn nation then entered the Reconstruction era in an attempt to rebuild the country, bring the
+    former Confederate states back into the United States, and grant civil rights to freed slaves.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch D. The quoted source states the connection; no person has reviewed it yet.

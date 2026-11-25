@@ -1,0 +1,57 @@
+id: one-child-policy-1980
+title: One-child policy
+summary: A population-planning programme that restricted many Chinese families to a single child. A near-universal
+  one-child limit was imposed in 1980 and written into the constitution in 1982, with many exceptions over
+  time; it was replaced by a two-child policy on 1 January 2016.
+occurred:
+  start: '1980'
+  end: '2016-01-01'
+  precision: year
+threads:
+- china
+regions:
+- east-asia
+actors:
+- deng-xiaoping
+- chinese-communist-party
+- peoples-republic-of-china
+importance: 3
+wikidata: Q221719
+sources:
+- url: https://en.wikipedia.org/wiki/One-child_policy
+  archive_url: https://web.archive.org/web/20261009110645/https://en.wikipedia.org/wiki/One-child_policy
+  title: One-child policy
+  publisher: Wikipedia
+  quote: was a controversial population planning initiative in Mainland China implemented between 1979 and
+    2015 to curb the country's population growth by restricting many families to a single child.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/One-child_policy
+  archive_url: https://web.archive.org/web/20261009110645/https://en.wikipedia.org/wiki/One-child_policy
+  title: One-child policy
+  publisher: Wikipedia
+  quote: A near-universal one-child limit was imposed in 1980 and written into the country's constitution in
+    1982.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/One-child_policy
+  archive_url: https://web.archive.org/web/20261009110645/https://en.wikipedia.org/wiki/One-child_policy
+  title: One-child policy
+  publisher: Wikipedia
+  quote: On 1 January 2016, the one-child policy was replaced by the two-child policy.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/One-child_policy
+  archive_url: https://web.archive.org/web/20261009110645/https://en.wikipedia.org/wiki/One-child_policy
+  title: One-child policy
+  publisher: Wikipedia
+  quote: Deng Xiaoping, then paramount leader of China, supported the policy, along with other senior leaders
+    including Hua Guofeng and Li Xiannian.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - Sources date the policy from 1979 (announcement) or 1980 (near-universal limit); 1980 is used here.

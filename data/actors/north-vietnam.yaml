@@ -1,0 +1,22 @@
+id: north-vietnam
+title: North Vietnam
+actor_type: state
+summary: Former country in Southeast Asia that existed from 1945 to 1976.
+threads:
+- usru
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q172640
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q172640.json
+  title: North Vietnam
+  publisher: Wikidata
+  quote: former country in Southeast Asia that existed from 1945 to 1976
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those
+    events.

@@ -1,0 +1,50 @@
+id: end-of-bretton-woods-1973
+title: Bretton Woods system collapses; major currencies float
+summary: After speculation forced a second devaluation of the dollar on 12 February 1973, nearly all major
+  currencies were floating against the dollar within a month. In March 1973 six European Community members
+  jointly floated their currencies, which effectively ended the Bretton Woods fixed-exchange-rate system.
+occurred:
+  start: 1973-02
+  end: 1973-03
+  precision: month
+  note: The second devaluation was on 12 February 1973.
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+importance: 4
+wikidata: none
+sources:
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: On February 12, 1973, with exchange markets in Europe and Japan closed, the United States devalued
+    the dollar by an additional 10 percent to $42 an ounce.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/smithsonian-agreement
+  archive_url: https://web.archive.org/web/20261001172522/https://www.federalreservehistory.org/essays/smithsonian-agreement
+  title: The Smithsonian Agreement
+  publisher: Federal Reserve History (Owen Humpage)
+  quote: Within a month nearly all major currencies were floating against the dollar. The Bretton Woods
+    system was finished
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/nixon-shock
+  archive_url: https://web.archive.org/web/20261004123856/https://history.state.gov/milestones/1969-1976/nixon-shock
+  title: Nixon and the End of the Bretton Woods System, 1971–1973
+  publisher: US Department of State, Office of the Historian
+  quote: In March 1973, the G–10 approved an arrangement wherein six members of the European Community
+    tied their currencies together and jointly floated against the U.S. dollar, a decision that effectively
+    signaled the abandonment of the Bretton Woods fixed exchange rate system in favor of the current system
+    of floating exchange rates.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'No wikidata id: Q188532 is the Bretton Woods system as a whole, not its end.'

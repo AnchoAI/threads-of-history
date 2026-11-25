@@ -1,0 +1,26 @@
+id: doj-inspector-general-report-on-fbi-nassar-handling-2021--revealed--usa-gymnastics-sex-abuse-scandal-1992
+from: doj-inspector-general-report-on-fbi-nassar-handling-2021
+to: usa-gymnastics-sex-abuse-scandal-1992
+type: revealed
+confidence: documented
+note: The Inspector General disclosed that the FBI had been told of the allegations in July 2015 and failed
+  to act on them.
+sources:
+- url: https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  archive_url: https://web.archive.org/web/20261011223838/https://oig.justice.gov/sites/default/files/reports/21-093.pdf
+  title: Investigation and Review of the Federal Bureau of Investigation's Handling of Allegations of
+    Sexual Abuse by Former USA Gymnastics Physician Lawrence Gerard Nassar (21-093)
+  publisher: US Department of Justice, Office of the Inspector General
+  quote: The allegations reported to the Indianapolis Field Office on July 28, 2015, by USA Gymnastics
+  type: primary
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  archive_url: https://web.archive.org/web/20260917223432/https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal
+  title: USA Gymnastics sex abuse scandal
+  publisher: Wikipedia
+  quote: FBI agents declined to investigate early allegations of abuse, then lied about it, according
+    to a U.S. Justice Department report.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

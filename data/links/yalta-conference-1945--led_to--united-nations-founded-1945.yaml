@@ -1,0 +1,18 @@
+id: yalta-conference-1945--led_to--united-nations-founded-1945
+from: yalta-conference-1945
+to: united-nations-founded-1945
+type: led_to
+confidence: documented
+note: Security Council voting and the permanent members' veto, written into the UN Charter, were settled
+  at Yalta.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/un
+  title: The Formation of the United Nations, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: Voting procedures and the veto power of permanent members of the Security Council were finalized
+    at the Yalta Conference in 1945 when Roosevelt and Stalin agreed that the veto would not prevent discussions
+    by the Security Council.
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

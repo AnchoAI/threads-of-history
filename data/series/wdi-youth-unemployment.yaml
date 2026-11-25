@@ -1,0 +1,31 @@
+review:
+  status: unverified
+id: wdi-youth-unemployment
+title: Youth unemployment (% of labour force 15-24, ILO estimate) (World Bank)
+summary: Youth unemployment refers to the share of the labor force ages 15-24 without work but available
+  for and seeking employment.
+occurred:
+  start: '1991'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 1
+unit: '%'
+dataset: world-bank-wdi
+indicator: SL.UEM.1524.ZS
+table: tables/wdi-youth-unemployment.csv
+sources:
+- url: https://data.worldbank.org/indicator/SL.UEM.1524.ZS
+  title: Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

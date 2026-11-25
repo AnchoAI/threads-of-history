@@ -1,0 +1,26 @@
+id: venona-decrypts-released-1995--revealed--manhattan-project-1942-1946
+from: venona-decrypts-released-1995
+to: manhattan-project-1942-1946
+type: revealed
+confidence: documented
+note: Venona decrypts exposed Soviet espionage inside the Manhattan Project.
+sources:
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: With the first break into the code, Venona revealed the existence of Soviet espionage at the
+    Manhattan Project's Site Y (Los Alamos).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Venona_project
+  archive_url: https://web.archive.org/web/20261012011204/https://en.wikipedia.org/wiki/Venona_project
+  title: Venona project
+  publisher: Wikipedia
+  quote: The Venona project remained secret for more than 15 years after it concluded.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - The decrypts revealed this to US officials from 1946; the public learned of it with the 1995 release.

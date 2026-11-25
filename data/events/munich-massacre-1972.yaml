@@ -1,0 +1,51 @@
+id: munich-massacre-1972
+title: Munich massacre
+summary: Eight members of the Palestinian militant group Black September attacked the Israeli team at the 1972
+  Munich Olympics, killing two and taking nine hostage; the hostages were killed during a failed rescue attempt.
+occurred:
+  start: '1972-09-05'
+  end: '1972-09-06'
+  precision: day
+threads:
+- mideast
+regions:
+- western-europe
+- middle-east-north-africa
+actors:
+- israel
+- west-germany
+importance: 3
+wikidata: Q229007
+sources:
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: 5–6 September 1972
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: The Munich massacre was a terrorist attack during the 1972 Summer Olympics in Munich, West Germany,
+    carried out by eight members of the Palestinian militant organisation Black September.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: The militants infiltrated the Olympic Village, killed two members of the Israeli Olympic team, and
+    took nine other Israeli team members hostage.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Munich_massacre
+  archive_url: https://web.archive.org/web/20261011224643/https://en.wikipedia.org/wiki/Munich_massacre
+  title: Munich massacre
+  publisher: Wikipedia
+  quote: Those hostages were later also killed by the militants during a failed rescue attempt.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

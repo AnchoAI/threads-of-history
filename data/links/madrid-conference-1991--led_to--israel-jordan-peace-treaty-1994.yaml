@@ -1,0 +1,16 @@
+id: madrid-conference-1991--led_to--israel-jordan-peace-treaty-1994
+from: madrid-conference-1991
+to: israel-jordan-peace-treaty-1994
+type: led_to
+confidence: documented
+note: The Israel–Jordan track opened at Madrid produced the 1994 treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Madrid_Conference_of_1991
+  title: Madrid Conference of 1991
+  publisher: Wikipedia
+  quote: The Israel–Jordan negotiations that emanated from the Madrid conference, led to a peace treaty in
+    1994.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

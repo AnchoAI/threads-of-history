@@ -1,0 +1,18 @@
+id: protests-of-1968--part_of--cold-war-1947-1991
+from: protests-of-1968
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Protests of 1968 lists it as part of Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Protests_of_1968
+  title: Protests of 1968
+  publisher: Wikipedia
+  quote: Part of the counterculture of the 1960s and the Cold War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

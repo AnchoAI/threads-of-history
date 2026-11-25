@@ -1,0 +1,33 @@
+id: battle-of-nanking-1937
+title: Battle of Nanking
+summary: A battle in early December 1937, during the Second Sino-Japanese War, between China's National Revolutionary
+  Army and the Imperial Japanese Army for Nanjing, then the capital of the Republic of China.
+occurred:
+  start: 1937-12
+  precision: month
+threads:
+- china
+- ww2
+regions:
+- east-asia
+importance: 3
+wikidata: Q701180
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Nanking
+  title: Battle of Nanking
+  publisher: Wikipedia
+  quote: was fought in early December 1937 during the Second Sino-Japanese War between the Chinese National Revolutionary
+    Army and the Imperial Japanese Army for control of Nanjing
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Battle_of_Nanking
+  title: Battle of Nanking
+  publisher: Wikipedia
+  quote: the capital of the Republic of China
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

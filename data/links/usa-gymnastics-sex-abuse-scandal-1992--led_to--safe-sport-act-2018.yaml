@@ -1,0 +1,18 @@
+id: usa-gymnastics-sex-abuse-scandal-1992--led_to--safe-sport-act-2018
+from: usa-gymnastics-sex-abuse-scandal-1992
+to: safe-sport-act-2018
+type: led_to
+confidence: documented
+note: The act combined bills introduced in response to the USA Gymnastics scandal and similar allegations
+  in other sports.
+sources:
+- url: https://en.wikipedia.org/wiki/Protecting_Young_Victims_from_Sexual_Abuse_and_Safe_Sport_Authorization_Act_of_2017
+  archive_url: https://web.archive.org/web/20260214042846/https://en.wikipedia.org/wiki/Protecting_Young_Victims_from_Sexual_Abuse_and_Safe_Sport_Authorization_Act_of_2017
+  title: Protecting Young Victims from Sexual Abuse and Safe Sport Authorization Act of 2017
+  publisher: Wikipedia
+  quote: combined separate bills introduced in the 115th Congress by Senators Dianne Feinstein (D–CA)
+    and John Thune (R–SD) in response to the USA Gymnastics sex abuse scandal
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced

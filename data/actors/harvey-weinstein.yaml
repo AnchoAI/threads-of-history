@@ -1,0 +1,23 @@
+id: harvey-weinstein
+title: Harvey Weinstein
+actor_type: person
+summary: American film producer and sex offender (born 1952).
+threads:
+- scandals
+- film-tv
+regions:
+- americas
+importance: 2
+wikidata: Q531599
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q531599.json
+  title: Harvey Weinstein
+  publisher: Wikidata
+  quote: American film producer and sex offender (born 1952)
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S2. Identity and description taken from the Wikidata entity JSON. Role in specific events is
+    sourced on those events.

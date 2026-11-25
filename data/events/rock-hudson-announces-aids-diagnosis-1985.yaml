@@ -1,0 +1,48 @@
+id: rock-hudson-announces-aids-diagnosis-1985
+title: Rock Hudson's AIDS diagnosis made public
+summary: On 25 July 1985 the publicist of the actor Rock Hudson confirms that he has AIDS; HIV.gov calls him the
+  first major US public figure to do so. He dies of AIDS-related complications on 2 October 1985.
+occurred:
+  start: '1985-07-25'
+  precision: day
+threads:
+- film-tv
+- celebrity-activism
+- rights
+regions:
+- americas
+actors:
+- rock-hudson
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Ronald_Reagan_and_AIDS
+  archive_url: https://web.archive.org/web/20260930042306/https://en.wikipedia.org/wiki/Ronald_Reagan_and_AIDS
+  title: Ronald Reagan and AIDS
+  publisher: Wikipedia
+  quote: Finally, on July 25, 1985, four days after Hudson collapsed at the Hôtel Ritz in Paris, Hudson publicist
+    Yanou Collart publicly confirmed that Hudson had AIDS.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  archive_url: https://web.archive.org/web/20261015031234/https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: the first major U.S. public figure to do so.
+  type: primary
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Rock_Hudson
+  archive_url: https://web.archive.org/web/20261010194843/https://en.wikipedia.org/wiki/Rock_Hudson
+  title: Rock Hudson
+  publisher: Wikipedia
+  quote: At around 9 a.m. on October 2, 1985, Hudson died in his sleep from AIDS-related complications at his home
+    in Beverly Hills
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - Wikipedia's Rock Hudson article says Hudson's French publicist Yanou Collart confirmed the diagnosis; his US
+    publicist had earlier denied it.

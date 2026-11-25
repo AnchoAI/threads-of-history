@@ -1,0 +1,39 @@
+id: council-of-trent-1545
+title: Council of Trent
+summary: The 19th ecumenical council of the Catholic Church met in 25 sessions between 13 December 1545
+  and 4 December 1563. Prompted by the Protestant Reformation, it is described as the most characteristic
+  embodiment of the Counter-Reformation.
+occurred:
+  start: '1545-12-13'
+  end: '1563-12-04'
+  precision: day
+threads:
+- religion
+regions:
+- western-europe
+actors:
+- catholic-church
+importance: 4
+wikidata: Q172991
+sources:
+- url: https://en.wikipedia.org/wiki/Council_of_Trent
+  title: Council of Trent
+  publisher: Wikipedia
+  quote: The council met for twenty-five sessions between 13 December 1545 and 4 December 1563.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Council_of_Trent
+  title: Council of Trent
+  publisher: Wikipedia
+  quote: Prompted by the Protestant Reformation at the time, it has been described as the "most characteristic
+    embodiment of the ideals of the Counter-Reformation."
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Council_of_Trent
+  title: Council of Trent
+  publisher: Wikipedia
+  quote: was the 19th ecumenical council of the Catholic Church
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

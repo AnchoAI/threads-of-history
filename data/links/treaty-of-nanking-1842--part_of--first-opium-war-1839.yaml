@@ -1,0 +1,16 @@
+id: treaty-of-nanking-1842--part_of--first-opium-war-1839
+from: treaty-of-nanking-1842
+to: first-opium-war-1839
+type: part_of
+confidence: documented
+note: The treaty ended the war.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  archive_url: https://web.archive.org/web/20261013171541/https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: The First Opium war officially ended on 29 August 1842 with the signing of the Treaty of Nanking.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

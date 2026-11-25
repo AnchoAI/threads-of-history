@@ -1,0 +1,55 @@
+id: nixon-visit-to-china-1972
+title: Nixon's visit to China
+summary: From 21 to 28 February 1972 Richard Nixon became the first US president to visit mainland China, meeting
+  Mao Zedong and Zhou Enlai. The two governments issued the Shanghai Communiqué, in which the US acknowledged
+  that Chinese on both sides of the Taiwan Strait maintain there is one China.
+occurred:
+  start: '1972-02-21'
+  end: '1972-02-28'
+  precision: day
+threads:
+- china
+- usru
+regions:
+- east-asia
+- americas
+actors:
+- richard-nixon
+- mao-zedong
+- zhou-enlai
+- united-states
+- peoples-republic-of-china
+importance: 4
+wikidata: Q862054
+sources:
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20260918012752/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: US Department of State, Office of the Historian
+  quote: Nixon travelled to Communist China February 21–28, 1972, becoming the first U.S. President to visit
+    mainland China while in office. Near the end of the trip, the two governments issued the Shanghai Communiqué
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20260918012752/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: US Department of State, Office of the Historian
+  quote: In 1972, U.S. President Richard Nixon traveled to the People’s Republic of China (PRC) and met with
+    Mao Zedong, the Chairman of the Central Committee of the Chinese Communist Party, and Zhou Enlai, the PRC
+    Premier.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/rapprochement-china
+  archive_url: https://web.archive.org/web/20260918012752/https://history.state.gov/milestones/1969-1976/rapprochement-china
+  title: Rapprochement with China, 1972
+  publisher: US Department of State, Office of the Historian
+  quote: The United States declared that it “acknowledges that all Chinese on either side of the Taiwan Strait
+    maintain that there is but one China and that Taiwan is a part of China,” and that it did not challenge
+    that position.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch E1 (China and East Asia since 1949). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.

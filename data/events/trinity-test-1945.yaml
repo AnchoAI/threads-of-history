@@ -1,0 +1,61 @@
+id: trinity-test-1945
+title: Trinity test
+summary: The first detonation of a nuclear weapon, an implosion-design plutonium bomb, by the US Army
+  in New Mexico at 5:29 a.m. on 16 July 1945, as part of the Manhattan Project. A cover story described
+  it as an ammunition magazine explosion; it was made public shortly after the Hiroshima bombing.
+occurred:
+  start: '1945-07-16'
+  precision: day
+known:
+  public:
+    start: 1945-08
+    precision: month
+    note: Made public shortly after the bombing of Hiroshima; the Smyth Report of 12 August 1945 gave
+      some information.
+  by:
+  - party: US leadership at the Potsdam Conference
+    actor: united-states
+    when:
+      start: '1945-07-16'
+      precision: day
+    sources:
+    - url: https://en.wikipedia.org/wiki/Manhattan_Project
+      title: Manhattan Project
+      publisher: Wikipedia
+      quote: The test was significantly more successful than had been anticipated; this was immediately
+        cabled to Stimson, who was then at the Potsdam Conference, and Groves hastily prepared a lengthier
+        report sent via courier.
+      type: reference
+      accessed: '2026-10-03'
+threads:
+- nuclear
+- ww2
+regions:
+- americas
+actors:
+- united-states
+importance: 3
+wikidata: Q207342
+sources:
+- url: https://en.wikipedia.org/wiki/Trinity_(nuclear_test)
+  title: Trinity (nuclear test)
+  publisher: Wikipedia
+  quote: Trinity was the first detonation of a nuclear weapon, conducted by the United States Army at
+    5:29 a.m. Mountain War Time (11:29:21 GMT) on July 16, 1945, as part of the Manhattan Project.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Trinity_(nuclear_test)
+  title: Trinity (nuclear test)
+  publisher: Wikipedia
+  quote: The Second Air Force issued a press release with a cover story that Groves had prepared weeks
+    before, which described the explosion as the accidental destruction of a magazine on the base.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Trinity_(nuclear_test)
+  title: Trinity (nuclear test)
+  publisher: Wikipedia
+  quote: Information about the Trinity test was made public shortly after the bombing of Hiroshima.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

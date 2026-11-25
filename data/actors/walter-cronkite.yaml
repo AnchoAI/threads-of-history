@@ -1,0 +1,23 @@
+id: walter-cronkite
+title: Walter Cronkite
+actor_type: person
+summary: American broadcast journalist (1916-2009).
+threads:
+- film-tv
+- media
+regions:
+- americas
+importance: 2
+wikidata: Q31073
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q31073.json
+  title: Walter Cronkite
+  publisher: Wikidata
+  quote: American broadcast journalist (1916-2009)
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

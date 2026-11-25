@@ -1,0 +1,21 @@
+id: jawaharlal-nehru
+title: Jawaharlal Nehru
+actor_type: person
+summary: Prime Minister of India from 1947 to 1964.
+threads: []
+regions:
+- south-central-asia
+importance: 3
+wikidata: Q1047
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1047.json
+  title: Jawaharlal Nehru
+  publisher: Wikidata
+  quote: Prime Minister of India from 1947 to 1964
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

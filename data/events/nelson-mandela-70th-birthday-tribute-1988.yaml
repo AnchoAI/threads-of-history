@@ -1,0 +1,42 @@
+id: nelson-mandela-70th-birthday-tribute-1988
+title: Nelson Mandela 70th Birthday Tribute concert
+summary: A pop concert at Wembley Stadium, London, on 11 June 1988, broadcast to 67 countries and an audience of
+  600 million, marking the coming 70th birthday of the imprisoned Nelson Mandela.
+occurred:
+  start: '1988-06-11'
+  precision: day
+threads:
+- music
+- celebrity-activism
+- rights
+regions:
+- western-europe
+- sub-saharan-africa
+actors:
+- nelson-mandela
+- african-national-congress
+importance: 2
+wikidata: Q454858
+sources:
+- url: https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  archive_url: https://web.archive.org/web/20260701011102/https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  title: Nelson Mandela 70th Birthday Tribute
+  publisher: Wikipedia
+  quote: The Nelson Mandela 70th Birthday Tribute was a popular-music concert staged on 11 June 1988 at Wembley
+    Stadium, London, and broadcast to 67 countries and an audience of 600 million.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  archive_url: https://web.archive.org/web/20260701011102/https://en.wikipedia.org/wiki/Nelson_Mandela_70th_Birthday_Tribute
+  title: Nelson Mandela 70th Birthday Tribute
+  publisher: Wikipedia
+  quote: Marking the forthcoming 70th birthday (18 July 1988) of the imprisoned anti-apartheid revolutionary Nelson
+    Mandela
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CC (celebrity, charity, cultural diplomacy and sport). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - The source notes that in the US the Fox network 'heavily censored the political aspects of the concert'.

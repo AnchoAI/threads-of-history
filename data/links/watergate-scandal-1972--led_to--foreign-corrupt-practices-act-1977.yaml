@@ -1,0 +1,31 @@
+id: watergate-scandal-1972--led_to--foreign-corrupt-practices-act-1977
+from: watergate-scandal-1972
+to: foreign-corrupt-practices-act-1977
+type: led_to
+confidence: documented
+note: The Justice Department and SEC date the FCPA to the corporate-bribery revelations that followed Watergate.
+sources:
+- url: https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  archive_url: https://web.archive.org/web/20260926183634/https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  title: A Resource Guide to the U.S. Foreign Corrupt Practices Act, Second Edition
+  publisher: U.S. Department of Justice and U.S. Securities and Exchange Commission
+  date: '2020-07'
+  quote: Congress enacted the FCPA in 1977 after revelations of widespread global corruption in the wake of the
+    Watergate political scandal.
+  type: primary
+  accessed: '2026-10-23'
+- url: https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  archive_url: https://web.archive.org/web/20260926183634/https://www.justice.gov/criminal/criminal-fraud/file/1292051/dl
+  title: A Resource Guide to the U.S. Foreign Corrupt Practices Act, Second Edition
+  publisher: U.S. Department of Justice and U.S. Securities and Exchange Commission
+  date: '2020-07'
+  quote: SEC reported that companies were using secret “slush funds” to make illegal campaign contributions in the
+    United States and corrupt payments to foreign officials abroad and were falsifying their corporate financial
+    records to conceal the payments.
+  type: primary
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). The connection is checked against the quoted sources; no person
+    has reviewed them yet.

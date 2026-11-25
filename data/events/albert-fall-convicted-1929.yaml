@@ -1,0 +1,45 @@
+id: albert-fall-convicted-1929
+title: Albert B. Fall found guilty of bribery
+summary: A jury finds former Interior Secretary Albert B. Fall guilty of bribery and conspiracy in October 1929
+  over $385,000 paid to him by Edward L. Doheny. He was jailed for one year, the first former cabinet officer sentenced
+  to prison for misconduct in office.
+occurred:
+  start: '1929-10'
+  precision: month
+  note: The Wikipedia article on Fall gives 24 October 1929; it cites the Evening Star of 25 October 1929.
+threads:
+- scandals
+- interwar
+regions:
+- americas
+actors:
+- albert-b-fall
+- edward-l-doheny
+- united-states
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Albert_B._Fall
+  archive_url: https://web.archive.org/web/20261004181151/https://en.wikipedia.org/wiki/Albert_B._Fall
+  title: Albert B. Fall
+  publisher: Wikipedia
+  quote: The investigation found Fall guilty of bribery and conspiracy on October 24, 1929 (exactly the same day
+    as the Black Thursday) as a result of $385,000 having been paid to him by Edward L. Doheny.
+  type: reference
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Albert_B._Fall
+  archive_url: https://web.archive.org/web/20261004181151/https://en.wikipedia.org/wiki/Albert_B._Fall
+  title: Albert B. Fall
+  publisher: Wikipedia
+  quote: Fall was jailed for one year as a result—the first former cabinet officer sentenced to prison as a result
+    of misconduct in office.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S1 (political and corporate scandals). Summary and dates checked against the quoted sources; no person
+    has reviewed them yet.
+  - 'Month precision used: the day (24 October in Wikipedia) has not been checked against the court record or a
+    contemporary newspaper.'
+  - No Wikidata item for the verdict itself; the scandal is Q3236296.

@@ -1,0 +1,40 @@
+id: brazilian-coup-1964
+title: Brazilian coup d'état
+summary: A military rebellion overthrows President João Goulart, who goes into exile, ending the Fourth
+  Brazilian Republic and starting a military dictatorship that lasted until 1985.
+occurred:
+  start: '1964-03-31'
+  end: '1964-04-01'
+  precision: day
+threads:
+- usru
+- revolutions
+regions:
+- americas
+actors:
+- joao-goulart
+- united-states
+importance: 4
+wikidata: Q4571496
+sources:
+- url: https://en.wikipedia.org/wiki/1964_Brazilian_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261005060947/https://en.wikipedia.org/wiki/1964_Brazilian_coup_d%27%C3%A9tat
+  title: 1964 Brazilian coup d'état
+  publisher: Wikipedia
+  quote: was the overthrow of Brazilian president João Goulart by a military coup from March 31 to April
+    1, 1964, ending the Fourth Brazilian Republic (1946–1964) and initiating the Brazilian military dictatorship
+    (1964–1985).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/1964_Brazilian_coup_d%27%C3%A9tat
+  archive_url: https://web.archive.org/web/20261005060947/https://en.wikipedia.org/wiki/1964_Brazilian_coup_d%27%C3%A9tat
+  title: 1964 Brazilian coup d'état
+  publisher: Wikipedia
+  quote: the exile of the president on April 4.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.

@@ -1,0 +1,17 @@
+id: berlin-ultimatum-1958--led_to--berlin-crisis-1961
+from: berlin-ultimatum-1958
+to: berlin-crisis-1961
+type: led_to
+confidence: documented
+note: After his 1958 ultimatum failed, Khrushchev renewed the same demands in 1961.
+sources:
+- url: https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  archive_url: https://web.archive.org/web/20261009195307/https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961
+  title: Berlin Crisis of 1961
+  publisher: Wikipedia
+  quote: After the failure of his first ultimatum in 1958, Khrushchev renewed his demands at the 1961
+    Vienna summit
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

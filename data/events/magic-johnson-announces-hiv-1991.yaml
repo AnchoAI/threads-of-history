@@ -1,0 +1,46 @@
+id: magic-johnson-announces-hiv-1991
+title: Magic Johnson announces he has HIV
+summary: At a press conference on 7 November 1991 the Los Angeles Lakers basketball player Magic Johnson announces
+  that he has tested positive for HIV and is retiring immediately.
+occurred:
+  start: '1991-11-07'
+  precision: day
+threads:
+- sport
+- celebrity-activism
+- rights
+regions:
+- americas
+actors:
+- magic-johnson
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Magic_Johnson
+  archive_url: https://web.archive.org/web/20261020141029/https://en.wikipedia.org/wiki/Magic_Johnson
+  title: Magic Johnson
+  publisher: Wikipedia
+  quote: In a press conference held on November 7, 1991, Johnson made a public announcement that he would retire
+    immediately.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Magic_Johnson
+  archive_url: https://web.archive.org/web/20261020141029/https://en.wikipedia.org/wiki/Magic_Johnson
+  title: Magic Johnson
+  publisher: Wikipedia
+  quote: after a physical examination before the 1991–92 NBA season, Johnson discovered that he had tested positive
+    for HIV.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Magic_Johnson
+  archive_url: https://web.archive.org/web/20261020141029/https://en.wikipedia.org/wiki/Magic_Johnson
+  title: Magic Johnson
+  publisher: Wikipedia
+  quote: Johnson spent his entire career with the Los Angeles Lakers in the National Basketball Association (NBA).
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.

@@ -1,0 +1,22 @@
+id: october-revolution-1917--led_to--founding-of-the-chinese-communist-party-1921
+from: october-revolution-1917
+to: founding-of-the-chinese-communist-party-1921
+type: led_to
+confidence: documented
+note: The October Revolution and Marxist theory inspired the CCP's founders, Chen Duxiu and Li Dazhao.
+sources:
+- url: https://en.wikipedia.org/wiki/Chinese_Communist_Party
+  title: Chinese Communist Party
+  publisher: Wikipedia
+  quote: The October Revolution and Marxist theory inspired the founding of the CCP.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Chinese_Communist_Party
+  title: Chinese Communist Party
+  publisher: Wikipedia
+  quote: Both regarded the October Revolution in Russia as groundbreaking, believing it to herald a new
+    era for oppressed countries everywhere.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

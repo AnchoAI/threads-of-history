@@ -1,0 +1,56 @@
+id: military-government-appointed-in-iran-1978
+title: The Shah appoints a military government
+summary: On 6 November 1978 the Shah dismissed Prime Minister Sharif-Emami and appointed a military government under
+  General Gholam-Reza Azhari, a step CIA analysts said he had been trying to avoid.
+occurred:
+  start: '1978-11-06'
+  precision: day
+threads:
+- mideast
+- revolutions
+regions:
+- middle-east-north-africa
+actors:
+- mohammad-reza-pahlavi
+- iran
+importance: 2
+wikidata: Q28713867
+sources:
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: On 6 November, the Shah dismissed Sharif-Emami from the post of prime minister, appointing a military government
+    in its place.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Iranian_Revolution
+  archive_url: https://web.archive.org/web/20260928042303/https://en.wikipedia.org/wiki/Iranian_Revolution
+  title: Iranian Revolution
+  publisher: Wikipedia
+  quote: The Shah chose general Gholam-Reza Azhari to be prime minister because of his mild-mannered approach to
+    the situation.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: major rioting had led to the installa- tion of a military government a step the Shah had been trying to
+    avoid
+  type: primary
+  accessed: '2026-10-21'
+- url: https://nsarchive.gwu.edu/media/18198/ocr
+  archive_url: https://web.archive.org/web/20250908120517/https://nsarchive.gwu.edu/media/18198/ocr
+  title: Analysis of NFAC's Performance on Iran's Domestic Crisis, Mid-1977 – 7 November 1978 (OCR text)
+  publisher: CIA National Foreign Assessment Center (John F. Devlin and Robert L. Jervis), via the National Security
+    Archive
+  date: '1979-06-15'
+  quote: We believe that the military government appointed by the Shah on 6 November may succeed in the near term
+    in restoring economic activity and a modicum of public security
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced

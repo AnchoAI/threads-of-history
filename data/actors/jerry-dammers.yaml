@@ -1,0 +1,20 @@
+id: jerry-dammers
+title: Jerry Dammers
+actor_type: person
+summary: British musician and songwriter.
+threads: []
+regions:
+- western-europe
+importance: 2
+wikidata: Q1365476
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q1365476.json
+  title: Jerry Dammers
+  publisher: Wikidata
+  quote: British musician, songwriter
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on those events.

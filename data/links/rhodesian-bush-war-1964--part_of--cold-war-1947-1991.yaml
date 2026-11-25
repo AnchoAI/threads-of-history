@@ -1,0 +1,18 @@
+id: rhodesian-bush-war-1964--part_of--cold-war-1947-1991
+from: rhodesian-bush-war-1964
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Rhodesian Bush War lists it as part of Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Rhodesian_Bush_War
+  title: Rhodesian Bush War
+  publisher: Wikipedia
+  quote: Part of the Cold War and decolonisation of Africa
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

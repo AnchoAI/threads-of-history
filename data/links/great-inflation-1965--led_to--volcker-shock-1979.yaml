@@ -1,0 +1,26 @@
+id: great-inflation-1965--led_to--volcker-shock-1979
+from: great-inflation-1965
+to: volcker-shock-1979
+type: led_to
+confidence: documented
+note: Discontent with inflation brought Volcker to the Fed, and his October 1979 measures aimed to end
+  it.
+sources:
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: In a move that signaled the growing discontent with inflation, Carter nominated New York Fed
+    President Paul Volcker to take Miller's place as Federal Reserve System chairman.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/anti-inflation-measures
+  archive_url: https://web.archive.org/web/20261014074513/https://www.federalreservehistory.org/essays/anti-inflation-measures
+  title: Volcker's Announcement of Anti-Inflation Measures
+  publisher: Federal Reserve History (Bill Medley)
+  quote: Volcker announced new measures by the Federal Open Market Committee aimed at reining in the inflation
+    that had afflicted the US economy for several years.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced

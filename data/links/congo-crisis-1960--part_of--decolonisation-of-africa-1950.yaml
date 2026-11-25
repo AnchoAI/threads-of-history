@@ -1,0 +1,26 @@
+id: congo-crisis-1960--part_of--decolonisation-of-africa-1950
+from: congo-crisis-1960
+to: decolonisation-of-africa-1950
+type: part_of
+confidence: documented
+note: The Congo Crisis is one of the major events of African decolonisation.
+sources:
+- url: https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  archive_url: https://web.archive.org/web/20261003144220/https://en.wikipedia.org/wiki/Decolonisation_of_Africa
+  title: Decolonisation of Africa
+  publisher: Wikipedia
+  quote: Major events during the decolonisation of Africa include the Mau Mau rebellion, the Algerian
+    War, the Congo Crisis
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Congo_Crisis
+  archive_url: https://web.archive.org/web/20260925141539/https://en.wikipedia.org/wiki/Congo_Crisis
+  title: Congo Crisis
+  publisher: Wikipedia
+  quote: Part of the decolonisation of Africa and the Cold War
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

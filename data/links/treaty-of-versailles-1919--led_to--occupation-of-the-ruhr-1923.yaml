@@ -1,0 +1,24 @@
+id: treaty-of-versailles-1919--led_to--occupation-of-the-ruhr-1923
+from: treaty-of-versailles-1919
+to: occupation-of-the-ruhr-1923
+type: led_to
+confidence: documented
+note: France and Belgium occupied the Ruhr after Germany repeatedly defaulted on reparations required
+  by the treaty.
+sources:
+- url: https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr
+  title: Occupation of the Ruhr
+  publisher: Wikipedia
+  quote: The occupation of the heavily industrialized Ruhr district came in response to Germany's repeated
+    defaults on the reparations payments required under the terms of the Treaty of Versailles.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Treaty_of_Versailles
+  title: Treaty of Versailles
+  publisher: Wikipedia
+  quote: the Reparations Commission also declared Germany in default of coal reparations and authorised
+    the occupation of the Ruhr coalfields in order to secure the deliveries
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

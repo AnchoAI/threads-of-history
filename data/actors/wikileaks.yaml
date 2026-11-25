@@ -1,0 +1,23 @@
+id: wikileaks
+title: WikiLeaks
+actor_type: organization
+summary: Organization that publishes leaks provided by anonymous sources.
+threads:
+- media
+- intel
+regions:
+- western-europe
+importance: 2
+wikidata: Q359
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q359.json
+  title: WikiLeaks
+  publisher: Wikidata
+  quote: organization that publishes leaks provided by anonymous sources
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CB. Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

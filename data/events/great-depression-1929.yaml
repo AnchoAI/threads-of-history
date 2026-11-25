@@ -1,0 +1,68 @@
+id: great-depression-1929
+title: Great Depression
+summary: 'A severe worldwide economic downturn from 1929 to 1939, marked by mass unemployment, falling
+  prices, bank failures and a collapse in international trade; world GDP fell by an estimated 15% between
+  1929 and 1932. Its causes are disputed: some point to the Wall Street crash or wider economic trends,
+  others to failures of monetary policy, with the gold standard spreading the downturn between countries.'
+occurred:
+  start: '1929'
+  end: '1939'
+  precision: year
+threads:
+- econ-crises
+regions:
+- americas
+- western-europe
+actors:
+- united-states
+- united-kingdom
+- weimar-republic
+importance: 5
+wikidata: Q8698
+sources:
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: The Great Depression was a severe global economic downturn from 1929 to 1939.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: The period was marked by high rates of unemployment and poverty, drastic reductions in industrial
+    production and international trade, and widespread bank and business failures around the world.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: Between 1929 and 1932, worldwide gross domestic product (GDP) fell by an estimated 15%
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: The precise causes for the Great Depression are disputed.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: A contrasting set of views, which rose to prominence in the later part of the 20th century, ascribes
+    a more prominent role to failures of monetary policy.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Great_Depression
+  archive_url: https://web.archive.org/web/20260919013211/https://en.wikipedia.org/wiki/Great_Depression
+  title: Great Depression
+  publisher: Wikipedia
+  quote: The gold standard was the primary transmission mechanism of the Great Depression.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

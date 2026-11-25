@@ -1,0 +1,18 @@
+id: nanjing-massacre-1937--part_of--battle-of-nanking-1937
+from: nanjing-massacre-1937
+to: battle-of-nanking-1937
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Nanjing Massacre lists it as part of Battle of Nanking.
+sources:
+- url: https://en.wikipedia.org/wiki/Nanjing_Massacre
+  title: Nanjing Massacre
+  publisher: Wikipedia
+  quote: Part of the aftermath of the Battle of Nanjing
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

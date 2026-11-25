@@ -1,0 +1,27 @@
+id: rwandan-genocide-1994--led_to--first-congo-war-1996
+from: rwandan-genocide-1994
+to: first-congo-war-1996
+type: led_to
+confidence: documented
+note: The flight of génocidaires and Hutu refugees into Zaire triggered the First Congo War.
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  archive_url: https://web.archive.org/web/20261010115621/https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: This led to the flight of the génocidaires and many Hutu refugees into Zaire (now the Democratic
+    Republic of the Congo), contributing to regional instability and triggering the First Congo War in
+    1996.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Congo_War
+  title: First Congo War
+  publisher: Wikipedia
+  quote: exacerbated by long-standing internal strife and the destabilizing effects of the 1994 Rwandan
+    genocide, which had led to an influx of refugees and militant groups into the country.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

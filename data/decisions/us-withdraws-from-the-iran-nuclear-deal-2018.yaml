@@ -1,0 +1,89 @@
+id: us-withdraws-from-the-iran-nuclear-deal-2018
+title: US withdraws from the Iran nuclear deal
+summary: On 8 May 2018 the Trump administration announced the US withdrawal from the JCPOA and reimposed sanctions,
+  although the IAEA had verified Iran's compliance. Iran later took steps contrary to the deal, including stockpiling
+  highly enriched uranium.
+occurred:
+  start: '2018-05-08'
+  precision: day
+threads:
+- mideast
+- nuclear
+regions:
+- middle-east-north-africa
+- americas
+actors:
+- donald-trump
+- united-states
+- iran
+- benjamin-netanyahu
+importance: 3
+wikidata: none
+decided_by:
+- donald-trump
+- united-states
+alternatives:
+- option: Stay in the deal
+  sources:
+  - url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+    archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+    title: United States withdrawal from the Joint Comprehensive Plan of Action
+    publisher: Wikipedia
+    quote: In May 2018, French president Emmanuel Macron warned Trump not to withdraw from the deal, telling
+      Der Spiegel that doing so could lead to war.
+    type: reference
+    accessed: '2026-10-15'
+- option: Renegotiate the deal
+  sources:
+  - url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+    archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+    title: United States withdrawal from the Joint Comprehensive Plan of Action
+    publisher: Wikipedia
+    quote: During his 2016 U.S. presidential election campaign, Donald Trump made the renegotiation of the
+      JCPOA one of his main foreign affairs campaign promises
+    type: reference
+    accessed: '2026-10-15'
+sources:
+- url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  title: United States withdrawal from the Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: On 8 May 2018, the United States under the first Trump administration announced its withdrawal from
+    the Iran nuclear deal, formally known as the Joint Comprehensive Plan of Action (JCPOA).
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  title: United States withdrawal from the Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: Leading up to the United States' withdrawal, the IAEA asserted that its inspectors had verified that
+    Iran had implemented its nuclear-related commitments to the agreement.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010220942/https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action
+  title: Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: The United States withdrew from the pact in 2018, imposing sanctions under its maximum pressure campaign.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  title: United States withdrawal from the Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: The withdrawal led Iran to take actions contrary to the deal, including stockpiling roughly 440 kilograms
+    of highly enriched uranium.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  archive_url: https://web.archive.org/web/20261010215306/https://en.wikipedia.org/wiki/United_States_withdrawal_from_the_Joint_Comprehensive_Plan_of_Action
+  title: United States withdrawal from the Joint Comprehensive Plan of Action
+  publisher: Wikipedia
+  quote: In May 2018, Israeli prime minister Benjamin Netanyahu gave a presentation at the Israel Ministry
+    of Defense titled "Iran Lied", which some analysts believed influenced Trump to pursue withdrawal.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No separate Wikidata item was found for the withdrawal (qid.py returned nothing for the article title).

@@ -1,0 +1,34 @@
+id: oil-crisis-1979--led_to--latin-american-debt-crisis-1982
+from: oil-crisis-1979
+to: latin-american-debt-crisis-1982
+type: led_to
+confidence: documented
+note: The second oil shock added to the deficits and the recycled lending behind the debt build-up.
+sources:
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: During the 1970s, two large oil price shocks created current account deficits in many Latin American
+    countries.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  archive_url: https://web.archive.org/web/20260906173645/https://www.federalreservehistory.org/essays/latin-american-debt-crisis
+  title: Latin American Debt Crisis of the 1980s
+  publisher: Federal Reserve History (Jocelyn Sims and Jessie Romero)
+  quote: With the encouragement of the US government, large US money-center banks were willing intermediaries
+    between the two groups, providing the exporting countries with a safe, liquid place for their funds
+    and then lending those funds to Latin America
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Latin_American_debt_crisis
+  title: Latin American debt crisis
+  publisher: Wikipedia
+  quote: Petroleum-exporting countries, flush with cash after the oil price increases of 1973–1980, invested
+    their money with international banks, which "recycled" a major portion of the capital as syndicated
+    loans to Latin American governments.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

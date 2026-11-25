@@ -1,0 +1,54 @@
+id: wealth-of-nations-1776
+title: Adam Smith's The Wealth of Nations published
+summary: Adam Smith publishes The Wealth of Nations, which argues against mercantilism and for free trade. It became
+  a foundational work of economic liberalism and the classical political economy that Marx later criticised.
+occurred:
+  start: '1776-03-09'
+  precision: day
+threads:
+- industry
+- econ-crises
+regions:
+- western-europe
+actors:
+- adam-smith
+importance: 4
+wikidata: Q233562
+sources:
+- url: https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  archive_url: https://web.archive.org/web/20261012080258/https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  title: The Wealth of Nations
+  publisher: Wikipedia
+  quote: Published on 9 March 1776 as Smith's central intellectual project
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  archive_url: https://web.archive.org/web/20261012080258/https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  title: The Wealth of Nations
+  publisher: Wikipedia
+  quote: Smith's argument about the international political economy opposed the idea of mercantilism. While the
+    Mercantile System encouraged each country to hoard gold, while trying to grasp hegemony, Smith argued that free
+    trade eventually makes all actors better off.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  archive_url: https://web.archive.org/web/20261012080258/https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  title: The Wealth of Nations
+  publisher: Wikipedia
+  quote: The treatise is widely regarded as a foundational work of economic liberalism
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  archive_url: https://web.archive.org/web/20261012080258/https://en.wikipedia.org/wiki/The_Wealth_of_Nations
+  title: The Wealth of Nations
+  publisher: Wikipedia
+  quote: Marxian economics developed as a critique of the tradition of classical political economy established in
+    The Wealth of Nations
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - Wikidata Q233562 is the book itself.

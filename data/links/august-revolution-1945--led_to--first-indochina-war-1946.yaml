@@ -1,0 +1,26 @@
+id: august-revolution-1945--led_to--first-indochina-war-1946
+from: august-revolution-1945
+to: first-indochina-war-1946
+type: led_to
+confidence: documented
+note: Talks between the new Democratic Republic of Vietnam and France broke down, and war broke out in December
+  1946.
+sources:
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: The negotiations at Dalat and Fontainebleau ultimately collapsed due to unresolved disputes over the
+    political status of southern Vietnam. With diplomatic avenues exhausted, both sides began mobilizing for
+    a military solution. Provocations by both French and DRV troops led to the outbreak of full-scale war on
+    19 December 1946.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/August_Revolution
+  title: August Revolution
+  publisher: Wikipedia
+  quote: Nearly a year and a half after the revolution, the DRV and France were fighting the First Indochina
+    War.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

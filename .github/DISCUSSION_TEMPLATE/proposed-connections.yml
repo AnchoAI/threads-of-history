@@ -1,0 +1,49 @@
+title: "[Connection] "
+labels: ["proposed connection"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a connection between two events. The source must itself state the connection: two events being related is not enough. See CONTRIBUTING.md.
+  - type: input
+    id: from
+    attributes:
+      label: From (the earlier event)
+      description: Its name, or its id from the viewer's link (e.g. bay-of-pigs-invasion-1961).
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Kind of connection
+      options:
+        - contributed to (led_to)
+        - influenced (shaped attitudes or behaviour)
+        - was part of (part_of)
+        - a later disclosure revealed it (revealed)
+        - a parallel, not a cause (echo)
+    validations:
+      required: true
+  - type: input
+    id: to
+    attributes:
+      label: To (the later event)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source link
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: The sentence from the source that states the connection
+      description: Copy it word for word, under about 250 characters.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else (who disagrees, other sources)

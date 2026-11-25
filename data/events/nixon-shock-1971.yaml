@@ -1,0 +1,67 @@
+id: nixon-shock-1971
+title: 'Nixon shock: the dollar''s gold convertibility suspended'
+summary: On 15 August 1971 President Richard Nixon closed the 'gold window', so that foreign governments
+  could no longer exchange dollars for gold, and announced a 90-day wage and price freeze and a 10 percent
+  import surcharge. The move, meant to counter inflation and a looming run on US gold, marked the beginning
+  of the end of the Bretton Woods system.
+occurred:
+  start: '1971-08-15'
+  precision: day
+threads:
+- econ-crises
+regions:
+- americas
+actors:
+- united-states
+importance: 4
+wikidata: Q1420512
+sources:
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: On the evening of August 15, 1971, Nixon addressed the nation on a new economic policy
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: The first order was for the gold window to be closed. Foreign governments could no longer exchange
+    their dollars for gold
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: The second order was for a 90-day freeze on wages and prices to check inflation.
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: In addition, an import surcharge was set at 10 percent
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  archive_url: https://web.archive.org/web/20261012162332/https://www.federalreservehistory.org/essays/gold-convertibility-ends
+  title: Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls
+  publisher: Federal Reserve History (Sandra Kollen Ghizoni)
+  quote: With inflation on the rise and a gold run looming, President Richard Nixon's team enacted a plan
+    that ended dollar convertibility to gold and implemented wage and price controls
+  type: scholarly
+  accessed: '2026-10-15'
+- url: https://history.state.gov/milestones/1969-1976/nixon-shock
+  archive_url: https://web.archive.org/web/20261004123856/https://history.state.gov/milestones/1969-1976/nixon-shock
+  title: Nixon and the End of the Bretton Woods System, 1971–1973
+  publisher: US Department of State, Office of the Historian
+  quote: Known colloquially as the "Nixon shock," the initiative marked the beginning of the end for the
+    Bretton Woods system of fixed exchange rates established at the end of World War II.
+  type: scholarly
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No actor file for Richard Nixon exists yet; the event uses united-states. Another batch may add richard-nixon.

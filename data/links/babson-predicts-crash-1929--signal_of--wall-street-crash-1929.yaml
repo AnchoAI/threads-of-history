@@ -1,0 +1,24 @@
+id: babson-predicts-crash-1929--signal_of--wall-street-crash-1929
+from: babson-predicts-crash-1929
+to: wall-street-crash-1929
+type: signal_of
+confidence: documented
+note: Babson's widely reported forecast preceded the September slide that began the Great Crash.
+sources:
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: it started to falter after Roger Babson issued his prescient "market crash" forecast
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  archive_url: https://web.archive.org/web/20260930050446/https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929
+  title: Wall Street crash of 1929
+  publisher: Wikipedia
+  quote: The initial September decline was thus called the "Babson Break" in the press. That was the start
+    of the Great Crash
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

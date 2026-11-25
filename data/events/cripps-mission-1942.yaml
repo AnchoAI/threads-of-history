@@ -1,0 +1,39 @@
+id: cripps-mission-1942
+title: Cripps Mission
+summary: The British government sends Sir Stafford Cripps to India to secure Indian support for the war,
+  offering elections and full self-government after it. The mission failed.
+occurred:
+  start: 1942-03
+  precision: month
+threads:
+- empire
+- ww2
+regions:
+- south-central-asia
+actors:
+- stafford-cripps
+- united-kingdom
+- indian-national-congress
+- all-india-muslim-league
+importance: 2
+wikidata: Q2512311
+sources:
+- url: https://en.wikipedia.org/wiki/Cripps_Mission
+  title: Cripps Mission
+  publisher: Wikipedia
+  quote: The Cripps Mission was a failed attempt in late March 1942 by the British government to secure
+    full Indian cooperation and support for their efforts in World War II.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Cripps_Mission
+  title: Cripps Mission
+  publisher: Wikipedia
+  quote: Cripps worked to keep India loyal to the British war effort in exchange for a promise of elections
+    and full self-government (Dominion status) once the war was over.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

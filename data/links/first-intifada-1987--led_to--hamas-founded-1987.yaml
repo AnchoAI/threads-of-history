@@ -1,0 +1,16 @@
+id: first-intifada-1987--led_to--hamas-founded-1987
+from: first-intifada-1987
+to: hamas-founded-1987
+type: led_to
+confidence: documented
+note: Hamas was founded after the intifada broke out.
+sources:
+- url: https://en.wikipedia.org/wiki/Hamas
+  title: Hamas
+  publisher: Wikipedia
+  quote: The Hamas movement was founded by Palestinian Islamic scholar Ahmed Yassin in 1987 after the outbreak
+    of the First Intifada against the Israeli occupation.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

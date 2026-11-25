@@ -1,0 +1,24 @@
+id: first-sino-japanese-war-1894--led_to--boxer-rebellion-1899
+from: first-sino-japanese-war-1894
+to: boxer-rebellion-1899
+type: led_to
+confidence: documented
+note: Foreign powers carved out concessions after the war, and xenophobic agitation grew into the Boxer
+  uprising.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Western powers tried to divide their interests and influence in China in the aftermath of the
+    First Sino-Japanese War.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/First_Sino-Japanese_War
+  title: First Sino-Japanese War
+  publisher: Wikipedia
+  quote: Xenophobic sentiment and agitation grew, which would culminate in the Boxer Rebellion five years
+    later.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

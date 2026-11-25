@@ -1,0 +1,24 @@
+id: cultural-revolution-1966--led_to--reform-and-opening-up-1978
+from: cultural-revolution-1966
+to: reform-and-opening-up-1978
+type: led_to
+confidence: documented
+note: The reforms began after the Cultural Revolution, in response to the stagnation of the Mao-era economy.
+sources:
+- url: https://en.wikipedia.org/wiki/Reform_and_opening_up
+  title: Reform and opening up
+  publisher: Wikipedia
+  quote: Before Deng Xiaoping's reforms, China's economy suffered due to centrally planned policies, such as
+    the Great Leap Forward and the Cultural Revolution, resulting in stagnation, inefficiency, and poverty.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  archive_url: https://web.archive.org/web/20261012011926/https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Deng and his allies introduced the Boluan Fanzheng program and initiated the reform and opening up,
+    which, together with the New Enlightenment movement, dismantled the ideology of the Cultural Revolution.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

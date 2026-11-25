@@ -1,0 +1,38 @@
+id: maji-maji-rebellion-1905
+title: Maji Maji Rebellion
+summary: Africans in German East Africa (now Tanzania) rise against German colonial rule, set off by policies
+  forcing them to grow cotton for export. Between 75,000 and 300,000 people died, most from famine.
+occurred:
+  start: 1905-07
+  end: 1907-08
+  precision: month
+threads:
+- empire
+regions:
+- sub-saharan-africa
+actors:
+- german-empire
+importance: 3
+wikidata: Q705553
+sources:
+- url: https://en.wikipedia.org/wiki/Maji_Maji_Rebellion
+  archive_url: https://web.archive.org/web/20260905084503/https://en.wikipedia.org/wiki/Maji_Maji_Rebellion
+  title: Maji Maji Rebellion
+  publisher: Wikipedia
+  quote: The war was triggered by German colonial policies designed to force the indigenous population
+    to grow cotton for export. The war lasted from 1905 to 1907, during which 75,000 to 300,000 died,
+    overwhelmingly from famine.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Maji_Maji_Rebellion
+  archive_url: https://web.archive.org/web/20260905084503/https://en.wikipedia.org/wiki/Maji_Maji_Rebellion
+  title: Maji Maji Rebellion
+  publisher: Wikipedia
+  quote: July 1905 – August 1907
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Batch F (1900–1945, South Asia, Africa, Latin America, South-East Asia). Summary and dates checked
+    against the quoted sources; no person has reviewed them yet.

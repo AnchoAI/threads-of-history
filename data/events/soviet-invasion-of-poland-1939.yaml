@@ -1,0 +1,45 @@
+id: soviet-invasion-of-poland-1939
+title: Soviet invasion of Poland
+summary: On 17 September 1939 the Soviet Union invades eastern Poland without a declaration of war, in
+  line with the secret protocol of the Molotov–Ribbentrop Pact. Operations end on 6 October with Poland
+  divided between Germany and the Soviet Union.
+occurred:
+  start: '1939-09-17'
+  end: '1939-10-06'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- russia-eastern-europe
+actors:
+- soviet-union
+- second-polish-republic
+- joseph-stalin
+importance: 3
+wikidata: Q2305266
+sources:
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: The Soviet invasion of Poland was a military conflict by the Soviet Union without a formal declaration
+    of war.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: On 17 September 1939 the Soviet Red Army invaded the Kresy regions in accordance with the secret
+    protocol.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland
+  title: Soviet invasion of Poland
+  publisher: Wikipedia
+  quote: Subsequent military operations lasted for the following 20 days and ended on 6 October 1939 with
+    the two-way division and annexation of the entire territory of the Second Polish Republic by Nazi
+    Germany and the Soviet Union.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

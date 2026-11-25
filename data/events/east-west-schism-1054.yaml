@@ -1,0 +1,52 @@
+id: east-west-schism-1054
+title: East–West Schism (Great Schism)
+summary: On 16 July 1054 papal legates excommunicated Patriarch Michael Cerularius in Hagia Sophia, and
+  he excommunicated them in turn. The date is conventionally used for the break of communion between the
+  Catholic and Eastern Orthodox churches, though historians describe a split that developed over centuries.
+occurred:
+  start: '1054-07-16'
+  precision: day
+threads:
+- religion
+- empire
+regions:
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+actors:
+- catholic-church
+- eastern-orthodox-church
+- byzantine-empire
+importance: 5
+wikidata: Q51648
+sources:
+- url: https://en.wikipedia.org/wiki/East%E2%80%93West_Schism
+  title: East–West Schism
+  publisher: Wikipedia
+  quote: The East–West Schism, also known as the Great Schism or the Schism of 1054, is the break of communion
+    between the Catholic Church and the Eastern Orthodox Church since 1054.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/East%E2%80%93West_Schism
+  title: East–West Schism
+  publisher: Wikipedia
+  quote: On 16 July 1054, three months after Pope Leo's death in April 1054 and nine months before the
+    next pope took office, they laid on the altar of Hagia Sophia, which was prepared for the celebration
+    of the Divine Liturgy, a bull of excommunication of Cerularius and his supporters.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/East%E2%80%93West_Schism
+  title: East–West Schism
+  publisher: Wikipedia
+  quote: At a synod held on 20 July 1054, Cerularius in turn excommunicated the legates.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/East%E2%80%93West_Schism
+  title: East–West Schism
+  publisher: Wikipedia
+  quote: There was no single event that marked the breakdown. Rather, the two churches slid into and out
+    of schism over a period of several centuries, punctuated with temporary reconciliations.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

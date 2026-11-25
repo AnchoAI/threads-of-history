@@ -1,0 +1,16 @@
+id: franco-prussian-war-1870--led_to--paris-commune-1871
+from: franco-prussian-war-1870
+to: paris-commune-1871
+type: led_to
+confidence: documented
+note: Anger at the government's handling of the war and its aftermath set off the Paris Commune.
+sources:
+- url: https://en.wikipedia.org/wiki/Franco-Prussian_War
+  title: Franco-Prussian War
+  publisher: Wikipedia
+  quote: Resentment over the French government's handling of the war and its aftermath triggered the Paris
+    Commune
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced

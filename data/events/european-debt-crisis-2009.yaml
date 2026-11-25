@@ -1,0 +1,71 @@
+id: european-debt-crisis-2009
+title: Eurozone debt crisis
+summary: From late 2009, when Greece disclosed budget deficits far higher than previously thought, Greece,
+  Portugal, Ireland and Cyprus could no longer repay or refinance their debts or rescue their banks without
+  help from other eurozone states, the ECB and the IMF. The crisis lasted until 2018 and brought austerity,
+  unemployment as high as 27 percent in Greece and Spain, and changes of government in many countries.
+occurred:
+  start: '2009'
+  end: '2018'
+  precision: year
+threads:
+- econ-crises
+regions:
+- western-europe
+actors:
+- european-union
+- european-central-bank
+- imf
+- germany
+importance: 4
+wikidata: Q217197
+sources:
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: a debt crisis and financial crisis in the European Union (EU) that occurred between 2009 and
+    2018
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: The onset of crisis was in late 2009 when the Greek government disclosed that its budget deficits
+    were far higher than previously thought.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: The eurozone member states of Greece, Portugal, Ireland, and Cyprus could no longer adequately
+    manage their debt
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: Assistance was needed from other eurozone countries, the European Central Bank (ECB), and the
+    International Monetary Fund (IMF) to address the crisis.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: It also led to austerity, increases in unemployment rates to as high as 27% in Greece and Spain
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Euro_area_crisis
+  archive_url: https://web.archive.org/web/20261004185340/https://en.wikipedia.org/wiki/Euro_area_crisis
+  title: Euro area crisis
+  publisher: Wikipedia
+  quote: The crisis contributed to changes in leadership in Greece, Ireland, France, Italy, Portugal,
+    Spain
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced

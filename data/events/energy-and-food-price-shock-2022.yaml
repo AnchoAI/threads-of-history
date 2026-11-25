@@ -1,0 +1,67 @@
+id: energy-and-food-price-shock-2022
+title: Energy and food price shock after Russia invades Ukraine
+summary: From March 2022, Russia's invasion of Ukraine pushed up food and energy prices around the world,
+  as Ukrainian wheat and corn could not reach world markets and oil prices jumped. Moody's economist Mark
+  Zandi estimated that by May 2022 the invasion accounted for 3.5 points of US inflation of 8.6 percent.
+occurred:
+  start: 2022-03
+  precision: month
+threads:
+- energy
+- econ-crises
+- ukraine
+regions:
+- russia-eastern-europe
+- western-europe
+- americas
+actors:
+- russia
+- ukraine
+importance: 3
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: By March 2022, the Russian invasion of Ukraine caused food and energy prices to begin climbing
+    in the United States and across the world.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: the invasion caused wheat and corn from Ukraine unable to reach international market, causing
+    shortages
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: He said oil and commodities prices jumped in anticipation of and response to the invasion, leading
+    to higher gasoline prices.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: Mark Zandi, chief economist of Moody's Analytics, analyzed United States Consumer Price Index
+    components following the May 2022 report that showed an 8.6% inflation rate in the U.S.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  archive_url: https://web.archive.org/web/20261002144416/https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge
+  title: 2021–2023 inflation surge
+  publisher: Wikipedia
+  quote: He found that by then the 2022 Russian invasion of Ukraine was the principal cause of higher
+    inflation, comprising 3.5% of the 8.6%.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - No wikidata id found; Wikipedia covers this under 'Economic impact of the Russian invasion of Ukraine',
+    which was not checked.

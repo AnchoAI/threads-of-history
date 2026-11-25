@@ -1,0 +1,28 @@
+id: mongol-sack-of-baghdad-1258--echo--ottoman-caliphate-1517
+from: mongol-sack-of-baghdad-1258
+to: ottoman-caliphate-1517
+type: echo
+confidence: documented
+note: The Ottoman claim was modelled on the universal caliphate of the Abbasids that ended in 1258.
+sources:
+- url: https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  archive_url: https://web.archive.org/web/20261006204048/https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  title: Ottoman Caliphate
+  publisher: Wikipedia
+  quote: The title had thus become an explicit claim to a universal caliphate similar to that of the Abbasids prior
+    to 1258.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  archive_url: https://web.archive.org/web/20261006204048/https://en.wikipedia.org/wiki/Ottoman_Caliphate
+  title: Ottoman Caliphate
+  publisher: Wikipedia
+  quote: in the eyes of most contemporary Muslim jurists, the caliphate had come to an end with the death of the
+    Abbasid caliph al-Musta'sim during the Mongol sack of Baghdad in 1258.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - 'The quoted source draws this parallel itself. An echo, not a cause: the caliphal line passed from Baghdad to
+    Mamluk Cairo in 1261 before the Ottomans took it over in 1517.'

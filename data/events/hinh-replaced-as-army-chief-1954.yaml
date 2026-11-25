@@ -1,0 +1,46 @@
+id: hinh-replaced-as-army-chief-1954
+title: General Nguyen Van Hinh replaced as South Vietnam's army chief
+summary: General Nguyen Van Hinh, chief of staff of the Vietnamese National Army, who had defied Prime Minister
+  Ngo Dinh Diem, was replaced by General Le Van Ty and returned to France in November 1954.
+occurred:
+  start: 1954-11
+  precision: month
+threads:
+- intel
+regions:
+- south-east-asia
+actors:
+- south-vietnam
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  archive_url: https://web.archive.org/web/20260424032708/https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  title: Nguyễn Văn Hinh
+  publisher: Wikipedia
+  quote: Hinh was replaced by General Lê Văn Tỵ as appointed Chief of the nascent Joint General Staff.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  archive_url: https://web.archive.org/web/20260424032708/https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_V%C4%83n_Hinh
+  title: Nguyễn Văn Hinh
+  publisher: Wikipedia
+  quote: Hinh returned to France in November 1954, re-entering the air force with his former rank of lieutenant
+    colonel.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1952-54v13p2/d1181
+  archive_url: https://web.archive.org/web/20250930084724/https://history.state.gov/historicaldocuments/frus1952-54v13p2/d1181
+  title: 'Special National Intelligence Estimate SNIE 63-6-54: Current Trends in South Vietnam'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1954-09-15'
+  quote: At the moment the Diem Government is threatened by the insubordination of General Hinh, the politically
+    ambitious Chief of Staff whom Diem has discharged.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - 'Batch N: added so that the SNIE 63-6-54 forecast can point to an event. Wikidata has an item for Hinh (Q2741205)
+    but none for this event.'
+  - The exact day is not given in the main text; the infobox gives his term as ending 29 November 1954.

@@ -1,0 +1,48 @@
+id: ryan-white-barred-from-school-1985
+title: Ryan White barred from school
+summary: School officials in Kokomo, Indiana, refuse to readmit Ryan White, a teenager who contracted AIDS through
+  contaminated blood products used to treat his haemophilia; a formal request is denied on 30 June 1985. The long
+  legal and administrative fight makes him a national figure.
+occurred:
+  start: '1985-06-30'
+  precision: day
+threads:
+- rights
+regions:
+- americas
+actors:
+- ryan-white
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Ryan_White
+  archive_url: https://web.archive.org/web/20261013135513/https://en.wikipedia.org/wiki/Ryan_White
+  title: Ryan White
+  publisher: Wikipedia
+  quote: On June 30, 1985, a formal request to permit re-admittance to school was denied by Western School Corporation
+    superintendent James O. Smith, sparking an administrative appeal process that lasted for over nine months.
+  type: reference
+  accessed: '2026-10-20'
+- url: https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  archive_url: https://web.archive.org/web/20261015031234/https://www.hiv.gov/hiv-basics/overview/history/hiv-and-aids-timeline
+  title: A Timeline of HIV and AIDS
+  publisher: HIV.gov (US Department of Health and Human Services)
+  quote: Ryan White, an Indiana teenager who contracted AIDS through contaminated blood products used to treat his
+    hemophilia, is refused entry to his middle school
+  type: primary
+  accessed: '2026-10-20'
+- url: https://en.wikipedia.org/wiki/Ryan_White
+  archive_url: https://web.archive.org/web/20261013135513/https://en.wikipedia.org/wiki/Ryan_White
+  title: Ryan White
+  publisher: Wikipedia
+  quote: was an American teenager from Kokomo, Indiana, who became a national poster child for HIV/AIDS in the United
+    States after his school barred him from attending classes following a diagnosis of AIDS.
+  type: reference
+  accessed: '2026-10-20'
+review:
+  status: sourced
+  notes:
+  - Batch CD (culture, round 2). Summary and dates checked against the quoted sources; no person has reviewed them
+    yet.
+  - HIV.gov dates his refusal of entry to 27 August (1985); Wikipedia dates the formal denial to 30 June 1985. The
+    item uses the earlier date.

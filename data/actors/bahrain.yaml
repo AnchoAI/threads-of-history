@@ -1,0 +1,21 @@
+id: bahrain
+title: Bahrain
+actor_type: state
+summary: Country in the Persian Gulf.
+threads: []
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q398
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q398.json
+  title: Bahrain
+  publisher: Wikidata
+  quote: country in the Persian Gulf
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Roles in specific events are sourced on those
+    events.

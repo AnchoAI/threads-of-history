@@ -1,0 +1,36 @@
+id: smyth-report-1945
+title: Smyth Report released
+summary: The Smyth Report, the first official account of the Manhattan Project and the physics behind
+  the atomic bomb, is released to the public on 12 August 1945, days after the bombings of Hiroshima and
+  Nagasaki.
+occurred:
+  start: '1945-08-12'
+  precision: day
+threads:
+- nuclear
+- intel
+regions:
+- americas
+actors:
+- united-states
+importance: 2
+wikidata: Q1149060
+sources:
+- url: https://en.wikipedia.org/wiki/Smyth_Report
+  archive_url: https://web.archive.org/web/20260919070642/https://en.wikipedia.org/wiki/Smyth_Report
+  title: Smyth Report
+  publisher: Wikipedia
+  quote: It was released to the media on August 11, 1945, and the public on August 12, 1945, just days
+    after the atomic bombings of Hiroshima and Nagasaki on August 6 and 9.
+  type: reference
+  accessed: '2026-10-03'
+- url: https://en.wikipedia.org/wiki/Smyth_Report
+  archive_url: https://web.archive.org/web/20260919070642/https://en.wikipedia.org/wiki/Smyth_Report
+  title: Smyth Report
+  publisher: Wikipedia
+  quote: The Smyth Report was the first official account of the development of the atomic bombs and the
+    basic physical processes behind them.
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced

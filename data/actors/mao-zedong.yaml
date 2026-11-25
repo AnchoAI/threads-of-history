@@ -1,0 +1,22 @@
+id: mao-zedong
+title: Mao Zedong
+actor_type: person
+summary: 1st chairman of the Chinese Communist Party and founder of the People's Republic of China (1893–1976).
+threads: []
+regions:
+- east-asia
+importance: 3
+wikidata: Q5816
+sources:
+- archive_url: https://web.archive.org/web/20260920222017/https://www.wikidata.org/wiki/Special:EntityData/Q5816.json
+  url: https://www.wikidata.org/wiki/Special:EntityData/Q5816.json
+  title: Mao Zedong
+  publisher: Wikidata
+  quote: 1st chairman of the Chinese Communist Party and founder of the People's Republic of China (1893–1976)
+  type: reference
+  accessed: '2026-10-03'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

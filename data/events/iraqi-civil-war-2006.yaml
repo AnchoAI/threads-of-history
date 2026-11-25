@@ -1,0 +1,56 @@
+id: iraqi-civil-war-2006
+title: Sectarian civil war in Iraq
+summary: Sunni and Shia armed groups, among them the Islamic State of Iraq and the Mahdi Army, fought each other,
+  the Iraqi government and US-led forces. The insurgency escalated into sectarian civil war after the bombing of
+  the al-Askari Shrine in February 2006; by 2008 about 4.7 million Iraqis had been displaced.
+occurred:
+  start: '2006-02-22'
+  end: '2008-05-15'
+  precision: day
+threads:
+- mideast
+- religion
+regions:
+- middle-east-north-africa
+actors:
+- iraq
+- united-states
+- abu-musab-al-zarqawi
+importance: 4
+wikidata: Q17183365
+sources:
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  archive_url: https://web.archive.org/web/20260826205926/https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: The Iraqi civil war was an armed conflict from 2006 to 2008 between various sectarian Shia and Sunni armed
+    groups, such as the Islamic State of Iraq and the Mahdi Army, in addition to the Iraqi government alongside
+    American-led coalition forces.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  archive_url: https://web.archive.org/web/20260826205926/https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: In February 2006, the insurgency against the coalition and government escalated into a sectarian civil
+    war after the bombing of Al-Askari Shrine
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  archive_url: https://web.archive.org/web/20260826205926/https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: 22 February 2006 – 15 May 2008
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  archive_url: https://web.archive.org/web/20260826205926/https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: By 2008, the UNHCR raised the estimate to about 4.7 million (~16% of the population).
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Every claim in the summary and the dates are covered by quoted sources.

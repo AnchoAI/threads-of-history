@@ -93,3 +93,78 @@ test("items outside the window and on hidden threads are not drawn", () => {
   }
   assert.ok(!visible.has("bay-of-pigs-invasion-1961") || real.byId.get("bay-of-pigs-invasion-1961").threads.some((t) => t !== "cuba"));
 });
+
+test("a sub-event at least as important as its parent is never folded away", () => {
+  const parent = stress.byId.get("test-crisis");
+  const part = stress.byId.get("test-crisis-day-1");
+  const w = new TimeWindow(1900, 2030);
+  const saved = part.importance;
+  try {
+    part.importance = parent.importance;
+    assert.ok(chooseVisible(stress, w).visible.has(part.id));
+    part.importance = parent.importance - 1;
+    assert.ok(!chooseVisible(stress, w).visible.has(part.id));
+  } finally {
+    part.importance = saved;
+  }
+});
+
+test("compressed past: the ends stay put, order is kept, the recent past gets more room", () => {
+  const w = new TimeWindow(600, 2027, [600, 2027], { compressed: true });
+  assert.ok(Math.abs(w.x(600) + WORLD_LENGTH / 2) < 1e-9);
+  assert.ok(Math.abs(w.x(2027) - WORLD_LENGTH / 2) < 1e-9);
+  const xs = [600, 1054, 1517, 1789, 1914, 1945, 2001, 2026].map((t) => w.x(t));
+  assert.ok(xs.every((x, i) => i === 0 || x > xs[i - 1]));
+  const lastCentury = w.x(2027) - w.x(1927);
+  assert.ok(lastCentury / WORLD_LENGTH > 0.2, `last century gets ${lastCentury / WORLD_LENGTH}`);
+  const even = new TimeWindow(600, 2027);
+  assert.ok(lastCentury > 3 * (even.x(2027) - even.x(1927)));
+  for (const t of [650, 1200, 1900, 2020]) assert.ok(Math.abs(w.fromShare(w.share(t)) - t) < 1e-6);
+});
+
+test("compressed past: ticks are spread out on screen and reach the recent end", () => {
+  const w = new TimeWindow(600, 2027, [600, 2027], { compressed: true });
+  const ts = ticks(w);
+  const xs = ts.map((tk) => w.x(tk.t));
+  assert.ok(ts.length >= 8 && ts.length <= 16, `${ts.length} ticks`);
+  assert.ok(xs.every((x, i) => i === 0 || x - xs[i - 1] >= WORLD_LENGTH / (12 * 1.15) - 1e-9));
+  assert.ok(ts.some((tk) => tk.t > 1990));
+  // A narrow window behaves as before.
+  w.set(1914, 1919);
+  assert.ok(ticks(w).length >= 4);
+});
+
+test("eras: long importance-5 events in view, no near-duplicates, capped", async () => {
+  const { chooseEras, MAX_ERAS } = await import("../src/eras.js");
+  const w = new TimeWindow(1900, 1950);
+  const eras = chooseEras(real, w);
+  assert.ok(eras.length >= 1 && eras.length <= MAX_ERAS);
+  assert.ok(eras.every((e) => e.item.importance >= 5 && e.b - e.a >= 0.04 * w.span));
+  assert.ok(eras.some((e) => e.item.id === "first-world-war-1914-1918"));
+  for (let i = 1; i < eras.length; i++) assert.ok(eras[i].a >= eras[i - 1].a);
+  // Zoomed into a single month, a war is not an "era" band unless it spans the window share.
+  assert.ok(chooseEras(real, new TimeWindow(1916.5, 1916.6)).every((e) => e.b - e.a >= 1));
+});
+
+test("fair share: a crowded stretch can't take every slot from quieter ones", async () => {
+  const { SLICES } = await import("../src/visibility.js");
+  const item = (id, y, importance) => ({ id, kind: "event", title: id, summary: "", threads: ["t"], regions: ["r"], importance,
+    occurred: { start: String(y), precision: "year", range: [y, y + 0.5] } });
+  // 300 important items crammed into the 1940s, and one minor item in each other decade.
+  const items = [];
+  for (let i = 0; i < 300; i++) items.push(item(`busy-${i}`, 1940 + (i % 10), 5));
+  for (let d = 1900; d < 2020; d += 10) if (d !== 1940) items.push(item(`quiet-${d}`, d + 5, 2));
+  const g = indexGraph({ items, links: [], threads: [{ id: "t", name: "T", domain: "politics" }], regions: [{ id: "r", name: "R" }], domains: [], paths: [] });
+  const { visible, labelled } = chooseVisible(g, new TimeWindow(1900, 2020));
+  assert.equal(visible.size, MAX_NODES);
+  for (let d = 1900; d < 2020; d += 10) if (d !== 1940) assert.ok(visible.has(`quiet-${d}`), `quiet-${d} is drawn`);
+  assert.ok([...labelled].some((id) => id.startsWith("quiet-")));
+  assert.ok(SLICES >= 8);
+});
+
+test("dates in the first century are not read as 1900s", async () => {
+  const { fromYear, toYear } = await import("../src/timescale.js");
+  assert.equal(fromYear(0).getUTCFullYear(), 0);
+  assert.equal(fromYear(50.5).getUTCFullYear(), 50);
+  assert.ok(Math.abs(toYear(fromYear(12.25)) - 12.25) < 1e-6);
+});

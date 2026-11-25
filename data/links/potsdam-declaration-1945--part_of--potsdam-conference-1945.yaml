@@ -1,0 +1,17 @@
+id: potsdam-declaration-1945--part_of--potsdam-conference-1945
+from: potsdam-declaration-1945
+to: potsdam-conference-1945
+type: part_of
+confidence: documented
+note: The declaration was issued by the US, Britain and China during the Potsdam Conference.
+sources:
+- url: https://history.state.gov/milestones/1937-1945/potsdam-conf
+  archive_url: https://web.archive.org/web/20260930032503/https://history.state.gov/milestones/1937-1945/potsdam-conf
+  title: The Potsdam Conference, 1945
+  publisher: US Department of State, Office of the Historian
+  quote: Furthermore, the United States, Great Britain, and China released the “Potsdam Declaration,”
+    which threatened Japan with “prompt and utter destruction” if it did not immediately surrender
+  type: scholarly
+  accessed: '2026-10-03'
+review:
+  status: sourced

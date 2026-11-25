@@ -1,0 +1,27 @@
+id: perry-expedition-1853--led_to--meiji-restoration-1868
+from: perry-expedition-1853
+to: meiji-restoration-1868
+type: led_to
+confidence: documented
+note: Forced opening by the US and Western powers, with internal factors, weakened the shogunate until
+  it fell.
+sources:
+- url: https://en.wikipedia.org/wiki/Perry_Expedition
+  title: Perry Expedition
+  publisher: Wikipedia
+  quote: The Perry Expedition led directly to the establishment of diplomatic relations between Japan
+    and the western Great Powers, and eventually to the collapse of the ruling Tokugawa shogunate and
+    the restoration of the Emperor.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://history.state.gov/milestones/1830-1860/opening-to-japan
+  archive_url: https://web.archive.org/web/20260809043057/https://history.state.gov/milestones/1830-1860/opening-to-japan
+  title: The United States and the Opening to Japan, 1853
+  publisher: Office of the Historian, US Department of State
+  quote: the process by which the United States and the Western powers forced Japan into modern commercial
+    intercourse, along with other internal factors, weakened the position of the Tokugawa Shogunate to
+    the point that the shogun fell from power.
+  type: scholarly
+  accessed: '2026-10-14'
+review:
+  status: sourced

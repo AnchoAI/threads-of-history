@@ -1,0 +1,59 @@
+id: decline-of-serfdom-in-western-europe-1350
+title: Decline of serfdom in Western Europe
+summary: Between the mid-14th century and about 1500, serfdom largely disappeared across much of Western and Central
+  Europe, while in Eastern Europe it was tightened (the 'second serfdom'). Why the two regions diverged is a long-running
+  historians' debate.
+occurred:
+  start: '1350'
+  end: '1500'
+  precision: decade
+  approximate: true
+  note: A gradual process; the sources date its completion in the West to about 1500.
+threads:
+- industry
+- econ-crises
+regions:
+- western-europe
+- russia-eastern-europe
+actors: []
+importance: 4
+wikidata: 'none'
+sources:
+- url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  title: Consequences of the Black Death
+  publisher: Wikipedia
+  quote: The manorial system was already in trouble, but the Black Death assured its demise throughout much of Western
+    and Central Europe by 1500.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  archive_url: https://web.archive.org/web/20261009101901/https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death
+  title: Consequences of the Black Death
+  publisher: Wikipedia
+  quote: In Eastern Europe, by contrast, renewed stringency of laws tied the remaining peasantry more tightly to
+    the land than ever before through serfdom.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brenner_debate
+  title: Brenner debate
+  publisher: Wikipedia
+  quote: He pointed out that the demographic collapse of the 14th and 15th centuries was accompanied by the decline
+    of serfdom in western Europe, but by the intensification of serfdom—the "second serfdom"—in eastern Europe,
+    particularly in Poland and east-Elbian Germany.
+  type: reference
+  accessed: '2026-10-14'
+- url: https://en.wikipedia.org/wiki/Brenner_debate
+  title: Brenner debate
+  publisher: Wikipedia
+  quote: The Brenner debate was a major historiographical debate about the mechanisms that drove the transition
+    from feudalism to capitalism in Europe.
+  type: reference
+  accessed: '2026-10-14'
+review:
+  status: sourced
+  notes:
+  - Long arcs batch F (industry, science, health and climate). Summary and dates checked against the quoted sources;
+    no person has reviewed them yet.
+  - No Wikidata item for the decline of serfdom as an event was found; 'none' is set. A reviewer may prefer a different
+    framing, e.g. 'end of the manorial system'.

@@ -1,0 +1,48 @@
+id: lawrence-king-sentenced-1991
+title: Lawrence E. King Jr. sentenced for Franklin fraud
+summary: Lawrence E. King Jr., former manager of the Franklin Community Federal Credit Union, who had pleaded guilty
+  to embezzlement and other crimes, is sentenced to 15 years in prison over the disappearance of $39 million.
+occurred:
+  start: 1991-06
+  precision: month
+threads:
+- scandals
+- econ-crises
+regions:
+- americas
+actors:
+- lawrence-e-king-jr
+importance: 2
+wikidata: none
+sources:
+- url: https://www.orlandosentinel.com/1991/06/19/ex-credit-union-manager-gets-15-years-for-fraud/
+  archive_url: https://web.archive.org/web/20241211195407/https://www.orlandosentinel.com/1991/06/19/ex-credit-union-manager-gets-15-years-for-fraud/
+  title: Ex-credit union manager gets 15 years for fraud
+  publisher: Orlando Sentinel
+  date: '1991-06-19'
+  quote: The former manager of a failed credit union was sentenced to 15 years in prison for his part in the disappearance
+    of $39 million, and his wife drew three years for her role in the scheme.
+  type: news
+  accessed: '2026-10-23'
+- url: https://www.orlandosentinel.com/1991/06/19/ex-credit-union-manager-gets-15-years-for-fraud/
+  archive_url: https://web.archive.org/web/20241211195407/https://www.orlandosentinel.com/1991/06/19/ex-credit-union-manager-gets-15-years-for-fraud/
+  title: Ex-credit union manager gets 15 years for fraud
+  publisher: Orlando Sentinel
+  date: '1991-06-19'
+  quote: Lawrence E. King Jr., 46, former manager of the Franklin Community Federal Credit Union, had pleaded guilty
+    to embezzlement and other crimes.
+  type: news
+  accessed: '2026-10-23'
+- url: https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  archive_url: https://web.archive.org/web/20260719164115/https://en.wikipedia.org/wiki/Lawrence_E._King_Jr.
+  title: Lawrence E. King Jr.
+  publisher: Wikipedia
+  quote: In 1989, King and several associates were indicted for financial crimes related to the credit union's failure.
+  type: reference
+  accessed: '2026-10-23'
+review:
+  status: sourced
+  notes:
+  - Batch S3 (Epstein and the Franklin case). Every quote was copied from the fetched page and checked word for
+    word; no person has reviewed this yet.
+  - Month from the Orlando Sentinel (AP) report dated 19 June 1991.

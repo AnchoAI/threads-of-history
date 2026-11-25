@@ -1,0 +1,23 @@
+id: john-mccone
+title: John A. McCone
+actor_type: person
+summary: American businessman and director of the CIA (1902-1991).
+threads:
+- intel
+- cuba
+regions:
+- americas
+importance: 3
+wikidata: Q973836
+sources:
+- url: https://www.wikidata.org/wiki/Special:EntityData/Q973836.json
+  title: John A. McCone
+  publisher: Wikidata
+  quote: American businessman and director of the CIA (1902-1991)
+  type: reference
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Identity and description taken from the Wikidata entity JSON. Role in specific events is sourced on
+    those events.

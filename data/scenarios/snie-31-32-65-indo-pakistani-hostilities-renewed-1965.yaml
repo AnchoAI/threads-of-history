@@ -1,0 +1,75 @@
+id: snie-31-32-65-indo-pakistani-hostilities-renewed-1965
+title: 'SNIE 31-32-65: Major Indo-Pakistani hostilities resume'
+summary: In December 1965, with the September ceasefire still shaky, the US intelligence community judged a renewal
+  of major hostilities between India and Pakistan unlikely over the next few months. The ceasefire held; the Tashkent
+  Declaration followed in January 1966 and the next war came in 1971.
+threads:
+- intel
+regions:
+- south-central-asia
+actors:
+- cia
+- india
+- pakistan
+importance: 2
+window:
+  start: '1965-12-07'
+  end: '1966-06-07'
+  precision: day
+probability: 0.3
+stated_as: A renewal of major hostilities now seems unlikely
+probability_basis: 'Sherman Kent''s words of estimative probability: ''unlikely'' (Kent''s ''probably not'' bracket)
+  = about 30%'
+forecast_by: US intelligence community (SNIE)
+forecast_on: '1965-12-07'
+resolves_by: '1966-06-07'
+resolution:
+  outcome: did_not_happen
+  resolved_on: '1966-06-07'
+  note: The ceasefire held until the war of 1971; the Tashkent Declaration was signed on 10 January 1966.
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1964-68v25/d259
+  archive_url: https://web.archive.org/web/20260119215126/https://history.state.gov/historicaldocuments/frus1964-68v25/d259
+  title: 'Special National Intelligence Estimate SNIE 31-32-65: Indo-Pakistani Reactions to Certain US Courses of
+    Action'
+  publisher: Office of the Historian, US Department of State (FRUS)
+  date: '1965-12-07'
+  quote: A renewal of major hostilities now seems unlikely, and the UN may be able to secure some token troop withdrawal
+    over the next few months.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  archive_url: https://web.archive.org/web/20260930060754/https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  title: Indo-Pakistani war of 1965
+  publisher: Wikipedia
+  quote: The ceasefire remained in effect until the start of the India–Pakistan war of 1971.
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  archive_url: https://web.archive.org/web/20260930060754/https://en.wikipedia.org/wiki/Indo-Pakistani_war_of_1965
+  title: Indo-Pakistani war of 1965
+  publisher: Wikipedia
+  quote: where Indian Prime Minister Lal Bahadur Shastri and Pakistani President Muhammad Ayub Khan signed the Tashkent
+    Declaration on 10 January 1966
+  type: reference
+  accessed: '2026-10-21'
+- url: https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  archive_url: https://web.archive.org/web/20261017091202/https://en.wikipedia.org/wiki/Words_of_estimative_probability
+  title: Words of estimative probability
+  publisher: Wikipedia
+  quote: Probably not 30% Give or take about 10%
+  type: reference
+  accessed: '2026-10-21'
+- url: https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  archive_url: https://web.archive.org/web/20260921223526/https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
+  title: Words of Estimative Probability (Sherman Kent, Studies in Intelligence, 1964)
+  publisher: Central Intelligence Agency, Center for the Study of Intelligence
+  quote: Probably not13 … improbable unlikely we believe that … not we estimate that … not we doubt, doubtful
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch N (intelligence estimates benchmark). Chosen by a stratified random draw of FRUS Special National Intelligence
+    Estimates, taking every qualifying judgment in each drawn estimate; see the batch report.
+  - '''Now'' and ''the next few months'' are read as six months.'

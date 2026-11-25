@@ -1,0 +1,30 @@
+review:
+  status: unverified
+id: wdi-inflation
+title: Inflation, consumer prices (World Bank)
+summary: Annual change in consumer prices, in percent (World Bank, World Development Indicators).
+occurred:
+  start: '1960'
+  end: '2025'
+  precision: year
+threads:
+- industry
+regions:
+- americas
+- western-europe
+- russia-eastern-europe
+- middle-east-north-africa
+- south-central-asia
+- east-asia
+- sub-saharan-africa
+- south-east-asia
+importance: 2
+unit: '% per year'
+dataset: world-bank-wdi
+indicator: FP.CPI.TOTL.ZG
+table: tables/wdi-inflation.csv
+sources:
+- url: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+  title: Inflation, consumer prices (annual %)
+  publisher: 'The World Bank: World Development Indicators'
+  type: primary

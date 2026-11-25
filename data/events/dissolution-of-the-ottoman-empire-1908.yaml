@@ -1,0 +1,61 @@
+id: dissolution-of-the-ottoman-empire-1908
+title: Dissolution of the Ottoman Empire
+summary: The final period of the Ottoman Empire, from the Young Turk Revolution of 1908 to the abolition of the
+  sultanate in 1922, marked by military defeats, the First World War, partition by the Allies and the founding of
+  the modern state of Turkey.
+occurred:
+  start: '1908-07'
+  end: '1922-11-01'
+  precision: month
+  note: The source infobox starts the period on 24 July 1908, the end of the Young Turk Revolution; the month is
+    used so that the revolution (from 3 July) fits inside it.
+threads:
+- empire
+- mideast
+- ww1
+regions:
+- middle-east-north-africa
+- russia-eastern-europe
+actors:
+- ottoman-empire
+- committee-of-union-and-progress
+- grand-national-assembly-of-turkey
+importance: 4
+wikidata: Q1837704
+sources:
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: The dissolution of the Ottoman Empire (1908–1922) was a period of history of the Ottoman Empire beginning
+    with the Young Turk Revolution and ultimately ending with the empire's dissolution and the founding of the modern
+    state of Turkey.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: 24 July 1908 – 1 November 1922
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: Additionally, this period was characterised by continuing military failures by the empire.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  archive_url: https://web.archive.org/web/20260923213405/https://en.wikipedia.org/wiki/Dissolution_of_the_Ottoman_Empire
+  title: Dissolution of the Ottoman Empire
+  publisher: Wikipedia
+  quote: The partitioning of the Ottoman Empire began with the Treaty of London (1915)
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - 'Nesting batch: umbrella event added so sub-events can fold into it; dates and summary are covered by the quotes.
+    No person has reviewed it yet.'
+  - The Wikipedia article carries a disputed-neutrality notice.

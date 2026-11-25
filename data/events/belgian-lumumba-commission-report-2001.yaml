@@ -1,0 +1,49 @@
+id: belgian-lumumba-commission-report-2001
+title: Belgian parliamentary inquiry into Lumumba's death
+summary: A Belgian parliamentary commission, set up in 2000, reports in November 2001 that the Belgian
+  government lied to the public and bore a "moral responsibility" for Lumumba's killing, though it found
+  no written order to kill him. Belgium formally apologised in February 2002.
+occurred:
+  start: 2001-11
+  precision: month
+threads:
+- empire
+- intel
+regions:
+- western-europe
+- sub-saharan-africa
+actors:
+- patrice-lumumba
+importance: 2
+wikidata: none
+sources:
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: In its November 2001 report, the commission determined that the Belgian government had lied to
+    the public, contravened international law, and bore a "moral responsibility" for Lumumba's killing,
+    though it denied that any written order to kill Lumumba existed.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: The commission was officially approved by the Belgian Parliament in March 2000
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  archive_url: https://web.archive.org/web/20260907002700/https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba
+  title: Assassination of Patrice Lumumba
+  publisher: Wikipedia
+  quote: On February 5, 2002, Louis Michel spoke to Parliament on behalf of the government, saying that
+    he wished to share "deep and sincere regrets"
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1 (decolonisation and the Global South since 1945). Summary and dates checked against the quoted
+    sources; no person has reviewed them yet.
+  - 'wikidata is none: no Wikidata item for the commission was found.'

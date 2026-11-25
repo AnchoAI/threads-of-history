@@ -1,0 +1,104 @@
+id: mccone-warns-of-soviet-mrbms-in-cuba-1962
+title: McCone warns Soviet MRBMs may be coming to Cuba
+summary: From August 1962 CIA Director John McCone argued that the Soviet buildup in Cuba could include
+  medium-range ballistic missiles, and in cables from his honeymoon in September said the costly air defences
+  were hard to explain unless they were meant to hide them. CIA analysts and SNIE 85-3-62 disagreed; McCone
+  took exception to the estimate on 20 September.
+occurred:
+  start: '1962-08-21'
+  end: '1962-09-20'
+  precision: day
+threads:
+- cuba
+- intel
+- nuclear
+regions:
+- americas
+actors:
+- john-mccone
+- cia
+importance: 3
+wikidata: none
+source_credibility: medium
+outcome: confirmed
+resolves_to: u-2-photographs-soviet-missile-sites-in-cuba-1962
+sources:
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d385
+  archive_url: https://web.archive.org/web/20251007091157/https://history.state.gov/historicaldocuments/frus1961-63v10/d385
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 385: Memorandum of Meeting With President Kennedy (attachment: McCone, Proposed plan of action
+    for Cuba, August 21, 1962)'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-08-23'
+  quote: Being dominated by Moscow, such a Cuba would also serve as a possible location for MRBMs, for
+    COMINT and ELINT facilities targeted against United States activities, most particularly Canaveral
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d382
+  archive_url: https://web.archive.org/web/20260520083614/https://history.state.gov/historicaldocuments/frus1961-63v10/d382
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 382: Memorandum for the File (meeting in Secretary Rusk’s office, August 21, 1962)'
+  publisher: Office of the Historian, US Department of State
+  date: '1962-08-21'
+  quote: There was discussion of various courses of action open to us in case the Soviets place MRBM missiles
+    on Cuban territory.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: The discovery, which was reported to McCone in the daily briefing cables sent to him by Deputy
+    Director Marshall Carter, reinforced McConeʼs concern that the Soviet military build-up in Cuba presaged
+    the introduction of medium-range ballistic missiles.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: On September 10 he argued in a cable that the costly defenses being prepared in Cuba were difficult
+    to rationalize unless they were “for purpose of ensuring secrecy of some offensive capability such
+    as MRBMs to [Page 1053] be installed by Soviets after present phase completed and country secured
+    from overflights.”
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: Return cables from Carter indicated that CIA analysts had considered McConeʼs concerns but concluded
+    that the Soviet Union would not run the risk of provoking a military reaction from the United States.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  archive_url: https://web.archive.org/web/20251207055843/https://history.state.gov/historicaldocuments/frus1961-63v10/d420
+  title: 'Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962,
+    Document 420: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: In the final cable in the series [text not declassified], September 20, McCone took exception
+    to the conclusion drawn in SNIE 85-3-62.
+  type: primary
+  accessed: '2026-10-21'
+- url: https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  archive_url: https://web.archive.org/web/20260826191215/https://history.state.gov/historicaldocuments/frus1961-63v11/d16
+  title: 'Foreign Relations of the United States, 1961–1963, Volume XI, Cuban Missile Crisis and Aftermath,
+    Document 16: Editorial Note'
+  publisher: Office of the Historian, US Department of State
+  quote: three medium-range ballistic missile sites were being developed near San Cristobal, in Pinar
+    del Rio province.
+  type: primary
+  accessed: '2026-10-21'
+review:
+  status: sourced
+  notes:
+  - Batch P1 (Cuba 1962, primary documents). Quotes copied from fetched pages; no person has reviewed
+    this yet.
+  - 'source_credibility medium is an editorial judgement: McCone was the DCI, but his warning was an inference
+    from the air-defence pattern (his own word in one cable was "hunch"), not evidence of missiles.'
+  - The cables themselves are in the FRUS Supplement; this item quotes the FRUS editorial note that summarises
+    and quotes them.
+  - wikidata none.

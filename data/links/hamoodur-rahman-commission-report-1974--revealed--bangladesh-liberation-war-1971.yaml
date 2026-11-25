@@ -1,0 +1,26 @@
+id: hamoodur-rahman-commission-report-1974--revealed--bangladesh-liberation-war-1971
+from: hamoodur-rahman-commission-report-1974
+to: bangladesh-liberation-war-1971
+type: revealed
+confidence: documented
+note: Pakistan's own inquiry into the 1971 war and atrocities, suppressed until parts leaked in 2000.
+sources:
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: Constituted to prepare strictly germane report on "full and complete account of the circumstances
+    surrounding the atrocities and 1971 war"
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  archive_url: https://web.archive.org/web/20260821131021/https://en.wikipedia.org/wiki/Hamoodur_Rahman_Commission
+  title: Hamoodur Rahman Commission
+  publisher: Wikipedia
+  quote: In 2000, parts of the commission report were leaked to Indian and Pakistani newspapers.
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
+  notes:
+  - Batch G1. The quoted source states the connection; no person has reviewed it yet.

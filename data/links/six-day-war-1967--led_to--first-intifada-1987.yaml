@@ -1,0 +1,23 @@
+id: six-day-war-1967--led_to--first-intifada-1987
+from: six-day-war-1967
+to: first-intifada-1987
+type: led_to
+confidence: documented
+note: Frustration under the occupation that began in 1967 is the background the source gives for the uprising.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: After Israel's capture of the West Bank, Jerusalem, Sinai Peninsula, and Gaza Strip from Jordan and
+    Egypt in the Six-Day War in 1967, frustration grew among Palestinians in the Israeli-occupied territories.
+  type: reference
+  accessed: '2026-10-15'
+- url: https://en.wikipedia.org/wiki/First_Intifada
+  title: First Intifada
+  publisher: Wikipedia
+  quote: Describing the causes of the Intifada, Benny Morris refers to the "all-pervading element of humiliation",
+    caused by the protracted occupation
+  type: reference
+  accessed: '2026-10-15'
+review:
+  status: sourced
