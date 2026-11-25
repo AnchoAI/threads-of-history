@@ -1,0 +1,18 @@
+id: iran-contra-affair-1984--part_of--cold-war-1985
+from: iran-contra-affair-1984
+to: cold-war-1985
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Iran–Contra affair lists it as part of Cold War (1985–1991).
+sources:
+- url: https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair
+  title: Iran–Contra affair
+  publisher: Wikipedia
+  quote: Part of the Iran–Iraq War and the end of the Cold War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

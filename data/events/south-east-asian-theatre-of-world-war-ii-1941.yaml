@@ -1,0 +1,35 @@
+id: south-east-asian-theatre-of-world-war-ii-1941
+title: South-East Asian theatre of World War II
+summary: The Pacific War's campaigns in the Philippines, Thailand, Indonesia, Indochina, Burma, India, Malaya and
+  Singapore, from Japan's offensives of 7–8 December 1941 until Japan announced its intent to surrender on 15 August
+  1945.
+occurred:
+  start: '1941-12-08'
+  end: '1945-08-15'
+  precision: day
+threads:
+- ww2
+- empire
+regions:
+- south-east-asia
+importance: 3
+wikidata: Q524272
+sources:
+- url: https://en.wikipedia.org/wiki/South-East_Asian_theatre_of_World_War_II
+  title: South-East Asian theatre of World War II
+  publisher: Wikipedia
+  quote: consisted of the campaigns of the Pacific War in the Philippines, Thailand, Indonesia, Indochina, Burma,
+    India, Malaya, and Singapore between 1941 and 1945.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/South-East_Asian_theatre_of_World_War_II
+  title: South-East Asian theatre of World War II
+  publisher: Wikipedia
+  quote: Action in this theatre ended when Japan announced an intent to surrender on 15 August 1945.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

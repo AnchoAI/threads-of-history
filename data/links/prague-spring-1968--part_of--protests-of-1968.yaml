@@ -1,0 +1,18 @@
+id: prague-spring-1968--part_of--protests-of-1968
+from: prague-spring-1968
+to: protests-of-1968
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Prague Spring lists it as part of Protests of 1968.
+sources:
+- url: https://en.wikipedia.org/wiki/Prague_Spring
+  title: Prague Spring
+  publisher: Wikipedia
+  quote: Part of the invasion of Czechoslovakia, the Cold War and the Protests of 1968
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

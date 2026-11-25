@@ -1,0 +1,30 @@
+id: chinese-civil-war-1927
+title: Chinese Civil War
+summary: A war between the Republic of China government, led by the Kuomintang, and the Chinese Communist Party,
+  fought intermittently from 1 August 1927 until the Communist victory and the Kuomintang's retreat to Taiwan on
+  7 December 1949.
+occurred:
+  start: '1927-08-01'
+  end: '1949-12-07'
+  precision: day
+threads:
+- china
+- revolutions
+regions:
+- east-asia
+importance: 4
+wikidata: Q179975
+sources:
+- url: https://en.wikipedia.org/wiki/Chinese_Civil_War
+  title: Chinese Civil War
+  publisher: Wikipedia
+  quote: was fought between the government of the Republic of China (ROC), led by the Kuomintang (KMT), and the
+    Chinese Communist Party (CCP). Armed conflict continued intermittently from 1 August 1927 until Communist victory
+    that led to the Kuomintang's retreat to Taiwan on 7 December 1949.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

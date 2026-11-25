@@ -1,0 +1,18 @@
+id: burundian-civil-war-1993--part_of--rwandan-genocide-1994
+from: burundian-civil-war-1993
+to: rwandan-genocide-1994
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Burundian Civil War lists it as part of Rwandan genocide.
+sources:
+- url: https://en.wikipedia.org/wiki/Burundian_Civil_War
+  title: Burundian Civil War
+  publisher: Wikipedia
+  quote: Part of the spillovers of the Rwandan genocide, First and Second Congo Wars
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

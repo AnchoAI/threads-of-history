@@ -1,0 +1,18 @@
+id: thirty-years-war-1618--part_of--european-wars-of-religion-1522
+from: thirty-years-war-1618
+to: european-wars-of-religion-1522
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Thirty Years' War lists it as part of European wars of religion.
+sources:
+- url: https://en.wikipedia.org/wiki/Thirty_Years'_War
+  title: Thirty Years' War
+  publisher: Wikipedia
+  quote: Part of the European wars of religion and French–Habsburg rivalry
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

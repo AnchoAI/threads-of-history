@@ -1,0 +1,18 @@
+id: first-indochina-war-1946--part_of--indochina-wars-1945
+from: first-indochina-war-1946
+to: indochina-wars-1945
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on First Indochina War lists it as part of Indochina wars.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Indochina_War
+  title: First Indochina War
+  publisher: Wikipedia
+  quote: Part of the Indochina wars, the Cold War in Asia, and the decolonisation of Asia
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

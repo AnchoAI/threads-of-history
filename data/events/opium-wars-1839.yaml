@@ -1,0 +1,41 @@
+id: opium-wars-1839
+title: Opium Wars
+summary: Two wars between the Qing dynasty and Western powers in the mid-19th century. Britain fought China from
+  1839 to 1842, after the Qing government moved to enforce its ban on opium; Britain and France fought China again
+  from 1856 to 1860.
+occurred:
+  start: '1839'
+  end: '1860'
+  precision: year
+threads:
+- china
+- empire
+regions:
+- east-asia
+importance: 4
+wikidata: Q220984
+sources:
+- url: https://en.wikipedia.org/wiki/Opium_Wars
+  title: Opium Wars
+  publisher: Wikipedia
+  quote: were two conflicts waged between the Qing dynasty and the Western powers during the mid-19th century. The
+    First Opium War was fought from 1839 to 1842 between China and the British Empire.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Opium_Wars
+  title: Opium Wars
+  publisher: Wikipedia
+  quote: It was triggered by the Qing government's campaign to enforce its prohibition of opium
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Opium_Wars
+  title: Opium Wars
+  publisher: Wikipedia
+  quote: The Second Opium War was waged by Britain and France against China from 1856 to 1860
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

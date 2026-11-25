@@ -1,0 +1,18 @@
+id: attack-on-pearl-harbor-1941--part_of--asiatic-pacific-theater-1941
+from: attack-on-pearl-harbor-1941
+to: asiatic-pacific-theater-1941
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Attack on Pearl Harbor lists it as part of Asiatic-Pacific theater.
+sources:
+- url: https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor
+  title: Attack on Pearl Harbor
+  publisher: Wikipedia
+  quote: Part of the Asiatic-Pacific theater of World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

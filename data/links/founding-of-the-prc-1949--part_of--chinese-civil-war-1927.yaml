@@ -1,0 +1,19 @@
+id: founding-of-the-prc-1949--part_of--chinese-civil-war-1927
+from: founding-of-the-prc-1949
+to: chinese-civil-war-1927
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Proclamation of the People's Republic of China lists it as part of
+  Chinese Civil War.
+sources:
+- url: https://en.wikipedia.org/wiki/Proclamation_of_the_People's_Republic_of_China
+  title: Proclamation of the People's Republic of China
+  publisher: Wikipedia
+  quote: Part of the Chinese Civil War and the Chinese Communist Revolution
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

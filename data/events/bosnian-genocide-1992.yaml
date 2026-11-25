@@ -1,0 +1,36 @@
+id: bosnian-genocide-1992
+title: Bosnian genocide
+summary: Genocide committed during the Bosnian War of 1992–1995, covering the Srebrenica massacre of July 1995,
+  in which more than 8,000 Bosniak men and boys were killed, or more widely the crimes against humanity and ethnic
+  cleansing carried out by the Army of Republika Srpska in the areas it controlled.
+occurred:
+  start: '1992'
+  end: '1995'
+  precision: year
+threads:
+- rights
+regions:
+- russia-eastern-europe
+importance: 4
+wikidata: Q3288108
+sources:
+- url: https://en.wikipedia.org/wiki/Bosnian_genocide
+  title: Bosnian genocide
+  publisher: Wikipedia
+  quote: took place during the Bosnian War of 1992–1995 and includes the Srebrenica massacre of July 1995 or the
+    wider crimes against humanity and ethnic cleansing campaign perpetrated throughout areas controlled by the Army
+    of Republika Srpska (VRS).
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Bosnian_genocide
+  title: Bosnian genocide
+  publisher: Wikipedia
+  quote: included the killing of more than 8,000 Bosniak (Bosnian Muslim) men and boys
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata dates it to 13 July 1995 (Srebrenica); the wider definition in the article covers 1992–1995.

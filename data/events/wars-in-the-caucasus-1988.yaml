@@ -1,0 +1,35 @@
+id: wars-in-the-caucasus-1988
+title: Wars in the Caucasus
+summary: A series of interrelated ethnic and political conflicts in the Caucasus shortly before and after the dissolution
+  of the Soviet Union, as former Soviet republics sought independence. They produced several de facto independent
+  states, violent changes of government and the displacement of 1.5–2 million people.
+occurred:
+  start: '1988'
+  end: '1996'
+  precision: year
+threads:
+- russia
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q132477746
+sources:
+- url: https://en.wikipedia.org/wiki/Wars_in_the_Caucasus
+  title: Wars in the Caucasus
+  publisher: Wikipedia
+  quote: were a series of interrelated ethnic and political conflicts which engulfed the Caucasus in the period
+    shortly before and after the dissolution of the Soviet Union.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Wars_in_the_Caucasus
+  title: Wars in the Caucasus
+  publisher: Wikipedia
+  quote: they led to the establishment of several de facto independent states, violent government change and a refugee
+    crisis that led to the displacement of 1.5–2 million people.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

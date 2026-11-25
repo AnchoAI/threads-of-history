@@ -1,0 +1,37 @@
+id: eastern-front-1941
+title: Eastern Front (World War II)
+summary: The theatre of the Second World War fought between the European Axis powers and the Allies, including the
+  Soviet Union and Poland, from 22 June 1941 to 9 May 1945. About 30 million of the war's estimated 70–85 million
+  deaths occurred there.
+occurred:
+  start: '1941-06-22'
+  end: '1945-05-09'
+  precision: day
+threads:
+- ww2
+- russia
+regions:
+- russia-eastern-europe
+importance: 4
+wikidata: Q189266
+sources:
+- url: https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)
+  title: Eastern Front (World War II)
+  publisher: Wikipedia
+  quote: was a theatre of World War II fought between the European Axis powers and Allies, including the Soviet
+    Union (USSR) and Poland.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)
+  title: Eastern Front (World War II)
+  publisher: Wikipedia
+  quote: lasted from 22 June 1941 to 9 May 1945. Of the estimated 70–85 million deaths attributed to the war, around
+    30 million occurred on the Eastern Front
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata gives an end date of 1955; the article's 9 May 1945 is used.

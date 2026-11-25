@@ -1,0 +1,25 @@
+id: eastern-front-1941--part_of--second-world-war-1939-1945
+from: eastern-front-1941
+to: second-world-war-1939-1945
+type: part_of
+confidence: documented
+note: 'Eastern Front (World War II) (Wikipedia): "a theatre of".'
+sources:
+- url: https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)
+  title: Eastern Front (World War II)
+  publisher: Wikipedia
+  quote: The Eastern Front, also known as the Great Patriotic War, or the German–Soviet War, was a theatre of World
+    War II fought between the European Axis powers and Allies, including the Soviet Union (USSR) and Poland.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)
+  title: Eastern Front (World War II)
+  publisher: Wikipedia
+  quote: Part of the European theatre of World War II
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

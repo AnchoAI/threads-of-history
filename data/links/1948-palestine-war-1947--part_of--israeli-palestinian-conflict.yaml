@@ -1,0 +1,19 @@
+id: 1948-palestine-war-1947--part_of--israeli-palestinian-conflict
+from: 1948-palestine-war-1947
+to: israeli-palestinian-conflict
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on 1948 Palestine war lists it as part of Israeli–Palestinian conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/1948_Palestine_war
+  title: 1948 Palestine war
+  publisher: Wikipedia
+  quote: Part of the intercommunal conflict in Mandatory Palestine, the Arab–Israeli conflict, and the Israeli–Palestinian
+    conflict
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

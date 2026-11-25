@@ -1,0 +1,42 @@
+id: cambodian-civil-war-1967
+title: Cambodian Civil War
+summary: A civil war in Cambodia in which the Khmer Rouge fought the government. After the March 1970 coup, the
+  Khmer Rouge and forces loyal to Norodom Sihanouk, backed by North Vietnam and China, fought the US- and South
+  Vietnam-backed Khmer Republic. The article describes it as part of the Vietnam War.
+occurred:
+  start: '1967-03-11'
+  end: '1975-04-17'
+  precision: day
+threads:
+- revolutions
+- usru
+regions:
+- south-east-asia
+importance: 4
+wikidata: Q817206
+sources:
+- url: https://en.wikipedia.org/wiki/Cambodian_Civil_War
+  title: Cambodian Civil War
+  publisher: Wikipedia
+  quote: was a civil war in Cambodia fought by the Khmer Rouge against the government of the Kingdom of Cambodia.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cambodian_Civil_War
+  title: Cambodian Civil War
+  publisher: Wikipedia
+  quote: Following the March 1970 coup, the conflict shifted as the Khmer Rouge and forces loyal to Norodom Sihanouk,
+    now supported by North Vietnam and China, fought against the Khmer Republic, which was supported by the United
+    States and South Vietnam.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cambodian_Civil_War
+  title: Cambodian Civil War
+  publisher: Wikipedia
+  quote: The conflict was part of the Vietnam War.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

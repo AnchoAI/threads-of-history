@@ -1,0 +1,34 @@
+id: palestinian-insurgency-in-south-lebanon-1968
+title: Palestinian insurgency in South Lebanon
+summary: An insurgency led by the Palestine Liberation Organization from Lebanon against Israel from 1968, and against
+  Lebanese Christian militias from the mid-1970s. It ended when Israel invaded Lebanon in 1982 and expelled the
+  PLO.
+occurred:
+  start: '1968'
+  end: '1982'
+  precision: year
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q7127419
+sources:
+- url: https://en.wikipedia.org/wiki/Palestinian_insurgency_in_South_Lebanon
+  title: Palestinian insurgency in South Lebanon
+  publisher: Wikipedia
+  quote: The Palestine Liberation Organization (PLO) led an insurgency against Israel in 1968 and against Lebanese
+    Christian militias in the mid-1970s.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Palestinian_insurgency_in_South_Lebanon
+  title: Palestinian insurgency in South Lebanon
+  publisher: Wikipedia
+  quote: In 1982, Israel invaded Lebanon and expelled the PLO, thereby ending the insurgency.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

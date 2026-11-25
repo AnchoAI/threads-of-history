@@ -1,0 +1,44 @@
+id: arab-cold-war-1952
+title: Arab Cold War
+summary: A political rivalry in the Arab world, part of the wider Cold War, between new revolutionary republics
+  inspired by Nasser's Egypt and conservative monarchies influenced by Saudi Arabia. It is generally dated from
+  the Egyptian Revolution of 1952; its end is put in the late 1970s or the early 1990s.
+occurred:
+  start: '1952'
+  end: '1979'
+  precision: year
+  approximate: true
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q4783165
+sources:
+- url: https://en.wikipedia.org/wiki/Arab_Cold_War
+  title: Arab Cold War
+  publisher: Wikipedia
+  quote: was a political rivalry in the Arab world from the early 1950s to the late 1970s or early 1990s and a part
+    of the wider Cold War.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Arab_Cold_War
+  title: Arab Cold War
+  publisher: Wikipedia
+  quote: It is generally accepted that the beginning of the Arab Cold War is marked by the Egyptian Revolution of
+    1952
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Arab_Cold_War
+  title: Arab Cold War
+  publisher: Wikipedia
+  quote: newly formed Arab republics, inspired by revolutionary secular nationalism and Nasser's Egypt, engaged
+    in political rivalries with conservative traditionalist Arab monarchies, influenced by Saudi Arabia.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - The end date is disputed (late 1970s or early 1990s); 1979 is a placeholder marked approximate.

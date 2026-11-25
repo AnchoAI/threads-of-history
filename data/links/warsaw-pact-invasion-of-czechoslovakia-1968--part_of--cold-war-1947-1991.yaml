@@ -1,0 +1,18 @@
+id: warsaw-pact-invasion-of-czechoslovakia-1968--part_of--cold-war-1947-1991
+from: warsaw-pact-invasion-of-czechoslovakia-1968
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Warsaw Pact invasion of Czechoslovakia lists it as part of Cold War.
+sources:
+- url: https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia
+  title: Warsaw Pact invasion of Czechoslovakia
+  publisher: Wikipedia
+  quote: Part of the Cold War and the Prague Spring
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

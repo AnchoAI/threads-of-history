@@ -1,0 +1,29 @@
+id: rwandan-civil-war-1990
+title: Rwandan Civil War
+summary: A civil war in Rwanda from 1 October 1990 to 18 July 1994 between the Rwandan Armed Forces of the incumbent
+  government and the rebel Rwandan Patriotic Front, arising from the long dispute between Hutu and Tutsi.
+occurred:
+  start: '1990-10-01'
+  end: '1994-07-18'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+importance: 4
+wikidata: Q426722
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_Civil_War
+  title: Rwandan Civil War
+  publisher: Wikipedia
+  quote: was a large-scale civil war in Rwanda which was fought between the Rwandan Armed Forces, representing the
+    incumbent Third Rwandese Republic, and the rebel Rwandan Patriotic Front (RPF) from 1 October 1990 to 18 July
+    1994. The war arose from the long-running dispute between the Hutu and Tutsi groups within the Rwandan population.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata gives an end date of 4 August 1993 (the Arusha Accords); the article's 18 July 1994 is used.

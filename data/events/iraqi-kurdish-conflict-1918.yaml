@@ -1,0 +1,37 @@
+id: iraqi-kurdish-conflict-1918
+title: Iraqi–Kurdish conflict
+summary: A series of wars, rebellions and disputes between Kurds and the central government of Iraq, starting shortly
+  after the Ottoman Empire's defeat in the First World War. Some date its start to Mahmud Barzanji's attempt to
+  found a Kingdom of Kurdistan; others count only the Barzani insurrection from 1961.
+occurred:
+  start: '1918'
+  precision: year
+  approximate: true
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 3
+wikidata: Q6068230
+sources:
+- url: https://en.wikipedia.org/wiki/Iraqi%E2%80%93Kurdish_conflict
+  title: Iraqi–Kurdish conflict
+  publisher: Wikipedia
+  quote: consists of a series of wars, rebellions and disputes between the Kurds and the central authority of Iraq
+    starting in the 20th century shortly after the defeat of the Ottoman Empire in World War I.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Iraqi%E2%80%93Kurdish_conflict
+  title: Iraqi–Kurdish conflict
+  publisher: Wikipedia
+  quote: Some put the marking point of the conflict beginning to the attempt by Mahmud Barzanji to establish an
+    independent Kingdom of Kurdistan, while others relate to the conflict as only the post-1961 insurrection by
+    the Barzanis.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata gives 1918–2003; the article describes clashes after 2005, so no end date is set.

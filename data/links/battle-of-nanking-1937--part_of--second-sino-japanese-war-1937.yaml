@@ -1,0 +1,18 @@
+id: battle-of-nanking-1937--part_of--second-sino-japanese-war-1937
+from: battle-of-nanking-1937
+to: second-sino-japanese-war-1937
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Battle of Nanking lists it as part of Second Sino-Japanese War.
+sources:
+- url: https://en.wikipedia.org/wiki/Battle_of_Nanking
+  title: Battle of Nanking
+  publisher: Wikipedia
+  quote: Part of the Second Sino-Japanese War and the interwar period
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

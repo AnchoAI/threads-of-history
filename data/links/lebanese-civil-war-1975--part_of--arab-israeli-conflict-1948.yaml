@@ -1,0 +1,19 @@
+id: lebanese-civil-war-1975--part_of--arab-israeli-conflict-1948
+from: lebanese-civil-war-1975
+to: arab-israeli-conflict-1948
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Lebanese Civil War lists it as part of Arab–Israeli conflict.
+sources:
+- url: https://en.wikipedia.org/wiki/Lebanese_Civil_War
+  title: Lebanese Civil War
+  publisher: Wikipedia
+  quote: Part of the Cold War and Arab Cold War; Arab–Israeli (Israeli–Lebanese, Israeli–Palestinian, and Israeli–Syrian)
+    conflicts; Iran–Israel, Iran–Saudi, Iran–Iraq and Iraq–Syria proxy wars
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

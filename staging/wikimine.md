@@ -12,6 +12,7 @@
 | 4 | `classify` (optional) | Claude reads each sentence and says whether it really states the link, its type and direction. Needs an Anthropic API key | `classified.jsonl` |
 | 5 | `sample` | Picks 30 at random from each batch (below) into a checklist for a person; `sample --score FILE` gives each batch's precision | `sample-DATE.md`, `sample-DATE.json` |
 | 6 | `write` | Writes YAML link files, plus stub files for events not yet in `data/` | `links/`, `events/` |
+| 7 | `promote` | Writes a batch that cleared its sampled check into `data/` (below) | `data/links/`, `data/events/` |
 
 ## Running it locally
 
@@ -94,6 +95,19 @@ This writes `staging/wikimine/links/*.yaml` and stubs in `staging/wikimine/event
 Held back: an unclear subject, dates out of order, hedged wording, or an endpoint that Wikidata files only as a "social movement" (often an organisation or an art movement). Held-back candidates stay in `candidates.jsonl` for a person to look at one by one.
 
 **The rule for now (decided November 2026):** a person checks a random sample of each batch, 30 items by default. A batch goes into `data/` only if at least 95% of its sample is correct (`--bar`), and its links go in as `sourced`, never `reviewed`, with a note naming the sample. `sample --score` prints each batch's share correct with a 95% interval; with 30 items, the interval is wide, so a batch that barely clears the bar deserves a second sample.
+
+## Promoting a batch
+
+```bash
+python tools/wikimine.py promote --batch part_of-infobox \
+  --check staging/wikimine/checks/2026-11-25.json \
+  --events staging/wikimine/first-batch-events.yaml \
+  --map Q126065=iranian-revolution-1979 --skip Q3266633 Q3108868
+```
+
+`promote` refuses a batch whose sample in the check record (`staging/wikimine/checks/`) missed the bar. It writes the batch's links whose part is already in `data/`, the larger events they name, and links among those. Each new event needs an entry in `--events`, written by hand from the article's lead: summary, dates, threads, regions, importance and quotes; `promote` checks every quote against the lead and stops if one is missing. `--map` gives Wikidata ids to items in `data/` that lack one, `--skip` leaves out events (duplicates, or a Wikidata item whose article redirects elsewhere), and a pair where each is "part of" the other is left out. Links go in as `sourced`, with a note naming the batch and its sample.
+
+First batch (25 November 2026): 119 `part_of` links from infoboxes and 46 new events (wars, fronts and theatres such as the Western Front, the Pacific War and the Iran–Israel proxy conflict). Left out: Nakba (our "Palestinian exodus (Nakba)" item already carries the name), Atlantic Revolutions (its article redirects to "Age of Revolution"), and the Chinese Civil War ↔ Chinese Communist Revolution pair.
 
 ## What it does not do
 

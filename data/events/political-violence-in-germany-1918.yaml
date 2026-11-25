@@ -1,0 +1,35 @@
+id: political-violence-in-germany-1918
+title: Political violence in Germany (1918–1933)
+summary: Political violence in Germany from the fall of the Empire and the German Revolution of 1918–1919 until
+  the Nazi rise to power in 1933, marked by assassinations and clashes between left-wing groups such as the Communist
+  Party and right-wing groups such as the Freikorps.
+occurred:
+  start: '1918'
+  end: '1933'
+  precision: year
+threads:
+- interwar
+regions:
+- western-europe
+importance: 3
+wikidata: Q7225136
+sources:
+- url: https://en.wikipedia.org/wiki/Political_violence_in_Germany_(1918%E2%80%931933)
+  title: Political violence in Germany (1918–1933)
+  publisher: Wikipedia
+  quote: Germany saw significant political violence from the fall of the Empire and the rise of the Republic through
+    the German Revolution of 1918–1919, until the rise of the Nazi Party to power with 1933 elections
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Political_violence_in_Germany_(1918%E2%80%931933)
+  title: Political violence in Germany (1918–1933)
+  publisher: Wikipedia
+  quote: The violence was characterised by assassinations and by confrontations between left-wing groups such as
+    the Communist Party of Germany and right-wing groups such as the Freikorps.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

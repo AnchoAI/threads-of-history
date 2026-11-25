@@ -1,0 +1,35 @@
+id: fascist-and-anti-fascist-violence-in-italy-1919
+title: Fascist and anti-Fascist violence in Italy (1919–1926)
+summary: Widespread civil unrest and political strife in Italy after the First World War, as Benito Mussolini's
+  fascist movement rose against the political left. The Fascists, and later some historians, called the period the
+  "Fascist Revolution", a term Italian historians did not commonly accept.
+occurred:
+  start: '1919'
+  end: '1926'
+  precision: year
+threads:
+- interwar
+regions:
+- western-europe
+importance: 3
+wikidata: Q136416310
+sources:
+- url: https://en.wikipedia.org/wiki/Fascist_and_anti-Fascist_violence_in_Italy_(1919%E2%80%931926)
+  title: Fascist and anti-Fascist violence in Italy (1919–1926)
+  publisher: Wikipedia
+  quote: The Kingdom of Italy witnessed significant widespread civil unrest and political strife in the aftermath
+    of World War I and the rise of Italian fascism, the far-right movement led by Benito Mussolini
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Fascist_and_anti-Fascist_violence_in_Italy_(1919%E2%80%931926)
+  title: Fascist and anti-Fascist violence in Italy (1919–1926)
+  publisher: Wikipedia
+  quote: This period of unrest was labelled by the Fascists and later by some historians rivoluzione fascista ("Fascist
+    Revolution"), although the term did not become commonly accepted by Italian historiography.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

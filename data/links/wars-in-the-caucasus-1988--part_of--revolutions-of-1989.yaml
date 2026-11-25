@@ -1,0 +1,19 @@
+id: wars-in-the-caucasus-1988--part_of--revolutions-of-1989
+from: wars-in-the-caucasus-1988
+to: revolutions-of-1989
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Wars in the Caucasus lists it as part of Revolutions of 1989.
+sources:
+- url: https://en.wikipedia.org/wiki/Wars_in_the_Caucasus
+  title: Wars in the Caucasus
+  publisher: Wikipedia
+  quote: Part of the post–Cold War era, the Revolutions of 1989, the Russo-Caucasian conflict, and the dissolution
+    of the Soviet Union
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

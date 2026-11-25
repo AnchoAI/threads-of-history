@@ -1,0 +1,40 @@
+id: operation-overlord-1944
+title: Operation Overlord
+summary: The codename for the Battle of Normandy, the Allied invasion of German-occupied Western Europe launched
+  on 6 June 1944 with the Normandy landings. More than two million Allied troops were in France by the end of August.
+occurred:
+  start: '1944-06-06'
+  end: '1944-08-30'
+  precision: day
+threads:
+- ww2
+regions:
+- western-europe
+importance: 4
+wikidata: Q8641370
+sources:
+- url: https://en.wikipedia.org/wiki/Operation_Overlord
+  title: Operation Overlord
+  publisher: Wikipedia
+  quote: was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion
+    of German-occupied Western Europe during World War II.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Operation_Overlord
+  title: Operation Overlord
+  publisher: Wikipedia
+  quote: The operation was launched on 6 June 1944 (D-Day) with the Normandy landings
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Operation_Overlord
+  title: Operation Overlord
+  publisher: Wikipedia
+  quote: more than two million Allied troops were in France by the end of August.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - End date is approximate (end of August 1944); Wikidata gives 25 August, other sources 30 August.

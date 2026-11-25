@@ -1119,7 +1119,12 @@ def cmd_sample(args) -> None:
         path = Path(args.score)
         if path.suffix == ".json":   # {"items": [...], "verdicts": {key: verdict}} or a list of {batch, verdict}
             d = json.loads(path.read_text(encoding="utf-8"))
-            rows = d if isinstance(d, list) else [{"batch": i["batch"], "verdict": d["verdicts"].get(i["key"])} for i in d["items"]]
+            if isinstance(d, list):
+                rows = d
+            elif "verdicts" in d:   # {"items": [...], "verdicts": {key: verdict}}
+                rows = [{"batch": i["batch"], "verdict": d["verdicts"].get(i["key"])} for i in d["items"]]
+            else:                   # a check record: each item carries its own verdict
+                rows = d["items"]
             marks = [(r["batch"], r["verdict"]) for r in rows if r.get("verdict") in MARKS]
         else:
             marks, cur = [], "all"
@@ -1167,6 +1172,7 @@ def cmd_sample(args) -> None:
 
 def slugify(title: str, start: str | None) -> str:
     s = re.sub(r"\(.*?\)", "", title).lower()
+    s = re.sub(r"[\u2010-\u2015\u2212/]", " ", s)   # "Israeli–Lebanese" -> israeli-lebanese, not israelilebanese
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     y = year(start)
@@ -1248,6 +1254,105 @@ def cmd_write(args) -> None:
     print(f"wrote {len(rows)} links to {rel(links_dir)} and {new_events} event stubs to {rel(events_dir)}")
 
 
+def lead_text(titles: list[str]) -> dict[str, str]:
+    """Plain-text leads of Wikipedia articles (after redirects), cached; for checking quotes."""
+    cache_path = CACHE / "leads.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    need = [t for t in titles if t not in cache]
+    for i in range(0, len(need), 20):
+        d = json.loads(get(ACTION, {"action": "query", "prop": "extracts", "exintro": 1, "explaintext": 1, "redirects": 1,
+                                    "titles": "|".join(need[i:i + 20]), "format": "json", "formatversion": 2, "exlimit": 20}))
+        q = d["query"]
+        back = {x["to"]: x["from"] for x in q.get("redirects", [])}
+        back.update({back.get(x["to"], x["to"]): x["from"] for x in q.get("normalized", [])})
+        for page in q["pages"]:
+            cache[back.get(page["title"], page["title"])] = page.get("extract", "")
+        cache_path.write_text(json.dumps(cache, ensure_ascii=False))
+    return {t: cache.get(t, "") for t in titles}
+
+
+def cmd_promote(args) -> None:
+    """Write a batch of mined links into data/, after its sample cleared the bar.
+
+    Scope "mapped": links whose part is already in data/, plus the larger events they name (written
+    from --events, a hand-written file of summaries and quotes), plus links among those."""
+    check = json.loads(Path(args.check).read_text(encoding="utf-8"))
+    marks = [(i["batch"], i["verdict"]) for i in check["items"]]
+    for b in args.batch:
+        got = [v for x, v in marks if x == b]
+        if not got or got.count("correct") / len(got) < check.get("bar", 0.95):
+            raise SystemExit(f"batch {b} did not clear the bar in {args.check}")
+    events = load_events(args.out)
+    known = known_items(args.root)
+    known.update(dict(m.split("=", 1) for m in args.map))
+    spec = yaml.safe_load(Path(args.events).read_text(encoding="utf-8")) if args.events else {}
+    rows = [p for p in read_jsonl(args.out / "candidates.jsonl") if p.get("batch") in args.batch and not p["in_data"]]
+    rows = [p for p in rows if p["to"] not in args.skip and p["from"] not in args.skip]
+    have = {k: known.get(k) for p in rows for k in (p["from"], p["to"])}
+    new = {p["to"] for p in rows if have[p["from"]] and not have[p["to"]]}
+    new |= {q for q in spec if q in events and not known.get(q)}   # a bridging parent named in --events
+    sel = [p for p in rows if (have[p["from"]] or p["from"] in new) and (have[p["to"]] or p["to"] in new)]
+    # A pair that says each is part of the other would loop; leave both out.
+    pairs = {(p["from"], p["to"]) for p in sel}
+    loops = [p for p in sel if (p["to"], p["from"]) in pairs]
+    sel = [p for p in sel if (p["to"], p["from"]) not in pairs]
+    missing = sorted(new - set(spec))
+    if missing:
+        raise SystemExit("no entry in --events for: " + ", ".join(f"{q} {events[q]['title']}" for q in missing))
+    # Every quote must be in the article's lead.
+    leads = lead_text([spec[q]["title"] for q in new])
+    bad = [(q, x) for q in new for x in spec[q]["quotes"] if " ".join(x.split()) not in " ".join(leads[spec[q]["title"]].split())]
+    if bad:
+        raise SystemExit("quotes not found in the lead:\n" + "\n".join(f"  {q}: {x}" for q, x in bad))
+    today = str(dt.date.today())
+    taken = {p.stem for p in (args.root / "data").glob("*/*.yaml")}
+    slugs = {}
+    for q in sorted(new):
+        e = spec[q]
+        base = slug = slugify(e["title"], str(e["occurred"]["start"]))
+        n = 2
+        while slug in taken:
+            slug, n = f"{base}-{n}", n + 1
+        taken.add(slug)
+        slugs[q] = slug
+        occurred = {k: str(v) if k in ("start", "end") else v for k, v in e["occurred"].items()}
+        d = {"id": slug, "title": e["title"], "summary": e["summary"], "occurred": occurred,
+             "threads": e["threads"], "regions": e["regions"], "importance": e["importance"], "wikidata": q,
+             "sources": [{"url": wiki_url(e["title"]), "title": e["title"], "publisher": "Wikipedia", "quote": x,
+                          "type": "reference", "accessed": today} for x in e["quotes"]],
+             "review": {"status": "sourced", "notes": [
+                 f"Added on {today} as the larger event named in a mined part_of link (batch {', '.join(args.batch)}). "
+                 "The summary was written from the article's lead, and every quote was checked against it; "
+                 "no person has checked this item."] + e.get("notes", [])}}
+        if not args.dry_run:
+            dump_yaml(args.root / "data" / "events" / f"{slug}.yaml", d)
+    ids = {**{q: known[q] for q in have if have[q]}, **slugs}
+    total = sum(1 for p in read_jsonl(args.out / "candidates.jsonl") if p.get("batch") in args.batch)
+    written = 0
+    for p in sel:
+        ev = p["evidence"][0]
+        a, b = ids[p["from"]], ids[p["to"]]
+        verb = {"part_of": "lists it as part of", "led_to": "says it contributed to", "influenced": "says it influenced"}[p["type"]]
+        d = {"id": f"{a}--{p['type']}--{b}", "from": a, "to": b, "type": p["type"], "confidence": "documented",
+             "note": f"The infobox of the Wikipedia article on {p['from_title']} {verb} {p['to_title']}."[:300]
+             if ev["cue"].startswith("infobox") else f"{ev['article']} (Wikipedia): \"{ev['cue']}\"."[:300],
+             "sources": [{"url": x["url"], "title": x["article"], "publisher": "Wikipedia", "quote": x["sentence"][:600],
+                          "type": "reference", "accessed": today} for x in p["evidence"][:2]],
+             "review": {"status": "sourced", "notes": [
+                 f"Mined by tools/wikimine.py and added on {today} with batch {p['batch']}, whose random sample cleared "
+                 f"the {check.get('bar', 0.95):.0%} bar ({Path(args.check).as_posix().split('staging/')[-1]}, "
+                 f"{sum(v == 'correct' for x, v in marks if x == p['batch'])} of {sum(x == p['batch'] for x, _ in marks)} "
+                 f"correct, from {total}). No person has checked this link itself."]}}
+        path = args.root / "data" / "links" / f"{d['id']}.yaml"
+        if path.exists():
+            continue
+        written += 1
+        if not args.dry_run:
+            dump_yaml(path, d)
+    print(f"{'would write' if args.dry_run else 'wrote'} {written} links and {len(new)} new events; "
+          f"left out {len(loops)} links that loop: " + "; ".join(f"{p['from_title']} <-> {p['to_title']}" for p in loops))
+
+
 def dump_yaml(path: Path, d: dict) -> None:
     path.write_text(yaml.safe_dump(d, sort_keys=False, allow_unicode=True, width=110), encoding="utf-8")
 
@@ -1301,6 +1406,15 @@ def main(argv=None) -> None:
     p.add_argument("--bar", type=float, default=0.95, help="share correct a batch's sample needs to go in")
     p.add_argument("--score", metavar="FILE", help="score a checked sample (.md with ticked boxes, or .json verdicts)")
     p.set_defaults(fn=cmd_sample)
+
+    p = sub.add_parser("promote", help="write a batch whose sample cleared the bar into data/")
+    p.add_argument("--batch", action="append", required=True)
+    p.add_argument("--check", required=True, help="the check record (staging/wikimine/checks/DATE.json)")
+    p.add_argument("--events", help="YAML of new events (summary, quotes, threads...) keyed by Wikidata id")
+    p.add_argument("--map", nargs="*", default=[], metavar="QID=ID", help="Wikidata ids of items in data/ that lack one")
+    p.add_argument("--skip", nargs="*", default=[], metavar="QID", help="leave out links touching these")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(fn=cmd_promote)
 
     p = sub.add_parser("write", help="YAML link files (and event stubs) for review")
     p.add_argument("--min-score", type=int, default=2)

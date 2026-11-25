@@ -1,0 +1,19 @@
+id: march-on-rome-1922--part_of--fascist-and-anti-fascist-violence-in-italy-1919
+from: march-on-rome-1922
+to: fascist-and-anti-fascist-violence-in-italy-1919
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on March on Rome lists it as part of Fascist and anti-Fascist violence
+  in Italy (1919–1926).
+sources:
+- url: https://en.wikipedia.org/wiki/March_on_Rome
+  title: March on Rome
+  publisher: Wikipedia
+  quote: Part of Fascist and anti-Fascist violence in Italy (1919–1926)
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

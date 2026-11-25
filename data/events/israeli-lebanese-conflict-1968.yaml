@@ -1,0 +1,44 @@
+id: israeli-lebanese-conflict-1968
+title: Israeli–Lebanese conflict
+summary: A long-running conflict involving Israel, Lebanon-based armed groups and sometimes Syria. Israel invaded
+  Lebanon in 1978 and 1982 in response to Palestinian attacks and occupied the south until 2000; Hezbollah attacks
+  then sparked the 2006 Lebanon War, and a new period of conflict began in 2023.
+occurred:
+  start: '1968'
+  precision: year
+  ongoing: true
+  approximate: true
+threads:
+- mideast
+regions:
+- middle-east-north-africa
+importance: 4
+wikidata: Q3241199
+sources:
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Lebanese_conflict
+  title: Israeli–Lebanese conflict
+  publisher: Wikipedia
+  quote: is a long-running conflict involving Israel, Lebanon-based paramilitary groups, and sometimes Syria.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Lebanese_conflict
+  title: Israeli–Lebanese conflict
+  publisher: Wikipedia
+  quote: In response to Palestinian attacks from Lebanon, Israel invaded the country in 1978 and again in 1982.
+    After this it occupied southern Lebanon until 2000
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Israeli%E2%80%93Lebanese_conflict
+  title: Israeli–Lebanese conflict
+  publisher: Wikipedia
+  quote: After Israel's withdrawal, Hezbollah attacks sparked the 2006 Lebanon War. A new period of conflict began
+    in 2023
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.
+  - Wikidata gives a start of 2000, which conflicts with the 1978 and 1982 invasions in the article; 1968, the start
+    of the PLO insurgency from Lebanon, is a placeholder marked approximate.

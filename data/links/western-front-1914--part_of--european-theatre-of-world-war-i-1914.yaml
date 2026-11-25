@@ -1,0 +1,19 @@
+id: western-front-1914--part_of--european-theatre-of-world-war-i-1914
+from: western-front-1914
+to: european-theatre-of-world-war-i-1914
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Western Front (World War I) lists it as part of European theatre of
+  World War I.
+sources:
+- url: https://en.wikipedia.org/wiki/Western_Front_(World_War_I)
+  title: Western Front (World War I)
+  publisher: Wikipedia
+  quote: Part of the European theatre of World War I
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

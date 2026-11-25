@@ -1,0 +1,43 @@
+id: european-theatre-of-world-war-i-1914
+title: European theatre of World War I
+summary: The main theatre of the First World War, where the war began and ended, fought by armies of unprecedented
+  size equipped with new mechanized technologies. It is divided into the Western, Eastern, Italian and Balkans fronts.
+  The conflict left tens of millions dead or wounded.
+occurred:
+  start: '1914'
+  end: '1918'
+  precision: year
+threads:
+- ww1
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 4
+wikidata: Q2410539
+sources:
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_I
+  title: European theatre of World War I
+  publisher: Wikipedia
+  quote: The European theatre was the main theatre of operations during World War I and was where the war began
+    and ended.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_I
+  title: European theatre of World War I
+  publisher: Wikipedia
+  quote: battle was joined by armies of unprecedented size, which were equipped with new mechanized technologies.
+    The conflict left tens of millions dead or wounded.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_theatre_of_World_War_I
+  title: European theatre of World War I
+  publisher: Wikipedia
+  quote: 'The European theatre is divided into four main theatres of operations: the Western Front, the Eastern
+    Front, the Italian Front, and the Balkans Front.'
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

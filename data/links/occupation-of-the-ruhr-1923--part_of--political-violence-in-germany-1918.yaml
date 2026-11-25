@@ -1,0 +1,19 @@
+id: occupation-of-the-ruhr-1923--part_of--political-violence-in-germany-1918
+from: occupation-of-the-ruhr-1923
+to: political-violence-in-germany-1918
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Occupation of the Ruhr lists it as part of Political violence in Germany
+  (1918–1933).
+sources:
+- url: https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr
+  title: Occupation of the Ruhr
+  publisher: Wikipedia
+  quote: Part of the aftermath of World War I and; political violence in Germany (1918–1933)
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

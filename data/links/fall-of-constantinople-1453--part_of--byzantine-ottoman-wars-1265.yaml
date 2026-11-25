@@ -1,0 +1,18 @@
+id: fall-of-constantinople-1453--part_of--byzantine-ottoman-wars-1265
+from: fall-of-constantinople-1453
+to: byzantine-ottoman-wars-1265
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Fall of Constantinople lists it as part of Byzantine–Ottoman wars.
+sources:
+- url: https://en.wikipedia.org/wiki/Fall_of_Constantinople
+  title: Fall of Constantinople
+  publisher: Wikipedia
+  quote: Part of the Byzantine–Ottoman wars
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

@@ -1,0 +1,18 @@
+id: normandy-landings-1944--part_of--operation-overlord-1944
+from: normandy-landings-1944
+to: operation-overlord-1944
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Normandy landings lists it as part of Operation Overlord.
+sources:
+- url: https://en.wikipedia.org/wiki/Normandy_landings
+  title: Normandy landings
+  publisher: Wikipedia
+  quote: Part of Operation Overlord and the Western Front of the Second World War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

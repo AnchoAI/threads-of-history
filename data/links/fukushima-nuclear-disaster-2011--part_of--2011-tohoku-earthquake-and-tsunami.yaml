@@ -1,0 +1,19 @@
+id: fukushima-nuclear-disaster-2011--part_of--2011-tohoku-earthquake-and-tsunami
+from: fukushima-nuclear-disaster-2011
+to: 2011-tohoku-earthquake-and-tsunami
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Fukushima nuclear accident lists it as part of 2011 Tōhoku earthquake
+  and tsunami.
+sources:
+- url: https://en.wikipedia.org/wiki/Fukushima_nuclear_accident
+  title: Fukushima nuclear accident
+  publisher: Wikipedia
+  quote: Part of the 2011 Tōhoku earthquake and tsunami
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

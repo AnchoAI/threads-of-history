@@ -1,0 +1,35 @@
+id: french-revolutionary-and-napoleonic-wars-1792
+title: French Revolutionary and Napoleonic Wars
+summary: A series of wars between France and several European monarchies from 1792 to 1815, first the French Revolutionary
+  Wars against the new French Republic and, from 1803, the Napoleonic Wars against Napoleon Bonaparte.
+occurred:
+  start: '1792'
+  end: '1815'
+  precision: year
+threads:
+- revolutions
+- empire
+regions:
+- western-europe
+- russia-eastern-europe
+importance: 4
+wikidata: Q15053704
+sources:
+- url: https://en.wikipedia.org/wiki/French_Revolutionary_and_Napoleonic_Wars
+  title: French Revolutionary and Napoleonic Wars
+  publisher: Wikipedia
+  quote: were a series of conflicts between the French and several European monarchies between 1792 and 1815.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/French_Revolutionary_and_Napoleonic_Wars
+  title: French Revolutionary and Napoleonic Wars
+  publisher: Wikipedia
+  quote: They encompass first the French Revolutionary Wars against the newly declared French Republic and from
+    1803 onwards, the Napoleonic Wars against First Consul and later Emperor Napoleon Bonaparte.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

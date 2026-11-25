@@ -1,0 +1,43 @@
+id: cold-war-1979
+title: Cold War (1979–1985)
+summary: A late phase of the Cold War marked by a sharp rise in hostility between the Soviet Union and the West,
+  which arose from condemnation of the Soviet invasion of Afghanistan in December 1979. Thatcher and Reagan rejected
+  détente, and the threat of nuclear war reached heights not seen since the Cuban Missile Crisis.
+occurred:
+  start: '1979'
+  end: '1985'
+  precision: year
+threads:
+- usru
+- nuclear
+regions:
+- russia-eastern-europe
+- americas
+- western-europe
+importance: 3
+wikidata: Q633862
+sources:
+- url: https://en.wikipedia.org/wiki/Cold_War_(1979%E2%80%931985)
+  title: Cold War (1979–1985)
+  publisher: Wikipedia
+  quote: was a late phase of the Cold War marked by a sharp increase in hostility between the Soviet Union and the
+    West. It arose from a strong denunciation of the Soviet invasion of Afghanistan in December 1979.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cold_War_(1979%E2%80%931985)
+  title: Cold War (1979–1985)
+  publisher: Wikipedia
+  quote: was marked by the rejection of détente in favor of the Reagan Doctrine policy of rollback
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Cold_War_(1979%E2%80%931985)
+  title: Cold War (1979–1985)
+  publisher: Wikipedia
+  quote: the threat of nuclear war had reached new heights not seen since the Cuban Miss
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

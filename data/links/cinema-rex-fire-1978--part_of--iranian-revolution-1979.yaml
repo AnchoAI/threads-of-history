@@ -1,0 +1,18 @@
+id: cinema-rex-fire-1978--part_of--iranian-revolution-1979
+from: cinema-rex-fire-1978
+to: iranian-revolution-1979
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Cinema Rex fire lists it as part of Iranian Revolution.
+sources:
+- url: https://en.wikipedia.org/wiki/Cinema_Rex_fire
+  title: Cinema Rex fire
+  publisher: Wikipedia
+  quote: Part of the Iranian Revolution
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

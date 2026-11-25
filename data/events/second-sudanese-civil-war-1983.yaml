@@ -1,0 +1,35 @@
+id: second-sudanese-civil-war-1983
+title: Second Sudanese Civil War
+summary: A war from 1983 to 2005 between Sudan's central government and the Sudan People's Liberation Army, largely
+  a continuation of the First Sudanese Civil War. About two million people died, four million in the south were
+  displaced, and South Sudan became independent six years after it ended.
+occurred:
+  start: '1983-06-05'
+  end: '2005-01-09'
+  precision: day
+threads:
+- rights
+regions:
+- sub-saharan-africa
+importance: 4
+wikidata: Q842380
+sources:
+- url: https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War
+  title: Second Sudanese Civil War
+  publisher: Wikipedia
+  quote: was a conflict from 1983 to 2005 between the central Sudanese government and the Sudan People's Liberation
+    Army. It was largely a continuation of the First Sudanese Civil War
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War
+  title: Second Sudanese Civil War
+  publisher: Wikipedia
+  quote: The war resulted in the independence of South Sudan 6 years after the war ended. Roughly two million people
+    died as a result of the conflict. Four million people in southern Sudan were displaced at least once
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

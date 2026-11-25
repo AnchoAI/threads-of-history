@@ -1,0 +1,35 @@
+id: nato-intervention-in-bosnia-and-herzegovina-1992
+title: NATO intervention in Bosnia and Herzegovina
+summary: A series of NATO actions with the stated aim of bringing lasting peace during and after the Bosnian War.
+  It began as largely political and symbolic and grew into large-scale air operations and the deployment of about
+  60,000 soldiers in the Implementation Force.
+occurred:
+  start: '1992'
+  end: '2004'
+  precision: year
+threads:
+- migration
+regions:
+- russia-eastern-europe
+importance: 3
+wikidata: Q1091051
+sources:
+- url: https://en.wikipedia.org/wiki/NATO_intervention_in_Bosnia_and_Herzegovina
+  title: NATO intervention in Bosnia and Herzegovina
+  publisher: Wikipedia
+  quote: was a series of actions undertaken by NATO whose stated aim was to establish long-term peace during and
+    after the Bosnian War.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/NATO_intervention_in_Bosnia_and_Herzegovina
+  title: NATO intervention in Bosnia and Herzegovina
+  publisher: Wikipedia
+  quote: NATO's intervention began as largely political and symbolic, but gradually expanded to include large-scale
+    air operations and the deployment of approximately 60,000 soldiers of the Implementation Force.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

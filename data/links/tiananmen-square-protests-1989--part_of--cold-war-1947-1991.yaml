@@ -1,0 +1,19 @@
+id: tiananmen-square-protests-1989--part_of--cold-war-1947-1991
+from: tiananmen-square-protests-1989
+to: cold-war-1947-1991
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on 1989 Tiananmen Square protests and massacre lists it as part of Cold
+  War.
+sources:
+- url: https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+  title: 1989 Tiananmen Square protests and massacre
+  publisher: Wikipedia
+  quote: Part of the Cold War, the Revolutions of 1989 and the Chinese democracy movement
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

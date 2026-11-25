@@ -1,0 +1,547 @@
+# New parent events for the first promoted batch of mined links (November 2026).
+# Each one is the "Part of" target of an event already in data/. Summaries are written from the
+# article's lead; every quote is copied from the lead as fetched on 2026-11-25 (checked by
+# tools/wikimine.py promote). Keyed by Wikidata id.
+
+Q113151289:
+  title: Mongol conquest of Persia and Mesopotamia
+  summary: Mongol campaigns against Muslim states in the Middle East and Central Asia between 1219 and 1258, which ended the Khwarazmian Empire, the Nizari Ismaili state and the Abbasid Caliphate of Baghdad, and set up the Mongol Ilkhanate in Persia.
+  occurred: {start: '1219', end: '1258', precision: year}
+  threads: [empire, mideast]
+  regions: [middle-east-north-africa, south-central-asia]
+  importance: 4
+  quotes:
+  - comprised several Mongol campaigns against Muslim states in the Middle East and Central Asia between 1219 and 1258
+  - These campaigns led to the termination of the Khwarazmian Empire, the Nizari Ismaili state, and the Abbasid Caliphate of Baghdad, and the establishment of the Mongol Ilkhanate in Persia.
+
+Q630259:
+  title: Byzantine–Ottoman wars
+  summary: A series of conflicts between the Byzantine Greeks and the Ottoman Turks and their allies that ended with the destruction of the Byzantine Empire and the rise of the Ottoman Empire. Constantinople fell in 1453; the last Byzantine holdouts lasted until 1479.
+  occurred: {start: '1265', end: '1479', precision: year, approximate: true}
+  threads: [empire, religion]
+  regions: [middle-east-north-africa, russia-eastern-europe]
+  importance: 4
+  quotes:
+  - were a series of decisive conflicts between the Byzantine Greeks and Ottoman Turks and their allies that led to the final destruction of the Byzantine Empire and the rise of the Ottoman Empire.
+  - Ultimately, they lost Constantinople in 1453, formally ending the conflicts (however, several Byzantine holdouts lasted until 1479).
+
+Q2490042:
+  title: European wars of religion
+  summary: Wars fought in Europe in the 16th, 17th and early 18th centuries after the Protestant Reformation began in 1517. Revolt, territorial ambitions and great-power rivalry also drove them. They were largely ended by the Peace of Westphalia in 1648.
+  occurred: {start: '1522', end: '1712', precision: decade, approximate: true}
+  threads: [religion, empire]
+  regions: [western-europe]
+  importance: 4
+  quotes:
+  - were waged in Europe during the 16th, 17th and early 18th centuries. Fought after the Protestant Reformation began in 1517
+  - Other motives during the wars involved revolt, territorial ambitions and great power conflicts.
+  - The wars were largely ended by the Peace of Westphalia (1648)
+
+Q152218:
+  title: Nine Years' War
+  summary: A European great-power war from 1688 to 1697 between France and the Grand Alliance, fought mainly in Europe, with related conflicts in Ireland (the Williamite War) and North America (King William's War).
+  occurred: {start: '1688', end: '1697', precision: year}
+  threads: [empire]
+  regions: [western-europe]
+  importance: 3
+  quotes:
+  - was a European great power conflict from 1688 to 1697 between France and the Grand Alliance. Fought primarily in Europe, related conflicts include the Williamite War in Ireland, and King William's War in North America.
+
+Q14947002:
+  title: Chechen–Russian conflict
+  summary: A centuries-long ethnic and political conflict, often armed, between Russian, Soviet and Imperial Russian governments and Chechen forces. Formal hostilities date back to 1785. Its recent phase began after the Soviet Union dissolved in 1991 and ended in 2017 with the crushing of the separatist movement in Chechnya.
+  occurred: {start: '1785', end: '2017', precision: year}
+  threads: [russia]
+  regions: [russia-eastern-europe]
+  importance: 3
+  quotes:
+  - was the centuries-long ethnic and political conflict, often armed, between the Russian, Soviet and Imperial Russian governments and various Chechen forces.
+  - The recent phase of the conflict started after the dissolution of the Soviet Union in 1991 and ended with the oppression of Chechen separatist leaders and crushing of the separatist movement in the republic proper in 2017.
+  - Formal hostilities in Chechnya date back to 1785
+
+Q15053704:
+  title: French Revolutionary and Napoleonic Wars
+  summary: A series of wars between France and several European monarchies from 1792 to 1815, first the French Revolutionary Wars against the new French Republic and, from 1803, the Napoleonic Wars against Napoleon Bonaparte.
+  occurred: {start: '1792', end: '1815', precision: year}
+  threads: [revolutions, empire]
+  regions: [western-europe, russia-eastern-europe]
+  importance: 4
+  quotes:
+  - were a series of conflicts between the French and several European monarchies between 1792 and 1815.
+  - They encompass first the French Revolutionary Wars against the newly declared French Republic and from 1803 onwards, the Napoleonic Wars against First Consul and later Emperor Napoleon Bonaparte.
+
+Q220984:
+  title: Opium Wars
+  summary: Two wars between the Qing dynasty and Western powers in the mid-19th century. Britain fought China from 1839 to 1842, after the Qing government moved to enforce its ban on opium; Britain and France fought China again from 1856 to 1860.
+  occurred: {start: '1839', end: '1860', precision: year}
+  threads: [china, empire]
+  regions: [east-asia]
+  importance: 4
+  quotes:
+  - were two conflicts waged between the Qing dynasty and the Western powers during the mid-19th century. The First Opium War was fought from 1839 to 1842 between China and the British Empire.
+  - It was triggered by the Qing government's campaign to enforce its prohibition of opium
+  - The Second Opium War was waged by Britain and France against China from 1856 to 1860
+
+Q690489:
+  title: Siege of Paris (1870–1871)
+  summary: The siege of Paris from 19 September 1870 to 28 January 1871, which ended with the city's capture by forces of the North German Confederation led by Prussia. It was the culmination of the Franco-Prussian War.
+  occurred: {start: '1870-09-19', end: '1871-01-28', precision: day}
+  threads: [revolutions]
+  regions: [western-europe]
+  importance: 3
+  quotes:
+  - took place from 19 September 1870 to 28 January 1871 and ended in the capture of the city by forces of the various states of the North German Confederation, led by the Kingdom of Prussia.
+  - The siege was the culmination of the Franco-Prussian War
+
+Q152989:
+  title: Western Front (World War I)
+  summary: One of the main theatres of the First World War. Germany opened it in August 1914 by invading Luxembourg and Belgium; after its advance was halted at the Marne, both sides dug in along a line of trenches from the North Sea to the Swiss border that changed little until 1917 and 1918.
+  occurred: {start: '1914-08', end: '1918-11-11', precision: month}
+  threads: [ww1]
+  regions: [western-europe]
+  importance: 4
+  quotes:
+  - The Western Front was one of the main theatres of war during World War I.
+  - Following the outbreak of war in August 1914, the German Army opened the Western Front by invading Luxembourg and Belgium
+  - The German advance was halted with the Battle of the Marne.
+  - both sides dug in along a meandering line of fortified trenches, stretching from the North Sea to the Swiss frontier with France, the position of which changed little except during early 1917 and again in 1918.
+
+Q1765465:
+  title: Middle Eastern theatre of World War I
+  summary: Fighting in the Middle East between 30 October 1914 and 30 October 1918, between the Ottoman Empire, helped by the other Central Powers, and the British, Russians and French with their allies.
+  occurred: {start: '1914-10-30', end: '1918-10-30', precision: day}
+  threads: [ww1, mideast]
+  regions: [middle-east-north-africa]
+  importance: 4
+  quotes:
+  - saw action between 30 October 1914 and 30 October 1918.
+  - The combatants were, on one side, the Ottoman Empire
+  - with some assistance from the other Central Powers
+
+Q6068230:
+  title: Iraqi–Kurdish conflict
+  summary: A series of wars, rebellions and disputes between Kurds and the central government of Iraq, starting shortly after the Ottoman Empire's defeat in the First World War. Some date its start to Mahmud Barzanji's attempt to found a Kingdom of Kurdistan; others count only the Barzani insurrection from 1961.
+  occurred: {start: '1918', precision: year, approximate: true}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 3
+  quotes:
+  - consists of a series of wars, rebellions and disputes between the Kurds and the central authority of Iraq starting in the 20th century shortly after the defeat of the Ottoman Empire in World War I.
+  - Some put the marking point of the conflict beginning to the attempt by Mahmud Barzanji to establish an independent Kingdom of Kurdistan, while others relate to the conflict as only the post-1961 insurrection by the Barzanis.
+  notes:
+  - Wikidata gives 1918–2003; the article describes clashes after 2005, so no end date is set.
+
+Q7225136:
+  title: Political violence in Germany (1918–1933)
+  summary: Political violence in Germany from the fall of the Empire and the German Revolution of 1918–1919 until the Nazi rise to power in 1933, marked by assassinations and clashes between left-wing groups such as the Communist Party and right-wing groups such as the Freikorps.
+  occurred: {start: '1918', end: '1933', precision: year}
+  threads: [interwar]
+  regions: [western-europe]
+  importance: 3
+  quotes:
+  - Germany saw significant political violence from the fall of the Empire and the rise of the Republic through the German Revolution of 1918–1919, until the rise of the Nazi Party to power with 1933 elections
+  - The violence was characterised by assassinations and by confrontations between left-wing groups such as the Communist Party of Germany and right-wing groups such as the Freikorps.
+
+Q136416310:
+  title: Fascist and anti-Fascist violence in Italy (1919–1926)
+  summary: Widespread civil unrest and political strife in Italy after the First World War, as Benito Mussolini's fascist movement rose against the political left. The Fascists, and later some historians, called the period the "Fascist Revolution", a term Italian historians did not commonly accept.
+  occurred: {start: '1919', end: '1926', precision: year}
+  threads: [interwar]
+  regions: [western-europe]
+  importance: 3
+  quotes:
+  - The Kingdom of Italy witnessed significant widespread civil unrest and political strife in the aftermath of World War I and the rise of Italian fascism, the far-right movement led by Benito Mussolini
+  - This period of unrest was labelled by the Fascists and later by some historians rivoluzione fascista ("Fascist Revolution"), although the term did not become commonly accepted by Italian historiography.
+
+Q32993:
+  title: Chinese Communist Revolution
+  summary: A social and political revolution in mainland China led by the Chinese Communist Party, which began in 1927 and culminated in the proclamation of the People's Republic of China in 1949.
+  occurred: {start: '1927', end: '1949', precision: year}
+  threads: [china, revolutions]
+  regions: [east-asia]
+  importance: 4
+  quotes:
+  - was a social and political revolution in mainland China that began in 1927 and culminated with the proclamation of the People's Republic of China (PRC) in 1949. The revolution was led by the Chinese Communist Party (CCP)
+
+Q179975:
+  title: Chinese Civil War
+  summary: A war between the Republic of China government, led by the Kuomintang, and the Chinese Communist Party, fought intermittently from 1 August 1927 until the Communist victory and the Kuomintang's retreat to Taiwan on 7 December 1949.
+  occurred: {start: '1927-08-01', end: '1949-12-07', precision: day}
+  threads: [china, revolutions]
+  regions: [east-asia]
+  importance: 4
+  quotes:
+  - was fought between the government of the Republic of China (ROC), led by the Kuomintang (KMT), and the Chinese Communist Party (CCP). Armed conflict continued intermittently from 1 August 1927 until Communist victory that led to the Kuomintang's retreat to Taiwan on 7 December 1949.
+
+Q701180:
+  title: Battle of Nanking
+  summary: A battle in early December 1937, during the Second Sino-Japanese War, between China's National Revolutionary Army and the Imperial Japanese Army for Nanjing, then the capital of the Republic of China.
+  occurred: {start: '1937-12', precision: month}
+  threads: [china, ww2]
+  regions: [east-asia]
+  importance: 3
+  quotes:
+  - was fought in early December 1937 during the Second Sino-Japanese War between the Chinese National Revolutionary Army and the Imperial Japanese Army for control of Nanjing
+  - the capital of the Republic of China
+
+Q216184:
+  title: Western Front (World War II)
+  summary: A theatre of the Second World War covering Denmark, Norway, Luxembourg, Belgium, the Netherlands, the United Kingdom, France and Germany. Its first phase saw Luxembourg, the Netherlands, Belgium and France fall in May and June 1940.
+  occurred: {start: '1939', end: '1945', precision: year}
+  threads: [ww2]
+  regions: [western-europe]
+  importance: 4
+  quotes:
+  - was a military theatre of World War II encompassing Denmark, Norway, Luxembourg, Belgium, the Netherlands, the United Kingdom, France, and Germany.
+  - The first phase saw the capitulation of Luxembourg, Netherlands, Belgium, and France during May and June 1940
+
+Q44700:
+  title: European theatre of World War II
+  summary: One of the two main theatres of the Second World War, from September 1939 to May 1945, in which the Allies fought the Axis powers on Western, Eastern, Scandinavian and Mediterranean fronts. The fighting caused at least 39 million deaths, and Germany carried out the Holocaust in the territories it occupied.
+  occurred: {start: '1939-09', end: '1945-05', precision: month}
+  threads: [ww2]
+  regions: [western-europe, russia-eastern-europe]
+  importance: 4
+  quotes:
+  - lasting from September 1939 to May 1945, was one of two main theatres of combat during World War II
+  - The combat in Europe resulted in at least 39 million deaths
+  - 'on multiple fronts: Western, Eastern, Scandinavian, and Mediterranean.'
+  - Germany, meanwhile, enacted the Holocaust, a genocide of six million Jews, within its vast occupied territories across Europe.
+
+Q189266:
+  title: Eastern Front (World War II)
+  summary: The theatre of the Second World War fought between the European Axis powers and the Allies, including the Soviet Union and Poland, from 22 June 1941 to 9 May 1945. About 30 million of the war's estimated 70–85 million deaths occurred there.
+  occurred: {start: '1941-06-22', end: '1945-05-09', precision: day}
+  threads: [ww2, russia]
+  regions: [russia-eastern-europe]
+  importance: 4
+  quotes:
+  - was a theatre of World War II fought between the European Axis powers and Allies, including the Soviet Union (USSR) and Poland.
+  - lasted from 22 June 1941 to 9 May 1945. Of the estimated 70–85 million deaths attributed to the war, around 30 million occurred on the Eastern Front
+  notes:
+  - Wikidata gives an end date of 1955; the article's 9 May 1945 is used.
+
+Q12296445:
+  title: Asiatic-Pacific theater
+  summary: The theater of operations of United States forces in and around the Pacific Ocean during the Second World War. From mid-1942 it was split between two commands, the Pacific Ocean Areas under Chester Nimitz and the South West Pacific Area under Douglas MacArthur.
+  occurred: {start: '1941-12-07', end: '1945-09-02', precision: day}
+  threads: [ww2]
+  regions: [east-asia, americas]
+  importance: 3
+  quotes:
+  - was the theater of operations of U.S. forces during World War II in and around the Pacific Ocean.
+  - From mid-1942 until the end of the war in 1945, there were two U.S. operational commands in the Pacific.
+
+Q184425:
+  title: Pacific War
+  summary: The theatre of the Second World War fought between the Empire of Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans and Oceania. It was the largest theatre of the war by area and included some of the largest naval battles in history.
+  occurred: {start: '1941-12-08', end: '1945-09-02', precision: day}
+  threads: [ww2]
+  regions: [east-asia, south-east-asia]
+  importance: 4
+  quotes:
+  - was the theater of World War II fought between the Empire of Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of World War II
+  - The Pacific War included some of the largest naval battles in history.
+  notes:
+  - Start and end dates are from Wikidata; the article notes that war between Japan and China began in 1937.
+
+Q524272:
+  title: South-East Asian theatre of World War II
+  summary: The Pacific War's campaigns in the Philippines, Thailand, Indonesia, Indochina, Burma, India, Malaya and Singapore, from Japan's offensives of 7–8 December 1941 until Japan announced its intent to surrender on 15 August 1945.
+  occurred: {start: '1941-12-08', end: '1945-08-15', precision: day}
+  threads: [ww2, empire]
+  regions: [south-east-asia]
+  importance: 3
+  quotes:
+  - consisted of the campaigns of the Pacific War in the Philippines, Thailand, Indonesia, Indochina, Burma, India, Malaya, and Singapore between 1941 and 1945.
+  - Action in this theatre ended when Japan announced an intent to surrender on 15 August 1945.
+
+Q8641370:
+  title: Operation Overlord
+  summary: The codename for the Battle of Normandy, the Allied invasion of German-occupied Western Europe launched on 6 June 1944 with the Normandy landings. More than two million Allied troops were in France by the end of August.
+  occurred: {start: '1944-06-06', end: '1944-08-30', precision: day}
+  threads: [ww2]
+  regions: [western-europe]
+  importance: 4
+  quotes:
+  - was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion of German-occupied Western Europe during World War II.
+  - The operation was launched on 6 June 1944 (D-Day) with the Normandy landings
+  - more than two million Allied troops were in France by the end of August.
+  notes:
+  - End date is approximate (end of August 1944); Wikidata gives 25 August, other sources 30 August.
+
+Q5614269:
+  title: Guatemalan Revolution
+  summary: The period in Guatemala between the coups against Jorge Ubico in 1944 and Jacobo Árbenz in 1954, also called the Ten Years of Spring, which brought social, political and especially agrarian reforms that were influential across Latin America.
+  occurred: {start: '1944', end: '1954', precision: year}
+  threads: [revolutions]
+  regions: [americas]
+  importance: 3
+  quotes:
+  - The period in the history of Guatemala between the coups against Jorge Ubico in 1944 and Jacobo Árbenz in 1954 is known locally as the Revolution
+  - It saw the implementation of social, political, and especially agrarian reforms that were influential across Latin America.
+
+Q2342102:
+  title: Indochina wars
+  summary: A series of wars in former French Indochina (Vietnam, Laos and Cambodia) from 1945 to 1991, fought by communist forces, mainly led by Vietnamese communists, against nationalist, French, American, royalist and other opponents.
+  occurred: {start: '1945', end: '1991', precision: year}
+  threads: [empire, usru]
+  regions: [south-east-asia]
+  importance: 4
+  quotes:
+  - were a series of wars which were waged in Indochina from 1945 to 1991, by communist forces (mainly ones led by Vietnamese communists)
+  - The term "Indochina" referred to former French Indochina, which included the current states of Vietnam, Laos, and Cambodia.
+  notes:
+  - Wikidata gives 1946–1954; the article's 1945–1991 is used.
+
+Q49097:
+  title: 1948 Palestine war
+  summary: A war fought from 30 November 1947 to 10 March 1949 in what had been British-ruled Mandatory Palestine, known in Palestine as the Nakba and in Israel as the War of Independence. It began as a civil war between Arab and Jewish communities after the UN Partition Plan and became an international war once Israel declared independence and neighbouring Arab states sent in their armies.
+  occurred: {start: '1947-11-30', end: '1949-03-10', precision: day}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 5
+  quotes:
+  - (30 November 1947 – 10 March 1949), known in Palestine as the Nakba and in Israel as the War of Independence, was fought in the territory of what had been, at the start of the war, British-ruled Mandatory Palestine.
+  - It began as a civil war between the Arab and Jewish communities following the United Nations Partition Plan and became an international conflict with the Declaration of the Establishment of the State of Israel
+  notes:
+  - Wikidata gives an end date of 20 July 1949 (the last armistice); the article's 10 March 1949 is used.
+
+Q4783165:
+  title: Arab Cold War
+  summary: A political rivalry in the Arab world, part of the wider Cold War, between new revolutionary republics inspired by Nasser's Egypt and conservative monarchies influenced by Saudi Arabia. It is generally dated from the Egyptian Revolution of 1952; its end is put in the late 1970s or the early 1990s.
+  occurred: {start: '1952', end: '1979', precision: year, approximate: true}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 3
+  quotes:
+  - was a political rivalry in the Arab world from the early 1950s to the late 1970s or early 1990s and a part of the wider Cold War.
+  - It is generally accepted that the beginning of the Arab Cold War is marked by the Egyptian Revolution of 1952
+  - newly formed Arab republics, inspired by revolutionary secular nationalism and Nasser's Egypt, engaged in political rivalries with conservative traditionalist Arab monarchies, influenced by Saudi Arabia.
+  notes:
+  - The end date is disputed (late 1970s or early 1990s); 1979 is a placeholder marked approximate.
+
+Q817206:
+  title: Cambodian Civil War
+  summary: A civil war in Cambodia in which the Khmer Rouge fought the government. After the March 1970 coup, the Khmer Rouge and forces loyal to Norodom Sihanouk, backed by North Vietnam and China, fought the US- and South Vietnam-backed Khmer Republic. The article describes it as part of the Vietnam War.
+  occurred: {start: '1967-03-11', end: '1975-04-17', precision: day}
+  threads: [revolutions, usru]
+  regions: [south-east-asia]
+  importance: 4
+  quotes:
+  - was a civil war in Cambodia fought by the Khmer Rouge against the government of the Kingdom of Cambodia.
+  - Following the March 1970 coup, the conflict shifted as the Khmer Rouge and forces loyal to Norodom Sihanouk, now supported by North Vietnam and China, fought against the Khmer Republic, which was supported by the United States and South Vietnam.
+  - The conflict was part of the Vietnam War.
+
+Q7127419:
+  title: Palestinian insurgency in South Lebanon
+  summary: An insurgency led by the Palestine Liberation Organization from Lebanon against Israel from 1968, and against Lebanese Christian militias from the mid-1970s. It ended when Israel invaded Lebanon in 1982 and expelled the PLO.
+  occurred: {start: '1968', end: '1982', precision: year}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 3
+  quotes:
+  - The Palestine Liberation Organization (PLO) led an insurgency against Israel in 1968 and against Lebanese Christian militias in the mid-1970s.
+  - In 1982, Israel invaded Lebanon and expelled the PLO, thereby ending the insurgency.
+
+Q3002766:
+  title: Central American crisis
+  summary: A period from the late 1970s in which civil wars and communist revolutions broke out in several Central American countries. Fearing communist victories, the United States backed right-wing governments against left-wing guerrillas.
+  occurred: {start: '1977', end: '1990', precision: decade, approximate: true}
+  threads: [revolutions, usru]
+  regions: [americas]
+  importance: 3
+  quotes:
+  - began in the late 1970s, when major civil wars and communist revolutions erupted in various countries in Central America
+  - During these civil wars, the United States pursued its interests by supporting right-wing governments against left-wing guerrillas.
+
+Q12055176:
+  title: Angolan Civil War
+  summary: A civil war in Angola that began in November 1975, right after independence from Portugal, and continued with interludes until 2002. It was a power struggle between two former anti-colonial movements, the communist MPLA and the anti-communist UNITA.
+  occurred: {start: '1975-11-11', end: '2002-04-04', precision: day}
+  threads: [usru]
+  regions: [sub-saharan-africa]
+  importance: 4
+  quotes:
+  - was a civil war in Angola, beginning in 1975 and continuing, with interludes, until 2002. The war began immediately after Angola became independent from Portugal in November 1975.
+  - It was a power struggle between two former anti-colonial guerrilla movements, the communist People's Movement for the Liberation of Angola (MPLA) and the anti-communist National Union for the Total Independence of Angola (UNITA).
+
+Q633862:
+  title: Cold War (1979–1985)
+  summary: A late phase of the Cold War marked by a sharp rise in hostility between the Soviet Union and the West, which arose from condemnation of the Soviet invasion of Afghanistan in December 1979. Thatcher and Reagan rejected détente, and the threat of nuclear war reached heights not seen since the Cuban Missile Crisis.
+  occurred: {start: '1979', end: '1985', precision: year}
+  threads: [usru, nuclear]
+  regions: [russia-eastern-europe, americas, western-europe]
+  importance: 3
+  quotes:
+  - was a late phase of the Cold War marked by a sharp increase in hostility between the Soviet Union and the West. It arose from a strong denunciation of the Soviet invasion of Afghanistan in December 1979.
+  - was marked by the rejection of détente in favor of the Reagan Doctrine policy of rollback
+  - the threat of nuclear war had reached new heights not seen since the Cuban Miss
+
+Q5163326:
+  title: Aftermath of the Iranian Revolution
+  summary: The period after the Shah's overthrow in February 1979, when Iran was in a "revolutionary crisis mode" until 1982 or 1983, as forces loyal to Ayatollah Khomeini consolidated power. The economy and the government apparatus collapsed, and rebellions broke out in Khuzistan, Kurdistan and Gonbad-e Qabus.
+  occurred: {start: '1979', end: '1983', precision: year}
+  threads: [mideast, revolutions]
+  regions: [middle-east-north-africa]
+  importance: 3
+  quotes:
+  - Following the Iranian Revolution, which overthrew the Shah of Iran in February 1979, Iran was in a "revolutionary crisis mode" until 1982 or 1983 when forces loyal to the revolution's leader, Ayatollah Ruhollah Khomeini, consolidated power.
+  - During this period, Iran's economy and the apparatus of government collapsed
+  - Rebellions by Marxist guerrillas and federalist parties against Islamist forces in Khuzistan, Kurdistan, and Gonbad-e Qabus started in April 1979
+
+Q842380:
+  title: Second Sudanese Civil War
+  summary: A war from 1983 to 2005 between Sudan's central government and the Sudan People's Liberation Army, largely a continuation of the First Sudanese Civil War. About two million people died, four million in the south were displaced, and South Sudan became independent six years after it ended.
+  occurred: {start: '1983-06-05', end: '2005-01-09', precision: day}
+  threads: [rights]
+  regions: [sub-saharan-africa]
+  importance: 4
+  quotes:
+  - was a conflict from 1983 to 2005 between the central Sudanese government and the Sudan People's Liberation Army. It was largely a continuation of the First Sudanese Civil War
+  - The war resulted in the independence of South Sudan 6 years after the war ended. Roughly two million people died as a result of the conflict. Four million people in southern Sudan were displaced at least once
+
+Q1323301:
+  title: Cold War (1985–1991)
+  summary: The final years of the Cold War, from Mikhail Gorbachev's rise to lead the Soviet Communist Party in 1985 to the dissolution of the Soviet Union in 1991, marked by reform inside the Soviet Union, easing tensions between the blocs and the collapse of Soviet influence in Eastern Europe.
+  occurred: {start: '1985', end: '1991', precision: year}
+  threads: [usru, russia]
+  regions: [russia-eastern-europe, americas, western-europe]
+  importance: 3
+  quotes:
+  - The time period from 1985 through 1991 marked the final years of the Cold War, which were characterized by systemic reform within the Soviet Union, the easing of geopolitical tensions between the Soviet-led bloc and the United States-led bloc, the collapse of the Soviet Union's influence in Eastern Europe, and the dissolution of the Soviet Union in 1991.
+  - The beginning of this period is marked by the ascent of Mikhail Gorbachev to the position of General Secretary of the Communist Party of the Soviet Union.
+
+Q15059994:
+  title: Iran–Israel proxy conflict
+  summary: A proxy conflict between Iran and Israel since 1985. Iran has backed Hezbollah in Lebanon and Palestinian groups such as Hamas; Israel has backed Iranian rebels, struck Iran's allies in Syria and assassinated Iranian nuclear scientists. It escalated into direct confrontations in 2024 and a 12-day war in June 2025.
+  occurred: {start: '1985', precision: year, ongoing: true}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 4
+  quotes:
+  - Iran and Israel have been engaged in a proxy conflict since 1985. In the Israeli–Lebanese conflict, Iran has supported Lebanese Shia militias, most notably Hezbollah. In the Israeli–Palestinian conflict, Iran has backed Palestinian groups such as Hamas.
+  - Israel has supported Iranian rebels, conducted airstrikes against Iranian allies in Syria, assassinated Iranian nuclear scientists, and directly attacked Iranian forces in Syria.
+  - In 2024 the proxy war escalated to a series of direct confrontations between the two countries, and in June 2025, they fought a 12-day war
+
+Q132477746:
+  title: Wars in the Caucasus
+  summary: A series of interrelated ethnic and political conflicts in the Caucasus shortly before and after the dissolution of the Soviet Union, as former Soviet republics sought independence. They produced several de facto independent states, violent changes of government and the displacement of 1.5–2 million people.
+  occurred: {start: '1988', end: '1996', precision: year}
+  threads: [russia]
+  regions: [russia-eastern-europe]
+  importance: 3
+  quotes:
+  - were a series of interrelated ethnic and political conflicts which engulfed the Caucasus in the period shortly before and after the dissolution of the Soviet Union.
+  - they led to the establishment of several de facto independent states, violent government change and a refugee crisis that led to the displacement of 1.5–2 million people.
+
+Q426722:
+  title: Rwandan Civil War
+  summary: A civil war in Rwanda from 1 October 1990 to 18 July 1994 between the Rwandan Armed Forces of the incumbent government and the rebel Rwandan Patriotic Front, arising from the long dispute between Hutu and Tutsi.
+  occurred: {start: '1990-10-01', end: '1994-07-18', precision: day}
+  threads: [rights]
+  regions: [sub-saharan-africa]
+  importance: 4
+  quotes:
+  - was a large-scale civil war in Rwanda which was fought between the Rwandan Armed Forces, representing the incumbent Third Rwandese Republic, and the rebel Rwandan Patriotic Front (RPF) from 1 October 1990 to 18 July 1994. The war arose from the long-running dispute between the Hutu and Tutsi groups within the Rwandan population.
+  notes:
+  - Wikidata gives an end date of 4 August 1993 (the Arusha Accords); the article's 18 July 1994 is used.
+
+Q1091051:
+  title: NATO intervention in Bosnia and Herzegovina
+  summary: A series of NATO actions with the stated aim of bringing lasting peace during and after the Bosnian War. It began as largely political and symbolic and grew into large-scale air operations and the deployment of about 60,000 soldiers in the Implementation Force.
+  occurred: {start: '1992', end: '2004', precision: year}
+  threads: [migration]
+  regions: [russia-eastern-europe]
+  importance: 3
+  quotes:
+  - was a series of actions undertaken by NATO whose stated aim was to establish long-term peace during and after the Bosnian War.
+  - NATO's intervention began as largely political and symbolic, but gradually expanded to include large-scale air operations and the deployment of approximately 60,000 soldiers of the Implementation Force.
+
+Q647239:
+  title: Burundian Civil War
+  summary: A civil war in Burundi from 1993 to 2005, rooted in long-standing divisions between Hutu and Tutsi. It began after the country's first multi-party elections since independence and ended with the swearing-in of President Pierre Nkurunziza in August 2005. About 300,000 people died.
+  occurred: {start: '1993-10-21', end: '2005-08', precision: month}
+  threads: [rights]
+  regions: [sub-saharan-africa]
+  importance: 3
+  quotes:
+  - was a civil war in Burundi lasting from 1993 to 2005. The civil war was the result of longstanding ethnic divisions between the Hutu and the Tutsi ethnic groups.
+  - The conflict began following the first multi-party elections in the country since its independence from Belgium in 1962, and is seen as formally ending with the swearing-in of President Pierre Nkurunziza in August 2005.
+  - The estimated death toll stands at 300,000.
+
+Q3288108:
+  title: Bosnian genocide
+  summary: Genocide committed during the Bosnian War of 1992–1995, covering the Srebrenica massacre of July 1995, in which more than 8,000 Bosniak men and boys were killed, or more widely the crimes against humanity and ethnic cleansing carried out by the Army of Republika Srpska in the areas it controlled.
+  occurred: {start: '1992', end: '1995', precision: year}
+  threads: [rights]
+  regions: [russia-eastern-europe]
+  importance: 4
+  quotes:
+  - took place during the Bosnian War of 1992–1995 and includes the Srebrenica massacre of July 1995 or the wider crimes against humanity and ethnic cleansing campaign perpetrated throughout areas controlled by the Army of Republika Srpska (VRS).
+  - included the killing of more than 8,000 Bosniak (Bosnian Muslim) men and boys
+  notes:
+  - Wikidata dates it to 13 July 1995 (Srebrenica); the wider definition in the article covers 1992–1995.
+
+Q3241199:
+  title: Israeli–Lebanese conflict
+  summary: A long-running conflict involving Israel, Lebanon-based armed groups and sometimes Syria. Israel invaded Lebanon in 1978 and 1982 in response to Palestinian attacks and occupied the south until 2000; Hezbollah attacks then sparked the 2006 Lebanon War, and a new period of conflict began in 2023.
+  occurred: {start: '1968', precision: year, ongoing: true, approximate: true}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 4
+  quotes:
+  - is a long-running conflict involving Israel, Lebanon-based paramilitary groups, and sometimes Syria.
+  - In response to Palestinian attacks from Lebanon, Israel invaded the country in 1978 and again in 1982. After this it occupied southern Lebanon until 2000
+  - After Israel's withdrawal, Hezbollah attacks sparked the 2006 Lebanon War. A new period of conflict began in 2023
+  notes:
+  - Wikidata gives a start of 2000, which conflicts with the 1978 and 1982 invasions in the article; 1968, the start of the PLO insurgency from Lebanon, is a placeholder marked approximate.
+
+Q86009289:
+  title: Hezbollah–Israel conflict
+  summary: The long-running conflict between Israel and Hezbollah, the Shia Islamist party and militant group set up in Lebanon in 1985, which is part of the Iran–Israel proxy conflict and the Israeli–Lebanese conflict.
+  occurred: {start: '1985', precision: year, ongoing: true, approximate: true}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 3
+  quotes:
+  - Hezbollah, a Shia Islamist political party and militant organization that was established in Lebanon in 1985, has been involved in a long-running conflict with Israel as part of the Iran–Israel proxy conflict and the Israeli–Lebanese conflict.
+  notes:
+  - Wikidata gives a start of 2000; the article dates Hezbollah to 1985 without dating the conflict's start.
+
+Q545449:
+  title: Iraq War
+  summary: An armed conflict in Iraq from 2003 to 2011. It began in March 2003 with an invasion by a US-led coalition that overthrew Saddam Hussein's Ba'athist government, continued as an insurgency against coalition forces and the new Iraqi government, and ended with the withdrawal of US forces in 2011.
+  occurred: {start: '2003-03-20', end: '2011-12-15', precision: day}
+  threads: [mideast]
+  regions: [middle-east-north-africa]
+  importance: 5
+  quotes:
+  - was a protracted armed conflict in Iraq from 2003 to 2011. It began in March 2003 with the invasion by a United States–led coalition, which resulted in the overthrow of the Ba'athist government of Saddam Hussein.
+  - the conflict persisted as an insurgency that arose against coalition forces and the newly established Iraqi government. US forces were officially withdrawn in 2011.
+
+Q36204:
+  title: 2011 Tōhoku earthquake and tsunami
+  summary: A magnitude 9.0–9.1 undersea earthquake off the Tōhoku region of Japan on 11 March 2011, the most powerful ever recorded in Japan, which lasted about six minutes and caused a tsunami.
+  occurred: {start: '2011-03-11', precision: day}
+  threads: [energy]
+  regions: [east-asia]
+  importance: 4
+  quotes:
+  - On 11 March 2011, at 14:46:24 local time (UTC+9), a Mw 9.0–9.1 undersea megathrust earthquake occurred in the Pacific Ocean
+  - It lasted approximately six minutes and caused a tsunami.
+  - The earthquake was the most powerful ever recorded in Japan
+
+# A bridging parent: the Western Front's infobox names this theatre, and only this theatre names
+# World War I, so without it the Western Front would hang loose.
+Q2410539:
+  title: European theatre of World War I
+  summary: The main theatre of the First World War, where the war began and ended, fought by armies of unprecedented size equipped with new mechanized technologies. It is divided into the Western, Eastern, Italian and Balkans fronts. The conflict left tens of millions dead or wounded.
+  occurred: {start: '1914', end: '1918', precision: year}
+  threads: [ww1]
+  regions: [western-europe, russia-eastern-europe]
+  importance: 4
+  quotes:
+  - The European theatre was the main theatre of operations during World War I and was where the war began and ended.
+  - battle was joined by armies of unprecedented size, which were equipped with new mechanized technologies. The conflict left tens of millions dead or wounded.
+  - 'The European theatre is divided into four main theatres of operations: the Western Front, the Eastern Front, the Italian Front, and the Balkans Front.'

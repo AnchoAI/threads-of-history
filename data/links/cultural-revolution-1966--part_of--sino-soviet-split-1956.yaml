@@ -1,0 +1,18 @@
+id: cultural-revolution-1966--part_of--sino-soviet-split-1956
+from: cultural-revolution-1966
+to: sino-soviet-split-1956
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Cultural Revolution lists it as part of Sino-Soviet split.
+sources:
+- url: https://en.wikipedia.org/wiki/Cultural_Revolution
+  title: Cultural Revolution
+  publisher: Wikipedia
+  quote: Part of the history of China (1949–1976), the Sino-Soviet split, and the Cold War in Asia
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

@@ -1,0 +1,42 @@
+id: european-wars-of-religion-1522
+title: European wars of religion
+summary: Wars fought in Europe in the 16th, 17th and early 18th centuries after the Protestant Reformation began
+  in 1517. Revolt, territorial ambitions and great-power rivalry also drove them. They were largely ended by the
+  Peace of Westphalia in 1648.
+occurred:
+  start: '1522'
+  end: '1712'
+  precision: decade
+  approximate: true
+threads:
+- religion
+- empire
+regions:
+- western-europe
+importance: 4
+wikidata: Q2490042
+sources:
+- url: https://en.wikipedia.org/wiki/European_wars_of_religion
+  title: European wars of religion
+  publisher: Wikipedia
+  quote: were waged in Europe during the 16th, 17th and early 18th centuries. Fought after the Protestant Reformation
+    began in 1517
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_wars_of_religion
+  title: European wars of religion
+  publisher: Wikipedia
+  quote: Other motives during the wars involved revolt, territorial ambitions and great power conflicts.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/European_wars_of_religion
+  title: European wars of religion
+  publisher: Wikipedia
+  quote: The wars were largely ended by the Peace of Westphalia (1648)
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

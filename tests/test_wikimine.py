@@ -102,6 +102,7 @@ def test_slugify_matches_schema():
         assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", wm.slugify(title, start))
     assert wm.slugify("Siege of Alesia", "-0052") == "siege-of-alesia-52-bce"
     assert wm.slugify("1912 Ottoman coup d'état", "1912-07") == "1912-ottoman-coup-d-etat"
+    assert wm.slugify("Israeli–Lebanese conflict", "1968") == "israeli-lebanese-conflict-1968"
 
 
 def test_write_produces_valid_links(tmp_path):
@@ -219,3 +220,13 @@ def test_batches_and_scoring():
     assert 0.8 < lo < 0.85 and hi > 0.99
     out = wm.score_marks([("a", "correct")] * 19 + [("a", "wrong type"), ("b", "correct")], 0.95)
     assert out[0].startswith("a: 19/20 correct (95%") and "clears" in out[0] and "wrong type 1" in out[0]
+
+
+def test_promote_refuses_a_batch_below_the_bar(tmp_path):
+    check = tmp_path / "check.json"
+    check.write_text(json.dumps({"bar": 0.95, "items": [{"batch": "led_to", "verdict": "correct"}] * 28 +
+                                 [{"batch": "led_to", "verdict": "not stated"}] * 2}))
+    out = tmp_path / "wm"
+    out.mkdir()
+    with pytest.raises(SystemExit, match="did not clear the bar"):
+        wm.main(["--out", str(out), "--root", str(tmp_path), "promote", "--batch", "led_to", "--check", str(check)])

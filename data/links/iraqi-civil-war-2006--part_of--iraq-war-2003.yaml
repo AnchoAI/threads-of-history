@@ -1,0 +1,18 @@
+id: iraqi-civil-war-2006--part_of--iraq-war-2003
+from: iraqi-civil-war-2006
+to: iraq-war-2003
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Iraqi civil war (2006–2008) lists it as part of Iraq War.
+sources:
+- url: https://en.wikipedia.org/wiki/Iraqi_civil_war_(2006%E2%80%932008)
+  title: Iraqi civil war (2006–2008)
+  publisher: Wikipedia
+  quote: Part of the Iraq War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

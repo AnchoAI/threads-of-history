@@ -1,0 +1,18 @@
+id: rwandan-genocide-1994--part_of--rwandan-civil-war-1990
+from: rwandan-genocide-1994
+to: rwandan-civil-war-1990
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on Rwandan genocide lists it as part of Rwandan Civil War.
+sources:
+- url: https://en.wikipedia.org/wiki/Rwandan_genocide
+  title: Rwandan genocide
+  publisher: Wikipedia
+  quote: Part of the Rwandan Civil War
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.

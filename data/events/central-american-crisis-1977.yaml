@@ -1,0 +1,37 @@
+id: central-american-crisis-1977
+title: Central American crisis
+summary: A period from the late 1970s in which civil wars and communist revolutions broke out in several Central
+  American countries. Fearing communist victories, the United States backed right-wing governments against left-wing
+  guerrillas.
+occurred:
+  start: '1977'
+  end: '1990'
+  precision: decade
+  approximate: true
+threads:
+- revolutions
+- usru
+regions:
+- americas
+importance: 3
+wikidata: Q3002766
+sources:
+- url: https://en.wikipedia.org/wiki/Central_American_crisis
+  title: Central American crisis
+  publisher: Wikipedia
+  quote: began in the late 1970s, when major civil wars and communist revolutions erupted in various countries in
+    Central America
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Central_American_crisis
+  title: Central American crisis
+  publisher: Wikipedia
+  quote: During these civil wars, the United States pursued its interests by supporting right-wing governments against
+    left-wing guerrillas.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

@@ -1,0 +1,47 @@
+id: western-front-1914
+title: Western Front (World War I)
+summary: One of the main theatres of the First World War. Germany opened it in August 1914 by invading Luxembourg
+  and Belgium; after its advance was halted at the Marne, both sides dug in along a line of trenches from the North
+  Sea to the Swiss border that changed little until 1917 and 1918.
+occurred:
+  start: 1914-08
+  end: '1918-11-11'
+  precision: month
+threads:
+- ww1
+regions:
+- western-europe
+importance: 4
+wikidata: Q152989
+sources:
+- url: https://en.wikipedia.org/wiki/Western_Front_(World_War_I)
+  title: Western Front (World War I)
+  publisher: Wikipedia
+  quote: The Western Front was one of the main theatres of war during World War I.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Western_Front_(World_War_I)
+  title: Western Front (World War I)
+  publisher: Wikipedia
+  quote: Following the outbreak of war in August 1914, the German Army opened the Western Front by invading Luxembourg
+    and Belgium
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Western_Front_(World_War_I)
+  title: Western Front (World War I)
+  publisher: Wikipedia
+  quote: The German advance was halted with the Battle of the Marne.
+  type: reference
+  accessed: '2026-11-25'
+- url: https://en.wikipedia.org/wiki/Western_Front_(World_War_I)
+  title: Western Front (World War I)
+  publisher: Wikipedia
+  quote: both sides dug in along a meandering line of fortified trenches, stretching from the North Sea to the Swiss
+    frontier with France, the position of which changed little except during early 1917 and again in 1918.
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Added on 2026-11-25 as the larger event named in a mined part_of link (batch part_of-infobox). The summary was
+    written from the article's lead, and every quote was checked against it; no person has checked this item.

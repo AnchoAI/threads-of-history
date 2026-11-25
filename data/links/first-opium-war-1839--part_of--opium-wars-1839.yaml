@@ -1,0 +1,18 @@
+id: first-opium-war-1839--part_of--opium-wars-1839
+from: first-opium-war-1839
+to: opium-wars-1839
+type: part_of
+confidence: documented
+note: The infobox of the Wikipedia article on First Opium War lists it as part of Opium Wars.
+sources:
+- url: https://en.wikipedia.org/wiki/First_Opium_War
+  title: First Opium War
+  publisher: Wikipedia
+  quote: Part of the Opium Wars
+  type: reference
+  accessed: '2026-11-25'
+review:
+  status: sourced
+  notes:
+  - Mined by tools/wikimine.py and added on 2026-11-25 with batch part_of-infobox, whose random sample cleared the
+    95% bar (wikimine/checks/2026-11-25.json, 30 of 30 correct, from 21686). No person has checked this link itself.
