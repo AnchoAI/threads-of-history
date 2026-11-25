@@ -175,3 +175,47 @@ def test_list_of_objects():
             [("October Revolution", "October Revolution"), ("Treaty of Versailles", "Treaty of Versailles")])
     r["classes"] = ["war"]
     assert {(c["from"], c["to"]) for c in wm.sentence_candidates(r, q)} == {("Q3", "Q6"), ("Q3", "Q4")}
+
+
+def test_tighter_subject_and_object():
+    q = {"World War I": "Q3", "Bogotazo": "Q7", "Battle B": "Q8", "Battle A": "Q9"}
+    # "which" points at something else, so the article is not the subject.
+    r = row("The demonstration took place two months before the assassination, which triggered the Bogotazo.", "Q1",
+            [("Bogotazo", "Bogotazo")])
+    r["article"], r["classes"] = "March of Silence", ["demonstration"]
+    assert [c["subject"] for c in wm.sentence_candidates(r, q)] == ["unclear"]
+    # A named event joined by "and" is an object of the earlier verb, not the subject.
+    r = row("The offensive included the Battle A and culminated in the Battle B.", "Q1",
+            [("Battle A", "Battle A"), ("Battle B", "Battle B")])
+    assert [c["subject"] for c in wm.sentence_candidates(r, q)] == ["unclear"]
+    # The object must follow the phrase closely, not after "before".
+    r = row("It ended in victory, leading to months of silence before the Battle B.", "Q1", [("Battle B", "Battle B")])
+    assert wm.sentence_candidates(r, q) == []
+    # Hyphenated forms are adjectives, not statements.
+    r = row("It was a Gen Z-inspired vote after World War I.", "Q1", [("World War I", "World War I")])
+    assert wm.sentence_candidates(r, q) == []
+    # "in front of" is not "a front of".
+    r = row("They stood in front of World War I memorials.", "Q1", [("World War I", "World War I")])
+    assert wm.sentence_candidates(r, q) == []
+
+
+def test_article_subject_modifiers_must_fit():
+    assert not wm.article_is_subject("The Balkan Wars in 1912 were conflicts that ", "European theatre of World War I", ["war"])
+    assert wm.article_is_subject("The 2021 coup ", "2021 Myanmar coup d'état", ["coup d'etat"])
+
+
+def test_batches_and_scoring():
+    base = {"type": "led_to", "date_ok": True, "hedged": False, "movement_only": False,
+            "evidence": [{"cue": "led to", "subject": "article", "hedged": False}]}
+    assert wm.batch(base) == "led_to"
+    assert wm.batch(dict(base, date_ok=False)) is None
+    assert wm.batch(dict(base, movement_only=True)) is None
+    assert wm.batch(dict(base, evidence=[{"cue": "led to", "subject": "unclear", "hedged": False}])) is None
+    ib = dict(base, type="part_of", evidence=[{"cue": "infobox: part of", "subject": "article", "hedged": False}])
+    assert wm.batch(ib) == "part_of-infobox"
+    named = dict(base, type="part_of", evidence=[{"cue": "part of", "subject": "named", "hedged": False}])
+    assert wm.batch(named) is None
+    lo, hi = wm.wilson(29, 30)
+    assert 0.8 < lo < 0.85 and hi > 0.99
+    out = wm.score_marks([("a", "correct")] * 19 + [("a", "wrong type"), ("b", "correct")], 0.95)
+    assert out[0].startswith("a: 19/20 correct (95%") and "clears" in out[0] and "wrong type 1" in out[0]

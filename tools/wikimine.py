@@ -726,25 +726,40 @@ CUES = [
     (r"was a (?:major |key |direct |primary )?(?:cause|catalyst|trigger) (?:of|for)", "led_to", "forward"),
     (r"in (?:direct )?response to|in reaction to|in retaliation for|as a (?:direct )?(?:result|consequence) of", "led_to", "backward"),
     (r"(?:was |were )?(?:caused|triggered|sparked|precipitated|provoked|prompted) by", "led_to", "backward"),
-    (r"in the (?:wake|aftermath) of|(?:a|the) (?:direct )?(?:result|consequence) of", "led_to", "backward"),
+    (r"(?:a|the) (?:direct )?(?:result|consequence) of", "led_to", "backward"),   # "in the aftermath of" only means after
     (r"(?:was |were )?(?:inspired|influenced) by", "influenced", "backward"),
     (r"(?:inspired|influenced)(?! by)", "influenced", "forward"),
-    (r"(?:was |were |formed |is )?(?:a |an )?(?:part|phase|theatre|theater|campaign|front|episode) of", "part_of", "forward"),
+    (r"(?:was |were |formed |is )?(?:a |an )?part of", "part_of", "forward"),
+    (r"(?:an?|the) (?<!election )(?<!electoral )(?:phase|theatre|theater|campaign|front|episode) of", "part_of", "forward"),
 ]
-CUE_RE = [(re.compile(r"\b(?:" + p + r")\b", re.I), t, d) for p, t, d in CUES]
+# No hyphenated forms ("Gen Z-inspired", "Cubism-influenced"): those are adjectives, not statements.
+CUE_RE = [(re.compile(r"(?<![-\w])(?:" + p + r")\b", re.I), t, d) for p, t, d in CUES]
 NEGATION = re.compile(r"\b(?:not|never|no|nor|neither|denied|deny|rather than)\b[^.;]{0,25}$", re.I)
 HEDGE = re.compile(r"\b(?:may have|might have|could have|possibly|perhaps|arguably|allegedly|reportedly|"
                    r"some (?:historians|scholars|observers|analysts)|it (?:has been|is) (?:argued|claimed|suggested|believed)|"
                    r"is (?:believed|thought|said)|according to some|disputed|controversial|speculat\w+)\b", re.I)
 LIST_JOIN = re.compile(r"^\s*(?:,|,? and|,? or)\s+(?:the\s+)?$")
 NEAR = 90      # characters between the phrase and the linked event it points at
+OBJECT_REACH = 60   # the object follows the phrase closely, with no comma in between
+# The named subject sits right before the phrase: "X led to", "X, which led to", "X (1618–48) resulted in".
+SUBJECT_GAP = re.compile(r"^[\s,]*(?:(?:which|that|who)\s+)?(?!(?:and|or|but)\b)(?:(?!(?:and|or|but)\b)[\w'’-]+\s+){0,3}$", re.I)
+# Between the phrase and its object: a few words at most, and no "before", "after", "during"...
+OBJECT_GAP = re.compile(r"^\s*(?:(?!(?:before|after|during|until|since|following|when|while)\b)[\w'’-]+\s+){0,5}$", re.I)
+
+
+def near_links(row: dict) -> list:
+    """Links that can be a subject or object: all of an infobox row, else those near a phrase."""
+    if row.get("infobox"):
+        return row["links"]
+    spans_ = [(m.start(), m.end()) for rx, _, _ in CUE_RE for m in rx.finditer(row["text"])]
+    return [l for l in row["links"] if any(a - NEAR - 30 <= l[1] <= a or b <= l[0] <= b + NEAR for a, b in spans_)]
 
 
 def resolve_links(rows: list[dict], titles: dict[str, str], offline: bool) -> dict[str, str]:
     """Link target -> event qid, following redirects through the API (cached) for unknown targets."""
     cache_path = CACHE / "redirects.json"
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
-    unknown = sorted({l[2] for r in rows for l in r["links"] if l[2] not in titles and l[2] not in cache})
+    unknown = sorted({l[2] for r in rows for l in near_links(r) if l[2] not in titles and l[2] not in cache})
     if unknown and not offline:
         print(f"resolving {len(unknown)} link targets through the API...", file=sys.stderr)
         for i in range(0, len(unknown), 50):
@@ -772,17 +787,20 @@ EVENT_NOUN = (r"battles?|wars?|conflict|coup|putsch|revolution|treaty|agreement|
               r"fighting|defeat|victory|occupation|intervention|blockade")
 SUBJECT = re.compile(r"^(?:(?:however|meanwhile|eventually|ultimately|initially|subsequently|thus|in turn|"
                      r"in \d{4}|on [^,]{1,30}|by [^,]{1,30}|after [^,]{1,40}),\s*)?"
-                     r"(?:(?P<pro>it|this)(?:\s+\w+){0,3}\s*$|its (?:\w+ ){0,2}(?:outcome|failure|success|aftermath)\b|"
-                     r"the (?:[\w-]+ ){0,3}?(?P<noun>" + EVENT_NOUN + r")\b)", re.I)
+                     r"(?:(?P<pro>it(?:\s+\w+){0,3}|this)\s*$|its (?:\w+ ){0,2}(?:outcome|failure|success|aftermath)\b|"
+                     r"(?:the|this) (?P<mods>(?:[\w-]+ ){0,3}?)(?P<noun>" + EVENT_NOUN + r")\b)", re.I)
 GENERIC = {"conflict", "fighting"}   # fine for any armed conflict
+RELATIVE = re.compile(r"\b(?:which|who|whom|whose)\b", re.I)
 
 
 def article_is_subject(pre: str, article: str, classes=()) -> bool:
     """Does the text before the phrase start with the article's own event: "It", "This", its name,
     or "The battle" when the article is about a battle?"""
+    if RELATIVE.search(pre):
+        return False   # "..., which triggered": the "which" points at something else
     core = re.sub(r"\s*\(.*?\)", "", article).strip()
-    if len(core) > 4 and core.lower() in pre.lower():
-        return True
+    if len(core) > 4 and core.lower() in pre.lower()[:len(core) + 40]:
+        return True    # its name near the start, not inside a later clause
     m = SUBJECT.match(pre.strip())
     if not m:
         return False
@@ -790,6 +808,9 @@ def article_is_subject(pre: str, article: str, classes=()) -> bool:
     if not noun:
         return True
     kinds = " ".join(classes).lower()
+    # "The Balkan Wars" is not the article "European theatre of World War I": every word must fit.
+    if any(w not in article.lower() and w not in kinds for w in (m.group("mods") or "").lower().split()):
+        return False
     return (noun in article.lower() or noun in kinds or
             (noun in GENERIC and any(k in kinds for k in ("war", "conflict", "battle", "siege", "operation"))))
 
@@ -817,7 +838,11 @@ def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
                 continue
             reach = 30 if kind == "part_of" else NEAR
             after = [l for l in links if l[0] >= m.end()]
-            if not after or after[0][0] > m.end() + reach or ";" in text[m.end():after[0][0]]:
+            if kind != "part_of":
+                reach = OBJECT_REACH
+            if not after or after[0][0] > m.end() + reach or any(c in text[m.end():after[0][0]] for c in ";,"):
+                continue
+            if not OBJECT_GAP.match(text[m.end():after[0][0]]):
                 continue
             # "led to [A] and [B]", "led to [A], [B] and [C]": every link in the list is an object.
             objects = [after[0]]
@@ -828,8 +853,9 @@ def sentence_candidates(row: dict, link_qid: dict[str, str]) -> list[dict]:
             targets = [l[2] for l in objects if l[2] and l[2] != me]
             if not targets or not after[0][2]:
                 continue
-            before = [l for l in links if l[1] <= m.start() and l[1] >= m.start() - NEAR - 30 and ";" not in text[l[1]:m.start()]]
-            if before and before[-1][2] and before[-1][2] != me:
+            before = [l for l in links if l[1] <= m.start()]
+            gap = re.sub(r"\s*\([^()]*\)", " ", text[before[-1][1]:m.start()]) if before else ""
+            if before and before[-1][2] and before[-1][2] != me and SUBJECT_GAP.match(gap):
                 other, subject = before[-1][2], "named"
             elif article_is_subject(pre, row.get("article", ""), row.get("classes", ())):
                 other, subject = me, "article"
@@ -853,7 +879,7 @@ def date_ok(kind: str, a: dict, b: dict) -> bool:
     if kind == "influenced":
         return ya <= (year(b.get("end")) or 10 ** 4)
     if kind == "part_of":   # the part lies within the whole (a year of slack either side)
-        return year(b["start"]) - 1 <= ya <= (year(b.get("end")) or yb) + 1
+        return yb - 1 <= ya <= (year(b.get("end")) or 10 ** 4) + 1   # no end date: still going on, or unknown
     return True
 
 
@@ -881,8 +907,12 @@ def cmd_extract(args) -> None:
                 p["evidence"].append(ev)
     known = known_items(args.root)
     have = known_pairs(args.root)
+    nested = {frozenset((a, b)) for (a, b, t) in pairs if t == "part_of"}
+    nested |= {frozenset((q, w)) for q, e in events.items() for w in e.get("part_of", [])}
     out = []
     for p in pairs.values():
+        if p["type"] != "part_of" and frozenset((p["from"], p["to"])) in nested:
+            continue   # "the campaign culminated in the battle": one is part of the other, not its cause
         a, b = events[p["from"]], events[p["to"]]
         p["from_title"], p["to_title"] = a["title"], b["title"]
         p["from_id"], p["to_id"] = known.get(a["qid"]), known.get(b["qid"])
@@ -890,7 +920,10 @@ def cmd_extract(args) -> None:
         p["wikidata_agrees"] = wikidata_agrees(p["type"], a, b)
         p["in_data"] = bool(p["from_id"] and p["to_id"] and (p["from_id"], p["to_id"]) in have)
         p["hedged"] = all(e["hedged"] for e in p["evidence"])
+        # Wikidata's "social movement" also holds organisations and art movements (Viet Minh, Cubism).
+        p["movement_only"] = any(set(e["classes"]) <= {"social movement"} for e in (a, b))
         p["score"] = score(p)
+        p["batch"] = batch(p)
         p["evidence"] = sorted(p["evidence"], key=lambda e: (e["subject"] == "unclear", e["hedged"]))[:5]
         out.append(p)
     out.sort(key=lambda p: (-p["score"], p["from_title"]))
@@ -898,9 +931,35 @@ def cmd_extract(args) -> None:
     by_type = defaultdict(int)
     for p in out:
         by_type[p["type"]] += 1
+    batches = defaultdict(int)
+    for p in out:
+        batches[p["batch"] or "held back"] += 1
+    print("batches: " + ", ".join(f"{k} {v}" for k, v in sorted(batches.items())))
     print(f"{len(rows)} sentences, {len(cue_rows)} with a connecting phrase -> {n} candidate links "
           f"({', '.join(f'{k} {v}' for k, v in sorted(by_type.items()))}); "
           f"{sum(p['wikidata_agrees'] for p in out)} agree with Wikidata, {sum(not p['date_ok'] for p in out)} fail the date check")
+
+
+BATCHES = {
+    "part_of-infobox": "Part of, from the article's infobox",
+    "part_of-text": "Part of, from a sentence about the article's own event or a named one",
+    "led_to": "Contributed to, with a clear subject and dates in order",
+    "influenced": "Influenced, with a clear subject and dates in order",
+}
+
+
+def batch(p: dict) -> str | None:
+    """Which batch a candidate belongs to; None holds it back (unclear subject, dates out of order,
+    hedged, or an endpoint that may be an organisation). Each batch is sampled and judged on its own."""
+    if p["type"] == "part_of" and any(e["cue"].startswith("infobox") for e in p["evidence"]):
+        return "part_of-infobox" if p["date_ok"] and not p["movement_only"] else None
+    if not p["date_ok"] or p["hedged"] or p["movement_only"]:
+        return None
+    if not any(e["subject"] != "unclear" and not e["hedged"] for e in p["evidence"]):
+        return None
+    if p["type"] == "part_of":   # from a sentence: only when it is about the article's own event
+        return "part_of-text" if any(e["subject"] == "article" and not e["hedged"] for e in p["evidence"]) else None
+    return p["type"]
 
 
 def score(p: dict) -> int:
@@ -1029,35 +1088,79 @@ def cmd_classify(args) -> None:
 
 # --- 5. sample: a random check by a person ------------------------------------------------------
 
+MARKS = ("correct", "wrong direction", "wrong type", "not stated")
+
+
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """95% interval for a proportion; honest at small n and near 100%."""
+    if not n:
+        return 0.0, 1.0
+    p, d = k / n, 1 + z * z / n
+    mid, half = (p + z * z / (2 * n)) / d, z * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5) / d
+    return max(0.0, mid - half), min(1.0, mid + half)
+
+
+def score_marks(marks: list[tuple[str, str]], bar: float) -> list[str]:
+    """marks: (batch, verdict). One line per batch, with whether it clears the bar."""
+    lines = []
+    for b in dict.fromkeys(x for x, _ in marks):
+        got = [v for x, v in marks if x == b]
+        k, n = got.count("correct"), len(got)
+        lo, hi = wilson(k, n)
+        errs = ", ".join(f"{m} {got.count(m)}" for m in MARKS[1:] if got.count(m))
+        verdict = "clears" if k / n >= bar else "does not clear"
+        lines.append(f"{b}: {k}/{n} correct ({k / n:.0%}, 95% interval {lo:.0%}–{hi:.0%}){'; ' + errs if errs else ''}; "
+                     f"{verdict} the {bar:.0%} bar")
+    return lines
+
+
 def cmd_sample(args) -> None:
     if args.score:
-        text = Path(args.score).read_text(encoding="utf-8")
-        marks = re.findall(r"- \[[xX]\] (correct|wrong direction|wrong type|not stated)", text)
+        path = Path(args.score)
+        if path.suffix == ".json":   # {"items": [...], "verdicts": {key: verdict}} or a list of {batch, verdict}
+            d = json.loads(path.read_text(encoding="utf-8"))
+            rows = d if isinstance(d, list) else [{"batch": i["batch"], "verdict": d["verdicts"].get(i["key"])} for i in d["items"]]
+            marks = [(r["batch"], r["verdict"]) for r in rows if r.get("verdict") in MARKS]
+        else:
+            marks, cur = [], "all"
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("# Batch: "):
+                    cur = line[len("# Batch: "):].split(" ")[0]
+                m = re.match(r"- \[[xX]\] (correct|wrong direction|wrong type|not stated)", line)
+                if m:
+                    marks.append((cur, m.group(1)))
         if not marks:
-            raise SystemExit("no ticked boxes found")
-        counts = {k: marks.count(k) for k in ("correct", "wrong direction", "wrong type", "not stated")}
-        print(f"{len(marks)} checked: " + ", ".join(f"{k} {v} ({v / len(marks):.0%})" for k, v in counts.items()))
+            raise SystemExit("no verdicts found")
+        print("\n".join(score_marks(marks, args.bar)))
         return
-    src = args.out / ("classified.jsonl" if (args.out / "classified.jsonl").exists() and not args.raw else "candidates.jsonl")
-    rows = [p for p in read_jsonl(src) if not p["in_data"] and (src.name == "candidates.jsonl" or (p["verdict"] and p["verdict"]["stated"]))]
-    if args.min_score is not None:
-        rows = [p for p in rows if p["score"] >= args.min_score]
-    random.Random(args.seed).shuffle(rows)
-    lines = [f"# Wikipedia mining: random sample of {min(args.n, len(rows))} from {len(rows)} ({src.name})", "",
-             "For each one, open the link and tick one box. Correct means the sentence itself states this link, "
-             "in this direction, of this type. Then run `python tools/wikimine.py sample --score THIS_FILE`.", ""]
-    for i, p in enumerate(rows[:args.n], 1):
-        e = p["evidence"][0]
-        verb = {"led_to": "contributed to", "influenced": "influenced", "part_of": "was part of"}[p["type"]]
-        lines += [f"## {i}. {p['from_title']} → {verb} → {p['to_title']}", "",
-                  f"> {e['sentence']}", "",
-                  f"From [{e['article']}]({e['url']}){' (' + e['section'] + ')' if e['section'] else ''}. "
-                  f"Phrase: \"{e['cue']}\"" + ("; hedged" if p["hedged"] else "") +
-                  ("" if p["date_ok"] else "; dates look wrong") + (f"; Claude: {p['verdict']['reason']}" if p.get("verdict") else ""), "",
-                  "- [ ] correct", "- [ ] wrong direction", "- [ ] wrong type", "- [ ] not stated", ""]
+    rows = [p for p in read_jsonl(args.out / "candidates.jsonl") if not p["in_data"] and p.get("batch")]
+    rng = random.Random(args.seed)
+    items, lines = [], ["# Wikipedia mining: a checked sample per batch", "",
+                        "Each batch is judged on its own sample. For each item, open the link and tick one box. "
+                        "**Correct** means the quoted sentence itself states this link, in this direction, of this type. "
+                        f"Then run `python tools/wikimine.py sample --score THIS_FILE`. A batch whose sample is at least "
+                        f"{args.bar:.0%} correct can go in as `sourced`, never `reviewed`.", ""]
+    for b, label in BATCHES.items():
+        pool = [p for p in rows if p["batch"] == b]
+        rng.shuffle(pool)
+        pick = pool[:args.n]
+        lines += [f"# Batch: {b} ({len(pick)} of {len(pool)})", "", label + ".", ""]
+        for i, p in enumerate(pick, 1):
+            e = next((e for e in p["evidence"] if e["subject"] != "unclear" and not e["hedged"]), p["evidence"][0])
+            verb = {"led_to": "contributed to", "influenced": "influenced", "part_of": "was part of"}[p["type"]]
+            key = f"{p['from']}-{p['type']}-{p['to']}"
+            items.append({"key": key, "batch": b, "n": i, "from": p["from_title"], "to": p["to_title"], "type": p["type"],
+                          "verb": verb, "sentence": e["sentence"], "cue": e["cue"], "article": e["article"],
+                          "section": e["section"], "url": e["url"], "pool": len(pool)})
+            lines += [f"## {b} {i}. {p['from_title']} → {verb} → {p['to_title']}", "", f"> {e['sentence']}", "",
+                      f"From [{e['article']}]({e['url']}){' (' + e['section'] + ')' if e['section'] else ''}. "
+                      f"Phrase: \"{e['cue']}\"", ""] + [f"- [ ] {m}" for m in MARKS] + [""]
     path = args.out / f"sample-{dt.date.today()}.md"
     path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"wrote {rel(path)}")
+    (path.with_suffix(".json")).write_text(json.dumps({"seed": args.seed, "bar": args.bar, "items": items}, ensure_ascii=False, indent=1),
+                                           encoding="utf-8")
+    print(f"wrote {rel(path)} and {rel(path.with_suffix('.json'))}: " +
+          ", ".join(f"{b} {sum(i['batch'] == b for i in items)}" for b in BATCHES))
 
 
 # --- 6. write: YAML for review ------------------------------------------------------------------
@@ -1193,11 +1296,10 @@ def main(argv=None) -> None:
     p.set_defaults(fn=cmd_classify)
 
     p = sub.add_parser("sample", help="a random sample for a person to check, or score a checked one")
-    p.add_argument("--n", type=int, default=100)
+    p.add_argument("--n", type=int, default=30, help="items per batch")
     p.add_argument("--seed", type=int, default=1)
-    p.add_argument("--min-score", type=int)
-    p.add_argument("--raw", action="store_true", help="sample candidates even if classified.jsonl exists")
-    p.add_argument("--score", metavar="FILE", help="count the ticked boxes in a checked sample")
+    p.add_argument("--bar", type=float, default=0.95, help="share correct a batch's sample needs to go in")
+    p.add_argument("--score", metavar="FILE", help="score a checked sample (.md with ticked boxes, or .json verdicts)")
     p.set_defaults(fn=cmd_sample)
 
     p = sub.add_parser("write", help="YAML link files (and event stubs) for review")

@@ -10,7 +10,7 @@
 | 2 | `fetch` or `dump` | Gets those articles, from the API (50 per request) or from a downloaded dump, and keeps the sentences that have a connecting phrase, plus the infobox "Part of" field | `sentences.jsonl` |
 | 3 | `extract` | Keeps sentences where a connecting phrase sits next to a link to another event (all of them for "led to A and B"), and the infobox's "Part of" field, works out the direction from the phrase, follows redirects, checks the dates and compares with Wikidata | `candidates.jsonl` |
 | 4 | `classify` (optional) | Claude reads each sentence and says whether it really states the link, its type and direction. Needs an Anthropic API key | `classified.jsonl` |
-| 5 | `sample` | Picks 100 at random into a checklist for a person; `sample --score FILE` gives the precision | `sample-DATE.md` |
+| 5 | `sample` | Picks 30 at random from each batch (below) into a checklist for a person; `sample --score FILE` gives each batch's precision | `sample-DATE.md`, `sample-DATE.json` |
 | 6 | `write` | Writes YAML link files, plus stub files for events not yet in `data/` | `links/`, `events/` |
 
 ## Running it locally
@@ -30,7 +30,7 @@ pip install -r requirements.txt mwparserfromhell
 python tools/wikimine.py events --from 500                   # an hour or more; each class is cached, so rerun after an interruption
 python tools/wikimine.py fetch                               # every event article, 50 per request (add --limit 3000 for a quick pilot)
 python tools/wikimine.py extract
-python tools/wikimine.py sample --n 100
+python tools/wikimine.py sample --n 30
 ```
 
 Open `staging/wikimine/sample-<date>.md`, tick one box per item, then run `python tools/wikimine.py sample --score staging/wikimine/sample-<date>.md`.
@@ -55,7 +55,7 @@ python tools/wikimine.py dump \
   --index ~/wikidumps/enwiki-latest-pages-articles-multistream-index.txt.bz2 \
   --workers 8                                                # one per CPU core
 python tools/wikimine.py extract
-python tools/wikimine.py sample --n 100
+python tools/wikimine.py sample --n 30
 ```
 
 `dump` reads only the parts of the dump that hold event articles (the index says where each one is), so it doesn't unpack all 27 GB. Expect 20–60 minutes on a laptop, mostly reading the index. If `events` times out on a big class, rerun it with `--step 5`.
@@ -80,9 +80,24 @@ python tools/wikimine.py write --min-score 2
 
 This writes `staging/wikimine/links/*.yaml` and stubs in `staging/wikimine/events/` for events not yet in `data/`. Stubs need a summary, threads and regions. Links between two events already in `data/` are the quickest to promote.
 
+## Batches and the sampled check
+
+`extract` puts each candidate in one batch, or holds it back:
+
+| Batch | What is in it |
+|---|---|
+| `part_of-infobox` | The article's infobox "Part of" field |
+| `part_of-text` | "X was part of Y" in a sentence about the article's own event |
+| `led_to` | "led to", "caused", "in response to"... with a clear subject (the article's event, or an event named right before the phrase) and dates in order |
+| `influenced` | "inspired", "influenced by"... under the same conditions |
+
+Held back: an unclear subject, dates out of order, hedged wording, or an endpoint that Wikidata files only as a "social movement" (often an organisation or an art movement). Held-back candidates stay in `candidates.jsonl` for a person to look at one by one.
+
+**The rule for now (decided November 2026):** a person checks a random sample of each batch, 30 items by default. A batch goes into `data/` only if at least 95% of its sample is correct (`--bar`), and its links go in as `sourced`, never `reviewed`, with a note naming the sample. `sample --score` prints each batch's share correct with a 95% interval; with 30 items, the interval is wide, so a batch that barely clears the bar deserves a second sample.
+
 ## What it does not do
 
-- **It never writes to `data/`.** Promotion is a separate, human step. One thing still needs deciding: whether a person checks every mined link (the rule in `CLAUDE.md` today), or a random sample is checked per batch and the batch goes in only if its precision clears a bar. Until that is decided, mined links go into `data/` one by one, after a person has checked each.
+- **It never writes to `data/`.** Promotion is a separate step, after the sampled check above.
 - Quotes from the `dump` and default `fetch` paths come from wikitext. Sentences with a template the tool can't render (`{{convert}}`, `{{circa}}`...) are skipped, so the remaining quotes should match the page, but run the usual quote check when you promote. `fetch --html` uses the rendered page instead (one request per article, slower).
 - The direction comes from the phrase: "X led to Y" gives X → Y, "X, in response to Y" gives Y → X. When no event is named before the phrase, the article's own event is taken to be the subject. That is the main source of errors, and it is why the sample matters.
 - Hedged sentences ("some historians argue", "may have") are kept but flagged. They are candidates for `contested` links with positions, which a person has to write.

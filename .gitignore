@@ -11,3 +11,4 @@ staging/wikimine/classify-batches.json
 staging/wikimine/links/
 staging/wikimine/events/
 staging/wikimine/sample-*.md
+staging/wikimine/sample-*.json
